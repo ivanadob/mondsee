@@ -1,0 +1,1 @@
+# folder to store xml/tei files fetched from darios table2tei service

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xi="http://www.w3.org/2001/XInclude" version="5.1" xml:lang="eng" xml:base="http://www.fragmentarium.unifr.ch/description/F-bbyp/24" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/schwemmer/Sites/fragmentarium/sources/webapp/xsd/TEI-P5/1.7/tei-p5-fragmentarium_1.7.xsd">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title></title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Electronic version according to TEI P5.1</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Fragmentarium - Digital Research Laboratory for Medieval Manuscript Fragments</publisher>
+        <availability status="restricted">
+          <licence>
+            <p>cc-by-nc</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="" xml:lang="deu">
+          <msIdentifier>
+            <settlement>Wien</settlement>
+            <repository>Österreichische Nationalbibliothek</repository>
+            <idno></idno>
+            <altIdentifier type="former">
+              <idno></idno>
+            </altIdentifier>
+          </msIdentifier>
+          <head>
+            <title></title>
+            <origDate from="" to=""></origDate>
+            <origPlace></origPlace>
+          </head>
+          <msContents>
+            <msItem>
+              <textLang></textLang>
+              <title></title>
+              <note type="persons" ref=""></note>
+              <note type="description"></note>
+              <note>
+                <bibl type="edition"></bibl>
+              </note>
+              <note type="remarks"></note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="Fragment">
+              <supportDesc>
+                <support>
+                  <material></material>
+                </support>
+                <extent>
+                  <dimensions type="leaf_orig">
+                    <width min="" max=""></width>
+                    <height min="" max=""></height>
+                  </dimensions>
+                  <dimensions type="written_orig">
+                    <width min="" max=""></width>
+                    <height min="" max=""></height>
+                  </dimensions>
+                </extent>
+                <condition>
+                  <p></p>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines=" " columns=""></layout>
+                <layout>
+                  <dimensions type="column">
+                    <width min=""></width>
+                  </dimensions>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>
+                <p></p>
+              </handNote>
+            </handDesc>
+            <decoDesc>
+              <decoNote></decoNote>
+            </decoDesc>
+            <musicNotation></musicNotation>
+            <additions>
+              <gloss></gloss>
+            </additions>
+          </physDesc>
+          <history>
+            <summary/>
+            <origin/>
+            <provenance></provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl type="not-printed">Description by: </bibl>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl></bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+</TEI>
