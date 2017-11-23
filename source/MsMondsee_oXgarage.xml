@@ -17,75 +17,7 @@
         <body>
             <table>
                 <head>Fragmente</head>
-                <row n="1">
-                    <cell>Signatur</cell>
-                    <cell>i = in situ a = ausgelöst</cell>
-                    <cell>Digitalisiert (z Zeutschel, t Traveller)</cell>
-                    <cell>Anmerkungen</cell>
-                    <cell>Olim Signatur</cell>
-                    <cell>Bibliographie</cell>
-                    <cell>Verweis Erschließungsdaten in Fragmentarium</cell>
-                    <cell>Digitalisat / Signaturdokument</cell>
-                    <cell>Fragmentgruppe</cell>
-                    <cell>Beschreibstoff</cell>
-                    <cell>Bemerkungen zum Beschreibstoff</cell>
-                    <cell>Charakterisierung des Fragments</cell>
-                    <cell>heutige Maße (Höhe von-bis x Breite von-bis in mm)</cell>
-                    <cell>Titel Trägerband</cell>
-                    <cell>Datierung (Trägerband)</cell>
-                    <cell>Ort (Trägerband)</cell>
-                    <cell>Datierung (Handschrift)</cell>
-                    <cell>Ort (Handschrift)</cell>
-                    <cell>Signatur Trägerband</cell>
-                    <cell>Verweis Erschließungsdaten zum Trägerband</cell>
-                    <cell>Beteiligte Personen</cell>
-                    <cell>Anmerkungen zum Vorbesitz Trägerband; Spuren vom Einband; Auslösedatum
-                        etc.</cell>
-                    <cell>Art der Verwendung im Trägerband</cell>
-                    <cell>Blatthöhe min</cell>
-                    <cell>Blatthöhe max</cell>
-                    <cell>Blattbreite min</cell>
-                    <cell>Blattbreite max</cell>
-                    <cell>Schrift-raumhöhe min</cell>
-                    <cell>Schrift-raumhöhe max</cell>
-                    <cell>Schrift-raumbreite min</cell>
-                    <cell>Schrift-raumbreite max</cell>
-                    <cell>Anzahl der Zeilen min</cell>
-                    <cell>Anzahl der Zeilen max</cell>
-                    <cell>Spalten-zahl</cell>
-                    <cell>Spalten-breite min</cell>
-                    <cell>Spalten-breite max</cell>
-                    <cell>Höhe der Einzelzelle min</cell>
-                    <cell>Höhe der Einzelzelle max</cell>
-                    <cell>Linierung</cell>
-                    <cell>Foliierung / Lagensignaturen (Reklamanten/Kustoden) etc.</cell>
-                    <cell>Kollation</cell>
-                    <cell>Anmerkungen zum heutigen Zustand</cell>
-                    <cell>Schriftart</cell>
-                    <cell>Bemerkungen zur Schrift / zur Schreibhand (Freitext)</cell>
-                    <cell>Datierung</cell>
-                    <cell>Datierung numerisch</cell>
-                    <cell>grobe Lokalisierung</cell>
-                    <cell>Rubrizierung / Buchschmuck</cell>
-                    <cell> Initialtyp</cell>
-                    <cell>GND Autor</cell>
-                    <cell>Autor (plain)</cell>
-                    <cell>GND Sachtitel/Werk</cell>
-                    <cell>Sachtitel/Werk (plain)</cell>
-                    <cell>Sacherschließung</cell>
-                    <cell>Sprache</cell>
-                    <cell>Textidentifizierung mit Stelle, oder Texttyp mit Zitaten (Freitext)</cell>
-                    <cell>Glossierung / Nachträge</cell>
-                    <cell>bei liturgischen Hss. Notation</cell>
-                    <cell>Bemerkungen zur Notation</cell>
-                    <cell>Edition</cell>
-                    <cell>Herkunft Fragment</cell>
-                    <cell>Provenienz</cell>
-                    <cell>Anmerkungen: Einträge nach der Makulierung (hinweis auf Provenienz)</cell>
-                    <cell>Urheber</cell>
-                    <cell>Datum</cell>
-                    <cell>Schadenvermerke</cell>
-                </row>
+                
                 <row n="2">
                     <cell>Admont, Benediktinerstift: Fragm. B 38</cell>
                     <cell/>

@@ -69,6 +69,19 @@
                                 </thead>
                                 <tbody>
                                     <tr>
+                                        <td>Fragmentarium entry</td>
+                                        <td>
+                                            <xsl:choose>
+                                                <xsl:when test="./tei:cell[7]/tei:ptr">
+                                                    YES
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    NOT YET
+                                                </xsl:otherwise>
+                                            </xsl:choose>
+                                        </td>
+                                    </tr>
+                                    <tr>
                                     <td>Fragment title</td>
                                     <td>
                                         <xsl:choose>
@@ -124,9 +137,9 @@
                                         </xsl:when>
                                         <xsl:when test="(./tei:cell[2]/text()) = 'i'">
                                             <i>Summarize: </i>
-                                            <xsl:value-of select="./tei:cell[23]"/>
-                                            <xsl:value-of select="./tei:cell[12]"/>
-                                            <xsl:value-of select="./tei:cell[42]"/>
+                                            <xsl:value-of select="./tei:cell[23]"/> 
+                                            <xsl:value-of select="./tei:cell[12]"/> 
+                                            <xsl:value-of select="./tei:cell[42]"/> 
                                         </xsl:when>
                                     </xsl:choose></td>
                                 </tr>
@@ -146,6 +159,16 @@
                                     <td>Image Rights</td>
                                     <td>CC BY-NC</td>
                                 </tr>
+                                    <tr>
+                                        <td>Remarks</td>
+                                        <td>
+                                            <xsl:choose>
+                                                <xsl:when test="./tei:cell[9]/text()">
+                                                    From the original manuscript survived the following fragments: <xsl:value-of select="./tei:cell[9]"/>.
+                                                </xsl:when>
+                                            </xsl:choose>
+                                        </td>
+                                    </tr>
                                 <tr>
                                     <td>Facet Language</td>
                                     <td><xsl:value-of select="./tei:cell[55]"/></td>
@@ -162,6 +185,14 @@
                                     <td>Facet Script</td>
                                     <td><xsl:value-of select="./tei:cell[43]"/></td>
                                 </tr>
+                                    <tr>
+                                        <td>Place</td>
+                                        <td><xsl:value-of select="./tei:cell[47]"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Case Study 8.Mondsee; upload images; make sequence; choose preview page</td>
+                                    </tr>
                                 </tbody>
                             </table></p>
                             <hr/>
