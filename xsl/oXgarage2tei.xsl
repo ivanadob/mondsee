@@ -1,11 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:tei="http://www.tei-c.org/ns/1.0" 
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    exclude-result-prefixes='xs tei'
-    
-    version="2.0">
-    <xsl:output omit-xml-declaration="yes" indent="yes" />
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:tei="http://www.tei-c.org/ns/1.0" version="2.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="#all">
+    <xsl:output method="xml" indent="yes" omit-xml-declaration="yes"/>
     <xsl:template match="/"> 
                 <xsl:for-each select="//tei:row">
                     <xsl:if test=".//tei:cell[7]/tei:ptr"> 
@@ -435,9 +430,9 @@
     
     </xsl:template>
     <xsl:template match="tei:hi[@rend = 'italic']">
-        <tei:quote>
+        <quote>
             <xsl:apply-templates/>
-        </tei:quote>
+        </quote>
     </xsl:template>
     <xsl:template match="tei:hi[@rend = 'color(FFFF0000)']">
         <rubric>
