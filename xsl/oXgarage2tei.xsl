@@ -2,7 +2,65 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0" version="2.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="#all">
     <xsl:output method="xml" indent="yes" omit-xml-declaration="yes"/>
     <xsl:template match="/"> 
-                <xsl:for-each select="//tei:row">
+        <teiCorpus version="5.2" xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Die Fragmente aus Mondsee</title>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Electronic version according to TEI P5.1</edition>
+                        <respStmt>
+                            <persName>Andreas Fingernagel</persName>
+                            <resp>Projektleitung</resp>
+                        </respStmt>
+                        <respStmt>
+                            <persName>Ivana Dobcheva</persName>
+                            <resp>Projektmitarbeiterin, Erschließung</resp>
+                        </respStmt>
+                        <respStmt>
+                            <persName>Larissa Rasinger</persName>
+                            <resp>Projektmitarbeiterin, Erschließung</resp>
+                        </respStmt>
+                        <respStmt>
+                            <persName>Veronika Wöber</persName>
+                            <resp>Projektmitarbeiterin, Digitalisierung</resp>
+                        </respStmt>
+                        <respStmt>
+                            <orgName>Österreichische Nationalbibliothek</orgName>
+                            <resp></resp>
+                        </respStmt>
+                        <respStmt>
+                            <orgName>Oberösterreichische Landesbibliothek</orgName>
+                            <resp>Kooperationspartner</resp>
+                        </respStmt>
+                        <respStmt>
+                            <orgName>Oberöstereichisches Landesarchiv</orgName>
+                            <resp>Kooperationspartner</resp>
+                        </respStmt>
+                        <respStmt>
+                            <orgName>Institut für Österreichische Geschichtsforschung (Universität Wien)</orgName>
+                            <resp>Kooperationspartner</resp>
+                        </respStmt>
+                        <funder>
+                            <orgName>Fonds zur Förderung der wissenschaftlichen Forschung</orgName>
+                            <orgName>Österreichische Akademie der Wissenschaften, GoDigital 2.0</orgName>
+                        </funder>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>Fragmentarium - Digital Research Laboratory for Medieval Manuscript Fragments</publisher>
+                        <availability status="restricted">
+                            <licence>
+                                <p>cc-by-nc</p>
+                            </licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <p></p>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <xsl:for-each select="//tei:row">
                     <xsl:if test=".//tei:cell[7]/tei:ptr"> 
 <!--                        temporarily solution to bring only those fragments that are in fragmentarium, to have a lower and managable number of results-->
                         <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
@@ -23,7 +81,7 @@
                                 </availability>
                             </publicationStmt>
                             <sourceDesc>
-                                <msDesc xml:id="" xml:lang="deu">
+                                <msDesc xml:lang="deu">
                                     <!--<xsl:attribute name="xml:id">
                                         <xsl:value-of select="substring-after-last(.//tei:cell[1], ' ')"></xsl:value-of>
                                     </xsl:attribute>-->
@@ -427,6 +485,7 @@
                 </TEI>
                     </xsl:if>
             </xsl:for-each>
+                </teiCorpus>
     
     </xsl:template>
     <xsl:template match="tei:hi[@rend = 'italic']">
@@ -435,8 +494,8 @@
         </quote>
     </xsl:template>
     <xsl:template match="tei:hi[@rend = 'color(FFFF0000)']">
-        <rubric>
+        <hi rend='rubric'>
             <xsl:apply-templates/>
-        </rubric>
+        </hi>
     </xsl:template>
 </xsl:stylesheet>
