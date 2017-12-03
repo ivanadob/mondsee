@@ -53,13 +53,10 @@
                 </style>
             </head>
             <body>
-                <h1>
-                    Number of entries:
-                    <strong><xsl:value-of select="count(.//tei:row[.//tei:cell[65]/text() and .//tei:cell[3]/text()]) "/></strong>
-                </h1>
+                <h1>Fragmente mit Beschreibung und Digitalisate, die noch nicht in Fragmentarium hineingegeben sind.</h1>
               <xsl:for-each select=".//tei:row">
                     <xsl:choose>
-                        <xsl:when test=".//tei:cell[65]/text() and .//tei:cell[3]/text()">
+                        <xsl:when test=".//tei:cell[65]/text() and .//tei:cell[3]/text() and not(.//tei:cell[7]/tei:ptr)">
                             <p><table class="table table-hover">
                                 <thead>
                                     <tr>
