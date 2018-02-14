@@ -62,7 +62,7 @@
             </teiHeader>
             <xsl:for-each select="//tei:row">
                     <xsl:if test=".//tei:cell[7]/tei:ptr"> 
-<!--                        temporarily solution to bring only those fragments that are in fragmentarium, to have a lower and managable number of results-->
+<!--                        temporarily solution to bring only those fragments that have Bearbeiter, to have a lower and managable number of results-->
                         <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
                     <teiHeader>
                         <fileDesc>
@@ -132,13 +132,29 @@
                                             </xsl:choose>
                                         </title>
                                         <origDate>
-                                            <xsl:attribute name="from">
-<!--                                                ################################ probably problem if only one year, need xsl:if/choose-->
-                                                <xsl:value-of select="substring-before(.//tei:cell[46], '-')"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="to">
-                                                <xsl:value-of select="substring-after(.//tei:cell[46], '-')"/>
-                                            </xsl:attribute>
+                                            <xsl:choose>
+                                                <xsl:when test="contains(.//tei:cell[46], '-')">
+                                                    <xsl:attribute name="from">
+                                                        <xsl:value-of select="substring-before(.//tei:cell[46], '-')"/>
+                                                    </xsl:attribute>
+                                                    <xsl:attribute name="to">
+                                                        <xsl:value-of select="substring-after(.//tei:cell[46], '-')"/>
+                                                    </xsl:attribute>
+                                                </xsl:when>
+                                                <xsl:when test="contains(.//tei:cell[46], '?')">
+                                                    <xsl:attribute name="cert">
+                                                        <xsl:text>medium</xsl:text>
+                                                    </xsl:attribute>
+                                                    <xsl:attribute name="from">
+                                                        <xsl:value-of select="substring-before(.//tei:cell[46], ' (?)')"/>
+                                                    </xsl:attribute>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <xsl:attribute name="from">
+                                                        <xsl:value-of select=".//tei:cell[46]"/>
+                                                    </xsl:attribute>
+                                                </xsl:otherwise>
+                                            </xsl:choose>
                                             <xsl:value-of select=".//tei:cell[45]"/>
                                         </origDate>
                                         <origPlace>
@@ -196,14 +212,14 @@
                                                 <xsl:value-of select=".//tei:cell[53]"/>
                                             </title>
                                             <xsl:if test=".//tei:cell[51]/text()">
-                                                <note type="persons">
+                                                <author>
                                                     <xsl:if test=".//tei:cell[50]/text()">
                                                         <xsl:attribute name="ref">
-                                                            <xsl:text>gnd_</xsl:text><xsl:value-of select=".//tei:cell[50]"/>
+                                                            <xsl:text>http://d-nb.info/gnd/</xsl:text><xsl:value-of select=".//tei:cell[50]"/>
                                                         </xsl:attribute>
                                                     </xsl:if>
                                                     <xsl:value-of select=".//tei:cell[51]"/>
-                                                </note>
+                                                </author>
                                             </xsl:if>
                                             <note type="description">
                                                 <xsl:apply-templates select=".//tei:cell[56]"/>                                      
@@ -221,6 +237,12 @@
                                                     <material>
                                                         <xsl:value-of select=".//tei:cell[10]"/>
                                                     </material>
+                                                    <p>
+                                                        <xsl:value-of select=".//tei:cell[12]"/>
+                                                    </p>
+                                                    <dim>
+                                                        <xsl:value-of select=".//tei:cell[13]"/>
+                                                    </dim>
                                                 </support>
                                                 <extent>
                                                     <dimensions type="leaf_orig">
@@ -423,39 +445,56 @@
                                                 <p><xsl:value-of select=".//tei:cell[43]"/><xsl:text> </xsl:text><xsl:value-of select=".//tei:row/tei:cell[44]"/></p>
                                             </handNote>
                                         </handDesc>
-                                        <musicNotation><xsl:value-of select=".//tei:cell[58]"/><xsl:text> </xsl:text><xsl:value-of select=".//tei:row/tei:cell[59]"/></musicNotation>
-                                        <decoDesc>
-                                            <decoNote><xsl:value-of select=".//tei:cell[48]"/><xsl:text> </xsl:text><xsl:value-of select=".//tei:row/tei:cell[49]"/></decoNote>
-                                        </decoDesc>
-                                        <additions>
-                                            <gloss><xsl:value-of select=".//tei:cell[57]"/></gloss>
-                                        </additions>
+                                        <xsl:if test=".//tei:cell[58]/text()">
+                                            <musicNotation><xsl:value-of select=".//tei:cell[58]"/><xsl:text> </xsl:text><xsl:value-of select=".//tei:row/tei:cell[59]"/></musicNotation>
+                                        </xsl:if>
+                                        <xsl:if test=".//tei:cell[48]/text()">
+                                            <decoDesc>
+                                            <decoNote><xsl:value-of select=".//tei:cell[48]"/></decoNote>
+                                            </decoDesc>
+                                        </xsl:if>
+                                        <xsl:if test=".//tei:cell[57]/text()">
+                                            <additions>
+                                                <gloss><xsl:value-of select=".//tei:cell[57]"/></gloss>
+                                            </additions>
+                                        </xsl:if>
                                     </physDesc>
                                     <history>
                                         <summary/>
-                                        <origin><xsl:value-of select=".//tei:cell[61]"/>
+                                        <origin>
+                                            <p><xsl:choose>
+                                                <xsl:when test=".//tei:cell[61]/text()">
+                                                    <xsl:value-of select=".//tei:cell[61]"/>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <xsl:value-of select=".//tei:cell[45]"/><xsl:text> </xsl:text> <xsl:value-of select=".//tei:cell[47]"/><xsl:text> (nach dem palaeographischen Befund).</xsl:text>
+                                                </xsl:otherwise>
+                                            </xsl:choose></p>
                                         <xsl:if test=".//tei:cell[9]/text()">
-                                            Weitere Fragmente von dergleichen Handschrift: <xsl:value-of select=".//tei:cell[9]"></xsl:value-of>
+                                            <p>Weitere Fragmente von dergleichen Handschrift: <xsl:value-of select=".//tei:cell[9]"></xsl:value-of></p>
                                         </xsl:if>
                                         </origin>
-                                        <provenance><p><xsl:value-of select=".//tei:cell[62]"/><xsl:text> </xsl:text><xsl:value-of select=".//tei:row/tei:cell[63]"/></p>
-                                            <p>Das Fragment wurde als <xsl:value-of select=".//tei:cell[23]"/> verwendet.
-                                            <xsl:choose>
+                                        <provenance>
+                                            <p><xsl:value-of select=".//tei:cell[62]"/></p>
+                                            <p>Makulaturtyp: <xsl:value-of select=".//tei:cell[23]"/></p>
+                                            <p><xsl:choose>
                                                 <xsl:when test=".//tei:cell[19]/text()">
                                                 <xsl:choose>
                                                 <xsl:when test="contains (.//tei:cell[2], 'a')">
-                                                    <xsl:text>Ausgelöst aus:</xsl:text>
+                                                    <xsl:text>Ausgelöst aus </xsl:text>
                                                 </xsl:when>
                                                 <xsl:when test="contains (.//tei:cell[2], 'i')">
-                                                    <xsl:text>Es befindet sich im:</xsl:text>
+                                                    <xsl:text>In situ Fragment im Trägerband </xsl:text>
                                                 </xsl:when>
                                             </xsl:choose>
-                                                <xsl:value-of select=".//tei:cell[19]"/><!--Signatur Traegerband-->
-                                                    <ptr>
-                                                        <xsl:attribute name="target"><xsl:text>http://data.onb.ac.at/rec/</xsl:text><xsl:value-of select=".//tei:cell[20]"/></xsl:attribute>
-                                                    </ptr>
-                                                    <xsl:value-of select=".//tei:cell[22]"/>
-                                                <xsl:value-of select=".//tei:cell[21]"/>
+                                                <ref>
+                                                    <xsl:attribute name="target">http://data.onb.ac.at/rec/<xsl:value-of select=".//tei:cell[20]"/></xsl:attribute>
+                                                    <xsl:value-of select=".//tei:cell[19]"/><!--Signatur Traegerband-->
+                                                </ref>
+                                                    Inhalt: <xsl:value-of select=".//tei:cell[14]"/>
+                                                    Entstehung: <xsl:value-of select=".//tei:cell[17]"/> <xsl:value-of select=".//tei:cell[18]"/>
+                                                    Provenienz: <xsl:value-of select=".//tei:cell[21]"/>
+                                                    Einband: <xsl:value-of select=".//tei:cell[22]"/><xsl:value-of select=".//tei:cell[15]"/><xsl:value-of select=".//tei:cell[16]"/>
                                             </xsl:when>
                                             </xsl:choose>
                                             </p>
@@ -465,7 +504,7 @@
                                         <adminInfo>
                                             <recordHist>
                                                 <source>
-                                                    <bibl type="not-printed">Description by: <xsl:value-of select=".//tei:cell[64]"/></bibl>
+                                                    <bibl type="not-printed"><xsl:value-of select=".//tei:cell[64]"/></bibl>
                                                 </source>
                                             </recordHist>
                                         </adminInfo>
@@ -498,4 +537,23 @@
             <xsl:apply-templates/>
         </hi>
     </xsl:template>
+    
+    <!--    ############################################################# frag Peter (er behauptet es muss durch @element@ gehen - https://www.w3.org/TR/xslt/#element-analyze-string oder da https://www.data2type.de/xml-xslt-xslfo/xslt/xslt-referenz/analyze-string/ wie ich bei jedem Can ein <ref target="http://cantusindex.org/id/...">Can ...</ref> mache. Suche mit reg ex Can (\w*\d+\w*) -->
+        <!--<xsl:template match="tei:cell[56]/text()">
+            
+<!-\-        <xsl:value-of select="replace(., 'Can (\w*\d+\w*)', '')" />-\->
+<!-\-        <xsl:for-each select="(Can \w*\d+\w*)">-\->
+            <!-\-<xsl:for-each select="'Can (\w*\d+\w*)'">
+                <xsl:variable name="cantusID">
+                    <xsl:value-of select=".">                       
+                    </xsl:value-of>
+                </xsl:variable>
+                <xsl:element name="ref">
+                    <xsl:attribute name="target"><xsl:value-of select="$cantusID"></xsl:value-of></xsl:attribute>
+                </xsl:element>
+            </xsl:for-each>-\->
+<!-\-            <ptr target="http://cantusindex.org/id/$1"/>-\->
+        <!-\-</xsl:for-each>-\->
+<!-\-        <xsl:value-of select='replace(., "Can (\w*\d+\w*)", "$1 <ptr target="http://cantusindex.org/id/$1"/>)'></xsl:value-of>-\->
+    </xsl:template>-->
 </xsl:stylesheet>
