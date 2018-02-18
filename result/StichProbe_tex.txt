@@ -1,0 +1,2706 @@
+
+        \documentclass{article}
+        \usepackage[ngerman]{babel}
+        \usepackage[utf8]{inputenc}
+        \title{}
+        \author[]{}
+        \usepackage{natbib}
+        \usepackage{graphicx}
+        
+        \begin{document}
+        
+        \maketitle
+        \setcounter{secnumdepth}{0}
+        
+            \section{}
+            \begin{flushright}
+            Cod. 641
+            \end{flushright}
+            \subsection{Breviarium}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            VS: 127 x 92; HS: 130 x 84 mm \>  \> 1. Hälfte 14. Jh.  \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Mariae Magdalenae; Viti, Modesti; Vigilia Iohanis Baptistae. VS: \frqq Ad vesperas\flqq  A: \textit{Veni electa}* (Can 005322); Ps:\textit{ Laudat}e; A:\textit{ In diebus illis mulier quae in ciuitate peccatrix} (Can 003224); I: \textit{In honore Marie Magdalene iubilemus dominum}* (Can 001086); A: \textit{Ecce tu pulchra}* (Can 002547); Ps: \textit{Domine dominus}*; A: \textit{Sicut lilium}* (Can
+                        004937); Ps: \textit{Celi}*; A:\textit{ Fauus distillans}* (Can 002855); Ps: \textit{Domini est terra}*; V: \textit{Specie tua}*; I: \textit{Stellam Christum matutinam} (Can 001162); A:\textit{ Suauissime universorum} (Can 005037); \frqq Super magnificat\flqq  [...] \frqq Lectio
+                            p[rima?]\flqq  Lectio aus Io 7,36 \textit{Rogabat Iesum quidam phariscus ... et populum designat}. A (?): \textit{Ista est speciosa inter}*; HS: Lectio / Capitulum
+                        aus Bedae Venerabilis, Homilia XII in octava pentecostes, Text beginnt
+                            verstümmelt:\textit{ qui quoniam prudenter ea quæ ab illo fieri uidebat intelligere curauit}. R: \textit{Apparuerunt}* (Can 006110); Rubrizierte Anweisung; Lectio: \textit{In provincia Luciana sub tempore Diocleciano et Antonini imperator} [sua timens - unterstrichen] \textit{multas uirtutem operabatur beatus Vitus in infantia sua ...-... beatus Vitus dixit ego non scio alium deum} (BHL 8712); A: \textit{Cum audieritis}* (Can 200979); \frqq Laudes\flqq 
+                           \textit{Omnes sancti}; \frqq In vigilia
+                            Iohanis Baptistae\flqq  A: \textit{Descendis angelis domini ad Zachariam} (Can 002156).
+            
+            \subsection{Entstehung}
+            
+                        1. Hälfte 14. Jh.   (nach dem palaeographischen Befund).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Spiegel und Ansetzfalz
+                        In situ Fragment im Trägerband Wien, ÖNB, Cod. 641
+                                                    Inhalt: Sammelhandschrift
+                                                    Entstehung: 1435; 2. Hälfte 13. Jhdt.Mondsee
+                                                    Provenienz: 
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Lunael.
+                        o. 82'.
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. 723
+            \end{flushright}
+            \subsection{Psalterium}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            VS: 220 x 308 mm; HS: 215 x 314 mm \>  \> 1. Hälfte 12. Jh. \> Mondsee (?)
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            (VS links-rechts) Ps 18,5-15: \textit{eorum et in fines orbis ...-... redemptor meus}; Ps 19,2- \textit{EXAUDIAT TE DOMINUS IN DIE tribulationis ...-... inuocaverimus te}; Ps 20,2: \textit{DEUS IN UIRTUTE TUA LETABITUR REX ET SUPER SALUTARE TUUM EXULTA}[BIT]; (HS links) Ps 17,31-43: [exami]\textit{nata protector est omnium ...-... ante faciem}; (HS rechts) 20,14 \textit{Exaltare domine ...-... uirtutes tuas}; Ps 21,1-14:
+                            \textit{DEUS MEUS RESPICE IN ME ...-... obsederunt me. Aperuerunt}.
+            
+            \subsection{Entstehung}
+            
+                        1. Hälfte 12. Jh. Mondsee (?) (nach dem palaeographischen Befund).
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Cod. 791 (VD) und ÖNB, Cod. 838 (VD und HD)
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Spiegel
+                        In situ Fragment im Trägerband Wien, ÖNB, Cod. 723
+                                                    Inhalt: Commentarius in Apocalypsim
+                                                    Entstehung: 3. Viertel 12. Jhdt.Mondsee
+                                                    Provenienz: Simon (um 1170 in Mondsee): Schreiber; Vermerk fol. 238r [Hermann,
+                        Handschriften, 1926, 176]. - Bartholomäus (um 1170 in Mondsee): Schreiber ?;
+                        Vermerk fol. 238r [Hermann, Handschriften, 1926, 176]. - Liutold (um
+                        1150/70; Skriptoriumsleiter in Mondsee): Schreiber; [Unterkircher, Datierte
+                        I, 1969, 30]. - Rudolfus (Mönch um 1170 in Mondsee): Schreiber; Vermerk fol.
+                        3r [Hermann, Handschriften, 1926].
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Rec.
+                        3316 [Lunael. f. 192]' [Hermann, Handschriften, 1926, 176].15. Jh.Mondsee
+                     
+                \subsection{Lit.} Pfaff, Scriptorium und Bibliothek, Nr. 20
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. 732
+            \end{flushright}
+            \subsection{Antiphonarium}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            Bl. 1: 211 x 200; Bl. 2: 215 x 100 mm \>  \> 2. Hälfte 12. Jh. / früh 13. Jh. \> Mondsee (?)
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Bl. 1: [Benedicti] V: [Caelo] \textit{quoque ferri sanctam}
+                        (Can 601583a); R: \textit{Alme pater qui praescius tui }(Can
+                        600082); V: \textit{Per te ducem clarissimum ut} (Can
+                        600082a); V: \textit{Gloria patri et filio et}; A:\textit{ Benedictum propheticis} (Can 200654); R:\textit{ Grandi pater fiducia morte }(Can 600982); V: \textit{Fecit Christe quod jussisti} (Can 600982a); R: \textit{Fratribus illuxit Benedictus} (Can 600914); V: \textit{Virque super candens micuit} (Can 600914a); R: \textit{Ecce jam cari noscite quam} (Can 600716); V: \textit{Accepit ergo centuplum et} (Can 600716a); R:\textit{ Gloria Christe tuo tibi }(Can 600951); V: \textit{Jam quibus aequasti} (Can 600951b). Bl. 2: [Sabbato
+                        post Cineres]; A: [Quis scit si convertatur et] (Can 004550); [Dom. 1
+                        Quadragesimae] R: [Paradisi] \textit{portas}* (Can 007348); W:
+                            \textit{Angelis sui}[s]* (Can 007945); A: [Ecce nu]\textit{nc tempus acceptab}[ile] (Can 002532); I: \textit{N}[on sit vobis van]\textit{um mane}
+                        (Can 001110);\textit{ A}[dvenerunt no]\textit{bis dies} (Can 001294); R: [E]\textit{cce nun}[c tempus
+                            acceptabi]\textit{le} (Can 006600); V: [In omnibus
+                        exhibeamus] (Can 006600a); R: [Paradisi portas aperiat] \textit{nobis} (Can 007348); V: [Ecce nunc tempus acceptabile] (Can
+                        007348a). Die Inhaltangabe beruhen auf Cantus Planus Datenbank. 
+                Musiknotation: Linienlose Neumennotation 
+            
+            \subsection{Entstehung}
+            
+                        2. Hälfte 12. Jh. / früh 13. Jh. Mondsee (?) (nach dem palaeographischen Befund).
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Cod. 660, Cod. 732, Cod. 927, Cod. 1355, Cod. 1707, Cod. 1985,
+                        Cod. 3628, Cod. 3781, Cod. 3892, Cod. 15436, Fragm. 557, Fragm. 579, Fragm.
+                        603, Fragm. 604, Fragm. 613, Fragm. 906, Fragm. 954, Fragm. 960 (nach
+                        Klugseder Gruppe NNA1). 
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Spiegel und Ansetzfalz
+                        In situ Fragment im Trägerband Wien, ÖNB, Cod. 732
+                                                    Inhalt: Theologische Sammelhandschrift
+                                                    Entstehung: um 780/800; 1. Hälfte 13. Jhdt.Mondsee
+                                                    Provenienz: 
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Rec.
+                        3308 [Lunael. f. 125]' [Hermann, Handschriften, 1923].
+                     
+                \subsection{Lit.} Cantus Planus
+                        (http://www.cantusplanus.at/de-at/fragmentphp/fragmente/signaturGET.php?Signatur=cod00732);
+                        Klugseder, Mondsee, S. 129f.; Pfaff, Schriptorium und Bibliothek, Nr.
+                        42.
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. 732
+            \end{flushright}
+            \subsection{Breviarium (?)}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            (Sichtbar:)ca. 60 x 40 mm \>  \> 2. Viertel 13. Jh. \> Mondsee (?)
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Identifiziert: Hymnus [Lux ecce surgit aurea pallens ...] \textit{ne noxa corpus} [...] \textit{qui nos diebu}[s...]\textit{ in uesperum} (Can 008340).
+                        Rubrizierung: Vesper.
+            
+            \subsection{Entstehung}
+            
+                        2. Viertel 13. Jh. Mondsee (?) (nach dem palaeographischen Befund).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Rückenverstärkung
+                        In situ Fragment im Trägerband Wien, ÖNB, Cod. 732
+                                                    Inhalt: 
+                                                    Entstehung: 
+                                                    Provenienz: 
+                                                    Einband: 
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. 801
+            \end{flushright}
+            \subsection{Breviarium}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            VS + Ansetzfalz: 178 x 222 mm; HS + Ansetzfalz: 160 x 230 mm \>  \> 2. / 3. Viertel 13. Jh. \> Mondsee (?)
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Capitula für das Stundengebet. (VS+Ir) Capitula:\textit{ in penitentiam gentis ... ad dominum cor suum }(Sir 49,3-4). \frqq Ad VIIIIa\flqq 
+                           \textit{Dum implete Iohannes ... fortior me post me} (Act
+                        13,25) \frqq In nat. sanctae marie. Ad VIa \flqq 
+                           \textit{Dominus possedit me initio uiarum suarum} (Prv 8,22)
+                            \frqq Ad VIIIIa\flqq 
+                           \textit{Ego ex ore altissimi prodiui }(Sir 24,5) \textit{O quam pulchra est casta generatio ... et apud homines} (Sap 4,1) \frqq In exaltatione sanctae
+                            crucis\flqq 
+                           \textit{Christus in similitudinem Require ad palmas cum capulis ad reliquas horas}. \frqq In festo sancti michaeli
+                            archangeli\flqq 
+                           \textit{Factum est proelium magnum ... eorum amplius in celo}
+                        (Apc 12,7-8) \frqq Ad VIa\flqq  [sig]\textit{nificauit deus que }[oport]\textit{et fieri ... perhibuit uerbo dei }(Apc 1,1-2). (Iv) [om]\textit{nibus gentibus et tribubis ... in manibus eorum} (Apc 7,9). \frqq Ad VIa\flqq . (HS) \textit{ut non uituperetur ministerium ... sicut dei ministros }(2.Cor 6,3) \frqq Aliud
+                            \flqq 
+                           \textit{Cum auerterit se impius ... ipse animam suam uiuificabit} (Ez 18,27) \frqq Aliud \flqq 
+                           \textit{Miserere nostri deus ... miserationum tuarum }(Sir
+                        36,1) \textit{Non enim uocauit nos ... in significationem in christo ihesu domino nostro} (1.Th 4,7) \frqq Aliud \flqq 
+                           \textit{Cum reuersus ingemueris tunc saluus eris et scies ubi fueris qui confidebas super uanis} (Hier. Epist. 46 ad
+                        rust.) \frqq Aliud \flqq 
+                           \textit{Quiescat domine ira tua ... nequitiam populi tui }(Ex 32,12).
+            
+            \subsection{Entstehung}
+            
+                        Datierung aufgrund des Schriftbefunds in Anlehnung an Pfaff.
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Spiegel und Ansetzfalz
+                        In situ Fragment im Trägerband Wien, ÖNB, Cod. 801
+                                                    Inhalt: Honorius Augustodunensis: Gemma animae
+                                                    Entstehung: 12. Jhdt.Ohne Ort
+                                                    Provenienz: 
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Rec.
+                        3328 [Lunael. q. 80]'.15. Jh.Mondsee
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. 811
+            \end{flushright}
+            \subsection{Missale}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            VS: 143 x 217 mm; HD: 155 x 217 mm \>  \> 1. Hälfte 14. Jh. \> Süddeutschland / Österreich
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            (VS) [Sabb. Hebd. 1 Quad.] In: [Intret o]\textit{ratio mea}
+                        (Can g00706); InV: \textit{Domine deus salutis mee }(Can
+                        g00706a); \frqq Oratio\flqq  [p]\textit{opulum tuum domine propicius respice ... clementer auerte. Per}; Lectio aus
+                        Dt 26,15: \frqq Lectio libri deuteronomi\flqq  [L]\textit{ocutus est mayses ad dominum dicens. Respice domine ... sicut iurasti patribus nostris};\textit{ }(HS) [Dom. 4
+                        Adventus] In: [R]\textit{orate celi desuper ... seluatorem }(Can 501007); InV: [Caeli en]\textit{narant gloriam dei }(Can 501007a); Oratio: \textit{Deus qui de beate marie virginis utero verbum ... aput te patr}[...]\textit{enciamus. Per eundem }(Deshusses Nr. 140). Lectio aus Is 7,11:
+                            [I]\textit{n diebus illis} [L]\textit{ocutus est dominus ad acham dicens pete tibi signum a domino deo tuo in profundum};
+            
+            \subsection{Entstehung}
+            
+                        Datierung aufgrund des Schriftbefund.
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Cod. 811, Cod. 849 (?)
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Spiegel und Ansetzfalz
+                        In situ Fragment im Trägerband Wien, ÖNB, Cod. 811
+                                                    Inhalt: Theologische Sammelhandschrift
+                                                    Entstehung: 12. Jhdt.Ohne Ort
+                                                    Provenienz: 
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Rec.
+                        3331 [Lunael. q. 83a]'.
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. 838
+            \end{flushright}
+            \subsection{Psalterium}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            VS: 215 x 150 mm HS: 210 x 145 mm \>  \> 1. Hälfte 2. Jh. \> Mondsee (?)
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            (VD) Ps 93,10-21 : \textit{cor}[ripit gentes non a]\textit{rguet ...-... animam iusti et sanguine}[m]; (HS) Ps
+                        87,7-16 : \textit{teneb}[rosis et in umbra] \textit{mortis ...-... et conturbatus}.
+            
+            \subsection{Entstehung}
+            
+                        Datierung aufgrund der Schrift in Anlehnung an Pfaff.
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Cod. 791 und 732.
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Spiegel
+                        In situ Fragment im Trägerband Wien, ÖNB, Cod. 838
+                                                    Inhalt: Patristische Sammelhandschrift
+                                                    Entstehung: 12. Jhdt.; Vor 1145Mondsee
+                                                    Provenienz: Liutold (um 1150/70; Skriptoriumsleiter in Mondsee): hier noch fälschlich
+                        als Schreiber vor 1145 angesetzt [Hermann, Handschriften, 1926].
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Rec.
+                        3320 [Lunael. q. 17]' [Hermann, Handschriften, 1926, 148].
+                     
+                \subsection{Lit.} Pfaff, Scriptorium und Bibliothek, Nr. 20
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. 1075
+            \end{flushright}
+            \subsection{Alcuinus : De fide sanctae trinitatis et de incarnatione Christi}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            HS + Ansetzfalz: 185 x 250 mm \>  \> 12. Jh. \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Lib. 1, cap. 11-14: \textit{alterutrum ista dicuntur ...-... unus filius unus spiritus sanctus et} [hi]\textit{ tres id est}.
+            
+            \subsection{Entstehung}
+            
+                        12. Jh.  (nach dem palaeographischen Befund).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Spiegel und Ansetzfalz
+                        In situ Fragment im Trägerband Wien, ÖNB, Cod. 1075
+                                                    Inhalt: Theologische Sammelhandschrift
+                                                    Entstehung: 14. Jhdt.Ohne Ort
+                                                    Provenienz: 
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Rec.
+                        3332 [Lunael. q. 118]'.
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. 15347
+            \end{flushright}
+            \subsection{: }
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            310 x 225 mm \>  \> Anfang 9. Jhdt. \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Ecclesiasticus; Liber Sapientiae
+            
+            \subsection{Entstehung}
+            
+                        Anfang 9. Jhdt.  (nach dem palaeographischen Befund).
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Cod. 15347, Cod. Ser. n. 3753.
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: 
+                        
+                     
+                \subsection{Lit.} Bischoff, Schreibschule II, S. 22 & Katalog III, S. 493.
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. 15436
+            \end{flushright}
+            \subsection{: }
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            288 x 206 mm \>  \> 1151-1175 \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Antiphonarium
+            
+            \subsection{Entstehung}
+            
+                        1151-1175  (nach dem palaeographischen Befund).
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Cod. 660, Cod. 732, Cod. 927, Cod. 1355, Cod. 1707, Cod. 1985,
+                        Cod. 3628, Cod. 3781, Cod. 3892, Cod. 15436, Fragm. 557, Fragm. 579, Fragm.
+                        603, Fragm. 604, Fragm. 613, Fragm. 906, Fragm. 954, Fragm. 960 (nach
+                        Klugseder Gruppe NNA1).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: 
+                        
+                     
+                \subsection{Lit.} CantusPlanus
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+             olim:  Suppl. 2935 Cod. 19558
+            \end{flushright}
+            \subsection{Graduale}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            1. Doppelbl. (ff. 1-2): 206 x 284 mm; 1. Einzelbl. (f. 3): 216 x 148 mm;
+                        2. Doppelbl. (ff. 4-5): 227 x 292 mm \>  \> 3. Viertel 12. Jh. \> Mondsee
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Der Inhalt beruft sich auf CantusPlanus Datenbank. (1r)  Fer. 6 Hebd. 2
+                        Quad. -  In: \textit{Ego autem cum justitia} (Can g00740); -
+                             InPs:\textit{ E}[xaudi domine] \textit{justitiam}; -  Gr: [Ad do]\textit{minum cum tribularer}; -  GrV: [Domine] \textit{libera animam meam} (Can g01134a); -  Of: \textit{Domine i}[n
+                        auxilium]; - OfV: \textit{Avertantur retror}[sum] (Can
+                            g02305a); - OfV: \textit{Exspectans }[exspecta]\textit{vi} (Can g02305b); - Cm: \textit{Tu do}[mine ser]\textit{vabis nos} (Can g00741); Sabb. Hebd.
+                        2 Quad. - In: \textit{Lex domini irreprehensibilis} (Can
+                        g00742); - InPs: \textit{Caeli enarran}[t]; - Gr: \textit{Bonum est confiteri}; (1v)  Sabb. Hebd. 2 Quad. -
+                         GrV: [Ad annun]\textit{tiandum }(Can g01207a); -
+                        Of: [Illumina] \textit{oculos meos}; - OfV: \textit{Usquequo} [domine] (Can g01153a); - OfV: \textit{Respice in me et exaudi me} (Can g01153b); - Cm: \textit{Oportet te fili gaudere} (Can g00743); Dom. 3 Quadragesimae - In: [O]\textit{culi mei semper} (Can g00744); - InPs: \textit{Ad te domine levavi}*; - Gr: [Exsur]\textit{ge domine non praevaleat }(Can g00745); - GrV: [In conver]\textit{tendo} (Can g00745a); (2r) Fer. 5 Hebd. 3 Quad.
+                            - Cm: \textit{Tu mandasti mandata }(Can g01236); - In: \textit{Fac mecum domine} (Can g00768); - InPs: \textit{Inclina domine}; - Gr: \textit{In deo speravit cor meum} (Can g01184); - GrV: \textit{Ad te domine clamabo} (Can g01184a); - Of: \textit{Intende voci }(Can g00769); - OfV: \textit{Verba mea auribus};
+                            - OfV: \textit{Dirige in conspectu }(Can
+                            g00769b); - Cm: \textit{Qui biberit} (Can g00770.1);
+                        (2v) Sabb. Hebd. 3 Quad. - In: \textit{Verba mea auribus percipe} (Can g00771); - InPs: \textit{Quoniam ad te orabo}; - Gr: \textit{Si ambulem in medio }(Can
+                        g00772); - GrV: \textit{Virga tua} (Can g00772a); - Of: \textit{Gressus meos dirige domine} (Can g00774); - OfV: \textit{Declaratio sermo}; - OfV: \textit{Cognovi domine} (Can g00774b); - Cm: \textit{Nemo te condempnavit}; Dom. 4 Quadragesimae - In: \textit{Laetare Jerusalem} (Can g00776); (3r)  Vig. Joannis Bapt. - In: [Ne ti]\textit{meas Zacharia} (Can g00236); - InPs: \textit{Domine in virtute tua}; - Gr: \textit{Fuit homo missus a deo }(Can g00237); - GrV: \textit{Ut testimonium} (Can
+                        g00237a); - Of: \textit{Gloria et honore}* (Can g01260);
+                            - Cm: \textit{Magna est}* (Can g01261); Joannis
+                        Baptistae-1 - In: \textit{Gloria et honore}* (Can g02212);
+                            - Gr: \textit{Domine praevenisti}* (Can g01360);
+                            - AlV: \textit{Justus germinavit}*; - Of: \textit{In virtute}*; - Cm: \textit{Posuisti}*; Joannis Baptistae-2 - In: \textit{De ventre matris meae }(Can g00239); - InPs: \textit{Bonum est confiteri}; - Gr: \textit{Priusquam te formarem} (Can
+                        g00240); - GrV: \textit{Misit dominus manum suam} (Can
+                        g00240a); - AlV: \textit{Justus ut palma}*; - Of: \textit{Justus ut palma}*; - Cm: \textit{Tu puer propheta} (Can g00243); (3v)  [Joannis, Pauli] - In: \textit{Multe tribulationes jus}[torum]; - InPs: \textit{Benedicam dominum}; - Gr: \textit{Ecce quam bonum}; - GrV: \textit{Sicut unguentum in capite} (Can
+                            g00114a); - GrV: \textit{Mandavit dominus} (Can g00114b);
+                            - Of: \textit{Gloriabuntur in te omnes }(Can g00244);
+                            - OfV: \textit{Quoniam ad te} (Can g00244a oder g00244a1);
+                            - Cm: \textit{Et si coram hominibus}; Vigilia Petri, Pauli
+                            - In: \textit{Dicit dominus Petro cum esses junior }(Can
+                        g00255); (4r)  [Comm. Virginum] - AlV: [Adducentur regi virgines];
+                            - AlV: \textit{Egregia spona Christi}; - AlV: \textit{Specie tua}; - AlV: \textit{Diffusa est gratia}; - AlV: \textit{Audi filia}; De BMV - AlV: \textit{Sancta dei genitrix}; - AlV: \textit{Omnis gloria ejus}; - AlV: \textit{Prophetae sancti}; (4v)
+                         In summis festivitatibus - Ky: \textit{Kyrie eleyson}; - Ky: \textit{Kyrie eleyson}; In mediocribus
+                            - Ky: \textit{Kyrie eleyson}; In Albis - Ky: \textit{Kyrie eleyson}; - Ky: \textit{Kyrie eleyson}; - Ky: \textit{Kyrie eleyson}; - Ky: \textit{Kyrie eleyson}; (5r)  Nativitas Domini - 1
+                        - Sq: [Grates nunc omnes] (AH53-10); Nativitas Domini - 2 - Sq: \textit{Eia recolamus }(AH53-16); (5v)  Nativitas Domini - 3
+                            - Sq: \textit{Natus ante saecula}
+                        (AH53-15); Stephani: ?.
+                Musiknotation: Linienlose Neumennotation 
+            
+            \subsection{Entstehung}
+            
+                        Das Graduale ist nach Pfaff ein Produkt des Mondseer Liutoldscriptoriums. 
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Cod. 3656, Cod. 3912, Fragm. 612, Cod. Ser. n. 84, Cod. Ser. n.
+                        220; Cod. Ser. n. 222; Cod. Ser. n. 234; Cod. Ser. n. 236 (nach Klugseder
+                        Gruppe NNG1).
+                     
+            \subsection{Provenienz} 
+            
+                        Da andere Fragmente von der ursprunglichen Handschrift als
+                        Einbandmakulatur in Handschriften von Mondsee verwendet wurden, ist es zu
+                        behaupten, dass auch diese 2 beschn. Doppelblätter und 1 beschn. Einzelblatt
+                        von Mondseer Handschriften ausgelöst wurden. Die Leimspuren deuten darauf
+                        hin, dass sie als Spiegel gedient haben.
+                        Makulaturtyp: Spiegel (?)
+                        
+                     
+                \subsection{Lit.} Cantus Planus
+                        (http://www.cantusplanus.at/de-at/fragmentphp/fragmente/signaturGET.php?Signatur=sn00084);
+                        Mazal, SN 1, S. 28
+                        (http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0749_b0028_jpg.htm);
+                        Klugseder, Mondsee, S. 34-129.
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. Ser. n. 219 olim: Suppl. 2914 Cod. 19694
+            \end{flushright}
+            \subsection{Antiphonarium/Graduale}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            198-215 x 298-312 (Doppelblätter) \>  \> 2. Hälfte 13. Jh. \> süddeutsch-österreichischer Raum
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Officium s. Dorotheae (größtenteils noch nicht mit Can-Nummer
+                        identifiziert sondern nur über Analecta hymnica): (1r) [Dorotheae] V:
+                        [Gloria patri et] filio et (Can009000); (1r) A: Gaude Cappadocia a proprio
+                        (AH 41-7); (1r) I: Adoremus dominantem (AH 41-7); (1r) A: Famosam Fabricius
+                        vocans (AH 41-7); (1v) A: Diis nostris te ponere (AH 41-7); (1v) A: Decrevi
+                        contemnere (AH 41-7); (1v) R: Orbis monarchia plaude (AH 41-7); (1v) V:
+                        Nituit virtutibus et morum (AH 41-7); (1v) R: Angue praeses nequior (AH
+                        41-7); (2r) V: Hae pro te sunt geminae (AH 41-7); (2r) R: In castatam dum
+                        levatur (AH 41-7); (2r) V: Nec vident nec audiunt (AH 41-7); (2r) R: Ove
+                        virgo mitior columba (AH 41-7); (2r) V: Auditis Fabricius his furit (AH
+                        41-7); (2v) V: G[loria patri et filio] et (Can009000); (2v) A: Viro debes
+                        nubere et secum (AH 41-7); (2v) A: Aspernor spuricitias mariti (AH 41-7);
+                        (2v) A: Hujus sponsi foedera (AH 41-7); (2v) R: Haec suis lateribus (AH
+                        41-7); (3r) V: In tantis suppliciis virgo (AH 41-7); (3r) R: Ad mortem cum
+                        ducebatur (AH 41-7); (3r) V: Ad haec sponsa Christi (AH 41-7); (3r) R: (AH
+                        41-7); (3v) V: Viso stupens xenio mox (AH 41-7); (3v) V: Gloria patri et
+                        filio et (Can009000); (3v) A: Dorothea virginem Christum (AH 41-7); (3v) A:
+                        Ecce dei munere plena res (AH 41-7); (3v) A: Alabastrum frangitur (AH 41-7);
+                        (4r) A: [Castitatis annulo] (AH 41-7); (4r) AlV: Fulgens in ecclesia (kein
+                        Identifikator); (4r) Sq: Stetit Jesu pro te bone (AH 41-7) (weitere nicht
+                        identifiziert).
+                Musiknotation: Gotische Notation 
+            
+            \subsection{Entstehung}
+            
+                        2. Hälfte 13. Jh. süddeutsch-österreichischer Raum (nach dem palaeographischen Befund).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Spiegel (?)
+                        Ausgelöst aus Wien, ÖNB, Cod. 3861
+                                                    Inhalt: Sammelhandschrift
+                                                    Entstehung: 15. Jhdt.; 1451Ohne Ort
+                                                    Provenienz: Thomas Rott (Kooperator in Grafendorf um 1475): Rubrikator und/oder
+                        Vorbesitzer.
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Lunael.
+                        f. 152' (Unterkircher, Datierte Handschriften, 1976).
+                     
+                \subsection{Lit.} Cantus Planus
+                        (http://www.cantusplanus.at/de-at/fragmentphp/fragmente/signaturGET.php?Signatur=sn00219).
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. Ser. n. 220
+            \end{flushright}
+            \subsection{Graduale}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            210 x 274-283 mm \>  \> 3. Viertel 12. Jh. \> Mondsee
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            (1r) Dom. 3 Adventus In: Gaudete in domino semper (Can g00501); InPs:
+                        Benedixisti domine terram (Can g00501b); Gr: Qui sedis domine super (Can
+                        g00502); GrV: Qui regis Israel intende (Can g00502a); AlV: Excita domine
+                        potentiam tuam (Can g00504a); Of: Benedixisti domine terram (Can g00505);
+                        OfV: Operuisti omnia peccata eorum (Can g00505a); OfV: Ostende nobis domine
+                        (Cang00505b); Cm: Dicite pusillanimes confortamini (Can g00506); Dom. 4
+                        Adventus In: Memento nostri domine in (Can g02156); (1v) InPs: Confitemini
+                        domino quoniam bonus* (Can g02156b); Gr: Prope est dominus omnibus (Can
+                        g00530); GrV: Laudem domini loquetur (Can g00530a); AlV: Veni domine et noli
+                        tardare (Can g00532a); Of: Ave Maria gratia plena (Can g00533); OfV: Quomodo
+                        in me fiet hoc que (Can g00533a); OfV: Ideoque quod nascetur ex (Can
+                        g00533ab); Cm: Ecce virgo* (Can 503007); Fer. 4 Q.T. Adventus In: Rorate
+                        caeli desuper et nubes (Can 501007); InPs: Caeli enarrant gloriam dei (Can
+                        501007a); Gr: Tollite portas principes vestras (Can g02220); (4r) GrV: Quis
+                        ascendet in montem (Can g02220a); Gr: Prope est dominus* (Can g00530); Of:
+                        Confortamini et jam (Can g00509); OfV: Tunc [aperien]tur oculi (Can
+                        g00509a); OfV: Audite itaq[ue domus] David (Can g00509b); Cm: Ecce virgo
+                        concipiet et pariet (Can 503007); Fer. 6 Q.T. Adventus In: Prope esto domine
+                        et omnes (Can g02397); InPs: Beati inmaculati (Can g02397a); Gr: Ostende
+                        nobis domine (Can g00511); GrV: Benedixisti domine terram (Can g00511a); Of:
+                        Deus tu convertens (Can g00499); (4v) Cm: [Ecce dominus veniet] (Can
+                        g00513); Sabb. Q.T. Adventus In: [Ve]ni et os[tende no]bis faciem (Can
+                        g00514); InPs: [Qui regis] Israel* (Can g00514a); Gr: A summo caelo (Can
+                        g00515); GrV: Caeli enar[rant glo]riam dei (Can g00515a); Gr: [In sole
+                        po]suit tabernaculum (Can g00517); GrV: [A summo] caelo (Can g00517a); Gr:
+                        Domine deus virtutum (Can g00519); GrV: Excita domine (Can g00519a); Gr:
+                        Excita domine (Can g00521); GrV: Qui regis Israel (Can g00521a); (3r) Tc:
+                        Qui regis Israel (Can g00524); TcV: Qui sedes super cherubim (Can g00524a);
+                        TcV: Effraim Benjamin et Manasse ; TcV: Excita domine potentiam tuam (Can
+                        g00524b); Of: Exsulta satis filia Sion praedica (Can g00527); OfV: Loquetur
+                        pacem gentes (Can g00527a); OfV: Quia ecce venio et habitabo (Can g00527b);
+                        Cm: Exsultavit ut gigans (Can g00528); Vigilia Nat. Domini In: Hodie scietis
+                        quia veniet (Can g00535); InPs: Domini est terra (Can g00535a); Gr: Hodie
+                        scietis quia veniet (Can g00536); (3v) GrV: [Qui regis Israel inten]de (Can
+                        g00536a); Of: Tollite portas principes vestras (Can g00539); OfV: Domini est
+                        terra et plenitudo (Can g00540a); OfV: Ipse super Maria fundavit eum (Can
+                        g00539c); Cm: Revelabitur gloria domini et (Can g00540); Nativitas Domini -
+                        1 In: Dominus dixit ad me Filius (Can g00541); InPs: Quare fremuerunt gentes
+                        et (Can g00541a); Gr: Tecum principium in die (Can g00542); GrV: Dixit
+                        dominus domino meo (Can g00542a); AlV: Dominus dixit ad me filius (Can
+                        g00544); (2r) Of: Laetentur caeli et exultet (Can g00545); OfV: Cantate
+                        [domino] canticum (Can g00545a); OfV: Cantate domino benedicite (Can
+                        g00545b); Cm: In splendoribus sanctorum (Can g00546); Nativitas Domini - 2
+                        In: Lux fulgebit hodie super (Can g00547); InPs: Dominus regnavit decore*
+                        (Can g00547a); Gr: Benedictus qui venit in nomine (Can g00548); GrV: A
+                        domino factum est (Can g00548a); AlV: Dominu[s regna]vit (Can g00550); Of:
+                        Deus enim firmavit orbem (Cang00551); OfV: Dominus regnavit (Can g00551a);
+                        (2v) OfV: Mirabilis [in excel]sis dominus (Can g00551b); Cm: Exulta filia
+                        Sion lauda filia (Can g00552); Nativitas Domini - 3 In: Puer natus est nobis
+                        (Can g00553); InPs: Cantate domino canticum (Can g00553a); Gr: Viderunt
+                        omnes (Can g00554); GrV: [Notum f]ecit dominus (Can g00554a); AlV: Dies
+                        sanctifica[tus] (Can g00556); (5r) Fer. 4 Hebd. 4 Quad. Cm: Lutum fecit ex
+                        sputo dominus (Can g00790); Fer. 5 Hebd. 4 Quad. In: Laetetur cor (Can
+                        g00791); InPs: Confitemini domino (Can g00791a); Gr: Respice domine (Can
+                        g01195); GrV: Exsurge domine (Can g01195a); Of: Domine ad adjuvandum (Can
+                        g00792); OfV: Exspectans expectavi dominum (Can g00792a); Cm: Domine
+                        memorabor justitiae (Can g01215); Fer. 6 Hebd. 4 Quad. In: Meditatio cordis
+                        mei (Can g00793); InPs: Caeli enarrant gloriam dei* (Can g00793b); Gr: Bonum
+                        est confidere (Can g01201); (5v) GrV: Bonum est sperare in domino (Can
+                        g01201a); Of: Populum humilem salvum (Can g01171); OfV: Clamor meus in
+                        conspectu (Can g01171a); OfV: Liberator meus de gentibus (Can g01171b); Cm:
+                        Videns dominus flentes (Can g00794); Sabb. Hebd. 4 Quad. In: Sicientes
+                        venite ad aquas (Can g00795); InPs: Attendite popule meus (Can g00795b); Gr:
+                        Tibi domine derelictus est pauper (Can g00796); (6r) Fer. 2 Maj. Hebd. Of:
+                        Eripe me de inimicis meis (Can g00867); OfV: Exaudi m[e in tu]a justitia
+                        (Can g00867a); Cm: Er[ubescant] et revereantur (Can g00868); Fer. 3 Maj.
+                        Hebd. In: Nos autem gloriari (Can g00180); InPs: Deus misereatur nostri (Can
+                        g00180b); Gr: Ego autem dum mihi molesti (Can g00869); GrV: Judica [domine]
+                        nocentes me (Can g00869a); Of: Custodi me domine (Can g00871); OfV: [Eripe]
+                        me do[mine] (Can g00871a); (6v) OfV: Qui [cogitave]runt (Can g00871b); Cm:
+                        Adversum me exerceban[tur] (Can g00872); Fer. 4 Maj. Hebd. In: [In nomin]e
+                        domini (Can g00873); InPs: Domine exaudi et clamor (Can g00873b); Gr: [Ne
+                        avert]as faciem tuam (Can g00874); GrV: Salvum me fac (Can g00874a); Tc:
+                        Domine [exaudi o]rationem (Can g00876); TcV: Ne avertas faciem tuam (Can
+                        g00876a). Die Inhaltsangaben beruhen auf Cantus Planus Datenbank.
+                Musiknotation: Linienlose Neumennotation 
+            
+            \subsection{Entstehung}
+            
+                        Das Graduale ist nach Pfaff ein Produkt des Mondseer Liutoldscriptoriums. 
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Cod. 3656, Cod. 3912, Fragm. 612, Cod. Ser. n. 84, Cod. Ser. n.
+                        220; Cod. Ser. n. 222; Cod. Ser. n. 234; Cod. Ser. n. 236 (nach Klugseder
+                        Gruppe NNG1).
+                     
+            \subsection{Provenienz} 
+            
+                        Das Doppelblatt, das heute als f. 3 und 4 foliiert ist, wurde aus einer
+                        Mondseer Handschrift ausgelöst, nämlich Wien, ÖNB, Cod. 3895
+                        (http://data.onb.ac.at/rec/AL00177939). Es ist zu behaupten, dass die andere
+                        zwei Doppelblätter (heute ff. 1-2 und ff. 5-6) auch aus Einbänden Mondseer
+                        Handschriften ausgelöst wurden.
+                        Makulaturtyp: Spiegel (?)
+                        
+                     
+                \subsection{Lit.} Cantus Planus
+                        (http://www.cantusplanus.at/de-at/fragmentphp/fragmente/signaturGET.php?Signatur=sn00220);
+                        Mazal, SN 1, S. 68
+                        (http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0749_b0068_jpg.htm);
+                        Klugseder, Mondsee, S. 34-129; Pfaff, Scriptorium und Bibliothek, Katalog
+                        Nr. 43.
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. Ser. n. 222
+            \end{flushright}
+            \subsection{Graduale}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            205 x 282-288 mm \>  \> 3. Viertel 12. Jh. \> Mondsee
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            (5r) [Dom. Sexagesimae] Gr: Sciant gentes quoniam nomen; GrV: Deus meus
+                        pone illos; Tc: Commovisti domine terram; TcV: Sana contritiones ejus; TcV:
+                        Ut fugiant; Of: Perfice gressus meos in semitis; OfV: Exaudi domine
+                        justitiam meam; OfV: Custodi me domine; OfV: Ego autem cum justitia; Cm:
+                        Introibo ad altare dei; (5v) Dom. Quinquagesimae In: Esto mihi in deum;
+                        InPs: In te domine speravi; Gr: Tu es deus qui facis mirabilia; GrV:
+                        Liberasti in brachio tuo; Tc: Jubilate domino omnis terra; TcV: Intrate in
+                        conspectu ejus; TcV: Scitote quod dominus ipse; TcV: Ipse fecit nos; Of:
+                        Benedictus es domine; OfV: Beati immaculati; (7r) OfV: Aufer a plebe tua
+                        obprobrium; OfV: In via testimoniorum tuorum; OfV: Viam iniquitatis domine
+                        amove; Cm: Manducaverunt et saturati sunt; Fer. 4 Cinerum AP: Exaudi nos
+                        domine quoniam; AP: Juxta vestibulum et altare; AP: Immutemur habitu in
+                        cinere et; (7v) In: Misereris omnium domine; InPs: Miserere mei deus; Gr:
+                        Miserere mei deus; GrV: Misit de caelo; Tc: Domine non secundum; TcV: Domine
+                        ne memineris; TcV: Adiuva nos deus salutaris; Of: Exaltabo te domine; OfV:
+                        Domine abstraxisti ab infernis; Lacuna; (8r) [Fer. 2 Hebd. 1 Quad.] Gr:
+                        Protector noster aspice deus; GrV: Domine deus virtutum; Of: Revela oculos
+                        m[eos]; OfV: Legem pone mihi domine; OfV: Veniat [super me] miserationes;
+                        Cm: Voce mea ad dominum; Fer. 3 Hebd. 1 Quad. In: Domine refugium factus es;
+                        InPs: Priusquam montes fierent; Gr: Dirigatur oratio mea; GrV: Ele[va]tio
+                        manuum mea[rum]; Of: I[n te spe]ravi domine dixi tu es; (8v) OfV: Illumina
+                        fa[ciem] tuam; OfV: Quam magna multitudo; Cm: Cum invocarem te exaudisti;
+                        Fer. 4 Hebd. 1 Quad. In: [Re]miniscere miserationum; InPs: Ad te domine
+                        levavi anima*; Gr: Tribulationes [cordis] mei; GrV: [Vi]de humilitatem meam;
+                        Tc: [De nece]ssitatibus meis eripe; (6r) TcV: Ad te domine levavi; TcV:
+                        Etenim universi; Of: Meditabor in mandatis tuis; OfV: Pars mea domine dixi;
+                        OfV: Miserere mei se[cundum]; Cm: Intellege clamorem meum; Fer. 5 Hebd. 1
+                        Quad. In: Confessio et pulchritudo; InPs: Cantat[e domino]; Gr: C[ustodi] me
+                        domine; (6v) GrV: [De vultu] tuo judicium meum; Of: Inmit[tit a]ngelus
+                        domini; OfV: Benedicam domino; OfV: In domino laudabitur anima; OfV:
+                        Accedite ad eum; Cm: Panis quem ego; Fer. 6 Hebd. 1 Quad. In: [D]e
+                        necessitatibus meis eripe; Lacuna; (1r) Sabb. Hebd. 4 Quad. GrV: Ut quid
+                        domine recessisti; Of: Factus est dominus; OfV: Persequar inimicos meos;
+                        OfV: Praecinxisti me virtute; Cm: Dominus regit me; Dom. de Passione In:
+                        Judica me deus; InPs: Emitte lucem tuam; Gr: Eripe me domine de inimicis;
+                        (1v) GrV: Liberator meus domine; Tr: Sepe expugnaverunt me; TrV: Dicat nunc
+                        Israel; TrV: Etenim non potuerunt mihi; TrV: Prolongaverunt iniquitatem; Of:
+                        Confitebor tibi Domine; OfV: Beati immaculati; OfV: Viam veritatis elegi;
+                        (3r) OfV: Inclina cor meum in testimonia; OfV: Deprecatus sum vultum tuum;
+                        Cm: Hoc corpus quod pro vobis; Fer. 2 de Passione In: Miserere mihi domine;
+                        InPs: Conculcaverunt me; Gr: Deus exaudi orationem meam; GrV: Deus in nomine
+                        tuo salvum; Of: Domine convertere et eripe; OfV: Domine ne in ira tua
+                        arguas; OfV: Miserere mihi domine; (3v) Cm: Dominus virtutum ipse est; Fer.
+                        3 de Passione In: Expecta dominum viriliter; InPs: Dominus illuminatio mea;
+                        Gr: Discerne causam meam; GrV: Emitte lucem tuam; Of: Sperent in te omnes;
+                        OfV: Sedes super thronum; OfV: Cognoscetur dominus judicia; Cm: Redime nos
+                        deus Israel; Lacuna; (4r) [Dom. in Palmis] AP: [Cum audisset populus quia];
+                        AP: Ante sex dies sollemnis; Hy: Gloria laus et honor; (4v) In: Domine ne
+                        longe facias; InPs: [De]us deus meus respice; Gr: [Te]nuisti manum dexteram;
+                        GrV: Quam bonus Israel deus; Tc: [De]us deus meus respice; TcV: Longe a
+                        salute mea verba; TcV: Deus meus clama[bo]; TcV: Tu autem in sancto habitas;
+                        (2r) TcV: In te speraverunt patres nostri; TcV: Ad te clamave[runt]; TcV:
+                        Ego autem; TcV: Omnes qui videb[ant]; TcV: Speravit in d[omino]; TcV: Ipsi
+                        vero consideraverunt; TcV: Libera me de ore l[eonis]; TcV: Qui timetis
+                        dominum; TcV: Annuntiabitur domino; TcV: Populo qui nascetur; Of:
+                        Imprope[rium ex]pectavit cor; (2v) OfV: Salvum me fac deus; OfV: [Adversum]
+                        me exercebantur; OfV: Ego vero orationem meam; Cm: Pater si non [potest];
+                        Fer. 2 Maj. Hebd. In: [Judica do]mine nocentes me; InPs: Effunde frameam et
+                        conclude*; Gr: [Exsurge] domine et intende; GrV: Effunde frameam et
+                        conclude. Die Inhaltsangaben beruhen auf Cantus Planus Datenbank.
+                Musiknotation: Linienlose Neumennotation 
+            
+            \subsection{Entstehung}
+            
+                        Das Graduale ist nach Pfaff ein Produkt des Mondseer Liutoldscriptoriums. 
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Cod. 3656, Cod. 3912, Fragm. 612, Cod. Ser. n. 84, Cod. Ser. n.
+                        220; Cod. Ser. n. 222; Cod. Ser. n. 234; Cod. Ser. n. 236 (nach Klugseder
+                        Gruppe NNG1).
+                     
+            \subsection{Provenienz} 
+            
+                        Das Doppelblatt, das heute als f. 5 und 6 foliiert ist, wurde aus einer
+                        Mondseer Handschrift ausgelöst, nämlich Wien, ÖNB, Cod. 3912
+                        (http://data.onb.ac.at/rec/AL00177627), wo es als Vorderspiegel gedient
+                        hatte (vgl. eingeklebte Etikette mit Signatur 3912 auf f. 5v). Der noch in
+                        situ Hinterspiegel dieser Handschrift ist ein Fragment aus dergleichen
+                        Handschrift als Cod. Ser. n. 222. Es ist zu behaupten, dass die andere drei
+                        Doppelblätter (heute ff. 1-2, 3-4 und 7-8) auch aus Einbänden Mondseer
+                        Handschriften ausgelöst wurden.
+                        Makulaturtyp: Spiegel
+                        
+                     
+                \subsection{Lit.} Cantus Planus
+                        (http://www.cantusplanus.at/de-at/fragmentphp/fragmente/signaturGET.php?Signatur=sn00222);
+                        Mazal, SN 1, S. 69-70
+                        (http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0749_b0069_jpg.htm);
+                        Klugseder, Mondsee, S. 34-129; Pfaff, Scriptorium und Bibliothek, Katalog
+                        Nr. 43.
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. Ser. n. 234
+            \end{flushright}
+            \subsection{Graduale}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            224 x 280–285 mm \>  \> 3. Viertel 12. Jh. \> Mondsee
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Gesänge für die Messe von Sabb. Hebd. 1 Quad. bis Fer. 5 Hebd. 2 Quad.,
+                        und von Dom. 4 Quad. bis Fer. 4. Hebd. 4 Quad. (1r) [Sabb. Hebd. 1 Quad.] -
+                        OfV: [Et ego ad te domine clamavi]; OfV: \textit{Factus sum sicut ho}[mo]; Cm: \textit{Domine deus m}[eus]; [Dom. 2
+                        Quadragesimae] - In: \textit{Reminiscere}*; Gr: \textit{Tribulationes}*; Tc: \textit{D}[ixit
+                            do]\textit{minus mulieri}; TcV: \textit{At i}[lla dix]it; TcV: \textit{Ait illi Jesus}; Of: \textit{Meditabor}*; Cm: \textit{Intellege}*;
+                        Fer. 2 Hebd. 2 Quad. - In: \textit{Redime me domine}; InPs:
+                            \textit{Judica me domine}; Gr: \textit{Adjutor meus et liberator}; GrV: \textit{Confundantur et reverean}[tur]; (1v) Fer. 2 Hebd. 2 Quad. - Of: \textit{Benedicam dominum}; OfV: \textit{Conserva me }[do]\textit{mine}; OfV: \textit{Notas fecisti mihi};
+                        Cm: \textit{Domine do}[minus n]\textit{oster};
+                        Fer. 3 Hebd. 2 Quad. - In: [T]\textit{ibi dixit cor meum};
+                        InPs: \textit{Dominus illuminatio}; Gr: \textit{Jacta cogitatum}*;Of:\textit{ Miserere mihi domine};
+                        OfV: \textit{Quoniam iniquita}[tem meam]; OfV: \textit{Tibi soli peccavi et malum}; Cm: \textit{Narrabo omnia mirabilia tua}; (2r) Fer. 4 Hebd. 2 Quad. - In: \textit{Ne derelinquas me domine}; InPs: [Domine] \textit{ne in furore tuo}; Gr: \textit{Salvum fac populum tuum}; GrV: \textit{Ad te domi}[ne clama]\textit{bo}; Of: \textit{Ad te domine}*; Cm: \textit{J}[ustus do]\textit{minus et justitias};
+                        Fer. 5 Hebd. 2 Quad. - In: \textit{Deus in adjutorium meum};
+                        InPs: \textit{Avertantur retrorsum}; Gr: \textit{Propitius esto domine}; GrV: \textit{Adjuva nos deus}; (2v) Fer. 5 Hebd. 2 Quad. - Of: [Precat]\textit{us est Moyses in}; OfV: \textit{Dixit dominus ad Moy}[sem];
+                        OfV: [Dixit] \textit{Moyses et Aaron}; Cm: \textit{Qui manducat }[carnem] \textit{meam}; (3r) Dom. 4
+                        Quadragesimae - InPs:\textit{ Laetatus sum}; Gr: \textit{Laetatus sum}; GrV:\textit{ Fiat pax in virtute tua}; Tr: \textit{Qui confidunt in domino};
+                        TrV: \textit{Montes in circuitu ejus}; Of: \textit{Laudate dominum}; OfV: \textit{Qui statis in domo domini}; OfV: \textit{Domine nomen tuum}; OfV:\textit{ Qui timetis dominum}; (3v) Dom. 4 Quadragesimae - Cm:
+                            \textit{Jerusalem quae aedificatur}; Fer. 2 Hebd. 4 Quad.
+                        - In: \textit{Deus in nomine tuo}; InPs: \textit{Averte mala inimicis meis}; Gr: \textit{Esto mihi in deum}; GrV: \textit{Deus in te speravi domine}; Of:
+                            \textit{Jubilate deo universa}*; Cm: \textit{Ab occultis meis munda me}; Fer. 3 Hebd. 4 Quad. - In: \textit{Exaudi deus orationem meam}; InPs: \textit{Contristatus sum in exercitatione}*; Gr: \textit{Exsurge domine}; (4r) Fer. 3 Hebd. 4 Quad. - GrV: \textit{Deus auribus nostris audivimus}; Of: \textit{Exspectans expectavi dominum}; OfV: \textit{Statuit supra petram pedes}; OfV: \textit{Multa fecisti tu domine deus};
+                        OfV: \textit{Domine deus tu cognovisti}; Cm: \textit{Laetabimur in salutari tuo}; Fer. 4 Hebd. 4 Quad. - In: \textit{Dum santificatus fuero in vobis}; InPs: \textit{Benedicam domino}; Gr: \textit{Venite filii audite me timorem}; GrV: \textit{Accedite ad eum};
+                        (4v) Fer. 4 Hebd. 4 Quad. - Gr: \textit{Beata gens cujus est dominus}; GrV: \textit{Verbo domini caeli firmati sunt}; Of: \textit{Benedicite gentes dominum}; OfV:
+                            \textit{Jubilate deo omnis terra}; OfV: \textit{In multitudine virtutis tuae}; OfV: \textit{Venite et videte opera domini}. Die Inhaltsangaben beruhen auf Cantus
+                        Planus.
+                Musiknotation: Linienlose Neumennotation 
+            
+            \subsection{Entstehung}
+            
+                        Das Graduale ist nach Pfaff ein Produkt des Mondseer Liutoldscriptoriums. 
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Cod. 3656, Cod. 3912, Fragm. 612, Cod. Ser. n. 84, Cod. Ser. n.
+                        220; Cod. Ser. n. 222; Cod. Ser. n. 234; Cod. Ser. n. 236 (nach Klugseder
+                        Gruppe NNG1).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Spiegel und Ansetzfalz
+                        Ausgelöst aus Wien, ÖNB, Cod. 3759
+                                                    Inhalt: Sammelhandschrift mit Sermones
+                                                    Entstehung: Mitte 15. Jhdt.Mondsee
+                                                    Provenienz: Wolfgang de Wäring (Profess v. Mondsee 1451, 1457 Prior, 1470 Pfarrer v.
+                        St. Wolfgang; +1476): Schreiber; Vermerk am Schluß [Lidl, Mantissa, 1749,
+                        356].
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Lunael.
+                        f. 178'.
+                     
+                \subsection{Lit.} Cantus Planus
+                        (http://www.cantusplanus.at/de-at/fragmentphp/fragmente/signaturGET.php?Signatur=sn00234);
+                        Mazal, SN 1, S. 76
+                        (http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0749_b0076_jpg.htm);
+                        Klugseder, Mondsee, S. 34-129; Pfaff, Scriptorium und Bibliothek, Katalog
+                        Nr. 43.
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. Ser. n. 236
+            \end{flushright}
+            \subsection{Graduale}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            ca. 210 x 285 mm \>  \> 3. Viertel 12. Jh. \> Mondsee
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            (5r) [Dom. 1 Adventus] OfV: [Dirige me in veritate tua]; Cm: Dominus dabit
+                        benignitatem; Dom. 2 Adventus In: Populus Sion ecce; InPs: Qui regis Israel
+                        intende; Gr: Ex Sion species decoris; GrV: Congregate illi sanctos ejus;
+                        AlV: Laetatus sum; AlV: Stantes erant; Of: Deus tu convertens; OfV:
+                        Benedixisti; (5v) OfV: [Misericor]dia et veritas; Cm: Jerusalem [surge et]
+                        sta in excelso; Luciae In: Dilex[isti just]iciam; InPs: Eructavit cor meum
+                        verbum*; Gr: Dilexisti ju[stitiam]; GrV: Propterea [unx]it te deus; AlV:
+                        Specie tua; Of: Offerentur regi virgines; OfV: Eructavit [cor] meum; OfV:
+                        Adducentur in laetitia; Cm: Diffusa est gratia; Vigilia Thomae Apost. In:
+                        #Ego autem*; Thomae Apost. In: #Mihi autem*; Gr: #Nimis honorati*; AlV: #Jam
+                        non*; Of: #In omnem terram*; Cm: #Dico autem vobis*; (6r) Nativitas Domini -
+                        3 Of: Tu[i sunt cae]li; OfV: Magnus et [metuen]dus super; OfV: Misericordia
+                        et veritas; OfV: Tu humiliasti sicut vulneram; Cm: Viderunt omnes fines;
+                        Stephani In: Etenim sederunt principes; InPs: Beati immaculati; Gr: Sederunt
+                        principes; GrV: Adjuva me; (6v) AlV: [Vide]o caelos apertos; Of: Elegerunt
+                        apostoli; OfV: Viderunt faciem; OfV: Positis autem; OfV: Surrexerunt autem;
+                        Cm: Video caelos [apertos]; Vigilia Joannis Evang. In: [Eg]o autem sicut
+                        oliva; Lacuna; (8r) [Nat. Innocentium] InPs: Domine dominus noster; Gr:
+                        Anima nostra; GrV: Laqueus contritus est; AlV: Laus tibi Christe. Te
+                        martyrum candidatus; Of: Anima nostra; OfV: Nisi quod dominus; OfV:
+                        Torrentem; Cm: Vox in rama audita; Silvestri In: Sacerdotes tui; InPs:
+                        Memento domine David*; (8v) Gr: Ecce s[ac]erdos magnus; GrV: Non est
+                        inventus; Of: Inveni David; OfV: Potens es domine; OfV: Et ponam in
+                        saeculum; Cm: Beatus servus; Octava Nat. Domini In: Vultum tuum
+                        deprecabuntur; InPs: Eructavit cor meum; Gr: Diffusa est gratia; GrV:
+                        Propter veritatem; Lacuna; (10r) [Epiphania] OfV: [Deus judicium tuum]; OfV:
+                        Suscipia[nt] monte[s]; OfV: Orietur [in die]bus; Cm: Vidimus stellam ejus;
+                        Dom. 1 p. Epiph. In: In excelso throno; InPs: Jubilate [deo]*; Gr:
+                        Benedictus dominus; GrV: Suscipiant montes p[a]cem; AlV: Jubilate deo; Of:
+                        Jubilate deo omnis ter[ra]; (10v) OfV: Ipse fecit nos; OfV: Laudate [nomen]
+                        ejus; Cm: Fili quid fecisti; Felicis Nolani In: [O]s justi meditabitur;
+                        InPs: Noli emulari; Gr: [Jura]vit dominus; GrV: Dixit dominus domi[no me]o;
+                        AlV: Beatus vir qui*; Of: [Gloria et h]onore*; Cm: Posuisti domine; (13r)
+                        Dom. 2 p. Epiph. In: Omnis terra adoret te deus; InPs: Jubilate deo; Gr:
+                        Misit dominus verbum suum; GrV: Confiteantur; AlV: Laudate deum omnes
+                        angeli; Of: Jubilate deo universa terra; OfV: Redd[am] tibi; OfV: Locutum
+                        est os meum; (13v) Cm: Dicit dominus implete; Marcelli In: Statuit ei
+                        dominus; InPs: Misericordias domini; Gr: Inveni David; GrV: Nihil proficiet;
+                        Of: Veritas mea; OfV: Posui adjutorium; OfV: Misericordiam meam; (12r) Cm:
+                        Domine quinque talenta; Priscae In: Loquebar de testimoniis tuis; InPs:
+                        Beati immaculat[i]; Gr: Specie tua; GrV: Propter veritatem; Of: Filiae
+                        regum; OfV: Eructavit cor meum; OfV: Virga recta est virga regni; Cm: Feci
+                        judicium; (12v) Fabiani, Sebastiani In: [Intret i]n conspectu tuo; InPs:
+                        [Deus] venerunt; Gr: [Glori]osus deus; GrV: Dextera tua domine; AlV: Justi
+                        epulentur*; Of: Lae[tamini in] domino; OfV: Beati [quorum]; OfV: Pro hac
+                        orabi[t]; Cm: Multitudo languentium; Agnetis In: Me expectaverunt; (11r)
+                        InPs: Beati immaculati; Gr: Diffusa est*; AlV: Egregia sponsa*; Of:
+                        Offerentur*; Cm: Quinque prudentes; Dom. 3 p. Epiph. In: Adorate deum omnes
+                        angeli; InPs: Dominus regnavit exultet; Gr: Timebunt gentes; GrV: Quoniam
+                        edificabit dominus; AlV: Dominus regnavit; Of: Dextera domini; OfV: In
+                        tribulatione invocavi; OfV: Inpulsus versatus sum; Cm: Mirabantur omnes de
+                        his; (11v) Vincentii In: Laetabitur justus; InPs: Exaudi deus; Gr: Posuisti
+                        domine; GrV: Desiderium animae; AlV: Laetabitur justus*; Of: Gloria et
+                        honore*; Cm: Qui vult venire; Agnetis,8 In: Vultum tuum*; Gr: Specie tua*;
+                        AlV: Omnis gloria*; Of: Diffusa est gratia; OfV: Specie tua; Cm: Simile est
+                        regnum caelorum*; AP: Ave gratia plena; Lacuna; (7r) [Agathae] TcV: Euntes
+                        ibant et flebant; TcV: Venientes autem; Of: Offerentur*; Cm: Qui me
+                        digna[tus est]; Valentini In: In virtute tua domine; InPs: Magna est gl[oria
+                        ejus]; Gr: Beatus vir qui timet; GrV: Potens in terra erit; Tc: Desiderium
+                        [ani]mae; TcV: Quoniam praevenisti e[um]; TcV: Posuisti super caput ejus;
+                        Of: In virtute tua; OfV: Vita[m pe]tiit; (7v) OfV: Magna est gloria ejus;
+                        Cm: [Magna es]t gloria ejus*; Cathedra Petri In: [S]tatuit [ei] dominus*;
+                        Gr: Juravit dominus*; Tc: Tu es Petrus; TcV: Et porte inferi; TcV:
+                        Quodcumque [ligave]ris; TcV: Et quodcumque solveris; Of: Inveni david*; Cm:
+                        Tu es petrus*; Gregorii In: [Sacerdotes dei benedici]te domino; InPs:
+                        Benedicite omnia opera*; Gr: [Juravit domi]nus*; Tc: Beatus vir qui timet;
+                        TcV: Gloria et divitiae; Lacuna; (14r) [Dom. 3 Quadragesimae] TcV: [Ad te
+                        levavi oculos]; TcV: Ecce si[cut oculi]; TcV: Et sicut oculi ancillae; TcV:
+                        Ita oculi nostri; Of: Ju[sti]tiae domi[n]i; OfV: Praeceptum domi[ni]; OfV:
+                        Et erunt ut complaceant; Cm: Passer in[ve]nit sibi domum; Fer. 2 Hebd. 3
+                        Quad. In: In deo laudabo verbum; (14v) InPs: Miserere mei deus; Gr: Deus
+                        vitam meam; GrV: Miserere mei domine; Of: Exaudi deus orationem; OfV:
+                        Conturbatus sum; OfV: Ego autem ad deum; Cm: Quis dabit ex Sion; Fer. 3
+                        Hebd. 3 Quad. In: Ego clamavi quoniam; Lacuna : (9r) Gr: [Ab occultis] meis;
+                        GrV: Simei non fuerint; Of: Dextera domini*; Cm: Domine quis habitavit; Fer.
+                        4 Hebd. 3 Quad. In: Ego autem in domino speravi; InPs: In te domine; Gr:
+                        Miserere mihi domine; GrV: Conturbata sunt; Of: Domine fac mecum; OfV: Deus
+                        laudem meam; OfV: Locuti sunt adversum me; (9v) Cm: Notas mihi fe[cisti];
+                        Fer. 5 Hebd. 3 Quad. In: Salus populi ego sum dicit; InPs: Attendite populus
+                        meus; Gr: Oculi omnium; GrV: Aperis tu manum tuam; Of: Si ambulavero; OfV:
+                        In quacumque; OfV: Adorabo ad templum; (4r) [Fer. 6 in Parasceve] Hy: Crux
+                        fidelis inter omnes. Pange lingua gloriosi (AH 50-66); (4v) Sabbato Sancto
+                        Tc: Cantemus domino gloriose; TcV: Adjutor et protector; TcV: Hic deus meus;
+                        TcV: Dominus conterens bella; Tc: Vinea facta est dilecto; TcV: Et maceriam;
+                        TcV: Et edificavi; TcV: Et torcular fodi in ea; Tc: Attende caelum; TcV:
+                        Exspectetur sicut pluvia; (1r) TcV: Sicut ymber super gramina; TcV: Date
+                        magnitudinem; TcV: Deus fidelis; Tc: Sicut cervus desiderat; TcV: Sitivit
+                        anima mea; TcV: Fuerunt mihi lacrimae meae; Hy: Rex sanctorum angelorum, (AH
+                        50-183); (1v) : Kyrieleison*; : Gloria in excelsis*; AlV: Confitemini domino
+                        quoniam bonus; Tc: Laudate dominum*; Dom. Resurrectionis AP: In die
+                        resurrectionis; AP: Vidi aquam egredientem; Hy: Salve festa dies (AH 50-69);
+                        (2r) AP: Cum rex gloriae Christus; AP: Sedit angelus ad sepulcrum; AV:
+                        Crucifixum in carne; AV: Recordamini quomodo praedixit; (2v) In: Resurrexi
+                        et adhuc tecum sum; InPs: Domine probasti me; Gr: [Haec] dies; GrV:
+                        [Confit]emini domino; AlV: Pascha nostrum; AlV: Epulemur [in az]ymis; Of:
+                        [Terra] tremuit et quievit; OfV: [Notus] in Judaea deus; OfV: [Et fact]us
+                        est in pace; (3r) OfV: Ibi confregit; Cm: Pascha nostrum; Fer. 2 p. Pascha
+                        In: Introduxit vos dominus; InPs: Confitemini; Gr: Haec dies *; GrV: Dicat
+                        nunc Israel; AlV: Angelus domini descen[dit]; AlV: Respondens [autem]
+                        angelus; Of: Angelus domini descen[dit]; OfV: Euntes di[cite discipuli];
+                        (3v) OfV: Jesus ste[tit]; Cm: Surrexit [dom]inus; Fer. 3 p. Pascha In:
+                        [A]qua sapientie potavit eos; InPs: Confitemini domino; Gr: [Haec] dies *;
+                        GrV: Dicat nunc qui redempti sunt; AlV: [Sur]gens Jesus dominus noster; Of:
+                        Intonuit de cae[lo] dominus; OfV: Dili[gam] te. Der Inhalt beruht auf Cantus
+                        Planus Datenbank.
+                Musiknotation: Linienlose Neumennotation 
+            
+            \subsection{Entstehung}
+            
+                        Das Graduale ist nach Pfaff ein Produkt des Mondseer Liutoldscriptoriums. 
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Cod. 3656, Cod. 3912, Fragm. 612, Cod. Ser. n. 84, Cod. Ser. n.
+                        220; Cod. Ser. n. 222; Cod. Ser. n. 234; Cod. Ser. n. 236 (nach Klugseder
+                        Gruppe NNG1).
+                     
+            \subsection{Provenienz} 
+            
+                        Das Doppelblatt, das heute als f. 1 und 2 foliiert ist, wurde aus einer
+                        Mondseer Handschrift ausgelöst, nämlich Wien, ÖNB, Cod. 3759
+                        (http://data.onb.ac.at/rec/AL00176405), wo es als Vorderspiegel gedient hat
+                        (vgl. die Signaturvermerk mit Bleistift am Rand des f. 2r). Der
+                        Hinterspiegel dieser Handschrift, der ebenso ausgelöst wurde, ist sehr
+                        wahrscheinlich das zweite Doppelblatt unseres Fragmentkonvolut (heute
+                        foliiert ff. 3-4). Es ist zu behaupten, dass die andere zwei Einzel- und
+                        vier Doppelblätter (heute ff. 5-6, 7-8, 9, 10-11, 12-13, 14) auch aus
+                        Einbänden Mondseer Handschriften ausgelöst wurden. Besonder Nachweis für
+                        Mondseer Provenienz ist der Nachtrag auf f. 14r "Ego frater Jeronimus
+                        professus sum. Mensee. Fui hic. Legit frater Balthasar et hoc est
+                        verum".
+                        Makulaturtyp: Spiegel
+                        
+                     
+                \subsection{Lit.} Cantus Planus
+                        (http://www.cantusplanus.at/de-at/fragmentphp/fragmente/signaturGET.php?Signatur=sn00236);
+                        Mazal, SN I, S. 76-77
+                        (http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0749_b0076_jpg.htm);
+                        Klugseder, Mondsee, S. 34-129; Pfaff, Scriptorium und Bibliothek, Katalog
+                        Nr. 43.
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. Ser. n. 2070
+            \end{flushright}
+            \subsection{Athanasius der Große: Vita beati Antonii Abbatis, interprete Euagrio}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            209-220 x 150-160 mm \>  \> 1. Viertel 9. Jh.  \> Mondsee
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Athanasius, Vita beati Antonii Abbatis, interprete Euagrio: fol.1: PL 73,
+                        159D-160C; fol. 2: 162A-C.
+            
+            \subsection{Entstehung}
+            
+                        1. Viertel 9. Jh.  Mondsee (nach dem palaeographischen Befund).
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Cod. 1754, Cod. 3753, Cod. Ser. n. 2070, Cod. Ser. n.
+                        3763.
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Möglicherweise als Spiegel- oder Vorsatzblätter (Rostspuren)
+                        
+                     
+                \subsection{Lit.} Bischoff, Schreibschule II, S. 24 & Katalog III, S. 494.
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. Ser. n. 3202
+            \end{flushright}
+            \subsection{Lectionarium}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            ca. 10 x 280-320 \>  \> 1. Hälfte 9. Jh. \> Südostdeutschland
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Lesctiones aus den Episteln und Evangelien von der Weihnachtsvigil bis zum
+                        Freitag nach dem 4. Fastensonntag. Genaure Beschreibung vgl.
+                        Unterkircher.
+            
+            \subsection{Entstehung}
+            
+                        Dem Schriftbefund zufolge wurde die Handschrift im südost Deutschland
+                        (vgl. Bischoff) in der ersten Hälfte des 9. Jh. 
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Falzverstärkung
+                        
+                           Linz, OÖLB, Ink.-397
+                                                    Inhalt: Opuscula
+                                                    Entstehung: 
+                                                    Provenienz: Drucker: Johann Amerbach
+                                                    Einband: Fragment ausgelöst 1960.1481Basel
+                     
+                \subsection{Lit.} Bischoff, Schreibschule II, S. 25 & Katalog III, S. 494; Mazal,
+                        Katalog Ser. n. S.1f.; Fr. Unterkircher, Ein Lektionar-Fragment aus Mondsee,
+                        in: Melanges Eugene Tisserant, Band V (Studi e Testi, 235) 1964, S.
+                        413-426.
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. Ser. n. 3753 (Teil 1)
+            \end{flushright}
+            \subsection{: }
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            310 x 225 mm \>  \> 0801-0815 \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            2 Bll.: Ecclesiasticus; Liber Sapientiae; 4 Bruchstücke: Theologischer
+                        Text wohl Rufinus, Historia monachorum; Hieronymus, Vita Pauli; Athanasius,
+                        Vita Antonii
+            
+            \subsection{Entstehung}
+            
+                        0801-0815  (nach dem palaeographischen Befund).
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Cod. 15347; Cod. Ser. n. 3753, Fragm. 6, Fragm. 10. 
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: 
+                        
+                           Cod. 1477 
+                                                    Inhalt: 
+                                                    Entstehung: 
+                                                    Provenienz: 
+                                                    Einband: 
+                     
+                \subsection{Lit.} Bischoff, Schreibschule II, S. 22, 24 & Katalog III, S. 493-494
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. Ser. n. 3753 (Teil 2)
+            \end{flushright}
+            \subsection{Athanasius der Große: Vita beati Antonii Abbatis, interprete Euagrio}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            50-53 x 60-63 mm \>  \> 1. Viertel 9. Jh. \> Mondsee
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Athanasius, Vita beati Antonii Abbatis, interprete Euagrio: PL 73,
+                        137-138.
+            
+            \subsection{Entstehung}
+            
+                        1. Viertel 9. Jh. Mondsee (nach dem palaeographischen Befund).
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Cod. Ser. n. 3753; Cod. Ser. n. 2070; Cod. Ser. n. 3763.
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: aufgrund des Formats vielleicht Rückenhinterklebung
+                        
+                           Cod. 1477 
+                                                    Inhalt: Nicolaus de Lyra, Postilla super epistolas Pauli 
+                                                    Entstehung: 15. Jh., 1446Mondsee
+                                                    Provenienz: Provenienz: Wilhelmus Kogler aus Erding (Mönch in Mondsee, Profeß 1436):
+                        Schreiber; Vermerk fol. 260v [Unterkircher, Datierte II, 1971]. 
+                                                    Einband: Vorsignatur 'Lunael. f. 166'; Originaleinband, Beschläge und Schließen
+                        entfernt.         
+                     
+                \subsection{Lit.} Bischoff, Schreibschule II, S. 24
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. Ser. n. 3763
+            \end{flushright}
+            \subsection{Rufinus von Aquileja: Historia monachorum}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            variiert stark, kleinstes Stück: 26 x 44 mm, größtes Stück: 284 x 240 mm
+                        (Doppelblatt).  \>  \> 1. Viertel 9. Jh. \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Rufinus, Historia monachorum: PL 21, 416C-D, 417A-B, 417B, 417C-D,
+                        417D-418A, 418A-B, 421B, 421B-422A, 422C-424D, 425A-B, 425B-426A, 427B-428A,
+                        428E-429B, 429B-D, 434A-D, 435B-436B, 448B-449B, 454B-D; Hieronymus, Vita
+                        Pauli: PL 23, 17ff.); Vitae patrum: Athanasius, Vita Antonii: PL 73,
+                        129C-130B \frqq (1r-3v) De Apollonio; (4r-5v) De
+                            Ammone; (6r-12v) De Coprete, zwischen 11v und 12r fehlen mehrere
+                            Blätter, eines davon als Fragment in situ in Cod. 1754; (12v-13v) De
+                            abbate Syro; (14r-15v mit Textferlust inzwischen) De Heleno; (16r) De
+                            Helia, Text beginnt verstümmelt; (16r-v) De Pithyrione mit Textferlust
+                            am Ende; (17r-v) De Apelle mit Textverlust am Anfang und am Ende;
+                            (18r-v) De Pafnutio mit Textverlust am Ende; (19r) De Origene; (19r-v)
+                            De Evagrio; (20r-v) De alio sancto Macario, mit Textverlust; (21r-v)
+                            Hieronymus, Vita Pauli (PL 23, 27B-28A); (22r-v) ein weiteres Fragmente
+                            aus De vitis patrum, Vita Antonii (ieiuniis corpus omneuallabat
+                            ...-...quem propheta labsos).\flqq 
+                        
+            
+            \subsection{Entstehung}
+            
+                        1. Viertel 9. Jh.  (nach dem palaeographischen Befund).
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Cod. 1754, Cod. 3753, Cod. Ser. n. 2070, Cod. Ser. n.
+                        3763.
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: unklar, z. T. wohl als Spiegelblätter (Rostspuren)
+                        Ausgelöst aus Aus Mondseer Handschriften ausgelöst, u. a. Cod. 3838 und 3896.
+                                                    Inhalt: Sammelhandschrift; Aszetische Sammelhandschrift
+                                                    Entstehung: 15. Jhdt.: 1440-1460; 1436 und 1437Ohne Ort (Mondsee?)
+                                                    Provenienz: Cod. 3838: Andreas (Profeß in Mondsee 1447): Schreiber fol. 66r-182r
+                        [Staufer, Mondseer Gelehrte, 1864].
+                                                    Einband: Cod. 3838: Mondsee, Benediktinerkloster St. Michael (748-1791):
+                        Vorsignatur 'Lunael. o. 46'; Cod. 3896: Mondsee, Benediktinerkloster St.
+                        Michael (748-1791): Vorsignatur 'Lunael. f. 32'. 1950 und 1955 aus der
+                        Fragmentensammlung aufgestellt. 
+                     
+                \subsection{Lit.} Bischoff, Schreibschule II, S. 24 & Katalog III, S. 494. Mazal,
+                        Katalog. Series Nova, Teil 3, S. 254-55.
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. Ser. n. 4214
+            \end{flushright}
+            \subsection{Rituale}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            ca. 334 x 245 mm \>  \> 2. Hälfte 14. Jh. \> Mondsee (?)
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Ordo ad induendum novicorum. Ordo ad solmenem professionem faciendam. (1r)
+                        >In nomine domini amen. Incipit agenda et primo quomodo nouici sunt
+                        induendi. Nouicius hora capituli intret capitulum et coram domino abbate
+                        totoque conuentu petens sibi ordinem dari ... Quo facto dominus abbas
+                        benedicat vestes et habitumhoc modo< Domine Ihesu Christe qui tegmen
+                        nostre mortalitatis ...-... te indui mereatur. Qui cum deo. >Tunc ex[...]
+                        vestimentis dicens< Exuat te dominus veterem hominem cum actibus suis.
+                            Amen.\frqq  >et induat eum habitu religionis
+                            dicens<\flqq  Induat te dominus nouum hominem qui secundum deum
+                        creatus est in iustitia et sanctitate veritatis amen. >Tunc introducatur
+                        in chorum cum Ps< Lauda Iherusalem >Sequitur< Kyriel[eison]*, Pater
+                        noster*. V: Saluum fac seruum tuum; V: Conuertere domine usque quo oremus.
+                        (1r-v) Oratio: Deus misericors deus clemens cui bona cuncta ...-... valeat
+                        consortium. Per. Vgl. Walter von Arx, Das Klosterrituale von Biburg,
+                        Freiburg 1970, S. 225-227, Nr. 252-256. (1v) >Incipit ordo ad solempnem
+                        professionem faciendam. Primo relentes (?) profiteri veniant in capitulum et
+                        ... petant ut eorum professio admittatur et in ordine confirmentur ... illi
+                        vero procedentes prosternant se ante pulpitum et chorus pro eis
+                        respondeat<. V: Benedicam dominum in omni tempore semper laus eius more
+                        meo >et dominus abbas iterum cantet< Venite. >Illi surgentes
+                        procidant ad gradum et chorus< In domino laudabitur anima mea. Evovae
+                        audiant mansueti et letentur. >Dominus abbas cantet< Venite filii.
+                        >Illi surgentes procidant super gradum et chorus< Magnificate dominum
+                        mecum et exaltemus nomen eius (Can g01204b) >Dominus abbas< Audite me.
+                        >Ac illi surgentes procidant et chorus< V: Exquisiui dominum et
+                        exaudiuit me ... >Dominus abbas subiungat cantans. Tunc surgentes
+                        accedant ad altare et chorus cantet<. (2r) R: Tollite iugum meum super
+                        vos (Can 007770); A: Iugum enim meum suaue est (Can 003520); A: Tollite
+                        iugum meum (Can 005158); >Post superinpositas cappas inponat dominus
+                        abbas hanc antiphonam< A: Coronauit eos dominus corona iusticie et dedit
+                        illis nomen sanctum glorie. Oremus. (2r-v) Deus eternorum bonorum
+                        fidelissime promissor ...-... immortalitate vestri. Per (Vgl. Klosterrituale
+                        von Biburg, S. 227, Nr. 258). >Tunc ponant omnes capita super altare et
+                        dominus abbas dicat orationem<. Deus castorum corporum benignus ...-...
+                        te donante mereantur inueniri. Per. >Postea suscipiens abbas manus
+                        singulorum et osculetur et dicat< Pax tibi >Et sic eant ad omnem
+                        congregacionem recipientes a singulos flexis genibus osculum pacis in signum
+                        fraterne dilectionis et coadunacionis. Interim chorus cantet< A: Ecce
+                        quam bonum et quam (Can 004496). (3r) Oratio, Text beginnt verstümmelt: per
+                        intercessionem beatissimi benedicti quem praecipue huius sanctae
+                        institutionis legislatorem dedisti ...-... uiuis et gloriaris deus
+                        perinfinita secula seculorum. Amen (Vgl. Das Klosterrituale von Biburg, S.
+                        225-226, Nr. 251). >Tunc ponant [...] ad pedes domini abbatis et
+                        benedicit tunicam et scapulare hoc modo< Deus qui vestimentum salutare et
+                        indumentum eterne iocunditatis ... te protegente custodiant. Per. Oremus.
+                        Adesto domine supplicacionibus nostris et hos famulos tuos bene☩dicere
+                        ...-... (1v) in monasterio persistere et uitam percipere mereantur eternam.
+                        Per. >Tunc chorus tam diu cantet hanc antiphonam repetendo eam donec
+                        omnes induantur tunicis et scapularibus et dominus aspergat et thurificet
+                        vestes et nouicios<. A: Qui sequitur me (Can 004496); >Ad exeundum
+                        dicat abbas singulis< Exuat te dominus veterem hominem cum accibus suis.
+                        >Ad induendum tunicam et scapulare dicat< Induat te dominus nouum
+                        hominem qui secundum deum creatus est in iusticia et sanctitate veritatis
+                        (Vgl. Klosterrituale von Biburg, S. 226, Nr. 253-54). >Tollant singuli
+                        cappas de [capi]tibus dones induant et cucullas. Benedictio cuculle<
+                        Domine Ihesu Christe qui tegmen nostre mortalitatis ...-... te induere
+                        mereantur. Qui cum deo (Vgl. Klosterrituale von Biburg, S. 226, Nr. 252);
+                        >Tunc dominus abbas singulis cappam scapularis et cucullam inponat
+                        dicens< Accipe vestem sanctam mundi duius contemptum significantem quam
+                        perferas ante tribunal Christi. >Et sic faciat singulis interim chorus
+                        cantet has antiphonas<, bricht ab. 
+                Musiknotation: Gotische Notation 
+            
+            \subsection{Entstehung}
+            
+                        2. Hälfte 14. Jh. Mondsee (?) (nach dem palaeographischen Befund).
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Cod. 928, Cod. Ser. n. 4214 (nach Klugseder Gruppe
+                        GNR1).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Spiegel und fliegendes Blatt
+                        
+                           Wien, ÖNB, Cod. 1410
+                                                    Inhalt: Postilla super Esaiam et Jeremiam
+                                                    Entstehung: 15. Jhdt.; 1448, 1449Mondsee
+                                                    Provenienz: Wilhelmus Kogler aus Erding (Mönch in Mondsee, Profeß 1436): Schreiber;
+                        Vermerk fol. 163v, 285r.
+                                                    Einband:  Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur Lunael.
+                        f. 162 [Unterkircher, Datierte Handschriften].
+                     
+                \subsection{Lit.} CantusPlanus
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. Ser. n. 11941
+            \end{flushright}
+            \subsection{wahrscheinlich Sacramentarium (wenige Gesänge)}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            variiert stark: maximal 285 x 200 \>  \> 12. Jh. \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Vorhanden sind u. a. die Gebete für folgende Feste (aufgrund der
+                        Beschneidungen nicht alle identifizierbar): s. Stephani, Epiphania, Dom. p.
+                        Epiphaniam, Dom. 2 p. Epiph., Dom. 3 p. Epiph., Dom. 4 p. Epiph., Dom. V p.
+                        Theophania, Dom. VI p. Theophania, Nat. s. felicis in pincis, Nat. s.
+                        Marcelli papae, Nat. s. Agnae virg., Purificatio Mariae, Nat. s. Agathae,
+                        Sabb. de Passione, Dom. in Palmis, Fer. 2 Maj. Hebd., Fer. 3, Fer. 4, Fer. 5
+                        in Cena Dom., Fer. 5 in Cena Dom., Dom. 3 p. Pascha, Dom. 4 p. Pascha, Dom.
+                        5 p. Pascha, Vigilia Pentecostes, Vigilia s. Iohannis baptistae, Nat. s.
+                        Praxedis, Nat. s. Stephani papae, Nat. ss. Felicissimi et Agapiti, Nat. S.
+                        Sixti mart., Nat. S. Afrae, S. Laurentius, Nat. s. tiburtii, Nat. s.
+                        Yppoliti, Nat. S. Eusebii, Nat. s. Hermetis, Nat. s. Augustini. Enthalten
+                        sind außerdem folgende Gesänge: (2r) Dom. p. Epiphaniam -In: #In excelso
+                        throno* (g00613); Dom. 2 p. Epiph. -In: #Omnis terra*; (2v) Dom. 3 p.
+                        Epiph.-In: #Adorate deum*; (2v) Dom. 4 p. Epiph. -In: #Adorate deum*;
+                        [Lacuna]; (8r) Sabb. de Passione -In: #Judica me deus*; Dom. in Palmi. In:
+                        #Domine ne longe*; (8v) Fer. 2 Maj. Hebd. In: #Judica domine*; [Lacuna];
+                        (10v) Fer. 5 in Cena Dom. Cm: Dominus Jesus postquam cenavit* (g00920); Fer.
+                        5 in Cena Dom. A: Calicem salutaris*; Fer. 5 in Cena Dom. Ps: Credidi
+                        propter*; Fer. 5 in Cena Dom. -A: Cum his qui oderunt* (Cao002008); Fer. 5
+                        in Cena Dom. Ps: Ad dominum*; Fer. 5 in Cena Dom. A: Ab hominibus iniquis*
+                        (Cao001199); Fer. 5 in Cena Dom. Ps: Eripe me*; Fer. 5 in Cena Dom. A:
+                        Custodi me* (Cao002082); Fer. 5 in Cena Dom. Ps: Domine clamavi*; Fer. 5 in
+                        Cena Dom. A: Considerabam* (Cao001891); Fer. 5 in Cena Dom. Ps: Voca mea*;
+                        Fer. 5 in Cena Dom. W: Christus factus est pro nobis* (Cao007983); Fer. 5 in
+                        Cena Dom. A: Cenantibus autem* (Cao001781); Fer. 5 in Cena Dom. Ps:
+                        Magnificat*; [Lacuna]; (14r) Dom. 3 p. Pasch. In: #Jubilate deo*; Dom. 4 p.
+                        Pasch. In: #Cantate domino*; (14v) Dom. 5 p. Pasch. In: #Vocem
+                        jucunditatis*; [Lacuna]; (15r) Vigilia Pentecoste. Tc: Attende caelum*;
+                        (15r) Vigilia Pentecoste. Tc: Vinea facta est*; Vigilia Pentecoste. Tc:
+                        Sicut cervus desiderat*; (20r) (bei Klugseder nicht verzeichnet) Fest
+                        unklar: Clamaverunt iusti (unidentifiziert); -Of: Anima nostra (wohl
+                        g00576). Alle Gesänge bis auf jene von (10v) und (20r) von etwas späterer
+                        Hand am Rand nachgetragen; mit * sind die Verweise auf Gesänge bezeichnet. 
+                Musiknotation: Linienlose Neumennotation 
+            
+            \subsection{Entstehung}
+            
+                        1983 aus der Fragmentensammlung in die Reihe "Series-Nova"
+                        einsigniert.
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Fragm. 9, Cod. 1913, Ser. n. 4227, Ser. n. 11941 und Linz,
+                        OÖLB, Ink. 372 (nach Klugseder Gruppe NNM2).
+                     
+            \subsection{Provenienz} 
+            
+                        Mondsee
+                        Makulaturtyp: verschiedene Verwendungen: v.a. Spiegel, Vorsatzblätter 
+                        
+                           Aus mehreren Handschriften Mondseer Provenienz abgelöste Fragmente: Cod.
+                        3708, Cod. 3692, Cod. 5132, Cod. 3718, Cod. 929, Cod. 2215.
+                                                    Inhalt: Cod. 929: Theologische Sammelhandschrift; Cod. 2215: Justinian,
+                        Institutiones; Cod. 3692: Sammelhandschrift; Cod. 3708: Theologische
+                        Sammelhandschrift; Cod. 3718: Sermones in evangelia dominicalia: Pars
+                        hiemalis; Cod. 5132: Sammelhandschrift; 
+                                                    Entstehung: Cod. 929: 14. Jh.; Cod. 2215: 14. Jh; Cod. 3692: 15. Jh. (um 1450); Cod.
+                        3708: 2. Hälfte 15. Jh.; Cod. 3718: 15. Jhdt. (1471); Cod. 5132: 15. Jhdt.
+                        (1469).Cod. 929: ohne Ort; Cod. 2215: ohne Ort; Cod. 3692: ohne Ort; Cod. 3708:
+                        Mondsee; Cod. 3718: Mondsee; Cod. 5132: Österreich?.
+                                                    Provenienz: 
+                                                    Einband: Cod. 929: Provenienz: Mondsee, Benediktinerkloster St. Michael (748-1791):
+                        Vorsignatur 'Rec. 3317 [Lunael. f. 193]'; Cod. 2215: Provenienz: Mondsee,
+                        Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Lunael. q. 107';
+                        Cod. 3692: Provenienz: Mondsee, Benediktinerkloster St. Michael (748-1791):
+                        Vorsignatur 'Lunael. f. 50'; Cod. 3708: Mondsee, Benediktinerkloster St.
+                        Michael (748-1791): Vorsignatur 'Lunael. f. 97'; Cod. 3718: Provenienz:
+                        Heinricus pauper (Mönch in Mondsee um 1471): Schreiber; [Unterkircher,
+                        Datierte III, 1974]. - Mondsee, Benediktinerkloster St. Michael (748-1791):
+                        Vorsignatur 'Lunael. f. 115'; Cod. 5132: Provenienz Mondsee,
+                        Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Lunael. f.
+                        26'.
+                     
+                \subsection{Lit.} CantusPlanus
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Cod. Ser. n. 13786
+            \end{flushright}
+            \subsection{Graduale}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            248-254 x 163-171 mm \>  \> Mitte 12. Jh. \> Mondsee (?)
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Teil für Fer. 4 Maj. Hebd, Fer. 5 in Cena Dom., Ad mandatum. (1r) [Fer. 4
+                        Maj. Hebd.] Cm: [Potum meum] cum fletu temperabam (Can g00883); >Fer. V
+                        Cene domini< In: Nos autem gloriari* (wohl Can g00180); Gr: Christus
+                        factus est (Can 505005); GrV: Propter quod deus exaltauit (Can 505005a); Of:
+                        Pro[tege] domine plebem (Can g00376); OfV: T[e sancta] dei crux (Can
+                        g00376b); OfV: Saluator mondi salua nos (Can g00376c); (1r-v) OfV: Qui pro
+                        mundi salute (Can g00376a); Cm: Dominus Iesus postquam (Can g00920.1);
+                        >Ad mandatum< A: Cena facta dixit Iesus (Can 001780); Ps: Miserere mei
+                        [...]*; A: Postquam surrexit dominus (Can 004340); Ps: Deus [misereatur]*;
+                        A: Si ego dominus (Can 004889); Ps: Quam dilecta* (Can 920083); Ps: Beati
+                        imma[culati]* (Can 920118); A: In hoc cognoscent omnes (Can 003239); Ps:
+                        Domine exaudi*; A: Diligamus nos inuicem (Can 002231). Die Angaben im Inhalt
+                        berufen sich auf Cantus Planus Datenbank.
+                Musiknotation: Linienlose Neumennotation 
+            
+            \subsection{Entstehung}
+            
+                        Mitte 12. Jh. Mondsee (?) (nach dem palaeographischen Befund).
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Cod. Ser. n. 13786 und Fragm. 141 (nach Klugseder Gruppe
+                        NNG9).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Fliegendes Blatt
+                        
+                           Wien, ÖNB, Cod. 3697
+                                                    Inhalt: Sammelhandschrift
+                                                    Entstehung: 15. Jhdt.
+                                                    Provenienz: 
+                                                    Einband: Fragment ausgelöst 1965. Provenienz: Mondsee, Benediktinerkloster St.
+                        Michael (748-1791): Vorsignatur 'Lunael. f. 123'. 
+                     
+                \subsection{Lit.} CantusPlanus
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 1
+            \end{flushright}
+            \subsection{Breviarium}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            ca 17 x 295 mm \>  \> 12. Jh.  \> Mondsee (?)
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            [Festum Ioannis Baptistae, 24. Juni:] \frqq In
+                            matutinum laudibus\flqq . A: \textit{Elisabeth Zacharie magnum uirum genuit} (Can 002639); A: \textit{Puer qui natus est nobis} (Can 004412); [Festum Ioannis et Pauli, 26. Juni] Lectio aus
+                        einem Martyrologium: \textit{christianos ad se inuitantes ordinauerunt de omnibus quae relinquere poterant. Ac per totos decem dies in}[cessanter]; R:\textit{ Isti sunt duo uiri misericordie} (Can 007015); Lectio aus Beda Venerabilis, Homilia
+                        XXVII - erhalten sind Fragm. 1-1 Recto: \textit{sui nominis pariterque ho}[norem Tiberii Caesaris sub] \textit{quo ipse regnabat. In cuius partes ueni}[ens], Fragm. 1-2 Recto:
+                            [res]\textit{pondit in Petro omnibus. Ideo quis alii de se sent}[iant] \textit{inquirit ut expositis primo sententiis}, Fragm. 1-1 Verso: \textit{apostolo attestante qui ait. Quod oculus non ui}[dit nec au]\textit{ris audiuit nec in cor hominis ascen}[dit]; [Festum Petri et Pauli, 29.
+                        Juni:] A: \textit{Significauit dominus Petro qua morte} (Can
+                        004947); A: \textit{Ego pro te rogaui Petre} (Can
+                        002583).
+                Musiknotation: Linienlose Neumennotation 
+            
+            \subsection{Entstehung}
+            
+                        12. Jh.  Mondsee (?) (nach dem palaeographischen Befund).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Falzverstärkung
+                        Ausgelöst aus Wien, ÖNB, Cod. 3726
+                                                    Inhalt: Sammelhandschrift
+                                                    Entstehung: 15. Jhdt.Ohne Ort
+                                                    Provenienz: 
+                                                    Einband: Provenienz: Mondsee, Benediktinerkloster St. Michael (748-1791):
+                        Vorsignatur 'Lunael. f. 206'.
+                     
+                \subsection{Lit.} CantusPlanus
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 2
+            \end{flushright}
+            \subsection{Breviarium}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            ca 10 x 210 mm \>  \> 9. Jh. \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            (1ra-rb) Hieronymus, Homilia in Iohannem evangelistam (PL 597; CCSL 78, S.
+                        517-523): [phari]sei seruate. Deus includi non [...] Qui ergo appendet
+                        mundum uno sepulchro non potest teneri ...-... [qui]dem in uisu set ipse
+                        error h[abebat]; (1va-vb) Augustinus Hipponensis, Sermo 220 (PL 38, 1089):
+                        [firmis]sima retinemus semel Christum [... opulent]um pro perditis
+                        quesito[rem] ... - ... pascha uenturum. Sic intelle[gi]. 
+            
+            \subsection{Entstehung}
+            
+                        9. Jh.  (nach dem palaeographischen Befund).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Falzverstärkung
+                        Ausgelöst aus Wien, ÖNB, Cod. 3800
+                                                    Inhalt: Sammelhandschrift
+                                                    Entstehung: 15. Jhdt.; 1437Lambach
+                                                    Provenienz: 
+                                                    Einband: Provenienz: Mondsee, Benediktinerkloster St. Michael (748-1791): Vermerk
+                        fol. 1r; Vorsignatur 'Lunael. q. 125'. 
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 3a
+            \end{flushright}
+            \subsection{Diurnal / Collectarium}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            ca 13 x 295 \>  \> 12. Jh. \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Capitula und Orationes Fragm. 3a-1: (1r) Teil für die Wiehnachts-Vigilie:
+                            >\frqq Oratio\flqq < \textit{Deus qui nos redemptionis nostre annua ...-... uideamus} (Deshusses Nr.
+                        33). \frqq Alia ad matutinam\flqq 
+                           \textit{Deus qui hanc sacratissimam noctem ...-... in celo perfruamur }(Deshusses Nr. 36). Capitulum: Is 9:2; Oratio: \textit{Da qs omnipotens deus ut qui noua incarnati} (!) \textit{uerbi} ...-... \textit{fulget in mente }(Deshusses Nr. 42); Capitula: Is 62:11, Tit 3:4-5, Hbr 1:1-2, Gal
+                        4:4-5; Orationes:\textit{ Concede nobis qs omnipotens deus ...-... cordibus oriatur} (Deshusses Nr. 57), \textit{Concede qs omnipotens deus ut nos unigeniti ...-... seruitus tenet. Per eundem}
+                        (Deshusses Nr. 49), (1r-v) \textit{Da nobis qs domine deus noster ut ...-... pertinere} [consortium] (Deshusses Nr. 40), (1v) \textit{Praesta qs omnipotens deus ut natus hodie ...-... ipse largitor} (Deshusses Nr. 53); \frqq De sancta
+                            Maria\flqq . \textit{Deus qui per beate Marie uirginis partu ...-... contagiis exuamur} (Deshusses Nr. 57); \frqq Stephani protomartyris\flqq  Capitulum: \textit{Elegerunt apostoli Stephanum diaconum ...-... accipe spiritum meum }(Act 6-7); Orationes: \textit{Da nobis qs domine imitari ...-... exorare. Dominum nostrum }(Deshusses Nr. 62),
+                            \textit{Omnipotens sempiterne deus qui primicias ...-... persecutoribus exorauit dominum} (Deshusses Nr. 65); \frqq Iohanis evangelistae\flqq  Capitula: Ecl 15:1-2,
+                        Ecl 15:5, (2r) Sir 15:3, 6; Orationes: \textit{Ecclesiam tuam domine benignus ...-... sempiterna }(Deshusses Nr. 67), \textit{Beati Iohanis ...-... concede} (Deshusses Nr. 70); \frqq In natiuitate innocentum\flqq  Capitula: Apc 14:1,
+                        Apc 7:4, Apc 14:3-5; Orationes: \textit{Deus cuius preconium ...-... fateatur} (Deshusses Nr. 75), \textit{Deus qui licet sis ...-... loquentes. Per eundem} (Deshusses Nr. 78); (2r-v)
+                            \frqq Siluestri pappae\flqq  Oratio: \textit{Da quaesumus omnipotens deus ut beati Siluestri ...-... et salutem. Per} (Deshusses Nr. 79); (2v) \frqq Infra octaua capitula\flqq : Tit 2:11-12, Tit 2:14, Gal 4:1-2, Gal 4:3,
+                        Gal 4:6, Is 62:11; Orationes: \textit{Omnipotens sempiterne deus dirige ...-... habundare. per eundem} (Deshusses Nr. 85); \frqq In circumcisione ad vesperam\flqq 
+                           \textit{Gaudete et laudate ...-... salutare dei nostri} (Is
+                        52:9-10), Oratio: \textit{Deus qui salutis eterne beate Marie ...-...susciperem. Dominum nostrum} (Deshusses Nr. 82); Capitulum:
+                        Gal 3:23, \frqq Capitulum in die \flqq Gal 3:24-25.
+                        Fragm. 3a-2: (1r) [Hebd. Quinquagesimae Fer. 5 ad sanctum Georgium]
+                        Capitula: 2.Sm 20:5, Is 38:5-6; Oratio: \textit{Deus qui culpa ofenderis ...-... meremur auerte. Per }(Deshusses Nr. 158), \frqq Super populum\flqq 
+                           \textit{Parce domine ...-... miseratione respiret. Per}
+                        (Deshusses 161); Fer. 6 Capitula: Is 58:1, Is 58:2, Is 58:3-4, Is 58:6, (1v)
+                        So 2:3; Orationes: \textit{Adesto domine supplicationibus nostris et concede ...-... deuoto seruitio celebremus}, >Super
+                        populum< \textit{Praesta famulis tuis domine habundantiam ...-... semper esse deuotus. Per}; Dom Quadragesimae Capitula: 2.Cor
+                        6:1-2, 6:2-3, 6:4-6; (2r) [Tempore Quadragesimali Fer. 2] Oratio: \textit{Conuerte nos deus salutaris }...-... [d]\textit{isciplinis. Per }(Deshusses Nr. 171), >Super
+                        populum< \textit{Absolue qs domine nostrorum uincula ...-... auerte. Per} (Deshusses Nr. 174); Fer. 3 Capitula: Is 55:6, 55:7,
+                        55:8-9, 55:11; Oratio:\textit{ Respice domine fami}[liam],
+                        bricht ab (Deshusses Nr. 175); (2v) [Fer. 4 Orationes: Praeces nostras qs
+                        ...] \textit{cuncta nobis aduersantia dexteram tuae maiestatis extende. Per} (Deshusses nr. 179), \textit{Mentes nostras qs domine lumine ...-... ualeamus. Per} (Deshusses Nr. 183); Fer. 5
+                        Capitula: Gn 15:1, Ez 18:1-2, 18:4, 18:21, 18:5-6; Oratio: \textit{Deuotionem populi tui qs domine benignus}, bricht ab (Deshusses Nr.
+                        42).
+            
+            \subsection{Entstehung}
+            
+                        12. Jh.  (nach dem palaeographischen Befund).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Falzverstärkung
+                        Ausgelöst aus Wien, ÖNB, Cod. 3701
+                                                    Inhalt: 
+                                                    Entstehung: 
+                                                    Provenienz: Ulricus Seus, genannt oblatus (aus Ansbach; Mönch in Mondsee; Profeß 1453;
+                        +1486): Schreiber.
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Lunael.
+                        f. 113'. 
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 3b
+            \end{flushright}
+            \subsection{: }
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+             \>  \> 2. Hälfte 11. Jh. / 1. Hälfte 12. Jh. \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Unidentifiziertes Fragment.
+            
+            \subsection{Entstehung}
+            
+                        2. Hälfte 11. Jh. / 1. Hälfte 12. Jh.  (nach dem palaeographischen Befund).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Falzverstärkung
+                        Ausgelöst aus Wien, ÖNB, Cod. 3701
+                                                    Inhalt: 
+                                                    Entstehung: 
+                                                    Provenienz: Ulricus Seus, genannt oblatus (aus Ansbach; Mönch in Mondsee; Profeß 1453;
+                        +1486): Schreiber.
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Lunael.
+                        f. 113'. 
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 3c
+            \end{flushright}
+            \subsection{Aelius Donatus: Ars minor}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+             \>  \> letztes Viertel 13. Jh. / 1. Viertel 14. Jh. \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Erhalten nur einzelne Buchstaben von De nomine und den Anfang von De
+                        Pronomine: \textit{litter}[a ...]\textit{ que inte}[rdum recipit. pronomini quot accidunt? Sex. quae?] \textit{Qual}[itas genus numerus figura persona casus.
+                        qualitas] \textit{prono}[minum ...] usw. bis [et pluraliter
+                        isti] \textit{istorum}.
+            
+            \subsection{Entstehung}
+            
+                        letztes Viertel 13. Jh. / 1. Viertel 14. Jh.  (nach dem palaeographischen Befund).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Falzverstärkung
+                        
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 4a
+            \end{flushright}
+            \subsection{Graduale}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            ca. 12 x 285 mm \>  \> 1. Viertel 12. Jh. \> Mondsee
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Gesänge erhalten zu Festum Marcelli, Priscae, Fabiani et Sebastiani,
+                        Agnetis, Vincentii, Dom. 3 p. Epiph. (1r) [Marcelli] Gr: [Inveni David
+                        servum meum …] \textit{auxiliabitur ei }(Can g01272); GrV: \textit{Nichil profi}[ciet] (Can g01272a); OfV: \textit{Posui adiutorium} (Can g01278a); Cm: [Domine quinque
+                        talenta … quin]\textit{que superlucratus }(Can g00012);
+                        [Priscae] In: L[oquebar de testimoniis tuis] (Can g00363); Lacuna; (1v)
+                        [Priscae] GrV: [Propter veritatem … mirabili]\textit{ter dextera tua} (Can g01381c); Of: [Filiae regum …] \textit{astitit regina} (Can g01388); OfV: [Virga recta est … d]\textit{ilexisti iusticiam} (Can g01388a); Cm: [Feci judicium … m]\textit{ichi superbi ad omnia }(Can g01379); Fabiani,
+                        Sebastiani In: [Intret in conspectu tuo …] \textit{compeditorum} (Can g01310); Gr: [Gloriosus deus in sa]\textit{nctis mirabilis }(Can g01311); Lacuna; (2r) Fabiani,
+                        Sebastiani Of: [Laetamini in domino] (Can g00116); OfV: \textit{Beati quorum} (Can g00116a); OfV: [Pro hac orabit …] \textit{multarum ad eum non approximabunt }(Can g00116b); Cm:
+                        [Multitudo languentium …ex]\textit{iebat et sanabat omnes}
+                        (Can g00043); Agnetis In: \textit{M}[e exspectaverunt] (Can
+                        g01373); Agnetis Cm: [Quinque prudentes] \textit{uirgines}
+                        (Can g01389); (2v) [Dom. 3 p. Epiph.] In: [Adorate deum omnes angeli] (Can
+                        g00625); InV: [Dominus] \textit{regnavit exsultet} (Can
+                        g00625a); Gr: \textit{Timebunt gentes} (Can g00626); GrV: \textit{Quoniam edi}[ficavit] (Can g00626b); Of: [Dextera
+                        domini …] \textit{sed uiuam} (Can g00629); OfV: \textit{In tribula}[tione invocavi] (Can g00629a); OfV: \textit{Inpulsus uersatus sum} (Can g00629b); Vincentii In:
+                            \textit{Letabitur iustus} (Can g01294); Lacuna. Die
+                        Angaben berufen sich auf Cantus Planus.
+                Musiknotation: Linienlose Neumennotation 
+            
+            \subsection{Entstehung}
+            
+                        1. Viertel 12. Jh. Mondsee (nach dem palaeographischen Befund).
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Cod. 3615, Fragm. 4a (nach Klugseder Gruppe NNG5).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Falzverstärkung
+                        Ausgelöst aus Wien, ÖNB, Cod. 3692
+                                                    Inhalt: Sammelhandschrift
+                                                    Entstehung: 15. Jhdt. (um 1450)Ohne Ort
+                                                    Provenienz: 
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Lunael.
+                        f. 50'.
+                     
+                \subsection{Lit.} Pfaff, Scriptorium und Bibliothek S.26, Katalog Nr. 7;
+                        =HYPERLINK("http://www.cantusplanus.at/de-at/fragmentphp/fragmente/signaturGET.php?Signatur=Fragm004","CantusPlanus")
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 4b
+            \end{flushright}
+            \subsection{Sacramentarium}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+             \>  \> 1. Viertel 12. Jh. \> Mondsee
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            
+            
+            \subsection{Entstehung}
+            
+                        1. Viertel 12. Jh. Mondsee (nach dem palaeographischen Befund).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Falzverstärkung
+                        Ausgelöst aus Wien, ÖNB, Cod. 3692
+                                                    Inhalt: Sammelhandschrift
+                                                    Entstehung: 15. Jhdt. (um 1450)Ohne Ort
+                                                    Provenienz: 
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Lunael.
+                        f. 50'.
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 6
+            \end{flushright}
+            \subsection{Biblia}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            ca. 280 x 17 mm \>  \> Anfang 9. Jh. \> Mondsee
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Fragm. 6-1: Sap 15,8-16,6: \textit{quem habebat ... in breui turba}[ti] (mit Textverlust); Fragm. 6-2: Sap 12,8-27: \textit{paulatim exterminarent ... indignabantur per haec};
+                        Fragm. 6-3: Sap 13,1-19: \textit{Uani sunt a}[utem] \textit{... petit ab eo}. 
+            
+            \subsection{Entstehung}
+            
+                        Anfang 9. Jh. Mondsee (nach dem palaeographischen Befund).
+                        Weitere Fragmente von dergleichen Handschrift: BB3 (Wien, ÖNB, Cod. 15347; Cod. Ser. n. 3753 + Fragm. 6 + Fragm. 10)
+                        Fragmente derselben Handschrift, wo wahrscheinlich mehrere Bücher des Alten
+                        Testamentes zusammengebunden waren, befinden sich unter Signaturen: Wien,
+                        ÖNB, Cod. 15347, Cod. Ser. n. 3753 und Fragm. 10.
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Falzverstärkung
+                        
+                     
+                \subsection{Lit.} Bischoff, Bernhard. “Die Mondseer Schreibschule des VIII. und IX.
+                        Jahrhunderts.” In Die südostdeutschen Schreibschulen und Bibliotheken in der
+                        Karolingerzeit, II: Die vorwiegend österreichischen Diözesen: 9–26.
+                        Wiesbaden, 1980.
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 7
+            \end{flushright}
+            \subsection{Sacramentarium}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            15 x Fragm. 7-1: 69 x 280-285; Fragm. 7-2: 122 x 280-295 \>  \> 10. Jh. \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Fragm. 7-1 (1r) [Commune apostolorum] \textit{et patrociniis confoueri. Per; Esto domine plebi tuae sanctificator et custos ut apostolorum tuorum ill. ...-… secura deseruiat}. [Commune
+                        evangelistarum] \frqq In natitale evangelistae\flqq .
+                            \textit{Magnificet te domine sancti tui euangelistae ill. beata sollemnitas}. (1v) [tuo]\textit{rum ill sollemnia colimus eorum etiam uirtutes imitemur. Per; Concede qs omnipotens deus ad eorum …-… sollemnitate gaudere. Per }(Deshusses Nr. 494); \textit{Concede qs omnipotens deus ut sanctorum martyrum tuorum ill quorum celebramus uicto}[rias], bricht ab (Deshusses Nr. 3266).
+                        (2r) [Commune virginum] \textit{fidei proficiamus exemplo. Per}; \textit{Omnipotens sempiternae deus qui infirma mundi ... ut qui beate ill martyri}[s] \textit{tuae ...-... patrocinia sentiamus. Per};\textit{ Deus qui nos beatae ill martyris tuae sollemnitate letificas da qs ut quam uenera}[mur], bricht ab; (2v) [...] \textit{da nobis quaesumus in aeterna laetitia de eius societate gaudere. Per}; \textit{Da qs domine fidelibus tuis ut qui beatae ill uirginis ...-... ad inuicem. Per}; \textit{Domine deus omnipotens cui omnis deuota constat uirginitas praesta quesumus ut beatae ill uirginis et martyris tuae ueneranda}, bricht ab; Fragm. 7-2 (1r)
+                        [Commune confessoris: Adesto domine supplicationibus nostris ut] \textit{qui ex iniquitate nostra reos nos esse cognoscimus beati ill confessoris tui intercessione liberemur. Per; Sancti confessoris tui ill qs domine …-… nobis augmentum. Per}; \textit{Adesto domine fidelibus tuis nec eos …-… gloriosa confession. Per}
+                        (Deshusses Nr. 3242); (1v) \frqq In natale sanctorum
+                            confessorum\flqq . \textit{Sanctorum confessorum tuorum quaesumus domine foueat nos praeciosa confessio ...-... intercessio tueatur. Per} (Deshusses Nr. 3373); [E]\textit{xaudi domine preces nostras …-… foueamur auxiliis. Per }(Deshusses Nr.
+                        701); [D]\textit{eus qui nos conspicis ex nostra …-… exempla restaura. Per} (Deshusses Nr. 732); \textit{Exaudi domine populum tuum sanctorum con}[fessorum], bricht ab. (2r) [colimus]\textit{mus a cunctis malis imminentibus eorum intercession liberemur. Per}; \textit{Praesta qs omnipotens deus ut qui gloriosus martyres fortes …-… sentiamus. Per}. (Deshusses Nr. 613);
+                            \textit{Deus qui nos sanctorum martyrum tuorum ill confessionibus …-… intercession gaudere. Per}; \textit{Deus qui sanctis tuis ill ad hanc gloriam …-… intercedentibus meritis. Per}. (2v) [Commune pluriorum Martyrum extra Tempus Paschale:] \textit{Praesta domine praecibus nostris cum exultatione prouentum ...-... fideo constantiam subsequamur. Per}. [Oratio in natale
+                        sanctorum Felicissimi et Agapiti:] \textit{Deus qui nos concedis sanctorum martyrum tuorum Felicissimi et Agapiti natalicia colere, da nobis in aeterna leticia de eorum sociatate gaudere. Per}. (Nachtrag
+                        von einer zeitnaher Hand in dunkler Tinte). 
+            
+            \subsection{Entstehung}
+            
+                        10. Jh.  (nach dem palaeographischen Befund).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Falzverstärkung
+                        Ausgelöst aus Wien, ÖNB, Cod. 3693
+                                                    Inhalt: Sammelhandschrift
+                                                    Entstehung: 15. Jhdt.; 1415Wien ?
+                                                    Provenienz: 
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 9 olim: Fragm Cod. 78 Fragm. 67
+            \end{flushright}
+            \subsection{Sacramentarium}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            ca. 285 x 10-15 \>  \> 1. Hälfte 12. Jh. \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Fragm. 9-1 [Natale sancti Felicis in Pincis:] >C<oncede quaesumus
+                        deus ut ad [meliorem vitam sanctorum tuorum] exempla nos prouocent ...-...
+                        sollemnia agimu[s etiam actus imitemur. Per.] [Super oblata:] >H<ostia
+                        tibi domine beat[i Felicis con]fessoris tui ...-... ad perpetuum nobis
+                        t[ribue provenire subsiduum. Per.] u.a. [Natale sancti Marcelli Papae:]
+                        >P<reces populi t[ui domine] clementer exa[udi] ...-... passione
+                        laetem[ur. Per]. >S<uscipe quaesumus domine mune[ra dignanter oblata]
+                        et beati Marcelli ...-... auxilium pro[uenire concede. Per]. [>Dominica
+                        IV post Octavas epiphaniae. S]ecreta<. [...] huius sacrificii munus [...
+                        nost]ram ab omni malo [... muni]at. Per. ... >Dominica VI<. [Conserva
+                        populum tuum deus et tu]o nomini fac deuotum ...-... [aet]rna dona
+                        percipiet. Per. >Secreta<. [...]det quaesumus domine. Fragm. 9-2
+                        [Sabbato Sancto:] >I<N [PR]INCIPIO CREAV[IT] DEUS ce[lum].
+                        >Oratio< >D<eus qui mirabiliter crea[sti h]omi[nem et
+                        mi]rabilius ...-... peruenire; u. a. Zwischen den Gebeten, Verweise auf
+                        Gesänge u.a. >Tr.< >C<[ante]mus domino (Can g02371). Auf dem
+                        Verso, späterer Nachtrag (frühgotische Minuskel, letztes Viertel 12. Jh. /
+                        1. Viertel 13. Jh.) 21 Zeilen: Officium de [martyribus plur]ioribus ... Deus
+                        qui ineffabilis [...] tuae prouid[entia ...] seniores in conspectu di[vini]
+                        maiestatis ... mit Verweis auf Lectiones, Gesänge und Kyrie mit linienlose
+                        Neumennotation. Fragm. 9-3: nicht identifizierte Teile vom gleichen
+                        Sacramentarium mit Rubriken für Secreta, Ad completa. Vier weitere Streifen
+                        wohl vom gleichen Sacramentarium.
+                Musiknotation: Linienlose Neumennotation 
+            
+            \subsection{Entstehung}
+            
+                        1. Hälfte 12. Jh.  (nach dem palaeographischen Befund).
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Fragm. 9, Cod. 1913, Ser. n. 4227, Ser. n. 11941 und Linz,
+                        OÖLB, Ink. 372 (nach Klugseder Gruppe NNM2).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Falzverstärkung
+                        Ausgelöst aus Wien, ÖNB, Cod. 3708
+                                                    Inhalt: Theologische Sammelhandschrift
+                                                    Entstehung: um 1475/80Mondsee
+                                                    Provenienz: 
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael 
+                     
+                \subsection{Lit.} CantusPlanus
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 10
+            \end{flushright}
+            \subsection{Biblia}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+             \>  \>  \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Fragm.10-1: Sir 32:6-33:7: [in]\textit{portun}[e noli
+                        extolli in sapientia tua gem]\textit{mula bis iterum lux lucem et a}[nnus]; Fragm. 10-2: Sir 38:29-39:17:\textit{ incudem et considerans o}[pu]\textit{s ferri bis ut furo}[re
+                            eni]\textit{m repletus sum }[in] \textit{uoce dic}[it].
+            
+            \subsection{Entstehung}
+            
+                          (nach dem palaeographischen Befund).
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Cod. 15347; Cod. Ser. n. 3753; Fragm. 6; Fragm. 10.
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: 
+                        
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 15
+            \end{flushright}
+            \subsection{Gregorius Magnus: Homiliae in evangelia}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+             \>  \> Anfang 9. Jh. \> Mondsee
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            (1ra-vb = Fragm. 15-1 und Fragm. 15-2) Homilia 12, § 7: [ni]mirum constat
+                        quia pro nobis ... nam illi tetros spiritus [lacuna] (1rb) orate nefiat fuga
+                        uestra ... fugire quando iam per peniten[tiam ...] (1va) [pulsa]uerit
+                        confestim aperie ei ... et facit illos [lacuna]; (1vb) Homilia 13, § 1:
+                        transcurrimus quatenus eius expositio ...-... [dia]bolo ad beatum Iob.
+                        (2ra-vb = Fragm. 15-3, 15-4, 15-5) Homilia 13, § 1-4: et fortitudo illius in
+                        umbilico uentris eius ...-... quid uigilantibus seruis exhi[beat].
+            
+            \subsection{Entstehung}
+            
+                        Anfang 9. Jh. Mondsee (nach dem palaeographischen Befund).
+                        Weitere Fragmente von dergleichen Handschrift: Fragm. 210a
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Falzverstärkung
+                        Ausgelöst aus Wien, ÖNB, Cod. 3792
+                                                    Inhalt: Sammelhandschrift
+                                                    Entstehung: 15. Jhdt.
+                                                    Provenienz: 
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Lunael.
+                        q. 92'.
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 31
+            \end{flushright}
+            \subsection{Sacramentarium}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            140-145 x 108 mm \>  \> 2. Hälfte 12. Jh. \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Erhalten sind Gebete für Officium defunctorum. (1r) >P<rosit
+                        quaesumus domine hec sancta praesentis sacrificii obl[atio ...] quae in
+                        oratione nobis commendate sunt ...-... transire in requiem mereantur, bricht
+                        ab. >P<roficiat quaesumus domine ad indulgentiam anim[abus ...] in
+                        orationem commendatae sunt ...-... peruenire habitationem. Per (Deshusses
+                        Nr. 3054); >Pro omni[...]<. >F<IDELIUM DEUS omnium conditor et
+                        red[emptor ani]mabus famulorum ...-... quam semper optauerunt, bricht ab,
+                        (Deshusses Nr. 1437). (1v) Oratio, Text beginnt verstümmelt: ęternę
+                        consortium qui in hac luce prositi tuum [...sacr]amentum. Per (wohl
+                        Deshusses Nr. 1436); >ALIA<.[ANIM]ABUS QUAESUMUS DOMINE famulorum
+                        famularumque [tua]rum misericordiam concede ...-... sperauerunt et
+                        crediderunt. Per (Deshusses 1441); Verweis auf Capitulum; Oratio: [Supplices
+                        qs domin]e pro animabus famulorum famularumque ...-... redemptorum. Per (cf.
+                        Deshusses Nr. 1443); >Pro patre et Matre<. [DEUS QU]I NOS patrem et
+                        matrem honorare praecepis[ti] ...-... clementer dimitte meque, bricht
+                        ab.
+            
+            \subsection{Entstehung}
+            
+                        2. Hälfte 12. Jh.  (nach dem palaeographischen Befund).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Spiegel
+                        
+                           Wien, ÖNB, Cod. 3848
+                                                    Inhalt: Sammelhandschrift
+                                                    Entstehung: 15. Jhdt.; 1460, 1465Mondsee
+                                                    Provenienz: 
+                                                    Einband: 
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 123a olim: Nr. 115 Fragm. 94
+            \end{flushright}
+            \subsection{Missale; Zweistimmige Credos / Motettenfragment}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            123-1: 295-300 x 230-240 mm; 299-301 x 220-230 mm \>  \> 2. Viertel / 2. Drittel 15. Jh. \> Mondsee
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            (1r) Zweistimmige Credo-Satz: [P]atrem omnipotentem factorem celi et terre
+                        ...-... nobis datur in summo polo sine termino; [De BMV] A: Regina celi
+                        laetare alleluia (Can 004597); Tropus: Alle domina flos virginalis ...-...
+                        ora mater resurgentis alleluia pro salute tue ga (?); (1v) Weitere
+                        zweistimmige Patrem-Vertonung: [P]atrem omnipotentem factore ...-... homo
+                        factus est factus est. Amen, die zweite Stimme bricht ab: consubstancialem
+                        patri per quem. (2r) Credo erhalten von sanctam katholicam et apostolicam
+                        ecclesiam. Confiteor unum baptisma bis et vitam venturi seculi. Amen.
+                        Rubrizierte Anweisungen: >Finito offertorio fac crucem super hostiam et
+                        dic< In nomine patris et filii et spiritus sancti. >Deinde tolle
+                        patenam cum hostia dicas< ...-... >Post hoc oremus et secreta et per
+                        omnia secula seculorum et cetera<, mit roten Kreuzen; (2v) Motete:
+                        [B]eacius se servans liberet ...-... malum coactus vitare, bricht ab.
+                        Nachtrag (Kursive, 2. Hälfte 15. Jh.) am Rand und freiem Platz zwischen die
+                        Gesänge: Memoria mortuorum, u.a. mit Bezug zu Mondsee wie z. B. Abt Konrad
+                        (Chunradi) und Victoria Michaelis. Wieterer Nachtrag (Bastarda, 2. Drittel
+                        15. jh.): fünf Hexameter über den rhetorischen Vortrag von Predigten -
+                        Gestum compone, non protrahe nec celer esto / lucida sint verba non aspera
+                        vilia numquam / vox non clamosa, thussim preme, sputa caveto / Sis paciens
+                        multum populo moderato latinum / undecim hec bene valent predicare
+                        volenti.
+                Musiknotation: Mensuralnotation 
+            
+            \subsection{Entstehung}
+            
+                        2. Viertel / 2. Drittel 15. Jh. Mondsee (nach dem palaeographischen Befund).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Spiegel
+                        Ausgelöst aus Wien, ÖNB, Cod. 3883
+                                                    Inhalt: Sermones de tempore
+                                                    Entstehung: 15. Jhdt. 
+                                                    Provenienz: 
+                                                    Einband: Provenienz: Mondsee, Benediktinerkloster St. Michael (748-1791):
+                        Vorsignatur 'Lunael. f. 151'.
+                     
+                \subsection{Lit.} CantusPlanus:
+                        http://www.cantusplanus.at/de-at/fragmentphp/fragmente/signaturGET.php?Signatur=Fragm123a;
+                        Klugseder, Robert. Quellen zur mittelalterlichen Musik- und
+                        Liturgiegeschichte des Klosters Mondsee. Codices Manuscripti, Zeitschrift
+                        für Handschriftenkunde, Supplementum 7. Purkersdorf: Brüder Hollinek, 2012,
+                        S. 232-40. Zayaruznaya, A. "Quotation, perfection and the eloquence of form:
+                        Introducing Beatius/Cum humanum." In: Plainsong and Medieval Music, 24(2),
+                        129-166. Zayaruznaya, A. The Monstrous New Art, Cambrige 2015, S.
+                        264-65.
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 123b olim: Nr. 115 Fragm. 94
+            \end{flushright}
+            \subsection{Liber ordinarius}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            Fragm. 123-4: 45 x 107 mm; Fragm. 123-5: 47 x 64 mm; Fragm. 123-6 bis
+                        123-9 ca. 45-53 x 170 mm \>  \> 3. Viertel 13. Jh. \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Kurze Verweise auf Gesänge und Capitula für die Messe und das Stundengebet
+                        mit Anweisungen für den Ablauf der Messe. Fragm. 123b-1 = Doppelblatt f. 1
+                        und f. 6 Fragm. 123-4, 123-5 und 123-9 = Doppelblatt f. 2 und f. 5 Fragm.
+                        123-6 und 123-7 = Doppelblatt f. 3 und f. 4 (1r) Dom. 1 Adventus, u.a.
+                        Anweisung: [...]\textit{te domini laudamus. Cotidie ad missam dicamus Oratio de sancta Maria}. \textit{Deus qui de beate usque ad natiuitatem domini quod nullum impediet festum}. \textit{Ordo ad vespertinali officio. In adventu domini}. \frqq Ad vesperam A super psalmos\flqq . A: \textit{Respondens }(?) (Can 204271) A: \textit{In eternum} (Can 003204) Ps: \textit{Exaltabo }(Ps 29);
+                        (1v) Hy: \textit{Verbum supernum} (Can 008409), \frqq In I° nocturno\flqq  A: \textit{Scientes}; (2r) Dom. 1 Adventus, u.a. R: \textit{Aspiciens }(Can 006129); \frqq In II°
+                            nocturno\flqq , A: \textit{Hora est} (Can 003134); \frqq In III° nocturno\flqq , A: \textit{Nox precessit} (Can 003967), R: \textit{Obsecro domine}
+                        (Can 007305); \frqq Ad laudes\flqq , A: \textit{Omnes scienten} (Can 004133), Hy: \textit{Iam lucis} (Can 008328); (2v) \textit{Ad processione }R: \textit{Ecce dies ue}[nit] (Can 006583) [...] finito
+                            [...]\textit{ in loco suo et dicitur} Ps: \textit{De profundis} (Ps 130) \textit{Ad missam I}. In: \textit{Ad te leuaui} (Can g00489) (3r) Dom. 1
+                        Adventus, u.a. \frqq Ad VI\flqq ., V: \textit{Memento nostri domine} (Can 008137); V: \textit{Egreditur }[virga] (Can 008044), (3v) Oratio. \textit{Deus qui de beate}; Hy: \textit{Vox clara} (Can 008413); Rubriken
+                        für Feria III bis V mit je zwei Antiphonae; \frqq Sabbato\flqq  R: \textit{Rex noster}; R: \textit{Ecce dominus} (Can 006584); Hy: \textit{Conditor}.
+                        (4r) Dom. 2 Adventus, u.a. \frqq Ad laudes\flqq  A: \textit{Ecce in nubibus} (Can 002515); In: \textit{Populus Syon}. \frqq Oratio\flqq . \textit{Excita domine}. \frqq Ad VI\flqq .
+                            A:\textit{ Tuam domine} (Can 005229); R: \textit{Tu exsurgens }(Can 007790); (4v) Festum Nicolai, u.a. In: \textit{Confessorum}; A: \textit{Nobilissimis};
+                            V:\textit{ Iustus ut palma} (Can 008117). (5r) Festum
+                        Nicolai, u.a. A: \textit{Beatus Nicolaus} (Can 001651); A: \textit{O Christi pietas }(Can 004008); In: \textit{Regem apostolorum} (Can 001125) (5v) Gr: \textit{Dilexisti}; Co: \textit{Diffusa }(Can g00302);
+                        Antiphonae Majores mit Anweisungen: \textit{Iuxta romanum ordinem dicta oratio est de festo inclinantur }(?) \textit{antiphonae maiores quarum} [...]; A: \textit{O sapientia }(Can 004081); \textit{Incipit ordo maiorum antiphonarum}.
+                        A: \textit{O clauis David} (Can 004010). (6r) Dom. 3 Adventus,
+                        u.a. Of: \textit{Benedixisti }(Can g00505) (6v) Gr: \textit{Prope }(Can g00530), Of: \textit{Confortamini }(Can g00509), Co: \textit{Ecce virgo }(Can 503007) \textit{Clauditur cum benedicamus domino}.
+                        Feria VI. \frqq In nocturno\flqq 
+                           \textit{Surgite }(?)\textit{ finita nocturna legitur ewangelium} ... . 
+            
+            \subsection{Entstehung}
+            
+                        3. Viertel 13. Jh.  (nach dem palaeographischen Befund).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Rückenverstärkung
+                        Ausgelöst aus Wien, ÖNB, Cod. 3883
+                                                    Inhalt: Sermones de tempore
+                                                    Entstehung: 15. Jhdt. 
+                                                    Provenienz: 
+                                                    Einband: Provenienz: Mondsee, Benediktinerkloster St. Michael (748-1791):
+                        Vorsignatur 'Lunael. f. 151'.
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 124 olim: Nr. 76 Fragm. 66
+            \end{flushright}
+            \subsection{Antiphonarium}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            234 x 272 mm \>  \> 1. Viertel 15. Jh. \> Mondsee (?)
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Gesänge erhalten zu Dom. 1 Adventus: (1r) [V: Praeoccupe]mus faciem eius
+                        (Can 007262a); R: Audite uerbum domini (Can 006149); (1r-v) R: [Alieni non
+                        transibunt ... il]la die stillabunt (Anfang in Cod. 3659 in situ Fragm.)
+                        ...-... et mel dicit dominus (Can 006066); V: Ego veniam dicit dominus (Can
+                        006066a).
+                Musiknotation: Gotische Notation 
+            
+            \subsection{Entstehung}
+            
+                        1. Viertel 15. Jh. Mondsee (?) (nach dem palaeographischen Befund).
+                        Weitere Fragmente von dergleichen Handschrift: Wien ÖNB, Cod. 3651, 3655, 3656-1, 3659, 3812, 3835, 5147, Fragm. 107b und
+                        124 (nach Klugseder Gruppe GNA2).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Flügelfalz
+                        Ausgelöst aus Wien, ÖNB, Cod. 3703
+                                                    Inhalt: Sammelhandschrift
+                                                    Entstehung: 15. Jhdt.
+                                                    Provenienz: 
+                                                    Einband: Provenienz: Mondsee, Benediktinerkloster St. Michael (748-1791):
+                        Vorsignatur 'Lunael. f. 111'. 
+                     
+                \subsection{Lit.} CantusPlanus
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 125 olim: Nr. 22
+            \end{flushright}
+            \subsection{Capitulare (Comes, Capitula lectionum) (?)}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            125-1: 140 x 202; 125-2 141 x 201 mm \>  \> 15. Jh. \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            (1r) Lectio wohl zu Festum Philippi et Jacobi apostolorum u.a. Sap. 5,3-5
+                        von \textit{hi sunt quos aliquando habuimus} bis \textit{sors illorum}; (1r-v) Act 4, 33 \textit{virtute magna reddebant }[apostoli] \textit{testimonium resurrectionis Iesu Christi Domini et gratia magna erat in omnibus illis. }(1v) Capitula oder Verweise auf Lectiones zu den Festtagen:
+                        >In inuenc[ione sanctae crucis]<, >De S. Gordians (!) et
+                        Epim[achi]< (10. Mai), >De S. Pangrato< (12. Mai), >De S.
+                        Petronellea< (19. Mai) >[De S.]Marcellini et Petri< (2.
+                        Juni).
+            
+            \subsection{Entstehung}
+            
+                        15. Jh.  (nach dem palaeographischen Befund).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Spiegel
+                        Ausgelöst aus Wien, ÖNB, Cod. 1892
+                                                    Inhalt: Missale
+                                                    Entstehung: 14. Jhdt.; Nach 1385Prag
+                                                    Provenienz: 
+                                                    Einband: Provenienz: Mondsee, Benediktinerkloster St. Michael (748-1791):
+                        Vorsignatur 'Lunael. q. 122'.
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 210a
+            \end{flushright}
+            \subsection{Gregorius Magnus: Homiliae in evangelia}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            210a-1: 33 x 65; 210a-2: 148 x 23 mm \>  \> 1. Viertel 9. Jh. \> Mondsee
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Fragm. 210a-1: Homilia X, §2: (1r) [i]\textit{udaeorum corde du}[ritia] \textit{Quae hunc neque} [per prop]\textit{hetiae donum nec per}, bricht ab; (1v) [poe]\textit{nitendum nolunt e}[umque] \textit{confiteri abnega}[nt quem] \textit{elementa ut dixi}[mus].
+                        Fragm. 210a-2: unidentifiziert.
+            
+            \subsection{Entstehung}
+            
+                        1. Viertel 9. Jh. Mondsee (nach dem palaeographischen Befund).
+                        Weitere Fragmente von dergleichen Handschrift:  Wien, ÖNB, Fragm. 15.
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Rücken und Deckel
+                        Ausgelöst aus Wien, ÖNB, Cod. 1013
+                                                    Inhalt: Homilien
+                                                    Entstehung: 1. Hälfte 13. Jhdt.
+                                                    Provenienz: 
+                                                    Einband: Provenienz: Eberhardus (Benediktiner in Mondsee, 1. Hälfte 13. Jhdt.):
+                        Vermerk fol. 153r [Hermann, Handschriften, 1926, 324f.]. - Mondsee,
+                        Benediktinerkloster St. Michael (748-1791)1. Hälfte 15. Jh.Mondsee
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 210d
+            \end{flushright}
+            \subsection{Breviarium}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            210d-1: 122 x 107-111; 210d-2: 40-44 x 81 mm \>  \> 2. Hälfte 13. Jh. und 1. Hälfte 15. Jh. \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Fragm. 210d-1, wohl asl später Nachtrag (1r) Orationen Deshusses Nr. 3009,
+                        2863 (ähnlich zu), 1444 und 1437; (1v) Sequenz. >Incipit sequentia
+                        [...]< >A< [...] Mediatrix ho[mimnum] ...-... cum Christo uiuere
+                        [possimus] (AH 54 Nr. 285); Sequenz: >Victima< paschalis laudes
+                        immolent Christiani [...] maria [...] natum quem ...-... Credendum est magis
+                        soli Gabrieli, bricht ab (ähnlich zu AH 54 Nr. 7). Eintrag nach der
+                        Makulierung am Rand von f. 1v: Anfang einer Oratio: \textit{Gloriosa domina excelsa ... }. Fragm. 210d-2 unleserlich, nur rote
+                        Versalien erkennbar.
+            
+            \subsection{Entstehung}
+            
+                        2. Hälfte 13. Jh. und 1. Hälfte 15. Jh.  (nach dem palaeographischen Befund).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Rücken und Deckel
+                        Ausgelöst aus Wien, ÖNB, Cod. 1013
+                                                    Inhalt: Homilien
+                                                    Entstehung: 1. Hälfte 13. Jhdt.
+                                                    Provenienz: 
+                                                    Einband: Provenienz: Eberhardus (Benediktiner in Mondsee, 1. Hälfte 13. Jhdt.):
+                        Vermerk fol. 153r [Hermann, Handschriften, 1926, 324f.]. - Mondsee,
+                        Benediktinerkloster St. Michael (748-1791)
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 221a olim: Fragm. 76 Nr. 91
+            \end{flushright}
+            \subsection{Kopialbuch / Urkunden Abschriften}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            221a-1: ca. 55 x 190 mm \>  \> 2. Hälfte 14. Jh. \> Mondsee (?)
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Auf den beiden Seiten zwei Folia ist eine Urkunde angeschriben. Erwähnt
+                        wurde einen gewissen Peter zu Mondsee \textit{diezeit pfarer zu Sand Khunradt, }weiter Zitat: testis das ich [...] \textit{gangen und vollen gebalt han}
+                           \textit{geben von der geltschuld wegen als mir dann ulreich von Salzburg es say mit recht oder an recht wie sich das fuegit oder wie es im am aller pesten kumbt und wie er damit hanndlt und }[...] \textit{ist alles meinen gutliech willen mit urchuntt das brieffs denoch }[...] \textit{mit meinen aygen furgedrukchten}
+                        [...] \textit{datum zu monnsee martenis}.
+            
+            \subsection{Entstehung}
+            
+                        2. Hälfte 14. Jh. Mondsee (?) (nach dem palaeographischen Befund).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Rückenverstärkung; Spiegel und Ansetzfalz
+                        Ausgelöst aus Wien, ÖNB, Cod. 3738 
+                                                    Inhalt: Sermones de sanctis
+                                                    Entstehung: 15. Jhdt.
+                                                    Provenienz: 
+                                                    Einband: Brauner Ledereinband mit Streicheisenlinien über Holzdeckeln mit
+                        abgerundeten Kanten, Mondsee, 1. Hälfte 15. Jhdt. Provenienz: Mondsee,
+                        Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Lunael. f. 212'. 
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 221b olim: Fragm. 76 Nr. 91
+            \end{flushright}
+            \subsection{Musterschrift (?)}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            53-92 x 305 mm \>  \> 2. Hälfte 14. Jh. / 1. Hälfte 15. Jh. \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Der Anfang von einer Gedisch aus der hussitischen Zeit: \textit{Omnes iam adtendite animaduertite quid fit iam plangite }(cf.
+                        Sitzungsberichte der Kaiserlichen Akademie der Wissenschaften 36 (1861),
+                        119-191, hier S. 156); Auf dem Verso: Probatio pennae und Schriftproben (?),
+                        ein Alphabet, \textit{Dorsa eorum} wohl Anfang einer Aleluia
+                        (Can g02710) etc.
+            
+            \subsection{Entstehung}
+            
+                        2. Hälfte 14. Jh. / 1. Hälfte 15. Jh.  (nach dem palaeographischen Befund).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Spiegel und Ansetzfalz
+                        Ausgelöst aus Wien, ÖNB, Cod. 3740
+                                                    Inhalt: Sermones de sanctis
+                                                    Entstehung: 15. Jhdt.
+                                                    Provenienz: 
+                                                    Einband: Provenienz: Mondsee, Benediktinerkloster St. Michael (748-1791):
+                        Vorsignatur 'Lunael. f. 212'. 
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 221c olim: Fragm. 76 Nr. 91
+            \end{flushright}
+            \subsection{Urkunde / Notariatsdokument}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            221b-1: 12 x 320; 221b-2: 12 x 360 mm \>  \> 1. Hälfte 15. Jh. \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Erwähnt sind einen gewissenen Elyas Chramer, und ein Richter in Salzburg.
+                        Zitat: signaui rogatus et requisitus in fidem et testimonium omnium
+                        premiss[orum ...] daz mich der egenant mein wirt Helyas Chramer (?) ze
+                        rechter zeit und an all schaden ausgerichtet und betzalet hat hundert pfunt
+                        pfennig [...] ... Richter ze Salzburg anhangenden insigel den ich [...]
+                        darumb gepeten hab ... .
+            
+            \subsection{Entstehung}
+            
+                        1. Hälfte 15. Jh.  (nach dem palaeographischen Befund).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Falzverstärkung
+                        Ausgelöst aus Wien, ÖNB, Cod. 3739
+                                                    Inhalt: Sermones de sanctis
+                                                    Entstehung: 15. Jhdt.
+                                                    Provenienz: 
+                                                    Einband: Provenienz: Mondsee, Benediktinerkloster St. Michael (748-1791):
+                        Vorsignatur 'Lunael. f. 212'. 
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 234 olim: Nr. 35
+            \end{flushright}
+            \subsection{Antiphonarium (?)}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            62-71 x 294 mm \>  \> 2. Hälfte 14. Jh. / 15. Jh. \> Bayern oder Österreich
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Antiphon zum Festum Agathae: \textit{Paganorum multitudo fugiens ...-... Agathe martiris sue eos liberaret} (Can 004208).
+            
+            \subsection{Entstehung}
+            
+                        2. Hälfte 14. Jh. / 15. Jh. Bayern oder Österreich (nach dem palaeographischen Befund).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Flügelfalz
+                        Ausgelöst aus Wien, ÖNB, Cod. 2827
+                                                    Inhalt: Sammelhandschrift
+                                                    Entstehung: 15. Jhdt.Bayern oder Österreich
+                                                    Provenienz: 
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Lunael.
+                        f. 60'.
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 600 olim: Nr. 61
+            \end{flushright}
+            \subsection{Graduale}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            600-1: 142 x 202; 600-2: 196 x 202 mm \>  \> 1. Viertel 12. Jh. \> Mondsee (?)
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            (1r) [Fer. 6 p. Pascha] GrV: Benedictus qui uenit (Can 008414za); Of: Erit
+                        vobis hic dies (Can g01042); OfV: Dixit Moyses (Can g01042a); OfV: In mente
+                        habete (Can g01042b); Cm: D[ata e]st [mihi] (Can g01043); Fortsetzung im
+                        Cod. 3615, Fragm. in situ. (1v) [Sabbato in Albis] InPs: [Comfitemini domino
+                        et invoca]te nomen eius annuntiate inter ge[ntes opera eius] (Ps 104,1);
+                        AlV: Haec dies (Can 507015); Of: Benedictus qui uenit (Can g01047); OfV:
+                        Lapidem quem (Can g01047a); OfV: Haec dies (Can g01047b); Fortsetzung im
+                        Cod. 3615, Fragm. in situ. (2r) [In Dedicatione Eccl.] Cm: [Domus mea domus]
+                        orationis (Can g01407); >Potenciane< [für Pudentianae, Pudentis] In:
+                        Dilexisti justitiam* (Can g01380); Gr: Diffusa est gratia* (Can g01397); Of:
+                        Offerentur* (Can g02069); OfV: Diffusa est*; >In Vigilia Ascensionis
+                        domini< In: Vocem iocunditatis*; Of: Viri Galilaei (Can g02180); OfV:
+                        Cumque intuerentur (Can g02180a); Lacuna. (2v) [Ascensio Domini] In: V[iri
+                        Galilaei] (Can g01079); InPs: Omnes gentes (Ps 46,2); AlV: Ascendit deus
+                        (Can g01080); AlV: Dominus in Syna (Can g01081); Of: Ascendit deus in
+                        jubilatione (Can g01082); OfV: Omnes gentes plaudite (Can g01082a). Die
+                        Angaben zum Inhalt berufen sich auf Cantus Planus.
+                Musiknotation: Linienlose Neumennotation 
+            
+            \subsection{Entstehung}
+            
+                        Mondsee (?), nach Klugseder wohl in der Zeit des Abtes Rupert (1115)
+                        entstanden.
+                        Weitere Fragmente von dergleichen Handschrift: NNG5, zugehörige Fragmente: in situ Cod. 3615, Fragm. 4
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Flügelfalz
+                        Ausgelöst aus Wien, ÖNB, Cod. 3615
+                                                    Inhalt: Evangelia quattuor cum notis et locis germanice versis
+                                                    Entstehung: 15. Jhdt.; 1427Mondsee
+                                                    Provenienz: 
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Lunael.
+                        q. 195'.
+                     
+                \subsection{Lit.} CantusPlanus
+                        [http://www.cantusplanus.at/de-at/fragmentphp/fragmente/signaturGET.php?Signatur=Fragm600]
+                        Klugseder, Mondsee, S. 30f Pfaff Nr. 6+7
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 612
+            \end{flushright}
+            \subsection{Graduale}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            217 x 153 mm \>  \> 3. Viertel 12. Jh. \> Mondsee (?)
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            (1r) [Michaelis] - Of: [Stetit angelus] (Can g00397); OfV:\textit{ In conspectu angelorum} (Can g00397a); Cm: \textit{Benedicite omnes angeli }(Can g00398); \frqq Hieronimi confessoris\flqq  In: \textit{Os justi}* (Can g01349); Gr: \textit{Os justi}* (Can
+                        g01343); AlV: \textit{Iste sanctus}* (Can g02568); Of: \textit{Desiderium}* (Can g01363); Cm: \textit{Domine v talenta}* (Can g00012); \frqq Remigii
+                        \flqq In: \textit{Sacerdotes}* (Can g01338); Gr: \textit{Sacerdotes}* (Can g01339); AlV: \textit{Disposui}* (Can g02070 (?); Of: \textit{Inveni}* (Can
+                        g01288); Cm: \textit{Fidelis}* (Can g00318 (?); \frqq Leodegarii \flqq In: \textit{Laetabitur}* (Can g01294); Gr: \textit{Posuisti}*
+                        (Can g02233); AlV: \textit{Beatus vir}*; Of: \textit{In virtute}* (Can g01357); Cm: \textit{Magna est}*
+                        (Can g01261); \frqq Marci \flqq In: \textit{Sacerdos}*; Gr: \textit{Inveni}*; Al: \textit{Elegit}* (Can g02352); Of: \textit{Veritas}* (Can g01278); Cm: \textit{Beatus servus}*
+                        (Can g01354); \frqq Dionysii et s.\flqq  - In: \textit{Salus autem}* (Can g01325); Gr: \textit{Vindica}* (Can g00470); Al: \textit{Vox exsultationis}* (Can g02386); Of: \textit{Mirabilis}*
+                        (Can g01317); Cm: \textit{Ego vos}* (Can g00225); \frqq Gereonis et s.\flqq  In: \textit{Intret}*; Gr: \textit{Exsultabunt}*; AlV: \textit{Justi autem}*; Of: \textit{Laetamini}*;
+                        Cm: \textit{Posuerunt}*; \frqq Callisti
+                        \flqq In: \textit{Statuit}*; Gr: \textit{Juravit}*; AlV: \textit{Inveni}*; Of: \textit{Veritas}*; Cm:\textit{ Beatus servus}*; \frqq Galli \flqq In:\textit{ Justus ut palma}*; Gr: \textit{Domine praevenisti}*; AlV: \textit{Justus ut palma}*; Of: \textit{Posuisti}*; Cm: \textit{Fidelis}*; \frqq Lucae \flqq In: \textit{In medio}*;
+                        Gr: \textit{Justus }ut palma*; AlV: Justus germinavit*; Of:
+                            \textit{Desiderium}*; Cm: \textit{Semel}*;
+                            \frqq Januarii \flqq In:\textit{ Multae tribulationes}*; Gr: \textit{Vindica}*; AlV: \textit{Judica}; Of: \textit{Gloriabuntur}*; Cm:
+                            \textit{Posuerunt}*; \frqq Crispini
+                        \flqq In: \textit{Clamaverunt}*; Gr: \textit{Ecce quam bonum}*; AlV: \textit{Mirabilis}*; Of: \textit{Anima}*; Cm: \textit{Et si coram}*; \frqq XI milium Virginum\flqq  In: \textit{Gaudeamus}*; Gr: \textit{Justorum}*; AlV: \textit{Adducentur}*; Of: \textit{Offerentur}*;
+                        Cm: \textit{Quinque}*; \frqq In uigilia
+                            apostolorum \flqq = Vigilia Simonis, Judae - In: \textit{Intret in conspectu}*; Gr: \textit{Vindica}*; Of: \textit{Exsultabunt}*; Cm: \textit{Justorum}*;\frqq  In die sanctorum\flqq  =
+                        Simonis, Judae - In: \textit{Mihi autem nimis} (Can g00005);
+                        (1v) Gr: \textit{Nimis honorati sunt} (Can g00002); GrV: \textit{Dinumerabo eos }(Can g00002a); AlV: \textit{Non vos me}*; Of: \textit{In omnem terram}*; Cm: \textit{Vos qui secuti estis} (Can g00359); \frqq Wolfgangi Quintini\flqq  In: \textit{Sapientiam}*; Gr: \textit{Gloriosus}*; AlV: \textit{Sancti tui}*; Of: \textit{Gloriabuntur}*; Cm: \textit{Ego vos}*;\frqq  In vig. omnium Sanctorum\flqq  In: \textit{Timete}*; Gr: \textit{Exsultabunt}*; Of:
+                            \textit{Mirabilis}*; Cm: \textit{Amen dico vobis quod uni}*; \frqq In die s.\flqq  = Omnium
+                        Sanctorum - In: \textit{Gaudeamus}*; Gr: \textit{Timete}*; AlV: \textit{Vox exsultationis}*; Of: \textit{Laetamini}*; Cm: \textit{Amen dico}*;
+                            \frqq Eustachii et soc. eius\flqq  In: \textit{Multae tribulationes}*; AlV: \textit{Justorum autem}*; \frqq Pirmini epi. \flqq In:
+                            \textit{Sacerdotes tui}*; AlV: \textit{Elegit te}*; \frqq Willibrordi \flqq In: \textit{Statuit ei}*; Gr: \textit{Juravit}*;
+                        AlV: \textit{Inveni}*; Of: \textit{Veritas}*;
+                        Cm: \textit{Fidelis}*; \frqq Quat.
+                            Coronatorum\flqq  In: \textit{Intret}*; Gr: \textit{Vindica}*; AlV:\textit{ Justi epulentur}*; Of: \textit{Anima}*; Cm: \textit{Posuerunt}*; \frqq Theodori Tiro\flqq  - In: In
+                            \textit{virtute}*; Gr: \textit{Domine}*;
+                        AlV: \textit{Justus non}*; Of: \textit{Gloria et}*; Cm: \textit{Posuisti}*; \frqq Mennae m.\flqq  In: \textit{Os justi}*; Gr: \textit{Justus non conturbabitur}*; AlV:
+                            \textit{Justum}*; Of: \textit{Desiderium}*;
+                        Cm: \textit{Magna}*; \frqq Martini
+                            epi.\flqq  In: \textit{Sacerdotes}*; Gr: \textit{Ecce sacerdos}*; AlV: \textit{Juravit}*; Of: \textit{Inveni}*; Cm: \textit{Domine quinque}*;
+                            \frqq Bricii epi. \flqq In:\textit{ Statuit ei}*; AlV: \textit{Disposui testamentum}*; \frqq Othmari ab.\flqq  In:\textit{ In virtute}*; Gr: \textit{Domine praevenisti}*; AlV: \textit{Beatus vir qui}*; Of: \textit{Justus ut palma}*; Cm: \textit{Fidelis}*; \frqq Caeciliae virginis \flqq In: \textit{Loquebar de testimoniis}* (Can g00363); Gr:\textit{ Audi filia et vide} (Can g00486); GrV: \textit{Specie tua}
+                        (Can g00486a). Die Angaben zum Inhalt berufen sich auf Cantus Planus
+                        Datenbank.
+                Musiknotation: Linienlose Neumennotation 
+            
+            \subsection{Entstehung}
+            
+                        Das Graduale ist nach Pfaff ein Produkt des Mondseer Liutoldscriptoriums. 
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Cod. 3656, Cod. 3912, Fragm. 612, Cod. Ser. n. 84, Cod. Ser. n.
+                        220; Cod. Ser. n. 222; Cod. Ser. n. 234; Cod. Ser. n. 236 (nach Klugseder
+                        Gruppe NNG1). 
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Fliegendes Blatt und Ansetzfalz
+                        
+                     
+                \subsection{Lit.} Cantus Planus
+                        (http://www.cantusplanus.at/de-at/fragmentphp/fragmente/signaturGET.php?Signatur=Fragm612);
+                        Klugseder, Mondsee, S. 34-129.
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 813
+            \end{flushright}
+            \subsection{Sacramentarium / Missale (?)}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            813-1: 231 x 130; 813-2: 223 x 186 mm \>  \> 1. Hälfte 12. Jh. \> Mondsee
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Erhaltene Teile: In natale plurimorum confessorum / martyrum, Cesarii (1.
+                        Nov.), Menne (11. Nov.) und Commune plur. Martyrum und Commune pro Martyre
+                        et Pontifice. 813-1: (1r-v) Orationen Deshusses 3362, 736, 745: P\textit{raesta quaesumus omnipotens deus ut qui be}[...] \textit{Menne martyris tui natalicia }... ; (1v) Lectiones aus
+                        Hbr 7,23-24, 26; Is 62,6 und 10; Is 61,6; Gesänge u.a.: R: \textit{Amauit eum dominus et ornauit eum} (Can 006080); V: \textit{Stola gloriae induit }(Can 006080a); W: \textit{Iustum deduxit dominus }(Can 008115). 813-2: (1r)
+                        schwer lesserlich, Orationes u.a. Deshusses 677, (1v) 494 und 3266. De uno martyre atque pont\textit{. HAEC DICIT DOMINUS ECCE ABSTULIATE INIquitatem tuam}
+                        ... (Za 3, 4; 3,7 und 6,12).
+            
+            \subsection{Entstehung}
+            
+                        Die Datierung und Lokalisierung stützen sich auf den paläographischen
+                        Befund.
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Spiegel
+                        Ausgelöst aus Wien, ÖNB, Cod. 732
+                                                    Inhalt: Theologische Sammelhandschrift
+                                                    Entstehung: 15. Jhdt.Mondsee
+                                                    Provenienz: 
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Rec.
+                        3308 [Lunael. f. 125]' [Hermann, Handschriften, 1923].
+                     
+                \subsection{Lit.} Pfaff, Scriptorium und Bibliothek, Katalog Nr. 13.
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 814 olim: Nr. 6
+            \end{flushright}
+            \subsection{Biblia}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            814-1: 200 x 81 mm; 814-2: 283 x 18 mm \>  \> Anfang 9. Jh. \> Mondsee
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Fragm. 814-1: (1r-v) 1.Cor 15,47-54: [ho]\textit{mo de caelo caelestis ... absorta est mors in ui}[ctoria]; Fragm. 814-2: (1r-v)
+                        1.Cor 3,6-13: [Ap]\textit{ollo ri}[gavit] ... [die]\textit{s enim}.
+            
+            \subsection{Entstehung}
+            
+                        Das Fragment ist vom paläographischen Befund her ein Produkt des Mondsee
+                        Skriptoriums vom frühen 9. Jh. (s. Bemerkung zur Schrift oben).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Falzverstärkung
+                        Ausgelöst aus Wien, ÖNB, Cod. 818
+                                                    Inhalt: Theologische Sammelhandschrift
+                                                    Entstehung: 12. u. 15. Jhdt.; Vor 1159Mondsee
+                                                    Provenienz: 
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Rec.
+                        3329 [Lunael. q. 81]'.
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 820 olim: Fragm. 55 Nr. 59
+            \end{flushright}
+            \subsection{Urkunde}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            218 x 160-165 mm \>  \> 1. Drittel 15. Jh. \> Augsburg (?)
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Peter von Schaumberg (Bischof von Augsburg 1424-1469) über die Abdankung
+                        des Abtes Iban von Rothenstein (Abt 1410-1426, † 1439) und die Rolle des
+                        neuen Abtes Johannes III. Schmerlaib als Reformator im Kloster St. Mang zu
+                        Füssen. \textit{Petrus dei et apostolice sedis gratia episcopus Augustensis .. . ad renuntiandum abbacia monasterii ... sancti Magni in faucibus predictis quam sic in manibu}[s ...] \textit{approbauimus. Deinde prehibita matura deliberatione} [...] \textit{religiosi viri fratris Johannis Schmerlaib conuentualis} [...]\textit{ in spiritualibus et temporalibus posse reformari. Unde nos} [...] \textit{approbauimus regularem obseruancie zelatorem de consensu} [...] \textit{monasterii in faucibus Ipsamque electionem per nos}[...] ... \textit{per liberam renunciacionem dare Ybani de Rotenstein ut} [...] \textit{per manuum nostrarum imposicionem penitialiter inuestiuimus ac} [...] \textit{ministracem }(?)\textit{ eiusdem monasterii ... Anno milesimo} [...] \textit{et dominis Johane in Ortenburen} (Ortenburg) \textit{et Heinrico in} [...]
+                            \textit{testibus ad premissa vocatis per nos et rogatis}.
+            
+            \subsection{Entstehung}
+            
+                        Die Datierung und Lokalisierung stützen sich auf den paläographischen
+                        Befund.
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Spiegel
+                        Ausgelöst aus Wien, ÖNB, Cod. 3597
+                                                    Inhalt: Sammelhandschrift
+                                                    Entstehung: 15. Jhdt.; 1450Mondsee ?
+                                                    Provenienz: 
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Lunael.
+                        q. 193'.
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 821 olim: Fragm. 68 Nr. 79
+            \end{flushright}
+            \subsection{Collectarium / Sacramentarium}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            12 x 290 mm \>  \> 9. Jh. \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            (r) [...] \textit{impende. Per dominum. }ALIA\frqq  \flqq [...] \textit{salutaris noster et e}[...]; (v) [sa]\textit{lutis aeternae remedia quae te aspirante} [...] (wohl
+                        Deshusses Nr. 714); (r) [...]\textit{mur protegente saluari Per}.; (v) [... ad]\textit{mitte ut destructis adversita}[tibus].
+            
+            \subsection{Entstehung}
+            
+                        Die Datierung und Lokalisierung stützen sich auf den paläographischen
+                        Befund.
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Falzverstärkung
+                        Ausgelöst aus Wien, ÖNB, Cod. 3709
+                                                    Inhalt: Collationes patrum
+                                                    Entstehung: Mitte 15. Jhdt.Mondsee
+                                                    Provenienz: 
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Lunael.
+                        f. 100'.
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 822 olim: Fragm. 90 Nr. 109
+            \end{flushright}
+            \subsection{Inventar}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            201-205 x 292 \>  \> 15. Jh. \> 
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Genannt werden für die Messe benötigte liturgische Geräte und Gegenstände
+                        wie Messgewand, Phyxis (Oblatenbüchsen) und Kelche samt Korporalen, aber
+                        auch sechs Messbücher und möglicherweise zwei Graduale.
+            
+            \subsection{Entstehung}
+            
+                        Die Datierung und Lokalisierung stützen sich auf den paläographischen
+                        Befund.
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Spiegel
+                        Ausgelöst aus Wien, ÖNB, Cod. 3866
+                                                    Inhalt: Sermones in dominicas et festa per circulum anni
+                                                    Entstehung: 15. Jhdt.; 1407Wien ?
+                                                    Provenienz: Wien: Buchbinderwerkstatt Holter A. 4 [Autopsie].
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Lunael.
+                        f. 53'.
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 847 olim: Fragm. 54 Nr. 58
+            \end{flushright}
+            \subsection{Caesarius Arelatensis: Sermones}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            155 x 215 mm \>  \> 1. Viertel 13. Jh. \> süddeutsch-österreichischer Raum
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            (1r-v) Sermo, unidentifiziert; Text beginnt verstümmelt: \textit{debetis intelligere caritatem quae ideo prima habenda est ...-... forsitan aliquis qui bene potet ieiunare cogitat modo cottidie},
+                        bricht ab. (2r-v) Sermo, unidentifiziert: Inc. [...]\textit{eoimus }(für Legimus ?)\textit{ in libris prophetarum in Niniven peccatricem per triduanum ieiunium ab ira dei liberatam. Hoc exemplum nobis sancti patris constituebant ... suscipe premium sempiternum quod preparauit deus diligentibus se}, bricht ab. (3r-v) Sermo,
+                        unidentifiziert: [F]\textit{ratres dilectissimi audite et intelligite quia magnum per ierusalem est in episcopis t presbiteris et quam terribiliter dominus per Ezechielem prophetham ait iilis ... - ... ac istam uitam prosperam futuramque cum }(?) \textit{sanctis }[...]. (3v) Caesarius von Arles, Sermo CCXXVIII: [S]\textit{icut optime nouit sancta caritas uestra consecratio}[nem alt]\textit{aris hodie ...-... Quis autem exemplum dei}, bricht ab (Edition: CCSL 104, S. 901); (4r-v) Sermo,
+                        unidentifiziert; Text beginnt verstümmelt:\textit{ His est Petrus qui dum ad crucem ut crucifigeretur ductus esset pasionem non rennuit ...-... beatissimi apostoli qui uno spiritu celeste regnum predica}[...], bricht ab.
+            
+            \subsection{Entstehung}
+            
+                        Die Datierung und Lokalisierung stützen sich auf den paläographischen
+                        Befund.
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Spiegel und fliegendes Blatt
+                        Ausgelöst aus Wien, ÖNB, Cod. 3545
+                                                    Inhalt: Sammelhandschrift
+                                                    Entstehung: 15. Jhdt.Ohne Ort
+                                                    Provenienz: 
+                                                    Einband: Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Lunael.
+                        o. 104'.
+                     
+           
+            \end{document}
+        
+            \section{}
+            \begin{flushright}
+            Fragm. 960
+            \end{flushright}
+            \subsection{Antiphonarium}
+            \begin{tabbing}
+            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
+            960-1: 55 x 302 mm; 960-2: 36 x 300 mm; 960-3: 48 x 300 mm; 960-4: 220 x
+                        78 mm; 960-5: 220 x 15mm; 960-6: 30 x 300 mm; 960-7: 13 x 303 mm; 960-8: 29
+                        x 200 mm; 960-9: 22 x 198 mm; 960-10: 53 x 204 mm; 960-11: 85 x 210 mm;
+                        960-12: 55 x 214 mm \>  \> 2. Hälfte 12. Jh. \> Mondsee
+            \end{tabbing}
+                        
+            \subsection{Inhalt}
+            Teil für Dom. Resurrectionis, Sabbato in ALbis, Octava Paschae, Fer.
+                        Tempore Paschalis, DOm. 2 und 3 p. Pascha, Michaelis, Hieronimi, Remigii,
+                        Germani, Vedasti, Leodegarii, Ocatava Michaelis, Sergii, Bacchi, Dionysii.
+                        (1r Teil vom Doppelblatt = Fragm. 960-1, 960-2, 960-3, 960-4 und 960-5.
+                        Recto: [Dom. Resurrectionis] V: [Et unus de senioribus dixit …]\textit{ potestatem et fortitu}[dinem] (Can 006616a); R:\textit{ Isti sunt agni novelli qui} (Can 007012); V: \textit{In omnem terram ex}[ivit sonus] (Can 007012b); A: [Ego
+                        dormivi et somnum coepi] (Can 002572); W: \textit{Noli flere Maria}* (Can 008149); R: [Surrexit pastor bonus qui] (Can 007742);
+                        V: [Surr]\textit{exit dominus de sepulcro} (Can 007742a); R:
+                            \textit{Angelus domini descen}[dit de] (Can 006093); V:
+                            [An]\textit{gelus domini locutus est }(Can 006093a); R:
+                        [Angelus domini locutus] \textit{est }(Can 006095); V: [Ecce
+                        praecedet] \textit{vos in} (Can 006095a); R: \textit{Dum transisset sabbatum} [Maria] (Can 006565); (1v Teil vom
+                        Doppelblatt = Fragm. 960-1, 960-2, 960-3, 960-4 und 960-5. Verso: [Dom.
+                        Resurrectionis] V: [Et valde mane una sabbatorum] (Can 006565a); A: \textit{Angelus autem domin}[i] (Can 001408); A: \textit{Et ecce terraemotus factus} (Can 002699); A: \textit{Erat }[autem aspectus ejus] A: [Prae timore autem
+                        ejus] (Can 004350); A: \textit{Respondens autem angelus}; R:
+                        [Surrexit dominus de se]\textit{pulcro }(Can 007738); V: \textit{Q}[ui pro nobis pependit in] (Can 007738a); V:\textit{ Gloria patri} [et filio et]; A: \textit{Et valde mane una sa}[bbatorum] (Can 002728); R: \textit{Surrexit pastor bonus}* (Can 007742); W: \textit{Dicite in nationibus}* (Can 008013); A: \textit{Surgens Jesu ma}[ne prima] (Can 005075); A: \textit{Et dicebant ad invicem quis} (Can 002697); A: \textit{Vidi aquam egredien}[tem de] (Can 005403); (2r Teil vom Doppelblatt = Fragm.
+                        960-6 und 960-7: Textverlust [Dom. Resurrectionis] A: [Cum rex gloriae
+                        Christus …] \textit{tolli praciperet sanctorum} (Can 201042)
+                        Textverlust. (2v Teil vom Doppelblatt = Fragm. 960-6 und 960-7: [Dom.
+                        Resurrectionis] R: \textit{Surrexit dominus}*; W: \textit{Gavisi sunt discipuli}* (Can 008080); A: \textit{Surrexit enim sicut dixit} (Can 005081); A: \textit{Christus resur}[gens ex mortuis] (Can 001796);
+                            Anweisung:\textit{ Antiphone quae secuntur ab octaua pasche usque in ascensu die }[…] \textit{diebus}, bricht ab;
+                        (3r Teil vom Doppelblatt = Fragm. 960-6 und 960-7: [Sabbato in Albis] A:
+                        [Currebant duo simul et ille …] \textit{prior ad monumentum alleluia} (Can 002081); A: [Alleluia ix (Surgens)] (Can 001334); A:
+                            \textit{Alleluia viii} [(Surrexit)] (Can 001333); A:
+                        [Alleluia v (In Galilaea)] (Can 001330); A: \textit{Alleluia }v [(Data est)] (Can 001330); Lacuna. (3v Teil vom Doppelblatt = Fragm.
+                        960-6 und 960-7) [Octava Paschae] A: \textit{Quia vidisti me }[Thoma] (Can 004513); A: [Multa quidem et alia signa fecit J]\textit{esus in conspectu discipulorum} (Can 003828); A: [Haec
+                        autem scripta sunt ut credatis] \textit{quia Jesus est Christus }(Can 002993); Lacuna. (4r Teil vom Doppelblatt = Fragm. 960-1, 960-2,
+                        960-3 [Fer. 3 p. Oct.Pasch.] A: [Alleluia xi (Et recordatae)] (Can 001336);
+                        A: Alleluia iii (De profundis) (Can 001328); Fer. 4 p. Oct. Pasch. A: \textit{Alleluia viii }(Surrexit) (Can 001333); A: \textit{Alleluia x} (Ite nuntiate) (Can 001335); Lacuna Fer. 4
+                        p. Oct.Pasch. A: \textit{Alleluia}? ; Fer. 5 p. Oct.Pasch. A:
+                            \textit{Alleluia}*; A: \textit{Alleluia }iii
+                        (Domine probas-) (Can 001328); Fer. 6 p. Oct.Pasch. A: \textit{Alleluia}* can9999); A: \textit{Alleluia iii} (Portio
+                        mea) (Can 001328); Sabb. p. Oct. Pasch. A: \textit{Alleluia}*
+                        ; A: \textit{Alleluia ix} (Vespere autem)* (Can 001333); [Dom.
+                        2 p. Pascha] A: \textit{Ego sum pastor bonus alleluia} (Can
+                        002596); A: \textit{Pastor bonus animam suam} (Can 004223); A:
+                            \textit{Mercennarius est cujus non} (Can 003747); Lacuna.
+                        (4v Teil vom Blatt 3 = Fragm. 960-1, 960-2, 960-3, Verso) [Dom. 2 p. Pascha]
+                        A: [Sicut novit me pater et ego ...] \textit{pono pro ovibus meis alleluia} (Can 004943); A: \textit{Alias oves habeo quae non} (Can 001320); A: \textit{Ego sum alpha et o. primus et} (Can 002588); Lacuna; [Dom. 3 p. Pascha] A: [Modicum et non
+                        videbitis me] (Can 003803); A: \textit{Quid est hoc quod dicit }(Can 004519); A: \textit{Amen amen dico vobis quia} (Can
+                        001375); A: \textit{Tristitia vestra vertetur in}; A: \textit{Tristitia implevit cor }(Can 005189); A: \textit{Iterum autem videbo vos} (Can 003465); Lacuna (5r-v =
+                        Fragm. 960-12) [Michaelis] A: [Angelus archangelus Michael] \textit{dei nuntius} (Can 001406); W: \textit{Adorate dominum}* (Can 007938); R: \textit{Factum est} [silentium in caelo] (Can 006715); A: \textit{Dum sacrum mysterium cerneret} (Can 201434); (6r = 960-8, 960-9, 960-10
+                        und 960-11: Fragm. 960-8) A: \textit{Michael Gabriel Raphael summi} (Can 003756); Michaelis,8 I: [Regem] \textit{archangelorum dominum} (Can 001126); Fragm. 960-9 A: \textit{Data est potestas}* (Can 002100); A: \textit{Angeli domini}* (Can 001399); A: \textit{Angeli archangeli}* (Can 001398); Lacuna. (Fragm. 960-10) Michaelis,8 A:
+                        [Introibo in domum tuam domine] (Can 003389);V : [In conspectu angelorum ...
+                            adora]\textit{bo ad templum sanctum tuum} (Can 007707c) W:
+                            \textit{In conspectu angelorum}* (Can 008092); A: \textit{Factum est silentium}* (Can 002843); A: \textit{Dum committeret}* (Can 002440); A: \textit{Dum proeliaretur}* (Can 002465); A: \textit{Michael archangele}* (Can 003754); A:\textit{ Laudemus dominum}* (Can 003592); A: \textit{Concussum est mare}* (Can 001864); A: \textit{Te sanctum dominum}* (Can
+                        005123); R: \textit{Stetit angelus}* Lacuna. (Fragm. 960-11
+                        Recto) [Michaelis] A: \textit{Michael praeposite}* (Can
+                        003757); A: \textit{Archangele Michael}* (Can 001474); A: \textit{Archangele dei}* (Can 001473); A: \textit{Archangeli Michaelis}* (Can 001475); A: \textit{Michael archangele defende}; A: \textit{Archangele Christi per} (Can 001472); R: \textit{Archangeli Michaelis}
+                        (Can 006118); Lacuna; (6v = 960-8, 960-9, 960-10 und 960-11) (Fragm. 960-8)
+                        Hieronimi A: \textit{Iste est qui ante deum}* (Can 003426); I:
+                            \textit{Regem confessorum}* (Can 001129); (Fragm. 960-9)
+                        R: \textit{E}[uge serve bone]* (Can 006677); A: \textit{Domine quinque talenta}* (Can 002370); A: \textit{Euge serve bone}* (Can 002732); A: \textit{Stolam jucunditatis}* (Can 005034); Remigii R: \textit{Juravit dominus}* (Can 007046); A: \textit{Justum deduxit}*; Germani, Vedasti A:\textit{ In circuitu tuo}* (Can 003208); Lacuna. (Fragm. 960-10) Remigii R: \textit{Iste est de sublimus}* (Can 00X); V: \textit{Iste est enim Remigius cujus }(Can 00X); \textit{Ecce sacerdos magnus}*; A: \textit{Amavit eum}*; Germani,
+                        Vedasti A: \textit{Fulgebunt justi}*; Remigii \textit{Juravit dominus}*; A: \textit{Iste cognovit}* (Can 003418); Fragm. 960-11: Leodegarii A: \textit{Beatus vir qui suffert}* (Can 001677); R: \textit{Iste cognovit}* (Can 006995); R: \textit{Stolam jucunditatis}* (Can 007710); R: \textit{Coronam auream}* (Can 006341); A: \textit{Qui me confessus}*
+                        (Can 004479); A: \textit{Si quis per me}* (Can 004911); Oct.
+                        Michaelis R: \textit{In conspectu angelorum}* (Can 006894); A:
+                            \textit{Dum sacrum}* (Can 002469); I: \textit{Angelorum regi}* (Can 001037); Marci, Pont. A: \textit{Sacerdos et pontifex}* (Can 004673); Sergii, Bacchi A: \textit{Absterget deus}* (Can 001212); Marci, Pont. R: \textit{Euge serve bone}* (Can 006677); R: \textit{Ecce sacerdos}* (Can 006609); R: \textit{Juravit dominus}* (Can 007046); A: \textit{Ecce sacerdos}*
+                        (Can 002544); A: \textit{Amavit eum}* (Can 009999); Sergii,
+                        Bacchi A: \textit{Tradiderunt}* (Can 005168); Dionysii A: \textit{Voce clara}* (Can 005488). Die Inhaltsangaben beruhen
+                        auf Cantus Planus Datenbank.
+                Musiknotation: Linienlose Neumennotation 
+            
+            \subsection{Entstehung}
+            
+                        Die Datierung und Lokalisierung stützen sich auf den paläographischen
+                        Befund.
+                        Weitere Fragmente von dergleichen Handschrift: Wien, ÖNB, Cod. 660, Cod. 732, Cod. 927, Cod. 1355, Cod. 1707, Cod. 1985,
+                        Cod. 3628, Cod. 3781, Cod. 3892, Cod. 15436, Fragm. 557, Fragm. 579, Fragm.
+                        603, Fragm. 604, Fragm. 613, Fragm. 906, Fragm. 954, Fragm. 960 (nach
+                        Klugseder Gruppe NNA1).
+                     
+            \subsection{Provenienz} 
+            
+                        
+                        Makulaturtyp: Falzverstärkung
+                        
+                     
+                \subsection{Lit.} CantusPlanus
+                        [http://www.cantusplanus.at/de-at/fragmentphp/fragmente/signaturGET.php?Signatur=Fragm960]
+                        Klugseder, Mondsee, S. 129f. Pfaff Nr. 42 Simader
+           
+            \end{document}
+        

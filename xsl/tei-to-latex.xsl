@@ -32,7 +32,7 @@
             \end{tabbing}
                         
             \subsection{Inhalt}
-            <xsl:value-of select=".//tei:msItem/tei:note[@type='description']"></xsl:value-of>
+            <xsl:apply-templates select=".//tei:msItem/tei:note[@type='description']"></xsl:apply-templates>
             
             <xsl:if test=".//tei:musicNotation/text()">
                 Musiknotation: <xsl:value-of select=".//tei:musicNotation"/>
@@ -48,9 +48,13 @@
            
             \end{document}
         </xsl:for-each>
-        
-        
-        
-        
+    </xsl:template>
+    
+    <xsl:template match="tei:quote">
+        <xsl:value-of select="normalize-space(concat('\textit{', ., '}'))"/>
+    </xsl:template>
+    
+    <xsl:template match="tei:hi[@rend='rubric']">
+        <xsl:value-of select="concat('\frqq ', ., '\flqq ')"/>
     </xsl:template>
 </xsl:stylesheet>
