@@ -10,6 +10,7 @@
         \author[]{}
         \usepackage{natbib}
         \usepackage{graphicx}
+        \usepackage{hyperref}
         
         \begin{document}
         
@@ -56,5 +57,9 @@
     
     <xsl:template match="tei:hi[@rend='rubric']">
         <xsl:value-of select="concat('\frqq ', ., '\flqq ')"/>
+    </xsl:template>
+    
+    <xsl:template match="tei:ref">
+        <xsl:value-of select="concat('\href{', @target, '}{', ./text(), '}')"/>
     </xsl:template>
 </xsl:stylesheet>

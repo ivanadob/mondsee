@@ -92,27 +92,31 @@
                      <msItem>
                         <textLang mainLang="lat">lateinisch</textLang>
                         <title>Breviarium</title>
-                        <note type="description">Mariae Magdalenae; Viti, Modesti; Vigilia Iohanis Baptistae. VS: <hi rend="rubric">Ad vesperas</hi> A: <quote>Veni electa</quote>* (Can 005322); Ps:<quote>
+                        <note type="description">Mariae Magdalenae; Viti, Modesti; Vigilia Iohanis Baptistae. VS: <hi rend="rubric">Ad vesperas</hi> A: <quote>Veni electa</quote>* <ref target="http://cantusindex.org/id/005322">(Can 005322)</ref>; Ps:<quote>
                             Laudat</quote>e; A:<quote> In diebus illis mulier quae in
-                            ciuitate peccatrix</quote> (Can 003224); I: <quote>In honore
-                            Marie Magdalene iubilemus dominum</quote>* (Can 001086); A: <quote>Ecce tu pulchra</quote>* (Can 002547); Ps: <quote>Domine dominus</quote>*; A: <quote>Sicut lilium</quote>* (Can
+                            ciuitate peccatrix</quote> 
+                           <ref target="http://cantusindex.org/id/003224">(Can 003224)</ref>; I: <quote>In honore
+                            Marie Magdalene iubilemus dominum</quote>* <ref target="http://cantusindex.org/id/001086">(Can 001086)</ref>; A: <quote>Ecce tu pulchra</quote>* <ref target="http://cantusindex.org/id/002547">(Can 002547)</ref>; Ps: <quote>Domine dominus</quote>*; A: <quote>Sicut lilium</quote>* (Can
                         004937); Ps: <quote>Celi</quote>*; A:<quote> Fauus
-                            distillans</quote>* (Can 002855); Ps: <quote>Domini est
-                            terra</quote>*; V: <quote>Specie tua</quote>*; I: <quote>Stellam Christum matutinam</quote> (Can 001162); A:<quote>
-                            Suauissime universorum</quote> (Can 005037); <hi rend="rubric">Super magnificat</hi> [...] <hi rend="rubric">Lectio
+                            distillans</quote>* <ref target="http://cantusindex.org/id/002855">(Can 002855)</ref>; Ps: <quote>Domini est
+                            terra</quote>*; V: <quote>Specie tua</quote>*; I: <quote>Stellam Christum matutinam</quote> 
+                           <ref target="http://cantusindex.org/id/001162">(Can 001162)</ref>; A:<quote>
+                            Suauissime universorum</quote> 
+                           <ref target="http://cantusindex.org/id/005037">(Can 005037)</ref>; <hi rend="rubric">Super magnificat</hi> [...] <hi rend="rubric">Lectio
                             p[rima?]</hi> Lectio aus Io 7,36 <quote>Rogabat Iesum quidam
                             phariscus ... et populum designat</quote>. A (?): <quote>Ista
                             est speciosa inter</quote>*; HS: Lectio / Capitulum
                         aus Bedae Venerabilis, Homilia XII in octava pentecostes, Text beginnt
                             verstümmelt:<quote> qui quoniam prudenter ea quæ ab illo
-                            fieri uidebat intelligere curauit</quote>. R: <quote>Apparuerunt</quote>* (Can 006110); Rubrizierte Anweisung; Lectio: <quote>In provincia Luciana sub tempore Diocleciano et Antonini
+                            fieri uidebat intelligere curauit</quote>. R: <quote>Apparuerunt</quote>* <ref target="http://cantusindex.org/id/006110">(Can 006110)</ref>; Rubrizierte Anweisung; Lectio: <quote>In provincia Luciana sub tempore Diocleciano et Antonini
                             imperator</quote> [sua timens - unterstrichen] <quote>multas
                             uirtutem operabatur beatus Vitus in infantia sua ...-... beatus Vitus
                             dixit ego non scio alium deum</quote> (BHL 8712); A: <quote>Cum
-                            audieritis</quote>* (Can 200979); <hi rend="rubric">Laudes</hi>
+                            audieritis</quote>* <ref target="http://cantusindex.org/id/200979">(Can 200979)</ref>; <hi rend="rubric">Laudes</hi>
                            <quote>Omnes sancti</quote>; <hi rend="rubric">In vigilia
                             Iohanis Baptistae</hi> A: <quote>Descendis angelis domini ad
-                            Zachariam</quote> (Can 002156).</note>
+                            Zachariam</quote> 
+                           <ref target="http://cantusindex.org/id/002156">(Can 002156)</ref>.</note>
                         <note>
                            <bibl type="edition"/>
                         </note>
@@ -390,16 +394,28 @@
                         <textLang mainLang="lat">lateinisch</textLang>
                         <title>Antiphonarium</title>
                         <note type="description">Bl. 1: [Benedicti] V: [Caelo] <quote>quoque ferri sanctam</quote>
-                        (Can 601583a); R: <quote>Alme pater qui praescius tui </quote>(Can
+                           <ref target="http://cantusindex.org/id/601583a">(Can 601583a)</ref>; R: <quote>Alme pater qui praescius tui </quote>(Can
                         600082); V: <quote>Per te ducem clarissimum ut</quote> (Can
-                        600082a); V: <quote>Gloria patri et filio et</quote>; A:<quote> Benedictum propheticis</quote> (Can 200654); R:<quote> Grandi pater fiducia morte </quote>(Can 600982); V: <quote>Fecit Christe quod jussisti</quote> (Can 600982a); R: <quote>Fratribus illuxit Benedictus</quote> (Can 600914); V: <quote>Virque super candens micuit</quote> (Can 600914a); R: <quote>Ecce jam cari noscite quam</quote> (Can 600716); V: <quote>Accepit ergo centuplum et</quote> (Can 600716a); R:<quote> Gloria Christe tuo tibi </quote>(Can 600951); V: <quote>Jam quibus aequasti</quote> (Can 600951b). Bl. 2: [Sabbato
-                        post Cineres]; A: [Quis scit si convertatur et] (Can 004550); [Dom. 1
-                        Quadragesimae] R: [Paradisi] <quote>portas</quote>* (Can 007348); W:
-                            <quote>Angelis sui</quote>[s]* (Can 007945); A: [Ecce nu]<quote>nc tempus acceptab</quote>[ile] (Can 002532); I: <quote>N</quote>[on sit vobis van]<quote>um mane</quote>
-                        (Can 001110);<quote> A</quote>[dvenerunt no]<quote>bis
-                            dies</quote> (Can 001294); R: [E]<quote>cce nun</quote>[c tempus
-                            acceptabi]<quote>le</quote> (Can 006600); V: [In omnibus
-                        exhibeamus] (Can 006600a); R: [Paradisi portas aperiat] <quote>nobis</quote> (Can 007348); V: [Ecce nunc tempus acceptabile] (Can
+                        600082a); V: <quote>Gloria patri et filio et</quote>; A:<quote> Benedictum propheticis</quote> 
+                           <ref target="http://cantusindex.org/id/200654">(Can 200654)</ref>; R:<quote> Grandi pater fiducia morte </quote>
+                           <ref target="http://cantusindex.org/id/600982">(Can 600982)</ref>; V: <quote>Fecit Christe quod jussisti</quote> 
+                           <ref target="http://cantusindex.org/id/600982a">(Can 600982a)</ref>; R: <quote>Fratribus illuxit Benedictus</quote> 
+                           <ref target="http://cantusindex.org/id/600914">(Can 600914)</ref>; V: <quote>Virque super candens micuit</quote> 
+                           <ref target="http://cantusindex.org/id/600914a">(Can 600914a)</ref>; R: <quote>Ecce jam cari noscite quam</quote> 
+                           <ref target="http://cantusindex.org/id/600716">(Can 600716)</ref>; V: <quote>Accepit ergo centuplum et</quote> 
+                           <ref target="http://cantusindex.org/id/600716a">(Can 600716a)</ref>; R:<quote> Gloria Christe tuo tibi </quote>
+                           <ref target="http://cantusindex.org/id/600951">(Can 600951)</ref>; V: <quote>Jam quibus aequasti</quote> 
+                           <ref target="http://cantusindex.org/id/600951b">(Can 600951b)</ref>. Bl. 2: [Sabbato
+                        post Cineres]; A: [Quis scit si convertatur et] <ref target="http://cantusindex.org/id/004550">(Can 004550)</ref>; [Dom. 1
+                        Quadragesimae] R: [Paradisi] <quote>portas</quote>* <ref target="http://cantusindex.org/id/007348">(Can 007348)</ref>; W:
+                            <quote>Angelis sui</quote>[s]* <ref target="http://cantusindex.org/id/007945">(Can 007945)</ref>; A: [Ecce nu]<quote>nc tempus acceptab</quote>[ile] <ref target="http://cantusindex.org/id/002532">(Can 002532)</ref>; I: <quote>N</quote>[on sit vobis van]<quote>um mane</quote>
+                           <ref target="http://cantusindex.org/id/001110">(Can 001110)</ref>;<quote> A</quote>[dvenerunt no]<quote>bis
+                            dies</quote> 
+                           <ref target="http://cantusindex.org/id/001294">(Can 001294)</ref>; R: [E]<quote>cce nun</quote>[c tempus
+                            acceptabi]<quote>le</quote> 
+                           <ref target="http://cantusindex.org/id/006600">(Can 006600)</ref>; V: [In omnibus
+                        exhibeamus] <ref target="http://cantusindex.org/id/006600a">(Can 006600a)</ref>; R: [Paradisi portas aperiat] <quote>nobis</quote> 
+                           <ref target="http://cantusindex.org/id/007348">(Can 007348)</ref>; V: [Ecce nunc tempus acceptabile] (Can
                         007348a). Die Inhaltangabe beruhen auf Cantus Planus Datenbank. </note>
                         <note>
                            <bibl type="edition"/>
@@ -543,7 +559,8 @@
                         <textLang mainLang="lat">lateinisch</textLang>
                         <title>Breviarium (?)</title>
                         <note type="description">Identifiziert: Hymnus [Lux ecce surgit aurea pallens ...] <quote>ne noxa corpus</quote> [...] <quote>qui nos
-                            diebu</quote>[s...]<quote> in uesperum</quote> (Can 008340).
+                            diebu</quote>[s...]<quote> in uesperum</quote> 
+                           <ref target="http://cantusindex.org/id/008340">(Can 008340)</ref>.
                         Rubrizierung: Vesper.</note>
                         <note>
                            <bibl type="edition"/>
@@ -835,14 +852,16 @@
                         <textLang mainLang="lat">lateinisch</textLang>
                         <title>Missale</title>
                         <note type="description">(VS) [Sabb. Hebd. 1 Quad.] In: [Intret o]<quote>ratio mea</quote>
-                        (Can g00706); InV: <quote>Domine deus salutis mee </quote>(Can
+                           <ref target="http://cantusindex.org/id/g00706">(Can g00706)</ref>; InV: <quote>Domine deus salutis mee </quote>(Can
                         g00706a); <hi rend="rubric">Oratio</hi> [p]<quote>opulum
                             tuum domine propicius respice ... clementer auerte. Per</quote>; Lectio aus
                         Dt 26,15: <hi rend="rubric">Lectio libri deuteronomi</hi> [L]<quote>ocutus est mayses ad dominum dicens. Respice domine ...
                             sicut iurasti patribus nostris</quote>;<quote> </quote>(HS) [Dom. 4
                         Adventus] In: [R]<quote>orate celi desuper ... seluatorem
-                        </quote>(Can 501007); InV: [Caeli en]<quote>narant gloriam dei
-                        </quote>(Can 501007a); Oratio: <quote>Deus qui de beate marie
+                        </quote>
+                           <ref target="http://cantusindex.org/id/501007">(Can 501007)</ref>; InV: [Caeli en]<quote>narant gloriam dei
+                        </quote>
+                           <ref target="http://cantusindex.org/id/501007a">(Can 501007a)</ref>; Oratio: <quote>Deus qui de beate marie
                             virginis utero verbum ... aput te patr</quote>[...]<quote>enciamus. Per eundem </quote>(Deshusses Nr. 140). Lectio aus Is 7,11:
                             [I]<quote>n diebus illis</quote> [L]<quote>ocutus est
                             dominus ad acham dicens pete tibi signum a domino deo tuo in
@@ -1505,46 +1524,72 @@
                         <textLang mainLang="lat">lateinisch</textLang>
                         <title>Graduale</title>
                         <note type="description">Der Inhalt beruft sich auf CantusPlanus Datenbank. (1r)  Fer. 6 Hebd. 2
-                        Quad. -  In: <quote>Ego autem cum justitia</quote> (Can g00740); -
+                        Quad. -  In: <quote>Ego autem cum justitia</quote> 
+                           <ref target="http://cantusindex.org/id/g00740">(Can g00740)</ref>; -
                              InPs:<quote> E</quote>[xaudi domine] <quote>justitiam</quote>; -  Gr: [Ad do]<quote>minum cum
                             tribularer</quote>; -  GrV: [Domine] <quote>libera animam
-                            meam</quote> (Can g01134a); -  Of: <quote>Domine i</quote>[n
+                            meam</quote> 
+                           <ref target="http://cantusindex.org/id/g01134a">(Can g01134a)</ref>; -  Of: <quote>Domine i</quote>[n
                         auxilium]; - OfV: <quote>Avertantur retror</quote>[sum] (Can
-                            g02305a); - OfV: <quote>Exspectans </quote>[exspecta]<quote>vi</quote> (Can g02305b); - Cm: <quote>Tu
-                        do</quote>[mine ser]<quote>vabis nos</quote> (Can g00741); Sabb. Hebd.
+                            g02305a); - OfV: <quote>Exspectans </quote>[exspecta]<quote>vi</quote> 
+                           <ref target="http://cantusindex.org/id/g02305b">(Can g02305b)</ref>; - Cm: <quote>Tu
+                        do</quote>[mine ser]<quote>vabis nos</quote> 
+                           <ref target="http://cantusindex.org/id/g00741">(Can g00741)</ref>; Sabb. Hebd.
                         2 Quad. - In: <quote>Lex domini irreprehensibilis</quote> (Can
                         g00742); - InPs: <quote>Caeli enarran</quote>[t]; - Gr: <quote>Bonum est confiteri</quote>; (1v)  Sabb. Hebd. 2 Quad. -
-                         GrV: [Ad annun]<quote>tiandum </quote>(Can g01207a); -
-                        Of: [Illumina] <quote>oculos meos</quote>; - OfV: <quote>Usquequo</quote> [domine] (Can g01153a); - OfV: <quote>Respice
-                            in me et exaudi me</quote> (Can g01153b); - Cm: <quote>Oportet
-                            te fili gaudere</quote> (Can g00743); Dom. 3 Quadragesimae - In: [O]<quote>culi mei semper</quote> (Can g00744); - InPs: <quote>Ad te domine levavi</quote>*; - Gr: [Exsur]<quote>ge domine non praevaleat </quote>(Can g00745); - GrV: [In conver]<quote>tendo</quote> (Can g00745a); (2r) Fer. 5 Hebd. 3 Quad.
-                            - Cm: <quote>Tu mandasti mandata </quote>(Can g01236); - In: <quote>Fac mecum domine</quote> (Can g00768); - InPs: <quote>Inclina domine</quote>; - Gr: <quote>In deo
-                            speravit cor meum</quote> (Can g01184); - GrV: <quote>Ad te
-                            domine clamabo</quote> (Can g01184a); - Of: <quote>Intende voci
-                        </quote>(Can g00769); - OfV: <quote>Verba mea auribus</quote>;
+                         GrV: [Ad annun]<quote>tiandum </quote>
+                           <ref target="http://cantusindex.org/id/g01207a">(Can g01207a)</ref>; -
+                        Of: [Illumina] <quote>oculos meos</quote>; - OfV: <quote>Usquequo</quote> [domine] <ref target="http://cantusindex.org/id/g01153a">(Can g01153a)</ref>; - OfV: <quote>Respice
+                            in me et exaudi me</quote> 
+                           <ref target="http://cantusindex.org/id/g01153b">(Can g01153b)</ref>; - Cm: <quote>Oportet
+                            te fili gaudere</quote> 
+                           <ref target="http://cantusindex.org/id/g00743">(Can g00743)</ref>; Dom. 3 Quadragesimae - In: [O]<quote>culi mei semper</quote> 
+                           <ref target="http://cantusindex.org/id/g00744">(Can g00744)</ref>; - InPs: <quote>Ad te domine levavi</quote>*; - Gr: [Exsur]<quote>ge domine non praevaleat </quote>
+                           <ref target="http://cantusindex.org/id/g00745">(Can g00745)</ref>; - GrV: [In conver]<quote>tendo</quote> 
+                           <ref target="http://cantusindex.org/id/g00745a">(Can g00745a)</ref>; (2r) Fer. 5 Hebd. 3 Quad.
+                            - Cm: <quote>Tu mandasti mandata </quote>
+                           <ref target="http://cantusindex.org/id/g01236">(Can g01236)</ref>; - In: <quote>Fac mecum domine</quote> 
+                           <ref target="http://cantusindex.org/id/g00768">(Can g00768)</ref>; - InPs: <quote>Inclina domine</quote>; - Gr: <quote>In deo
+                            speravit cor meum</quote> 
+                           <ref target="http://cantusindex.org/id/g01184">(Can g01184)</ref>; - GrV: <quote>Ad te
+                            domine clamabo</quote> 
+                           <ref target="http://cantusindex.org/id/g01184a">(Can g01184a)</ref>; - Of: <quote>Intende voci
+                        </quote>
+                           <ref target="http://cantusindex.org/id/g00769">(Can g00769)</ref>; - OfV: <quote>Verba mea auribus</quote>;
                             - OfV: <quote>Dirige in conspectu </quote>(Can
                             g00769b); - Cm: <quote>Qui biberit</quote> (Can g00770.1);
                         (2v) Sabb. Hebd. 3 Quad. - In: <quote>Verba mea auribus
-                            percipe</quote> (Can g00771); - InPs: <quote>Quoniam ad te
+                            percipe</quote> 
+                           <ref target="http://cantusindex.org/id/g00771">(Can g00771)</ref>; - InPs: <quote>Quoniam ad te
                             orabo</quote>; - Gr: <quote>Si ambulem in medio </quote>(Can
-                        g00772); - GrV: <quote>Virga tua</quote> (Can g00772a); - Of: <quote>Gressus meos dirige domine</quote> (Can g00774); - OfV: <quote>Declaratio sermo</quote>; - OfV: <quote>Cognovi
-                            domine</quote> (Can g00774b); - Cm: <quote>Nemo te
+                        g00772); - GrV: <quote>Virga tua</quote> 
+                           <ref target="http://cantusindex.org/id/g00772a">(Can g00772a)</ref>; - Of: <quote>Gressus meos dirige domine</quote> 
+                           <ref target="http://cantusindex.org/id/g00774">(Can g00774)</ref>; - OfV: <quote>Declaratio sermo</quote>; - OfV: <quote>Cognovi
+                            domine</quote> 
+                           <ref target="http://cantusindex.org/id/g00774b">(Can g00774b)</ref>; - Cm: <quote>Nemo te
                             condempnavit</quote>; Dom. 4 Quadragesimae - In: <quote>Laetare
-                            Jerusalem</quote> (Can g00776); (3r)  Vig. Joannis Bapt. - In: [Ne ti]<quote>meas Zacharia</quote> (Can g00236); - InPs: <quote>Domine in virtute tua</quote>; - Gr: <quote>Fuit homo missus a
-                            deo </quote>(Can g00237); - GrV: <quote>Ut testimonium</quote> (Can
-                        g00237a); - Of: <quote>Gloria et honore</quote>* (Can g01260);
-                            - Cm: <quote>Magna est</quote>* (Can g01261); Joannis
-                        Baptistae-1 - In: <quote>Gloria et honore</quote>* (Can g02212);
-                            - Gr: <quote>Domine praevenisti</quote>* (Can g01360);
+                            Jerusalem</quote> 
+                           <ref target="http://cantusindex.org/id/g00776">(Can g00776)</ref>; (3r)  Vig. Joannis Bapt. - In: [Ne ti]<quote>meas Zacharia</quote> 
+                           <ref target="http://cantusindex.org/id/g00236">(Can g00236)</ref>; - InPs: <quote>Domine in virtute tua</quote>; - Gr: <quote>Fuit homo missus a
+                            deo </quote>
+                           <ref target="http://cantusindex.org/id/g00237">(Can g00237)</ref>; - GrV: <quote>Ut testimonium</quote> (Can
+                        g00237a); - Of: <quote>Gloria et honore</quote>* <ref target="http://cantusindex.org/id/g01260">(Can g01260)</ref>;
+                            - Cm: <quote>Magna est</quote>* <ref target="http://cantusindex.org/id/g01261">(Can g01261)</ref>; Joannis
+                        Baptistae-1 - In: <quote>Gloria et honore</quote>* <ref target="http://cantusindex.org/id/g02212">(Can g02212)</ref>;
+                            - Gr: <quote>Domine praevenisti</quote>* <ref target="http://cantusindex.org/id/g01360">(Can g01360)</ref>;
                             - AlV: <quote>Justus germinavit</quote>*; - Of: <quote>In virtute</quote>*; - Cm: <quote>Posuisti</quote>*; Joannis Baptistae-2 - In: <quote>De ventre
-                            matris meae </quote>(Can g00239); - InPs: <quote>Bonum est
+                            matris meae </quote>
+                           <ref target="http://cantusindex.org/id/g00239">(Can g00239)</ref>; - InPs: <quote>Bonum est
                             confiteri</quote>; - Gr: <quote>Priusquam te formarem</quote> (Can
                         g00240); - GrV: <quote>Misit dominus manum suam</quote> (Can
                         g00240a); - AlV: <quote>Justus ut palma</quote>*; - Of: <quote>Justus ut palma</quote>*; - Cm: <quote>Tu puer
-                            propheta</quote> (Can g00243); (3v)  [Joannis, Pauli] - In: <quote>Multe tribulationes jus</quote>[torum]; - InPs: <quote>Benedicam dominum</quote>; - Gr: <quote>Ecce quam
+                            propheta</quote> 
+                           <ref target="http://cantusindex.org/id/g00243">(Can g00243)</ref>; (3v)  [Joannis, Pauli] - In: <quote>Multe tribulationes jus</quote>[torum]; - InPs: <quote>Benedicam dominum</quote>; - Gr: <quote>Ecce quam
                             bonum</quote>; - GrV: <quote>Sicut unguentum in capite</quote> (Can
-                            g00114a); - GrV: <quote>Mandavit dominus</quote> (Can g00114b);
-                            - Of: <quote>Gloriabuntur in te omnes </quote>(Can g00244);
+                            g00114a); - GrV: <quote>Mandavit dominus</quote> 
+                           <ref target="http://cantusindex.org/id/g00114b">(Can g00114b)</ref>;
+                            - Of: <quote>Gloriabuntur in te omnes </quote>
+                           <ref target="http://cantusindex.org/id/g00244">(Can g00244)</ref>;
                             - OfV: <quote>Quoniam ad te</quote> (Can g00244a oder g00244a1);
                             - Cm: <quote>Et si coram hominibus</quote>; Vigilia Petri, Pauli
                             - In: <quote>Dicit dominus Petro cum esses junior </quote>(Can
@@ -1866,80 +1911,80 @@
                      <msItem>
                         <textLang mainLang="lat">lateinisch</textLang>
                         <title>Graduale</title>
-                        <note type="description">(1r) Dom. 3 Adventus In: Gaudete in domino semper (Can g00501); InPs:
-                        Benedixisti domine terram (Can g00501b); Gr: Qui sedis domine super (Can
-                        g00502); GrV: Qui regis Israel intende (Can g00502a); AlV: Excita domine
-                        potentiam tuam (Can g00504a); Of: Benedixisti domine terram (Can g00505);
-                        OfV: Operuisti omnia peccata eorum (Can g00505a); OfV: Ostende nobis domine
-                        (Cang00505b); Cm: Dicite pusillanimes confortamini (Can g00506); Dom. 4
-                        Adventus In: Memento nostri domine in (Can g02156); (1v) InPs: Confitemini
-                        domino quoniam bonus* (Can g02156b); Gr: Prope est dominus omnibus (Can
-                        g00530); GrV: Laudem domini loquetur (Can g00530a); AlV: Veni domine et noli
-                        tardare (Can g00532a); Of: Ave Maria gratia plena (Can g00533); OfV: Quomodo
-                        in me fiet hoc que (Can g00533a); OfV: Ideoque quod nascetur ex (Can
-                        g00533ab); Cm: Ecce virgo* (Can 503007); Fer. 4 Q.T. Adventus In: Rorate
-                        caeli desuper et nubes (Can 501007); InPs: Caeli enarrant gloriam dei (Can
-                        501007a); Gr: Tollite portas principes vestras (Can g02220); (4r) GrV: Quis
-                        ascendet in montem (Can g02220a); Gr: Prope est dominus* (Can g00530); Of:
-                        Confortamini et jam (Can g00509); OfV: Tunc [aperien]tur oculi (Can
-                        g00509a); OfV: Audite itaq[ue domus] David (Can g00509b); Cm: Ecce virgo
-                        concipiet et pariet (Can 503007); Fer. 6 Q.T. Adventus In: Prope esto domine
-                        et omnes (Can g02397); InPs: Beati inmaculati (Can g02397a); Gr: Ostende
-                        nobis domine (Can g00511); GrV: Benedixisti domine terram (Can g00511a); Of:
-                        Deus tu convertens (Can g00499); (4v) Cm: [Ecce dominus veniet] (Can
+                        <note type="description">(1r) Dom. 3 Adventus In: Gaudete in domino semper <ref target="http://cantusindex.org/id/g00501">(Can g00501)</ref>; InPs:
+                        Benedixisti domine terram <ref target="http://cantusindex.org/id/g00501b">(Can g00501b)</ref>; Gr: Qui sedis domine super (Can
+                        g00502); GrV: Qui regis Israel intende <ref target="http://cantusindex.org/id/g00502a">(Can g00502a)</ref>; AlV: Excita domine
+                        potentiam tuam <ref target="http://cantusindex.org/id/g00504a">(Can g00504a)</ref>; Of: Benedixisti domine terram <ref target="http://cantusindex.org/id/g00505">(Can g00505)</ref>;
+                        OfV: Operuisti omnia peccata eorum <ref target="http://cantusindex.org/id/g00505a">(Can g00505a)</ref>; OfV: Ostende nobis domine
+                        (Cang00505b); Cm: Dicite pusillanimes confortamini <ref target="http://cantusindex.org/id/g00506">(Can g00506)</ref>; Dom. 4
+                        Adventus In: Memento nostri domine in <ref target="http://cantusindex.org/id/g02156">(Can g02156)</ref>; (1v) InPs: Confitemini
+                        domino quoniam bonus* <ref target="http://cantusindex.org/id/g02156b">(Can g02156b)</ref>; Gr: Prope est dominus omnibus (Can
+                        g00530); GrV: Laudem domini loquetur <ref target="http://cantusindex.org/id/g00530a">(Can g00530a)</ref>; AlV: Veni domine et noli
+                        tardare <ref target="http://cantusindex.org/id/g00532a">(Can g00532a)</ref>; Of: Ave Maria gratia plena <ref target="http://cantusindex.org/id/g00533">(Can g00533)</ref>; OfV: Quomodo
+                        in me fiet hoc que <ref target="http://cantusindex.org/id/g00533a">(Can g00533a)</ref>; OfV: Ideoque quod nascetur ex (Can
+                        g00533ab); Cm: Ecce virgo* <ref target="http://cantusindex.org/id/503007">(Can 503007)</ref>; Fer. 4 Q.T. Adventus In: Rorate
+                        caeli desuper et nubes <ref target="http://cantusindex.org/id/501007">(Can 501007)</ref>; InPs: Caeli enarrant gloriam dei (Can
+                        501007a); Gr: Tollite portas principes vestras <ref target="http://cantusindex.org/id/g02220">(Can g02220)</ref>; (4r) GrV: Quis
+                        ascendet in montem <ref target="http://cantusindex.org/id/g02220a">(Can g02220a)</ref>; Gr: Prope est dominus* <ref target="http://cantusindex.org/id/g00530">(Can g00530)</ref>; Of:
+                        Confortamini et jam <ref target="http://cantusindex.org/id/g00509">(Can g00509)</ref>; OfV: Tunc [aperien]tur oculi (Can
+                        g00509a); OfV: Audite itaq[ue domus] David <ref target="http://cantusindex.org/id/g00509b">(Can g00509b)</ref>; Cm: Ecce virgo
+                        concipiet et pariet <ref target="http://cantusindex.org/id/503007">(Can 503007)</ref>; Fer. 6 Q.T. Adventus In: Prope esto domine
+                        et omnes <ref target="http://cantusindex.org/id/g02397">(Can g02397)</ref>; InPs: Beati inmaculati <ref target="http://cantusindex.org/id/g02397a">(Can g02397a)</ref>; Gr: Ostende
+                        nobis domine <ref target="http://cantusindex.org/id/g00511">(Can g00511)</ref>; GrV: Benedixisti domine terram <ref target="http://cantusindex.org/id/g00511a">(Can g00511a)</ref>; Of:
+                        Deus tu convertens <ref target="http://cantusindex.org/id/g00499">(Can g00499)</ref>; (4v) Cm: [Ecce dominus veniet] (Can
                         g00513); Sabb. Q.T. Adventus In: [Ve]ni et os[tende no]bis faciem (Can
-                        g00514); InPs: [Qui regis] Israel* (Can g00514a); Gr: A summo caelo (Can
-                        g00515); GrV: Caeli enar[rant glo]riam dei (Can g00515a); Gr: [In sole
-                        po]suit tabernaculum (Can g00517); GrV: [A summo] caelo (Can g00517a); Gr:
-                        Domine deus virtutum (Can g00519); GrV: Excita domine (Can g00519a); Gr:
-                        Excita domine (Can g00521); GrV: Qui regis Israel (Can g00521a); (3r) Tc:
-                        Qui regis Israel (Can g00524); TcV: Qui sedes super cherubim (Can g00524a);
+                        g00514); InPs: [Qui regis] Israel* <ref target="http://cantusindex.org/id/g00514a">(Can g00514a)</ref>; Gr: A summo caelo (Can
+                        g00515); GrV: Caeli enar[rant glo]riam dei <ref target="http://cantusindex.org/id/g00515a">(Can g00515a)</ref>; Gr: [In sole
+                        po]suit tabernaculum <ref target="http://cantusindex.org/id/g00517">(Can g00517)</ref>; GrV: [A summo] caelo <ref target="http://cantusindex.org/id/g00517a">(Can g00517a)</ref>; Gr:
+                        Domine deus virtutum <ref target="http://cantusindex.org/id/g00519">(Can g00519)</ref>; GrV: Excita domine <ref target="http://cantusindex.org/id/g00519a">(Can g00519a)</ref>; Gr:
+                        Excita domine <ref target="http://cantusindex.org/id/g00521">(Can g00521)</ref>; GrV: Qui regis Israel <ref target="http://cantusindex.org/id/g00521a">(Can g00521a)</ref>; (3r) Tc:
+                        Qui regis Israel <ref target="http://cantusindex.org/id/g00524">(Can g00524)</ref>; TcV: Qui sedes super cherubim <ref target="http://cantusindex.org/id/g00524a">(Can g00524a)</ref>;
                         TcV: Effraim Benjamin et Manasse ; TcV: Excita domine potentiam tuam (Can
-                        g00524b); Of: Exsulta satis filia Sion praedica (Can g00527); OfV: Loquetur
-                        pacem gentes (Can g00527a); OfV: Quia ecce venio et habitabo (Can g00527b);
-                        Cm: Exsultavit ut gigans (Can g00528); Vigilia Nat. Domini In: Hodie scietis
-                        quia veniet (Can g00535); InPs: Domini est terra (Can g00535a); Gr: Hodie
-                        scietis quia veniet (Can g00536); (3v) GrV: [Qui regis Israel inten]de (Can
-                        g00536a); Of: Tollite portas principes vestras (Can g00539); OfV: Domini est
-                        terra et plenitudo (Can g00540a); OfV: Ipse super Maria fundavit eum (Can
-                        g00539c); Cm: Revelabitur gloria domini et (Can g00540); Nativitas Domini -
-                        1 In: Dominus dixit ad me Filius (Can g00541); InPs: Quare fremuerunt gentes
-                        et (Can g00541a); Gr: Tecum principium in die (Can g00542); GrV: Dixit
-                        dominus domino meo (Can g00542a); AlV: Dominus dixit ad me filius (Can
-                        g00544); (2r) Of: Laetentur caeli et exultet (Can g00545); OfV: Cantate
-                        [domino] canticum (Can g00545a); OfV: Cantate domino benedicite (Can
-                        g00545b); Cm: In splendoribus sanctorum (Can g00546); Nativitas Domini - 2
-                        In: Lux fulgebit hodie super (Can g00547); InPs: Dominus regnavit decore*
-                        (Can g00547a); Gr: Benedictus qui venit in nomine (Can g00548); GrV: A
-                        domino factum est (Can g00548a); AlV: Dominu[s regna]vit (Can g00550); Of:
-                        Deus enim firmavit orbem (Cang00551); OfV: Dominus regnavit (Can g00551a);
-                        (2v) OfV: Mirabilis [in excel]sis dominus (Can g00551b); Cm: Exulta filia
-                        Sion lauda filia (Can g00552); Nativitas Domini - 3 In: Puer natus est nobis
-                        (Can g00553); InPs: Cantate domino canticum (Can g00553a); Gr: Viderunt
-                        omnes (Can g00554); GrV: [Notum f]ecit dominus (Can g00554a); AlV: Dies
-                        sanctifica[tus] (Can g00556); (5r) Fer. 4 Hebd. 4 Quad. Cm: Lutum fecit ex
-                        sputo dominus (Can g00790); Fer. 5 Hebd. 4 Quad. In: Laetetur cor (Can
-                        g00791); InPs: Confitemini domino (Can g00791a); Gr: Respice domine (Can
-                        g01195); GrV: Exsurge domine (Can g01195a); Of: Domine ad adjuvandum (Can
-                        g00792); OfV: Exspectans expectavi dominum (Can g00792a); Cm: Domine
-                        memorabor justitiae (Can g01215); Fer. 6 Hebd. 4 Quad. In: Meditatio cordis
-                        mei (Can g00793); InPs: Caeli enarrant gloriam dei* (Can g00793b); Gr: Bonum
-                        est confidere (Can g01201); (5v) GrV: Bonum est sperare in domino (Can
-                        g01201a); Of: Populum humilem salvum (Can g01171); OfV: Clamor meus in
-                        conspectu (Can g01171a); OfV: Liberator meus de gentibus (Can g01171b); Cm:
-                        Videns dominus flentes (Can g00794); Sabb. Hebd. 4 Quad. In: Sicientes
-                        venite ad aquas (Can g00795); InPs: Attendite popule meus (Can g00795b); Gr:
-                        Tibi domine derelictus est pauper (Can g00796); (6r) Fer. 2 Maj. Hebd. Of:
-                        Eripe me de inimicis meis (Can g00867); OfV: Exaudi m[e in tu]a justitia
-                        (Can g00867a); Cm: Er[ubescant] et revereantur (Can g00868); Fer. 3 Maj.
-                        Hebd. In: Nos autem gloriari (Can g00180); InPs: Deus misereatur nostri (Can
-                        g00180b); Gr: Ego autem dum mihi molesti (Can g00869); GrV: Judica [domine]
-                        nocentes me (Can g00869a); Of: Custodi me domine (Can g00871); OfV: [Eripe]
-                        me do[mine] (Can g00871a); (6v) OfV: Qui [cogitave]runt (Can g00871b); Cm:
-                        Adversum me exerceban[tur] (Can g00872); Fer. 4 Maj. Hebd. In: [In nomin]e
-                        domini (Can g00873); InPs: Domine exaudi et clamor (Can g00873b); Gr: [Ne
-                        avert]as faciem tuam (Can g00874); GrV: Salvum me fac (Can g00874a); Tc:
-                        Domine [exaudi o]rationem (Can g00876); TcV: Ne avertas faciem tuam (Can
+                        g00524b); Of: Exsulta satis filia Sion praedica <ref target="http://cantusindex.org/id/g00527">(Can g00527)</ref>; OfV: Loquetur
+                        pacem gentes <ref target="http://cantusindex.org/id/g00527a">(Can g00527a)</ref>; OfV: Quia ecce venio et habitabo <ref target="http://cantusindex.org/id/g00527b">(Can g00527b)</ref>;
+                        Cm: Exsultavit ut gigans <ref target="http://cantusindex.org/id/g00528">(Can g00528)</ref>; Vigilia Nat. Domini In: Hodie scietis
+                        quia veniet <ref target="http://cantusindex.org/id/g00535">(Can g00535)</ref>; InPs: Domini est terra <ref target="http://cantusindex.org/id/g00535a">(Can g00535a)</ref>; Gr: Hodie
+                        scietis quia veniet <ref target="http://cantusindex.org/id/g00536">(Can g00536)</ref>; (3v) GrV: [Qui regis Israel inten]de (Can
+                        g00536a); Of: Tollite portas principes vestras <ref target="http://cantusindex.org/id/g00539">(Can g00539)</ref>; OfV: Domini est
+                        terra et plenitudo <ref target="http://cantusindex.org/id/g00540a">(Can g00540a)</ref>; OfV: Ipse super Maria fundavit eum (Can
+                        g00539c); Cm: Revelabitur gloria domini et <ref target="http://cantusindex.org/id/g00540">(Can g00540)</ref>; Nativitas Domini -
+                        1 In: Dominus dixit ad me Filius <ref target="http://cantusindex.org/id/g00541">(Can g00541)</ref>; InPs: Quare fremuerunt gentes
+                        et <ref target="http://cantusindex.org/id/g00541a">(Can g00541a)</ref>; Gr: Tecum principium in die <ref target="http://cantusindex.org/id/g00542">(Can g00542)</ref>; GrV: Dixit
+                        dominus domino meo <ref target="http://cantusindex.org/id/g00542a">(Can g00542a)</ref>; AlV: Dominus dixit ad me filius (Can
+                        g00544); (2r) Of: Laetentur caeli et exultet <ref target="http://cantusindex.org/id/g00545">(Can g00545)</ref>; OfV: Cantate
+                        [domino] canticum <ref target="http://cantusindex.org/id/g00545a">(Can g00545a)</ref>; OfV: Cantate domino benedicite (Can
+                        g00545b); Cm: In splendoribus sanctorum <ref target="http://cantusindex.org/id/g00546">(Can g00546)</ref>; Nativitas Domini - 2
+                        In: Lux fulgebit hodie super <ref target="http://cantusindex.org/id/g00547">(Can g00547)</ref>; InPs: Dominus regnavit decore*
+                        <ref target="http://cantusindex.org/id/g00547a">(Can g00547a)</ref>; Gr: Benedictus qui venit in nomine <ref target="http://cantusindex.org/id/g00548">(Can g00548)</ref>; GrV: A
+                        domino factum est <ref target="http://cantusindex.org/id/g00548a">(Can g00548a)</ref>; AlV: Dominu[s regna]vit <ref target="http://cantusindex.org/id/g00550">(Can g00550)</ref>; Of:
+                        Deus enim firmavit orbem (Cang00551); OfV: Dominus regnavit <ref target="http://cantusindex.org/id/g00551a">(Can g00551a)</ref>;
+                        (2v) OfV: Mirabilis [in excel]sis dominus <ref target="http://cantusindex.org/id/g00551b">(Can g00551b)</ref>; Cm: Exulta filia
+                        Sion lauda filia <ref target="http://cantusindex.org/id/g00552">(Can g00552)</ref>; Nativitas Domini - 3 In: Puer natus est nobis
+                        <ref target="http://cantusindex.org/id/g00553">(Can g00553)</ref>; InPs: Cantate domino canticum <ref target="http://cantusindex.org/id/g00553a">(Can g00553a)</ref>; Gr: Viderunt
+                        omnes <ref target="http://cantusindex.org/id/g00554">(Can g00554)</ref>; GrV: [Notum f]ecit dominus <ref target="http://cantusindex.org/id/g00554a">(Can g00554a)</ref>; AlV: Dies
+                        sanctifica[tus] <ref target="http://cantusindex.org/id/g00556">(Can g00556)</ref>; (5r) Fer. 4 Hebd. 4 Quad. Cm: Lutum fecit ex
+                        sputo dominus <ref target="http://cantusindex.org/id/g00790">(Can g00790)</ref>; Fer. 5 Hebd. 4 Quad. In: Laetetur cor (Can
+                        g00791); InPs: Confitemini domino <ref target="http://cantusindex.org/id/g00791a">(Can g00791a)</ref>; Gr: Respice domine (Can
+                        g01195); GrV: Exsurge domine <ref target="http://cantusindex.org/id/g01195a">(Can g01195a)</ref>; Of: Domine ad adjuvandum (Can
+                        g00792); OfV: Exspectans expectavi dominum <ref target="http://cantusindex.org/id/g00792a">(Can g00792a)</ref>; Cm: Domine
+                        memorabor justitiae <ref target="http://cantusindex.org/id/g01215">(Can g01215)</ref>; Fer. 6 Hebd. 4 Quad. In: Meditatio cordis
+                        mei <ref target="http://cantusindex.org/id/g00793">(Can g00793)</ref>; InPs: Caeli enarrant gloriam dei* <ref target="http://cantusindex.org/id/g00793b">(Can g00793b)</ref>; Gr: Bonum
+                        est confidere <ref target="http://cantusindex.org/id/g01201">(Can g01201)</ref>; (5v) GrV: Bonum est sperare in domino (Can
+                        g01201a); Of: Populum humilem salvum <ref target="http://cantusindex.org/id/g01171">(Can g01171)</ref>; OfV: Clamor meus in
+                        conspectu <ref target="http://cantusindex.org/id/g01171a">(Can g01171a)</ref>; OfV: Liberator meus de gentibus <ref target="http://cantusindex.org/id/g01171b">(Can g01171b)</ref>; Cm:
+                        Videns dominus flentes <ref target="http://cantusindex.org/id/g00794">(Can g00794)</ref>; Sabb. Hebd. 4 Quad. In: Sicientes
+                        venite ad aquas <ref target="http://cantusindex.org/id/g00795">(Can g00795)</ref>; InPs: Attendite popule meus <ref target="http://cantusindex.org/id/g00795b">(Can g00795b)</ref>; Gr:
+                        Tibi domine derelictus est pauper <ref target="http://cantusindex.org/id/g00796">(Can g00796)</ref>; (6r) Fer. 2 Maj. Hebd. Of:
+                        Eripe me de inimicis meis <ref target="http://cantusindex.org/id/g00867">(Can g00867)</ref>; OfV: Exaudi m[e in tu]a justitia
+                        <ref target="http://cantusindex.org/id/g00867a">(Can g00867a)</ref>; Cm: Er[ubescant] et revereantur <ref target="http://cantusindex.org/id/g00868">(Can g00868)</ref>; Fer. 3 Maj.
+                        Hebd. In: Nos autem gloriari <ref target="http://cantusindex.org/id/g00180">(Can g00180)</ref>; InPs: Deus misereatur nostri (Can
+                        g00180b); Gr: Ego autem dum mihi molesti <ref target="http://cantusindex.org/id/g00869">(Can g00869)</ref>; GrV: Judica [domine]
+                        nocentes me <ref target="http://cantusindex.org/id/g00869a">(Can g00869a)</ref>; Of: Custodi me domine <ref target="http://cantusindex.org/id/g00871">(Can g00871)</ref>; OfV: [Eripe]
+                        me do[mine] <ref target="http://cantusindex.org/id/g00871a">(Can g00871a)</ref>; (6v) OfV: Qui [cogitave]runt <ref target="http://cantusindex.org/id/g00871b">(Can g00871b)</ref>; Cm:
+                        Adversum me exerceban[tur] <ref target="http://cantusindex.org/id/g00872">(Can g00872)</ref>; Fer. 4 Maj. Hebd. In: [In nomin]e
+                        domini <ref target="http://cantusindex.org/id/g00873">(Can g00873)</ref>; InPs: Domine exaudi et clamor <ref target="http://cantusindex.org/id/g00873b">(Can g00873b)</ref>; Gr: [Ne
+                        avert]as faciem tuam <ref target="http://cantusindex.org/id/g00874">(Can g00874)</ref>; GrV: Salvum me fac <ref target="http://cantusindex.org/id/g00874a">(Can g00874a)</ref>; Tc:
+                        Domine [exaudi o]rationem <ref target="http://cantusindex.org/id/g00876">(Can g00876)</ref>; TcV: Ne avertas faciem tuam (Can
                         g00876a). Die Inhaltsangaben beruhen auf Cantus Planus Datenbank.</note>
                         <note>
                            <bibl type="edition"/>
@@ -3461,12 +3506,12 @@
                         procidant ad gradum et chorus&lt; In domino laudabitur anima mea. Evovae
                         audiant mansueti et letentur. &gt;Dominus abbas cantet&lt; Venite filii.
                         &gt;Illi surgentes procidant super gradum et chorus&lt; Magnificate dominum
-                        mecum et exaltemus nomen eius (Can g01204b) &gt;Dominus abbas&lt; Audite me.
+                        mecum et exaltemus nomen eius <ref target="http://cantusindex.org/id/g01204b">(Can g01204b)</ref> &gt;Dominus abbas&lt; Audite me.
                         &gt;Ac illi surgentes procidant et chorus&lt; V: Exquisiui dominum et
                         exaudiuit me ... &gt;Dominus abbas subiungat cantans. Tunc surgentes
                         accedant ad altare et chorus cantet&lt;. (2r) R: Tollite iugum meum super
-                        vos (Can 007770); A: Iugum enim meum suaue est (Can 003520); A: Tollite
-                        iugum meum (Can 005158); &gt;Post superinpositas cappas inponat dominus
+                        vos <ref target="http://cantusindex.org/id/007770">(Can 007770)</ref>; A: Iugum enim meum suaue est <ref target="http://cantusindex.org/id/003520">(Can 003520)</ref>; A: Tollite
+                        iugum meum <ref target="http://cantusindex.org/id/005158">(Can 005158)</ref>; &gt;Post superinpositas cappas inponat dominus
                         abbas hanc antiphonam&lt; A: Coronauit eos dominus corona iusticie et dedit
                         illis nomen sanctum glorie. Oremus. (2r-v) Deus eternorum bonorum
                         fidelissime promissor ...-... immortalitate vestri. Per (Vgl. Klosterrituale
@@ -3476,7 +3521,7 @@
                         singulorum et osculetur et dicat&lt; Pax tibi &gt;Et sic eant ad omnem
                         congregacionem recipientes a singulos flexis genibus osculum pacis in signum
                         fraterne dilectionis et coadunacionis. Interim chorus cantet&lt; A: Ecce
-                        quam bonum et quam (Can 004496). (3r) Oratio, Text beginnt verstümmelt: per
+                        quam bonum et quam <ref target="http://cantusindex.org/id/004496">(Can 004496)</ref>. (3r) Oratio, Text beginnt verstümmelt: per
                         intercessionem beatissimi benedicti quem praecipue huius sanctae
                         institutionis legislatorem dedisti ...-... uiuis et gloriaris deus
                         perinfinita secula seculorum. Amen (Vgl. Das Klosterrituale von Biburg, S.
@@ -3487,7 +3532,7 @@
                         ...-... (1v) in monasterio persistere et uitam percipere mereantur eternam.
                         Per. &gt;Tunc chorus tam diu cantet hanc antiphonam repetendo eam donec
                         omnes induantur tunicis et scapularibus et dominus aspergat et thurificet
-                        vestes et nouicios&lt;. A: Qui sequitur me (Can 004496); &gt;Ad exeundum
+                        vestes et nouicios&lt;. A: Qui sequitur me <ref target="http://cantusindex.org/id/004496">(Can 004496)</ref>; &gt;Ad exeundum
                         dicat abbas singulis&lt; Exuat te dominus veterem hominem cum accibus suis.
                         &gt;Ad induendum tunicam et scapulare dicat&lt; Induat te dominus nouum
                         hominem qui secundum deum creatus est in iusticia et sanctitate veritatis
@@ -3834,17 +3879,17 @@
                         <textLang mainLang="lat">lateinisch</textLang>
                         <title>Graduale</title>
                         <note type="description">Teil für Fer. 4 Maj. Hebd, Fer. 5 in Cena Dom., Ad mandatum. (1r) [Fer. 4
-                        Maj. Hebd.] Cm: [Potum meum] cum fletu temperabam (Can g00883); &gt;Fer. V
+                        Maj. Hebd.] Cm: [Potum meum] cum fletu temperabam <ref target="http://cantusindex.org/id/g00883">(Can g00883)</ref>; &gt;Fer. V
                         Cene domini&lt; In: Nos autem gloriari* (wohl Can g00180); Gr: Christus
-                        factus est (Can 505005); GrV: Propter quod deus exaltauit (Can 505005a); Of:
-                        Pro[tege] domine plebem (Can g00376); OfV: T[e sancta] dei crux (Can
-                        g00376b); OfV: Saluator mondi salua nos (Can g00376c); (1r-v) OfV: Qui pro
-                        mundi salute (Can g00376a); Cm: Dominus Iesus postquam (Can g00920.1);
-                        &gt;Ad mandatum&lt; A: Cena facta dixit Iesus (Can 001780); Ps: Miserere mei
-                        [...]*; A: Postquam surrexit dominus (Can 004340); Ps: Deus [misereatur]*;
-                        A: Si ego dominus (Can 004889); Ps: Quam dilecta* (Can 920083); Ps: Beati
-                        imma[culati]* (Can 920118); A: In hoc cognoscent omnes (Can 003239); Ps:
-                        Domine exaudi*; A: Diligamus nos inuicem (Can 002231). Die Angaben im Inhalt
+                        factus est <ref target="http://cantusindex.org/id/505005">(Can 505005)</ref>; GrV: Propter quod deus exaltauit <ref target="http://cantusindex.org/id/505005a">(Can 505005a)</ref>; Of:
+                        Pro[tege] domine plebem <ref target="http://cantusindex.org/id/g00376">(Can g00376)</ref>; OfV: T[e sancta] dei crux (Can
+                        g00376b); OfV: Saluator mondi salua nos <ref target="http://cantusindex.org/id/g00376c">(Can g00376c)</ref>; (1r-v) OfV: Qui pro
+                        mundi salute <ref target="http://cantusindex.org/id/g00376a">(Can g00376a)</ref>; Cm: Dominus Iesus postquam (Can g00920.1);
+                        &gt;Ad mandatum&lt; A: Cena facta dixit Iesus <ref target="http://cantusindex.org/id/001780">(Can 001780)</ref>; Ps: Miserere mei
+                        [...]*; A: Postquam surrexit dominus <ref target="http://cantusindex.org/id/004340">(Can 004340)</ref>; Ps: Deus [misereatur]*;
+                        A: Si ego dominus <ref target="http://cantusindex.org/id/004889">(Can 004889)</ref>; Ps: Quam dilecta* <ref target="http://cantusindex.org/id/920083">(Can 920083)</ref>; Ps: Beati
+                        imma[culati]* <ref target="http://cantusindex.org/id/920118">(Can 920118)</ref>; A: In hoc cognoscent omnes <ref target="http://cantusindex.org/id/003239">(Can 003239)</ref>; Ps:
+                        Domine exaudi*; A: Diligamus nos inuicem <ref target="http://cantusindex.org/id/002231">(Can 002231)</ref>. Die Angaben im Inhalt
                         berufen sich auf Cantus Planus Datenbank.</note>
                         <note>
                            <bibl type="edition"/>
@@ -3985,12 +4030,15 @@
                         <title>Breviarium</title>
                         <note type="description">[Festum Ioannis Baptistae, 24. Juni:] <hi rend="rubric">In
                             matutinum laudibus</hi>. A: <quote>Elisabeth Zacharie magnum
-                            uirum genuit</quote> (Can 002639); A: <quote>Puer qui natus est
-                            nobis</quote> (Can 004412); [Festum Ioannis et Pauli, 26. Juni] Lectio aus
+                            uirum genuit</quote> 
+                           <ref target="http://cantusindex.org/id/002639">(Can 002639)</ref>; A: <quote>Puer qui natus est
+                            nobis</quote> 
+                           <ref target="http://cantusindex.org/id/004412">(Can 004412)</ref>; [Festum Ioannis et Pauli, 26. Juni] Lectio aus
                         einem Martyrologium: <quote>christianos ad se inuitantes
                             ordinauerunt de omnibus quae relinquere poterant. Ac per totos decem
                             dies in</quote>[cessanter]; R:<quote> Isti sunt duo uiri
-                            misericordie</quote> (Can 007015); Lectio aus Beda Venerabilis, Homilia
+                            misericordie</quote> 
+                           <ref target="http://cantusindex.org/id/007015">(Can 007015)</ref>; Lectio aus Beda Venerabilis, Homilia
                         XXVII - erhalten sind Fragm. 1-1 Recto: <quote>sui nominis
                             pariterque ho</quote>[norem Tiberii Caesaris sub] <quote>quo
                             ipse regnabat. In cuius partes ueni</quote>[ens], Fragm. 1-2 Recto:
@@ -4704,22 +4752,37 @@
                         <title>Graduale</title>
                         <note type="description">Gesänge erhalten zu Festum Marcelli, Priscae, Fabiani et Sebastiani,
                         Agnetis, Vincentii, Dom. 3 p. Epiph. (1r) [Marcelli] Gr: [Inveni David
-                        servum meum …] <quote>auxiliabitur ei </quote>(Can g01272); GrV: <quote>Nichil profi</quote>[ciet] (Can g01272a); OfV: <quote>Posui adiutorium</quote> (Can g01278a); Cm: [Domine quinque
-                        talenta … quin]<quote>que superlucratus </quote>(Can g00012);
-                        [Priscae] In: L[oquebar de testimoniis tuis] (Can g00363); Lacuna; (1v)
+                        servum meum …] <quote>auxiliabitur ei </quote>
+                           <ref target="http://cantusindex.org/id/g01272">(Can g01272)</ref>; GrV: <quote>Nichil profi</quote>[ciet] <ref target="http://cantusindex.org/id/g01272a">(Can g01272a)</ref>; OfV: <quote>Posui adiutorium</quote> 
+                           <ref target="http://cantusindex.org/id/g01278a">(Can g01278a)</ref>; Cm: [Domine quinque
+                        talenta … quin]<quote>que superlucratus </quote>
+                           <ref target="http://cantusindex.org/id/g00012">(Can g00012)</ref>;
+                        [Priscae] In: L[oquebar de testimoniis tuis] <ref target="http://cantusindex.org/id/g00363">(Can g00363)</ref>; Lacuna; (1v)
                         [Priscae] GrV: [Propter veritatem … mirabili]<quote>ter dextera
-                            tua</quote> (Can g01381c); Of: [Filiae regum …] <quote>astitit
-                            regina</quote> (Can g01388); OfV: [Virga recta est … d]<quote>ilexisti iusticiam</quote> (Can g01388a); Cm: [Feci judicium … m]<quote>ichi superbi ad omnia </quote>(Can g01379); Fabiani,
-                        Sebastiani In: [Intret in conspectu tuo …] <quote>compeditorum</quote> (Can g01310); Gr: [Gloriosus deus in sa]<quote>nctis mirabilis </quote>(Can g01311); Lacuna; (2r) Fabiani,
-                        Sebastiani Of: [Laetamini in domino] (Can g00116); OfV: <quote>Beati quorum</quote> (Can g00116a); OfV: [Pro hac orabit …] <quote>multarum ad eum non approximabunt </quote>(Can g00116b); Cm:
+                            tua</quote> 
+                           <ref target="http://cantusindex.org/id/g01381c">(Can g01381c)</ref>; Of: [Filiae regum …] <quote>astitit
+                            regina</quote> 
+                           <ref target="http://cantusindex.org/id/g01388">(Can g01388)</ref>; OfV: [Virga recta est … d]<quote>ilexisti iusticiam</quote> 
+                           <ref target="http://cantusindex.org/id/g01388a">(Can g01388a)</ref>; Cm: [Feci judicium … m]<quote>ichi superbi ad omnia </quote>
+                           <ref target="http://cantusindex.org/id/g01379">(Can g01379)</ref>; Fabiani,
+                        Sebastiani In: [Intret in conspectu tuo …] <quote>compeditorum</quote> 
+                           <ref target="http://cantusindex.org/id/g01310">(Can g01310)</ref>; Gr: [Gloriosus deus in sa]<quote>nctis mirabilis </quote>
+                           <ref target="http://cantusindex.org/id/g01311">(Can g01311)</ref>; Lacuna; (2r) Fabiani,
+                        Sebastiani Of: [Laetamini in domino] <ref target="http://cantusindex.org/id/g00116">(Can g00116)</ref>; OfV: <quote>Beati quorum</quote> 
+                           <ref target="http://cantusindex.org/id/g00116a">(Can g00116a)</ref>; OfV: [Pro hac orabit …] <quote>multarum ad eum non approximabunt </quote>
+                           <ref target="http://cantusindex.org/id/g00116b">(Can g00116b)</ref>; Cm:
                         [Multitudo languentium …ex]<quote>iebat et sanabat omnes</quote>
-                        (Can g00043); Agnetis In: <quote>M</quote>[e exspectaverunt] (Can
+                           <ref target="http://cantusindex.org/id/g00043">(Can g00043)</ref>; Agnetis In: <quote>M</quote>[e exspectaverunt] (Can
                         g01373); Agnetis Cm: [Quinque prudentes] <quote>uirgines</quote>
-                        (Can g01389); (2v) [Dom. 3 p. Epiph.] In: [Adorate deum omnes angeli] (Can
+                           <ref target="http://cantusindex.org/id/g01389">(Can g01389)</ref>; (2v) [Dom. 3 p. Epiph.] In: [Adorate deum omnes angeli] (Can
                         g00625); InV: [Dominus] <quote>regnavit exsultet</quote> (Can
-                        g00625a); Gr: <quote>Timebunt gentes</quote> (Can g00626); GrV: <quote>Quoniam edi</quote>[ficavit] (Can g00626b); Of: [Dextera
-                        domini …] <quote>sed uiuam</quote> (Can g00629); OfV: <quote>In tribula</quote>[tione invocavi] (Can g00629a); OfV: <quote>Inpulsus uersatus sum</quote> (Can g00629b); Vincentii In:
-                            <quote>Letabitur iustus</quote> (Can g01294); Lacuna. Die
+                        g00625a); Gr: <quote>Timebunt gentes</quote> 
+                           <ref target="http://cantusindex.org/id/g00626">(Can g00626)</ref>; GrV: <quote>Quoniam edi</quote>[ficavit] <ref target="http://cantusindex.org/id/g00626b">(Can g00626b)</ref>; Of: [Dextera
+                        domini …] <quote>sed uiuam</quote> 
+                           <ref target="http://cantusindex.org/id/g00629">(Can g00629)</ref>; OfV: <quote>In tribula</quote>[tione invocavi] <ref target="http://cantusindex.org/id/g00629a">(Can g00629a)</ref>; OfV: <quote>Inpulsus uersatus sum</quote> 
+                           <ref target="http://cantusindex.org/id/g00629b">(Can g00629b)</ref>; Vincentii In:
+                            <quote>Letabitur iustus</quote> 
+                           <ref target="http://cantusindex.org/id/g01294">(Can g01294)</ref>; Lacuna. Die
                         Angaben berufen sich auf Cantus Planus.</note>
                         <note>
                            <bibl type="edition"/>
@@ -5300,7 +5363,7 @@
                         [Sabbato Sancto:] &gt;I&lt;N [PR]INCIPIO CREAV[IT] DEUS ce[lum].
                         &gt;Oratio&lt; &gt;D&lt;eus qui mirabiliter crea[sti h]omi[nem et
                         mi]rabilius ...-... peruenire; u. a. Zwischen den Gebeten, Verweise auf
-                        Gesänge u.a. &gt;Tr.&lt; &gt;C&lt;[ante]mus domino (Can g02371). Auf dem
+                        Gesänge u.a. &gt;Tr.&lt; &gt;C&lt;[ante]mus domino <ref target="http://cantusindex.org/id/g02371">(Can g02371)</ref>. Auf dem
                         Verso, späterer Nachtrag (frühgotische Minuskel, letztes Viertel 12. Jh. /
                         1. Viertel 13. Jh.) 21 Zeilen: Officium de [martyribus plur]ioribus ... Deus
                         qui ineffabilis [...] tuae prouid[entia ...] seniores in conspectu di[vini]
@@ -5861,7 +5924,7 @@
                         <title>Missale; Zweistimmige Credos / Motettenfragment</title>
                         <note type="description">(1r) Zweistimmige Credo-Satz: [P]atrem omnipotentem factorem celi et terre
                         ...-... nobis datur in summo polo sine termino; [De BMV] A: Regina celi
-                        laetare alleluia (Can 004597); Tropus: Alle domina flos virginalis ...-...
+                        laetare alleluia <ref target="http://cantusindex.org/id/004597">(Can 004597)</ref>; Tropus: Alle domina flos virginalis ...-...
                         ora mater resurgentis alleluia pro salute tue ga (?); (1v) Weitere
                         zweistimmige Patrem-Vertonung: [P]atrem omnipotentem factore ...-... homo
                         factus est factus est. Amen, die zweite Stimme bricht ab: consubstancialem
@@ -6028,29 +6091,55 @@
                         123-6 und 123-7 = Doppelblatt f. 3 und f. 4 (1r) Dom. 1 Adventus, u.a.
                         Anweisung: [...]<quote>te domini laudamus. Cotidie ad missam
                             dicamus Oratio de sancta Maria</quote>. <quote>Deus qui de beate
-                            usque ad natiuitatem domini quod nullum impediet festum</quote>. <quote>Ordo ad vespertinali officio. In adventu domini</quote>. <hi rend="rubric">Ad vesperam A super psalmos</hi>. A: <quote>Respondens </quote>(?) (Can 204271) A: <quote>In
-                            eternum</quote> (Can 003204) Ps: <quote>Exaltabo </quote>(Ps 29);
-                        (1v) Hy: <quote>Verbum supernum</quote> (Can 008409), <hi rend="rubric">In I° nocturno</hi> A: <quote>Scientes</quote>; (2r) Dom. 1 Adventus, u.a. R: <quote>Aspiciens </quote>(Can 006129); <hi rend="rubric">In II°
-                            nocturno</hi>, A: <quote>Hora est</quote> (Can 003134); <hi rend="rubric">In III° nocturno</hi>, A: <quote>Nox
-                            precessit</quote> (Can 003967), R: <quote>Obsecro domine</quote>
-                        (Can 007305); <hi rend="rubric">Ad laudes</hi>, A: <quote>Omnes scienten</quote> (Can 004133), Hy: <quote>Iam lucis</quote> (Can 008328); (2v) <quote>Ad processione
-                        </quote>R: <quote>Ecce dies ue</quote>[nit] (Can 006583) [...] finito
+                            usque ad natiuitatem domini quod nullum impediet festum</quote>. <quote>Ordo ad vespertinali officio. In adventu domini</quote>. <hi rend="rubric">Ad vesperam A super psalmos</hi>. A: <quote>Respondens </quote>(?) <ref target="http://cantusindex.org/id/204271">(Can 204271)</ref> A: <quote>In
+                            eternum</quote> 
+                           <ref target="http://cantusindex.org/id/003204">(Can 003204)</ref> Ps: <quote>Exaltabo </quote>(Ps 29);
+                        (1v) Hy: <quote>Verbum supernum</quote> 
+                           <ref target="http://cantusindex.org/id/008409">(Can 008409)</ref>, <hi rend="rubric">In I° nocturno</hi> A: <quote>Scientes</quote>; (2r) Dom. 1 Adventus, u.a. R: <quote>Aspiciens </quote>
+                           <ref target="http://cantusindex.org/id/006129">(Can 006129)</ref>; <hi rend="rubric">In II°
+                            nocturno</hi>, A: <quote>Hora est</quote> 
+                           <ref target="http://cantusindex.org/id/003134">(Can 003134)</ref>; <hi rend="rubric">In III° nocturno</hi>, A: <quote>Nox
+                            precessit</quote> 
+                           <ref target="http://cantusindex.org/id/003967">(Can 003967)</ref>, R: <quote>Obsecro domine</quote>
+                           <ref target="http://cantusindex.org/id/007305">(Can 007305)</ref>; <hi rend="rubric">Ad laudes</hi>, A: <quote>Omnes scienten</quote> 
+                           <ref target="http://cantusindex.org/id/004133">(Can 004133)</ref>, Hy: <quote>Iam lucis</quote> 
+                           <ref target="http://cantusindex.org/id/008328">(Can 008328)</ref>; (2v) <quote>Ad processione
+                        </quote>R: <quote>Ecce dies ue</quote>[nit] <ref target="http://cantusindex.org/id/006583">(Can 006583)</ref> [...] finito
                             [...]<quote> in loco suo et dicitur</quote> Ps: <quote>De profundis</quote> (Ps 130) <quote>Ad missam
-                            I</quote>. In: <quote>Ad te leuaui</quote> (Can g00489) (3r) Dom. 1
-                        Adventus, u.a. <hi rend="rubric">Ad VI</hi>., V: <quote>Memento nostri domine</quote> (Can 008137); V: <quote>Egreditur
-                        </quote>[virga] (Can 008044), (3v) Oratio. <quote>Deus qui de
-                            beate</quote>; Hy: <quote>Vox clara</quote> (Can 008413); Rubriken
-                        für Feria III bis V mit je zwei Antiphonae; <hi rend="rubric">Sabbato</hi> R: <quote>Rex noster</quote>; R: <quote>Ecce dominus</quote> (Can 006584); Hy: <quote>Conditor</quote>.
-                        (4r) Dom. 2 Adventus, u.a. <hi rend="rubric">Ad laudes</hi> A: <quote>Ecce in nubibus</quote> (Can 002515); In: <quote>Populus Syon</quote>. <hi rend="rubric">Oratio</hi>. <quote>Excita domine</quote>. <hi rend="rubric">Ad VI</hi>.
-                            A:<quote> Tuam domine</quote> (Can 005229); R: <quote>Tu exsurgens </quote>(Can 007790); (4v) Festum Nicolai, u.a. In: <quote>Confessorum</quote>; A: <quote>Nobilissimis</quote>;
-                            V:<quote> Iustus ut palma</quote> (Can 008117). (5r) Festum
-                        Nicolai, u.a. A: <quote>Beatus Nicolaus</quote> (Can 001651); A: <quote>O Christi pietas </quote>(Can 004008); In: <quote>Regem apostolorum</quote> (Can 001125) (5v) Gr: <quote>Dilexisti</quote>; Co: <quote>Diffusa </quote>(Can g00302);
+                            I</quote>. In: <quote>Ad te leuaui</quote> 
+                           <ref target="http://cantusindex.org/id/g00489">(Can g00489)</ref> (3r) Dom. 1
+                        Adventus, u.a. <hi rend="rubric">Ad VI</hi>., V: <quote>Memento nostri domine</quote> 
+                           <ref target="http://cantusindex.org/id/008137">(Can 008137)</ref>; V: <quote>Egreditur
+                        </quote>[virga] <ref target="http://cantusindex.org/id/008044">(Can 008044)</ref>, (3v) Oratio. <quote>Deus qui de
+                            beate</quote>; Hy: <quote>Vox clara</quote> 
+                           <ref target="http://cantusindex.org/id/008413">(Can 008413)</ref>; Rubriken
+                        für Feria III bis V mit je zwei Antiphonae; <hi rend="rubric">Sabbato</hi> R: <quote>Rex noster</quote>; R: <quote>Ecce dominus</quote> 
+                           <ref target="http://cantusindex.org/id/006584">(Can 006584)</ref>; Hy: <quote>Conditor</quote>.
+                        (4r) Dom. 2 Adventus, u.a. <hi rend="rubric">Ad laudes</hi> A: <quote>Ecce in nubibus</quote> 
+                           <ref target="http://cantusindex.org/id/002515">(Can 002515)</ref>; In: <quote>Populus Syon</quote>. <hi rend="rubric">Oratio</hi>. <quote>Excita domine</quote>. <hi rend="rubric">Ad VI</hi>.
+                            A:<quote> Tuam domine</quote> 
+                           <ref target="http://cantusindex.org/id/005229">(Can 005229)</ref>; R: <quote>Tu exsurgens </quote>
+                           <ref target="http://cantusindex.org/id/007790">(Can 007790)</ref>; (4v) Festum Nicolai, u.a. In: <quote>Confessorum</quote>; A: <quote>Nobilissimis</quote>;
+                            V:<quote> Iustus ut palma</quote> 
+                           <ref target="http://cantusindex.org/id/008117">(Can 008117)</ref>. (5r) Festum
+                        Nicolai, u.a. A: <quote>Beatus Nicolaus</quote> 
+                           <ref target="http://cantusindex.org/id/001651">(Can 001651)</ref>; A: <quote>O Christi pietas </quote>
+                           <ref target="http://cantusindex.org/id/004008">(Can 004008)</ref>; In: <quote>Regem apostolorum</quote> 
+                           <ref target="http://cantusindex.org/id/001125">(Can 001125)</ref> (5v) Gr: <quote>Dilexisti</quote>; Co: <quote>Diffusa </quote>
+                           <ref target="http://cantusindex.org/id/g00302">(Can g00302)</ref>;
                         Antiphonae Majores mit Anweisungen: <quote>Iuxta romanum ordinem
                             dicta oratio est de festo inclinantur </quote>(?) <quote>antiphonae maiores quarum</quote> [...]; A: <quote>O sapientia
-                        </quote>(Can 004081); <quote>Incipit ordo maiorum antiphonarum</quote>.
-                        A: <quote>O clauis David</quote> (Can 004010). (6r) Dom. 3 Adventus,
-                        u.a. Of: <quote>Benedixisti </quote>(Can g00505) (6v) Gr: <quote>Prope </quote>(Can g00530), Of: <quote>Confortamini </quote>(Can g00509), Co: <quote>Ecce virgo
-                        </quote>(Can 503007) <quote>Clauditur cum benedicamus domino</quote>.
+                        </quote>
+                           <ref target="http://cantusindex.org/id/004081">(Can 004081)</ref>; <quote>Incipit ordo maiorum antiphonarum</quote>.
+                        A: <quote>O clauis David</quote> 
+                           <ref target="http://cantusindex.org/id/004010">(Can 004010)</ref>. (6r) Dom. 3 Adventus,
+                        u.a. Of: <quote>Benedixisti </quote>
+                           <ref target="http://cantusindex.org/id/g00505">(Can g00505)</ref> (6v) Gr: <quote>Prope </quote>
+                           <ref target="http://cantusindex.org/id/g00530">(Can g00530)</ref>, Of: <quote>Confortamini </quote>
+                           <ref target="http://cantusindex.org/id/g00509">(Can g00509)</ref>, Co: <quote>Ecce virgo
+                        </quote>
+                           <ref target="http://cantusindex.org/id/503007">(Can 503007)</ref> 
+                           <quote>Clauditur cum benedicamus domino</quote>.
                         Feria VI. <hi rend="rubric">In nocturno</hi>
                            <quote>Surgite </quote>(?)<quote> finita nocturna legitur
                             ewangelium</quote> ... . </note>
@@ -6190,9 +6279,9 @@
                         <textLang mainLang="lat">lateinisch</textLang>
                         <title>Antiphonarium</title>
                         <note type="description">Gesänge erhalten zu Dom. 1 Adventus: (1r) [V: Praeoccupe]mus faciem eius
-                        (Can 007262a); R: Audite uerbum domini (Can 006149); (1r-v) R: [Alieni non
+                        <ref target="http://cantusindex.org/id/007262a">(Can 007262a)</ref>; R: Audite uerbum domini <ref target="http://cantusindex.org/id/006149">(Can 006149)</ref>; (1r-v) R: [Alieni non
                         transibunt ... il]la die stillabunt (Anfang in Cod. 3659 in situ Fragm.)
-                        ...-... et mel dicit dominus (Can 006066); V: Ego veniam dicit dominus (Can
+                        ...-... et mel dicit dominus <ref target="http://cantusindex.org/id/006066">(Can 006066)</ref>; V: Ego veniam dicit dominus (Can
                         006066a).</note>
                         <note>
                            <bibl type="edition"/>
@@ -6893,7 +6982,7 @@
                         Sitzungsberichte der Kaiserlichen Akademie der Wissenschaften 36 (1861),
                         119-191, hier S. 156); Auf dem Verso: Probatio pennae und Schriftproben (?),
                         ein Alphabet, <quote>Dorsa eorum</quote> wohl Anfang einer Aleluia
-                        (Can g02710) etc.</note>
+                        <ref target="http://cantusindex.org/id/g02710">(Can g02710)</ref> etc.</note>
                         <note>
                            <bibl type="edition"/>
                         </note>
@@ -7160,7 +7249,8 @@
                         <textLang mainLang="lat">lateinisch</textLang>
                         <title>Antiphonarium (?)</title>
                         <note type="description">Antiphon zum Festum Agathae: <quote>Paganorum multitudo fugiens
-                            ...-... Agathe martiris sue eos liberaret</quote> (Can 004208).</note>
+                            ...-... Agathe martiris sue eos liberaret</quote> 
+                           <ref target="http://cantusindex.org/id/004208">(Can 004208)</ref>.</note>
                         <note>
                            <bibl type="edition"/>
                         </note>
@@ -7285,22 +7375,22 @@
                      <msItem>
                         <textLang mainLang="lat">lateinisch</textLang>
                         <title>Graduale</title>
-                        <note type="description">(1r) [Fer. 6 p. Pascha] GrV: Benedictus qui uenit (Can 008414za); Of: Erit
-                        vobis hic dies (Can g01042); OfV: Dixit Moyses (Can g01042a); OfV: In mente
-                        habete (Can g01042b); Cm: D[ata e]st [mihi] (Can g01043); Fortsetzung im
+                        <note type="description">(1r) [Fer. 6 p. Pascha] GrV: Benedictus qui uenit <ref target="http://cantusindex.org/id/008414za">(Can 008414za)</ref>; Of: Erit
+                        vobis hic dies <ref target="http://cantusindex.org/id/g01042">(Can g01042)</ref>; OfV: Dixit Moyses <ref target="http://cantusindex.org/id/g01042a">(Can g01042a)</ref>; OfV: In mente
+                        habete <ref target="http://cantusindex.org/id/g01042b">(Can g01042b)</ref>; Cm: D[ata e]st [mihi] <ref target="http://cantusindex.org/id/g01043">(Can g01043)</ref>; Fortsetzung im
                         Cod. 3615, Fragm. in situ. (1v) [Sabbato in Albis] InPs: [Comfitemini domino
                         et invoca]te nomen eius annuntiate inter ge[ntes opera eius] (Ps 104,1);
-                        AlV: Haec dies (Can 507015); Of: Benedictus qui uenit (Can g01047); OfV:
-                        Lapidem quem (Can g01047a); OfV: Haec dies (Can g01047b); Fortsetzung im
+                        AlV: Haec dies <ref target="http://cantusindex.org/id/507015">(Can 507015)</ref>; Of: Benedictus qui uenit <ref target="http://cantusindex.org/id/g01047">(Can g01047)</ref>; OfV:
+                        Lapidem quem <ref target="http://cantusindex.org/id/g01047a">(Can g01047a)</ref>; OfV: Haec dies <ref target="http://cantusindex.org/id/g01047b">(Can g01047b)</ref>; Fortsetzung im
                         Cod. 3615, Fragm. in situ. (2r) [In Dedicatione Eccl.] Cm: [Domus mea domus]
-                        orationis (Can g01407); &gt;Potenciane&lt; [für Pudentianae, Pudentis] In:
-                        Dilexisti justitiam* (Can g01380); Gr: Diffusa est gratia* (Can g01397); Of:
-                        Offerentur* (Can g02069); OfV: Diffusa est*; &gt;In Vigilia Ascensionis
-                        domini&lt; In: Vocem iocunditatis*; Of: Viri Galilaei (Can g02180); OfV:
-                        Cumque intuerentur (Can g02180a); Lacuna. (2v) [Ascensio Domini] In: V[iri
-                        Galilaei] (Can g01079); InPs: Omnes gentes (Ps 46,2); AlV: Ascendit deus
-                        (Can g01080); AlV: Dominus in Syna (Can g01081); Of: Ascendit deus in
-                        jubilatione (Can g01082); OfV: Omnes gentes plaudite (Can g01082a). Die
+                        orationis <ref target="http://cantusindex.org/id/g01407">(Can g01407)</ref>; &gt;Potenciane&lt; [für Pudentianae, Pudentis] In:
+                        Dilexisti justitiam* <ref target="http://cantusindex.org/id/g01380">(Can g01380)</ref>; Gr: Diffusa est gratia* <ref target="http://cantusindex.org/id/g01397">(Can g01397)</ref>; Of:
+                        Offerentur* <ref target="http://cantusindex.org/id/g02069">(Can g02069)</ref>; OfV: Diffusa est*; &gt;In Vigilia Ascensionis
+                        domini&lt; In: Vocem iocunditatis*; Of: Viri Galilaei <ref target="http://cantusindex.org/id/g02180">(Can g02180)</ref>; OfV:
+                        Cumque intuerentur <ref target="http://cantusindex.org/id/g02180a">(Can g02180a)</ref>; Lacuna. (2v) [Ascensio Domini] In: V[iri
+                        Galilaei] <ref target="http://cantusindex.org/id/g01079">(Can g01079)</ref>; InPs: Omnes gentes (Ps 46,2); AlV: Ascendit deus
+                        <ref target="http://cantusindex.org/id/g01080">(Can g01080)</ref>; AlV: Dominus in Syna <ref target="http://cantusindex.org/id/g01081">(Can g01081)</ref>; Of: Ascendit deus in
+                        jubilatione <ref target="http://cantusindex.org/id/g01082">(Can g01082)</ref>; OfV: Omnes gentes plaudite <ref target="http://cantusindex.org/id/g01082a">(Can g01082a)</ref>. Die
                         Angaben zum Inhalt berufen sich auf Cantus Planus.</note>
                         <note>
                            <bibl type="edition"/>
@@ -7439,15 +7529,17 @@
                      <msItem>
                         <textLang mainLang="lat">lateinisch</textLang>
                         <title>Graduale</title>
-                        <note type="description">(1r) [Michaelis] - Of: [Stetit angelus] (Can g00397); OfV:<quote> In conspectu angelorum</quote> (Can g00397a); Cm: <quote>Benedicite omnes angeli </quote>(Can g00398); <hi rend="rubric">Hieronimi confessoris</hi> In: <quote>Os justi</quote>* (Can g01349); Gr: <quote>Os justi</quote>* (Can
-                        g01343); AlV: <quote>Iste sanctus</quote>* (Can g02568); Of: <quote>Desiderium</quote>* (Can g01363); Cm: <quote>Domine v talenta</quote>* (Can g00012); <hi rend="rubric">Remigii
-                        </hi>In: <quote>Sacerdotes</quote>* (Can g01338); Gr: <quote>Sacerdotes</quote>* (Can g01339); AlV: <quote>Disposui</quote>* (Can g02070 (?); Of: <quote>Inveni</quote>* (Can
-                        g01288); Cm: <quote>Fidelis</quote>* (Can g00318 (?); <hi rend="rubric">Leodegarii </hi>In: <quote>Laetabitur</quote>* (Can g01294); Gr: <quote>Posuisti</quote>*
-                        (Can g02233); AlV: <quote>Beatus vir</quote>*; Of: <quote>In virtute</quote>* (Can g01357); Cm: <quote>Magna est</quote>*
-                        (Can g01261); <hi rend="rubric">Marci </hi>In: <quote>Sacerdos</quote>*; Gr: <quote>Inveni</quote>*; Al: <quote>Elegit</quote>* (Can g02352); Of: <quote>Veritas</quote>* (Can g01278); Cm: <quote>Beatus servus</quote>*
-                        (Can g01354); <hi rend="rubric">Dionysii et s.</hi> - In: <quote>Salus autem</quote>* (Can g01325); Gr: <quote>Vindica</quote>* (Can g00470); Al: <quote>Vox
-                            exsultationis</quote>* (Can g02386); Of: <quote>Mirabilis</quote>*
-                        (Can g01317); Cm: <quote>Ego vos</quote>* (Can g00225); <hi rend="rubric">Gereonis et s.</hi> In: <quote>Intret</quote>*; Gr: <quote>Exsultabunt</quote>*; AlV: <quote>Justi autem</quote>*; Of: <quote>Laetamini</quote>*;
+                        <note type="description">(1r) [Michaelis] - Of: [Stetit angelus] <ref target="http://cantusindex.org/id/g00397">(Can g00397)</ref>; OfV:<quote> In conspectu angelorum</quote> 
+                           <ref target="http://cantusindex.org/id/g00397a">(Can g00397a)</ref>; Cm: <quote>Benedicite omnes angeli </quote>
+                           <ref target="http://cantusindex.org/id/g00398">(Can g00398)</ref>; <hi rend="rubric">Hieronimi confessoris</hi> In: <quote>Os justi</quote>* <ref target="http://cantusindex.org/id/g01349">(Can g01349)</ref>; Gr: <quote>Os justi</quote>* (Can
+                        g01343); AlV: <quote>Iste sanctus</quote>* <ref target="http://cantusindex.org/id/g02568">(Can g02568)</ref>; Of: <quote>Desiderium</quote>* <ref target="http://cantusindex.org/id/g01363">(Can g01363)</ref>; Cm: <quote>Domine v talenta</quote>* <ref target="http://cantusindex.org/id/g00012">(Can g00012)</ref>; <hi rend="rubric">Remigii
+                        </hi>In: <quote>Sacerdotes</quote>* <ref target="http://cantusindex.org/id/g01338">(Can g01338)</ref>; Gr: <quote>Sacerdotes</quote>* <ref target="http://cantusindex.org/id/g01339">(Can g01339)</ref>; AlV: <quote>Disposui</quote>* (Can g02070 (?); Of: <quote>Inveni</quote>* (Can
+                        g01288); Cm: <quote>Fidelis</quote>* (Can g00318 (?); <hi rend="rubric">Leodegarii </hi>In: <quote>Laetabitur</quote>* <ref target="http://cantusindex.org/id/g01294">(Can g01294)</ref>; Gr: <quote>Posuisti</quote>*
+                        <ref target="http://cantusindex.org/id/g02233">(Can g02233)</ref>; AlV: <quote>Beatus vir</quote>*; Of: <quote>In virtute</quote>* <ref target="http://cantusindex.org/id/g01357">(Can g01357)</ref>; Cm: <quote>Magna est</quote>*
+                        <ref target="http://cantusindex.org/id/g01261">(Can g01261)</ref>; <hi rend="rubric">Marci </hi>In: <quote>Sacerdos</quote>*; Gr: <quote>Inveni</quote>*; Al: <quote>Elegit</quote>* <ref target="http://cantusindex.org/id/g02352">(Can g02352)</ref>; Of: <quote>Veritas</quote>* <ref target="http://cantusindex.org/id/g01278">(Can g01278)</ref>; Cm: <quote>Beatus servus</quote>*
+                        <ref target="http://cantusindex.org/id/g01354">(Can g01354)</ref>; <hi rend="rubric">Dionysii et s.</hi> - In: <quote>Salus autem</quote>* <ref target="http://cantusindex.org/id/g01325">(Can g01325)</ref>; Gr: <quote>Vindica</quote>* <ref target="http://cantusindex.org/id/g00470">(Can g00470)</ref>; Al: <quote>Vox
+                            exsultationis</quote>* <ref target="http://cantusindex.org/id/g02386">(Can g02386)</ref>; Of: <quote>Mirabilis</quote>*
+                        <ref target="http://cantusindex.org/id/g01317">(Can g01317)</ref>; Cm: <quote>Ego vos</quote>* <ref target="http://cantusindex.org/id/g00225">(Can g00225)</ref>; <hi rend="rubric">Gereonis et s.</hi> In: <quote>Intret</quote>*; Gr: <quote>Exsultabunt</quote>*; AlV: <quote>Justi autem</quote>*; Of: <quote>Laetamini</quote>*;
                         Cm: <quote>Posuerunt</quote>*; <hi rend="rubric">Callisti
                         </hi>In: <quote>Statuit</quote>*; Gr: <quote>Juravit</quote>*; AlV: <quote>Inveni</quote>*; Of: <quote>Veritas</quote>*; Cm:<quote> Beatus servus</quote>*; <hi rend="rubric">Galli </hi>In:<quote> Justus ut
                             palma</quote>*; Gr: <quote>Domine praevenisti</quote>*; AlV: <quote>Justus ut palma</quote>*; Of: <quote>Posuisti</quote>*; Cm: <quote>Fidelis</quote>*; <hi rend="rubric">Lucae </hi>In: <quote>In medio</quote>*;
@@ -7461,8 +7553,12 @@
                         Cm: <quote>Quinque</quote>*; <hi rend="rubric">In uigilia
                             apostolorum </hi>= Vigilia Simonis, Judae - In: <quote>Intret
                             in conspectu</quote>*; Gr: <quote>Vindica</quote>*; Of: <quote>Exsultabunt</quote>*; Cm: <quote>Justorum</quote>*;<hi rend="rubric"> In die sanctorum</hi> =
-                        Simonis, Judae - In: <quote>Mihi autem nimis</quote> (Can g00005);
-                        (1v) Gr: <quote>Nimis honorati sunt</quote> (Can g00002); GrV: <quote>Dinumerabo eos </quote>(Can g00002a); AlV: <quote>Non vos me</quote>*; Of: <quote>In omnem terram</quote>*; Cm: <quote>Vos qui secuti estis</quote> (Can g00359); <hi rend="rubric">Wolfgangi Quintini</hi> In: <quote>Sapientiam</quote>*; Gr: <quote>Gloriosus</quote>*; AlV: <quote>Sancti tui</quote>*; Of: <quote>Gloriabuntur</quote>*; Cm: <quote>Ego vos</quote>*;<hi rend="rubric"> In vig. omnium Sanctorum</hi> In: <quote>Timete</quote>*; Gr: <quote>Exsultabunt</quote>*; Of:
+                        Simonis, Judae - In: <quote>Mihi autem nimis</quote> 
+                           <ref target="http://cantusindex.org/id/g00005">(Can g00005)</ref>;
+                        (1v) Gr: <quote>Nimis honorati sunt</quote> 
+                           <ref target="http://cantusindex.org/id/g00002">(Can g00002)</ref>; GrV: <quote>Dinumerabo eos </quote>
+                           <ref target="http://cantusindex.org/id/g00002a">(Can g00002a)</ref>; AlV: <quote>Non vos me</quote>*; Of: <quote>In omnem terram</quote>*; Cm: <quote>Vos qui secuti estis</quote> 
+                           <ref target="http://cantusindex.org/id/g00359">(Can g00359)</ref>; <hi rend="rubric">Wolfgangi Quintini</hi> In: <quote>Sapientiam</quote>*; Gr: <quote>Gloriosus</quote>*; AlV: <quote>Sancti tui</quote>*; Of: <quote>Gloriabuntur</quote>*; Cm: <quote>Ego vos</quote>*;<hi rend="rubric"> In vig. omnium Sanctorum</hi> In: <quote>Timete</quote>*; Gr: <quote>Exsultabunt</quote>*; Of:
                             <quote>Mirabilis</quote>*; Cm: <quote>Amen dico vobis
                             quod uni</quote>*; <hi rend="rubric">In die s.</hi> = Omnium
                         Sanctorum - In: <quote>Gaudeamus</quote>*; Gr: <quote>Timete</quote>*; AlV: <quote>Vox exsultationis</quote>*; Of: <quote>Laetamini</quote>*; Cm: <quote>Amen dico</quote>*;
@@ -7483,9 +7579,10 @@
                             <hi rend="rubric">Bricii epi. </hi>In:<quote>
                             Statuit ei</quote>*; AlV: <quote>Disposui testamentum</quote>*; <hi rend="rubric">Othmari ab.</hi> In:<quote> In
                             virtute</quote>*; Gr: <quote>Domine praevenisti</quote>*; AlV: <quote>Beatus vir qui</quote>*; Of: <quote>Justus ut
-                            palma</quote>*; Cm: <quote>Fidelis</quote>*; <hi rend="rubric">Caeciliae virginis </hi>In: <quote>Loquebar de testimoniis</quote>* (Can g00363); Gr:<quote> Audi
-                            filia et vide</quote> (Can g00486); GrV: <quote>Specie tua</quote>
-                        (Can g00486a). Die Angaben zum Inhalt berufen sich auf Cantus Planus
+                            palma</quote>*; Cm: <quote>Fidelis</quote>*; <hi rend="rubric">Caeciliae virginis </hi>In: <quote>Loquebar de testimoniis</quote>* <ref target="http://cantusindex.org/id/g00363">(Can g00363)</ref>; Gr:<quote> Audi
+                            filia et vide</quote> 
+                           <ref target="http://cantusindex.org/id/g00486">(Can g00486)</ref>; GrV: <quote>Specie tua</quote>
+                           <ref target="http://cantusindex.org/id/g00486a">(Can g00486a)</ref>. Die Angaben zum Inhalt berufen sich auf Cantus Planus
                         Datenbank.</note>
                         <note>
                            <bibl type="edition"/>
@@ -7622,7 +7719,10 @@
                         <note type="description">Erhaltene Teile: In natale plurimorum confessorum / martyrum, Cesarii (1.
                         Nov.), Menne (11. Nov.) und Commune plur. Martyrum und Commune pro Martyre
                         et Pontifice. 813-1: (1r-v) Orationen Deshusses 3362, 736, 745: P<quote>raesta quaesumus omnipotens deus ut qui be</quote>[...] <quote>Menne martyris tui natalicia </quote>... ; (1v) Lectiones aus
-                        Hbr 7,23-24, 26; Is 62,6 und 10; Is 61,6; Gesänge u.a.: R: <quote>Amauit eum dominus et ornauit eum</quote> (Can 006080); V: <quote>Stola gloriae induit </quote>(Can 006080a); W: <quote>Iustum deduxit dominus </quote>(Can 008115). 813-2: (1r)
+                        Hbr 7,23-24, 26; Is 62,6 und 10; Is 61,6; Gesänge u.a.: R: <quote>Amauit eum dominus et ornauit eum</quote> 
+                           <ref target="http://cantusindex.org/id/006080">(Can 006080)</ref>; V: <quote>Stola gloriae induit </quote>
+                           <ref target="http://cantusindex.org/id/006080a">(Can 006080a)</ref>; W: <quote>Iustum deduxit dominus </quote>
+                           <ref target="http://cantusindex.org/id/008115">(Can 008115)</ref>. 813-2: (1r)
                         schwer lesserlich, Orationes u.a. Deshusses 677, (1v) 494 und 3266. De uno martyre atque pont<quote>. HAEC DICIT DOMINUS ECCE ABSTULIATE INIquitatem tuam</quote>
                         ... (Za 3, 4; 3,7 und 6,12).</note>
                         <note>
@@ -8467,90 +8567,118 @@
                         Tempore Paschalis, DOm. 2 und 3 p. Pascha, Michaelis, Hieronimi, Remigii,
                         Germani, Vedasti, Leodegarii, Ocatava Michaelis, Sergii, Bacchi, Dionysii.
                         (1r Teil vom Doppelblatt = Fragm. 960-1, 960-2, 960-3, 960-4 und 960-5.
-                        Recto: [Dom. Resurrectionis] V: [Et unus de senioribus dixit …]<quote> potestatem et fortitu</quote>[dinem] (Can 006616a); R:<quote> Isti sunt agni novelli qui</quote> (Can 007012); V: <quote>In omnem terram ex</quote>[ivit sonus] (Can 007012b); A: [Ego
-                        dormivi et somnum coepi] (Can 002572); W: <quote>Noli flere
-                            Maria</quote>* (Can 008149); R: [Surrexit pastor bonus qui] (Can 007742);
-                        V: [Surr]<quote>exit dominus de sepulcro</quote> (Can 007742a); R:
-                            <quote>Angelus domini descen</quote>[dit de] (Can 006093); V:
-                            [An]<quote>gelus domini locutus est </quote>(Can 006093a); R:
-                        [Angelus domini locutus] <quote>est </quote>(Can 006095); V: [Ecce
-                        praecedet] <quote>vos in</quote> (Can 006095a); R: <quote>Dum transisset sabbatum</quote> [Maria] (Can 006565); (1v Teil vom
+                        Recto: [Dom. Resurrectionis] V: [Et unus de senioribus dixit …]<quote> potestatem et fortitu</quote>[dinem] <ref target="http://cantusindex.org/id/006616a">(Can 006616a)</ref>; R:<quote> Isti sunt agni novelli qui</quote> 
+                           <ref target="http://cantusindex.org/id/007012">(Can 007012)</ref>; V: <quote>In omnem terram ex</quote>[ivit sonus] <ref target="http://cantusindex.org/id/007012b">(Can 007012b)</ref>; A: [Ego
+                        dormivi et somnum coepi] <ref target="http://cantusindex.org/id/002572">(Can 002572)</ref>; W: <quote>Noli flere
+                            Maria</quote>* <ref target="http://cantusindex.org/id/008149">(Can 008149)</ref>; R: [Surrexit pastor bonus qui] <ref target="http://cantusindex.org/id/007742">(Can 007742)</ref>;
+                        V: [Surr]<quote>exit dominus de sepulcro</quote> 
+                           <ref target="http://cantusindex.org/id/007742a">(Can 007742a)</ref>; R:
+                            <quote>Angelus domini descen</quote>[dit de] <ref target="http://cantusindex.org/id/006093">(Can 006093)</ref>; V:
+                            [An]<quote>gelus domini locutus est </quote>
+                           <ref target="http://cantusindex.org/id/006093a">(Can 006093a)</ref>; R:
+                        [Angelus domini locutus] <quote>est </quote>
+                           <ref target="http://cantusindex.org/id/006095">(Can 006095)</ref>; V: [Ecce
+                        praecedet] <quote>vos in</quote> 
+                           <ref target="http://cantusindex.org/id/006095a">(Can 006095a)</ref>; R: <quote>Dum transisset sabbatum</quote> [Maria] <ref target="http://cantusindex.org/id/006565">(Can 006565)</ref>; (1v Teil vom
                         Doppelblatt = Fragm. 960-1, 960-2, 960-3, 960-4 und 960-5. Verso: [Dom.
-                        Resurrectionis] V: [Et valde mane una sabbatorum] (Can 006565a); A: <quote>Angelus autem domin</quote>[i] (Can 001408); A: <quote>Et ecce terraemotus factus</quote> (Can 002699); A: <quote>Erat </quote>[autem aspectus ejus] A: [Prae timore autem
-                        ejus] (Can 004350); A: <quote>Respondens autem angelus</quote>; R:
-                        [Surrexit dominus de se]<quote>pulcro </quote>(Can 007738); V: <quote>Q</quote>[ui pro nobis pependit in] (Can 007738a); V:<quote> Gloria patri</quote> [et filio et]; A: <quote>Et
-                            valde mane una sa</quote>[bbatorum] (Can 002728); R: <quote>Surrexit pastor bonus</quote>* (Can 007742); W: <quote>Dicite
-                            in nationibus</quote>* (Can 008013); A: <quote>Surgens Jesu
-                            ma</quote>[ne prima] (Can 005075); A: <quote>Et dicebant ad
-                            invicem quis</quote> (Can 002697); A: <quote>Vidi aquam
-                            egredien</quote>[tem de] (Can 005403); (2r Teil vom Doppelblatt = Fragm.
+                        Resurrectionis] V: [Et valde mane una sabbatorum] <ref target="http://cantusindex.org/id/006565a">(Can 006565a)</ref>; A: <quote>Angelus autem domin</quote>[i] <ref target="http://cantusindex.org/id/001408">(Can 001408)</ref>; A: <quote>Et ecce terraemotus factus</quote> 
+                           <ref target="http://cantusindex.org/id/002699">(Can 002699)</ref>; A: <quote>Erat </quote>[autem aspectus ejus] A: [Prae timore autem
+                        ejus] <ref target="http://cantusindex.org/id/004350">(Can 004350)</ref>; A: <quote>Respondens autem angelus</quote>; R:
+                        [Surrexit dominus de se]<quote>pulcro </quote>
+                           <ref target="http://cantusindex.org/id/007738">(Can 007738)</ref>; V: <quote>Q</quote>[ui pro nobis pependit in] <ref target="http://cantusindex.org/id/007738a">(Can 007738a)</ref>; V:<quote> Gloria patri</quote> [et filio et]; A: <quote>Et
+                            valde mane una sa</quote>[bbatorum] <ref target="http://cantusindex.org/id/002728">(Can 002728)</ref>; R: <quote>Surrexit pastor bonus</quote>* <ref target="http://cantusindex.org/id/007742">(Can 007742)</ref>; W: <quote>Dicite
+                            in nationibus</quote>* <ref target="http://cantusindex.org/id/008013">(Can 008013)</ref>; A: <quote>Surgens Jesu
+                            ma</quote>[ne prima] <ref target="http://cantusindex.org/id/005075">(Can 005075)</ref>; A: <quote>Et dicebant ad
+                            invicem quis</quote> 
+                           <ref target="http://cantusindex.org/id/002697">(Can 002697)</ref>; A: <quote>Vidi aquam
+                            egredien</quote>[tem de] <ref target="http://cantusindex.org/id/005403">(Can 005403)</ref>; (2r Teil vom Doppelblatt = Fragm.
                         960-6 und 960-7: Textverlust [Dom. Resurrectionis] A: [Cum rex gloriae
-                        Christus …] <quote>tolli praciperet sanctorum</quote> (Can 201042)
+                        Christus …] <quote>tolli praciperet sanctorum</quote> 
+                           <ref target="http://cantusindex.org/id/201042">(Can 201042)</ref>
                         Textverlust. (2v Teil vom Doppelblatt = Fragm. 960-6 und 960-7: [Dom.
-                        Resurrectionis] R: <quote>Surrexit dominus</quote>*; W: <quote>Gavisi sunt discipuli</quote>* (Can 008080); A: <quote>Surrexit enim sicut dixit</quote> (Can 005081); A: <quote>Christus resur</quote>[gens ex mortuis] (Can 001796);
+                        Resurrectionis] R: <quote>Surrexit dominus</quote>*; W: <quote>Gavisi sunt discipuli</quote>* <ref target="http://cantusindex.org/id/008080">(Can 008080)</ref>; A: <quote>Surrexit enim sicut dixit</quote> 
+                           <ref target="http://cantusindex.org/id/005081">(Can 005081)</ref>; A: <quote>Christus resur</quote>[gens ex mortuis] <ref target="http://cantusindex.org/id/001796">(Can 001796)</ref>;
                             Anweisung:<quote> Antiphone quae secuntur ab octaua pasche
                             usque in ascensu die </quote>[…] <quote>diebus</quote>, bricht ab;
                         (3r Teil vom Doppelblatt = Fragm. 960-6 und 960-7: [Sabbato in Albis] A:
                         [Currebant duo simul et ille …] <quote>prior ad monumentum
-                            alleluia</quote> (Can 002081); A: [Alleluia ix (Surgens)] (Can 001334); A:
-                            <quote>Alleluia viii</quote> [(Surrexit)] (Can 001333); A:
-                        [Alleluia v (In Galilaea)] (Can 001330); A: <quote>Alleluia
-                        </quote>v [(Data est)] (Can 001330); Lacuna. (3v Teil vom Doppelblatt = Fragm.
+                            alleluia</quote> 
+                           <ref target="http://cantusindex.org/id/002081">(Can 002081)</ref>; A: [Alleluia ix (Surgens)] <ref target="http://cantusindex.org/id/001334">(Can 001334)</ref>; A:
+                            <quote>Alleluia viii</quote> [(Surrexit)] <ref target="http://cantusindex.org/id/001333">(Can 001333)</ref>; A:
+                        [Alleluia v (In Galilaea)] <ref target="http://cantusindex.org/id/001330">(Can 001330)</ref>; A: <quote>Alleluia
+                        </quote>v [(Data est)] <ref target="http://cantusindex.org/id/001330">(Can 001330)</ref>; Lacuna. (3v Teil vom Doppelblatt = Fragm.
                         960-6 und 960-7) [Octava Paschae] A: <quote>Quia vidisti me
-                        </quote>[Thoma] (Can 004513); A: [Multa quidem et alia signa fecit J]<quote>esus in conspectu discipulorum</quote> (Can 003828); A: [Haec
+                        </quote>[Thoma] <ref target="http://cantusindex.org/id/004513">(Can 004513)</ref>; A: [Multa quidem et alia signa fecit J]<quote>esus in conspectu discipulorum</quote> 
+                           <ref target="http://cantusindex.org/id/003828">(Can 003828)</ref>; A: [Haec
                         autem scripta sunt ut credatis] <quote>quia Jesus est Christus
-                        </quote>(Can 002993); Lacuna. (4r Teil vom Doppelblatt = Fragm. 960-1, 960-2,
-                        960-3 [Fer. 3 p. Oct.Pasch.] A: [Alleluia xi (Et recordatae)] (Can 001336);
-                        A: Alleluia iii (De profundis) (Can 001328); Fer. 4 p. Oct. Pasch. A: <quote>Alleluia viii </quote>(Surrexit) (Can 001333); A: <quote>Alleluia x</quote> (Ite nuntiate) (Can 001335); Lacuna Fer. 4
+                        </quote>
+                           <ref target="http://cantusindex.org/id/002993">(Can 002993)</ref>; Lacuna. (4r Teil vom Doppelblatt = Fragm. 960-1, 960-2,
+                        960-3 [Fer. 3 p. Oct.Pasch.] A: [Alleluia xi (Et recordatae)] <ref target="http://cantusindex.org/id/001336">(Can 001336)</ref>;
+                        A: Alleluia iii (De profundis) <ref target="http://cantusindex.org/id/001328">(Can 001328)</ref>; Fer. 4 p. Oct. Pasch. A: <quote>Alleluia viii </quote>(Surrexit) <ref target="http://cantusindex.org/id/001333">(Can 001333)</ref>; A: <quote>Alleluia x</quote> (Ite nuntiate) <ref target="http://cantusindex.org/id/001335">(Can 001335)</ref>; Lacuna Fer. 4
                         p. Oct.Pasch. A: <quote>Alleluia</quote>? ; Fer. 5 p. Oct.Pasch. A:
                             <quote>Alleluia</quote>*; A: <quote>Alleluia </quote>iii
-                        (Domine probas-) (Can 001328); Fer. 6 p. Oct.Pasch. A: <quote>Alleluia</quote>* can9999); A: <quote>Alleluia iii</quote> (Portio
-                        mea) (Can 001328); Sabb. p. Oct. Pasch. A: <quote>Alleluia</quote>*
-                        ; A: <quote>Alleluia ix</quote> (Vespere autem)* (Can 001333); [Dom.
+                        (Domine probas-) <ref target="http://cantusindex.org/id/001328">(Can 001328)</ref>; Fer. 6 p. Oct.Pasch. A: <quote>Alleluia</quote>* can9999); A: <quote>Alleluia iii</quote> (Portio
+                        mea) <ref target="http://cantusindex.org/id/001328">(Can 001328)</ref>; Sabb. p. Oct. Pasch. A: <quote>Alleluia</quote>*
+                        ; A: <quote>Alleluia ix</quote> (Vespere autem)* <ref target="http://cantusindex.org/id/001333">(Can 001333)</ref>; [Dom.
                         2 p. Pascha] A: <quote>Ego sum pastor bonus alleluia</quote> (Can
-                        002596); A: <quote>Pastor bonus animam suam</quote> (Can 004223); A:
-                            <quote>Mercennarius est cujus non</quote> (Can 003747); Lacuna.
+                        002596); A: <quote>Pastor bonus animam suam</quote> 
+                           <ref target="http://cantusindex.org/id/004223">(Can 004223)</ref>; A:
+                            <quote>Mercennarius est cujus non</quote> 
+                           <ref target="http://cantusindex.org/id/003747">(Can 003747)</ref>; Lacuna.
                         (4v Teil vom Blatt 3 = Fragm. 960-1, 960-2, 960-3, Verso) [Dom. 2 p. Pascha]
                         A: [Sicut novit me pater et ego ...] <quote>pono pro ovibus meis
-                            alleluia</quote> (Can 004943); A: <quote>Alias oves habeo quae
-                            non</quote> (Can 001320); A: <quote>Ego sum alpha et o. primus
-                            et</quote> (Can 002588); Lacuna; [Dom. 3 p. Pascha] A: [Modicum et non
-                        videbitis me] (Can 003803); A: <quote>Quid est hoc quod dicit
-                        </quote>(Can 004519); A: <quote>Amen amen dico vobis quia</quote> (Can
-                        001375); A: <quote>Tristitia vestra vertetur in</quote>; A: <quote>Tristitia implevit cor </quote>(Can 005189); A: <quote>Iterum autem videbo vos</quote> (Can 003465); Lacuna (5r-v =
-                        Fragm. 960-12) [Michaelis] A: [Angelus archangelus Michael] <quote>dei nuntius</quote> (Can 001406); W: <quote>Adorate dominum</quote>* (Can 007938); R: <quote>Factum
-                            est</quote> [silentium in caelo] (Can 006715); A: <quote>Dum
-                            sacrum mysterium cerneret</quote> (Can 201434); (6r = 960-8, 960-9, 960-10
+                            alleluia</quote> 
+                           <ref target="http://cantusindex.org/id/004943">(Can 004943)</ref>; A: <quote>Alias oves habeo quae
+                            non</quote> 
+                           <ref target="http://cantusindex.org/id/001320">(Can 001320)</ref>; A: <quote>Ego sum alpha et o. primus
+                            et</quote> 
+                           <ref target="http://cantusindex.org/id/002588">(Can 002588)</ref>; Lacuna; [Dom. 3 p. Pascha] A: [Modicum et non
+                        videbitis me] <ref target="http://cantusindex.org/id/003803">(Can 003803)</ref>; A: <quote>Quid est hoc quod dicit
+                        </quote>
+                           <ref target="http://cantusindex.org/id/004519">(Can 004519)</ref>; A: <quote>Amen amen dico vobis quia</quote> (Can
+                        001375); A: <quote>Tristitia vestra vertetur in</quote>; A: <quote>Tristitia implevit cor </quote>
+                           <ref target="http://cantusindex.org/id/005189">(Can 005189)</ref>; A: <quote>Iterum autem videbo vos</quote> 
+                           <ref target="http://cantusindex.org/id/003465">(Can 003465)</ref>; Lacuna (5r-v =
+                        Fragm. 960-12) [Michaelis] A: [Angelus archangelus Michael] <quote>dei nuntius</quote> 
+                           <ref target="http://cantusindex.org/id/001406">(Can 001406)</ref>; W: <quote>Adorate dominum</quote>* <ref target="http://cantusindex.org/id/007938">(Can 007938)</ref>; R: <quote>Factum
+                            est</quote> [silentium in caelo] <ref target="http://cantusindex.org/id/006715">(Can 006715)</ref>; A: <quote>Dum
+                            sacrum mysterium cerneret</quote> 
+                           <ref target="http://cantusindex.org/id/201434">(Can 201434)</ref>; (6r = 960-8, 960-9, 960-10
                         und 960-11: Fragm. 960-8) A: <quote>Michael Gabriel Raphael
-                            summi</quote> (Can 003756); Michaelis,8 I: [Regem] <quote>archangelorum dominum</quote> (Can 001126); Fragm. 960-9 A: <quote>Data est potestas</quote>* (Can 002100); A: <quote>Angeli domini</quote>* (Can 001399); A: <quote>Angeli
-                            archangeli</quote>* (Can 001398); Lacuna. (Fragm. 960-10) Michaelis,8 A:
-                        [Introibo in domum tuam domine] (Can 003389);V : [In conspectu angelorum ...
-                            adora]<quote>bo ad templum sanctum tuum</quote> (Can 007707c) W:
-                            <quote>In conspectu angelorum</quote>* (Can 008092); A: <quote>Factum est silentium</quote>* (Can 002843); A: <quote>Dum committeret</quote>* (Can 002440); A: <quote>Dum proeliaretur</quote>* (Can 002465); A: <quote>Michael
-                            archangele</quote>* (Can 003754); A:<quote> Laudemus
-                            dominum</quote>* (Can 003592); A: <quote>Concussum est
-                        mare</quote>* (Can 001864); A: <quote>Te sanctum dominum</quote>* (Can
+                            summi</quote> 
+                           <ref target="http://cantusindex.org/id/003756">(Can 003756)</ref>; Michaelis,8 I: [Regem] <quote>archangelorum dominum</quote> 
+                           <ref target="http://cantusindex.org/id/001126">(Can 001126)</ref>; Fragm. 960-9 A: <quote>Data est potestas</quote>* <ref target="http://cantusindex.org/id/002100">(Can 002100)</ref>; A: <quote>Angeli domini</quote>* <ref target="http://cantusindex.org/id/001399">(Can 001399)</ref>; A: <quote>Angeli
+                            archangeli</quote>* <ref target="http://cantusindex.org/id/001398">(Can 001398)</ref>; Lacuna. (Fragm. 960-10) Michaelis,8 A:
+                        [Introibo in domum tuam domine] <ref target="http://cantusindex.org/id/003389">(Can 003389)</ref>;V : [In conspectu angelorum ...
+                            adora]<quote>bo ad templum sanctum tuum</quote> 
+                           <ref target="http://cantusindex.org/id/007707c">(Can 007707c)</ref> W:
+                            <quote>In conspectu angelorum</quote>* <ref target="http://cantusindex.org/id/008092">(Can 008092)</ref>; A: <quote>Factum est silentium</quote>* <ref target="http://cantusindex.org/id/002843">(Can 002843)</ref>; A: <quote>Dum committeret</quote>* <ref target="http://cantusindex.org/id/002440">(Can 002440)</ref>; A: <quote>Dum proeliaretur</quote>* <ref target="http://cantusindex.org/id/002465">(Can 002465)</ref>; A: <quote>Michael
+                            archangele</quote>* <ref target="http://cantusindex.org/id/003754">(Can 003754)</ref>; A:<quote> Laudemus
+                            dominum</quote>* <ref target="http://cantusindex.org/id/003592">(Can 003592)</ref>; A: <quote>Concussum est
+                        mare</quote>* <ref target="http://cantusindex.org/id/001864">(Can 001864)</ref>; A: <quote>Te sanctum dominum</quote>* (Can
                         005123); R: <quote>Stetit angelus</quote>* Lacuna. (Fragm. 960-11
                         Recto) [Michaelis] A: <quote>Michael praeposite</quote>* (Can
-                        003757); A: <quote>Archangele Michael</quote>* (Can 001474); A: <quote>Archangele dei</quote>* (Can 001473); A: <quote>Archangeli Michaelis</quote>* (Can 001475); A: <quote>Michael
+                        003757); A: <quote>Archangele Michael</quote>* <ref target="http://cantusindex.org/id/001474">(Can 001474)</ref>; A: <quote>Archangele dei</quote>* <ref target="http://cantusindex.org/id/001473">(Can 001473)</ref>; A: <quote>Archangeli Michaelis</quote>* <ref target="http://cantusindex.org/id/001475">(Can 001475)</ref>; A: <quote>Michael
                             archangele defende</quote>; A: <quote>Archangele Christi
-                            per</quote> (Can 001472); R: <quote>Archangeli Michaelis</quote>
-                        (Can 006118); Lacuna; (6v = 960-8, 960-9, 960-10 und 960-11) (Fragm. 960-8)
-                        Hieronimi A: <quote>Iste est qui ante deum</quote>* (Can 003426); I:
-                            <quote>Regem confessorum</quote>* (Can 001129); (Fragm. 960-9)
-                        R: <quote>E</quote>[uge serve bone]* (Can 006677); A: <quote>Domine quinque talenta</quote>* (Can 002370); A: <quote>Euge serve bone</quote>* (Can 002732); A: <quote>Stolam jucunditatis</quote>* (Can 005034); Remigii R: <quote>Juravit dominus</quote>* (Can 007046); A: <quote>Justum
+                            per</quote> 
+                           <ref target="http://cantusindex.org/id/001472">(Can 001472)</ref>; R: <quote>Archangeli Michaelis</quote>
+                           <ref target="http://cantusindex.org/id/006118">(Can 006118)</ref>; Lacuna; (6v = 960-8, 960-9, 960-10 und 960-11) (Fragm. 960-8)
+                        Hieronimi A: <quote>Iste est qui ante deum</quote>* <ref target="http://cantusindex.org/id/003426">(Can 003426)</ref>; I:
+                            <quote>Regem confessorum</quote>* <ref target="http://cantusindex.org/id/001129">(Can 001129)</ref>; (Fragm. 960-9)
+                        R: <quote>E</quote>[uge serve bone]* <ref target="http://cantusindex.org/id/006677">(Can 006677)</ref>; A: <quote>Domine quinque talenta</quote>* <ref target="http://cantusindex.org/id/002370">(Can 002370)</ref>; A: <quote>Euge serve bone</quote>* <ref target="http://cantusindex.org/id/002732">(Can 002732)</ref>; A: <quote>Stolam jucunditatis</quote>* <ref target="http://cantusindex.org/id/005034">(Can 005034)</ref>; Remigii R: <quote>Juravit dominus</quote>* <ref target="http://cantusindex.org/id/007046">(Can 007046)</ref>; A: <quote>Justum
                             deduxit</quote>*; Germani, Vedasti A:<quote> In circuitu
-                            tuo</quote>* (Can 003208); Lacuna. (Fragm. 960-10) Remigii R: <quote>Iste est de sublimus</quote>* (Can 00X); V: <quote>Iste est enim Remigius cujus </quote>(Can 00X); <quote>Ecce
+                            tuo</quote>* <ref target="http://cantusindex.org/id/003208">(Can 003208)</ref>; Lacuna. (Fragm. 960-10) Remigii R: <quote>Iste est de sublimus</quote>* <ref target="http://cantusindex.org/id/00X">(Can 00X)</ref>; V: <quote>Iste est enim Remigius cujus </quote>
+                           <ref target="http://cantusindex.org/id/00X">(Can 00X)</ref>; <quote>Ecce
                             sacerdos magnus</quote>*; A: <quote>Amavit eum</quote>*; Germani,
                         Vedasti A: <quote>Fulgebunt justi</quote>*; Remigii <quote>Juravit dominus</quote>*; A: <quote>Iste
-                            cognovit</quote>* (Can 003418); Fragm. 960-11: Leodegarii A: <quote>Beatus vir qui suffert</quote>* (Can 001677); R: <quote>Iste cognovit</quote>* (Can 006995); R: <quote>Stolam jucunditatis</quote>* (Can 007710); R: <quote>Coronam
-                            auream</quote>* (Can 006341); A: <quote>Qui me confessus</quote>*
-                        (Can 004479); A: <quote>Si quis per me</quote>* (Can 004911); Oct.
-                        Michaelis R: <quote>In conspectu angelorum</quote>* (Can 006894); A:
-                            <quote>Dum sacrum</quote>* (Can 002469); I: <quote>Angelorum regi</quote>* (Can 001037); Marci, Pont. A: <quote>Sacerdos et pontifex</quote>* (Can 004673); Sergii, Bacchi A: <quote>Absterget deus</quote>* (Can 001212); Marci, Pont. R: <quote>Euge serve bone</quote>* (Can 006677); R: <quote>Ecce sacerdos</quote>* (Can 006609); R: <quote>Juravit
-                            dominus</quote>* (Can 007046); A: <quote>Ecce sacerdos</quote>*
-                        (Can 002544); A: <quote>Amavit eum</quote>* (Can 009999); Sergii,
-                        Bacchi A: <quote>Tradiderunt</quote>* (Can 005168); Dionysii A: <quote>Voce clara</quote>* (Can 005488). Die Inhaltsangaben beruhen
+                            cognovit</quote>* <ref target="http://cantusindex.org/id/003418">(Can 003418)</ref>; Fragm. 960-11: Leodegarii A: <quote>Beatus vir qui suffert</quote>* <ref target="http://cantusindex.org/id/001677">(Can 001677)</ref>; R: <quote>Iste cognovit</quote>* <ref target="http://cantusindex.org/id/006995">(Can 006995)</ref>; R: <quote>Stolam jucunditatis</quote>* <ref target="http://cantusindex.org/id/007710">(Can 007710)</ref>; R: <quote>Coronam
+                            auream</quote>* <ref target="http://cantusindex.org/id/006341">(Can 006341)</ref>; A: <quote>Qui me confessus</quote>*
+                        <ref target="http://cantusindex.org/id/004479">(Can 004479)</ref>; A: <quote>Si quis per me</quote>* <ref target="http://cantusindex.org/id/004911">(Can 004911)</ref>; Oct.
+                        Michaelis R: <quote>In conspectu angelorum</quote>* <ref target="http://cantusindex.org/id/006894">(Can 006894)</ref>; A:
+                            <quote>Dum sacrum</quote>* <ref target="http://cantusindex.org/id/002469">(Can 002469)</ref>; I: <quote>Angelorum regi</quote>* <ref target="http://cantusindex.org/id/001037">(Can 001037)</ref>; Marci, Pont. A: <quote>Sacerdos et pontifex</quote>* <ref target="http://cantusindex.org/id/004673">(Can 004673)</ref>; Sergii, Bacchi A: <quote>Absterget deus</quote>* <ref target="http://cantusindex.org/id/001212">(Can 001212)</ref>; Marci, Pont. R: <quote>Euge serve bone</quote>* <ref target="http://cantusindex.org/id/006677">(Can 006677)</ref>; R: <quote>Ecce sacerdos</quote>* <ref target="http://cantusindex.org/id/006609">(Can 006609)</ref>; R: <quote>Juravit
+                            dominus</quote>* <ref target="http://cantusindex.org/id/007046">(Can 007046)</ref>; A: <quote>Ecce sacerdos</quote>*
+                        <ref target="http://cantusindex.org/id/002544">(Can 002544)</ref>; A: <quote>Amavit eum</quote>* <ref target="http://cantusindex.org/id/009999">(Can 009999)</ref>; Sergii,
+                        Bacchi A: <quote>Tradiderunt</quote>* <ref target="http://cantusindex.org/id/005168">(Can 005168)</ref>; Dionysii A: <quote>Voce clara</quote>* <ref target="http://cantusindex.org/id/005488">(Can 005488)</ref>. Die Inhaltsangaben beruhen
                         auf Cantus Planus Datenbank.</note>
                         <note>
                            <bibl type="edition"/>

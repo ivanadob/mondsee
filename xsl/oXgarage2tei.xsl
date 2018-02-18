@@ -538,6 +538,17 @@
         </hi>
     </xsl:template>
     
+    <xsl:template match="text()">
+        <xsl:analyze-string select="." regex="\(Can (\w\d+\w*)\)">         
+            <xsl:matching-substring>
+                <ref><xsl:attribute name="target"><xsl:value-of select="substring-before(concat('http://cantusindex.org/id/',  substring-after(., '(Can ')), ')')"/></xsl:attribute><xsl:value-of select="."/></ref>
+            </xsl:matching-substring>
+            <xsl:non-matching-substring>
+                <xsl:value-of select="."/>
+            </xsl:non-matching-substring>
+        </xsl:analyze-string>
+    </xsl:template>
+    
     <!--    ############################################################# frag Peter (er behauptet es muss durch @element@ gehen - https://www.w3.org/TR/xslt/#element-analyze-string oder da https://www.data2type.de/xml-xslt-xslfo/xslt/xslt-referenz/analyze-string/ wie ich bei jedem Can ein <ref target="http://cantusindex.org/id/...">Can ...</ref> mache. Suche mit reg ex Can (\w*\d+\w*) -->
         <!--<xsl:template match="tei:cell[56]/text()">
             

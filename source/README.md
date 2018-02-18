@@ -6,3 +6,9 @@ To get the source file:
 3. In http://www.tei-c.org/oxgarage/# Convert the file to TEI P5 XML Document.
 4. Store this in the folder "source".
 5. Run the xsl for the desired operation.
+
+
+### notes
+
+regex pattern to match cantus-nr: `\(Can (\w\d+\w*)\)`
+needs to become something like `<ref target="http://cantusindex.org/id/{id}">(Can g0313e)</ref>`

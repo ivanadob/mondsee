@@ -10,11 +10,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>result/StichProbe.xml</String>
+                                    <String>source/MsMondsee_oXgarage.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>TEI2TEX</String>
+                                        <String>MsMondsee_oXgarage</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -25,11 +25,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>source/MsMondsee_oXgarage.xml</String>
+                                    <String>result/StichProbe.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>MsMondsee_oXgarage</String>
+                                        <String>TEI2TEX</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
