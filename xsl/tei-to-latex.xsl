@@ -17,21 +17,29 @@
         \maketitle
         \setcounter{secnumdepth}{0}
         <xsl:for-each select=".//tei:TEI">
-            \section{}
             \begin{flushright}
-            <xsl:value-of select=".//tei:msIdentifier/tei:idno"/>
+            \section{<xsl:value-of select=".//tei:msIdentifier/tei:idno"/>}
             <xsl:choose>
                 <xsl:when test=".//tei:altIdentifier/tei:idno/text()">
                     <xsl:text> olim: </xsl:text><xsl:value-of select=".//tei:altIdentifier/tei:idno"></xsl:value-of>
                 </xsl:when>
             </xsl:choose>
+<!--            this brings the Makulaturtyp in brackets-->
+            <xsl:choose>
+                <xsl:when test="contains(.//tei:provenance/tei:p[3] , 'In situ')">
+                    <xsl:text> (</xsl:text><xsl:value-of select="substring-after(.//tei:provenance/tei:p[2], ': ')"></xsl:value-of><xsl:text>)</xsl:text>
+                </xsl:when>
+            </xsl:choose>
             \end{flushright}
             \subsection{<xsl:value-of select=".//tei:head/tei:title"/>}
             \begin{tabbing}
-            \hspace*{3cm}\=\hspace*{2cm}\=\hspace*{2cm}\=\hspace*{2cm}\= \kill
-            <xsl:value-of select=".//tei:support/tei:dim"/> \> <xsl:value-of select=".//dimentions"/> \> <xsl:value-of select=".//tei:head/tei:origDate"/> \> <xsl:value-of select=".//tei:head/tei:origPlace"/>
+            \hspace*{2cm}\= \kill
+            <xsl:value-of select=".//tei:head/tei:origDate"/> \> <xsl:value-of select=".//tei:head/tei:origPlace"/>
             \end{tabbing}
-                        
+            
+            <xsl:value-of select=".//tei:support/tei:material"/>, <xsl:value-of select=".//tei:condition"/>
+           
+            
             \subsection{Inhalt}
             <xsl:apply-templates select=".//tei:msItem/tei:note[@type='description']"></xsl:apply-templates>
             
@@ -39,10 +47,23 @@
                 Musiknotation: <xsl:value-of select=".//tei:musicNotation"/>
             </xsl:if>
             
+            \subsection{Ursprünglichen HS}
+            Schrift: <xsl:value-of select=".//tei:handNote"></xsl:value-of>;
+            Blatt: <xsl:apply-templates select=".//tei:extent/tei:dimentions[@type='leaf_orig']"></xsl:apply-templates>;
+            Schriftraum: <xsl:apply-templates select=".//tei:extent/tei:dimentions[@type='written_orig']"></xsl:apply-templates>;
+            <xsl:value-of select=".//tei:layoutDesc/tei:layout[2]"/><xsl:value-of select=".//tei:layoutDesc/tei:layout[3]"/>
+            <xsl:choose>
+                <xsl:when test=".//tei:layout[3][@columns='2']">
+                    Spaltebreite: <xsl:value-of select=".//tei:layout[1]"/>
+                </xsl:when>
+            </xsl:choose>
+            
             \subsection{Entstehung}
             <xsl:value-of select=".//tei:history/tei:origin"/>
+            
             \subsection{Provenienz} 
             <xsl:value-of select=".//tei:history/tei:provenance"/>
+            
             <xsl:if test=".//tei:listBibl/tei:bibl/text()">
                 \subsection{Lit.} <xsl:value-of select=".//tei:listBibl/tei:bibl"/>
             </xsl:if>
