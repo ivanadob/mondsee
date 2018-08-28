@@ -1212,7 +1212,6 @@
         </options>
     </meta>
     <projectTree name="mondsee2tei.xpr">
-        <folder path="ms-office/"/>
         <folder path="result/"/>
         <folder path="source/"/>
         <folder path="xsl/"/>
