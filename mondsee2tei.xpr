@@ -30,6 +30,36 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>../../Downloads/MsMondsee_2018_09_01.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>MsMondsee_oXgarage</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>xsl/DescriptionTextHTML.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DescrTextHTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>ms-office/Copy%20of%20MsMondsee.xlsx</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -46,21 +76,6 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>../../Downloads/Copy%20of%20MsMondsee%20-%20Fragmente.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>DescrTextHTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>xsl/DescriptionTextHTML.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -661,10 +676,10 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>${pd}/result/StichProbe.xml</File>
+                                    <File>${pd}/result/MondseeTEI-msdesc.xml</File>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${pd}\result\StichProbe.xml</String>
+                                    <String>${pd}\result\MondseeTEI-msdesc.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
