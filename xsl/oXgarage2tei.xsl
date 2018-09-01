@@ -558,7 +558,32 @@
                                             </recordHist>
                                         </adminInfo>
                                         <listBibl>
-                                            <bibl><xsl:apply-templates select=".//tei:cell[6]"/></bibl>
+                                            <xsl:for-each select="tokenize(.//tei:cell[6]/text(), ';' )">
+                                                <bibl>
+                                                    <xsl:choose>
+                                                        <xsl:when test="contains(., '(http')">
+                                                            <ref>
+                                                                <xsl:attribute name="target">
+                                                                    <xsl:variable name="link2bib">
+                                                                        <xsl:value-of select="concat('http', substring-after(., '(http'))"/>
+                                                                    </xsl:variable>
+                                                                    <xsl:value-of select="substring-before($link2bib, ')')"/>
+                                                                </xsl:attribute>
+                                                                <xsl:value-of select="normalize-space(substring-before(., '(http'))"/>
+                                                            </ref>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <xsl:value-of select="normalize-space(.)"/>
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
+                                                    <!--<ref>
+                                                        <xsl:attribute name="target">
+                                                            <xsl:value-of select="concat('http', substring-after(., '(http'))"/>
+                                                        </xsl:attribute>
+                                                        <xsl:value-of select="substring-before(., '(http')"/>
+                                                    </ref>-->
+                                                </bibl>
+                                            </xsl:for-each>
                                         </listBibl>
                                     </additional>
                                 </msDesc>
