@@ -63,7 +63,10 @@
             <xsl:for-each select="//tei:row">
                     <xsl:if test=".//tei:cell[64]/text()"> 
 <!--                        to bring only those fragments that have Bearbeiter, to have a lower and managable number of results-->
-                        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+                        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xi="http://www.w3.org/2001/XInclude" version="5.1" xml:lang="eng" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /var/www/xsd/TEI-P5/1.7/tei-p5-fragmentarium_1.7.xsd">
+                            <xsl:attribute name="xml:base">
+                                <xsl:value-of select="tokenize(.//tei:cell[7]/text(), '/' )"/>
+                            </xsl:attribute>
                     <teiHeader>
                         <fileDesc>
                             <titleStmt>
@@ -98,9 +101,9 @@
                             </publicationStmt>
                             <sourceDesc>
                                 <msDesc xml:lang="deu">
-                                    <!--<xsl:attribute name="xml:id">
-                                        <xsl:value-of select="substring-after-last(.//tei:cell[1], ' ')"></xsl:value-of>
-                                    </xsl:attribute>-->
+                                    <xsl:attribute name="xml:id">
+                                        <!--<xsl:value-of select="substring-after(.//tei:cell[7], '/')"/>-->
+                                    </xsl:attribute>
                                     <msIdentifier>
                                         <settlement><xsl:value-of select="substring-before(.//tei:cell[1], ',')"/></settlement>
                                         <repository>
@@ -120,21 +123,23 @@
                                             </xsl:choose>
                                         </repository>
                                         <idno><xsl:value-of select="substring-after(.//tei:cell[1], ': ')"/></idno>
-                                        <xsl:choose> 
-                                            <xsl:when test="contains(.//tei:cell[5], ',')">
-                                                <altIdentifier type="former">
-                                                    <idno><xsl:value-of select="substring-before(.//tei:cell[5], ',')"/></idno>
-                                                </altIdentifier>
-                                                <altIdentifier type="former">
-                                                    <idno><xsl:value-of select="substring-after(.//tei:cell[5], ', ')"/></idno>
-                                                </altIdentifier>
+                                        <xsl:if test=".//tei:cell[5]/text()">
+                                            <xsl:choose> 
+                                                <xsl:when test="contains(.//tei:cell[5], ',')">
+                                                    <altIdentifier type="former">
+                                                        <idno><xsl:value-of select="substring-before(.//tei:cell[5], ',')"/></idno>
+                                                    </altIdentifier>
+                                                    <altIdentifier type="former">
+                                                        <idno><xsl:value-of select="substring-after(.//tei:cell[5], ', ')"/></idno>
+                                                    </altIdentifier>
                                                 </xsl:when>
-                                            <xsl:otherwise>
-                                                <altIdentifier  type="former">
-                                                    <idno><xsl:value-of select=".//tei:cell[5]"></xsl:value-of></idno>
-                                                </altIdentifier>
-                                            </xsl:otherwise>
-                                        </xsl:choose>
+                                                <xsl:otherwise>
+                                                    <altIdentifier  type="former">
+                                                        <idno><xsl:value-of select=".//tei:cell[5]"></xsl:value-of></idno>
+                                                    </altIdentifier>
+                                                </xsl:otherwise>
+                                            </xsl:choose>
+                                        </xsl:if>
                                     </msIdentifier>
                                     <head>
                                         <title>
@@ -239,32 +244,44 @@
                                                 <xsl:value-of select=".//tei:cell[53]"/>
                                             </title>
                                             <xsl:if test=".//tei:cell[51]/text()">
-                                                <author>
+                                                <!--<author>
                                                     <xsl:if test=".//tei:cell[50]/text()">
                                                         <xsl:attribute name="ref">
                                                             <xsl:text>http://d-nb.info/gnd/</xsl:text><xsl:value-of select=".//tei:cell[50]"/>
                                                         </xsl:attribute>
                                                     </xsl:if>
                                                     <xsl:value-of select=".//tei:cell[51]"/>
-                                                </author>
-                                                <!--                                                In Fragmentarium TEI no element 'author' but note type="persons". If they don't change it use the following xsl instead of <author>:
+                                                </author>-->
+                                                                                                <!--In Fragmentarium TEI no element 'author' but note type="persons". Until they change it use the following xsl instead of <author>:-->
                                                 <note>
-                                                    <xsl:attribute name="persons"></xsl:attribute>
+                                                    <xsl:attribute name="type">persons</xsl:attribute>
                                                     <xsl:value-of select=".//tei:cell[51]"/>
-                                                </note>-->
+                                                </note>
                                             </xsl:if>
                                             <note type="description">
                                                 <xsl:apply-templates select=".//tei:cell[56]"/>                                      
                                             </note>
-                                            <note>
-                                                <bibl type="edition"><xsl:value-of select=".//tei:cell[60]"/></bibl>
-                                            </note>
-                                            <note type="remarks"/>
+                                            <xsl:if test=".//tei:cell[60]/text()">
+                                                <note>
+                                                    <bibl type="edition"><xsl:value-of select=".//tei:cell[60]"/></bibl>
+                                                </note>
+                                            </xsl:if>
+                                            <xsl:if test=".//tei:cell[57]/text()">
+                                                <note type="remarks">
+                                                    <xsl:value-of select=".//tei:cell[57]/text()"/>
+                                                </note>
+                                            </xsl:if>
                                         </msItem>
                                     </msContents>
                                     <physDesc>
                                         <objectDesc form="Fragment">
                                             <supportDesc>
+                                                <xsl:attribute name="material">
+                                                    <xsl:choose>
+                                                        <xsl:when test=".//tei:cell[10]/text() = 'Pergament'">perg</xsl:when>
+                                                        <xsl:when test=".//tei:cell[10]/text() = 'Papier'">chart</xsl:when>
+                                                    </xsl:choose>
+                                                </xsl:attribute>
                                                 <support>
                                                     <material>
                                                         <xsl:value-of select=".//tei:cell[10]"/>
@@ -387,65 +404,69 @@
                                                 </condition>
                                             </supportDesc>
                                             <layoutDesc>
-                                                <layout>
-                                                <dimensions type="column">
-                                                    <width>
-                                                        <xsl:if test=".//tei:cell[35]/text()">
-                                                            <xsl:attribute name="min">
-                                                                <xsl:value-of select=".//tei:cell[35]"/>
-                                                            </xsl:attribute>
-                                                        </xsl:if>
-                                                        <xsl:if test=".//tei:cell[36]/text()">
-                                                            <xsl:attribute name="max">
-                                                                <xsl:value-of select=".//tei:cell[36]"/>
-                                                            </xsl:attribute>
-                                                        </xsl:if>
-                                                        <xsl:choose>
-                                                            <xsl:when test=".//tei:cell[35]/text()=.//tei:cell[36]/text()">
-                                                                <xsl:value-of select=".//tei:cell[35]"/>
-                                                            </xsl:when>
-                                                            <xsl:when test=".//tei:cell[35]/text()!=.//tei:cell[36]/text()">
-                                                                <xsl:value-of select=".//tei:cell[35]"/>-<xsl:value-of select=".//tei:cell[36]"/>
-                                                            </xsl:when>                                                                
-                                                            <xsl:otherwise>
+                                                <xsl:if test=".//tei:cell[35]/text()">
+                                                    <layout>
+                                                        <dimensions type="column">
+                                                            <width>
                                                                 <xsl:if test=".//tei:cell[35]/text()">
-                                                                    <xsl:text>min </xsl:text><xsl:value-of select=".//tei:cell[35]"/>
+                                                                    <xsl:attribute name="min">
+                                                                        <xsl:value-of select=".//tei:cell[35]"/>
+                                                                    </xsl:attribute>
                                                                 </xsl:if>
-                                                            </xsl:otherwise>
-                                                        </xsl:choose>
-                                                    </width>
-                                                </dimensions>
-                                                </layout>
-                                                <layout>
-                                                    <dimensions type="line">
-                                                        <height>
-                                                            <xsl:if test=".//tei:cell[37]/text()">
-                                                                <xsl:attribute name="min">
-                                                                    <xsl:value-of select=".//tei:cell[37]"/>
-                                                                </xsl:attribute>
-                                                            </xsl:if>
-                                                            <xsl:if test=".//tei:cell[38]/text()">
-                                                                <xsl:attribute name="max">
-                                                                    <xsl:value-of select=".//tei:cell[38]"/>
-                                                                </xsl:attribute>
-                                                            </xsl:if>
-                                                            Höhe der Einzelzeile: 
-                                                            <xsl:choose>
-                                                                <xsl:when test=".//tei:cell[37]/text()=.//tei:cell[38]/text()">
-                                                                    <xsl:value-of select=".//tei:cell[37]"/>
-                                                                </xsl:when>
-                                                                <xsl:when test=".//tei:cell[37]/text()!=.//tei:cell[38]/text()">
-                                                                    <xsl:value-of select=".//tei:cell[37]"/>-<xsl:value-of select=".//tei:cell[38]"/>
-                                                                </xsl:when>                                                                
-                                                                <xsl:otherwise>
-                                                                    <xsl:if test=".//tei:cell[37]/text()">
-                                                                        <xsl:text>min </xsl:text><xsl:value-of select=".//tei:cell[37]"/>
-                                                                    </xsl:if>
-                                                                </xsl:otherwise>
-                                                            </xsl:choose>
-                                                        </height>
-                                                    </dimensions>
-                                                </layout>
+                                                                <xsl:if test=".//tei:cell[36]/text()">
+                                                                    <xsl:attribute name="max">
+                                                                        <xsl:value-of select=".//tei:cell[36]"/>
+                                                                    </xsl:attribute>
+                                                                </xsl:if>
+                                                                <xsl:choose>
+                                                                    <xsl:when test=".//tei:cell[35]/text()=.//tei:cell[36]/text()">
+                                                                        <xsl:value-of select=".//tei:cell[35]"/>
+                                                                    </xsl:when>
+                                                                    <xsl:when test=".//tei:cell[35]/text()!=.//tei:cell[36]/text()">
+                                                                        <xsl:value-of select=".//tei:cell[35]"/>-<xsl:value-of select=".//tei:cell[36]"/>
+                                                                    </xsl:when>                                                                
+                                                                    <xsl:otherwise>
+                                                                        <xsl:if test=".//tei:cell[35]/text()">
+                                                                            <xsl:text>min </xsl:text><xsl:value-of select=".//tei:cell[35]"/>
+                                                                        </xsl:if>
+                                                                    </xsl:otherwise>
+                                                                </xsl:choose>
+                                                            </width>
+                                                        </dimensions>
+                                                    </layout>
+                                                </xsl:if>
+                                                <xsl:if test=".//tei:cell[37]/text()">
+                                                    <layout>
+                                                        <dimensions type="line">
+                                                            <height>
+                                                                <xsl:if test=".//tei:cell[37]/text()">
+                                                                    <xsl:attribute name="min">
+                                                                        <xsl:value-of select=".//tei:cell[37]"/>
+                                                                    </xsl:attribute>
+                                                                </xsl:if>
+                                                                <xsl:if test=".//tei:cell[38]/text()">
+                                                                    <xsl:attribute name="max">
+                                                                        <xsl:value-of select=".//tei:cell[38]"/>
+                                                                    </xsl:attribute>
+                                                                </xsl:if>
+                                                                Höhe der Einzelzeile: 
+                                                                <xsl:choose>
+                                                                    <xsl:when test=".//tei:cell[37]/text()=.//tei:cell[38]/text()">
+                                                                        <xsl:value-of select=".//tei:cell[37]"/>
+                                                                    </xsl:when>
+                                                                    <xsl:when test=".//tei:cell[37]/text()!=.//tei:cell[38]/text()">
+                                                                        <xsl:value-of select=".//tei:cell[37]"/>-<xsl:value-of select=".//tei:cell[38]"/>
+                                                                    </xsl:when>                                                                
+                                                                    <xsl:otherwise>
+                                                                        <xsl:if test=".//tei:cell[37]/text()">
+                                                                            <xsl:text>min </xsl:text><xsl:value-of select=".//tei:cell[37]"/>
+                                                                        </xsl:if>
+                                                                    </xsl:otherwise>
+                                                                </xsl:choose>
+                                                            </height>
+                                                        </dimensions>
+                                                    </layout>
+                                                </xsl:if>
                                                 <layout>
                                                     <xsl:if test=".//tei:cell[32]/text()">
                                                         <xsl:attribute name="writtenLines">
@@ -507,7 +528,9 @@
                                         </xsl:if>
                                         </origin>
                                         <provenance>
-                                            <p><xsl:value-of select=".//tei:cell[62]"/></p>
+                                            <xsl:if test=".//tei:cell[62]/text()">
+                                                <p><xsl:value-of select=".//tei:cell[62]"/></p>
+                                            </xsl:if>
                                             <p>Makulaturtyp: <xsl:value-of select=".//tei:cell[23]"/></p>
                                             <p><xsl:choose>
                                                 <xsl:when test=".//tei:cell[19]/text()">
@@ -523,11 +546,15 @@
                                                     <xsl:attribute name="target">http://data.onb.ac.at/rec/<xsl:value-of select=".//tei:cell[20]"/></xsl:attribute>
                                                     <xsl:value-of select=".//tei:cell[19]"/><!--Signatur Traegerband-->
                                                 </ref>
-                                                    Inhalt: <xsl:value-of select="substring-before(.//tei:cell[14], ';')"/>
-                                                    <xsl:choose>
-                                                        <xsl:when test=".//tei:cell[17]/text()">
-                                                            Entstehung: <xsl:value-of select=".//tei:cell[17]"/><xsl:text> </xsl:text> <xsl:value-of select=".//tei:cell[18]"/>;
+                                                    Inhalt des Trägerbandes: <xsl:choose>
+                                                        <xsl:when test="contains (.//tei:cell[14], ':')">
+                                                            <xsl:value-of select="substring-before(.//tei:cell[14], ':')"/>
                                                         </xsl:when>
+                                                        <xsl:otherwise><xsl:value-of select=".//tei:cell[14]"/></xsl:otherwise>
+                                                    </xsl:choose>
+                                                    
+                                                    <xsl:choose>
+                                                        <xsl:when test=".//tei:cell[17]/text()">; Entstehung: <xsl:value-of select=".//tei:cell[17]"/><xsl:text> </xsl:text> <xsl:value-of select=".//tei:cell[18]"/>;</xsl:when>
                                                     </xsl:choose>
                                                     <xsl:choose>
                                                         <xsl:when test=".//tei:cell[21]/text()">
@@ -553,7 +580,7 @@
                                         <adminInfo>
                                             <recordHist>
                                                 <source>
-                                                    <bibl type="not-printed"><xsl:value-of select=".//tei:cell[64]"/></bibl>
+                                                    <bibl type="not-printed">Description by: <xsl:value-of select=".//tei:cell[64]"/>, 2018</bibl>
                                                 </source>
                                             </recordHist>
                                         </adminInfo>
@@ -626,6 +653,7 @@
             </xsl:non-matching-substring>
         </xsl:analyze-string>
     </xsl:template>
+    
     
     <!--    ############################################################# frag Peter (er behauptet es muss durch @element@ gehen - https://www.w3.org/TR/xslt/#element-analyze-string oder da https://www.data2type.de/xml-xslt-xslfo/xslt/xslt-referenz/analyze-string/ wie ich bei jedem Can ein <ref target="http://cantusindex.org/id/...">Can ...</ref> mache. Suche mit reg ex Can (\w*\d+\w*) -->
         <!--<xsl:template match="tei:cell[56]/text()">
