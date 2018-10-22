@@ -65,7 +65,7 @@
 <!--                        to bring only those fragments that have Bearbeiter, to have a lower and managable number of results-->
                         <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xi="http://www.w3.org/2001/XInclude" version="5.1" xml:lang="eng" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /var/www/xsd/TEI-P5/1.7/tei-p5-fragmentarium_1.7.xsd">
                             <xsl:attribute name="xml:base">
-                                <xsl:value-of select="tokenize(.//tei:cell[7]/text(), '/' )"/>
+                                <xsl:value-of select="substring(.//tei:cell[7]/tei:ptr/@target,35,40)"/>
                             </xsl:attribute>
                     <teiHeader>
                         <fileDesc>
@@ -101,9 +101,9 @@
                             </publicationStmt>
                             <sourceDesc>
                                 <msDesc xml:lang="deu">
-                                    <xsl:attribute name="xml:id">
-                                        <!--<xsl:value-of select="substring-after(.//tei:cell[7], '/')"/>-->
-                                    </xsl:attribute>
+                                    <!--<xsl:attribute name="xml:id">
+                                        <xsl:value-of select="substring-after(.//tei:cell[7], '/')"/>
+                                    </xsl:attribute>-->
                                     <msIdentifier>
                                         <settlement><xsl:value-of select="substring-before(.//tei:cell[1], ',')"/></settlement>
                                         <repository>
@@ -479,7 +479,7 @@
                                                         </xsl:attribute>
                                                     </xsl:if>
                                                     <xsl:if test=".//tei:cell[32]/text()">
-                                                        <xsl:value-of select=".//tei:cell[32]"/> <xsl:value-of select=".//tei:row/tei:cell[33]"/> Zeilen,
+                                                        <xsl:value-of select=".//tei:cell[32]"/> <xsl:value-of select=".//tei:row/tei:cell[33]"/> Zeilen
                                                     </xsl:if>
                                                     <xsl:value-of select=".//tei:cell[39]"/>
                                                     <xsl:choose>
@@ -519,33 +519,63 @@
                                                 <xsl:when test=".//tei:cell[61]/text()">
                                                     <xsl:value-of select=".//tei:cell[61]"/>
                                                 </xsl:when>
-                                                <xsl:otherwise>
-                                                    <xsl:value-of select=".//tei:cell[45]"/><xsl:text> </xsl:text> <xsl:value-of select=".//tei:cell[47]"/><xsl:text> (nach dem palaeographischen Befund).</xsl:text>
+                                                <xsl:otherwise>Datierung nach dem palaeographischen Befund:
+                                                    <origDate>
+                                                        <xsl:choose>
+                                                            <xsl:when test=".//tei:cell[46]/text()">
+                                                                <xsl:choose>
+                                                                    <xsl:when test="contains(.//tei:cell[46], '-')">
+                                                                        <xsl:attribute name="from">
+                                                                            <xsl:value-of select="substring-before(.//tei:cell[46], '-')"/>
+                                                                        </xsl:attribute>
+                                                                        <xsl:attribute name="to">
+                                                                            <xsl:value-of select="substring-after(.//tei:cell[46], '-')"/>
+                                                                        </xsl:attribute>
+                                                                    </xsl:when>
+                                                                    <xsl:when test="contains(.//tei:cell[46], '?')">
+                                                                        <xsl:attribute name="cert">
+                                                                            <xsl:text>medium</xsl:text>
+                                                                        </xsl:attribute>
+                                                                        <xsl:attribute name="from">
+                                                                            <xsl:value-of select="substring-before(.//tei:cell[46], ' (?)')"/>
+                                                                        </xsl:attribute>
+                                                                    </xsl:when>
+                                                                    <xsl:otherwise>
+                                                                        <xsl:attribute name="from">
+                                                                            <xsl:value-of select=".//tei:cell[46]"/>
+                                                                        </xsl:attribute>
+                                                                    </xsl:otherwise>
+                                                                </xsl:choose>
+                                                            </xsl:when>
+                                                        </xsl:choose>
+                                                        <xsl:value-of select=".//tei:cell[45]"/>
+                                                    </origDate>
+                                                    <xsl:text> </xsl:text> <xsl:value-of select=".//tei:cell[47]"/>.
                                                 </xsl:otherwise>
                                             </xsl:choose></p>
                                         <xsl:if test=".//tei:cell[9]/text()">
-                                            <p>Fragmente von dergleichen Handschrift: <xsl:value-of select=".//tei:cell[9]"></xsl:value-of></p>
+                                            <p>Fragmente von dergleichen Handschrift: <xsl:value-of select=".//tei:cell[9]"></xsl:value-of>.</p>
                                         </xsl:if>
                                         </origin>
                                         <provenance>
                                             <xsl:if test=".//tei:cell[62]/text()">
                                                 <p><xsl:value-of select=".//tei:cell[62]"/></p>
                                             </xsl:if>
-                                            <p>Makulaturtyp: <xsl:value-of select=".//tei:cell[23]"/></p>
+                                            <p>Makulaturtyp: <xsl:value-of select=".//tei:cell[23]"/>;</p>
                                             <p><xsl:choose>
                                                 <xsl:when test=".//tei:cell[19]/text()">
                                                 <xsl:choose>
                                                 <xsl:when test="contains (.//tei:cell[2], 'a')">
-                                                    <xsl:text>Ausgelöst aus </xsl:text>
+                                                    <xsl:text>ausgelöst aus </xsl:text>
                                                 </xsl:when>
                                                 <xsl:when test="contains (.//tei:cell[2], 'i')">
-                                                    <xsl:text>In situ Fragment im Trägerband </xsl:text>
+                                                    <xsl:text>in situ Fragment im Trägerband </xsl:text>
                                                 </xsl:when>
                                             </xsl:choose>
                                                 <ref>
                                                     <xsl:attribute name="target">http://data.onb.ac.at/rec/<xsl:value-of select=".//tei:cell[20]"/></xsl:attribute>
                                                     <xsl:value-of select=".//tei:cell[19]"/><!--Signatur Traegerband-->
-                                                </ref>
+                                                </ref>;
                                                     Inhalt des Trägerbandes: <xsl:choose>
                                                         <xsl:when test="contains (.//tei:cell[14], ':')">
                                                             <xsl:value-of select="substring-before(.//tei:cell[14], ':')"/>
@@ -558,12 +588,12 @@
                                                     </xsl:choose>
                                                     <xsl:choose>
                                                         <xsl:when test=".//tei:cell[21]/text()">
-                                                            Provenienz: <xsl:value-of select=".//tei:cell[21]"/>;
+                                                            Provenienz: <xsl:value-of select=".//tei:cell[21]"/>.
                                                         </xsl:when>
                                                     </xsl:choose>
                                                     <xsl:choose>
                                                         <xsl:when test=".//tei:cell[22]/text()">
-                                                            Einband: <xsl:value-of select=".//tei:cell[22]"/> (<xsl:value-of select=".//tei:cell[15]"/>, <xsl:value-of select=".//tei:cell[16]"/>);
+                                                            Einband: <xsl:value-of select=".//tei:cell[22]"/>, <xsl:value-of select=".//tei:cell[15]"/>, <xsl:value-of select=".//tei:cell[16]"/>.
                                                         </xsl:when>
                                                     </xsl:choose>
                                             </xsl:when>
