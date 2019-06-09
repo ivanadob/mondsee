@@ -436,12 +436,13 @@
                                                             </dimensions> mm) zu 
                                                         </xsl:when>
                                                         <xsl:when test=".//tei:cell[34]/text()='1'">
-                                                            1 Spalte zu 
+                                                            1 Spalte 
                                                         </xsl:when>
                                                     </xsl:choose>
                                                     <xsl:if test=".//tei:cell[32]/text()">
-                                                        <xsl:value-of select=".//tei:cell[32]"/> <xsl:value-of select=".//tei:row/tei:cell[33]"/> Zeilen <xsl:if test=".//tei:cell[37]/text()"> (Höhe: 
-                                                            <dimensions type="line">
+                                                        <xsl:value-of select=".//tei:cell[32]"/> <xsl:value-of select=".//tei:row/tei:cell[33]"/> zu Zeilen <xsl:if test=".//tei:cell[37]/text()"> 
+                                                            (Höhe: 
+                                                            <!--<dimensions type="line">
                                                                     <height>
                                                                         <xsl:if test=".//tei:cell[37]/text()">
                                                                             <xsl:attribute name="min">
@@ -467,7 +468,20 @@
                                                                             </xsl:otherwise>
                                                                         </xsl:choose>
                                                                      mm).</height>
-                                                                </dimensions>
+                                                                </dimensions>-->
+                                                            <xsl:choose>
+                                                                <xsl:when test=".//tei:cell[37]/text()=.//tei:cell[38]/text()">
+                                                                    <xsl:value-of select=".//tei:cell[37]"/>
+                                                                </xsl:when>
+                                                                <xsl:when test=".//tei:cell[37]/text()!=.//tei:cell[38]/text()">
+                                                                    <xsl:value-of select=".//tei:cell[37]"/>-<xsl:value-of select=".//tei:cell[38]"/>
+                                                                </xsl:when>                                                                
+                                                                <xsl:otherwise>
+                                                                    <xsl:if test=".//tei:cell[37]/text()">
+                                                                        <xsl:text>min </xsl:text><xsl:value-of select=".//tei:cell[37]"/>
+                                                                    </xsl:if>
+                                                                </xsl:otherwise>
+                                                            </xsl:choose>mm).
                                                         </xsl:if>
                                                     </xsl:if>
                                                 </layout>

@@ -74,7 +74,7 @@
                 </xsl:otherwise>
             </xsl:choose>
  <!--Spalte, Zeile und Hohe der einzelzeile-->
-            <xsl:value-of select="normalize-space(string-join(.//tei:layoutDesc/text(), ' '))"/>           
+            <xsl:value-of select="normalize-space(string-join(.//tei:layout/text(), ' '))"/>           
                         
             \subsection{Zustand}
             <xsl:value-of select=".//tei:condition/tei:p[2]"/>
