@@ -1,0 +1,491 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <author>Ivana Dobcheva</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>No publication statement</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A TEI file automatically converted from a XSLX file.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <table>
+                <head>Mondsee Probe 2019-06-03</head>
+<row n="349">
+    <cell>Wien, ÖNB: Cod. 1696</cell>
+    <cell>i</cell>
+    <cell>t</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell><ptr target="https://fragmentarium.ms/overview/F-vgbq"/></cell>
+    <cell></cell>
+    <cell>Berlin, Staatsbibl., Fragm. 47; Wien, ÖNB, Cod. 1361, Cod. 1696, Cod. Ser.
+        n. 3754, Fragm. 782b</cell>
+    <cell>Pergament</cell>
+    <cell></cell>
+    <cell>2 Einzelblätter, beschnitten</cell>
+    <cell>VS: 190 x 150 mm; HS: 192 x 150 mm</cell>
+    <cell>Sammelhandschrift</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>2. Hälfte 13. Jh.</cell>
+    <cell>Österreich ?</cell>
+    <cell>Wien, ÖNB, Cod. 1696</cell>
+    <cell>AL00176154</cell>
+    <cell>Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Lunael.
+        q. 175'.</cell>
+    <cell>Rotes Leder über Holzdeckeln mit Streicheisenlinien; eine Schließe und
+        fünf Buckeln auf je Deckel, entfernt.</cell>
+    <cell>Spiegel</cell>
+    <cell>265</cell>
+    <cell>265</cell>
+    <cell>150</cell>
+    <cell></cell>
+    <cell>153</cell>
+    <cell>155</cell>
+    <cell>115</cell>
+    <cell>120</cell>
+    <cell>23</cell>
+    <cell>23</cell>
+    <cell>1</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>9</cell>
+    <cell>9</cell>
+    <cell>Blindlinierung; links eine Spalte für Versalien</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>Die stark verblasste Tinte deutet darauf hin, dass die Fragmente wohl
+        gewaschen wurden; rostige Löcher von den Beschlägen. Das Fragment in Cod.
+        1631 ist der obere Teil des HS.</cell>
+    <cell>karolingische Minuskel</cell>
+    <cell></cell>
+    <cell>9. Jh.</cell>
+    <cell>0801-0900</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>118550853</cell>
+    <cell>Pseudo-Hieronymus</cell>
+    <cell></cell>
+    <cell>Expositio quatuor evangeliorum</cell>
+    <cell></cell>
+    <cell>lateinisch</cell>
+    <cell>In evangelium secundum Matthaeum: (VS) [im]<hi rend="italic">pleta in
+        ioseph per dauid ...-... Ostenditur quod ipse uisionem domini meruit
+        uidere </hi>[qui fecit] (nach einigen Zeilen Textverlust, Fortsetzung
+        auf dem HS) <hi rend="italic">aptum fuit quia domus panis interpretatur
+            ...-... non alia creatura sed muta</hi> (Verso nur einige Wörter lesbar,
+        Fortsetzung nach einigen Zeilen Textverlust) [ma]<hi rend="italic">lis
+            ostensio b</hi>[ona] ...-... <hi rend="italic">qua</hi>[ndo
+        magi].</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>PL 30, 535C-537A</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>Dobcheva</cell>
+    <cell>05.10.2017</cell>
+    <cell></cell>
+    <cell>korr.</cell>
+    <cell></cell>
+    <cell>344</cell>
+</row>
+<row n="884">
+    <cell>Wien, ÖNB: Cod. 5153</cell>
+    <cell>i</cell>
+    <cell>z</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>Wien, ÖNB, Cod. 1014, Cod. 3820, Cod. 3548, Cod. 3552, Cod. 3797, Cod.
+        3827, Cod. 3888, Cod. 3896, Cod. 4031, Cod. 4538, Cod. 4970, Cod. 4989, Cod.
+        4993 (?), Cod. 5153, (nach Klugseder Gruppe NNB3).</cell>
+    <cell>Pergament</cell>
+    <cell></cell>
+    <cell>2 Teile von 2 Doppelblättern sowie 24 Langstreifen und 2
+        Querstreifen</cell>
+    <cell>217 x 170 mm; 218 x 12 mm; 15 x 215 mm</cell>
+    <cell>Sammelhandschrift: Unbekannt: Speculum sacerdotum de sacramentis
+        administrandis.; Unbekannt: Summa brevis de confessione.; Unbekannt: Rhythmi
+        germanici de mensibus.; Unbekannt: Rhythmi germanici de gradibus vitae
+        humanae.; Unbekannt: Doctrina temporum.; Unbekannt: Cantilena germanica
+        super morte Alberti II. imperatoris.; Unbekannt: Tractatus metricus de
+        compositis verbis latinis cum commento et exemplis e lingua germanica
+        depromptis.; Unbekannt: Tractatus de algorismo.; Unbekannt: Sermones
+        dominicales et casuales per circulum anni.</cell>
+    <cell>15. Jh.</cell>
+    <cell>Mondsee</cell>
+    <cell>14. Jh.; Mitte 15. Jh.</cell>
+    <cell>Bayern oder Österreich</cell>
+    <cell>Wien, ÖNB: Cod. 5153</cell>
+    <cell>AL00174711</cell>
+    <cell>Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Lunael.
+        q. 120'.</cell>
+    <cell>Weißes Leder mit Streicheisenlinien über Holzdeckeln.</cell>
+    <cell>Spiegel, Ansetzfalz und Falzverstärkung</cell>
+    <cell>217</cell>
+    <cell></cell>
+    <cell>150</cell>
+    <cell></cell>
+    <cell>210</cell>
+    <cell></cell>
+    <cell>130</cell>
+    <cell></cell>
+    <cell>20</cell>
+    <cell></cell>
+    <cell>1</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>10</cell>
+    <cell>11</cell>
+    <cell>Linierung mit verdünnter Tinte</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>Der Vorder- und Hinterspiegel und die dazugehörigen Ansetzfälze (um die
+        erste und letzte Lage gezogen, sichtbar zw. ff. 12/13 und 208/209) wurden
+        aus je einem Doppelblatt geschnitten, wobei auf den Ansetzfälzen nur die
+        Bundstege und Fragmente von Initialen erhalten sind. Langstreifen derselben
+        Handschrift sind in den Lagenmitten mitgebunden zw. ff. 6/7, 18/19, 30/31,
+        41/42, 52/53, 65/66, 80/81, 91/92, 103/104, 115/116, 127/128, 139/140,
+        152/153, 167/168, 179/180, 191/192, 204/205 und 213/214. Im zweiten Teil des
+        Buchblocks sind die Lagen auch von außen mit Fragmentenstreifen verklebt -
+        Lagen mit ff. 87-96, 97-109, 110-121 (Querstreifen), 147-158, 162-173,
+        174-184, 185-197 (Querstreifen) und 198-208; die Lagen ff. 122-133 und
+        134-146 sind mit unbeschriebenen Pergamentfälzen ebenfalls von außen
+        verklebt. Kaum sichtbar zwischen den Lagen zu erkennen sind auch vier
+        Querstreifen, die als Rückenverstärkung dienen und um den Rücken gezogen
+        sowie wohl unter den Spiegeln auf die Innendeckel geklebt sind.</cell>
+    <cell>Textualis</cell>
+    <cell></cell>
+    <cell>2. / 3. Viertel 13. Jh.</cell>
+    <cell>1226-1275</cell>
+    <cell>Mondsee (?)</cell>
+    <cell>Rote Lombarden mit Zierpunktverdickung; 3-zeilige rote
+        Silhouetten-Initiale mit einfachen Konturbegleitstrichen.</cell>
+    <cell>ornamental / initial / outline drawing</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>Breviarium</cell>
+    <cell>lateinisch</cell>
+    <cell>(VS) Te deum: <hi rend="italic">S</hi>[alvum fac popu]<hi rend="italic"
+        >lum tuum domine et be</hi>[nedic] ... <hi rend="italic">In te domine
+            speraui non confundar</hi> [in aeternu]<hi rend="italic">m</hi>;
+        Athanasisches Glaubensbekenntnis: <hi rend="color(FFFF0000)">Fides Athanasii
+            episcopi</hi> [Q]<hi rend="italic">uicumque uult saluus esse ... pater
+                talis filius talis et spiritus sanctus. In</hi>[creatus], bricht ab; <hi
+                    rend="italic"> </hi>(HS) H: [Rector potens verax deus ... ig]<hi
+                        rend="italic">nibus meridiem ... pacem cordium. Presta pater </hi>(AH 50
+        Nr. 19);<hi rend="italic"> </hi><hi rend="color(FFFF0000)">Ad nonam</hi>
+        <hi rend="italic">Rerum deus tenax uigor ... mortis sacre peren</hi>]nis
+        in]<hi rend="italic">stet gloria. Presta pater </hi>(AH 50 Nr. 20);<hi
+            rend="italic"> </hi><hi rend="color(FFFF0000)">In secunda
+                ves[pera]</hi><hi rend="italic color(FFFF0000)"> </hi><hi rend="italic"
+                    >Lucis creator optime lucem dierum ... purgemus omne pessimu</hi>[m] <hi
+                        rend="italic">Presta pater </hi>(AH 51 Nr. 34);<hi rend="italic"
+                            > </hi><hi rend="color(FFFF0000)">Ad completorium</hi>
+        <hi rend="italic">Te lucis ante terminum rerum creator ... sis praesul ad
+            custodiam</hi>, bricht ab (AH 51 Nr. 44, hier erhalten nur Str. 1);
+        (Falz zw. ff. 197/198) Ps 135,23: <hi rend="italic">Quia in humilitate
+            nostra memor fuit nostri</hi>.</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>Dobcheva</cell>
+    <cell>03.07.2018</cell>
+    <cell></cell>
+    <cell>korr.</cell>
+    <cell></cell>
+    <cell>878</cell>
+</row>
+<row n="927">
+    <cell>Wien, ÖNB: Cod. Ser. n. 3202</cell>
+    <cell>a</cell>
+    <cell>z</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>Bischoff, Schreibschule II, S. 25 &amp; Katalog III, S. 494; Mazal,
+        Katalog Ser. n. S.1f.; Fr. Unterkircher, Ein Lektionar-Fragment aus Mondsee,
+        in: Melanges Eugene Tisserant, Band V (Studi e Testi, 235) 1964, S.
+        413-426.</cell>
+    <cell><ptr target="https://fragmentarium.ms/overview/F-k1ys"/></cell>
+    <cell><ptr target="http://data.onb.ac.at/rec/AL00650682"/></cell>
+    <cell></cell>
+    <cell>Pergament</cell>
+    <cell></cell>
+    <cell>14 Streifen</cell>
+    <cell>ca. 10 x 280-320</cell>
+    <cell>Opuscula</cell>
+    <cell>1481</cell>
+    <cell>Basel</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>Linz, OÖLB, Ink. 397</cell>
+    <cell></cell>
+    <cell>Drucker: Johann Amerbach</cell>
+    <cell>Fragment ausgelöst 1960.</cell>
+    <cell>Falzverstärkung</cell>
+    <cell>152</cell>
+    <cell></cell>
+    <cell>168</cell>
+    <cell></cell>
+    <cell>152</cell>
+    <cell></cell>
+    <cell>110</cell>
+    <cell>120</cell>
+    <cell>11</cell>
+    <cell>19</cell>
+    <cell>1</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>8</cell>
+    <cell>8</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>17 Streifenfragmente mehrer Doppelblätter, die Streifen gehörten
+        ursprünglich vier Quaternionen (1. Quaterio: fol. 1-2, 2. Quaternio: fol.
+        3-4, 3. Quaternio: fol. 5-10, 4. Quaternio:11-14) an; die Streifen bilden in
+        heutiger Bindung folgende Blatt: Fol. 1-2 aus zwei Streifen, fol. 3-4 aus
+        einem Streifen, fol. 5 und 10 aus drei Streifen, fol. 6 und 9 aus drei
+        Streifen, fol. 7-8 aus zwei Streifen, fol. 11 und 14 aus fünf Streifen und
+        fol. 12-13 aus einem Streifen.</cell>
+    <cell>Streifenfragmente mehrer Doppelblätter, restauratorisch auf
+        Goldschlägerhaut aufgebracht und in Pappeinband gebunden; Schrift zum Teil
+        verblasst.</cell>
+    <cell>karolingische Minuskel</cell>
+    <cell>Südostdeutsche Schrift (lt. Bischoff)</cell>
+    <cell>1. Hälfte 9. Jh.</cell>
+    <cell>0801-0850</cell>
+    <cell>Südostdeutschland</cell>
+    <cell>Kleinere Initialen in Rot und Gelb und eine Prachtinitiale "P" in Rot und
+        Grün.</cell>
+    <cell>ornamental / initial</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>Lectionarium</cell>
+    <cell>lateinisch</cell>
+    <cell>Lesctiones aus den Episteln und Evangelien von der Weihnachtsvigil bis zum
+        Freitag nach dem 4. Fastensonntag. Genaure Beschreibung vgl.
+        Unterkircher.</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>Dem Schriftbefund zufolge wurde die Handschrift im südöstlichen
+        Deutschland (vgl. Bischoff) in der ersten Hälfte des 9. Jh.
+        geschrieben.</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>Rasinger</cell>
+    <cell>23.06.2017</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>921</cell>
+</row>
+<row n="945">
+    <cell>Wien, ÖNB: Fragm. 1</cell>
+    <cell>a</cell>
+    <cell>z</cell>
+    <cell></cell>
+    <cell>Fragm. 72, Nr. 87</cell>
+    <cell>Cantus Planus
+        (http://www.cantusplanus.at/de-at/fragmentphp/fragmente/signaturGET.php?Signatur=Fragm001).</cell>
+    <cell><ptr target="https://fragmentarium.ms/overview/F-tdgv"/></cell>
+    <cell><ptr target="http://data.onb.ac.at/rec/AC14424998"/></cell>
+    <cell>Wien, ÖNB, Cod. 3726, Fragm. 1.</cell>
+    <cell>Pergament</cell>
+    <cell></cell>
+    <cell>2 Streifen eines Doppelblattes</cell>
+    <cell>ca 17 x 295 mm</cell>
+    <cell>Sammelhandschrift</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>15. Jh.</cell>
+    <cell></cell>
+    <cell>Wien, ÖNB, Cod. 3726</cell>
+    <cell>AL00174195</cell>
+    <cell>Mondsee, Benediktinerkloster St. Michael (748-1791): Vorsignatur 'Lunael.
+        f. 206'.</cell>
+    <cell>Blaues leder über Holzdeckeln; Streicheisenlinien: Streifenrahmen,
+        Andreaskeruz und Raute; zwei Schließen am Vorderschnitt und fünf Buckel auf
+        je Deckel, entfernt; Vorder- und Hinterspiegel, ausgelöst und mit modernen
+        Papierblättern ersetzt; Mondseer Titelschild, Signaturzettel (Nr. 3381) und
+        Rückenüberklebung.</cell>
+    <cell>Falzverstärkung</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>175</cell>
+    <cell>175</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>134</cell>
+    <cell>138</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>1</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>8</cell>
+    <cell>8</cell>
+    <cell>Blindlinierung</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>karolingische Minuskel</cell>
+    <cell></cell>
+    <cell>12. Jh.</cell>
+    <cell>1101-1200</cell>
+    <cell>Mondsee (?)</cell>
+    <cell>Überschriften und Rubriken für den Beginn der Gesangsteilen in roter
+        Tinte; zur Hervorhebung der Gesangsanfängen 1-zeilige rote
+        Initialmajuskeln.</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>Breviarium</cell>
+    <cell>lateinisch</cell>
+    <cell>[Festum Ioannis Baptistae, 24. Juni:] <hi rend="color(FFFF0000)">In
+        matutinum laudibus</hi>. A: <hi rend="italic">Elisabeth Zacharie magnum
+            uirum genuit</hi> (Can 002639); A: <hi rend="italic">Puer qui natus est
+                nobis</hi> (Can 004412); [Festum Ioannis et Pauli, 26. Juni] Lectio aus
+        einem Martyrologium: <hi rend="italic">christianos ad se inuitantes
+            ordinauerunt de omnibus quae relinquere poterant. Ac per totos decem
+            dies in</hi>[cessanter]; R:<hi rend="italic"> Isti sunt duo uiri
+                misericordie</hi> (Can 007015); Lectio aus Beda Venerabilis, Homilia
+        XXVII - erhalten sind Fragm. 1-1 Recto: <hi rend="italic">sui nominis
+            pariterque ho</hi>[norem Tiberii Caesaris sub] <hi rend="italic">quo
+                ipse regnabat. In cuius partes ueni</hi>[ens], Fragm. 1-2 Recto:
+        [res]<hi rend="italic">pondit in Petro omnibus. Ideo quis alii de se
+            sent</hi>[iant] <hi rend="italic">inquirit ut expositis primo
+                sententiis</hi>, Fragm. 1-1 Verso: <hi rend="italic">apostolo attestante
+                    qui ait. Quod oculus non ui</hi>[dit nec au]<hi rend="italic">ris
+                        audiuit nec in cor hominis ascen</hi>[dit]; [Festum Petri et Pauli, 29.
+        Juni:] A: <hi rend="italic">Significauit dominus Petro qua morte</hi> (Can
+        004947); A: <hi rend="italic">Ego pro te rogaui Petre</hi> (Can
+        002583).</cell>
+    <cell></cell>
+    <cell>Linienlose Neumennotation</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>Dobcheva</cell>
+    <cell>10.05.2017</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>939</cell>
+</row>
+<row n="133">
+    <cell>Linz, OÖLB: Ink. 106</cell>
+    <cell>i</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>445</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>Wien, ÖNB, Cod. Ser. n. 4235, Cod. 3585, Cod. 4089, Cod. 1992, Linz, OÖLB,
+        Ink. 106, Ink. 261, Ink. 299, Ink. 369, Ink. 374 (Klugseder Gruppe
+        NNA6).</cell>
+    <cell>Pergament</cell>
+    <cell></cell>
+    <cell>1 Teil eines Einzelblattes</cell>
+    <cell>195 x 95 mm</cell>
+    <cell>Hieronymus de Villa Vitis, Orationale</cell>
+    <cell>16. Jh. (nicht vor 1509)</cell>
+    <cell></cell>
+    <cell>1509</cell>
+    <cell>Hagenau</cell>
+    <cell>Linz, OÖLB: Ink. 106</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>Brauner Lederband auf Holz, blind geprägt (Rollen und Stempel). Rücken mit
+        weißem Papier und darüber braunem Leder überklebt. Leder auf Rückdeckel
+        stark abgeschabt. Titelschildchen auf Rücken u. Vorderdeckel. Beschläge
+        fehlen. 2 Schließen (nur mehr Beschläge auf Rückdeckel vorhanden).</cell>
+    <cell>Flügelfalz</cell>
+    <cell>195</cell>
+    <cell></cell>
+    <cell>90</cell>
+    <cell></cell>
+    <cell>145</cell>
+    <cell></cell>
+    <cell>75</cell>
+    <cell></cell>
+    <cell>15</cell>
+    <cell></cell>
+    <cell>2</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>8</cell>
+    <cell>9</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>Das Fragment ist auf dem Innedeckel hinten unter dem Einschlag geklebt.
+        Der Spiegel ist ausgelöst.</cell>
+    <cell>Textualis</cell>
+    <cell></cell>
+    <cell>2. Hälfte 13. Jh.</cell>
+    <cell>1251-1300</cell>
+    <cell>Österreich, Mondsee (?)</cell>
+    <cell>Rote 2-zeilige Silhouetten-Initiale A.</cell>
+    <cell>ornamental / initial</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>Antiphonarium</cell>
+    <cell>lateinisch</cell>
+    <cell>De BMV, AV: [Salve mater salva]<hi rend="italic">toris vas electum
+    </hi>[vas honoris vas misericordiae] (Can 001542za); <hi rend="italic"
+        >Miserere nobis</hi>; AV: <hi rend="italic">S</hi>[alve mater Jesu
+        Christi] <hi rend="italic">salve digna que</hi> [fuisti ab angelo salutari]
+        (Can 001542zb); <hi rend="italic">Miserere nobis</hi>; AV: [Salve] <hi
+            rend="italic">fides spes et uita</hi> [salve sacra margarita in co]<hi
+                rend="italic">rona regis sita</hi> (Can 001542zc); A: <hi rend="italic"
+                    >Beata uiscera </hi>[Mariae virginis quae por]<hi rend="italic">tauerunt
+                    </hi>(Can 001573); <hi rend="italic">Aev</hi>[ia ...] <hi rend="italic">o
+                        Maria</hi>, bricht ab.</cell>
+    <cell></cell>
+    <cell>Linienlose Neumennotation</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>Dobcheva</cell>
+    <cell>16.05.2018</cell>
+    <cell></cell>
+    <cell></cell>
+    <cell></cell>
+    <cell>132</cell>
+</row>
+            </table>
+        </body>
+    </text>
+</TEI>
