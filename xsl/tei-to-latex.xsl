@@ -23,13 +23,13 @@
 <!-- #########    this brings the olim Signatur (of the fragment or the hostvolume) if there was one -->
             <xsl:choose>
                 <xsl:when test=".//tei:altIdentifier[@type='former']/tei:idno/text()">
-                    <xsl:text> olim: </xsl:text><xsl:value-of select=".//tei:altIdentifier[@type='former']/tei:idno"></xsl:value-of>
+                    <xsl:text> olim: </xsl:text><xsl:value-of select=".//tei:altIdentifier[@type='former'][1]/tei:idno"/><xsl:if test=".//tei:altIdentifier[@type='former'][2]/tei:idno"><xsl:text>; </xsl:text><xsl:value-of select=".//tei:altIdentifier[@type='former'][2]/tei:idno"/></xsl:if>
                 </xsl:when>
             </xsl:choose>
 <!--  ########    this brings the Makulaturtyp in brackets-->
              <xsl:choose>
                  <xsl:when test=".//tei:altIdentifier[@type='partial']/tei:idno/text()">
-                     <xsl:text> (</xsl:text><xsl:value-of select=".//tei:altIdentifier[@type='partial']/tei:idno"></xsl:value-of>)
+                     <xsl:text> (</xsl:text><xsl:value-of select=".//tei:altIdentifier[@type='partial']/tei:idno"/>)
                 </xsl:when>
             </xsl:choose>}
             \end{flushleft}

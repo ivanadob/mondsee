@@ -573,8 +573,10 @@
                                                     <xsl:value-of select=".//tei:cell[19]"/><!--Signatur Traegerband--> 
                                                     </ref>
                                                     (<xsl:choose>
-                                                        <xsl:when test=".//tei:cell[17]/text()"><xsl:value-of select=".//tei:cell[17]"/></xsl:when>
-                                                        <xsl:when test=".//tei:cell[18]/text()"><xsl:text> </xsl:text><xsl:value-of select=".//tei:cell[18]"/></xsl:when>
+                                                        <xsl:when test=".//tei:cell[17]/text()"><xsl:value-of select=".//tei:cell[17]"/></xsl:when>                                                        
+                                                    </xsl:choose>
+                                                    <xsl:choose>
+                                                        <xsl:when test=".//tei:cell[18]/text()"><xsl:text>, </xsl:text><xsl:value-of select=".//tei:cell[18]"/></xsl:when>
                                                     </xsl:choose>). <!--Datierung und Ort Trägerband in Klammern--> Inhalt des Trägerbandes: <xsl:choose>
                                                         <xsl:when test="contains (.//tei:cell[14], ':')">
                                                             <xsl:value-of select="substring-before(.//tei:cell[14], ':')"/>
@@ -583,16 +585,20 @@
                                                     </xsl:choose>.
                                                     <xsl:choose>
                                                         <xsl:when test=".//tei:cell[21]/text()">
-                                                            Provenienz: <xsl:value-of select=".//tei:cell[21]"/>
+                                                            Provenienz: <xsl:value-of select=".//tei:cell[21]"/>;
                                                         </xsl:when>
                                                     </xsl:choose>
                                                     <xsl:choose>
                                                         <xsl:when test=".//tei:cell[22]/text()">
                                                             Einband: 
                                                             <xsl:choose>
-                                                                <xsl:when test=".//tei:cell[15]/text()"><xsl:value-of select=".//tei:cell[15]"/> </xsl:when>
-                                                                <xsl:when test=".//tei:cell[16]/text()"><xsl:value-of select=".//tei:cell[16]"/>. </xsl:when>
-                                                            </xsl:choose> <!--Datierung und Ort Einband -->
+                                                                <xsl:when test=".//tei:cell[15]/text()"><xsl:value-of select=".//tei:cell[15]"/></xsl:when>
+                                                                
+                                                            </xsl:choose>
+                                                            <xsl:choose>
+                                                                <xsl:when test=".//tei:cell[16]/text()"> <xsl:value-of select=".//tei:cell[16]"/>. </xsl:when>
+                                                            </xsl:choose>
+                                                            <!--Datierung und Ort Einband -->
                                                             <xsl:value-of select=".//tei:cell[22]"/>
                                                         </xsl:when>
                                                     </xsl:choose>
