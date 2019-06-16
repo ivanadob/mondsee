@@ -23,7 +23,7 @@
 <!-- #########    this brings the olim Signatur (of the fragment or the hostvolume) if there was one -->
             <xsl:choose>
                 <xsl:when test=".//tei:altIdentifier[@type='former']/tei:idno/text()">
-                    <xsl:text> olim: </xsl:text><xsl:value-of select=".//tei:altIdentifier/tei:idno"></xsl:value-of>
+                    <xsl:text> olim: </xsl:text><xsl:value-of select=".//tei:altIdentifier[@type='former']/tei:idno"></xsl:value-of>
                 </xsl:when>
             </xsl:choose>
 <!--  ########    this brings the Makulaturtyp in brackets-->
@@ -37,20 +37,19 @@
             \subsection{<xsl:value-of select=".//tei:head/tei:title"/>}
              <xsl:value-of select=".//tei:support/tei:material"/>, <xsl:value-of select=".//tei:condition/tei:p[1]"/> 
             \newline
-            <xsl:value-of select=".//tei:head/tei:origDate"/> <xsl:value-of select=".//tei:head/tei:origPlace"/>
+            <xsl:value-of select=".//tei:head/tei:origDate"/><xsl:text> </xsl:text><xsl:value-of select=".//tei:head/tei:origPlace"/>
             
 <!-- #######    brings section with info on the Makulatur-->
            \noindent
            \begin{tabularx}{\textwidth}{@{}l@{\quad}X@{}}
             \textbf{M:} &amp;
-            Heutige Maße der Makulatur: <xsl:value-of select=".//tei:condition/tei:p[2]"/>
-            \end{tabularx}
+            Heutige Maße der Makulatur: <xsl:value-of select=".//tei:condition/tei:p[2]"/> \end{tabularx}
            
 <!-- ########   brings section with info on the original size of the fragmented leaf-->
             \noindent
             \begin{tabularx}{\textwidth}{@{}l@{\quad}X@{}}
             \textbf{B:} &amp;
-            <xsl:choose>
+            Blattgröße der ursprünglichen Handschrift: <xsl:choose>
                 <xsl:when test=".//tei:extent/tei:dimensions[@type='leaf_orig']/tei:width/text()">
                     <xsl:value-of select=".//tei:extent/tei:dimensions[@type='leaf_orig']/tei:width"/><xsl:text> X </xsl:text>
                 </xsl:when>
@@ -65,13 +64,13 @@
                 <xsl:otherwise>
                     <xsl:text>?</xsl:text>
                 </xsl:otherwise>
-            </xsl:choose>
+            </xsl:choose> mm
             \end{tabularx}            
 <!-- #########     Schriftraum-->
             \noindent
             \begin{tabularx}{\textwidth}{@{}l@{\quad}X@{}}
             \textbf{S:} &amp;
-            Blattgröße der ursprünglichen Handschrift: <xsl:choose>
+            Schriftraum: <xsl:choose>
                 <xsl:when test=".//tei:extent/tei:dimensions[@type='written_orig']/tei:width/text()">
                     <xsl:value-of select=".//tei:extent/tei:dimensions[@type='written_orig']/tei:width"/><xsl:text> X </xsl:text>
                 </xsl:when>
@@ -86,21 +85,18 @@
                 <xsl:otherwise>
                     <xsl:text>?</xsl:text>
                 </xsl:otherwise>
-            </xsl:choose>. 
- <!--Spalte, Zeile und Hohe der einzelzeile-->
-            <xsl:value-of select="normalize-space(string-join(.//tei:layout/text(), ' '))"/> <xsl:value-of select=".//tei:handNote"/>. 
+            </xsl:choose> mm. <!--Spalte, Zeile und Hohe der einzelzeile-->
+            <xsl:value-of select="normalize-space(string-join(.//tei:layout/text(), ' '))"/> Schrift: <xsl:value-of select=".//tei:handNote"/> 
             <xsl:value-of select=".//tei:musicNotation"/>
             <xsl:if test=".//tei:decoNote[1]/text()">
                 <xsl:value-of select=".//tei:decoNote[1]"/><xsl:text> </xsl:text>
             </xsl:if>
-            <xsl:value-of select=".//tei:history/tei:origin/tei:p[1]"/>           
-            \end{tabularx}              
+            <xsl:value-of select=".//tei:history/tei:origin/tei:p[1]"/> \end{tabularx}              
             <xsl:if test=".//tei:decoNote[2]/text()">
                 \noindent
                 \begin{tabularx}{\textwidth}{@{}l@{\quad}X@{}}
                 \textbf{A:} &amp; 
-                <xsl:value-of select=".//tei:decoNote[2]"/>
-                \end{tabularx}
+                <xsl:value-of select=".//tei:decoNote[2]"/> \end{tabularx}
             </xsl:if>
                                   
             \noindent
@@ -138,7 +134,7 @@
                 \noindent
                 \begin{tabularx}{\textwidth}{@{}l@{\quad}X@{}}
                 \textbf{L:} &amp;
-                <xsl:value-of select=".//tei:listBibl/tei:bibl"/>
+                <xsl:apply-templates select=".//tei:listBibl/tei:bibl"/>
                 \end{tabularx}
             </xsl:if>
                       
