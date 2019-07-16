@@ -295,7 +295,7 @@
                                                                     <xsl:value-of select=".//tei:cell[26]"/>
                                                                 </xsl:when>
                                                                 <xsl:when test=".//tei:cell[27]/text()!=.//tei:cell[26]/text()">
-                                                                <xsl:value-of select=".//tei:cell[26]"/>-<xsl:value-of select=".//tei:cell[27]"/>
+                                                                    <xsl:value-of select=".//tei:cell[26]"/>–<xsl:value-of select=".//tei:cell[27]"/>
                                                             </xsl:when>                                                                
                                                                 <xsl:otherwise>
                                                                     <xsl:if test=".//tei:cell[26]/text()">
@@ -320,7 +320,7 @@
                                                                     <xsl:value-of select=".//tei:cell[24]"/>
                                                                 </xsl:when>
                                                                 <xsl:when test=".//tei:cell[24]/text()!=.//tei:cell[25]/text()">
-                                                                    <xsl:value-of select=".//tei:cell[24]"/>-<xsl:value-of select=".//tei:cell[25]"/>
+                                                                    <xsl:value-of select=".//tei:cell[24]"/>–<xsl:value-of select=".//tei:cell[25]"/>
                                                                 </xsl:when>                                                                
                                                                 <xsl:otherwise>
                                                                     <xsl:if test=".//tei:cell[24]/text()">
@@ -347,7 +347,7 @@
                                                                     <xsl:value-of select=".//tei:cell[31]"/>
                                                                 </xsl:when>
                                                                 <xsl:when test=".//tei:cell[30]/text()!=.//tei:cell[31]/text()">
-                                                                    <xsl:value-of select=".//tei:cell[30]"/>-<xsl:value-of select=".//tei:cell[31]"/>
+                                                                    <xsl:value-of select=".//tei:cell[30]"/>–<xsl:value-of select=".//tei:cell[31]"/>
                                                                 </xsl:when>                                                                
                                                                 <xsl:otherwise>
                                                                     <xsl:if test=".//tei:cell[30]/text()">
@@ -372,7 +372,7 @@
                                                                     <xsl:value-of select=".//tei:cell[28]"/>
                                                                 </xsl:when>
                                                                 <xsl:when test=".//tei:cell[28]/text()!=.//tei:cell[29]/text()">
-                                                                    <xsl:value-of select=".//tei:cell[28]"/>-<xsl:value-of select=".//tei:cell[29]"/>
+                                                                    <xsl:value-of select=".//tei:cell[28]"/>–<xsl:value-of select=".//tei:cell[29]"/>
                                                                 </xsl:when>                                                                
                                                                 <xsl:otherwise>
                                                                     <xsl:if test=".//tei:cell[28]/text()">
@@ -414,7 +414,7 @@
                                                                             <xsl:value-of select=".//tei:cell[35]"/>
                                                                         </xsl:when>
                                                                         <xsl:when test=".//tei:cell[35]/text()!=.//tei:cell[36]/text()">
-                                                                            <xsl:value-of select=".//tei:cell[35]"/>-<xsl:value-of select=".//tei:cell[36]"/>
+                                                                            <xsl:value-of select=".//tei:cell[35]"/>–<xsl:value-of select=".//tei:cell[36]"/>
                                                                         </xsl:when>                                                                
                                                                         <xsl:otherwise>
                                                                             <xsl:if test=".//tei:cell[35]/text()">
@@ -461,7 +461,7 @@
                                                                     <xsl:value-of select=".//tei:cell[37]"/>
                                                                 </xsl:when>
                                                                 <xsl:when test=".//tei:cell[37]/text()!=.//tei:cell[38]/text()">
-                                                                    <xsl:value-of select=".//tei:cell[37]"/>-<xsl:value-of select=".//tei:cell[38]"/>
+                                                                    <xsl:value-of select=".//tei:cell[37]"/>–<xsl:value-of select=".//tei:cell[38]"/>
                                                                 </xsl:when>                                                                
                                                                 <xsl:otherwise>
                                                                     <xsl:if test=".//tei:cell[37]/text()">
@@ -493,8 +493,7 @@
                                         </xsl:if>
                                         <xsl:if test=".//tei:cell[48]/text()">
                                             <decoDesc>
-                                            <decoNote><xsl:value-of select=".//tei:cell[48]"/></decoNote><!--
-                                                MUST FIRST CORRECT THE DATA IN THE SPREADSHEET: SEPARATE SIMPLE 'RUBRIZIERUNG' AND 'BUCHSCHMUCK'-->
+                                            <decoNote><xsl:value-of select=".//tei:cell[48]"/></decoNote>
                                                     <xsl:if test=".//tei:cell[49]/text()">
                                                     <decoNote><xsl:value-of select=".//tei:cell[49]"/></decoNote>
                                                 </xsl:if>
