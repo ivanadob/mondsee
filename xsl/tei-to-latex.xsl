@@ -6,33 +6,33 @@
     <xsl:template match="/">
         \documentclass{article}
         \usepackage[ngerman]{babel}
-        \usepackage[utf8]{inputenc}
-        \usepackage{tabularx}
+        \usepackage[utf8x]{inputenc}
+        \usepackage{geometry}
+        \geometry{
+        a4paper,
+        textwidth=150mm, %check below or in the xslt also the width of table rows
+        left=40mm,
+        top=40mm,
+        }
         \usepackage{natbib}
         \usepackage{graphicx}
+        \renewcommand{\arraystretch}{1.7} %makes the space between rows larger
         \usepackage{hyperref}
+        \usepackage{longtable}
+        \usepackage{float}
+        \restylefloat{table} % fix the position of tables
         \parskip=12pt
         
         \begin{document}
-        
-        
         \setcounter{secnumdepth}{0}
         <xsl:for-each select=".//tei:TEI">
-            \begin{flushleft}
             \section{<xsl:value-of select=".//tei:msIdentifier/tei:idno"/> 
-<!-- #########    this brings the olim Signatur (of the fragment or the hostvolume) if there was one -->
-            <xsl:choose>
-                <xsl:when test=".//tei:altIdentifier[@type='former']/tei:idno/text()">
-                    <xsl:text> olim: </xsl:text><xsl:value-of select=".//tei:altIdentifier[@type='former'][1]/tei:idno"/><xsl:if test=".//tei:altIdentifier[@type='former'][2]/tei:idno"><xsl:text>; </xsl:text><xsl:value-of select=".//tei:altIdentifier[@type='former'][2]/tei:idno"/></xsl:if>
-                </xsl:when>
-            </xsl:choose>
 <!--  ########    this brings the Makulaturtyp in brackets-->
              <xsl:choose>
                  <xsl:when test=".//tei:altIdentifier[@type='partial']/tei:idno/text()">
                      <xsl:text> (</xsl:text><xsl:value-of select=".//tei:altIdentifier[@type='partial']/tei:idno"/>)
                 </xsl:when>
-            </xsl:choose>}
-            \end{flushleft}
+            </xsl:choose>}            
 <!-- #######    brings the title, composed of author and title -->
             \subsection{<xsl:value-of select=".//tei:head/tei:title"/>}
              <xsl:value-of select=".//tei:support/tei:material"/>, <xsl:value-of select=".//tei:condition/tei:p[1]"/> 
@@ -40,21 +40,18 @@
             <xsl:value-of select=".//tei:head/tei:origDate"/><xsl:text> </xsl:text><xsl:value-of select=".//tei:head/tei:origPlace"/>
             
 <!-- #######    brings section with info on the Makulatur-->
-           \noindent
-           \begin{tabularx}{\textwidth}{@{}l@{\quad}X@{}}
+            \begin{longtable}[l]{@{}p{0,5cm}p{13cm}}
             \textbf{M:} &amp;
-            Heutige Maße der Makulatur: <xsl:value-of select=".//tei:condition/tei:p[2]"/> \end{tabularx}
+            Heutige Maße der Makulatur: <xsl:value-of select=".//tei:condition/tei:p[2]"/> \\
            
 <!-- ########   brings section with info on the original size of the fragmented leaf-->
-            \noindent
-            \begin{tabularx}{\textwidth}{@{}l@{\quad}X@{}}
             \textbf{B:} &amp;
             Blattgröße der ursprünglichen Handschrift: <xsl:choose>
                 <xsl:when test=".//tei:extent/tei:dimensions[@type='leaf_orig']/tei:width/text()">
-                    <xsl:value-of select=".//tei:extent/tei:dimensions[@type='leaf_orig']/tei:width"/><xsl:text> X </xsl:text>
+                    <xsl:value-of select=".//tei:extent/tei:dimensions[@type='leaf_orig']/tei:width"/><xsl:text> × </xsl:text>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:text>? X </xsl:text>
+                    <xsl:text>?  </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
             <xsl:choose>
@@ -64,18 +61,15 @@
                 <xsl:otherwise>
                     <xsl:text>?</xsl:text>
                 </xsl:otherwise>
-            </xsl:choose> mm
-            \end{tabularx}            
-<!-- #########     Schriftraum-->
-            \noindent
-            \begin{tabularx}{\textwidth}{@{}l@{\quad}X@{}}
+            </xsl:choose> mm       \\                 
+<!-- #########     Schriftraum-->            
             \textbf{S:} &amp;
             Schriftraum: <xsl:choose>
                 <xsl:when test=".//tei:extent/tei:dimensions[@type='written_orig']/tei:width/text()">
-                    <xsl:value-of select=".//tei:extent/tei:dimensions[@type='written_orig']/tei:width"/><xsl:text> X </xsl:text>
+                    <xsl:value-of select=".//tei:extent/tei:dimensions[@type='written_orig']/tei:width"/><xsl:text> × </xsl:text>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:text> ? X </xsl:text>
+                    <xsl:text> ? × </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
             <xsl:choose>
@@ -85,36 +79,32 @@
                 <xsl:otherwise>
                     <xsl:text>?</xsl:text>
                 </xsl:otherwise>
-            </xsl:choose> mm. <!--Spalte, Zeile und Hohe der einzelzeile-->
+            </xsl:choose> mm. <!--Spalte, Zeile und Hohe der Einzelzeile-->
             <xsl:value-of select="normalize-space(string-join(.//tei:layout/text(), ' '))"/> Schrift: <xsl:value-of select=".//tei:handNote"/> 
             <xsl:value-of select=".//tei:musicNotation"/>
             <xsl:if test=".//tei:decoNote[1]/text()">
                 <xsl:value-of select=".//tei:decoNote[1]"/><xsl:text> </xsl:text>
             </xsl:if>
-            <xsl:value-of select=".//tei:history/tei:origin/tei:p[1]"/> \end{tabularx}              
+            <xsl:value-of select=".//tei:history/tei:origin/tei:p[1]"/> \\              
             <xsl:if test=".//tei:decoNote[2]/text()">
-                \noindent
-                \begin{tabularx}{\textwidth}{@{}l@{\quad}X@{}}
                 \textbf{A:} &amp; 
-                <xsl:value-of select=".//tei:decoNote[2]"/> \end{tabularx}
+                <xsl:value-of select=".//tei:decoNote[2]"/> \\
             </xsl:if>
-                                  
-            \noindent
-            \begin{tabularx}{\textwidth}{@{}l@{\quad}X@{}}
+            
             \textbf{G:} &amp;
             <xsl:apply-templates select="normalize-space(string-join(.//tei:history/tei:provenance, ' '))"/>
-            \end{tabularx}
+            <!-- #########    this brings the olim Signatur (of the fragment or the hostvolume) if there was one -->
+            <xsl:choose>
+                <xsl:when test=".//tei:altIdentifier[@type='former']/tei:idno/text()">
+                    <xsl:text>. Olim Signatur: </xsl:text><xsl:value-of select=".//tei:altIdentifier[@type='former'][1]/tei:idno"/><xsl:if test=".//tei:altIdentifier[@type='former'][2]/tei:idno"><xsl:text>; </xsl:text><xsl:value-of select=".//tei:altIdentifier[@type='former'][2]/tei:idno"/></xsl:if>
+                </xsl:when>
+            </xsl:choose> \\
             
-            <xsl:if test=".//tei:history/tei:origin/tei:p[2]/text()">  
-                \noindent
-                \begin{tabularx}{\textwidth}{@{}l@{\quad}X@{}}
+            <xsl:if test=".//tei:history/tei:origin/tei:p[2]/text()">                  
                 \textbf{Z:} &amp;
-                <xsl:value-of select=".//tei:origin/tei:p[2]"/>
-                \end{tabularx}
+                <xsl:value-of select=".//tei:origin/tei:p[2]"/> \\
             </xsl:if>
-            
-            \noindent
-            \begin{tabularx}{\textwidth}{@{}l@{\quad}X@{}}
+           
             \textbf{I:} &amp;
             <xsl:choose>
                 <xsl:when test=".//tei:msItem/tei:author/text()">
@@ -128,17 +118,16 @@
                 \newline
                 Ed.: <xsl:value-of select=".//tei:msItem/tei:note/tei:bibl"/>
             </xsl:if>
-            \end{tabularx}
+            \\
             
             <xsl:if test=".//tei:listBibl/tei:bibl/text()">
-                \noindent
-                \begin{tabularx}{\textwidth}{@{}l@{\quad}X@{}}
-                \textbf{L:} &amp;
+                \textbf{Lit.:} &amp;
                 <xsl:apply-templates select=".//tei:listBibl/tei:bibl"/>
-                \end{tabularx}
+                \\
             </xsl:if>
-                      
+              \end{longtable}          
         </xsl:for-each>
+      
         \end{document}
     </xsl:template>
     
