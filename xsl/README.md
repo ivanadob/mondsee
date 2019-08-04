@@ -8,5 +8,5 @@
 
 4b. oXgarage2tei.xsl => gives a valid MsDesc tei file for fragments.
 
-5. tei-to-latex => gives a print-similar layout. As exit-source it uses tei-5 MsDesc (from step 4b), xslt to fill up a LaTeX skeleton (model for the xslt: https://www.overleaf.com/project/5a1969973621de2df076b05e).
+5. tei-to-latex => gives a print-similar layout. As exit-source it uses tei-5 MsDesc (from step 4b), xslt to fill up a LaTeX skeleton (model for the xslt: https://www.overleaf.com/read/hhbgsgvyqjrw).
 
