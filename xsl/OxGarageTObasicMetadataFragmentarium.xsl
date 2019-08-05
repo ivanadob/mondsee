@@ -57,7 +57,7 @@
                 <ol>
                 <xsl:for-each select=".//tei:row">
                       <xsl:choose>
-                          <xsl:when test=".//tei:cell[65]/text()"><!--and .//tei:cell[3]/text() and not(.//tei:cell[7]/tei:ptr)-->
+                          <xsl:when test=".//tei:cell[65]/text() and .//tei:cell[3]/text()"> <!--and not(.//tei:cell[7]/tei:ptr)-->
                               <li><table class="table table-hover">
                                   <thead>
                                       <tr>
@@ -71,7 +71,7 @@
                                           <td>
                                               <xsl:choose>
                                                   <xsl:when test="./tei:cell[7]/tei:ptr">
-                                                      <xsl:value-of select="./tei:cell[7]/tei:ptr"/>
+                                                      <xsl:value-of select="./tei:cell[7]/tei:ptr/@target"/>
                                                   </xsl:when>
                                                   <xsl:otherwise>
                                                       NOT YET
@@ -83,14 +83,14 @@
                                       <td>Fragment title</td>
                                       <td>
                                           <xsl:choose>
+                                              <xsl:when test="./tei:cell[51]/text()">
+                                                  <xsl:value-of select="./tei:cell[51]"/><xsl:text>: </xsl:text><xsl:value-of select="./tei:cell[53]"/>
+                                              </xsl:when>
+                                              <xsl:when test="./tei:cell[53]/text()">
+                                                  <xsl:value-of select="./tei:cell[53]"/>
+                                              </xsl:when>
                                               <xsl:when test="./tei:cell[54]/text()">
                                                   <xsl:value-of select="./tei:cell[54]"/>
-                                              </xsl:when>
-                                              <xsl:when test="./tei:cell[50]/text()">
-                                                  <xsl:value-of select="./tei:cell[50]"/>
-                                              </xsl:when>
-                                              <xsl:when test="./tei:cell[52]/text()">
-                                                  <xsl:value-of select="./tei:cell[52]"/>
                                               </xsl:when>
                                           </xsl:choose>
                                       </td>
@@ -338,7 +338,7 @@
                                           </xsl:choose>
                                           <xsl:choose>
                                               <xsl:when test="./tei:cell[20]/text()">
-                                                  Erschließungsdaten zum Trägerband: <xsl:value-of select="./tei:cell[20]"/>
+                                                  Erschließungsdaten zum Trägerband: http://data.onb.ac.at/rec/<xsl:value-of select="./tei:cell[20]"/>
                                               </xsl:when>
                                           </xsl:choose>
                                           </td>

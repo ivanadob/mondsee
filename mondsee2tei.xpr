@@ -30,11 +30,41 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../../Downloads/MondseeOOeLA.xml</String>
+                                    <String>../../Downloads/Mondsee_TextualisOeNB.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
                                         <String>MondseeOOeLA</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../Downloads/Mondsee_KarolingischOeNB.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>MondseeOOeLA</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>result/MondseeTEI-msdesc.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TEI2TEX</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -60,11 +90,26 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>result/MondseeTEI-msdesc.xml</String>
+                                    <String>../../Downloads/Mondsee_OOeLB.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>TEI2TEX</String>
+                                        <String>MondseeOOeLA</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../Downloads/MondseeOOeLA.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>MondseeOOeLA</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -418,10 +463,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>C:/Users/ivana/Desktop/Mondsee_OOeLA.html</File>
+                                    <File>C:/Users/ivana/Desktop/MondseeNonKarolingisch_OeNB.html</File>
                                 </field>
                                 <field name="outputResource">
-                                    <String>C:\Users\ivana\Desktop\Mondsee_OOeLA.html</String>
+                                    <String>C:\Users\ivana\Desktop\MondseeNonKarolingisch_OeNB.html</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
