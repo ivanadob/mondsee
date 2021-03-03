@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> <!-- Titel des TEI-Dokumentes mit Angabe des HS Signatur. Beispiel: "Wien, Österreichische Nationalbibliothek, Fragm. 854. Multimodale Repräsentation"--></title>
+                <respStmt><!-- respStmt mit Angabe von persName optional mit affiliation. Beliebig viele resp wie z.B.: Erstellung der MSI-Aufnahmen, Bildbearbeitung, TEI-Encoding, Handschirftenbeschreibung, Textedition ... Im Fall von Beschreibungen, basierend auf älteren Beschreibungen, siehe auch msDesc->additional->adminInfo->recordHist: provides information about the source ... of the ... object description itself -->  
+                    <resp></resp>
+                    <persName>
+                        <forename></forename>
+                        <surname></surname>
+                        <affiliation></affiliation>
+                    </persName>
+                </respStmt>                
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities, Universität Graz</publisher>
+                <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
+                <availability status="restricted">
+                    <licence></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="de" xml:id="xxx-xxx">
+                    <msIdentifier>
+                        <country></country>
+                        <settlement></settlement>
+                        <institution></institution> <!--z.B. : Universität Wien-->
+                        <repository></repository> <!--z.B.: Universitätsbibliothek; Österreichische Nationalbibliothek etc.-->
+                        <idno><!--Signatur--></idno>
+                        <altIdentifier type="former"> <!--type: former für Olim Signature / type:catalog für Nummer im gedruckten Katalog -->
+                            <idno></idno>
+                        </altIdentifier>                       
+                    </msIdentifier>
+                    <head>
+                        <title><!--Titel der Handschrift z.b. Homiliarium, Abrogans--></title>
+                        <origDate notBefore="0001" notAfter="0001"></origDate>
+                        <origPlace></origPlace>
+                    </head> 
+                    <!-- 
+                        Bei einheitliche HSS und Miscelanea (Collectanea, compendia) KEIN msPart
+                        Für Handschriftenteile innerhalb einer Sammelhandschrift (composite volumes) die urpsrünglich separaten kodikologischen Einheiten waren - > msPart altIdentifier @type = partial - siehe unten
+                        Für PALIMPSESTE -> msPart altIdentifier @type = palimpsest - siehe unten
+                        Für Fragmente -> msPart @type = partial
+                        Für jedes msPart eigene (head), msContent, physDesc und history
+                    -->
+                    <msContents>
+                        <textLang mainLang="lat" otherLangs=""/> <!--nach ISO-639-3 : lat, deu, gmh etc. : https://de.wikipedia.org/wiki/%C3%9Cberblicksliste_der_ISO-639-3-Codes-->
+                        <msItem>
+                            <locus from="x" to="x"/>
+                            <title/> <!--optional @type = attested (so in MS), added (by later scribe), elaborated (by cataloguer) -->
+                            <author/>
+                            <rubric/>
+                            <incipit/> <!--optional @defective with value true or false-->
+                            <explicit/> <!--optional @defective with value true or false-->
+                            <finalRubric/>
+                            <colophon></colophon>
+                            <decoNote></decoNote>
+                            <note/>
+                            <filiation></filiation>
+                            <listBibl>
+                                <bibl/>
+                            </listBibl>
+                            <textLang mainLang="deu"></textLang> <!--wenn das msItem in einer anderen Sprache als den Rest der HS geschrieben ist-->
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent>
+                                    <measure type="leaf" quantity="0" unit="folio"></measure>
+                                    <dimensions type="leaf" unit="mm">
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </extent>
+                                <foliation/>
+                                <collation>
+                                    <formula></formula>
+                                </collation>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+<!--                                mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
+                                <layout ruledLines="0" writtenLines="0" columns="0">
+                                    <dimensions type="written" unit="mm">
+                                        <height max="0" min="0"></height>
+                                        <width max="0" min="0"></width>
+                                    </dimensions> 
+<!--                                    optional Zeilenhöhe-->
+                                    <dimensions type="lineHeight">
+                                        <height min="0" max="0"></height>
+                                    </dimensions>
+                                   <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote script="x" medium="x"></scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote type="x"/>
+                        </decoDesc>   
+                        <additions/> <!--Marginalia etc.-->
+                        <bindingDesc>
+                            <binding notBefore="0001" notAfter="0001">
+                                <p/>
+                            </binding>
+                        </bindingDesc>
+                        <accMat/> <!--z.B. Fragmente oder beiliegende Notizen, die nicht Teil der HS sind-->
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate notBefore="0001" notAfter="0001"/>
+                        </origin>
+                        <provenance/>
+                        <acquisition/>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <p>Beschreibung adaptiert (<date when="2020">2020</date>) nach:
+                                <bibl></bibl>
+                                </p>
+                            </recordHist>
+                        </adminInfo>
+                        <surrogates>
+                            <ref/>
+                        </surrogates> 
+                        <listBibl>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+<!--  XXXXXXXXXXXXX  Für Handschriftenteile innerhalb einer Sammelhandschrift (composite volumes) die urpsrünglich separaten kodikologischen Einheiten waren - > msPart altIdentifier @type = partial -->                           <msPart>
+                        <altIdentifier type="partial">
+                            <idno>Codicological unit 1 = ff. </idno>
+                        </altIdentifier>
+                        <head>
+                            <title></title>
+                            <origDate notBefore="0001" notAfter="0001"></origDate>
+                            <origPlace></origPlace>
+                        </head>
+                        <msContents>
+                            <textLang mainLang="lat" otherLangs=""/> <!--nach ISO-639-3 : lat, deu, gmh etc. : https://de.wikipedia.org/wiki/%C3%9Cberblicksliste_der_ISO-639-3-Codes-->
+                            <msItem>
+                                <locus from="x" to="x"/>
+                                <title/>
+                                <author/>
+                                <rubric/>
+                                <incipit/>
+                                <explicit/>
+                                <finalRubric/>
+                                <colophon></colophon>
+                                <decoNote></decoNote>
+                                <note/>
+                                <filiation></filiation>
+                                <listBibl>
+                                    <bibl/>
+                                </listBibl>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fascicle">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leaf" quantity="0" unit="folio"></measure>
+                                        <dimensions type="leaf" unit="mm">
+                                            <height></height>
+                                            <width></width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation/>
+                                    <collation>
+                                        <formula></formula>
+                                    </collation>
+                                    <condition/>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <!--   mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
+                                    <layout ruledLines="0" writtenLines="0" columns="0">
+                                        <dimensions type="written" unit="mm">
+                                            <height max="0" min="0"></height>
+                                            <width max="0" min="0"></width>
+                                        </dimensions> 
+                                        <!--                                    optional Zeilenhöhe-->
+                                        <dimensions type="lineHeight">
+                                            <height min="0" max="0"></height>
+                                        </dimensions>
+                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote scribe="x" script="x" medium="x"></handNote>
+                            </handDesc>
+                            <scriptDesc>
+                                <scriptNote script="x" medium="x"></scriptNote>
+                            </scriptDesc>
+                            <decoDesc>
+                                <decoNote type="x"/>
+                            </decoDesc>   
+                            <additions/> <!--Marginalia etc.-->
+                            <accMat/> <!--z.B. Fragmente oder beiliegende Notizen, die nicht Teil der HS sind-->
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace/>
+                                <origDate notBefore="0001" notAfter="0001"/>
+                            </origin>
+                            <provenance/>
+                            <acquisition/>
+                        </history>
+                    </msPart>
+                    <!--Für PALIMPSESTE -> msPart altIdentifier @type = palimpsest -->
+                    <msPart>
+                        <altIdentifier type="palimpsest">
+                            <idno>Palimpsest auf ff. XXX</idno>
+                        </altIdentifier>
+                        <head>
+                            <title></title>
+                            <origDate notBefore="0001" notAfter="0001"></origDate>
+                            <origPlace></origPlace>
+                        </head>
+                        <msContents>
+                            <textLang mainLang="la" otherLangs=""/>
+                            <msItem>
+                                <locus from="x" to="x"/>
+                                <title/>
+                                <author/>
+                                <rubric/>
+                                <incipit/>
+                                <explicit/>
+                                <finalRubric/>
+                                <note/>
+                                <bibl/>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fascicle">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leaf" quantity="0" unit="folio"></measure>
+                                        <dimensions type="leaf" unit="mm">
+                                            <height></height>
+                                            <width></width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation/>
+                                    <collation>
+                                        <formula></formula>
+                                    </collation>
+                                    <condition/>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <!-- mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
+                                    <layout ruledLines="0" writtenLines="0" columns="0">
+                                        <dimensions type="written" unit="mm">
+                                            <height max="0" min="0"></height>
+                                            <width max="0" min="0"></width>
+                                        </dimensions> 
+                                        <!-- optional Zeilenhöhe-->
+                                        <dimensions type="lineHeight">
+                                            <height min="0" max="0"></height>
+                                        </dimensions>
+                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote scribe="x" script="x" medium="x"></handNote>
+                            </handDesc>
+                            <scriptDesc>
+                                <scriptNote script="x" medium="x"></scriptNote>
+                            </scriptDesc>
+                            <decoDesc>
+                                <decoNote type="x"/>
+                            </decoDesc>                           
+                        </physDesc>
+                        <history>
+                            <origin>                                
+                                <origPlace/>
+                                <origDate notBefore="0001" notAfter="0001"/>
+                            </origin>
+                            <provenance/>
+                        </history>
+                        <additional>
+                            <surrogates>
+                                <ref></ref>                                
+                            </surrogates>
+                        </additional>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl> <!--die Editionsprinzipien und Verfahren, die bei der Kodierung des Textes angewandt wurden-->
+                <p></p>
+            </editorialDecl>
+        </encodingDesc>
+    <revisionDesc>
+        <listChange>
+            <change></change>
+        </listChange>
+    </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="" n="1r"/>
+    </facsimile>
+    <text>
+        <body>
+            <head>
+                <title>Transkription des Textes ... </title>
+            </head>
+            <p><pb n="1r"/> ... </p>
+        </body>
+    </text>
+</TEI>

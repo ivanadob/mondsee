@@ -83,14 +83,14 @@
                                       <td>Fragment title</td>
                                       <td>
                                           <xsl:choose>
-                                              <xsl:when test="./tei:cell[51]/text()">
-                                                  <xsl:value-of select="./tei:cell[51]"/><xsl:text>: </xsl:text><xsl:value-of select="./tei:cell[53]"/>
-                                              </xsl:when>
-                                              <xsl:when test="./tei:cell[53]/text()">
-                                                  <xsl:value-of select="./tei:cell[53]"/>
+                                              <xsl:when test="./tei:cell[52]/text()">
+                                                  <xsl:value-of select="./tei:cell[52]"/><xsl:text>: </xsl:text><xsl:value-of select="./tei:cell[53]"/>
                                               </xsl:when>
                                               <xsl:when test="./tei:cell[54]/text()">
                                                   <xsl:value-of select="./tei:cell[54]"/>
+                                              </xsl:when>
+                                              <xsl:when test="./tei:cell[55]/text()">
+                                                  <xsl:value-of select="./tei:cell[55]"/>
                                               </xsl:when>
                                           </xsl:choose>
                                       </td>
@@ -101,15 +101,15 @@
                                   </tr>
                                   <tr>
                                       <td>Material</td>
-                                      <td><xsl:value-of select="./tei:cell[10]"/></td>
+                                      <td><xsl:value-of select="./tei:cell[11]"/></td>
                                   </tr>
                                   <tr>
                                       <td>Place of Origin</td>
-                                      <td><xsl:value-of select="./tei:cell[47]"/></td>
+                                      <td><xsl:value-of select="./tei:cell[48]"/></td>
                                   </tr>
                                   <tr>
                                       <td>Date</td>
-                                      <td><xsl:value-of select="./tei:cell[46]"/></td>
+                                      <td><xsl:value-of select="./tei:cell[47]"/></td>
                                   </tr>
                                   <tr>
                                       <td>Document type</td>
@@ -135,15 +135,15 @@
                                           </xsl:when>
                                           <xsl:when test="(./tei:cell[2]/text()) = 'i'">
                                               <i>Summarize: </i>
-                                              <xsl:value-of select="./tei:cell[23]"/><xsl:text> </xsl:text> 
-                                              <xsl:value-of select="./tei:cell[12]"/><xsl:text> </xsl:text>
-                                              <xsl:value-of select="./tei:cell[42]"/> 
+                                              <xsl:value-of select="./tei:cell[24]"/><xsl:text> </xsl:text> 
+                                              <xsl:value-of select="./tei:cell[13]"/><xsl:text> </xsl:text>
+                                              <xsl:value-of select="./tei:cell[43]"/> 
                                           </xsl:when>
                                       </xsl:choose></td>
                                   </tr>
                                   <tr>
                                       <td>Current Dimensions (in mm)</td>
-                                      <td><xsl:value-of select="./tei:cell[13]"/></td>
+                                      <td><xsl:value-of select="./tei:cell[14]"/></td>
                                   </tr>
                                   <tr>
                                       <td>Online Since</td>
@@ -161,31 +161,31 @@
                                           <td>Remarks</td>
                                           <td>
                                               <xsl:choose>
-                                                  <xsl:when test="./tei:cell[9]/text()">
-                                                      From the original manuscript survived the following fragments: <xsl:value-of select="./tei:cell[9]"/>.
+                                                  <xsl:when test="./tei:cell[10]/text()">
+                                                      From the original manuscript survived the following fragments: <xsl:value-of select="./tei:cell[10]"/>.
                                                   </xsl:when>
                                               </xsl:choose>
                                           </td>
                                       </tr>
                                   <tr>
                                       <td>Facet Language</td>
-                                      <td><xsl:value-of select="./tei:cell[55]"/></td>
+                                      <td><xsl:value-of select="./tei:cell[56]"/></td>
                                   </tr>
                                   <tr>
                                       <td>Facet Century</td>
-                                      <td><xsl:value-of select="./tei:cell[45]"/></td>
+                                      <td><xsl:value-of select="./tei:cell[46]"/></td>
                                   </tr>
                                   <tr>
                                       <td>Facet Liturgica</td>
-                                      <td><xsl:value-of select="./tei:cell[54]"/></td>
+                                      <td><xsl:value-of select="./tei:cell[55]"/></td>
                                   </tr>
                                   <tr>
                                       <td>Facet Script</td>
-                                      <td><xsl:value-of select="./tei:cell[43]"/></td>
+                                      <td><xsl:value-of select="./tei:cell[44]"/></td>
                                   </tr>
                                       <tr>
                                           <td>Place</td>
-                                          <td><xsl:value-of select="./tei:cell[47]"/></td>
+                                          <td><xsl:value-of select="./tei:cell[48]"/></td>
                                       </tr>
                                       <tr>
                                           <td></td>
@@ -197,7 +197,7 @@
                                       </tr>
                                       <tr>
                                           <td>Bibliographical reference</td>
-                                          <td><xsl:value-of select="./tei:cell[64]"/></td>
+                                          <td><xsl:value-of select="./tei:cell[65]"/></td>
                                       </tr>
                                       <tr>
                                           <td>Language</td>
@@ -205,147 +205,147 @@
                                       </tr>
                                       <tr>
                                           <td>Material</td>
-                                          <td><xsl:value-of select="./tei:cell[10]"/></td>
+                                          <td><xsl:value-of select="./tei:cell[11]"/></td>
                                       </tr>
                                       <tr>
                                           <td>Date of origin</td>
-                                          <td><xsl:value-of select="./tei:cell[45]"/></td>
+                                          <td><xsl:value-of select="./tei:cell[46]"/></td>
                                       </tr>
                                       <tr>
                                           <td>Script</td>
-                                          <td><xsl:value-of select="./tei:cell[43]"/><xsl:text> </xsl:text><xsl:value-of select="./tei:cell[44]"/></td>
+                                          <td><xsl:value-of select="./tei:cell[44]"/><xsl:text> </xsl:text><xsl:value-of select="./tei:cell[45]"/></td>
                                       </tr>
                                       <tr>
                                           <td>Dimensions (Page Height):</td>
-                                          <td><xsl:value-of select="./tei:cell[24]"/>-<xsl:value-of select="./tei:cell[25]"/></td>
+                                          <td><xsl:value-of select="./tei:cell[25]"/>-<xsl:value-of select="./tei:cell[26]"/></td>
                                       </tr>
                                       <tr>
                                           <td>Dimensions (Page Width):  </td>
-                                          <td><xsl:value-of select="./tei:cell[26]"/>-<xsl:value-of select="./tei:cell[27]"/></td>
+                                          <td><xsl:value-of select="./tei:cell[27]"/>-<xsl:value-of select="./tei:cell[28]"/></td>
                                       </tr>
                                       <tr>
                                           <td>Height of written area</td>
-                                          <td><xsl:value-of select="./tei:cell[28]"/>-<xsl:value-of select="./tei:cell[29]"/></td>
+                                          <td><xsl:value-of select="./tei:cell[29]"/>-<xsl:value-of select="./tei:cell[30]"/></td>
                                       </tr>
                                       <tr>
                                           <td>Width of Written Area</td>
-                                          <td><xsl:value-of select="./tei:cell[30]"/>-<xsl:value-of select="./tei:cell[31]"/></td>
+                                          <td><xsl:value-of select="./tei:cell[31]"/>-<xsl:value-of select="./tei:cell[32]"/></td>
                                       </tr>
                                       <tr>
                                           <td>Number of Lines</td>
-                                          <td><xsl:value-of select="./tei:cell[32]"/>-<xsl:value-of select="./tei:cell[33]"/></td>
+                                          <td><xsl:value-of select="./tei:cell[33]"/>-<xsl:value-of select="./tei:cell[34]"/></td>
                                       </tr>
                                       <tr>
                                           <td>Number of Columns</td>
-                                          <td><xsl:value-of select="./tei:cell[34]"/></td>
+                                          <td><xsl:value-of select="./tei:cell[35]"/></td>
                                       </tr>
                                       <tr>
                                           <td>Width of Columns</td>
-                                          <td><xsl:value-of select="./tei:cell[35]"/>-<xsl:value-of select="./tei:cell[36]"/></td>
+                                          <td><xsl:value-of select="./tei:cell[36]"/>-<xsl:value-of select="./tei:cell[37]"/></td>
                                       </tr>
                                       <tr>
                                           <td>Line Height</td>
-                                          <td><xsl:value-of select="./tei:cell[37]"/>-<xsl:value-of select="./tei:cell[38]"/></td>
+                                          <td><xsl:value-of select="./tei:cell[38]"/>-<xsl:value-of select="./tei:cell[39]"/></td>
                                       </tr>
                                       <tr>
                                           <td>Ruling</td>
-                                          <td><xsl:value-of select="./tei:cell[39]"/></td>
-                                      </tr>
-                                      <tr>
-                                          <td>Numbering (pages, folios, etc.)</td>
                                           <td><xsl:value-of select="./tei:cell[40]"/></td>
                                       </tr>
                                       <tr>
-                                          <td>Collation</td>
+                                          <td>Numbering (pages, folios, etc.)</td>
                                           <td><xsl:value-of select="./tei:cell[41]"/></td>
                                       </tr>
                                       <tr>
+                                          <td>Collation</td>
+                                          <td><xsl:value-of select="./tei:cell[42]"/></td>
+                                      </tr>
+                                      <tr>
                                           <td>Current condition Dimensions</td>
-                                          <td><xsl:value-of select="./tei:cell[13]"/></td>
-                                      </tr>
-                                      <tr>
-                                          <td>Remarks About the Current Condition</td>
-                                          <td>Art der Verwendung im Trägerband: <xsl:value-of select="./tei:cell[23]"/><xsl:text>. </xsl:text> <xsl:value-of select="./tei:cell[42]"/></td>
-                                      </tr>
-                                      <tr>
-                                          <td>Decoration Description</td>
-                                          <td><xsl:value-of select="./tei:cell[49]"/><xsl:text> </xsl:text><xsl:value-of select="./tei:cell[50]"/></td>
-                                      </tr>
-                                      <tr>
-                                          <td>Content Person</td>
-                                          <td><xsl:value-of select="./tei:cell[51]"/></td>
-                                      </tr>
-                                      <tr>
-                                          <td>Text Language</td>
-                                          <td><xsl:value-of select="./tei:cell[55]"/></td>
-                                      </tr>
-                                      <tr>
-                                          <td>Title</td>
-                                          <td><xsl:value-of select="./tei:cell[54]"/><xsl:value-of select="./tei:cell[53]"/></td>
-                                      </tr>
-                                      <tr>
-                                          <td>Content description</td>
-                                          <td><xsl:value-of select="./tei:cell[56]"/></td>
-                                      </tr>
-                                      <tr>
-                                          <td>Glosses</td>
-                                          <td><xsl:value-of select="./tei:cell[57]"/></td>
-                                      </tr>
-                                      <tr>
-                                          <td>Musical notations</td>
-                                          <td><xsl:value-of select="./tei:cell[58]"/><xsl:text> </xsl:text><xsl:value-of select="./tei:cell[59]"/></td>
-                                      </tr>
-                                      <tr>
-                                          <td>Edition</td>
-                                          <td><xsl:value-of select="./tei:cell[60]"/></td>
-                                      </tr>
-                                      <tr>
-                                          <td>History origin</td>
-                                          <td><xsl:value-of select="./tei:cell[61]"/></td>
-                                      </tr>
-                                      <tr>
-                                          <td>Provenance</td>
-                                          <td><xsl:value-of select="./tei:cell[62]"/><xsl:text> </xsl:text><xsl:value-of select="./tei:cell[63]"/></td>
-                                      </tr>
-                                      <tr>
-                                          <td>Host volume Titel</td>
                                           <td><xsl:value-of select="./tei:cell[14]"/></td>
                                       </tr>
                                       <tr>
-                                          <td>Date of origin</td>
-                                          <td><xsl:value-of select="./tei:cell[17]"/></td>
+                                          <td>Remarks About the Current Condition</td>
+                                          <td>Art der Verwendung im Trägerband: <xsl:value-of select="./tei:cell[24]"/><xsl:text>. </xsl:text> <xsl:value-of select="./tei:cell[43]"/></td>
                                       </tr>
                                       <tr>
-                                          <td>Place</td>
+                                          <td>Decoration Description</td>
+                                          <td><xsl:value-of select="./tei:cell[50]"/><xsl:text> </xsl:text><xsl:value-of select="./tei:cell[51]"/></td>
+                                      </tr>
+                                      <tr>
+                                          <td>Content Person</td>
+                                          <td><xsl:value-of select="./tei:cell[52]"/></td>
+                                      </tr>
+                                      <tr>
+                                          <td>Text Language</td>
+                                          <td><xsl:value-of select="./tei:cell[56]"/></td>
+                                      </tr>
+                                      <tr>
+                                          <td>Title</td>
+                                          <td><xsl:value-of select="./tei:cell[55]"/><xsl:value-of select="./tei:cell[54]"/></td>
+                                      </tr>
+                                      <tr>
+                                          <td>Content description</td>
+                                          <td><xsl:value-of select="./tei:cell[57]"/></td>
+                                      </tr>
+                                      <tr>
+                                          <td>Glosses</td>
+                                          <td><xsl:value-of select="./tei:cell[58]"/></td>
+                                      </tr>
+                                      <tr>
+                                          <td>Musical notations</td>
+                                          <td><xsl:value-of select="./tei:cell[59]"/><xsl:text> </xsl:text><xsl:value-of select="./tei:cell[60]"/></td>
+                                      </tr>
+                                      <tr>
+                                          <td>Edition</td>
+                                          <td><xsl:value-of select="./tei:cell[61]"/></td>
+                                      </tr>
+                                      <tr>
+                                          <td>History origin</td>
+                                          <td><xsl:value-of select="./tei:cell[62]"/></td>
+                                      </tr>
+                                      <tr>
+                                          <td>Provenance</td>
+                                          <td><xsl:value-of select="./tei:cell[63]"/><xsl:text> </xsl:text><xsl:value-of select="./tei:cell[64]"/></td>
+                                      </tr>
+                                      <tr>
+                                          <td>Host volume Titel</td>
+                                          <td><xsl:value-of select="./tei:cell[15]"/></td>
+                                      </tr>
+                                      <tr>
+                                          <td>Date of origin</td>
                                           <td><xsl:value-of select="./tei:cell[18]"/></td>
                                       </tr>
                                       <tr>
-                                          <td>Shelfmark</td>
+                                          <td>Place</td>
                                           <td><xsl:value-of select="./tei:cell[19]"/></td>
+                                      </tr>
+                                      <tr>
+                                          <td>Shelfmark</td>
+                                          <td><xsl:value-of select="./tei:cell[20]"/></td>
                                       </tr>
                                       <tr>
                                           <td>Remarks</td>
                                           <td>
                                           <xsl:choose>
-                                              <xsl:when test="./tei:cell[21]/text()">
-                                                  Provenienz: <xsl:value-of select="./tei:cell[21]"/>
-                                              </xsl:when>
-                                          </xsl:choose>
-                                          <xsl:choose>
                                               <xsl:when test="./tei:cell[22]/text()">
-                                                  Einband: <xsl:value-of select="./tei:cell[22]"/>
+                                                  Provenienz: <xsl:value-of select="./tei:cell[22]"/>
                                               </xsl:when>
                                           </xsl:choose>
                                           <xsl:choose>
-                                              <xsl:when test="./tei:cell[20]/text()">
-                                                  Erschließungsdaten zum Trägerband: http://data.onb.ac.at/rec/<xsl:value-of select="./tei:cell[20]"/>
+                                              <xsl:when test="./tei:cell[23]/text()">
+                                                  Einband: <xsl:value-of select="./tei:cell[23]"/>
+                                              </xsl:when>
+                                          </xsl:choose>
+                                          <xsl:choose>
+                                              <xsl:when test="./tei:cell[21]/text()">
+                                                  Erschließungsdaten zum Trägerband: http://data.onb.ac.at/rec/<xsl:value-of select="./tei:cell[21]"/>
                                               </xsl:when>
                                           </xsl:choose>
                                           </td>
                                       </tr>
                                       <tr>
                                           <td>Bibliography</td>
-                                          <td><xsl:value-of select="./tei:cell[6]"/></td>
+                                          <td><xsl:value-of select="./tei:cell[7]"/></td>
                                       </tr>
                                   </tbody>
                               </table></li>
