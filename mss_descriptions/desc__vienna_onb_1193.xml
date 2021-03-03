@@ -45,31 +45,31 @@
                             <rubric/>
                             <incipit/> 
                             <explicit/> 
-                            <finalRubric/>
+                            <finalRubric>Explicit capitulare evangeliorum.</finalRubric>
                         </msItem>
                         <msItem>
                             <locus from="11r" to="11v">11r-11v</locus>
                             <title>Epistola ad Damasum papam</title>
                             <author>Hieronymus</author>
                             <rubric/>
-                            <incipit/> 
+                            <incipit>Beato papae Damaso Hieronimus</incipit> 
                             <explicit/> 
-                            <finalRubric/>
+                            <finalRubric>Explicit epistola Hieronymi.</finalRubric>
                         </msItem>
                         <msItem>
                             <locus from="11v" to="12v">11v-12v</locus>
                             <title>Prologus quattuor evangeliorum</title>
                             <author/>
-                            <rubric/>
+                            <rubric>Incipit prologus quattuor evangeliorum.</rubric>
                             <incipit>Plures fuisse qui Euangelia scripserunt</incipit> 
                             <explicit>et ecclesiasticis uiuis canendas.</explicit> 
-                            <finalRubric/>
+                            <finalRubric>Explicit prologus quattuor evangeliorum.</finalRubric>
                         </msItem>
                         <msItem>
                             <locus from="12v" to="13r">12v-13r</locus>
                             <title>Epistola ad Carpianum</title>
                             <author>Eusebius Caesariensis</author>
-                            <rubric/>
+                            <rubric>Eusebius Capriano fratri in domino salutem</rubric>
                             <incipit>Ammonius quidam alexandrinus</incipit> 
                             <explicit>similia dixisse repperies.</explicit> 
                             <finalRubric/>
@@ -79,7 +79,7 @@
                             <title>Epistola ad Damasum papam</title>
                             <author>Hieronymus</author>
                             <rubric/>
-                            <incipit>Sciendum etiam ne quis ignarum</incipit> 
+                            <incipit>Hieronimus Damaso papae. Sciendum etiam ne quis ignarum</incipit> 
                             <explicit>memineris mei beatissimae papa</explicit> 
                             <finalRubric/>
                         </msItem>
@@ -87,7 +87,7 @@
                             <locus from="13r" to="13v">13r-13v</locus>
                             <title>Argumentum secundum Matthaeum</title>
                             <author/>
-                            <rubric/>
+                            <rubric>Incipit argumentum secundum Mattheum</rubric>
                             <incipit/> 
                             <explicit/> 
                             <finalRubric/>
@@ -96,47 +96,49 @@
                             <locus from="13v" to="14v">13v-14v</locus>
                             <title>Breviarium Matthaei</title>
                             <author/>
-                            <rubric/>
+                            <rubric>Incipit breviarium eiusdem.</rubric>
                             <incipit/> 
-                            <explicit/> 
-                            <finalRubric/>
+                            <explicit></explicit> 
+                            <finalRubric>Explicit breviarium.</finalRubric>
                         </msItem>
                         <msItem>
                             <locus from="15r" to="20v">15r-20v</locus>
-                            <title>Canones quattuor evangeliorum</title>
+                            <title>Kanontafel für die vier Evangelien.</title>
                             <author/>
                             <rubric/>
                             <incipit/> 
                             <explicit/> 
                             <finalRubric/>
+                            <decoNote></decoNote>
                         </msItem>
                         <msItem>
                             <locus from="21r" to="128v">21r-128v</locus>
                             <title>Biblia latina: Quattuor Evangelia</title>
                             <author/>
-                            <rubric/>
-                            <incipit/> 
-                            <explicit/> 
-                            <finalRubric/>
+                            <rubric>Incipit evangelium secundum mathaeum</rubric>
+                            <incipit>Liber generationis Iesu filii Dauid</incipit> 
+                            <explicit></explicit> 
+                            <finalRubric>Explicit liber sancti euangelii secundum Mathaeum</finalRubric>
                         </msItem>
                         <msItem>
                             <locus from="128v">128v</locus>
-                            <title>Notitia de dedicatione capellae S. Trinitatis et S. Crucis Salisburgi a. 1094</title>
+                            <title>Eintrag über eine Mondseer Kapellenweihe (S. Trinitatis et S. Crucis Salisburgi) des Ezbischof Thiemo von Salzburg aus dem Jahr 1094</title>
                             <author/>
                             <rubric/>
                             <incipit>Recolo vos postulasse</incipit> 
                             <explicit/> 
                             <finalRubric/>
+                            <note>Auf eigener Blindlinierung</note>
                         </msItem>                        
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <extent>
-                                    <measure type="leaf" quantity="128" unit="folio">128</measure>
+                                    <measure type="leaf" quantity="128" unit="folio">128 fol.</measure>
                                     <dimensions type="leaf" unit="mm">
-                                        <height></height>
-                                        <width></width>
+                                        <height>206</height>
+                                        <width>374</width>
                                     </dimensions>
                                 </extent>
                                 <foliation/>
@@ -146,7 +148,7 @@
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout ruledLines="0" writtenLines="0" columns="0">
+                                <layout writtenLines="34" ruledLines="34" columns="2">Auf <locus>ff. 1-10</locus> zweispaltig zu 34 Zeilen; Schriftspiegel:
                                     <dimensions type="written" unit="mm">
                                         <height max="0" min="0"></height>
                                         <width max="0" min="0"></width>
@@ -154,6 +156,11 @@
                                     <dimensions type="lineHeight">
                                         <height min="0" max="0"></height>
                                     </dimensions>
+                                </layout>
+                                <layout writtenLines="35" ruledLines="35" columns="1">auf <locus>ff. 11-14</locus> einspaltig zu 35 Zeilen;</layout>
+                                <layout writtenLines="31" ruledLines="31" columns="2">auf <locus>ff. 21-128</locus> zweispaltig zu 31 Zeilen;</layout>
+                                <layout ruledLines="0" writtenLines="0" columns="0">
+                                    
                                    <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
                                        laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
                                 </layout>
@@ -163,15 +170,15 @@
                             <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote script="x" medium="x"></scriptNote>
+                            <scriptNote script="uncialis caprust" medium="x">Überschriften in roten (Mennigrot?) und grünen <term type="script">Unzial</term> und <term type="script">Capitalis rustica</term>. <term type="script">Capitalis Quadrata</term> in Gold und Silber für den Begin der Evangelien.</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote type="x"/>
+                            <decoNote>12 Kanontafel.</decoNote>
                         </decoDesc>   
                         <additions/> <!--Marginalia etc.-->
                         <bindingDesc>
-                            <binding notBefore="0001" notAfter="0001">
-                                <p/>
+                            <binding notBefore="0801" notAfter="0900" contemporary="true">
+                                <p>Karolingische Einband aus dicken Eichenholzdeckeln.</p>
                             </binding>
                         </bindingDesc>
                         <accMat/> <!--z.B. Fragmente oder beiliegende Notizen, die nicht Teil der HS sind-->
@@ -187,16 +194,16 @@
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <p>Beschreibung adaptiert (<date when="2020">2020</date>) nach:
-                                <bibl></bibl>
-                                </p>
+                                <p>Die Beschreibung (<date when="2021">2021</date>) beruft sich bzgl. des Kunsthistorische Analyse auf <bibl><abbr>Hermann 1923</abbr>, 85-87</bibl> und auf <bibl><abbr>Bischoff 1980</abbr>, 23-24</bibl> für die paläographische Untersuchung.</p>
                             </recordHist>
                         </adminInfo>
                         <surrogates>
                             <ref/>
                         </surrogates> 
                         <listBibl>
-                            <bibl>Unterkircher, Datierte I, 1969, 36</bibl>
+                            <bibl><abbr>Unterkircher 1969</abbr>, 36.</bibl>
+                            <bibl><abbr>Hermann 1923</abbr>, 85-87.</bibl>
+                            <bibl><abbr>Bischoff 1980</abbr>, 23-24.</bibl>
                         </listBibl>
                     </additional>
 <!--  XXXXXXXXXXXXX  Für Handschriftenteile innerhalb einer Sammelhandschrift (composite volumes) die urpsrünglich separaten kodikologischen Einheiten waren - > msPart altIdentifier @type = partial -->                           
