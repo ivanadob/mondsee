@@ -32,34 +32,34 @@
                         </altIdentifier>                       
                     </msIdentifier>
                     <head>
-                        <title>Theologische Sammelhandschrift</title>
+                        <title>Evangeliarium cum Capitulare Evangeliorum</title>
                         <origDate notBefore="0801" notAfter="1094">1. Hälfte 9. Jh. - 11. Jh.</origDate>
                         <origPlace>Mondsee</origPlace>
                     </head>                    
                     <msContents>
                         <textLang mainLang="lat" otherLangs=""/>
                         <msItem>
-                            <locus from="1r" to="10v">1r-10v</locus>
-                            <title>Capitulare evangeliorum de anni circulo</title>
-                            <author/>
-                            <rubric/>
-                            <incipit/> 
-                            <explicit/> 
-                            <finalRubric>Explicit capitulare evangeliorum.</finalRubric>
+                            <locus from="1r" to="10v">1ra-10va</locus>
+                            <title>Capitulare evangeliorum</title>
+                            <rubric>Incipit capitulare euangeliorum de anni circulo</rubric>
+                            <incipit>In natele domini ad sanctam mariam secundum lucam</incipit> 
+                            <explicit>uswue gaudium uestrum nemo tollet a uobis.</explicit> 
+                            <finalRubric>Explicit capitulare euangeliorum.</finalRubric>
+                            <note>written in two columns with alternating red and black initials. 3r corrections. 7v addition in the lower margin - four rulled lines, 3 written. 8r upper margin asteriscus and a minuscle letter h with a crossed bar -- related to another pair of symnols in the margins between the two columns pointing to the place where the correction should be made.</note>
                         </msItem>
                         <msItem>
                             <locus from="11r" to="11v">11r-11v</locus>
                             <title>Epistola ad Damasum papam</title>
                             <author>Hieronymus</author>
-                            <rubric/>
-                            <incipit>Beato papae Damaso Hieronimus</incipit> 
-                            <explicit/> 
-                            <finalRubric>Explicit epistola Hieronymi.</finalRubric>
+                            <rubric>Beato papae Damaso Hieronimus.</rubric>
+                            <incipit>Nouum opus facere me cogis</incipit> 
+                            <explicit>memineris mei papa beatissime.</explicit> 
+                            <finalRubric>Explicit epistola Hieronimi.</finalRubric>
+                            <note>written in one column.</note>
                         </msItem>
                         <msItem>
                             <locus from="11v" to="12v">11v-12v</locus>
                             <title>Prologus quattuor evangeliorum</title>
-                            <author/>
                             <rubric>Incipit prologus quattuor evangeliorum.</rubric>
                             <incipit>Plures fuisse qui Euangelia scripserunt</incipit> 
                             <explicit>et ecclesiasticis uiuis canendas.</explicit> 
@@ -70,35 +70,32 @@
                             <title>Epistola ad Carpianum</title>
                             <author>Eusebius Caesariensis</author>
                             <rubric>Eusebius Capriano fratri in domino salutem</rubric>
-                            <incipit>Ammonius quidam alexandrinus</incipit> 
-                            <explicit>similia dixisse repperies.</explicit> 
-                            <finalRubric/>
+                            <incipit>Ammonius quidem alexandrinus</incipit> 
+                            <explicit>similia dixisse repperies.</explicit>
                         </msItem>
                         <msItem>
                             <locus from="13r">13r</locus>
                             <title>Epistola ad Damasum papam</title>
                             <author>Hieronymus</author>
-                            <rubric/>
-                            <incipit>Hieronimus Damaso papae. Sciendum etiam ne quis ignarum</incipit> 
-                            <explicit>memineris mei beatissimae papa</explicit> 
-                            <finalRubric/>
+                            <rubric>Hieronimus Damaso papae.</rubric>
+                            <incipit>Sciendum etiam ne quis ignarum</incipit> 
+                            <explicit>memineris mei beatissimae papa.</explicit> 
                         </msItem>
                         <msItem>
                             <locus from="13r" to="13v">13r-13v</locus>
                             <title>Argumentum secundum Matthaeum</title>
-                            <author/>
                             <rubric>Incipit argumentum secundum Mattheum</rubric>
-                            <incipit/> 
-                            <explicit/> 
-                            <finalRubric/>
+                            <incipit>Matteus ex iudea sicut in ordine primus ponitur</incipit> 
+                            <explicit>dispositionem quaerentibus nonn tacere.</explicit> 
+                            <finalRubric>Explicit argumentum.</finalRubric>
+                            <bibl><abbr>RB</abbr> 590.</bibl>
                         </msItem>
                         <msItem>
                             <locus from="13v" to="14v">13v-14v</locus>
-                            <title>Breviarium Matthaei</title>
-                            <author/>
+                            <title>Capitulatio Matthaei</title>
                             <rubric>Incipit breviarium eiusdem.</rubric>
-                            <incipit/> 
-                            <explicit></explicit> 
+                            <incipit>Natiuitas christi magi cum muneribus ueniunt.</incipit> 
+                            <explicit>mandata et doctrina eius de baptismo.</explicit> 
                             <finalRubric>Explicit breviarium.</finalRubric>
                         </msItem>
                         <msItem>
@@ -110,25 +107,74 @@
                             <explicit/> 
                             <finalRubric/>
                             <decoNote></decoNote>
+                            <note>1st: Mt, Mc, Lc, Io; 2nd: Mt, Mc and Lc; 3rd: Mt, Lc and Io; 4th: Mt, Mc and Io; 5th: Mt and Lc; 6th: Mt and Mc; 7th: Mt and Io; 8th: Lc and Mc; 9th: Lc and Io; 10th: propriae.</note>
                         </msItem>
                         <msItem>
                             <locus from="21r" to="128v">21r-128v</locus>
                             <title>Biblia latina: Quattuor Evangelia</title>
                             <author/>
-                            <rubric>Incipit evangelium secundum mathaeum</rubric>
-                            <incipit>Liber generationis Iesu filii Dauid</incipit> 
-                            <explicit></explicit> 
-                            <finalRubric>Explicit liber sancti euangelii secundum Mathaeum</finalRubric>
+                            <msItem>
+                                <locus>21r-51v</locus>
+                                <rubric>Incipit evangelium secundum mathaeum</rubric>
+                                <incipit>Liber generationis Iesu filii Dauid</incipit> 
+                                <explicit></explicit> 
+                                <finalRubric>Explicit liber sancti euangelii secundum Matheum</finalRubric>
+                            </msItem>
+                            <msItem>
+                                <locus>51v</locus>
+                                <rubric>Incipit prologus</rubric>
+                                <finalRubric>Explicit argumentum. Incipit breviarium.</finalRubric>
+                            </msItem>
+                            <msItem>
+                                <locus>-72r</locus>
+                                <rubric>Incipit euangelium secundum Marcum</rubric>
+                                <incipit></incipit>
+                                <explicit></explicit>
+                                <finalRubric>Explicit euangelium secundum Marcum</finalRubric>
+                            </msItem>
+                            <msItem>
+                                <locus>72r-v</locus>
+                                <rubric>Incipit argumentum secundum Lucam</rubric>
+                                <finalRubric>Explicit prologus.</finalRubric>
+                            </msItem>
+                            <msItem>
+                                <locus>72v-75r</locus>
+                                <rubric>Incipiunt capitula.</rubric>
+                                <finalRubric>Expliciunt capitula</finalRubric>
+                            </msItem>
+                            <msItem>
+                                <locus>76r-105r</locus>
+                                <rubric>Incipit euangelium secundum Lucam</rubric>
+                                <incipit>Quoniam quidem</incipit>
+                                <finalRubric>Explicit euangelium secundum Lucam</finalRubric>
+                            </msItem>
+                            <msItem>
+                                <locus>105r</locus>
+                                <rubric>Incipit argumentum secundum Johannem</rubric>
+                                <finalRubric>Explicit argumentum.</finalRubric>
+                            </msItem>
+                            <msItem>
+                                <locus>105v-106r</locus>
+                                <rubric>Incipit breviarius euangelii secundum Johannem</rubric>
+                                <finalRubric>Explicit breviarium euangelii secundum Johannem</finalRubric>
+                            </msItem>                            
+                            <msItem>
+                                <locus>107r-128v</locus>
+                                <rubric>Incipit euangelium secundum Johannem</rubric>
+                                <incipit>In principio erat uerbum et uerbum erat apud deum</incipit>
+                                <finalRubric>Explicit euangelium secundum Johannem.</finalRubric>
+                            </msItem>
                         </msItem>
                         <msItem>
                             <locus from="128v">128v</locus>
-                            <title>Eintrag über eine Mondseer Kapellenweihe (S. Trinitatis et S. Crucis Salisburgi) des Ezbischof Thiemo von Salzburg aus dem Jahr 1094</title>
+                            <title>Eintrag über eine Mondseer Kapellenweihe (S. Trinitatis et S. Crucis) des Ezbischof Thiemo von Salzburg am 12 Juli 1094</title>
                             <author/>
                             <rubric/>
                             <incipit>Recolo vos postulasse</incipit> 
                             <explicit/> 
                             <finalRubric/>
                             <note>Auf eigener Blindlinierung</note>
+                            <quote>Anno ab incarnatione domini nostri Iesu Christi millesimo XCIIII indictione II dedicata est haec capella IIII idus Iulii a Tiemone sanctae Iuuauensis ecclesiae archiepiscopo in honore sanctae et indiuiduae trinitatis et sanctissimae crucis et sanctae Mariae matris domini et sancti Nicolai confessoris domini. continentur autem in altari reliquiae reconditae de spongia domini nostri <gap reason="omitted"></gap></quote>
                         </msItem>                        
                     </msContents>
                     <physDesc>
@@ -137,8 +183,8 @@
                                 <extent>
                                     <measure type="leaf" quantity="128" unit="folio">128 fol.</measure>
                                     <dimensions type="leaf" unit="mm">
-                                        <height>206</height>
-                                        <width>374</width>
+                                        <height>375</height>
+                                        <width>210</width>
                                     </dimensions>
                                 </extent>
                                 <foliation/>
@@ -148,22 +194,41 @@
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout writtenLines="34" ruledLines="34" columns="2">Auf <locus>ff. 1-10</locus> zweispaltig zu 34 Zeilen; Schriftspiegel:
+                                <layout writtenLines="34" ruledLines="34" columns="2">
+                                    <locus>ff. 1-10</locus> zweispaltig zu 34 Zeilen; Schriftspiegel:
                                     <dimensions type="written" unit="mm">
-                                        <height max="0" min="0"></height>
-                                        <width max="0" min="0"></width>
+                                        <height>260-265</height>
+                                        <width>145</width>
                                     </dimensions>
                                     <dimensions type="lineHeight">
-                                        <height min="0" max="0"></height>
+                                        <height>7,5</height>
                                     </dimensions>
+                                    Blindlinierung links und rechts des Schriftspiegel je doppelte Vertikalien bis zum Blattrand gezogen (Abstand 7-8 mm); zwischen den Kolumnen drei Vertikalien (in Abstand 8-9 mm); unten und oben vor einfachem Horizontalien bis zum Blattranf laufend: D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2-111/0/1-1/JJ</formula>. 
                                 </layout>
-                                <layout writtenLines="35" ruledLines="35" columns="1">auf <locus>ff. 11-14</locus> einspaltig zu 35 Zeilen;</layout>
-                                <layout writtenLines="31" ruledLines="31" columns="2">auf <locus>ff. 21-128</locus> zweispaltig zu 31 Zeilen;</layout>
-                                <layout ruledLines="0" writtenLines="0" columns="0">
-                                    
-                                   <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
-                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                <layout writtenLines="35" ruledLines="35" columns="1">
+                                    <locus>ff. 11-14</locus> einspaltig zu 35 Zeilen;
+                                    <dimensions type="written" unit="mm">
+                                        <height>270</height>
+                                        <width>143</width>
+                                    </dimensions>                                    
+                                    <dimensions type="lineHeight" unit="mm">
+                                        <height>7,5</height>
+                                    </dimensions>
+                                    Blindlinierung links und rechts des Schriftspiegel je doppelte Vertikalien bis zum Blattrand gezogen (Abstand 7-8 mm); unten und oben vor einfachem Horizontalien bis zum Blattranf laufend: D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/1-1/J</formula>. 
                                 </layout>
+                                <layout writtenLines="31" ruledLines="31" columns="2">
+                                    <locus>ff. 21-128</locus> zweispaltig zu 31 Zeilen; Blindlinierung links und rechts des Schriftspiegel je doppelte Vertikalien bis zum Blattrand gezogen (Abstand 7-8 mm); zwischen den Kolumnen drei Vertikalien (in Abstand 8-9 mm); unten und oben vor einfachem Horizontalien bis zum Blattranf laufend: D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2-111/0/1-1/JJ</formula>. Einstichlöcher nur vereinzelt auf dem unteren Blattrand (vgl. f. 22, 30). Ruling on one bifolium every two. direct ruling on the flesh side on the innermost and the third bifolium (counted from the middle).
+                                    <dimensions type="written" unit="mm">
+                                        <height>280</height>
+                                        <width>145</width>
+                                    </dimensions>
+                                    <dimensions type="columnWidth" unit="mm">
+                                        <width>60-63</width>
+                                    </dimensions>
+                                    <dimensions type="lineHeight" unit="mm">
+                                        <height>9</height>
+                                    </dimensions>
+                                </layout>                                
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -173,7 +238,7 @@
                             <scriptNote script="uncialis caprust" medium="x">Überschriften in roten (Mennigrot?) und grünen <term type="script">Unzial</term> und <term type="script">Capitalis rustica</term>. <term type="script">Capitalis Quadrata</term> in Gold und Silber für den Begin der Evangelien.</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote>12 Kanontafel.</decoNote>
+                            <decoNote>12 Canon tables presented as an arcade framework: a series of four or three arches supported by columns with capitals column base.</decoNote>
                         </decoDesc>   
                         <additions/> <!--Marginalia etc.-->
                         <bindingDesc>
@@ -202,7 +267,7 @@
                         </surrogates> 
                         <listBibl>
                             <bibl><abbr>Unterkircher 1969</abbr>, 36.</bibl>
-                            <bibl><abbr>Hermann 1923</abbr>, 85-87.</bibl>
+                            <bibl><abbr>Hermann 1923</abbr>, <ref target="http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0757_b085_jpg.htm">85</ref>-<ref target="http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0757_b087_jpg.htm">87</ref>.</bibl>
                             <bibl><abbr>Bischoff 1980</abbr>, 23-24.</bibl>
                         </listBibl>
                     </additional>

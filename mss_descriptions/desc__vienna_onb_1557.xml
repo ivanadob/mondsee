@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Wien, Österreichische Nationalbibliothek, Cod. 1557. Multimodale Repräsentation</title>
+                <respStmt>
+                    <resp>Handschriftenbeschreibung und TEI-Kodierung</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                        <affiliation></affiliation>
+                    </persName>
+                </respStmt>                
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities, Universität Graz</publisher>
+                <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
+                <availability status="restricted">
+                    <licence></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="de" xml:id="cod-1557">
+                    <msIdentifier>
+                        <country></country>
+                        <settlement>Wien</settlement>
+                        <repository>Österreichische Nationalbibliothek</repository>
+                        <collection>Codices</collection>
+                        <idno>Cod. 1557</idno>
+                        <altIdentifier type="former">
+                            <idno></idno>
+                        </altIdentifier>                       
+                    </msIdentifier>
+                    <head>
+                        <title><!--Titel der Handschrift z.b. Homiliarium, Abrogans--></title>
+                        <origDate notBefore="0001" notAfter="0001"></origDate>
+                        <origPlace></origPlace>
+                    </head>
+                    <msContents>
+                        <textLang mainLang="lat"/>
+                        <msItem class="theologica">
+                            <locus from="1r" to="x">1r-</locus>
+                            <title type="supplied">Homiliarium</title> 
+                            <msItem>
+                                <locus>1r-6v</locus>
+                                <author>Gregorius Magnus</author>
+                                <title type="supplied">Homilia in evangelia. Homilia XIX</title>
+                            </msItem>
+                            <msItem>
+                                <locus>17r-19r</locus>
+                                <author>Chromatius</author>
+                                <title type="supplied"></title>
+                            </msItem>
+                            <msItem>
+                                <locus>19r-22v</locus>
+                                <author></author>
+                                <title type="supplied"></title>
+                                <rubric>Feria VI sequitur sancti euangelii secundum matheum</rubric>
+                                <incipit>Audistis quia dictum est diliges proximum <ref type="biblical" cRef="Mt_5,43">(Mt. 5,43)</ref></incipit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 25v-29v</ref>.</filiation>
+                            </msItem>
+                            <msItem>
+                                <locus>22v-24v</locus>
+                                <rubric>In uigiliis mortuorum sermo sancti augustini</rubric>
+                                <incipit>Audistis fratres karissimi in lectione euuangelica dominum dicentem</incipit>
+                                <explicit>resuscitabo eum in nouissimo die per eum qui uiuit et regnat in saecula saeculorum amen.</explicit>
+                                <note>Divided in 9 lectiones with Roman numerlas written in the outer margin.</note>
+                            </msItem>
+                            <msItem>
+                                <locus>24v-26v</locus>
+                                <rubric>Sermo sancti ambrosii de paenitentia</rubric>
+                                <incipit>Admoneo fratres in conspectu dei</incipit>
+                                <explicit>sed ut ab eo in regno iudicaris.</explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 29v-31r</ref>.</filiation>
+                            </msItem>
+                            <msItem>
+                                <locus>26v-27r</locus>
+                                <rubric>Sermo petronii episcopi ueronensis in natale sancti zenonis.</rubric>
+                                <incipit>Admiror sacratissimi atque karissimi fratres et uos beata plebs</incipit>
+                                <explicit>aperiamus aduentum qui uiuit et regnat apur aeternum patrem una cum spiritu sancto in saecula saeculorum.</explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 31r-32r</ref>.</filiation>
+                            </msItem>
+                            <msItem>
+                                <locus>27r-28r</locus>
+                                <rubric>Item sermo cuius supra in die ordinationis uel natale episcopi</rubric>
+                                <incipit>Moyses magister ouium cum ad eum</incipit>
+                                <explicit>fuise felicem qui uiuit <gap reason="omitted"/> saeculorum amen.</explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 32v-33v</ref>.</filiation>
+                            </msItem>
+                            <msItem>
+                                <locus>28r-29v</locus>
+                                <rubric>Incipit homiliarum pars II dominica initium quadragesimae. sermo beati papae leonis.</rubric>
+                                <incipit>Cur a superiore dominica quadragesimam</incipit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 33v-35r</ref> - missing first part of rubrication present here <quote>Incipit <gap reason="omitted"/> quadragesimae</quote>. Both Munich and our MS skip the first words of the sermon: <quote>Permotos esse uos credo, fratres dilectissimi</quote>.</filiation>
+                            </msItem>
+                            <msItem>
+                                <locus>29v-31v</locus>
+                                <rubric>Sermo beati maximi episcopi.</rubric>
+                                <incipit>Ante dies deuotionem sanctae quadragesime</incipit>
+                                <explicit>hic autem animam reficit ineternum.</explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 35r-37r</ref>.</filiation>
+                            </msItem>
+                            <msItem>
+                                <locus>31v-35r</locus>
+                                <rubric>Sequitur sancti euangelii secundum matheum.</rubric>
+                                <incipit>In illo tempore ductus est ihesus <gap reason="omitted"/> <ref type="biblical" cRef="Mt_4,1">(Mt. 4,1)</ref> Omelia lectionis eiusdem beati gregorii. Dubitari a quibusdam solet</incipit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 37r-41r</ref>.</filiation>
+                                <bibl>Gregorius Magnus. Homiliae in euangelia. Homilia 16. PL 76, 1135-38. (= Paulus Diaconus I,76).</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus>35r-37v</locus>
+                                <rubric>Sermo leonis papae</rubric>
+                                <incipit>Semper nos quidem dilectissimi</incipit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 41r-43r</ref>.</filiation>
+                                <bibl>=PD I,77.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus>37v-</locus>
+                                <rubric>Sermo maximi de quo supra</rubric>
+                                <filiation><ref type="altMs">Clm 14386, ff. 43r-</ref>.</filiation>
+                                <bibl>=PD I,84.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus>85r-v</locus>
+                                <note>Randnotiz für Lectiones I-IIII</note>
+                            </msItem>
+                            <msItem>
+                                <note>ff. 93v und 94r - marks 'X' marginal marking passages </note>
+                            </msItem>
+                            <msItem>
+                                <locus>228r-230v</locus>
+                                <rubric>Sabatto sancto</rubric>
+                                <incipit>Videamus fratres karissimi de domini eo corpore</incipit>
+                                <note>Not in Clm 14386!</note>
+                            </msItem>
+                            <msItem>
+                                <locus>230v</locus>
+                                <incipit>Domini nostri Ihesu christi saluatoris honorabile sollemnitatem diuina fauente clementia</incipit>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <support>
+                                    <material>Pergament</material>, die äußerste Doppleblätter in der Lagen oft aus einem etwa steifen und stärkeren Pergament. Wenige Löcher, enstanden beim Pergamentherstellung (f. 63, 67, 76, 77, 159, 162, 176, 178, 184, 193, 196, 198, 218). Baltt 76 - mit den Löchern - schlecht vorbereitet - wohl aus Angst dass es weiter bricht nicht gut kalziniert; etwa glanzend. das Doppelblatt 164-165 vom Lederrand - wohl Tierschanz ausschnitt zu erkennen. 187 auch vom Rand. 190 - untere Hälfte zugenäht. Die Blätter sind HFHF geordnet. 
+                                </support>
+                                <extent>
+                                    <measure type="leavesCount" quantity="238" unit="folio">238 fols.</measure>
+                                    <dimensions type="leaf" unit="mm">
+                                        <height>280</height>
+                                        <width>180</width>
+                                    </dimensions>
+                                </extent>
+                                <foliation>Foliated in pencil in the upper right corner of every recto.</foliation>
+                                <collation>
+                                    <formula></formula>
+                                    <signatures>Quiremarks at the last page of every quire at the lower edge in Roman numerals.</signatures>
+                                </collation>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ruledLines="25" writtenLines="25 26" columns="1"> Ab f- 97 in 26 Zeilen
+                                    <dimensions type="written" unit="mm">
+                                        <height max="220" min="205">208-220</height>
+                                        <width max="127" min="118">118-127</width>
+                                    </dimensions>
+                                    <dimensions type="lineHeight" unit="mm">
+                                        <height min="8" max="9">8,5</height>
+                                    </dimensions>
+                                    Blindlinierung: doppelte Linien (Abstand 8-9 mm) zur Begrenzung des Schriftraums, das Paar links des Schrifraums bis zum Blattrand laufend, das Paar rechts nur bis zur obersten und untersten Schriftzeile (D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2A-2J/0/0/J</formula>). Die oberste Linie dient als erste Schriftzeile. Einstichlöcher auf dem äußersten Doppelblatt der Lage am außeren Blattrand - Ausnahme auf dem Doppelblatt f. 25 + 32 Einstichlöcher gleich neben dem Schriftraum. Linierung bei offenem Lage von äußersten Doppelblatt.
+                                 
+                                </layout>
+                                <layout ruledLines="31" writtenLines="31" columns="1">
+                                    <locusGrp>
+                                        <locus>215r-222v</locus>
+                                        <locus>227v</locus>
+                                    </locusGrp> (Quire 28 and one page from Quire 29)
+                                    written in 31 long lines, 
+                                    <dimensions type="written" unit="mm">
+                                        <height>223</height>
+                                        <width>125</width>
+                                    </dimensions>
+                                    Same ruling type as above but hardly visible exept on the outer quire leaves.
+                                </layout>
+                                <layout ruledLines="25" writtenLines="25" columns="1">
+                                    <locusGrp>
+                                        <locus>223r-227r</locus>
+                                        <locus>228r-229v</locus>
+                                    </locusGrp>
+                                    written in 25 long lines
+                                    <dimensions type="written" unit="mm">
+                                        <height>220</height>
+                                        <width>125</width>
+                                    </dimensions>
+                                    <dimensions type="lineHeight" unit="mm">
+                                        <height>8</height>
+                                    </dimensions>
+                                </layout>
+                                <layout writtenLines="28" ruledLines="28" columns="1">
+                                    <locus>230r-231r</locus>
+                                    <dimensions type="written" unit="mm">
+                                        <height>220</height>
+                                        <width>125</width>
+                                    </dimensions>
+                                    <dimensions type="lineHeight" unit="mm">
+                                        <height>8</height>
+                                    </dimensions>
+                                </layout>
+                                <layout writtenLines="33" ruledLines="33" columns="1">
+                                    <locus>231v-238</locus>
+                                    <dimensions type="written" unit="mm">
+                                        <height>220</height>
+                                        <width>130</width>
+                                    </dimensions>
+                                    <dimensions type="lineHeight" unit="mm">
+                                        <height>6,5</height>
+                                    </dimensions>
+                                </layout>
+                                
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote script="x" medium="x">
+                                original 10. Jh. (bzw. mit wenigen nachgezogenen Wörter oder Buchstaben): 6rv, 11v-15r, 18rv, 29v, 33v-40r, 41v-42r, 43r-44r, 45v-48r, 51r, 53r-73r, 74v-104r, 106r-111v, 113v-123r, 124r-125v, 126v-128r, 129v-135r, 137v-139r, 141r-142r, 144r, 145r-222v, 227v
+                                z. T. nachgezogen: 5v, 10v, 15v, 17v, 19r, 20r-24v, 25v 26r, 27r, 29v, 30v-31v, 44v, 49r-50v, 51v-52v, 73v, 74r, 104v-105v, 112r-113r, 123v, 128v, 135v-136r, 139v-140v, 142v-143v, 
+                                komplett nachgezogen im 12. Jh.: 3r-5r, 11r, 17r, 25r, 26v, 27v-29r, 30r, 32r-33r, 40v-41r, 45r, 48v, 126r, 129r, 136v-137r, 144v, 227r
+                                Neu im 12. Jh. geschrieben: ff. 1, 2, 7, 8, 9, 10r, 16, 223-226, 228-238.
+                            </scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote type="x"/>
+                        </decoDesc>   
+                        <additions/> <!--Marginalia etc.-->
+                        <bindingDesc>
+                            <binding notBefore="0001" notAfter="0001">
+                                <p/>
+                            </binding>
+                        </bindingDesc>
+                        <accMat/> <!--z.B. Fragmente oder beiliegende Notizen, die nicht Teil der HS sind-->
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate notBefore="0001" notAfter="0001"/>
+                        </origin>
+                        <provenance/>
+                        <acquisition/>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <p>Beschreibung adaptiert (<date when="2020">2020</date>) nach:
+                                <bibl></bibl>
+                                </p>
+                            </recordHist>
+                        </adminInfo>
+                        <surrogates>
+                            <ref/>
+                        </surrogates> 
+                        <listBibl>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+<!--  XXXXXXXXXXXXX  Für Handschriftenteile innerhalb einer Sammelhandschrift (composite volumes) die urpsrünglich separaten kodikologischen Einheiten waren - > msPart altIdentifier @type = partial -->                           
+                    <msPart>
+                        <altIdentifier type="partial">
+                            <idno>Codicological unit 2 = ff. </idno>
+                        </altIdentifier>
+                        <head>
+                            <title></title>
+                            <origDate notBefore="0001" notAfter="0001"></origDate>
+                            <origPlace></origPlace>
+                        </head>
+                        <msContents>
+                            <textLang mainLang="lat" otherLangs=""/> <!--nach ISO-639-3 : lat, deu, gmh etc. : https://de.wikipedia.org/wiki/%C3%9Cberblicksliste_der_ISO-639-3-Codes-->
+                            <msItem>
+                                <locus from="x" to="x"/>
+                                <title/>
+                                <author/>
+                                <rubric/>
+                                <incipit/>
+                                <explicit/>
+                                <finalRubric/>
+                                <colophon></colophon>
+                                <decoNote></decoNote>
+                                <note/>
+                                <filiation></filiation>
+                                <listBibl>
+                                    <bibl/>
+                                </listBibl>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fascicle">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leaf" quantity="0" unit="folio"></measure>
+                                        <dimensions type="leaf" unit="mm">
+                                            <height></height>
+                                            <width></width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation/>
+                                    <collation>
+                                        <formula></formula>
+                                    </collation>
+                                    <condition/>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <!--   mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
+                                    <layout ruledLines="0" writtenLines="0" columns="0">
+                                        <dimensions type="written" unit="mm">
+                                            <height max="0" min="0"></height>
+                                            <width max="0" min="0"></width>
+                                        </dimensions> 
+                                        <!--                                    optional Zeilenhöhe-->
+                                        <dimensions type="lineHeight">
+                                            <height min="0" max="0"></height>
+                                        </dimensions>
+                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote scribe="x" script="x" medium="x"></handNote>
+                            </handDesc>
+                            <scriptDesc>
+                                <scriptNote script="x" medium="x"></scriptNote>
+                            </scriptDesc>
+                            <decoDesc>
+                                <decoNote type="x"/>
+                            </decoDesc>   
+                            <additions/> <!--Marginalia etc.-->
+                            <accMat/> <!--z.B. Fragmente oder beiliegende Notizen, die nicht Teil der HS sind-->
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace/>
+                                <origDate notBefore="0001" notAfter="0001"/>
+                            </origin>
+                            <provenance/>
+                            <acquisition/>
+                        </history>
+                    </msPart>
+                    <!--Für PALIMPSESTE -> msPart altIdentifier @type = palimpsest -->
+                    <msPart>
+                        <altIdentifier type="palimpsest">
+                            <idno>Palimpsest auf ff. XXX</idno>
+                        </altIdentifier>
+                        <head>
+                            <title></title>
+                            <origDate notBefore="0001" notAfter="0001"></origDate>
+                            <origPlace></origPlace>
+                        </head>
+                        <msContents>
+                            <textLang mainLang="la" otherLangs=""/>
+                            <msItem>
+                                <locus from="x" to="x"/>
+                                <title/>
+                                <author/>
+                                <rubric/>
+                                <incipit/>
+                                <explicit/>
+                                <finalRubric/>
+                                <note/>
+                                <bibl/>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fascicle">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leaf" quantity="0" unit="folio"></measure>
+                                        <dimensions type="leaf" unit="mm">
+                                            <height></height>
+                                            <width></width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation/>
+                                    <collation>
+                                        <formula></formula>
+                                    </collation>
+                                    <condition/>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <!-- mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
+                                    <layout ruledLines="0" writtenLines="0" columns="0">
+                                        <dimensions type="written" unit="mm">
+                                            <height max="0" min="0"></height>
+                                            <width max="0" min="0"></width>
+                                        </dimensions> 
+                                        <!-- optional Zeilenhöhe-->
+                                        <dimensions type="lineHeight">
+                                            <height min="0" max="0"></height>
+                                        </dimensions>
+                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote scribe="x" script="x" medium="x"></handNote>
+                            </handDesc>
+                            <scriptDesc>
+                                <scriptNote script="x" medium="x"></scriptNote>
+                            </scriptDesc>
+                            <decoDesc>
+                                <decoNote type="x"/>
+                            </decoDesc>                           
+                        </physDesc>
+                        <history>
+                            <origin>                                
+                                <origPlace/>
+                                <origDate notBefore="0001" notAfter="0001"/>
+                            </origin>
+                            <provenance/>
+                        </history>
+                        <additional>
+                            <surrogates>
+                                <ref></ref>                                
+                            </surrogates>
+                        </additional>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl> 
+                <p/>
+                <!--die Editionsprinzipien und Verfahren, die bei der Kodierung des Textes angewandt wurden-->
+                <!--<refsDecl>
+                    <cRefPattern matchPattern="(.+)_(.+),(.+)" replacementPattern="http://vulsearch.sourceforge.net/html/$1.html#x$2_$3">
+                        <p>This pointer pattern extracts and references the <q>book,</q> <q>chapter,</q> and <q>verse</q> parts of a biblical reference pointing to a single verse, like “Gn_1,1”, and reconstructs a link to an online version of the biblical text in http://vulsearch.sourceforge.net/html/index.html.</p>
+                        <p>The used abbreviations follow the list provided by the <ref target="http://diglib.hab.de/rules/documentation/quoting_biblical.xml">HAB</ref>: Gn: Genesis; Exodus: Ex; Leviticus: Lv; [etc.]</p>
+                    </cRefPattern>
+                    
+                </refsDecl>-->
+                
+            </editorialDecl>
+        </encodingDesc>
+    <revisionDesc>
+        <listChange>
+            <change></change>
+        </listChange>
+    </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="" n="1r"/>
+    </facsimile>
+    <text>
+        <body>
+            <head>
+                <title>Transkription des Textes ... </title>
+            </head>
+            <p><pb n="1r"/> ... </p>
+        </body>
+    </text>
+</TEI>
