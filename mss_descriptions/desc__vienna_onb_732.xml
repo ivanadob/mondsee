@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vienna, Österreichische Nationalbibliothek, Cod. 732</title>
+                <respStmt>
+                    <resp>Manuscript description and TEI-encoding</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                        <affiliation></affiliation>
+                    </persName>
+                </respStmt>                
+            </titleStmt>
+            <publicationStmt>               
+                <publisher></publisher>
+                <availability status="restricted">
+                    <licence></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en" xml:id="onb-732">
+                    <msIdentifier>
+                        <country>Austria</country>
+                        <settlement>Vienna</settlement>
+                        <repository>Österreichische Nationalbibliothek</repository>
+                        <idno>Cod. 732</idno>
+                        <altIdentifier type="former">
+                            <idno>Rec. 3308</idno>
+                        </altIdentifier>                       
+                    </msIdentifier>
+                    <head>
+                        <title>Libri Maccabaeorum; Epistulae Pauli; Augustinus, Gregorius Magnus: Homiliae et sermones</title>
+                        <origDate notBefore="0801" notAfter="0900">s. IX</origDate>
+                        <origDate notBefore="1201" notAfter="1250">s. XIII</origDate>
+                        <origPlace>Mondsee</origPlace>
+                    </head> 
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <p>Beschreibung adaptiert (<date when="2020">2020</date>) nach:
+                                    <bibl>Hermann, Julius H. Die frühmittelalterlichen Handschriften des Abendlandes (Beschreibendes Verzeichnis der illuminierten Handschriften in Österreich VIII/1). Leipzig 1923, p. 174-176.</bibl>
+                                </p>
+                            </recordHist>
+                        </adminInfo>
+                        <surrogates>
+                            <ref/>
+                        </surrogates> 
+                        <listBibl>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                    <msPart>
+                        <altIdentifier type="partial">
+                            <idno>Codicological unit 2 = ff. 1r-63v</idno>
+                        </altIdentifier>
+                        <head>
+                            <title>Libri Maccabaeorum</title>
+                            <origDate notBefore="1201" notAfter="1250">s. XIII</origDate>
+                            <origPlace></origPlace>
+                        </head>
+                        <msContents>
+                            <textLang mainLang="lat" otherLangs=""/> <!--nach ISO-639-3 : lat, deu, gmh etc. : https://de.wikipedia.org/wiki/%C3%9Cberblicksliste_der_ISO-639-3-Codes-->
+                            <msItem>
+                                <locus from="x" to="x"/>
+                                <title/>
+                                <author/>
+                                <rubric/>
+                                <incipit/>
+                                <explicit/>
+                                <finalRubric/>
+                                <colophon></colophon>
+                                <decoNote></decoNote>
+                                <note/>
+                                <filiation></filiation>
+                                <listBibl>
+                                    <bibl/>
+                                </listBibl>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fascicle">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leaf" quantity="0" unit="folio"></measure>
+                                        <dimensions type="leaf" unit="mm">
+                                            <height></height>
+                                            <width></width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation/>
+                                    <collation>
+                                        <formula></formula>
+                                    </collation>
+                                    <condition/>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <!--   mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
+                                    <layout ruledLines="0" writtenLines="0" columns="0">
+                                        <dimensions type="written" unit="mm">
+                                            <height max="0" min="0"></height>
+                                            <width max="0" min="0"></width>
+                                        </dimensions> 
+                                        <!--                                    optional Zeilenhöhe-->
+                                        <dimensions type="lineHeight">
+                                            <height min="0" max="0"></height>
+                                        </dimensions>
+                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote scribe="x" script="x" medium="x"></handNote>
+                            </handDesc>
+                            <scriptDesc>
+                                <scriptNote script="x" medium="x"></scriptNote>
+                            </scriptDesc>
+                            <decoDesc>
+                                <decoNote type="x"/>
+                            </decoDesc>   
+                            <additions/> <!--Marginalia etc.-->
+                            <accMat/> <!--z.B. Fragmente oder beiliegende Notizen, die nicht Teil der HS sind-->
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace/>
+                                <origDate notBefore="0001" notAfter="0001"/>
+                            </origin>
+                            <provenance/>
+                            <acquisition/>
+                        </history>
+                    </msPart>
+                    <msPart>
+                        <altIdentifier type="partial">
+                            <idno>Codicological unit 2 = fols 64-178</idno>
+                        </altIdentifier>
+                        <head>
+                            <title>Epistulae Pauli; Augustinus, Gregorius Magnus: Homiliae et sermones</title>
+                            <origDate notBefore="0801" notAfter="0900">s. IX</origDate>
+                            <origPlace>Mondsee</origPlace>
+                        </head>
+                        <msContents>
+                            <textLang mainLang="lat"/>
+                            <msItem>
+                                <locus from="64r" to="116v">64r-116v</locus>
+                                <title ref="http://d-nb.info/gnd/4075949-0">Epistulae Pauli</title>    
+                                <msItem>
+                                    <locus from="64r" to="88r">64r-88r</locus>
+                                    <title ref="http://d-nb.info/gnd/4075940-4">Epistola ad Romanos</title>
+                                    <rubric>Incipit epistola ad romanos</rubric>
+                                    <incipit></incipit>
+                                    <explicit></explicit>
+                                    <finalRubric>Explicit epistola ad romanos.</finalRubric>
+                                </msItem>
+                               <msItem>
+                                   <locus from="88r" to="112r">88r-112r</locus>
+                                   <title ref="http://d-nb.info/gnd/4006818-3">Epistola ad Corintheos</title>
+                                   <rubric>Incipit ad corintheos prima</rubric>
+                                   <finalRubric></finalRubric>
+                               </msItem>
+                                <msItem>
+                                    <locus from="112r" to="115r">112r-115r</locus>
+                                    <title ref="http://d-nb.info/gnd/4075941-6">Epistola ad Thessalonicenses</title>
+                                    <rubric>Incipit ad thessalonicenses</rubric>
+                                    <finalRubric>Explicit ad thessalonicenses.</finalRubric>
+                                </msItem>
+                                <msItem>
+                                    <locus from="115r" to="116r">115r-116r</locus>
+                                    <title ref="http://d-nb.info/gnd/4075950-7">Epistola ad Philomenem</title>
+                                    <rubric>Incipit ad <sic>philamonem</sic></rubric>
+                                    <finalRubric>Explicit ad philimonem</finalRubric>
+                                </msItem>
+                            </msItem>
+                            <msItem>
+                                <locus from="117r" to="178v">117r-178v</locus>
+                                <title>Homiliarium</title>
+                                <msItem>
+                                    <locus from="117r" to="124v">117ra-124va</locus>
+                                    <author ref="http://d-nb.info/gnd/118541838">Gregorius Magnus</author>
+                                    <title>Homilia 12</title>
+                                    <rubric>Incipit omelia sancti Gregorii de decem virginibus</rubric>
+                                    <incipit/>
+                                    <explicit/>
+                                    <finalRubric/>
+                                </msItem>
+                                <msItem>
+                                    <locus from="124v" to="130r">124va-130ra</locus>
+                                    <author ref="http://d-nb.info/gnd/118541838">Gregorius Magnus</author>
+                                    <title>Homilia 15</title>
+                                    <rubric></rubric>
+                                    <incipit>Lectio sancti euangelii secundum lucam <gap/> Incipit omelia lectionis eiusdem. Quae sunt instrumenta bonorum oeprum</incipit>
+                                    <explicit/>
+                                    <finalRubric/>
+                                </msItem>
+                                <msItem>
+                                    <locus from="130r" to="131v">130ra-131vb</locus>
+                                    <author ref="http://d-nb.info/gnd/118614983">Smaragdus S. Michaelis</author>
+                                    <title>Expositio in regulam Sancti Benedicti. Cap. V: Quae sint instrumenta bonorum operum</title>
+                                    <incipit>In primis Dominum Deum diligere ex toto corde</incipit>
+                                    <explicit>et stabilitas in congregatione.</explicit>
+                                    <bibl><abbr>PL</abbr> 102, 749A-794B.</bibl>
+                                </msItem>
+                                <msItem>
+                                    <locus from="132r" to="x">132ra-135ra</locus>
+                                    <author>(Ps.-) Augustinus</author>
+                                    <title>Sermo CCXLV</title>
+                                    <rubric>Incipit lectio de natiuitate domini in primis de incarnatione domini nostri ihesu christi</rubric>
+                                    <incipit>Legimus sanctum moysen populo dei precepta dantem</incipit>
+                                    <explicit/>
+                                    <finalRubric/>
+                                    <bibl><abbr>PL</abbr> 39, 2196-98.</bibl>
+                                    <note>PD 1, 9.</note>
+                                </msItem>
+                                <msItem>
+                                    <locus from="135r" to="141v">135ra-141vb</locus>
+                                    <author>(Ps.-) Augustinus</author>
+                                    <title>Sermo CXCV</title>
+                                    <rubric>Incipit sermo sancti augustini episcopi de natiuitate domini nostri iesu christi de conceptione sanctae mariae</rubric>
+                                    <incipit>Castissimum mariae uirginis uterum</incipit>
+                                    <explicit/>
+                                    <finalRubric/>
+                                    <bibl><abbr>PL</abbr> 39, 2107-10.</bibl>
+                                    <note>A 1,5 ; F 1.</note>
+                                </msItem>
+                                <msItem>
+                                    <locus from="141v" to="144r">141vb-144ra</locus>
+                                    <author ref="http://d-nb.info/gnd/118541838">Gregorius Magnus</author>
+                                    <title>Homilia 8</title>
+                                    <rubric>Incipit sermo sancti gregorii in die natalis domini</rubric>
+                                    <incipit>Quia largiente domino missarum solemnia</incipit>
+                                    <explicit/>
+                                    <finalRubric/>
+                                    <bibl>PL 76, 1103C-1105B.</bibl>
+                                    <note>PD 1,24 ; O 18.</note>
+                                </msItem>
+                                <msItem>
+                                    <locus from="144r" to="147r">144ra-147ra</locus>
+                                    <author>Augustinus</author>
+                                    <title>Sermo CCII</title>
+                                    <rubric>Incipiunt <sic>omelias</sic> lectiones de theophania</rubric>
+                                    <incipit>Hodierni diei per uniuersum mundum</incipit>
+                                    <explicit/>
+                                    <finalRubric/>
+                                    <bibl>PL 38, 1033-1035.</bibl>
+                                    <note>A 1,39 ; F 23.</note>
+                                </msItem>
+                                <msItem>
+                                    <locus from="147r" to="150r">147ra-150rb</locus>
+                                    <author>Maximus / (Ps.-) Augustinus</author>
+                                    <title>Sermo</title>
+                                    <rubric>Incipiunt omeliae sancti <sic>agustini</sic> episcopi de epiphania</rubric>
+                                    <incipit>Intellegere possumus</incipit>
+                                    <explicit/>
+                                    <finalRubric/>
+                                    <bibl>PL 39, 2011-2012.</bibl>
+                                    <note>A 1,38.</note>
+                                </msItem>
+                                <msItem>
+                                    <locus from="150r" to="x"/>
+                                    <author/>
+                                    <title></title>
+                                    <rubric>Euangelium ubi dominus noster iesus christus baptizatus est idemque ut legitur psalmus XXVIII</rubric>
+                                    <incipit/>
+                                    <explicit/>
+                                    <finalRubric/>
+                                </msItem>
+                                <msItem>
+                                    <locus from="152v" to="x"/>
+                                    <author/>
+                                    <title></title>
+                                    <rubric>Incipit sermo sancti <sic>agustini</sic> episcopi de <sic>quadragesime</sic></rubric>
+                                    <incipit/>
+                                    <explicit/>
+                                    <finalRubric/>
+                                </msItem>
+                                <msItem>
+                                    <locus from="154v" to="x"/>
+                                    <author/>
+                                    <title></title>
+                                    <rubric>Incipit omelia in vigilia paschae</rubric>
+                                    <incipit/>
+                                    <explicit/>
+                                    <finalRubric/>
+                                </msItem>
+                                <msItem>
+                                    <locus from="157r" to="x"/>
+                                    <author/>
+                                    <title></title>
+                                    <rubric>Incipit omelia sancti <sic>agustini</sic> episcopi de prima die paschae</rubric>
+                                    <incipit/>
+                                    <explicit/>
+                                    <finalRubric/>
+                                </msItem>
+                                <msItem>
+                                    <locus from="159v" to="x"/>
+                                    <author/>
+                                    <title></title>
+                                    <rubric>Item sermo sancti <sic>agustini</sic> de pascha domini</rubric>
+                                    <incipit/>
+                                    <explicit/>
+                                    <finalRubric/>
+                                </msItem>
+                                <msItem>
+                                    <locus from="162v" to="x"/>
+                                    <author/>
+                                    <title></title>
+                                    <rubric>Omelia sancti <sic>agustini</sic> episcopi in natale sancti iohannis baptistae</rubric>
+                                    <incipit/>
+                                    <explicit/>
+                                    <finalRubric/>
+                                </msItem>
+                                <msItem>
+                                    <locus from="166r" to="x"/>
+                                    <author/>
+                                    <title></title>
+                                    <rubric>Incipit omelia in natale <sic>apostulorum</sic> petri et pauli</rubric>
+                                    <incipit/>
+                                    <explicit/>
+                                    <finalRubric/>
+                                </msItem>
+                                <msItem>
+                                    <locus from="169r" to="x"/>
+                                    <author/>
+                                    <title></title>
+                                    <rubric>Omelia in natale martyrum</rubric>
+                                    <incipit/>
+                                    <explicit/>
+                                    <finalRubric/>
+                                </msItem>
+                                <msItem>
+                                    <locus from="171r" to="x"/>
+                                    <author/>
+                                    <title></title>
+                                    <rubric>Incipit sermo sancti <sic>agustini</sic> de natale sancti stephani</rubric>
+                                    <incipit/>
+                                    <explicit/>
+                                    <finalRubric/>
+                                </msItem>
+                                <msItem>
+                                    <locus from="175v" to="x"/>
+                                    <author/>
+                                    <title></title>
+                                    <rubric>Incipit alius eiusdem</rubric>
+                                    <incipit/>
+                                    <explicit/>
+                                    <finalRubric/>
+                                </msItem>                                
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fascicle">
+                                <supportDesc material="perg">
+                                    <support>Calf parchment (Bischoff, Schreibschule, p. 20)</support>
+                                    <extent>
+                                        <measure type="leaf" quantity="0" unit="folio"></measure>
+                                        <dimensions type="leaf" unit="mm">
+                                            <height></height>
+                                            <width></width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation/>
+                                    <collation>
+                                        <formula></formula>
+                                    </collation>
+                                    <condition/>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <!--   mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
+                                    <layout ruledLines="0" writtenLines="21 22" columns="2">
+                                        <dimensions type="written" unit="mm">
+                                            <height>230</height>
+                                            <width>148-152</width>
+                                        </dimensions> written in 2 columns; 21 or 22 lines per page.
+                                        <!--                                    optional Zeilenhöhe-->
+                                        <dimensions type="lineHeight">
+                                            <height min="0" max="0"></height>
+                                        </dimensions>
+                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote scribe="x" script="x" medium="x"></handNote>
+                            </handDesc>
+                            <scriptDesc>
+                                <scriptNote script="carolmin">Bischoff, Schreibschule, p. 20: <quote>schwere runde, aufrechte und etwas niedrige Schrift von mehr als einer Hand.</quote></scriptNote>
+                            </scriptDesc>
+                            <decoDesc>
+                                <decoNote type="x"/>
+                            </decoDesc>   
+                            <additions/> <!--Marginalia etc.-->
+                            <accMat/> <!--z.B. Fragmente oder beiliegende Notizen, die nicht Teil der HS sind-->
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace/>
+                                <origDate notBefore="0001" notAfter="0001"/>
+                            </origin>
+                            <provenance/>
+                            <acquisition/>
+                        </history>
+                    </msPart>
+                    <!--Für PALIMPSESTE -> msPart altIdentifier @type = palimpsest -->
+                    <msPart>
+                        <altIdentifier type="palimpsest">
+                            <idno>Palimpsest auf ff. XXX</idno>
+                        </altIdentifier>
+                        <head>
+                            <title></title>
+                            <origDate notBefore="0001" notAfter="0001"></origDate>
+                            <origPlace></origPlace>
+                        </head>
+                        <msContents>
+                            <textLang mainLang="la" otherLangs=""/>
+                            <msItem>
+                                <locus from="x" to="x"/>
+                                <title/>
+                                <author/>
+                                <rubric/>
+                                <incipit/>
+                                <explicit/>
+                                <finalRubric/>
+                                <note/>
+                                <bibl/>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fascicle">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leaf" quantity="0" unit="folio"></measure>
+                                        <dimensions type="leaf" unit="mm">
+                                            <height></height>
+                                            <width></width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation/>
+                                    <collation>
+                                        <formula></formula>
+                                    </collation>
+                                    <condition/>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <!-- mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
+                                    <layout ruledLines="0" writtenLines="0" columns="0">
+                                        <dimensions type="written" unit="mm">
+                                            <height max="0" min="0"></height>
+                                            <width max="0" min="0"></width>
+                                        </dimensions> 
+                                        <!-- optional Zeilenhöhe-->
+                                        <dimensions type="lineHeight">
+                                            <height min="0" max="0"></height>
+                                        </dimensions>
+                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote scribe="x" script="x" medium="x"></handNote>
+                            </handDesc>
+                            <scriptDesc>
+                                <scriptNote script="x" medium="x"></scriptNote>
+                            </scriptDesc>
+                            <decoDesc>
+                                <decoNote type="x"/>
+                            </decoDesc>                           
+                        </physDesc>
+                        <history>
+                            <origin>                                
+                                <origPlace/>
+                                <origDate notBefore="0001" notAfter="0001"/>
+                            </origin>
+                            <provenance/>
+                        </history>
+                        <additional>
+                            <surrogates>
+                                <ref></ref>                                
+                            </surrogates>
+                        </additional>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl> <!--die Editionsprinzipien und Verfahren, die bei der Kodierung des Textes angewandt wurden-->
+                <p></p>
+            </editorialDecl>
+        </encodingDesc>
+    <revisionDesc>
+        <listChange>
+            <change></change>
+        </listChange>
+    </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="" n="1r"/>
+    </facsimile>
+    <text>
+        <body>
+            <head>
+                <title>Transkription des Textes ... </title>
+            </head>
+            <p><pb n="1r"/> ... </p>
+        </body>
+    </text>
+</TEI>

@@ -33,8 +33,13 @@
                     </msIdentifier>
                     <head>
                         <title>Evangeliarium cum Capitulare Evangeliorum</title>
-                        <origDate notBefore="0801" notAfter="1094">1. Hälfte 9. Jh. - 11. Jh.</origDate>
+                        <origDate notBefore="0801" notAfter="1094">1st half of the 9th century with additions from the 11th c.</origDate>
                         <origPlace>Mondsee</origPlace>
+                        <note>The manuscript contains apart from the four gospels, the Eusebian canon tables - providing the concordance between the gospels; the capitulare at the beginning records the readings from the gospels during mass throughout the whole year -- to compare with the homiliarium Cod. 1557, Cod. 1014 - if the readings match the homilies order (Cod. 1557 supposed to be copied from Clm 14386 written in or around Regensburg - if the readings match the collection might have originated in Mondsee - not very probable though).
+                            Readings begins for the time of Christmas, February, March, then with rubric "Incipiunt lec<abbr>tiones</abbr> euangelii a <sic>septuagisima</sic> usque in pascha". Possible match with the Würzburg comes ff. 10v-16v (see G. Morin, "Liturgie et basiliques de Rome au milieu du VIIe siècle d'après les listes d'évangiles de Würzburg", in: Revue benedictine 28 (1911), S. 296-330.
+                            That the mansucript was used for the readings during Mass throughout the year (instead of a lectionary containing selected readings from the four Gospels) is also attested by the (later) added interlinear letters <quote>c</quote>, <quote>t</quote> and <quote>a</quote> which mark a special reciting practice for the Passion readings, where different monks recited the verses in which the evangelist, Christ or other characters (the disciples) speak. Compare with a fragment from a Lectionary now in Newberry Library, Medieval Manuscript Fragment 4 - written in south-eastern Germany in the early ninth century ( Raymond Clemens and Timothy Graham, Introduction to Manuscript Studies (Ithaca, NY: 2007), 140-141).
+                        Cod. 1193 the typical ruling in two columns with three vertical dividing lines in between - also present in the bible fragments in Linz.
+                        </note>
                     </head>                    
                     <msContents>
                         <textLang mainLang="lat" otherLangs=""/>
@@ -42,53 +47,59 @@
                             <locus from="1r" to="10v">1ra-10va</locus>
                             <title>Capitulare evangeliorum</title>
                             <rubric>Incipit capitulare euangeliorum de anni circulo</rubric>
-                            <incipit>In natele domini ad sanctam mariam secundum lucam</incipit> 
-                            <explicit>uswue gaudium uestrum nemo tollet a uobis.</explicit> 
+                            <incipit>In natale domini ad sanctam mariam secundum lucam</incipit> 
+                            <explicit>usque gaudium uestrum nemo tollet a uobis.</explicit> 
                             <finalRubric>Explicit capitulare euangeliorum.</finalRubric>
                             <note>written in two columns with alternating red and black initials. 3r corrections. 7v addition in the lower margin - four rulled lines, 3 written. 8r upper margin asteriscus and a minuscle letter h with a crossed bar -- related to another pair of symnols in the margins between the two columns pointing to the place where the correction should be made.</note>
+                            <note>Check with Klauser's types. Match probably his type Pi, but with some additions -- list all!!! -- (after 7- Dom I post natale domini, 01. Jan.  Marta,  ...). Compare with the Capitulare in Kremsmünster CC Cim. 2 (207r-225r). If, like the Codex minor, very close to the published MS from Speyer by M. Gerbert, monumenta veteris liturgiae Alemannicae I. St. Blasien 1777, 417-447 (online) -- undientified MS:<!-- https://books.google.de/books?id=RIkPAAAAIAAJ&hl=de&pg=PP19#v=onepage&q&f=false--> .</note>
                         </msItem>
                         <msItem>
                             <locus from="11r" to="11v">11r-11v</locus>
-                            <title>Epistola ad Damasum papam</title>
+                            <title>Hieronymus, Prol. Evv. [Ep. ad Damasum papam]</title>
                             <author>Hieronymus</author>
                             <rubric>Beato papae Damaso Hieronimus.</rubric>
                             <incipit>Nouum opus facere me cogis</incipit> 
                             <explicit>memineris mei papa beatissime.</explicit> 
                             <finalRubric>Explicit epistola Hieronimi.</finalRubric>
                             <note>written in one column.</note>
+                            <bibl><abbr>Stegmüller RB</abbr> 595.</bibl>
                         </msItem>
                         <msItem>
                             <locus from="11v" to="12v">11v-12v</locus>
-                            <title>Prologus quattuor evangeliorum</title>
+                            <title>Hieronymus, Prol. Evv. [ex commentario in Matth.]</title>
                             <rubric>Incipit prologus quattuor evangeliorum.</rubric>
                             <incipit>Plures fuisse qui Euangelia scripserunt</incipit> 
                             <explicit>et ecclesiasticis uiuis canendas.</explicit> 
                             <finalRubric>Explicit prologus quattuor evangeliorum.</finalRubric>
+                            <bibl><abbr>Stegmüller RB</abbr> 596.</bibl>
                         </msItem>
                         <msItem>
                             <locus from="12v" to="13r">12v-13r</locus>
-                            <title>Epistola ad Carpianum</title>
+                            <title>Prol. Mt. [Ep. ad Carpianum]</title>
                             <author>Eusebius Caesariensis</author>
                             <rubric>Eusebius Capriano fratri in domino salutem</rubric>
                             <incipit>Ammonius quidem alexandrinus</incipit> 
                             <explicit>similia dixisse repperies.</explicit>
+                            <bibl><abbr>Stegmüller RB</abbr> 581.</bibl>
                         </msItem>
                         <msItem>
                             <locus from="13r">13r</locus>
-                            <title>Epistola ad Damasum papam</title>
+                            <title>Prol. Mt. [Ep. ad Damasum papam]</title>
                             <author>Hieronymus</author>
                             <rubric>Hieronimus Damaso papae.</rubric>
                             <incipit>Sciendum etiam ne quis ignarum</incipit> 
                             <explicit>memineris mei beatissimae papa.</explicit> 
+                            <!--<note>Jerome on his new translation of the gospels, the order, the canon tables.</note>-->
+                            <bibl><abbr>Stegmüller RB</abbr> 601.</bibl>
                         </msItem>
                         <msItem>
                             <locus from="13r" to="13v">13r-13v</locus>
-                            <title>Argumentum secundum Matthaeum</title>
+                            <title>Prol. Mt. [Prologus monarchianus]</title>
                             <rubric>Incipit argumentum secundum Mattheum</rubric>
                             <incipit>Matteus ex iudea sicut in ordine primus ponitur</incipit> 
                             <explicit>dispositionem quaerentibus nonn tacere.</explicit> 
                             <finalRubric>Explicit argumentum.</finalRubric>
-                            <bibl><abbr>RB</abbr> 590.</bibl>
+                            <bibl><abbr>Stegmüller RB</abbr> 590.</bibl>
                         </msItem>
                         <msItem>
                             <locus from="13v" to="14v">13v-14v</locus>
@@ -100,66 +111,87 @@
                         </msItem>
                         <msItem>
                             <locus from="15r" to="20v">15r-20v</locus>
-                            <title>Kanontafel für die vier Evangelien.</title>
-                            <author/>
-                            <rubric/>
-                            <incipit/> 
-                            <explicit/> 
-                            <finalRubric/>
-                            <decoNote></decoNote>
-                            <note>1st: Mt, Mc, Lc, Io; 2nd: Mt, Mc and Lc; 3rd: Mt, Lc and Io; 4th: Mt, Mc and Io; 5th: Mt and Lc; 6th: Mt and Mc; 7th: Mt and Io; 8th: Lc and Mc; 9th: Lc and Io; 10th: propriae.</note>
+                            <title>Eusebian canons</title>
+                            <!--<note>1st: Mt, Mc, Lc, Io; 2nd: Mt, Mc and Lc; 3rd: Mt, Lc and Io; 4th: Mt, Mc and Io; 5th: Mt and Lc; 6th: Mt and Mc; 7th: Mt and Io; 8th: Lc and Mc; 9th: Lc and Io; 10th: propriae.</note>-->
                         </msItem>
                         <msItem>
                             <locus from="21r" to="128v">21r-128v</locus>
-                            <title>Biblia latina: Quattuor Evangelia</title>
-                            <author/>
+                            <title>Quattuor Evangelia</title>
                             <msItem>
-                                <locus>21r-51v</locus>
+                                <locus>21ra-51vb</locus>
+                                <title>Mt</title>
                                 <rubric>Incipit evangelium secundum mathaeum</rubric>
                                 <incipit>Liber generationis Iesu filii Dauid</incipit> 
                                 <explicit></explicit> 
                                 <finalRubric>Explicit liber sancti euangelii secundum Matheum</finalRubric>
                             </msItem>
                             <msItem>
-                                <locus>51v</locus>
+                                <locus>51vb-52rb</locus>
+                                <title>Prol. Mc. [Prologus monarchianus]</title>
                                 <rubric>Incipit prologus</rubric>
-                                <finalRubric>Explicit argumentum. Incipit breviarium.</finalRubric>
+                                <incipit>Marcus euangelista dei et petri</incipit>
+                                <finalRubric>Explicit argumentum.</finalRubric>
+                                <bibl><abbr>Stegmüller RB</abbr> 607.</bibl>
                             </msItem>
                             <msItem>
-                                <locus>-72r</locus>
+                                <locus>52rb-52vb </locus>
+                                <title>Capitula</title>
+                                <rubric>Incipit breviarium.</rubric>
+                                <incipit>De iohanne baptista et uictu</incipit>
+                                <explicit>et commotione saeculi et ad <gap reason="lacuna"/></explicit>
+                                <bibl><abbr>Stegmüller RB</abbr> 11016.</bibl>
+                                <note>Text brackes up in the middle of the word (aduentu) with the last ruled line at the bottom of the column, missing around half a column (§ 12-13) to the end of the text.</note>
+                            </msItem>
+                            <msItem>
+                                <locus>53ra-72ra</locus>
+                                <title>Mc</title>
                                 <rubric>Incipit euangelium secundum Marcum</rubric>
-                                <incipit></incipit>
-                                <explicit></explicit>
                                 <finalRubric>Explicit euangelium secundum Marcum</finalRubric>
                             </msItem>
                             <msItem>
-                                <locus>72r-v</locus>
+                                <locus>72rb-vb</locus>
+                                <title>Prol. Luc. [Prologus monarchianus]</title>
                                 <rubric>Incipit argumentum secundum Lucam</rubric>
+                                <incipit>Lucas syrus antiocensis</incipit>
+                                <explicit>quam fastidientibus prodesse.</explicit>
                                 <finalRubric>Explicit prologus.</finalRubric>
+                                <bibl><abbr>Stegmüller RB</abbr> 620.</bibl>
                             </msItem>
                             <msItem>
-                                <locus>72v-75r</locus>
+                                <locus>72vb-75rb</locus>
+                                <title>Capitula</title>
                                 <rubric>Incipiunt capitula.</rubric>
+                                <incipit>Zacharias uiso angelo</incipit>
+                                <explicit>laudantes deum in templo.</explicit>
                                 <finalRubric>Expliciunt capitula</finalRubric>
+                                <bibl><abbr>Stegmüller RB</abbr> 11016.</bibl>
                             </msItem>
                             <msItem>
-                                <locus>76r-105r</locus>
+                                <locus>76ra-105r</locus>
+                                <title>Lc</title>
                                 <rubric>Incipit euangelium secundum Lucam</rubric>
-                                <incipit>Quoniam quidem</incipit>
                                 <finalRubric>Explicit euangelium secundum Lucam</finalRubric>
                             </msItem>
                             <msItem>
-                                <locus>105r</locus>
+                                <locus>105r-va</locus>
+                                <title>Prol. Ioh. [Prologus monarchianus]</title>
                                 <rubric>Incipit argumentum secundum Johannem</rubric>
+                                <incipit></incipit>
+                                <explicit>doctrina seruetur amen.</explicit>
                                 <finalRubric>Explicit argumentum.</finalRubric>
+                                <bibl><abbr>Stegmüller RB</abbr> 624.</bibl>
                             </msItem>
                             <msItem>
-                                <locus>105v-106r</locus>
-                                <rubric>Incipit breviarius euangelii secundum Johannem</rubric>
+                                <locus>105vb-106rb</locus>
+                                <title>Capitula</title>
+                                <rubric>Incipit breviarius euangelii secundum iohannem</rubric>
+                                <incipit>Pharisaeorum laeuitae interrogant</incipit>
                                 <finalRubric>Explicit breviarium euangelii secundum Johannem</finalRubric>
+                                <bibl><abbr>Stegmüller RB</abbr> 11016.</bibl>
+                                <note>Fol. 106v originally left blank.</note>
                             </msItem>                            
                             <msItem>
-                                <locus>107r-128v</locus>
+                                <locus>107ra-128va</locus>
                                 <rubric>Incipit euangelium secundum Johannem</rubric>
                                 <incipit>In principio erat uerbum et uerbum erat apud deum</incipit>
                                 <finalRubric>Explicit euangelium secundum Johannem.</finalRubric>
@@ -167,14 +199,11 @@
                         </msItem>
                         <msItem>
                             <locus from="128v">128v</locus>
-                            <title>Eintrag über eine Mondseer Kapellenweihe (S. Trinitatis et S. Crucis) des Ezbischof Thiemo von Salzburg am 12 Juli 1094</title>
-                            <author/>
-                            <rubric/>
-                            <incipit>Recolo vos postulasse</incipit> 
-                            <explicit/> 
-                            <finalRubric/>
+                            <title>Additional entry about the consecration of a chapel in Mondsee (S. Trinitatis et S. Crucis) by archbishop Thiemo from Salzburg on the <date when="1094-07-12">12th of Juli 1094</date>.</title>
+                            <incipit>Anno ab incarnatione domini</incipit> 
+                            <explicit>Eutropiae, Margaretae.</explicit> 
                             <note>Auf eigener Blindlinierung</note>
-                            <quote>Anno ab incarnatione domini nostri Iesu Christi millesimo XCIIII indictione II dedicata est haec capella IIII idus Iulii a Tiemone sanctae Iuuauensis ecclesiae archiepiscopo in honore sanctae et indiuiduae trinitatis et sanctissimae crucis et sanctae Mariae matris domini et sancti Nicolai confessoris domini. continentur autem in altari reliquiae reconditae de spongia domini nostri <gap reason="omitted"></gap></quote>
+                            <quote><supplied>A</supplied>nno ab incarnatione domini nostri Iesu Christi millesimo XCIIII indictione II dedicata est haec capella IIII idus Iulii a Tiemone sanctae Iuuauensis ecclesiae archiepiscopo in honore sanctae et indiuiduae trinitatis et sanctissimae crucis et sanctae Mariae matris domini et sancti Nicolai confessoris domini. continentur autem in altari reliquiae reconditae de spongia domini nostri <gap reason="omitted"></gap></quote>
                         </msItem>                        
                     </msContents>
                     <physDesc>
@@ -186,6 +215,7 @@
                                         <height>375</height>
                                         <width>210</width>
                                     </dimensions>
+                                    The relative oblongue format of one gospels book was presumably chosen because of the ivory plates covering once its wooden binding.
                                 </extent>
                                 <foliation/>
                                 <collation>
@@ -195,7 +225,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout writtenLines="34" ruledLines="34" columns="2">
-                                    <locus>ff. 1-10</locus> zweispaltig zu 34 Zeilen; Schriftspiegel:
+                                    <locus>fols 1-10</locus> zweispaltig zu 34 Zeilen; Schriftspiegel:
                                     <dimensions type="written" unit="mm">
                                         <height>260-265</height>
                                         <width>145</width>
@@ -206,7 +236,7 @@
                                     Blindlinierung links und rechts des Schriftspiegel je doppelte Vertikalien bis zum Blattrand gezogen (Abstand 7-8 mm); zwischen den Kolumnen drei Vertikalien (in Abstand 8-9 mm); unten und oben vor einfachem Horizontalien bis zum Blattranf laufend: D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2-111/0/1-1/JJ</formula>. 
                                 </layout>
                                 <layout writtenLines="35" ruledLines="35" columns="1">
-                                    <locus>ff. 11-14</locus> einspaltig zu 35 Zeilen;
+                                    <locus>fols 11-14</locus> einspaltig zu 35 Zeilen;
                                     <dimensions type="written" unit="mm">
                                         <height>270</height>
                                         <width>143</width>
@@ -217,17 +247,19 @@
                                     Blindlinierung links und rechts des Schriftspiegel je doppelte Vertikalien bis zum Blattrand gezogen (Abstand 7-8 mm); unten und oben vor einfachem Horizontalien bis zum Blattranf laufend: D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/1-1/J</formula>. 
                                 </layout>
                                 <layout writtenLines="31" ruledLines="31" columns="2">
-                                    <locus>ff. 21-128</locus> zweispaltig zu 31 Zeilen; Blindlinierung links und rechts des Schriftspiegel je doppelte Vertikalien bis zum Blattrand gezogen (Abstand 7-8 mm); zwischen den Kolumnen drei Vertikalien (in Abstand 8-9 mm); unten und oben vor einfachem Horizontalien bis zum Blattranf laufend: D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2-111/0/1-1/JJ</formula>. Einstichlöcher nur vereinzelt auf dem unteren Blattrand (vgl. f. 22, 30). Ruling on one bifolium every two. direct ruling on the flesh side on the innermost and the third bifolium (counted from the middle).
+                                    <locus>fols 21-128</locus> 
                                     <dimensions type="written" unit="mm">
                                         <height>280</height>
                                         <width>145</width>
-                                    </dimensions>
-                                    <dimensions type="columnWidth" unit="mm">
+                                    </dimensions>, written in two columns (<dimensions type="columnWidth" unit="mm">
                                         <width>60-63</width>
-                                    </dimensions>
-                                    <dimensions type="lineHeight" unit="mm">
+                                    </dimensions>), 31 lines (<dimensions type="lineHeight" unit="mm">
                                         <height>9</height>
-                                    </dimensions>
+                                    </dimensions>). 
+                                    Ruling system: in blind tool, textblock framed left and right by double vertical lines (distance 7-8 mm) reaching the edges; the two columns are separated by three vertical lines (distance inbetween 8-9 mm) also reaching the leaf edges; above and below the text block are simple horizontal lines reaching the leaf edge. System according to D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>: <formula notation="Muzerelle">2-2-111/0/1-1/JJ</formula>. Prickings for the horizontal lines cut off, for the vertical lines visible on the lower edge on some leaves (f. 22, 30). Ruling method: on one bifolium every two. direct ruling on the flesh side on one biflolium every two (in a quire of four double leaves ruling on the innermost and the third bifolium counted from the middle).
+                                    
+                                    
+                                    
                                 </layout>                                
                             </layoutDesc>
                         </objectDesc>
@@ -240,13 +272,16 @@
                         <decoDesc>
                             <decoNote>12 Canon tables presented as an arcade framework: a series of four or three arches supported by columns with capitals column base.</decoNote>
                         </decoDesc>   
-                        <additions/> <!--Marginalia etc.-->
+                        <additions>On some passages added interlinear for reciting directions - see fol. 102r. The letter <quote>c</quote> (abbreviating probably cantor) is used to mark those sections where the evangelist narrate the story; <quote>t</quote> for the verses in which Christ himself speaks, <quote>a</quote> for the verses in which character(s) other than Christ speak. These annotations are present in the passages used for Passion readings during Lent and Easter: 
+                            <list>
+                                <item>fols. 101vb, line 30 - 104ra, line 3 (Lc 22,35-23,49)</item>
+                            </list></additions>
                         <bindingDesc>
                             <binding notBefore="0801" notAfter="0900" contemporary="true">
-                                <p>Karolingische Einband aus dicken Eichenholzdeckeln.</p>
+                                <p>Carolingian binding with thick wooden covers. </p>
                             </binding>
                         </bindingDesc>
-                        <accMat/> <!--z.B. Fragmente oder beiliegende Notizen, die nicht Teil der HS sind-->
+                        <accMat/>
                     </physDesc>
                     <history>
                         <origin>
@@ -369,7 +404,29 @@
     </teiHeader>    
     <text>
         <body>            
-            <p> ... </p>
+            <p>
+              <hi rend="rubric">incipiunt lectiones euangelii a septuagisima usque in pascha</hi>. 
+              Dom. I ad sanctum laurentium secundum matheum caput cc in ill. dixit ihesus discipulis suius parabolam hand simile est regnum caelorum homini patri familias usque pauci uero electi.
+              Dom II in sexagesima ad sanctum paulum secundum lucam cap lxxvi 
+              In quinquiagesima ad sanctum petrum secundum lucam
+              Fer. IIII ad sanctam sauinam
+              Fer. V ad sanctum georgium
+              Fer. VI in pamachiis
+              Die sabb ad sanctum laurentium in regione tertia
+              Die dom. in XLma ad lateranis 
+              Fer. II ad uincula
+              Fer. III ad sanctam anastasiam
+              <hi rend="rubric">Mense primo</hi>
+                Fer. IIII ad sanctam mariam 
+                Fer. V ad sanctum laurentium in formonsum (Stationsbezeichnung - die Kirche S. Laurenzo in Panisperna ??)
+                Fer. VI ad apostolos
+                Die sabb. XII lectio ad sanctum petrum
+                Ebd. II die dom. uacat req. ebd. superiore feria V de muliere chananea
+                Fer II ad sanctum clementem
+                Fer. III ad sanctam balbinam
+                Fer. IIII ad sanctam ceciliam
+                Fer. V. calisti transtiberi
+            </p>
         </body>
     </text>
 </TEI>

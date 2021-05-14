@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vienna, Österreichische Nationalbibliothek, Cod. 1014. Multimodale Repräsentation"--></title>
+                <respStmt><!-- respStmt mit Angabe von persName optional mit affiliation. Beliebig viele resp wie z.B.: Erstellung der MSI-Aufnahmen, Bildbearbeitung, TEI-Encoding, Handschirftenbeschreibung, Textedition ... Im Fall von Beschreibungen, basierend auf älteren Beschreibungen, siehe auch msDesc->additional->adminInfo->recordHist: provides information about the source ... of the ... object description itself -->  
+                    <resp></resp>
+                    <persName>
+                        <forename></forename>
+                        <surname></surname>
+                        <affiliation></affiliation>
+                    </persName>
+                </respStmt>                
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities, Universität Graz</publisher>
+                <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
+                <availability status="restricted">
+                    <licence></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en" xml:id="onb-cod-1014">
+                    <msIdentifier>
+                        <country>Austria</country>
+                        <settlement>Vienna</settlement>
+                        <institution></institution>
+                        <repository>Österreichische Nationalbibliothek</repository>
+                        <idno>Cod. 1014</idno>
+                        <altIdentifier type="former"> 
+                            <idno>Rec. 3326</idno>
+                        </altIdentifier>                       
+                    </msIdentifier>
+                    <head>
+                        <title>The Mondsee Homiliary</title>
+                        <origDate notBefore="0811" notAfter="0819">811-819</origDate>
+                        <origPlace>Mondsee</origPlace>
+                    </head> 
+                    <msContents>
+                        <textLang mainLang="lat"/> 
+                        <msItem n="70">
+                            <locus>16-19</locus>
+                            <note>DOM. POST ASCENSA DOMINI. LECTIO SANCTI EUANGELII SECUNDUM IOHANNEM [IOH. XV, 26- XVI, 4], cap. (?). In illo tempore dixit Ihesus discipulis suis: Cum uenerit Paracletus quem ego mittam uobis a Patre, Spiritum ueritatis qui a Patre procedit, ille testimonium perhibebit de me, et reliqua usque ad quia ego dixi uobis.
+                            OMELIA LECTIONIS EIUSDEM.
+                            Dominus noster Ihesus Christus, in sermone quem modo audistis, ait discipulis suis: Cum uenerit Paracletus..., tamquam diceret : Iudaei me odio habuerunt et occiderunt...//...per paschalia sacramenta prerogauit Ihesus Christus Dominus noster, qui uiuit et regnat cum Patre in unitate Spiritus Sancti per omnia saecula saecolurum. Amen.</note>
+                            <note>Extraits entremêlés (avec quelques gloses) d'AUGUSTIN, Tract. in Ioann., 92, 1 (fin) et 2 (début), P.L. 35, 1863, et de BEDE, Hom., II, 10 (11, 16), P.L. 94, 182C10-D7, 183B5-13 et D5-10, 184A10-B6, 184C1-185A4, 186A5-B10 et 189B5-D5.</note>
+                        </msItem>
+                        <msItem n="71">
+                            <locus>19r-21v</locus>
+                            <rubric>IN VIGILIA PENTECOSTEN. Lectio sancti euangelii secundum iohannem</rubric>
+                            <note type="marginal">cap. cxxvii.</note> 
+                            <incipit><ref type="biblical" cRef="Io_14,15-14,21">Si diligitis me, mandata mea seruate <gap reason="omitted"/> manifestabo ei me ipsum</ref>. Quia uigilias uenturae sollemnitatis de aduentu spiritus sancti caelebramus, fratres karissimi, debemus ipsi congruere sollemnitati quam colimus</incipit>
+                           <explicit>hoc est in claritate quam habuit priusquam mundus esset apud Patrem, cum quo uiuit et regnat deus in uinitate spiritus sancti per omnia saecula saeculorum amen.</explicit>
+                            <note>Drawing on: 
+                                <bibl>BEDE, Hom., II, 11 (=II, 17), P.L. 94, 189D16-190B2</bibl>; 
+                                <bibl>AUGUSTIN, Tract. in loann., 74, 1-2, P.L. 35, 1826-1828 (abrégé)</bibl>; 
+                                <bibl>BEDE, I. c., 190D9-191C4, 192D10-193A15, 193B5-C6 et 197A13</bibl>.</note>
+                        </msItem>
+                        <msItem n="72">
+                            <locus>21v</locus>
+                            <rubric>DIE SANCTO PENTECOSTES</rubric>
+                            <note type="marginal">cap. cxxx.</note>
+                            <incipit><ref type="biblical" cRef="Io_14,23-14,31">Si quis diligit me, sermonem meum seruabit <gap reason="omitted"/> dedit mihi sic facio</ref>. Hodiernam sollemnitatem, dilectissimi cum precipuis festis esse uenerandam, omnia catholicorum corda cognoscant. Nec dubium est quantae huic diei <gap reason="lacuna"/></incipit>
+                            <note>Lacuna: one quire with homilies Nr. 73-76.</note>
+                        </msItem>
+                        <msItem n="77">
+                            <locus>22r-24v</locus>
+                            <incipit defective="true">cum psalmista die noctuque meditanda. In quo enim corrigit iuuenior uiam suam, nisi in custodiendo sermones Domini</incipit>
+                            <explicit>Immo etiam ipsi templum dei sanctum in quo uenire et mansionem facere dignetur existere curemus. Per ihesum christum dominum nostrum qui uiuit et regnat in saecula saeculorum amen.</explicit>
+                            <note>Drawing on: BEDE, In Luc., v, P.L. 92, 387C2-388A2 (abrégé); AMBROISE, In Luc., v, 11-13, P.L. 15, 1638C3-1639B7; JÉRÔME, In Matth., 1x, 3-6, P.L. 26, 55B1-C8 (suivi d'une glose); BÈDE, I. c., 388C15 389A1, et Hom., 1, 16 (= I, 23), P.L. 94, 86B14-D3, 87A13-B14 et 86A12-B2.</note>
+                        </msItem>
+                        <msItem n="78">
+                            <locus>24v-27v</locus>
+                            <rubric>SABBATO POST PENTECOSTEN</rubric>
+                            <note type="marginal">cap. <gap reason="illegible"/>.</note>
+                            <incipit><ref type="biblical" cRef="Lc_4,38-4,43">Surgens ihesus de synagoga intrauit in domum Symonis<gap reason="omitted"/> surgens ministrabat illis et reliqua</ref>. Qua ergo dominus et saluator noster ad liberandum a potestate diaboli humanum genus uenerat, bene etiam primo secundum ordinem Lucae euangelistae</incipit>
+                            <explicit>in caelo non in terra mercis promittitur sanctis. Per dominum nostrum ihesum christum qui cum patre et spiritu sancto uiuit et regnat in saecula saeculorum amen.</explicit>
+                            <note>Sources: Court prologue (5 lignes); BEDE, In Luc., Iv, P.L. 92, 379C15 D5; AMBROISE, In Luc., IV, 57 (en entier), P.L. 15, 1629CD; BEDE, I. c., 380B4-14; exhortation imitée de Césaire (20 lignes); BEDE, 1. c., 380B15-D11; ISIDORE, Synonyma, 11, 91 et 95-99, P.L. 83, 865C6-21 (add: Considera, et semper Deum time), 860B11-13 et C7-D1, 861A1-2 et A7-B10 (quelques variantes).</note>
+                        </msItem>
+                        <msItem n="79">
+                            <locus>27v-30r</locus>
+                            <rubric>Dominica octaua pentecosten. Lectio sancti euangelii saecundum iohannem</rubric>
+                            <note type="marginal">cap. xxiiii.</note>
+                            <incipit>In illo tempore <ref type="biblical" cRef="Io_3,1-3,16">erat homo ex pharisaeis Nicodemus nomine <gap reason="omitted"/> uitam aeternam</ref>. Cum diuersis signis ac uirtutibus dominus et saluator noster diuinitatis suae potentiam</incipit>
+                            <explicit>sine aliqua miseria conceditur aeterna felicitas.</explicit>
+                            <note>Barre: source inconue.</note>
+                        </msItem>
+                        <msItem n="">
+                            <locus></locus>
+                            <rubric></rubric>
+                            <note type="marginal"></note>
+                            <incipit><ref type="biblical" cRef=""> <gap reason="omitted"/></ref>.</incipit>
+                            <explicit></explicit>
+                            <note></note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent>
+                                    <measure type="leaf" quantity="0" unit="folio"></measure>
+                                    <dimensions type="leaf" unit="mm">
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </extent>
+                                <foliation></foliation>
+                                <collation>
+                                    Original order of quires: fols 1-5, 16-21, 22-37, 127-190, 118-126, 190a-198 and 38-117.
+                                    <formula></formula>
+                                </collation>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+<!--                                mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
+                                <layout ruledLines="0" writtenLines="0" columns="0">
+                                    <dimensions type="written" unit="mm">
+                                        <height max="0" min="0"></height>
+                                        <width max="0" min="0"></width>
+                                    </dimensions> 
+<!--                                    optional Zeilenhöhe-->
+                                    <dimensions type="lineHeight">
+                                        <height min="0" max="0"></height>
+                                    </dimensions>
+                                   <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote script="x" medium="x"></scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote type="x"/>
+                        </decoDesc>   
+                        <additions/> <!--Marginalia etc.-->
+                        <bindingDesc>
+                            <binding notBefore="1401" notAfter="1500">
+                                <p/>
+                            </binding>
+                        </bindingDesc>
+                        <accMat/> <!--z.B. Fragmente oder beiliegende Notizen, die nicht Teil der HS sind-->
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate notBefore="0811" notAfter="0819">811-819</origDate>
+                        </origin>
+                        <provenance/>
+                        <acquisition/>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <p>Description based on (<date when="2020">2020</date>) nach:
+                                <bibl></bibl>
+                                </p>
+                            </recordHist>
+                        </adminInfo>
+                        <surrogates>
+                            <ref/>
+                        </surrogates> 
+                        <listBibl>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl> <!--die Editionsprinzipien und Verfahren, die bei der Kodierung des Textes angewandt wurden-->
+                <p></p>
+            </editorialDecl>
+        </encodingDesc>
+    <revisionDesc>
+        <listChange>
+            <change></change>
+        </listChange>
+    </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="" n="1r"/>
+    </facsimile>
+    <text>
+        <body>
+            <head>
+                <title></title>
+            </head>
+            <p><pb n="1r"/> ... </p>
+        </body>
+    </text>
+</TEI>

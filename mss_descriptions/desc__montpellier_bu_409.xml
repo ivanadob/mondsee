@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Montpellier, Bibliothèque interuniversitaire 409</title>
+                <respStmt>
+                    <resp>Manuscript description and TEI-encoding</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                        <affiliation></affiliation>
+                    </persName>
+                </respStmt>                
+            </titleStmt>
+            <publicationStmt>
+                <publisher></publisher>
+                <idno type="PID"></idno>
+                <availability status="restricted">
+                    <licence></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en" xml:id="montpellier_bu_409">
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Montpellier</settlement>
+                        <institution></institution>
+                        <repository>Bibliothèque interuniversitaire</repository>
+                        <collection>Section Médecine</collection>
+                        <idno>H 409</idno>                                               
+                    </msIdentifier>
+                    <head>
+                        <title>Psalterium romanum cum interpretationibus</title>
+                        <origDate notBefore="0751" notAfter="0788">s. VIII<hi rend="sup">2</hi> (before 788)</origDate>
+                        <origPlace>Mondsee</origPlace>
+                    </head> 
+                    <msContents>
+                        <textLang mainLang="lat"/>
+                        <msItem>
+                            <locus from="x" to="x"/>
+                            <title/> <!--optional @type = attested (so in MS), added (by later scribe), elaborated (by cataloguer) -->
+                            <author/>
+                            <rubric/>
+                            <incipit/> <!--optional @defective with value true or false-->
+                            <explicit/> <!--optional @defective with value true or false-->
+                            <finalRubric/>
+                            <colophon></colophon>
+                            <decoNote></decoNote>
+                            <note/>
+                            <filiation></filiation>
+                            <listBibl>
+                                <bibl/>
+                            </listBibl>
+                            <textLang mainLang="deu"></textLang> <!--wenn das msItem in einer anderen Sprache als den Rest der HS geschrieben ist-->
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent>
+                                    <measure type="leaf" quantity="0" unit="folio">i (medieval parchment) + 346</measure>
+                                    <dimensions type="leaf" unit="mm">
+                                        <height>210</height>
+                                        <width>120</width>
+                                    </dimensions>
+                                </extent>
+                                <foliation>Modern foliation in the upper right corner of every recto, counting f. 321 twice.</foliation>
+                                <collation>The codex is made of of sexterniones (ff. 1-330); f. 1 is a singleton (Unterkircher suggested it was originally placed before f. 17); the first leaf of quire 10 missing (between ff. 121 and 122); 
+                                    Ff. 331-346 are two quaterniones without quire marks <formula></formula> <signatures>Quire marks in the lower margin of the last verso of quires 1-25 in roman numerals in red ink.</signatures>
+                                </collation>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ruledLines="23" writtenLines="22" columns="2">
+                                    <dimensions type="written" unit="mm">
+                                        <height>182</height>
+                                        <width>107</width>
+                                    </dimensions> 
+                                    <!--<dimensions type="lineHeight">
+                                        <height min="0" max="0"></height>
+                                    </dimensions>-->
+                                    Ruled in hardpoint on the flesh side, three bifolia at a time. Vertical double lines on both sides of the columns; the <term>x-height</term> of text lines defined with double lines.                                   
+                                </layout>
+                                <layout writtenLines="24" columns="2">
+                                    <dimensions type="written" unit="mm">
+                                        <height>182</height>
+                                        <width>107</width>
+                                    </dimensions>
+                                    The two additional quaternio quires on <locus from="331r" to="346v">ff. 331-346</locus> are written in two columns of each 24 lines; f. 345 has 35-37 lines.
+                                    Prickings in the outer margin guiding the ruling; the double bounding lines at the outer margin of each column continue right to the edge of the page.
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scribe="psalter1" script="carolmin" scope="major">The first hand writes ff. <locus>3r-22v</locus>. As observed by Bischoff this scribe wrote also the Epistulae Pauli (<ref type="altMs">Vienna, ÖNB, Cod. Ser. n. 2065</ref>).</handNote>
+                            <handNote scribe="psalter2" script="carolmin" scope="major">The second hand continued with ff. <locus>23r-330v</locus>. Description by Natalie Maag, Bischoff.</handNote>
+                            <handNote scribe="psalter3" script="carolmin" scope="minor">The third is responsible for the later added part.</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote script="x" medium="x">Lowe described the script <quote></quote> (<bibl><abbr>CLA</abbr> VI, 795.</bibl>)</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote type="x"/>
+                        </decoDesc>   
+                        <additions/> <!--Marginalia etc.-->
+                        <bindingDesc>
+                            <binding contemporary="false" notBefore="1701">
+                                <p>Modern leather binding.</p>
+                            </binding>
+                        </bindingDesc>
+                        <accMat/> <!--z.B. Fragmente oder beiliegende Notizen, die nicht Teil der HS sind-->
+                    </physDesc>
+                    <history>
+                        <origin>The manuscript was probably written in the <rs type="corporate">Mondsee Abbey</rs> for a member of the royal family.
+                            <origDate notBefore="0001" notAfter="0001"/>
+                        </origin>
+                        <provenance>The litanies added on ff. 331-346 suggests that the manuscript was at the <rs type="corporate">nunnery of Notre-Dame de Soissons</rs> before <date notAfter="0794">794</date> (mentioned are Pope Adrian (d. 795) and queen Fastrade (d. 794), spose of Charlemagne). A prayer at the end of the litany also mentined the name of Charlemagne's daughter, Rotrude (d. 810), who became a nun at Soissons.</provenance>
+                        <provenance>Probably already in the first half of the 9th c. the manuscript was at the Abbey of Saint-Germain d'Auxerre, where the text on f. 1r was added. According to Guy Lobrichon the transfer was made by the intermediance of bishop Heribald or thanks to count Conrad (<bibl>Guy Lobrichon, ‘L'atelier auxerrois’, in L’école carolingienne d’Auxerre: de Murethach à Rémi, 830-908, ed. Dominique Iogna-Prat, Colette Jeudy, and Guy Lobrichon (Paris: Beauchesne, 1991), 59–69, 68, n. 10</bibl>).</provenance>
+                        <provenance>The manuscript was later belonged to the Bouhier family (see ex libris on the title page: <quote>CODEX MS Bibliothecae Buherianae E. 69 MDCCXXI</quote>).</provenance>
+                        <provenance>Later the manuscript passed to <rs type="place">Clairvaux</rs>, then to <rs type="place">Troyes</rs>, and finally to <rs type="place">Montpellier</rs> (<bibl><abbr>CLA</abbr> VI, 795</bibl>).</provenance>
+                        <acquisition/>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <p>Description derived from
+                                    <bibl>Unterkircher, Franz. Die Glossen des Psalters von Mondsee. Spicilegium Friburgense. Texte zur Geschichte des kirchlichen Lebens 20. Freiburg: Universutätsverlag, 1974</bibl>, 
+                                    <bibl>entry in <ref target="http://www.calames.abes.fr/pub/#details?id=D01041867">Calames.abes.fr</ref></bibl>
+                                    with additional research by Ivana Dobcheva.
+                                </p>
+                            </recordHist>
+                        </adminInfo>
+                        <surrogates>
+                            <ref/>
+                        </surrogates> 
+                        <listBibl>
+                            <bibl><abbr>CLA</abbr> VI, 795.</bibl>
+                            <bibl>Lobrichon, Guy. ‘L'atelier auxerrois’. In L’école carolingienne d’Auxerre: de Murethach à Rémi, 830-908. Ed. Dominique Iogna-Prat, Colette Jeudy, and Guy Lobrichon. (Paris: Beauchesne, 1991), 59–69, 68, n. 10.</bibl>
+                        </listBibl>
+                    </additional>                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p></p>
+            </editorialDecl>
+        </encodingDesc>
+    <revisionDesc>
+        <listChange>
+            <change></change>
+        </listChange>
+    </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="" n="1r"/>
+    </facsimile>
+    <text>
+        <body>
+            
+            <p> ... </p>
+        </body>
+    </text>
+</TEI>
