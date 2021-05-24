@@ -30,6 +30,21 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>xsl/DescriptionTextHTML.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DescrTextHTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>../../Downloads/MissingmondseeFragmentarium%20(1)%20(1).xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -140,21 +155,6 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>TEI2TEX</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>xsl/DescriptionTextHTML.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>DescrTextHTML</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
