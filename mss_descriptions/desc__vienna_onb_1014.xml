@@ -99,37 +99,134 @@
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <extent>
-                                    <measure type="leaf" quantity="0" unit="folio"></measure>
+                                    <measure type="leaf" quantity="202" unit="folio">202 fols</measure>
                                     <dimensions type="leaf" unit="mm">
-                                        <height></height>
-                                        <width></width>
+                                        <height>250</height>
+                                        <width>155</width>
                                     </dimensions>
                                 </extent>
-                                <foliation></foliation>
+                                <foliation>Modern foliation in pencil in the upper right corner of every recto: 1-190, 190a-190c, 191-198.</foliation>
                                 <collation>
                                     Original order of quires: fols 1-5, 16-21, 22-37, 127-190, 118-126, 190a-198 and 38-117.
-                                    <formula></formula>
+                                    <formula>
+                                        
+                                        1<hi rend="sup">6(-1)</hi> (missing 6;  fols 1-5), 2<hi rend="sup"></hi></formula>
                                 </collation>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-<!--                                mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
-                                <layout ruledLines="0" writtenLines="0" columns="0">
+                                <layout n="1" ruledLines="8" columns="1">
+                                    <locus>1r</locus> (Dedication) written in 8 long lines; textblock measures
                                     <dimensions type="written" unit="mm">
-                                        <height max="0" min="0"></height>
-                                        <width max="0" min="0"></width>
-                                    </dimensions> 
-<!--                                    optional Zeilenhöhe-->
+                                        <height>130</height>
+                                        <width min="10">min 100</width>
+                                    </dimensions>; line height about
                                     <dimensions type="lineHeight">
-                                        <height min="0" max="0"></height>
+                                        <height min="10" max="12">12-13 mm</height>
                                     </dimensions>
-                                   <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
-                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                    <dimensions type="xHeight">
+                                        <height min="7" max="8">7-8 mm</height>
+                                    </dimensions>
+                                    Ruling by hard point, for each text line two ruled lines - one base and one on the x-height - probably using the ruling for the table of content by skipping every second ruled line.
                                 </layout>
+                                <layout n="2" ruledLines="24" writtenLines="24" columns="1">
+                                    <locus>1v-5v</locus> (table of content) written in 24 long lines; textblock measures
+                                    <dimensions type="written" unit="mm">
+                                        <height>205</height>
+                                        <width>123</width>
+                                    </dimensions> 
+                                    <dimensions type="lineHeight" unit="mm">
+                                        <height>8,5</height>
+                                    </dimensions>
+                                    <dimensions type="marginAbove" unit="mm">
+                                        <dim>15</dim>
+                                    </dimensions>
+                                    <dimensions type="marginBelow" unit="mm">
+                                        <dim>30</dim>
+                                    </dimensions>
+                                    <dimensions type="marginOuter" unit="mm">
+                                        <dim>25</dim>
+                                    </dimensions>
+                                    <dimensions type="marginInner" unit="mm">
+                                        <dim>5</dim>
+                                    </dimensions>
+                                    Ruling: double lines (ca. 10 mm distance) for justification on both sides of the text block (due to blind ruling) the one to the right of the page ignored, text overflow. (cf. D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/1B-1B/JD</formula>)
+                                </layout>
+                                <layout ruledLines="20 21" writtenLines="19 21" columns="1">
+                                    <locus>6r-15v</locus> (later addition) rather irregular in terms of using the ruled space due to parchment imperfections (scribe left oft last ruled lines blank).
+                                    <dimensions type="written" unit="mm">
+                                        <height>200</height>
+                                        <width>130</width>
+                                    </dimensions>
+                                    <dimensions type="lineHeight">
+                                        <height>10</height>
+                                    </dimensions>
+                                    <dimensions type="marginAbove" unit="mm">
+                                        <dim>25</dim>
+                                    </dimensions>
+                                    <dimensions type="marginBelow" unit="mm">
+                                        <dim>20</dim>
+                                    </dimensions>
+                                    <dimensions type="marginOuter" unit="mm">
+                                        <dim>15</dim>
+                                    </dimensions>
+                                    <dimensions type="marginInner" unit="mm">
+                                        <dim>5</dim>
+                                    </dimensions>
+                                    (cf. D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula>).
+                                </layout>
+                                <layout ruledLines="24" writtenLines="24" columns="1">
+                                    <locus>16-</locus>
+                                    <dimensions type="written" unit="mm">
+                                        <height>205</height>
+                                        <width>115</width>
+                                    </dimensions>
+                                    <dimensions type="lineHeight">
+                                        <height>8,5</height>
+                                    </dimensions>
+                                    <dimensions type="marginAbove" unit="mm">
+                                        <dim>8-15</dim>
+                                    </dimensions>
+                                    <dimensions type="marginBelow" unit="mm">
+                                        <dim>20-35</dim>
+                                    </dimensions>
+                                    <dimensions type="marginOuter" unit="mm">
+                                        <dim>27-30</dim>
+                                    </dimensions>
+                                    <dimensions type="marginInner" unit="mm">
+                                        <dim>2-5</dim>
+                                    </dimensions>
+                                    Vertical double lines for justification (8 mm distance) running to the edge of the page.
+                                    (cf. D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula>).
+                               
+                                </layout>
+                                <!--<layout ruledLines="0" writtenLines="0" columns="0">
+                                    <dimensions type="written" unit="mm">
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                    <dimensions type="lineHeight">
+                                        <height></height>
+                                    </dimensions>
+                                    <dimensions type="marginAbove" unit="mm">
+                                        <dim></dim>
+                                    </dimensions>
+                                    <dimensions type="marginBelow" unit="mm">
+                                        <dim></dim>
+                                    </dimensions>
+                                    <dimensions type="marginOuter" unit="mm">
+                                        <dim></dim>
+                                    </dimensions>
+                                    <dimensions type="marginInner" unit="mm">
+                                        <dim></dim>
+                                    </dimensions>
+                                    (cf. D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula>).
+                                </layout>-->
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
+                            Slop: 10r
+                            <handNote scribe="x" script="x" medium="x" scope="major"></handNote>
                         </handDesc>
                         <scriptDesc>
                             <scriptNote script="x" medium="x"></scriptNote>
