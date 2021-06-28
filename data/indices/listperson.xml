@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Person index</title>
+            <respStmt>
+               <resp>Created by: </resp>
+               <persName>Ivana Dobcheva</persName>
+            </respStmt>
+         </titleStmt>         
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listPerson>
+            
+            <person xml:id="augustinus">
+               <persName xml:id="gnd_118505114" ref="http://d-nb.info/gnd/118505114">Augustinus</persName>
+               <persName>Pseudo-Augustinus</persName>
+            </person>
+            <person xml:id="gregorius_magnus">
+               <persName xml:id="gnd_118541838" ref="http://d-nb.info/gnd/118541838">Gregorius Magnus</persName>
+            </person>
+            <person xml:id="smaragdus">
+               <persName xml:id="gnd_118614983" ref="http://d-nb.info/gnd/118614983">Smaragdus S. Michaelis</persName>
+            </person>
+            <person xml:id="">
+               <persName xml:id="" ref=""></persName>
+            </person>
+            <!--<person xml:id="">
+               <persName xml:id="" ref=""></persName>
+            </person>
+            <person xml:id="">
+               <persName xml:id="" ref=""></persName>
+            </person>-->
+         </listPerson>
+      </body>
+  </text>
+</TEI>

@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title> <!-- Titel des TEI-Dokumentes mit Angabe des HS Signatur. Beispiel: "Wien, Österreichische Nationalbibliothek, Fragm. 854. Multimodale Repräsentation"--></title>
-                <respStmt><!-- respStmt mit Angabe von persName optional mit affiliation. Beliebig viele resp wie z.B.: Erstellung der MSI-Aufnahmen, Bildbearbeitung, TEI-Encoding, Handschirftenbeschreibung, Textedition ... Im Fall von Beschreibungen, basierend auf älteren Beschreibungen, siehe auch msDesc->additional->adminInfo->recordHist: provides information about the source ... of the ... object description itself -->  
+                <respStmt><!-- respStmt mit Angabe von persName optional mit affiliation. Beliebig viele resp wie z.B.: Erstellung der MSI-Aufnahmen, Bildbearbeitung, Handschirftenbeschreibung, Textedition ... Im Fall von Beschreibungen, basierend auf älteren Beschreibungen, siehe auch msDesc->additional->adminInfo->recordHist: provides information about the source ... of the ... object description itself -->  
                     <resp></resp>
                     <persName>
                         <forename></forename>
@@ -13,6 +13,17 @@
                     </persName>
                 </respStmt>                
             </titleStmt>
+            <editionStmt>
+                <edition>Elektronische Ausgabe nach TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 konforme Kodierung durch </resp>
+                    <persName>
+                        <forename></forename>
+                        <surname></surname>
+                        <affiliation></affiliation>
+                    </persName>
+                </respStmt>
+            </editionStmt>
             <publicationStmt>
                 <publisher>Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities, Universität Graz</publisher>
                 <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
@@ -97,9 +108,11 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
+                            <summary></summary>
                             <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
                         </handDesc>
                         <scriptDesc>
+                            <summary></summary>
                             <scriptNote script="x" medium="x"></scriptNote>
                         </scriptDesc>
                         <decoDesc>
@@ -137,9 +150,11 @@
                         </listBibl>
                     </additional>
 <!--  XXXXXXXXXXXXX  Für Handschriftenteile innerhalb einer Sammelhandschrift (composite volumes) die urpsrünglich separaten kodikologischen Einheiten waren - > msPart altIdentifier @type = partial -->                           <msPart>
+                        <msIdentifier>
                         <altIdentifier type="partial">
                             <idno>Codicological unit 1 = ff. </idno>
                         </altIdentifier>
+                        </msIdentifier>
                         <head>
                             <title></title>
                             <origDate notBefore="0001" notAfter="0001"></origDate>
@@ -219,9 +234,11 @@
                     </msPart>
                     <!--Für PALIMPSESTE -> msPart altIdentifier @type = palimpsest -->
                     <msPart>
-                        <altIdentifier type="palimpsest">
+                        <msIdentifier>
+                            <altIdentifier type="palimpsest">
                             <idno>Palimpsest auf ff. XXX</idno>
                         </altIdentifier>
+                        </msIdentifier>
                         <head>
                             <title></title>
                             <origDate notBefore="0001" notAfter="0001"></origDate>

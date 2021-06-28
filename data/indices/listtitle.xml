@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<register>
+    <work xml:id="augustinus_sermo_202">
+        <author ref="#augustinus">(Ps.-) Augustinus</author>
+        <title>Sermo CCII. In Epiphania Domini, IV</title>
+    </work>
+    <work xml:id="augustinus_sermo_245">
+        <author ref="#augustinus">(Ps.-) Augustinus</author>
+        <title>Sermo CCXLV. De mysterio trinitatis et incarnationis</title>
+    </work>
+    <work xml:id="augustinus_sermo_195">
+        <author ref="#augustinus">(Ps.-) Augustinus</author>
+        <title>Sermo CXCV. De Annuntiatione Dominica, III</title>
+    </work>
+    <work xml:id="corintheos" ref="http://d-nb.info/gnd/4006818-3">
+        <title>Epistola ad Corintheos</title>
+    </work>
+    <work xml:id="corintheos_marcion" ref="http://d-nb.info/gnd/">
+        <author ref="#"></author>
+        <title>The Marcionite prologue to the first epistle to the Corinthians</title>
+        <incipit>Corinthii sunt achaei et similiter</incipit>
+        <note></note>
+        <bibl></bibl>
+    </work>
+    <work xml:id="expositio_regulam_sb">
+        <author ref="#smaragdus">Smaragdus S. Michaelis</author>
+        <title>Expositio in regulam Sancti Benedicti</title>
+    </work>
+    <work xml:id="gregorius_homiliae_8" ref="http://d-nb.info/gnd/4439551-6">
+        <author ref="#gregorius_magnus">Gregorius Magnus</author>
+        <title>In evangelia homiliae. Homilia 8</title>
+        <note></note>
+        <bibl></bibl>
+    </work>
+    <work xml:id="gregorius_homiliae_12" ref="http://d-nb.info/gnd/4439551-6">
+        <author ref="#gregorius_magnus">Gregorius Magnus</author>
+        <title>In evangelia homiliae. Homilia 12</title>
+        <note></note>
+        <bibl></bibl>
+    </work>
+    <work xml:id="gregorius_homiliae_15" ref="http://d-nb.info/gnd/4439551-6">
+        <author ref="#gregorius_magnus">Gregorius Magnus</author>
+        <title>In evangelia homiliae. Homilia 15</title>
+        <note></note>
+        <bibl></bibl>
+    </work>
+    <work xml:id="philomenem" ref="http://d-nb.info/gnd/4075950-7">
+        <title>Epistola ad Philomenem</title>
+    </work>
+    <work xml:id="romanos" ref="http://d-nb.info/gnd/4075940-4">
+        <title>Epistola ad Romanos</title>
+    </work>
+    <work xml:id="thessalonicenses" ref="http://d-nb.info/gnd/4075941-6">
+        <title>Epistola ad Thessalonicenses</title>
+        <note></note>
+        <bibl></bibl>
+    </work>"http://d-nb.info/gnd/">
+        <author ref="#"></author>
+        <title></title>
+        <note></note>
+        <bibl></bibl>
+    </work>
+    <work xml:id="" ref="http://d-nb.info/gnd/">
+        <author ref="#"></author>
+        <title></title>
+        <note></note>
+        <bibl></bibl>
+    </work>
+</register>
