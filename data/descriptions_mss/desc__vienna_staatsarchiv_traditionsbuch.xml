@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vienna, Staatsarchiv, Blau 70</title>
+                <respStmt>  
+                    <resp>Described by </resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname> Dobcheva</surname>
+                    </persName>
+                </respStmt>                
+            </titleStmt>
+            <editionStmt>
+                <edition>Elektronische Ausgabe nach TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 encoding by </resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname> Dobcheva</surname>
+                    </persName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities, Universität Graz</publisher>
+                <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
+                <availability status="restricted">
+                    <licence></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="eng" xml:id="vienna_traditionsbuch">
+                    <msIdentifier>
+                        <country>Austria</country>
+                        <settlement>Vienna</settlement>
+                        <institution>Haus-, Hof-, und Staatsarchiv</institution> <!--z.B. : Universität Wien-->
+                        <repository>Handschriftensammlung</repository>
+                        <idno>Blau 70</idno>
+                        <altIdentifier type="former">
+                            <idno>Böhn Hs. 179</idno>
+                        </altIdentifier>                       
+                    </msIdentifier>
+                    <head>
+                        <title>Traditionsbuch</title>
+                        <origDate notBefore="0851" notAfter="1200">s. IX<hi rend="sup">2</hi> - s. XII<hi rend="sup">ex</hi></origDate>
+                        <origPlace>Mondsee</origPlace>
+                    </head>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent>
+                                    <measure type="leaf" quantity="70" unit="folio">I + 70 + I</measure>
+                                    <dimensions type="leaf" unit="mm">
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </extent>
+                                <foliation/>
+                                <collation>The mansucript is a Sammelhandschrift made up of four codicological units: 1) fols. 1-52; 2) fols. 53-58; 3) fols. 59-66; 4) fols. 67-70. The quire structure is recorded by <bibl><abbr>Rath 1989</abbr>, p. 11</bibl>:
+                                    <formula>1* + 2.IV<hi rend="sup">16</hi> + (IV-1)<hi rend="sup">23</hi> + 3.IV<hi rend="sup">47</hi> + (III-1)<hi rend="sup">52</hi> + 1.III<hi rend="sup">58</hi> + 1.IV<hi rend="sup">66</hi> + 4.1<hi rend="sup">70</hi> + 1*</formula>.
+                                </collation>
+                                <condition/>
+                            </supportDesc>
+                        </objectDesc>                        
+                        <bindingDesc>
+                            <binding notBefore="0001" notAfter="0001">
+                                <p/>
+                            </binding>
+                        </bindingDesc>
+                        <accMat/> <!--z.B. Fragmente oder beiliegende Notizen, die nicht Teil der HS sind-->
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate notBefore="0001" notAfter="0001"/>
+                        </origin>
+                        <provenance/>
+                        <acquisition/>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <p>Description (<date when="2020">2020</date>) based on:
+                                    <bibl><abbr>Rath 1989</abbr></bibl>.
+                                </p>
+                            </recordHist>
+                        </adminInfo>
+                        <surrogates>
+                            <ref/>
+                        </surrogates> 
+                        <listBibl>
+                            <bibl/>
+                        </listBibl>
+                    </additional>                          
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>Codicological unit A = ff. 1-51</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <head>
+                            <title></title>
+                            <origDate notBefore="0851" notAfter="0900">s. IX <hi rend="sup">2</hi></origDate>
+                            <origPlace>Mondsee</origPlace>
+                        </head>
+                        <msContents>
+                            <textLang mainLang="lat" otherLangs=""/> <!--nach ISO-639-3 : lat, deu, gmh etc. : https://de.wikipedia.org/wiki/%C3%9Cberblicksliste_der_ISO-639-3-Codes-->
+                            <msItem>
+                                <locus from="x" to="x"/>
+                                <title/>
+                                <author/>
+                                <rubric/>
+                                <incipit/>
+                                <explicit/>
+                                <finalRubric/>
+                                <colophon></colophon>
+                                <decoNote></decoNote>
+                                <note/>
+                                <filiation></filiation>
+                                <listBibl>
+                                    <bibl/>
+                                </listBibl>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fascicle">
+                                <supportDesc material="perg">
+                                    <support>
+                                        <p>According to <bibl><abbr>Rath 1989</abbr></bibl> teilweise wenig sorgfältig vorbereitetes und beschnittenes Pergament ... vielvach von minderer Qualit#t und weist Löcher, fehlende Ecken sowie unsauber neschnittene Ränder auf.</p>
+                                    </support>
+                                    <extent>
+                                        <measure type="leaf" quantity="0" unit="folio">52</measure>
+                                        <dimensions type="leaf" unit="mm">
+                                            <height>235-250</height>
+                                            <width>175-180</width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation/>
+                                    <collation>The unit is made up of 7 quaternionen:
+                                        <formula>I<hi rend="sup">8</hi> (ff. 1-8) + II<hi rend="sup">8</hi> (ff. 9-16) + III<hi rend="sup">8(-1)</hi> (ff. 17-23, missing 8) + IV<hi rend="sup">8</hi> (ff. 27-31) + V<hi rend="sup">8</hi> (ff. 32-39, 2 and 6 singletons) + VI<hi rend="sup">8</hi> (ff. 40-47) + VII<hi rend="sup">5</hi> (ff. 48-52, 1 is a singleton)</formula>.
+                                    </collation>
+                                    <condition>To judge by the smudge on the outher bifolia of most quires (<locusGrp>
+                                        <locus>1r</locus>
+                                        <locus>23v</locus>
+                                        <locus>32r</locus>
+                                        <locus>39v</locus>
+                                        <locus>49r</locus>
+                                        <locus>52v</locus>
+                                    </locusGrp>), the manuscript was for some time unbound.</condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout ruledLines="22 23" writtenLines="0" columns="1">
+                                        Fols. <locus>1-40</locus> are ruled in 22-23 long lines.
+                                        <dimensions type="written" unit="mm">
+                                            <height max="175" min="195">175-195</height>
+                                            <width max="110" min="130">110-130</width>
+                                        </dimensions> 
+                                        <!--                                    optional Zeilenhöhe-->
+                                        <dimensions type="lineHeight">
+                                            <height min="0" max="0"></height>
+                                        </dimensions>
+                                        Blind ruling based on pricking on every leaf in the quires on the outher margin, as well as double vertical lines. Double (correctied?) pricking on fols. 33, 34, 37, 38.
+                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                    </layout>
+                                    <layout ruledLines="22" writtenLines="0" columns="1">
+                                        <dimensions type="written" unit="mm">
+                                            <height max="0" min="0"></height>
+                                            <width max="0" min="0"></width>
+                                        </dimensions> 
+                                        <!--                                    optional Zeilenhöhe-->
+                                        <dimensions type="lineHeight">
+                                            <height min="0" max="0"></height>
+                                        </dimensions>
+                                        Fols. <locus>40-52</locus> ruled in 22 long lines. Double (correctied?) pricking on fols. 44/47. Fol. 47 r ruled in 21 long lines.
+                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote scribe="x" script="x" medium="x"></handNote>
+                            </handDesc>
+                            <scriptDesc>
+                                <scriptNote script="x" medium="x"></scriptNote>
+                            </scriptDesc>
+                            <decoDesc>
+                                <decoNote type="x"/>
+                            </decoDesc>   
+                            <additions/> <!--Marginalia etc.-->
+                            <accMat/> <!--z.B. Fragmente oder beiliegende Notizen, die nicht Teil der HS sind-->
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace/>
+                                <origDate notBefore="0001" notAfter="0001"/>
+                            </origin>
+                            <provenance/>
+                            <acquisition/>
+                        </history>
+                    </msPart>
+                    
+                    <msPart>
+                        
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>Codicological unit D = f. 67</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <head>
+                            <title>Traditionen 149-155</title>
+                            <origDate notBefore="0901" notAfter="1000">s. X</origDate>
+                            <origPlace>Mondsee</origPlace>
+                        </head>
+                        <msContents>
+                            <textLang mainLang="lat" otherLangs=""/> <!--nach ISO-639-3 : lat, deu, gmh etc. : https://de.wikipedia.org/wiki/%C3%9Cberblicksliste_der_ISO-639-3-Codes-->
+                            <msItem>
+                                <locus from="x" to="x"/>
+                                <title/>
+                                <author/>
+                                <rubric/>
+                                <incipit/>
+                                <explicit/>
+                                <finalRubric/>
+                                <colophon></colophon>
+                                <decoNote></decoNote>
+                                <note/>
+                                <filiation></filiation>
+                                <listBibl>
+                                    <bibl/>
+                                </listBibl>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fascicle">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leaf" quantity="1" unit="folio">1</measure>
+                                        <dimensions type="leaf" unit="mm">
+                                            <height>145</height>
+                                            <width>200</width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation/>
+                                    <condition/>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <!--   mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
+                                    <layout ruledLines="0" writtenLines="0" columns="0">
+                                        <dimensions type="written" unit="mm">
+                                            <height max="0" min="0"></height>
+                                            <width max="0" min="0"></width>
+                                        </dimensions> 
+                                        <!--                                    optional Zeilenhöhe-->
+                                        <dimensions type="lineHeight">
+                                            <height min="0" max="0"></height>
+                                        </dimensions>
+                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote scribe="x" script="x" medium="x"></handNote>
+                            </handDesc>
+                            <scriptDesc>
+                                <scriptNote script="x" medium="x"></scriptNote>
+                            </scriptDesc>
+                            <decoDesc>
+                                <decoNote type="x"/>
+                            </decoDesc>   
+                            <additions>Later additions (s. XI<hi rend="sup">ex</hi>-XII) on the verso: tradiotions Nr. 151-155.</additions>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace/>
+                                <origDate notBefore="0001" notAfter="0001"/>
+                            </origin>
+                            <provenance/>
+                            <acquisition/>
+                        </history>
+                    </msPart>
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>Codicological unit D = f. 68</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <head>
+                            <title>Traditione Nr. 156-160</title>
+                            <origDate notBefore="0901" notAfter="1000">s. X</origDate>
+                            <origPlace>Mondsee</origPlace>
+                        </head>
+                        <msContents>
+                            <textLang mainLang="lat" otherLangs=""/> <!--nach ISO-639-3 : lat, deu, gmh etc. : https://de.wikipedia.org/wiki/%C3%9Cberblicksliste_der_ISO-639-3-Codes-->
+                            <msItem>
+                                <locus from="x" to="x"/>
+                                <title/>
+                                <author/>
+                                <rubric/>
+                                <incipit/>
+                                <explicit/>
+                                <finalRubric/>
+                                <colophon></colophon>
+                                <decoNote></decoNote>
+                                <note/>
+                                <filiation></filiation>
+                                <listBibl>
+                                    <bibl/>
+                                </listBibl>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fascicle">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leaf" quantity="1" unit="folio">1</measure>
+                                        <dimensions type="leaf" unit="mm">
+                                            <height>235</height>
+                                            <width>165</width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation/>                                  
+                                    <condition/>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <!--   mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
+                                    <layout ruledLines="0" writtenLines="0" columns="0">
+                                        <dimensions type="written" unit="mm">
+                                            <height max="0" min="0"></height>
+                                            <width max="0" min="0"></width>
+                                        </dimensions> 
+                                        <!--                                    optional Zeilenhöhe-->
+                                        <dimensions type="lineHeight">
+                                            <height min="0" max="0"></height>
+                                        </dimensions>
+                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote scribe="x" script="x" medium="x"></handNote>
+                            </handDesc>
+                            <scriptDesc>
+                                <scriptNote script="x" medium="x"></scriptNote>
+                            </scriptDesc>
+                            <decoDesc>
+                                <decoNote type="x"/>
+                            </decoDesc>   
+                            <additions/> <!--Marginalia etc.-->
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace/>
+                                <origDate notBefore="0001" notAfter="0001"/>
+                            </origin>
+                            <provenance/>
+                            <acquisition/>
+                        </history>
+                    </msPart>
+                    
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>Codicological unit D = f. 69</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <head>
+                            <title>Tradiotionen Nr. 188, 187, 189</title>
+                            <origDate notBefore="1101" notAfter="1200">s. XII</origDate>
+                            <origPlace>Mondsee</origPlace>
+                        </head>
+                        <msContents>
+                            <textLang mainLang="lat" otherLangs=""/> <!--nach ISO-639-3 : lat, deu, gmh etc. : https://de.wikipedia.org/wiki/%C3%9Cberblicksliste_der_ISO-639-3-Codes-->
+                            <msItem>
+                                <locus from="x" to="x"/>
+                                <title/>
+                                <author/>
+                                <rubric/>
+                                <incipit/>
+                                <explicit/>
+                                <finalRubric/>
+                                <colophon></colophon>
+                                <decoNote></decoNote>
+                                <note/>
+                                <filiation></filiation>
+                                <listBibl>
+                                    <bibl/>
+                                </listBibl>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fascicle">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leaf" quantity="1" unit="folio">1</measure>
+                                        <dimensions type="leaf" unit="mm">
+                                            <height>245</height>
+                                            <width>180</width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation/>
+                                    <collation>
+                                    </collation>
+                                    <condition/>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <!--   mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
+                                    <layout ruledLines="0" writtenLines="0" columns="0">
+                                        <dimensions type="written" unit="mm">
+                                            <height max="0" min="0"></height>
+                                            <width max="0" min="0"></width>
+                                        </dimensions> 
+                                        <!--                                    optional Zeilenhöhe-->
+                                        <dimensions type="lineHeight">
+                                            <height min="0" max="0"></height>
+                                        </dimensions>
+                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote scribe="x" script="x" medium="x"></handNote>
+                            </handDesc>
+                            <scriptDesc>
+                                <scriptNote script="x" medium="x"></scriptNote>
+                            </scriptDesc>
+                            <decoDesc>
+                                <decoNote type="x"/>
+                            </decoDesc>   
+                            <additions/> <!--Marginalia etc.-->                            
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace/>
+                                <origDate notBefore="0001" notAfter="0001"/>
+                            </origin>
+                            <provenance/>
+                            <acquisition/>
+                        </history>
+                    </msPart>
+                    
+                    <msPart>
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>Codicological unit D = f. 70</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <head>
+                            <title>Tradiotionen Nr. 144-148</title>
+                            <origDate notBefore="1101" notAfter="1200">s. XII</origDate>
+                            <origPlace>Mondsee</origPlace>
+                        </head>
+                        <msContents>
+                            <textLang mainLang="lat" otherLangs=""/> <!--nach ISO-639-3 : lat, deu, gmh etc. : https://de.wikipedia.org/wiki/%C3%9Cberblicksliste_der_ISO-639-3-Codes-->
+                            <msItem>
+                                <locus from="x" to="x"/>
+                                <title/>
+                                <author/>
+                                <rubric/>
+                                <incipit/>
+                                <explicit/>
+                                <finalRubric/>
+                                <colophon></colophon>
+                                <decoNote></decoNote>
+                                <note/>
+                                <filiation></filiation>
+                                <listBibl>
+                                    <bibl/>
+                                </listBibl>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fascicle">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leaf" quantity="1" unit="folio">1</measure>
+                                        <dimensions type="leaf" unit="mm">
+                                            <height>230</height>
+                                            <width>165</width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation/>
+                                    <collation>
+                                    </collation>
+                                    <condition/>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <!--   mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
+                                    <layout ruledLines="0" writtenLines="0" columns="0">
+                                        <dimensions type="written" unit="mm">
+                                            <height max="0" min="0"></height>
+                                            <width max="0" min="0"></width>
+                                        </dimensions> 
+                                        <!--                                    optional Zeilenhöhe-->
+                                        <dimensions type="lineHeight">
+                                            <height min="0" max="0"></height>
+                                        </dimensions>
+                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote scribe="x" script="x" medium="x"></handNote>
+                            </handDesc>
+                            <scriptDesc>
+                                <scriptNote script="x" medium="x"></scriptNote>
+                            </scriptDesc>
+                            <decoDesc>
+                                <decoNote type="x"/>
+                            </decoDesc>   
+                            <additions/> <!--Marginalia etc.-->                            
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace/>
+                                <origDate notBefore="0001" notAfter="0001"/>
+                            </origin>
+                            <provenance/>
+                            <acquisition/>
+                        </history>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl> <!--die Editionsprinzipien und Verfahren, die bei der Kodierung des Textes angewandt wurden-->
+                <p></p>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change></change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="" n="1r"/>
+    </facsimile>
+    <text>
+        <body>
+            <head>
+                <title>Transkription des Textes ... </title>
+            </head>
+            <p><pb n="1r"/> ... </p>
+        </body>
+    </text>
+</TEI>
