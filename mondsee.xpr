@@ -333,7 +333,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>file:/C:/Users/ivana/Documents/aratea-digital/aratea-data/xslt/desc_tei_to_html.xsl</String>
+                                    <String>${pdu}/xsl/msdesc_to_html.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
@@ -354,10 +354,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>${cfn}.html</File>
+                                    <File>${pd}/html/${cfn}.html</File>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${cfn}.html</String>
+                                    <String>${pd}/html/${cfn}.html</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>

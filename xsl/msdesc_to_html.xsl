@@ -2,16 +2,121 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="#all" version="3.0">
-    <xsl:template match="/">
-        
+    
+<!--    ########### Variables: #########-->
+    <xsl:variable name="full_path">
+        <xsl:value-of select="document-uri(/)"/>
+    </xsl:variable>
+    
+    <xsl:variable name="listPerson">../data/indices/listperson.xml</xsl:variable>
+    <xsl:variable name="listBibl">../data/indices/listbibl.xml</xsl:variable>
+    <xsl:import href="nav_bar.xsl"/>
+    
+<!--    this checks if there is an internal or exeternal list with bibliography to be linked with the bibl/abbr elements withini the description-->
+    <xsl:variable name="bibliography">
+        <xsl:choose>
+            <xsl:when test="//tei:list[@type = 'bibliography']">
+                <xsl:copy-of select="//tei:list[@type = 'bibliography']"/>
+            </xsl:when>
+            <xsl:when test="not($listBibl = '')">
+                <xsl:copy-of select="doc($listBibl)"/>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:variable>
+    
+<!--     ######### Project specific variables: ############-->
+    <xsl:variable name="githubPages">https://ivanadob.github.io/mondsee/</xsl:variable>
+    <xsl:variable name="gitData">https://github.com/ivanadob/mondsee/blob/master/data/descriptions_mss/</xsl:variable>
+    
+    
+<!--    ########## main template to generate html page (calling other templates listed below) #########-->
+    <xsl:template match="/">        
         <html>          
             <head>
-                <xsl:value-of select=".//tei:msIdentifier/tei:idno"/>
-                <br/>
-                <xsl:value-of select=".//tei:head/tei:title"/>
+                <title>
+                    <xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>				
+                </title>
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+                <link rel="stylesheet" type="text/css" href="css/mondsee.css"/>
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
             </head>
             <body>
-                <p>
+                <xsl:call-template name="nav_bar"/>
+                <div class="container">
+                    <div id="{generate-id()}">
+                        <span class="header">
+                            <xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+                            <xsl:choose>
+                                <xsl:when test="descendant-or-self::tei:msDesc/tei:msIdentifier/tei:altIdentifier[@type='former'][not(@rend='doNotShow')][not(contains(preceding-sibling::tei:idno, tei:idno))]">
+                                    <xsl:apply-templates select="descendant-or-self::tei:TEI/tei:text/tei:body/tei:msDesc/tei:msIdentifier/tei:altIdentifier[@type='former'][not(@rend='doNotShow')][not(contains(preceding-sibling::tei:idno, tei:idno))]"/>
+                                </xsl:when>					
+                            </xsl:choose>
+                        </span>			
+                    </div>	
+                    <hr/>	
+                    <div class="btn-group">	
+                        <xsl:choose>
+                            <xsl:when test="descendant-or-self::tei:msDesc/tei:head/tei:note[@type='facs']">
+                                <a class="btn btn-outline-dark" href="{descendant-or-self::tei:msDesc/tei:head/tei:note[@type='facs']/tei:ref/@target}">
+                                    <xsl:text>Facsimile</xsl:text>
+                                </a>
+                            </xsl:when>
+                        </xsl:choose>                       
+                        
+                        <xsl:choose>
+                            <xsl:when test="descendant-or-self::tei:msDesc/tei:head/tei:note[@type='catalogue']">
+                                <a class="btn btn-outline-dark" href="{descendant-or-self::tei:msDesc/tei:head/tei:note[@type='catalogue']/tei:ref/@target}">
+                                    <xsl:text>Library catalogue</xsl:text>
+                                </a>
+                            </xsl:when>
+                        </xsl:choose>                        
+                        
+                        <a class="btn btn-outline-dark">
+                            <xsl:attribute name="href">		
+                                <xsl:variable name="full_path">
+                                    <xsl:value-of select="document-uri(/)"/>
+                                </xsl:variable>
+                                <xsl:value-of select="concat($gitData,replace(tokenize($full_path, '/')[last()], '.html', '.xml'))"/>
+                            </xsl:attribute>
+                            <xsl:text>Show TEI-XML</xsl:text>
+                        </a>  
+                    </div>
+                <hr/>
+                <div class="copyright">
+                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" width="88" height="31" alt="Creative Commons License"></img></a>
+                    <p><xsl:apply-templates select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt"/></p>
+                </div>
+                <xsl:choose>
+                    <xsl:when test="descendant-or-self::tei:TEI/tei:teiHeader/tei:revisionDesc/@status = 'draft' ">
+                        <xsl:text> (draft version: </xsl:text>
+                        <xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:revisionDesc/tei:listChange/tei:change[1]/@when"/><xsl:text>)</xsl:text>		
+                    </xsl:when>
+                    <xsl:when test="descendant-or-self::tei:TEI/tei:teiHeader/tei:revisionDesc/@status = 'complete' ">
+                        <xsl:text> (last change: </xsl:text>
+                        <xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:revisionDesc/tei:listChange/tei:change[1]/@when"/><xsl:text>)</xsl:text>
+                    </xsl:when>
+                </xsl:choose>
+                <div id="{generate-id()}">
+                    <xsl:text>How to quote: </xsl:text>
+                    <xsl:apply-templates select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:name | descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:persName"/><xsl:text>, '</xsl:text>
+                    <xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/><xsl:text>' (</xsl:text>
+                    <a>
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="concat($gitData,replace(tokenize($full_path, '/')[last()], '.html', '.xml'))"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="concat($gitData,replace(tokenize($full_path, '/')[last()], '.html', '.xml'))"/>
+                    </a>
+                    <xsl:text> last update: </xsl:text><xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:revisionDesc/tei:change[1]/@when"/><xsl:text>).</xsl:text>
+                </div>
+                <hr/>
+                </div>
+                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"  />
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"  />
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"  />
+            </body>            
+        </html>
+    </xsl:template>
+                <!--<p>
                     <xsl:value-of select=".//tei:head/tei:note"/>
                 </p>
                 <h1>Support:</h1>
@@ -57,11 +162,11 @@
                     mm
                     <xsl:apply-templates
                         select="normalize-space(string-join(.//tei:p/text(), ' '))"/>
-                   <!-- <xsl:value-of
+                   <!-\- <xsl:value-of
                         select=".//tei:dimensions[@type = 'written']/tei:height"/><xsl:text>×</xsl:text>
                     <xsl:value-of
                         select=".//tei:dimensions[@type = 'written']/tei:width"/><xsl:text> </xsl:text>
-                    <xsl:apply-templates select="tei:p"/>--></p>
+                    <xsl:apply-templates select="tei:p"/>-\-></p>
                 </xsl:for-each>
                 
                 <p><xsl:apply-templates select=".//tei:scriptNote"/></p>
@@ -96,12 +201,12 @@
                         select="normalize-space(string-join(.//tei:additional/tei:listBibl/tei:bibl, ' — '))"
                     />
                 </p>
-                <!--     ###########   INHALT-->
+                <!-\-     ###########   INHALT-\->
                 <xsl:for-each select=".//tei:msItem">
                     <p>
                         <xsl:value-of select="data(./@n)"/>
                         <xsl:text> </xsl:text>
-                        <!--##### item folionumber in brackets-->
+                        <!-\-##### item folionumber in brackets-\->
                         <xsl:text>(</xsl:text>
                         <xsl:value-of select="./tei:locus"/>
                         <xsl:text>) </xsl:text>
@@ -167,7 +272,7 @@
                         <xsl:choose>
                             <xsl:when test="./tei:incipit">
                                 <xsl:choose>
-                                    <!-- ################# checks if the <incipit> is mutile or no -->
+                                    <!-\- ################# checks if the <incipit> is mutile or no -\->
                                     <xsl:when test="./tei:incipit/@defective = 'true'">
                                         <xsl:text>Inc. (mut.): </xsl:text>
                                     </xsl:when>
@@ -178,7 +283,7 @@
                                 <i><xsl:apply-templates select="string-join(./tei:incipit, '')"/>
                                     ... </i>
                                 <xsl:choose>
-                                    <!-- ################# check if there is bibliographical note within the <incipit> to put in brackets-->
+                                    <!-\- ################# check if there is bibliographical note within the <incipit> to put in brackets-\->
                                     <xsl:when test=".//tei:note/@type = 'bibl'">
                                         <xsl:text>(</xsl:text>
                                         <xsl:value-of select=".//tei:note"/>
@@ -235,16 +340,12 @@
                             <xsl:apply-templates select="."/>
                         </p>
                     </xsl:for-each>
-                </xsl:for-each>
-            </body>
-        </html>
-    </xsl:template>
+                </xsl:for-each>-->
+         
     
     
+    	
     
-    <!--<xsl:template match="tei:note[@type='footnote']">
-        <xsl:text></xsl:text><xsl:value-of select="."/><xsl:text></xsl:text>
-    </xsl:template>-->
     
     <xsl:template match="tei:quote">
         <i>
@@ -307,6 +408,9 @@
             </xsl:if>
         </xsl:for-each>
     </xsl:template>
+    
+    
+    
     <xsl:template match="tei:supplied"> [<xsl:value-of select="."/>] </xsl:template>
     <xsl:template match="tei:sic">
         <xsl:value-of select="."/><xsl:text> (!)</xsl:text>
