@@ -25,12 +25,12 @@
                             <a class="dropdown-item" href="https://ivanadob.github.io/mondsee/listtitle.html">
                                 Works
                             </a>
-                            <a class="dropdown-item" href="https://ivanadob.github.io/mondsee/listperson.html">
+                            <!-- <a class="dropdown-item" href="https://ivanadob.github.io/mondsee/listperson.html">
                                 Persons
                             </a>
                             <a class="dropdown-item" href="https://ivanadob.github.io/mondsee/listplace.html">
                                 Places
-                            </a>
+                            </a>-->
                         </div>
                     </li>
                     <!--<li class="nav-item dropdown">
