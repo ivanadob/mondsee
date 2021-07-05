@@ -79,7 +79,7 @@
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <extent>
-                                    <measure type="leaf" quantity="0" unit="folio"></measure>
+                                    <measure type="leavesCount" quantity="0" unit="folio"></measure>
                                     <dimensions type="leaf" unit="mm">
                                         <height></height>
                                         <width></width>
@@ -149,12 +149,13 @@
                             <bibl/>
                         </listBibl>
                     </additional>
-<!--  XXXXXXXXXXXXX  Für Handschriftenteile innerhalb einer Sammelhandschrift (composite volumes) die urpsrünglich separaten kodikologischen Einheiten waren - > msPart altIdentifier @type = partial -->                           <msPart>
-                        <msIdentifier>
+<!--  XXXXXXXXXXXXX  Für Handschriftenteile innerhalb einer Sammelhandschrift (composite volumes) die urpsrünglich separaten kodikologischen Einheiten waren - > msPart altIdentifier @type = partial -->              
+                    <msPart>
+                       
                         <altIdentifier type="partial">
                             <idno>Codicological unit 1 = ff. </idno>
                         </altIdentifier>
-                        </msIdentifier>
+                        
                         <head>
                             <title></title>
                             <origDate notBefore="0001" notAfter="0001"></origDate>
@@ -234,11 +235,11 @@
                     </msPart>
                     <!--Für PALIMPSESTE -> msPart altIdentifier @type = palimpsest -->
                     <msPart>
-                        <msIdentifier>
+                      
                             <altIdentifier type="palimpsest">
                             <idno>Palimpsest auf ff. XXX</idno>
                         </altIdentifier>
-                        </msIdentifier>
+                        
                         <head>
                             <title></title>
                             <origDate notBefore="0001" notAfter="0001"></origDate>

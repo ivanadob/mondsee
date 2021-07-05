@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Vienna, Staatsarchiv, Blau 70</title>
+                <title>Vienna, Haus-, Hof-, und Staatsarchiv, Hs. B 70</title>
                 <respStmt>  
                     <resp>Described by </resp>
                     <persName>
@@ -34,12 +34,12 @@
                     <msIdentifier>
                         <country>Austria</country>
                         <settlement>Vienna</settlement>
-                        <institution>Haus-, Hof-, und Staatsarchiv</institution> <!--z.B. : Universität Wien-->
+                        <institution>Haus-, Hof-, und Staatsarchiv</institution>
                         <repository>Handschriftensammlung</repository>
                         <idno>Blau 70</idno>
                         <altIdentifier type="former">
                             <idno>Böhn Hs. 179</idno>
-                        </altIdentifier>                       
+                        </altIdentifier>                        
                     </msIdentifier>
                     <head>
                         <title>Traditionsbuch</title>
@@ -53,11 +53,7 @@
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <extent>
-                                    <measure type="leaf" quantity="70" unit="folio">I + 70 + I</measure>
-                                    <dimensions type="leaf" unit="mm">
-                                        <height></height>
-                                        <width></width>
-                                    </dimensions>
+                                    <measure type="leavesCount" quantity="70" unit="folio">I + 70 + I</measure>                                    
                                 </extent>
                                 <foliation/>
                                 <collation>The mansucript is a Sammelhandschrift made up of four codicological units: 1) fols. 1-52; 2) fols. 53-58; 3) fols. 59-66; 4) fols. 67-70. The quire structure is recorded by <bibl><abbr>Rath 1989</abbr>, p. 11</bibl>:
@@ -97,11 +93,10 @@
                         </listBibl>
                     </additional>                          
                     <msPart>
-                        <msIdentifier>
                             <altIdentifier type="partial">
                                 <idno>Codicological unit A = ff. 1-51</idno>
                             </altIdentifier>
-                        </msIdentifier>
+                        
                         <head>
                             <title></title>
                             <origDate notBefore="0851" notAfter="0900">s. IX <hi rend="sup">2</hi></origDate>
@@ -133,7 +128,7 @@
                                         <p>According to <bibl><abbr>Rath 1989</abbr></bibl> teilweise wenig sorgfältig vorbereitetes und beschnittenes Pergament ... vielvach von minderer Qualit#t und weist Löcher, fehlende Ecken sowie unsauber neschnittene Ränder auf.</p>
                                     </support>
                                     <extent>
-                                        <measure type="leaf" quantity="0" unit="folio">52</measure>
+                                        <measure type="leavesCount" quantity="0" unit="folio">52</measure>
                                         <dimensions type="leaf" unit="mm">
                                             <height>235-250</height>
                                             <width>175-180</width>
@@ -205,41 +200,22 @@
                     </msPart>
                     
                     <msPart>
-                        
-                        <msIdentifier>
                             <altIdentifier type="partial">
                                 <idno>Codicological unit D = f. 67</idno>
-                            </altIdentifier>
-                        </msIdentifier>
+                            </altIdentifier>                        
                         <head>
                             <title>Traditionen 149-155</title>
                             <origDate notBefore="0901" notAfter="1000">s. X</origDate>
                             <origPlace>Mondsee</origPlace>
                         </head>
                         <msContents>
-                            <textLang mainLang="lat" otherLangs=""/> <!--nach ISO-639-3 : lat, deu, gmh etc. : https://de.wikipedia.org/wiki/%C3%9Cberblicksliste_der_ISO-639-3-Codes-->
-                            <msItem>
-                                <locus from="x" to="x"/>
-                                <title/>
-                                <author/>
-                                <rubric/>
-                                <incipit/>
-                                <explicit/>
-                                <finalRubric/>
-                                <colophon></colophon>
-                                <decoNote></decoNote>
-                                <note/>
-                                <filiation></filiation>
-                                <listBibl>
-                                    <bibl/>
-                                </listBibl>
-                            </msItem>
+                            <p>Traditionen 149-155.</p>
                         </msContents>
                         <physDesc>
                             <objectDesc form="fascicle">
                                 <supportDesc material="perg">
                                     <extent>
-                                        <measure type="leaf" quantity="1" unit="folio">1</measure>
+                                        <measure type="leavesCount" quantity="1" unit="folio">1</measure>
                                         <dimensions type="leaf" unit="mm">
                                             <height>145</height>
                                             <width>200</width>
@@ -285,40 +261,23 @@
                         </history>
                     </msPart>
                     <msPart>
-                        <msIdentifier>
                             <altIdentifier type="partial">
                                 <idno>Codicological unit D = f. 68</idno>
                             </altIdentifier>
-                        </msIdentifier>
+                        
                         <head>
                             <title>Traditione Nr. 156-160</title>
                             <origDate notBefore="0901" notAfter="1000">s. X</origDate>
                             <origPlace>Mondsee</origPlace>
                         </head>
                         <msContents>
-                            <textLang mainLang="lat" otherLangs=""/> <!--nach ISO-639-3 : lat, deu, gmh etc. : https://de.wikipedia.org/wiki/%C3%9Cberblicksliste_der_ISO-639-3-Codes-->
-                            <msItem>
-                                <locus from="x" to="x"/>
-                                <title/>
-                                <author/>
-                                <rubric/>
-                                <incipit/>
-                                <explicit/>
-                                <finalRubric/>
-                                <colophon></colophon>
-                                <decoNote></decoNote>
-                                <note/>
-                                <filiation></filiation>
-                                <listBibl>
-                                    <bibl/>
-                                </listBibl>
-                            </msItem>
+                            <p>Traditione Nr. 156-160.</p>
                         </msContents>
                         <physDesc>
                             <objectDesc form="fascicle">
                                 <supportDesc material="perg">
                                     <extent>
-                                        <measure type="leaf" quantity="1" unit="folio">1</measure>
+                                        <measure type="leavesCount" quantity="1" unit="folio">1</measure>
                                         <dimensions type="leaf" unit="mm">
                                             <height>235</height>
                                             <width>165</width>
@@ -365,34 +324,16 @@
                     </msPart>
                     
                     <msPart>
-                        <msIdentifier>
                             <altIdentifier type="partial">
                                 <idno>Codicological unit D = f. 69</idno>
-                            </altIdentifier>
-                        </msIdentifier>
+                            </altIdentifier>                        
                         <head>
                             <title>Tradiotionen Nr. 188, 187, 189</title>
                             <origDate notBefore="1101" notAfter="1200">s. XII</origDate>
                             <origPlace>Mondsee</origPlace>
                         </head>
-                        <msContents>
-                            <textLang mainLang="lat" otherLangs=""/> <!--nach ISO-639-3 : lat, deu, gmh etc. : https://de.wikipedia.org/wiki/%C3%9Cberblicksliste_der_ISO-639-3-Codes-->
-                            <msItem>
-                                <locus from="x" to="x"/>
-                                <title/>
-                                <author/>
-                                <rubric/>
-                                <incipit/>
-                                <explicit/>
-                                <finalRubric/>
-                                <colophon></colophon>
-                                <decoNote></decoNote>
-                                <note/>
-                                <filiation></filiation>
-                                <listBibl>
-                                    <bibl/>
-                                </listBibl>
-                            </msItem>
+                        <msContents>                             
+                            <p>Tradiotionen Nr. 188, 187, 189.</p>
                         </msContents>
                         <physDesc>
                             <objectDesc form="fascicle">
@@ -444,14 +385,12 @@
                             <provenance/>
                             <acquisition/>
                         </history>
-                    </msPart>
-                    
+                    </msPart>                    
                     <msPart>
-                        <msIdentifier>
                             <altIdentifier type="partial">
                                 <idno>Codicological unit D = f. 70</idno>
                             </altIdentifier>
-                        </msIdentifier>
+                        
                         <head>
                             <title>Tradiotionen Nr. 144-148</title>
                             <origDate notBefore="1101" notAfter="1200">s. XII</origDate>

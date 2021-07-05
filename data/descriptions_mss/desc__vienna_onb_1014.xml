@@ -3,12 +3,12 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Vienna, Österreichische Nationalbibliothek, Cod. 1014. Multimodale Repräsentation"--></title>
+                <title>Vienna, Österreichische Nationalbibliothek, Cod. 1014</title>
                 <respStmt><!-- respStmt mit Angabe von persName optional mit affiliation. Beliebig viele resp wie z.B.: Erstellung der MSI-Aufnahmen, Bildbearbeitung, TEI-Encoding, Handschirftenbeschreibung, Textedition ... Im Fall von Beschreibungen, basierend auf älteren Beschreibungen, siehe auch msDesc->additional->adminInfo->recordHist: provides information about the source ... of the ... object description itself -->  
-                    <resp></resp>
+                    <resp>Description by</resp>
                     <persName>
-                        <forename></forename>
-                        <surname></surname>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
                         <affiliation></affiliation>
                     </persName>
                 </respStmt>                
@@ -25,7 +25,6 @@
                     <msIdentifier>
                         <country>Austria</country>
                         <settlement>Vienna</settlement>
-                        <institution></institution>
                         <repository>Österreichische Nationalbibliothek</repository>
                         <idno>Cod. 1014</idno>
                         <altIdentifier type="former"> 
@@ -36,6 +35,8 @@
                         <title>The Mondsee Homiliary</title>
                         <origDate notBefore="0811" notAfter="0819">811-819</origDate>
                         <origPlace>Mondsee</origPlace>
+                        <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13953169"></ref></note>
+                        <note type="facs"><ref target="http://data.onb.ac.at/dtl/8518292"></ref></note>
                     </head> 
                     <msContents>
                         <textLang mainLang="lat"/> 
@@ -99,38 +100,38 @@
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <extent>
-                                    <measure type="leaf" quantity="202" unit="folio">202 fols</measure>
+                                    <measure type="leavesCount" quantity="202" unit="folio">202</measure>
                                     <dimensions type="leaf" unit="mm">
                                         <height>250</height>
                                         <width>155</width>
                                     </dimensions>
                                 </extent>
-                                <foliation>Modern foliation in pencil in the upper right corner of every recto: 1-190, 190a-190c, 191-198.</foliation>
+                                <foliation>Modern foliation in pencil in the upper right corner of every recto: fols. 1-190, 190a-190c, 191-198.</foliation>
                                 <collation>
-                                    Original order of quires: fols 1-5, 16-21, 22-37, 127-190, 118-126, 190a-198 and 38-117.
+                                    Original order of quires: fols. 1-5, 16-21, 22-37, 127-190, 118-126, 190a-198 and 38-117.
                                     <formula>
                                         
-                                        1<hi rend="sup">6(-1)</hi> (missing 6;  fols 1-5), 2<hi rend="sup"></hi></formula>
+                                        1<hi rend="sup">6(-1)</hi> (missing 6;  fols. 1-5), 2<hi rend="sup"></hi></formula>.
                                 </collation>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout n="1" ruledLines="8" columns="1">
-                                    <locus>1r</locus> (Dedication) written in 8 long lines; textblock measures
+                                    <locus>1r</locus> (Dedication) written in 8 long lines;
                                     <dimensions type="written" unit="mm">
                                         <height>130</height>
                                         <width min="10">min 100</width>
                                     </dimensions>; line height about
                                     <dimensions type="lineHeight">
                                         <height min="10" max="12">12-13 mm</height>
-                                    </dimensions>
+                                    </dimensions>; x-height about
                                     <dimensions type="xHeight">
                                         <height min="7" max="8">7-8 mm</height>
                                     </dimensions>
                                     Ruling by hard point, for each text line two ruled lines - one base and one on the x-height - probably using the ruling for the table of content by skipping every second ruled line.
                                 </layout>
                                 <layout n="2" ruledLines="24" writtenLines="24" columns="1">
-                                    <locus>1v-5v</locus> (table of content) written in 24 long lines; textblock measures
+                                    <locus>1v-5v</locus> (table of content) written in 24 long lines; 
                                     <dimensions type="written" unit="mm">
                                         <height>205</height>
                                         <width>123</width>
@@ -225,7 +226,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            Slop: 10r
+                            
                             <handNote scribe="x" script="x" medium="x" scope="major"></handNote>
                         </handDesc>
                         <scriptDesc>
