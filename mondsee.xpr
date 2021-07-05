@@ -787,5 +787,6 @@
         <folder path="data/"/>
         <folder path="result/"/>
         <folder path="xsl/"/>
+        <file name="build.xml"/>
     </projectTree>
 </project>

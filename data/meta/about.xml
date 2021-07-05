@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>About the 'Mondsee Scriptorium' Project</title>
+                <author>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                    </persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>The (CC BY 4.0)-License applies to this document.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>About</head>
+                
+                <p> The project's aim is to gain new insights at the scribal activities at the Benedictine monastery of Mondsee during the Early and High Middle Ages. The monastery was an important local centre for book production in Upper Austria already shortly after its foundation in 748. Building upon the seminal works by B. Bischoff, K. Holter and C. Pfaff the present study will conduct 
+                    <list>
+                        <item n="1">a detailed analysis of the codicological and palaeographical features presented in the manuscripts combining classical and digital methods;</item>
+                        <item n="2">scientific analysis of the writing materials.</item>
+                    </list>
+                The interdisciplinary methods will provide the means to reexamine the material and detect new characteristics of the Mondsee book production. This will, on the one hand, allow for written documents with till now uncertain origin to be recognised as products of the Mondsee scriptorium; on the other hand, it will be possible to examine the development of the written culture in a longue duree, accounting for the influences of foreign monastic centres both in terms of writing materials as well as of transmission of texts.</p>
+                <p>This project is planned as a case study within the major project <ref target="https://www.ditah.at/projects/m3r.html">Multimodale Manuskriptrepräsentationen (M3R)</ref>. All data - both scholarly descriptions and scientific data - collected within the project will be stored and represented within the newly designed platform.</p>
+                <p> In the meantime this website gives access to the scholarly <ref target="https://ivanadob.github.io/mondsee/index-mss.html">descriptions</ref> of the pre-12th-century Mondsee manuscripts. This is a work-in-progress; we are constantly working on improving and enhancing the information provided. </p>
+            </div>
+            <!--<div>
+                <head>Research Aim and Questions</head>              
+                <list>
+                    <item>The palaeographical and codicological examination of the manuscripts and fragments from this period (8th-12th c.) will, in the first place, try to reveal if there were only ‘single’ scribes working in Mondsee or if we can indeed speak of a scriptorium. Material analysis combined with methods of classical and digital palaeography would facilitate scribal identification and thus provide important insight as to how big the scriptorium was, how many scribes worked simultaneously on one book, how experienced and novice scribes interacted by copying texts.</item>
+                    <item>Secondly, the study will show how communal conventions in the book production (attested by codicological features such as quire structure, parchment type, quality and production, inks and pigments used, book size and layout, pricking and ruling) and writing (indicated by analysis of script, illumination and annotation symbols) changed over time. Of particular interest for the project are documents attesting a change in the scripts used at the scriptorium, material analysis of which might show if there was also a change in the choice and preparation of the writing materials.</item>
+                    <item>Thirdly, the multi modal analysis of the manuscript material with uncertain origin and its comparison with unambiguous Mondsee manuscripts (such as for instance the Traditionsbuch) will allow for a more conclusive attribution of the former to the Mondsee scriptorium. The questionable origin is particularly an issue for manuscripts datable to the 10th and 11th centuries. In such cases where the palaeographical study comes to its limits, material analysis might offer a way to establish connection between the sources.</item>
+                    <item>Furthermore, the project will include a study of the <ref target="listtitle.html">texts</ref> available in the Mondsee library, which are either still preserved in manuscripts and fragments or attested in the indirect tradition through textual quotations. This will not only shed light to the extent of the collection but also to the specialised interest and possible change thereof in the course of the 10th and 11th centuries. The study and dating of marginal and interlinear annotations and corrections in fragmentary preserved manuscripts (based on both palaeographical analysis and on their so-called ink fingerprint) will allow us to establish how long the Mondsee community used the early Carolingian books before it regarded them as “inutiles” and sent them to the binder to serve as binding waste.</item>
+                </list>
+            </div>-->
+            <div>
+                <head>Manuscripts</head>
+                <p> The manuscript descriptions are encoded using the guidelines of the <ref
+                    target="http://www.tei-c.org/">Text Encoding Initiative (TEI)</ref>, which
+                    is an XML standard widely adopted in the digital humanities for the
+                    representation of texts. </p>
+                <p> To validate the mark-up we used the TEI P5 schema for <ref
+                    target="http://www.europeanaregia.eu/">Europeana Regia</ref> (ER). The
+                    practices from the <ref target="http://www.hab.de/">Herzog August library
+                        Wolfenbüttel</ref> were taken as an example for structuring the manuscript
+                    descriptions. People, places are texts (works within manuscripts) are tagged as
+                    such and gathered in indices together with additional information as well as
+                    links to further resources. The XML files are also available for download. </p>
+                <p> With the growing number of manuscript description being added to the database we
+                    are further working on different possibilities to search, filter and analyse the
+                    data. Apart from full text search we plan to integrate faceted search to filter
+                    the manuscripts according to certain criteria (shelfmark, origin place / time,
+                    texts etc.) and possibly to combine different criteria. </p>
+                <p><ref target="https://ivanadob.github.io/mondsee/index-mss.html">Manuscript Descriptions</ref></p>
+            </div>
+            <div>
+                <head>Licence</head>
+                <p> The material is licensed under a <ref
+                    target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                    Attribution 4.0 International license (CC BY 4.0)</ref>, meaning you are
+                    free to make use of it, share and adapt it to your need, as long as you give us
+                    appropriate credit (mention the project website for instance), provide a link to
+                    the license, and indicate if changes were made. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

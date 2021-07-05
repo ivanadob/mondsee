@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="tei2html">
+    <property name="source_desc" value="./data/descriptions"/>
+    <property name="target" value="./html"/>
+    <property name="stylesheet_desc" value="./xslt/msdesc_to_html.xsl"/>
+    <property name="index.source" value="./data/meta/about.xml"/>
+    <property name="index.style" value="./xslt/make_index.xsl"/>
+    <property name="index-mss.style" value="./xslt/make_index_mss.xsl"/>
+    <delete>
+        <fileset dir="${target}" includes="*.html"/>
+    </delete>
+    <delete dir="${target}/static-search"/>
+    <xslt style="${stylesheet_desc}"  basedir="${source_desc}" destdir="${target}" includes="*.xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt style="${stylesheet_text}" basedir="${source_text}" destdir="${target}" includes="*.xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="${index.source}" out="${target}/index.html" style="${index.style}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="${index.source}" out="${target}/index-mss.html" style="${index-mss.style}">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt in="./data/indices/listtitle.xml" out="${target}/listtitle.html" style="./xslt/make_listtitle.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <replace dir="${target}" value="">
+        <include name="*.html"/>
+        <replacetoken> xmlns=""</replacetoken>
+    </replace>
+</project>

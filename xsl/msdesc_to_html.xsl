@@ -28,7 +28,7 @@
     
 <!--     ######### Project specific variables: ############-->
     <xsl:variable name="githubPages">https://ivanadob.github.io/mondsee/</xsl:variable>
-    <xsl:variable name="gitData">https://github.com/ivanadob/mondsee/blob/master/data/descriptions_mss/</xsl:variable>
+    <xsl:variable name="gitData">https://github.com/ivanadob/mondsee/blob/master/data/descriptions/</xsl:variable>
     <xsl:variable name="listPerson">../data/indices/listperson.xml</xsl:variable>
     <xsl:variable name="listBibl">../data/indices/listbibl.xml</xsl:variable>
     <xsl:import href="nav_bar.xsl"/>
