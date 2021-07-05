@@ -1,2 +1,14 @@
 *.bak
 /source/*.xlsx
+*/staticSearch
+/html/*.html
+/saxon
+/html/static-search/*
+/html/utils/*
+/tmp
+v1.3.0.zip
+/staticSearch
+html/desc__vienna_onb_732.html
+html/desc__vienna_staatsarchiv_traditionsbuch.html
+html/desc__vienna_onb_1014.html
+html/desc__vienna_onb_732.html
