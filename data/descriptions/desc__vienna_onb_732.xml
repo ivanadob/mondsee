@@ -40,26 +40,13 @@
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <extent>
-                                    <measure type="leavesCount"></measure>
-                                   text before <dimensions type="leaf">
+                                    <measure type="leavesCount">178</measure>
+                                   <dimensions type="leaf">
                                         <height>H</height>
                                         <width>W</width>
-                                    </dimensions> text after
+                                    </dimensions>
                                 </extent>
-                            </supportDesc>
-                            <layoutDesc>
-                                <layout ruledLines="0" writtenLines="21 22" columns="2">
-                                    <p>
-                                        <dimensions type="written" unit="mm">
-                                            <height>230</height>
-                                            <width>148-152</width>
-                                        </dimensions> written in 2 columns; 21 or 22 lines per page.
-                                        <!--                                    optional Zeilenhöhe-->
-                                        <dimensions type="lineHeight">
-                                            <height min="0" max="0"></height>
-                                        </dimensions></p>
-                                </layout>
-                            </layoutDesc>
+                            </supportDesc>                            
                         </objectDesc>
                     </physDesc>
                     <additional>
@@ -79,7 +66,7 @@
                     </additional>
                     <msPart>
                         <altIdentifier type="partial">
-                            <idno>Codicological unit 2 = ff. 1r-63v</idno>
+                            <idno>Codicological unit 1 = ff. 1r-63v</idno>
                         </altIdentifier>
                         <head>
                             <title>Libri Maccabaeorum</title>
@@ -109,7 +96,7 @@
                             <objectDesc form="fascicle">
                                 <supportDesc material="perg">
                                     <extent>
-                                        <measure type="leaf" quantity="0" unit="folio"></measure>
+                                        <measure type="leavesCount" quantity="0" unit="folio">63</measure>
                                         <dimensions type="leaf" unit="mm">
                                             <height></height>
                                             <width></width>
@@ -395,10 +382,10 @@
                                 <supportDesc material="perg">
                                     <support>Calf parchment (Bischoff, Schreibschule, p. 20)</support>
                                     <extent>
-                                        <measure type="leaf" quantity="0" unit="folio">hansi</measure>
+                                        <measure type="leavesCount" quantity="114" unit="folio">114</measure>
                                         <dimensions type="leaf" unit="mm">
-                                            <height>hansi</height>
-                                            <width>hansi</width>
+                                            <height>H</height>
+                                            <width>W</width>
                                         </dimensions>
                                     </extent>
                                     <foliation/>

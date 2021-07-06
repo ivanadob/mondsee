@@ -266,6 +266,13 @@
 			<xsl:text>, </xsl:text>
 		</xsl:if>
 		<xsl:value-of select="tei:idno"/>
+		<xsl:choose>
+			<xsl:when test="following-sibling::tei:head/tei:title">
+				<xsl:text>: </xsl:text>
+				<xsl:apply-templates select="following-sibling::tei:head/tei:title"/>				
+			</xsl:when>		
+		</xsl:choose>
+		
 	</p>
 </xsl:template>
 
@@ -1503,12 +1510,19 @@
 	</xsl:choose>
 </xsl:template>
 	
-	<xsl:template match="tei:handDesc">	
+	
+	
+	<!--<xsl:template match="tei:handDesc">	
 		<xsl:if test="not(normalize-space(.) = '')">
-				<p class="physDesc">
+				<div class="physDesc">
 					<span class="head"><xsl:text>Hands: </xsl:text></span>
-				<xsl:apply-templates/>	
-				</p>			
+				<xsl:apply-templates select="tei:handDesc/tei:summary"/>	
+					<xsl:for-each select="tei:handNote">
+						<p>
+							<xsl:apply-templates/>	
+						</p>
+					</xsl:for-each>
+				</div>			
 						
 		</xsl:if>
 	</xsl:template>
@@ -1522,7 +1536,10 @@
 				<xsl:apply-templates/>				
 			</p>			
 		</xsl:if>
-	</xsl:template>
+		<xsl:if test="preceding-sibling::tei:handDesc">
+			<xsl:text>hansi</xsl:text>
+		</xsl:if>
+	</xsl:template>-->
 	
 <xsl:template match="tei:physDesc">
 	<p>
@@ -1530,7 +1547,17 @@
 		<xsl:apply-templates select="*[not(self::tei:handDesc) and not(self::tei:scriptDesc) and not(self::tei:layout) and not(self::tei:accMat) and not(self::tei:additions) and not(self::tei:bindingDesc) and not(self::tei:decoDesc) and not(self::tei:condition)]"/>
 		<xsl:apply-templates select="tei:condition"/>
 		<xsl:apply-templates select="tei:layout"/>
-		<xsl:apply-templates select="tei:scriptDesc"/>
+		
+		<xsl:choose>
+			<xsl:when test="tei:scriptDesc != ' '">
+				<p class="phsyDesc">
+					<span class="head">Script: </span>
+					<xsl:apply-templates select="tei:scriptDesc"/>		
+				</p>
+			</xsl:when>
+			
+		</xsl:choose>
+		<!--<xsl:apply-templates select="tei:scriptDesc"/>-->
 		<xsl:apply-templates select="tei:handDesc"/>
 		<xsl:apply-templates select="tei:additions"/>
 		<xsl:apply-templates select="tei:decoDesc"/>

@@ -28,6 +28,22 @@
                <bibl>Rath, Gebhard, and Erich Reiter. Das älteste Traditionsbuch des Klosters Mondsee. Linz: Oberösterreichisches Landesarchiv, 1989.
                </bibl>
             </item>
+            <item xml:id="gbv_179137379">
+               <label>Stegmüller RB</label>
+               <bibl>Stegmüller, Friedrich, and Nikolaus Reinhardt. Repertorium biblicum medii aevi. 11 vols, 1950.</bibl>
+            </item>
+            <item xml:id="gbv_219783551">
+               <label>Bischoff 1980</label>
+               <bibl>Bischoff, Bernhard. <title>Die südostdeutschen Schreibschulen und Bibliotheken in der Karolingerzeit</title>. Vol. 2. Die vorwiegend österreichischen Diözesen. Wiesbaden: Harrassowitz, 1980.</bibl>
+            </item>
+            <item xml:id="gbv_136747531">
+               <label>Hermann 1923</label>
+               <bibl>Hermann, Hermann Julius. Die frühmittelalterlichen Handschriften des Abendlandes. Edited by Franz Wickhoff. Leipzig: Hiersemann, 1923.</bibl>
+            </item>
+            <item xml:id="gbv_031908136">
+               <label>Unterkircher 1969</label>
+               <bibl>Unterkircher, Franz. Die datierten Handschriften der Österreichischen Nationalbibliothek. Wien, 1969.</bibl>
+            </item>
          </list>
       </body>
   </text>

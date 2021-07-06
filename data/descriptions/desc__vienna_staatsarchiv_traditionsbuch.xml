@@ -47,8 +47,8 @@
                         <origPlace>Mondsee</origPlace>
                         <note type="facs"><ref target="http://www.archivinformationssystem.at/detail.aspx?ID=12388"></ref></note>
                         <note type="catalogue"><ref target="https://www.archivinformationssystem.at/detail.aspx?ID=12388"></ref></note>
-                    </head>
-                    
+                        <note type="summary">The composite manuscript is called "Traditionsbuch" - a typical form of cartulary containing transcriptions of charters relating to the possessions and donations made to the monastery. Of particular interest for the current project is the first codicological part copied in the second half of the ninth century as well as fols. 67 and 68 datable to the tenth century.</note>
+                    </head>                    
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
@@ -80,7 +80,7 @@
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <p>Description (<date when="2020">2020</date>) based on:
+                                <p>Description (<date when="2021">2021</date>) based on digital facsimile and on
                                     <bibl><abbr>Rath 1989</abbr></bibl>.
                                 </p>
                             </recordHist>
@@ -93,12 +93,11 @@
                         </listBibl>
                     </additional>                          
                     <msPart>
-                            <altIdentifier type="partial">
-                                <idno>Codicological unit A = ff. 1-51</idno>
-                            </altIdentifier>
-                        
+                        <altIdentifier type="partial">
+                            <idno>Codicological unit A = ff. 1-52</idno>
+                        </altIdentifier>                        
                         <head>
-                            <title></title>
+                            <title>The oldest Tradiotionsbuch</title>
                             <origDate notBefore="0851" notAfter="0900">s. IX <hi rend="sup">2</hi></origDate>
                             <origPlace>Mondsee</origPlace>
                         </head>
@@ -125,7 +124,7 @@
                             <objectDesc form="fascicle">
                                 <supportDesc material="perg">
                                     <support>
-                                        <p>According to <bibl><abbr>Rath 1989</abbr></bibl> teilweise wenig sorgfältig vorbereitetes und beschnittenes Pergament ... vielvach von minderer Qualit#t und weist Löcher, fehlende Ecken sowie unsauber neschnittene Ränder auf.</p>
+                                        <p>According to <bibl><abbr>Rath 1989</abbr></bibl> teilweise wenig sorgfältig vorbereitetes und beschnittenes Pergament ... vielvach von minderer Qualität und weist Löcher, fehlende Ecken sowie unsauber neschnittene Ränder auf.</p>
                                     </support>
                                     <extent>
                                         <measure type="leavesCount" quantity="0" unit="folio">52</measure>
@@ -178,10 +177,26 @@
                                 </layoutDesc>
                             </objectDesc>
                             <handDesc>
-                                <handNote scribe="x" script="x" medium="x"></handNote>
+                                <summary>This part was written by three main hands (labelled A-C by Rath); a fourth hand (D) wrote only several lines on two occasions.</summary>
+                                <handNote scribe="A" script="carolmin" medium="x">Hand A on 
+                                    <list>
+                                        <item>ff. 1r-3r, l. 20</item>
+                                        <item>f. 3v, l. 16-20</item>
+                                        <item>f. 17r, l. 1-3</item>
+                                    </list>. Relaltive tiny script with right inclination.
+                                </handNote>
+                                <handNote scribe="B" script="carolmin" medium="x">
+                                    Scribe B wrote a round minuscule with light inclination to the right:
+                                    <list>
+                                        <item><locus>3r, l. 21-16v</locus>, with intervention by Hand A on <locus>f. 3v (l. 16-20)</locus>, and by Hand C on f. <locus>12r (l. 20-22)</locus>;</item>
+                                        <item><locus>26r, l. 16 - 51</locus>, with intervention by Hand C (see below) and by Hand D on ff. <locus>46r, l. 1-7</locus>, <locus>49v, l. 21-50r, l. 8</locus>.</item>
+                                    </list> 
+                                </handNote>
+                                <handNote scribe="C" script="carolmin" medium="x">Hand C wrote the third quire (ff. 17r-23v) and the opening of the first five pages of the fourth quire (ff. 24r-26r, l. 17). Hand C intervened on several occasions in Hand B: 12r, l. 20-22; 33r, l. 14-17; 36v, l. 5-15; f. 37r, l. 5-11.</handNote>
+                                <handNote scribe="D" script="carolmin" medium="x"></handNote>
                             </handDesc>
                             <scriptDesc>
-                                <scriptNote script="x" medium="x"></scriptNote>
+                                <scriptNote script="carolmin">Rath described the ink as dark to black, with the exception of the text written by Hand B from fol. 43r line 12 which is braun.</scriptNote>
                             </scriptDesc>
                             <decoDesc>
                                 <decoNote type="x"/>
@@ -243,9 +258,7 @@
                             <handDesc>
                                 <handNote scribe="x" script="x" medium="x"></handNote>
                             </handDesc>
-                            <scriptDesc>
-                                <scriptNote script="x" medium="x"></scriptNote>
-                            </scriptDesc>
+                            
                             <decoDesc>
                                 <decoNote type="x"/>
                             </decoDesc>   
