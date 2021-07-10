@@ -16,7 +16,7 @@
             <publicationStmt>               
                 <publisher></publisher>
                 <availability status="restricted">
-                    <licence></licence>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -31,10 +31,12 @@
                         </altIdentifier>                       
                     </msIdentifier>
                     <head>
-                        <title>Libri Maccabaeorum; Epistulae Pauli; Augustinus, Gregorius Magnus: Homiliae et sermones</title>
+                        <title>Libri Maccabaeorum; Epistulae Pauli; Homiliae et sermones</title>
                         <origDate notBefore="0801" notAfter="0900">s. IX</origDate>
                         <origDate notBefore="1201" notAfter="1250">s. XIII</origDate>
                         <origPlace>Mondsee</origPlace>
+                        <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13956701"></ref></note>
+                        <note type="summary">The composite volume contains two main codicological units. The first 63 folios with the biblical text of "Libri Maccabeorum" were written probably in Mondsee in the 13<hi rend="sup">th</hi> c. The second part starting on f. 64r and datable to the first half of the 9<hi rend="sup">th</hi> c. contains a partial copy of the Pauline letters (reconstructed manuscript <ref type="altMs" target="#desc__vienna_onb_sn_2065.xml">Vienna, ÖNB, Cod. Ser. n. 2065</ref>) and a collection of homilies.</note>
                     </head> 
                     <physDesc>
                         <objectDesc form="codex">
@@ -42,8 +44,8 @@
                                 <extent>
                                     <measure type="leavesCount">178</measure>
                                    <dimensions type="leaf">
-                                        <height>H</height>
-                                        <width>W</width>
+                                        <height>300</height>
+                                        <width>210</width>
                                     </dimensions>
                                 </extent>
                             </supportDesc>                            
@@ -52,8 +54,8 @@
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <p>Beschreibung adaptiert (<date when="2020">2020</date>) nach:
-                                    <bibl>Hermann, Julius H. Die frühmittelalterlichen Handschriften des Abendlandes (Beschreibendes Verzeichnis der illuminierten Handschriften in Österreich VIII/1). Leipzig 1923, p. 174-176.</bibl>
+                                <p>Description based on:
+                                    <bibl>Hermann, Julius H. Die frühmittelalterlichen Handschriften des Abendlandes (Beschreibendes Verzeichnis der illuminierten Handschriften in Österreich VIII/1). Leipzig 1923, pp. 174-176.</bibl>
                                 </p>
                             </recordHist>
                         </adminInfo>
@@ -71,7 +73,7 @@
                         <head>
                             <title>Libri Maccabaeorum</title>
                             <origDate notBefore="1201" notAfter="1250">s. XIII</origDate>
-                            <origPlace></origPlace>
+                            <origPlace>Mondsee (?)</origPlace>
                         </head>
                         <msContents>
                             <textLang mainLang="lat" otherLangs=""/> <!--nach ISO-639-3 : lat, deu, gmh etc. : https://de.wikipedia.org/wiki/%C3%9Cberblicksliste_der_ISO-639-3-Codes-->
@@ -97,60 +99,17 @@
                                 <supportDesc material="perg">
                                     <extent>
                                         <measure type="leavesCount" quantity="0" unit="folio">63</measure>
-                                        <dimensions type="leaf" unit="mm">
-                                            <height></height>
-                                            <width></width>
-                                        </dimensions>
-                                    </extent>
-                                    <foliation/>
-                                    <collation>
-                                        <formula></formula>
-                                    </collation>
-                                    <condition/>
-                                </supportDesc>
-                                <layoutDesc>
-                                    <!--   mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
-                                    <layout ruledLines="0" writtenLines="0" columns="0">
-                                        <dimensions type="written" unit="mm">
-                                            <height max="0" min="0"></height>
-                                            <width max="0" min="0"></width>
-                                        </dimensions> 
-                                        <!--                                    optional Zeilenhöhe-->
-                                        <dimensions type="lineHeight">
-                                            <height min="0" max="0"></height>
-                                        </dimensions>
-                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
-                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
-                                    </layout>
-                                </layoutDesc>
-                            </objectDesc>
-                            <handDesc>
-                                <handNote scribe="x" script="x" medium="x"></handNote>
-                            </handDesc>
-                            <scriptDesc>
-                                <scriptNote script="x" medium="x"></scriptNote>
-                            </scriptDesc>
-                            <decoDesc>
-                                <decoNote type="x"/>
-                            </decoDesc>   
-                            <additions/> <!--Marginalia etc.-->
-                            <accMat/> <!--z.B. Fragmente oder beiliegende Notizen, die nicht Teil der HS sind-->
+                                    </extent>                                  
+                                </supportDesc>                                
+                            </objectDesc>                           
                         </physDesc>
-                        <history>
-                            <origin>
-                                <origPlace/>
-                                <origDate notBefore="0001" notAfter="0001"/>
-                            </origin>
-                            <provenance/>
-                            <acquisition/>
-                        </history>
                     </msPart>
                     <msPart>
                         <altIdentifier type="partial">
                             <idno>Codicological unit 2 = fols. 64-178</idno>
                         </altIdentifier>
                         <head>
-                            <title>Epistulae Pauli; Augustinus, Gregorius Magnus: Homiliae et sermones</title>
+                            <title>Epistulae Pauli; Homiliae et sermones</title>
                             <origDate notBefore="0801" notAfter="0900">s. IX</origDate>
                             <origPlace>Mondsee</origPlace>
                         </head>
@@ -448,22 +407,22 @@
             <editorialDecl> <!--die Editionsprinzipien und Verfahren, die bei der Kodierung des Textes angewandt wurden-->
                 <p></p>
             </editorialDecl>
+            <projectDesc>
+                <p>Description originated within the project "The Carolingian Scriptorium of Mondsee".</p>
+            </projectDesc>
         </encodingDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
         <listChange>
-            <change></change>
+            <change when="2021-07-10"></change>
         </listChange>
     </revisionDesc>
     </teiHeader>
-    <facsimile>
-        <graphic url="" n="1r"/>
-    </facsimile>
     <text>
         <body>
             <head>
-                <title>Transkription des Textes ... </title>
+                <title></title>
             </head>
-            <p><pb n="1r"/> ... </p>
+            <p/>
         </body>
     </text>
 </TEI>

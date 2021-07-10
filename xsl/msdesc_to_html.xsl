@@ -153,10 +153,14 @@
                     <hr/>
                     
                 <div class="copyright">
-                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" width="88" height="31" alt="Creative Commons License"></img></a>
-                    <p><xsl:apply-templates select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt"/></p>
-                </div>
-                <xsl:choose>
+                	<xsl:choose>
+                		<xsl:when test="descendant-or-self::tei:availability/tei:licence/@target='https://creativecommons.org/licenses/by/4.0/'">
+                			<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" width="88" height="31" alt="Creative Commons License"></img></a>
+                		</xsl:when>
+                	</xsl:choose>                	
+                    <p>
+                    	<xsl:apply-templates select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt"/>
+                    	<xsl:choose>
                     <xsl:when test="descendant-or-self::tei:TEI/tei:teiHeader/tei:revisionDesc/@status = 'draft' ">
                         <xsl:text> (draft version: </xsl:text>
                         <xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:revisionDesc/tei:listChange/tei:change[1]/@when"/><xsl:text>)</xsl:text>		
@@ -166,6 +170,13 @@
                         <xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:revisionDesc/tei:listChange/tei:change[1]/@when"/><xsl:text>)</xsl:text>
                     </xsl:when>
                 </xsl:choose>
+                    	<xsl:if test="descendant-or-self::tei:recordHist[not(normalize-space(.)='')]">
+                    		<br/>
+                    		<xsl:apply-templates select="descendant-or-self::tei:recordHist"/>
+                    	</xsl:if>
+                    </p>
+                </div>
+                
                 <div id="{generate-id()}">
                     <xsl:text>How to quote: </xsl:text>
                     <xsl:apply-templates select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:name | descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:persName"/><xsl:text>, '</xsl:text>
@@ -247,8 +258,8 @@
 </xsl:template>
 
 <xsl:template match="tei:msIdentifier | tei:altIdentifier" mode="msPart">
-	<p>
-		<xsl:attribute name="class">part</xsl:attribute>
+	<div class="part">
+		<!--<xsl:attribute name="class">part</xsl:attribute>-->
 		<xsl:if test="tei:settlement != ancestor::tei:msDesc/tei:msIdentifier/tei:settlement">
 			<xsl:value-of select="tei:settlement"/>
 			<xsl:text>, </xsl:text>
@@ -268,12 +279,13 @@
 		<xsl:value-of select="tei:idno"/>
 		<xsl:choose>
 			<xsl:when test="following-sibling::tei:head/tei:title">
-				<xsl:text>: </xsl:text>
-				<xsl:apply-templates select="following-sibling::tei:head/tei:title"/>				
+				<p style="font-weight:normal">
+				<xsl:apply-templates select="following-sibling::tei:head/tei:title"/>	
+				</p>
 			</xsl:when>		
 		</xsl:choose>
 		
-	</p>
+	</div>
 </xsl:template>
 
 <xsl:template match="tei:altIdentifier">
@@ -1510,37 +1522,6 @@
 	</xsl:choose>
 </xsl:template>
 	
-	
-	
-	<!--<xsl:template match="tei:handDesc">	
-		<xsl:if test="not(normalize-space(.) = '')">
-				<div class="physDesc">
-					<span class="head"><xsl:text>Hands: </xsl:text></span>
-				<xsl:apply-templates select="tei:handDesc/tei:summary"/>	
-					<xsl:for-each select="tei:handNote">
-						<p>
-							<xsl:apply-templates/>	
-						</p>
-					</xsl:for-each>
-				</div>			
-						
-		</xsl:if>
-	</xsl:template>
-	<xsl:template match="tei:scriptDesc">	
-		<xsl:if test="not(normalize-space(.) = '')">
-			<p>
-				<xsl:attribute name="class">physDesc</xsl:attribute>
-				<xsl:if test="not(contains(.,'Script: '))">
-					<span class="head"><xsl:text>Script: </xsl:text></span>
-				</xsl:if>
-				<xsl:apply-templates/>				
-			</p>			
-		</xsl:if>
-		<xsl:if test="preceding-sibling::tei:handDesc">
-			<xsl:text>hansi</xsl:text>
-		</xsl:if>
-	</xsl:template>-->
-	
 <xsl:template match="tei:physDesc">
 	<p>
 		<xsl:attribute name="class">physDesc</xsl:attribute>
@@ -1549,16 +1530,28 @@
 		<xsl:apply-templates select="tei:layout"/>
 		
 		<xsl:choose>
-			<xsl:when test="tei:scriptDesc != ' '">
+			<xsl:when test="tei:scriptDesc[not(normalize-space(.)='')] and not(tei:handDesc[not(normalize-space(.)='')])">
 				<p class="phsyDesc">
 					<span class="head">Script: </span>
-					<xsl:apply-templates select="tei:scriptDesc"/>		
+					<xsl:apply-templates select="tei:scriptDesc"/>	
 				</p>
 			</xsl:when>
-			
+			<xsl:when test="tei:scriptDesc[not(normalize-space(.)='')] and tei:handDesc[not(normalize-space(.)='')]">
+				<p class="phsyDesc">
+					<span class="head">Script: </span>
+					<xsl:apply-templates select="tei:scriptDesc"/>	
+					<br/>
+					<xsl:apply-templates select="tei:handDesc"/>
+				</p>
+			</xsl:when>
+			<xsl:when test="tei:handDesc[not(normalize-space(.)='')] and not(tei:scriptDesc[not(normalize-space(.)='')])">
+				<p class="phsyDesc">
+					<span class="head">Script: </span>
+					<xsl:apply-templates select="tei:handDesc"/>
+				</p>
+			</xsl:when>
 		</xsl:choose>
-		<!--<xsl:apply-templates select="tei:scriptDesc"/>-->
-		<xsl:apply-templates select="tei:handDesc"/>
+		
 		<xsl:apply-templates select="tei:additions"/>
 		<xsl:apply-templates select="tei:decoDesc"/>
 	</p>
