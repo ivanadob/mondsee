@@ -254,8 +254,7 @@
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <p>Description based on (<date when="2020">2020</date>) nach:
-                                <bibl></bibl>
+                                <p>
                                 </p>
                             </recordHist>
                         </adminInfo>
@@ -285,10 +284,7 @@
     </facsimile>
     <text>
         <body>
-            <head>
-                <title></title>
-            </head>
-            <p><pb n="1r"/> ... </p>
+           <p/>
         </body>
     </text>
 </TEI>

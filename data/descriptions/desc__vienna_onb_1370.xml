@@ -32,19 +32,24 @@
             <sourceDesc>
                 <msDesc xml:lang="en" xml:id="xxx-xxx">
                     <msIdentifier>
-                        <country></country>
-                        <settlement></settlement>
+                        <country>Austria</country>
+                        <settlement>Vienna</settlement>
                         <institution></institution>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Österreichische Nationalbibliothek</repository> 
+                        <idno>Cod. 1370</idno>
                         <altIdentifier type="former"> 
-                            <idno></idno>
-                        </altIdentifier>                       
+                            <idno>Rec. 3324</idno>
+                        </altIdentifier> 
+                        <altIdentifier type="former">
+                            <idno>Lunael. q. 61</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <head>
-                        <title></title>
-                        <origDate notBefore="0001" notAfter="0010"></origDate>
-                        <origPlace></origPlace>
+                        <title>Pastorale Sammelhandschrift</title>
+                        <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi></origDate>
+                        <origPlace>Mondsee (?)</origPlace>
+                        <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13959082"></ref></note>
+                        <note type="facs"><ref target="http://data.onb.ac.at/dtl/3869114"></ref></note>
                     </head> 
                     <msContents>
                         <textLang mainLang="lat" otherLangs=""/> 
@@ -64,15 +69,90 @@
                                 <bibl/>
                             </listBibl>
                         </msItem>
+                        <msItem>
+                            <locus from="1v" to="18r">1v-18r</locus>
+                            <rubric>Ordo uel breuis explanatio de <sic>caticizandis</sic> rudibus</rubric>
+                            <incipit>Primo ergo in catecizandis rudibus apostolicum oportet intueri sermonem</incipit>
+                            <explicit>sicut pater noster caelestis perfectus est.</explicit>
+                            <note>Title and first three lines written in black ink by one hand; rest in brown ink in a second hand.</note>
+                            <filiation>According to <ref target="http://www.mirabileweb.it/title/ordo-de-catechizandis-rudibus-title/182372">Mirabile</ref> the same text is attested in <ref type="altMs" target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00047264-2">München, Bayerische Staatsbibliothek, Clm 6324</ref>, ff. 98v-107r; <ref type="altMs" target="https://mdz-nbn-resolving.de/details:bsb00047265">München, Bayerische Staatsbibliothek, Clm 6325</ref>, ff. 134v-142v, and in <ref type="altMs">Rouen, Bibliothèque Jacques Villon (olim Bibliothèque Municipale), A. 214 (469)</ref>, ff. 121v-135.</filiation>
+                            <bibl>
+                                <abbr>Clavis</abbr> vol. II, pp. 481-82.
+                            </bibl>
+                            <msItem>
+                                <locus from="18r">18r</locus>
+                                <rubric>Epylogus breuiter digestus</rubric>
+                                <note></note>
+                            </msItem>
+                        </msItem>
+                        <msItem>
+                            <locus></locus>
+                            <note type="title">Compilation of excerpts from Isidore's Sententiarum libri and Iulianus Pomerius' De vita contemplativa</note>
+                        </msItem>
+                        
+                        <msItem>
+                            <locus from="" to=""></locus>
+                            <title>Pastorale</title>
+                        </msItem>
+                        <msItem>
+                            <locus from="" to=""></locus>
+                            <author></author>
+                            <title>Tractatus de ieiunio</title>
+                        </msItem>
+                        <msItem>
+                            <locus from="" to=""></locus>
+                            <author>Gregorius Magnus</author>
+                            <title>Regula pastoralis: Cap. 11.</title>
+                        </msItem>
+                        <msItem>
+                            <locus from="" to=""></locus>
+                            <author></author>
+                            <title>Catechesis de oratione dominica</title>
+                        </msItem>
+                        <msItem>
+                            <locus from="" to=""></locus>
+                            <author></author>
+                            <title>Constitutio et fides concilii Nicaeni</title>
+                        </msItem>
+                        <msItem>
+                            <locus from="" to=""></locus>
+                            <author></author>
+                            <title>Catechesis de missa</title>
+                        </msItem>
+                        <msItem>
+                            <locus from="" to=""></locus>
+                            <author>Boethius</author>
+                            <title>Confessio fidei: Excerpta</title>
+                        </msItem>
+                        <msItem>
+                            <locus from="" to=""></locus>
+                            <author></author>
+                            <title>De octo vitiis principalibus</title>
+                        </msItem>
+                        <msItem>
+                            <locus from="" to=""></locus>
+                            <author></author>
+                            <title>De matrimonio. Excerpta ex operibus patrum</title>
+                        </msItem>
+                        <msItem>
+                            <locus from="" to=""></locus>
+                            <author></author>
+                            <title>Acta septem dormientium Ephesinorum</title>
+                        </msItem>
+                        <msItem>
+                            <locus from="" to=""></locus>
+                            <author></author>
+                            <title>Sermo de confusione diaboli et inferni</title>
+                        </msItem>                        
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <extent>
-                                    <measure type="leavesCount" quantity="0" unit="folio"></measure>
+                                    <measure type="leavesCount" quantity="0" unit="folio">120</measure>
                                     <dimensions type="leaf" unit="mm">
-                                        <height></height>
-                                        <width></width>
+                                        <height>180</height>
+                                        <width>130</width>
                                     </dimensions>
                                 </extent>
                                 <foliation/>
@@ -229,9 +309,9 @@
                 <p>Description originated within the project "The Carolingian Scriptorium of Mondsee".</p>
             </projectDesc>
         </encodingDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
         <listChange>
-            <change></change>
+            <change when="2021-07-10">First draft with min info</change>
         </listChange>
     </revisionDesc>
     </teiHeader>
