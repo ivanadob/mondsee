@@ -71,6 +71,7 @@
                         </msItem>
                         <msItem>
                             <locus from="1v" to="18r">1v-18r</locus>
+                            <author>Ps. Alcuinus / Ps. Arno Salisburgensis</author>
                             <rubric>Ordo uel breuis explanatio de <sic>caticizandis</sic> rudibus</rubric>
                             <incipit>Primo ergo in catecizandis rudibus apostolicum oportet intueri sermonem</incipit>
                             <explicit>sicut pater noster caelestis perfectus est.</explicit>
@@ -79,10 +80,18 @@
                             <bibl>
                                 <abbr>Clavis</abbr> vol. II, pp. 481-82.
                             </bibl>
+                            <!--                            Compare with Augustine's De de catechizandis rudibus (Lit.: https://www.brepolsonline.net/doi/pdf/10.1484/J.RA.5.102393; Edition in PL: https://www.documentacatholicaomnia.eu/02m/0354-0430,_Augustinus,_De_Catechizandis_Rudibus,_MLT.pdf; FR and DE translation in https://bkv.unifr.ch/works/130
+                            Check if text on ff. 3r-22r identical with In libro ad conpetentes by Nicetas Remesianensis (Stegmüller Nr. 5659)
+                            -->
                             <msItem>
                                 <locus from="18r">18r</locus>
                                 <rubric>Epylogus breuiter digestus</rubric>
                                 <note></note>
+                            </msItem>
+                            <msItem>
+                                <locus>3r-22r</locus>
+                                <author>Nicetas Remesianensis</author>
+                                <title>In libro ad conpetentes // Competentibus ad baptismum instructionis libelli VI</title>
                             </msItem>
                         </msItem>
                         <msItem>
@@ -91,58 +100,71 @@
                         </msItem>
                         
                         <msItem>
-                            <locus from="" to=""></locus>
+                            <locus from="53v" to="62v">53v-62v</locus>
                             <title>Pastorale</title>
+                            <incipit>Diligiter inuestigauimus</incipit>
+                            <explicit>a sinodo publica.</explicit>
                         </msItem>
                         <msItem>
-                            <locus from="" to=""></locus>
+                            <locus from="63r" to="64v">63r-64v</locus>
                             <author></author>
                             <title>Tractatus de ieiunio</title>
+                            <incipit>Frater quidam interrogauit</incipit>
+                            <explicit>diabuli temptamenta uincuntur.</explicit>
                         </msItem>
                         <msItem>
-                            <locus from="" to=""></locus>
+                            <locus from="65r" to="70r">65r-70r</locus>
                             <author>Gregorius Magnus</author>
                             <title>Regula pastoralis: Cap. 11.</title>
                         </msItem>
                         <msItem>
-                            <locus from="" to=""></locus>
+                            <locus from="70r" to="72r">70r-72r</locus>
                             <author></author>
                             <title>Catechesis de oratione dominica</title>
+                            <incipit>Pater noster quies in celis</incipit>
+                            <explicit>fideliter interpretatur.</explicit>
                         </msItem>
                         <msItem>
-                            <locus from="" to=""></locus>
+                            <locus from="72r" to="81v">72r-81v</locus>
                             <author></author>
-                            <title>Constitutio et fides concilii Nicaeni</title>
+                            <title>Constitutio et fides concilii Nicaeni interprete Dionysio Exigui</title>
                         </msItem>
                         <msItem>
-                            <locus from="" to=""></locus>
+                            <locus from="81v" to="83r">81v-83r</locus>
                             <author></author>
                             <title>Catechesis de missa</title>
+                            <incipit>Interrogatio ipsa missa a quo potifice</incipit>
+                            <explicit>et confessio peccatorum.</explicit>
                         </msItem>
                         <msItem>
-                            <locus from="" to=""></locus>
+                            <locus from="83v" to="88r">83v-88r</locus>
                             <author>Boethius</author>
                             <title>Confessio fidei: Excerpta</title>
+                            <rubric>Sermo ab exordio mundi</rubric>
                         </msItem>
                         <msItem>
-                            <locus from="" to=""></locus>
+                            <locus from="89r" to="90r">89r-90r</locus>
                             <author></author>
                             <title>De octo vitiis principalibus</title>
                         </msItem>
                         <msItem>
-                            <locus from="" to=""></locus>
+                            <locus from="90r" to="98v">90r-98v</locus>
                             <author></author>
                             <title>De matrimonio. Excerpta ex operibus patrum</title>
                         </msItem>
                         <msItem>
-                            <locus from="" to=""></locus>
+                            <locus from="99r" to="107v">99r-107v</locus>
                             <author></author>
                             <title>Acta septem dormientium Ephesinorum</title>
+                            <incipit>In illo tempore regnabat decius</incipit>
+                            <explicit>resurrectionem mortuorum.</explicit>
                         </msItem>
                         <msItem>
-                            <locus from="" to=""></locus>
+                            <locus from="107v" to="120v">107v-120v</locus>
                             <author></author>
                             <title>Sermo de confusione diaboli et inferni</title>
+                            <incipit>Audiens diabolus dominum</incipit>
+                            <explicit>domino nostro cui sit.</explicit>
                         </msItem>                        
                     </msContents>
                     <physDesc>
@@ -216,88 +238,7 @@
                         <listBibl>
                             <bibl/>
                         </listBibl>
-                    </additional>             
-                    <msPart>
-                       
-                        <altIdentifier type="partial">
-                            <idno>Codicological unit 1 = ff. </idno>
-                        </altIdentifier>
-                        
-                        <head>
-                            <title></title>
-                            <origDate notBefore="0001" notAfter="0001"></origDate>
-                            <origPlace></origPlace>
-                        </head>
-                        <msContents>
-                            <textLang mainLang="lat" otherLangs=""/>
-                            <msItem>
-                                <locus from="x" to="x"/>
-                                <title/>
-                                <author/>
-                                <rubric/>
-                                <incipit/>
-                                <explicit/>
-                                <finalRubric/>
-                                <colophon></colophon>
-                                <decoNote></decoNote>
-                                <note/>
-                                <filiation></filiation>
-                                <listBibl>
-                                    <bibl/>
-                                </listBibl>
-                            </msItem>
-                        </msContents>
-                        <physDesc>
-                            <objectDesc form="fascicle">
-                                <supportDesc material="perg">
-                                    <extent>
-                                        <measure type="leavesCount" quantity="0" unit="folio"></measure>
-                                        <dimensions type="leaf" unit="mm">
-                                            <height></height>
-                                            <width></width>
-                                        </dimensions>
-                                    </extent>
-                                    <foliation/>
-                                    <collation>
-                                        <formula></formula>
-                                    </collation>
-                                    <condition/>
-                                </supportDesc>
-                                <layoutDesc>
-                                    <layout ruledLines="0" writtenLines="0" columns="0">
-                                        <dimensions type="written" unit="mm">
-                                            <height max="0" min="0"></height>
-                                            <width max="0" min="0"></width>
-                                        </dimensions> 
-                                        <dimensions type="lineHeight">
-                                            <height min="0" max="0"></height>
-                                        </dimensions>
-                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
-                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
-                                    </layout>
-                                </layoutDesc>
-                            </objectDesc>
-                            <handDesc>
-                                <handNote scribe="x" script="x" medium="x"></handNote>
-                            </handDesc>
-                            <scriptDesc>
-                                <scriptNote script="x" medium="x"></scriptNote>
-                            </scriptDesc>
-                            <decoDesc>
-                                <decoNote type="x"/>
-                            </decoDesc>   
-                            <additions/>
-                            <accMat/> 
-                        </physDesc>
-                        <history>
-                            <origin>
-                                <origPlace/>
-                                <origDate notBefore="0001" notAfter="0001"/>
-                            </origin>
-                            <provenance/>
-                            <acquisition/>
-                        </history>
-                    </msPart>                    
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -311,7 +252,7 @@
         </encodingDesc>
     <revisionDesc status="draft">
         <listChange>
-            <change when="2021-07-10">First draft with min info</change>
+            <change when="2021-07-12">First draft with min info</change>
         </listChange>
     </revisionDesc>
     </teiHeader>
