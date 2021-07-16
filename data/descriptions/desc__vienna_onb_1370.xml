@@ -202,24 +202,24 @@
                             <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
                         </handDesc>
                         <scriptDesc>
-                            <summary></summary>
-                            <scriptNote script="x" medium="x"></scriptNote>
+                            <summary>Written by several hands in a non-calligraphic Carolingian minuscule.</summary>
+                            <scriptNote script="x" medium="x">Bischoff (<bibl><abbr>Bischoff 1980</abbr></bibl>, p. 24) suggested similarity between the hand writing ff. 83v-120v and the so-called "Cassiodor-Schreiber" who came probably from Mondsee to Regensburg in the year 833.</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote type="x"/>
                         </decoDesc>   
                         <additions/>
                         <bindingDesc>
-                            <binding notBefore="0001" notAfter="0001">
-                                <p/>
+                            <binding notBefore="1401" notAfter="1500" contemporary="false">
+                                <p>A late medieval (15th-century) leather binding on wood boards with blind tooling (three parallel lines forming a rectangular with a Saint Andrew's cross inside - left and right board same decoration). Binding on three sewing stations with double supports (leather strips?). Clasp removed; preserved are the metal nails on both covers and partly the strip of leather attached to the middle of the right cover. Original pastedowns removed and replaced with modern paper. </p>
                             </binding>
                         </bindingDesc>
                         <accMat/> 
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace/>
-                            <origDate notBefore="0001" notAfter="0001"/>
+                            <p>The manuscript was probably copied in <origPlace>Mondsee</origPlace> 
+                                <origDate notBefore="0801" notAfter="0850">in the first half of the 9<hi rend="sup">th</hi> c.</origDate>. Bischoff (<bibl><abbr>Bischoff 1980</abbr></bibl>, p. 24) suggested the first or second quarter of the 9<hi rend="sup">th</hi> c.</p>
                         </origin>
                         <provenance/>
                         <acquisition/>
