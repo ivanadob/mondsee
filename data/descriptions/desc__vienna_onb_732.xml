@@ -33,7 +33,7 @@
                     <head>
                         <title>Libri Maccabaeorum; Epistulae Pauli; Homiliae et sermones</title>
                         <origDate notBefore="0801" notAfter="0900">s. IX</origDate>
-                        <origDate notBefore="1201" notAfter="1250">s. XIII</origDate>
+                        (<date notBefore="1201" notAfter="1250">s. XIII</date>)
                         <origPlace>Mondsee</origPlace>
                         <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13956701"></ref></note>
                         <note type="summary">The composite volume contains two main codicological units. The first 63 folios with the biblical text of "Libri Maccabeorum" were written probably in Mondsee in the 13<hi rend="sup">th</hi> c. The second part starting on f. 64r and datable to the first half of the 9<hi rend="sup">th</hi> c. contains a partial copy of the Pauline letters (reconstructed manuscript <ref type="altMs" target="#desc__vienna_onb_sn_2065.xml">Vienna, ÖNB, Cod. Ser. n. 2065</ref>) and a collection of homilies.</note>
@@ -43,7 +43,7 @@
                             <supportDesc material="perg">
                                 <extent>
                                     <measure type="leavesCount">178</measure>
-                                   <dimensions type="leaf">
+                                   <dimensions type="leaf" unit="mm">
                                         <height>300</height>
                                         <width>210</width>
                                     </dimensions>

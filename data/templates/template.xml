@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:base="+++/tei-msDesc_dobcheva.xml" xml:id="_tei-msDesc_dobcheva">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="en" xml:base="+++/tei-msDesc_dobcheva.xml" xml:id="_tei-msDesc_dobcheva">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -69,7 +69,7 @@
                             <supportDesc material="perg">
                                 <extent>
                                     <measure type="leavesCount" quantity="0" unit="folio"></measure>
-                                    <dimensions type="leaf" unit="mm">
+                                    <dimensions type="leaf_current" unit="mm">
                                         <height></height>
                                         <width></width>
                                     </dimensions>
@@ -83,11 +83,14 @@
                             <layoutDesc>
                                 <layout ruledLines="0" writtenLines="0" columns="0">
                                     <dimensions type="written" unit="mm">
-                                        <height max="0" min="0"></height>
-                                        <width max="0" min="0"></width>
+                                        <height></height>
+                                        <width></width>
                                     </dimensions> 
+                                    <dimensions type="column" unit="mm">
+                                        <width></width>
+                                    </dimensions>
                                     <dimensions type="lineHeight" unit="mm">
-                                        <height min="0" max="0"></height>
+                                        <height></height>
                                     </dimensions>
                                    <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
                                        laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
