@@ -1,12 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:base="F-knqo/tei-msDesc_dobcheva.xml" xml:id="F-knqo_tei-msDesc_dobcheva">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Fragmented MS: Vienna, ÖNB, Cod. 15346, Fragm. 1572, Fragm. 1582, Fragm. 1583, Fragm. 1589, Fragm. 1590, Fragm. 1763, Cod. 1755</title>
+                <title>Fragmented MS: Vienna, ÖNB, Cod. 15346, Fragmm. 1572, 1582, 1583, 1589, 1590, 1763 and binding waste in Cod. 1755</title>
                 <respStmt>
                     <resp>Description by</resp>
                     <persName>
@@ -33,19 +29,19 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="en" xml:id="f-knqo">
+                <msDesc xml:lang="en" xml:id="F-knqo">
                     <msIdentifier>
                         <country>Austria</country>
                         <settlement>Vienna</settlement>
                         <repository>Österreichische Nationalbibliothek</repository> 
                         <idno></idno>
                         <altIdentifier type="collection"> 
-                            <idno>f-knqo</idno>
+                            <idno>F-knqo</idno>
                         </altIdentifier>                       
                     </msIdentifier>
                     <head>
                         <title>Old Testament: Tb, Est, Job, Ez, Iud (reconstruction)</title>
-                        <origDate notBefore="0801" notAfter="0850"></origDate>
+                        <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi></origDate>
                         <origPlace>Mondsee</origPlace>
                         <note type="summary"><p>Virtual reconstruction of a manuscript, which once probably contained the Book of Tobias (Tobit), the Book of Judith, the Book of Esther and the Book of Ezra. The palaeographical analysis suggests that the text was written in the Mondsee Abbey in the early 9th century. In the 15th century, several leaves from the original book were used as binding waste for Mondsee manuscripts.</p>
                             
@@ -157,8 +153,8 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc status="draft">
-            <listChange>
-                <change when="2021-07-10">Use standard tei-ms scheme to include msFrag (not included in europeana regia).</change>
+            <listChange>                
+                <change when="2021-07-23">change schema</change>
             </listChange>
         </revisionDesc>
     </teiHeader>

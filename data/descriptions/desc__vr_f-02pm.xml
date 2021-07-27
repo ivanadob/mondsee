@@ -1,8 +1,8 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:base="+++/tei-msDesc_dobcheva.xml" xml:id="_tei-msDesc_dobcheva">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:base="f-02pm/tei-msDesc_dobcheva.xml" xml:id="f-02pm_tei-msDesc_dobcheva">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Fragmented MS: Vienna, ÖNB, Cod. Ser. n. 2070, Cod. Ser. n. 3753, Cod. Ser. n. 3763, Fragm. 248, Fragm. 782d, Fragm. 1562, Fragm. 1575, Fragm. 1579 and binding waste in Codd. 1754, 3776, 3847 and 3895</title>
                 <respStmt>
                     <resp>Description by</resp>
                     <persName>
@@ -29,21 +29,23 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="en" xml:id="xxx-xxx">
+                <msDesc xml:lang="en" xml:id="F-02pm">
                     <msIdentifier>
-                        <country></country>
-                        <settlement></settlement>
+                        <country>Austria</country>
+                        <settlement>Vienna</settlement>
                         <institution></institution>
-                        <repository></repository> 
+                        <repository>Österreichische Nationalbibliothek</repository> 
                         <idno></idno>
-                        <altIdentifier type="former"> 
-                            <idno></idno>
+                        <altIdentifier type="collection"> 
+                            <idno>F-02pm</idno>
                         </altIdentifier>                       
                     </msIdentifier>
                     <head>
-                        <title></title>
-                        <origDate notBefore="0001" notAfter="0010"></origDate>
-                        <origPlace></origPlace>
+                        <title>Vitas Patrum</title>
+                        <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi></origDate>
+                        <origPlace>Mondsee</origPlace>
+                        <note type="summary">A group of hagiographical fragments of the Vitas Patrum written in the early ninth century. The original manuscript included five works: Historia monachorum, Vita Pauli, Vita Antonii, Vita Malchi and Vita Hilarionis. From the last two survived only four fragments representing two partial leaves.</note>
+                        <note type="facs"><ref target="https://fragmentarium.ms/overview/F-02pm"></ref></note>
                     </head> 
                     <msContents>
                         <textLang mainLang="lat" otherLangs=""/> 

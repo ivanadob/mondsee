@@ -101,6 +101,10 @@
                     </div>	
                    
                     <xsl:apply-templates select="descendant-or-self::tei:msDesc"/>
+                	<hr/>
+                	<xsl:apply-templates select="descendant-or-self::tei:text"/>
+                		
+                	
                     
                     <xsl:if test="$bibliography//tei:label[. = current()//tei:abbr[parent::tei:bibl[not(ancestor::tei:source)]][not(ancestor::tei:list[@type = 'bibliography'])]]">
                         <hr/>	

@@ -3,13 +3,12 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Wien, Österreichische Nationalbibliothek, Cod. 1193</title>
+                <title>Vienna, Österreichische Nationalbibliothek, Cod. 1193</title>
                 <respStmt>
                     <resp>Handschriftenbeschreibung nach TEI-XML</resp>
                     <persName>
                         <forename>Ivana</forename>
                         <surname>Dobcheva</surname>
-                        <affiliation>INTK, Akademie der bildenden Künste</affiliation>
                     </persName>
                 </respStmt>                
             </titleStmt>
@@ -309,89 +308,7 @@
                             <bibl><abbr>Hermann 1923</abbr>, pp. <ref target="http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0757_b085_jpg.htm">85</ref>-<ref target="http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0757_b087_jpg.htm">87</ref>.</bibl>
                             <bibl><abbr>Bischoff 1980</abbr>, pp. 23-24.</bibl>
                         </listBibl>
-                    </additional>
-<!--  XXXXXXXXXXXXX  Für Handschriftenteile innerhalb einer Sammelhandschrift (composite volumes) die urpsrünglich separaten kodikologischen Einheiten waren - > msPart altIdentifier @type = partial -->                           
-                    <msPart>
-                        <altIdentifier type="partial">
-                            <idno>Codicological unit 1 = ff. </idno>
-                        </altIdentifier>
-                        <head>
-                            <title></title>
-                            <origDate notBefore="0001" notAfter="0001"></origDate>
-                            <origPlace></origPlace>
-                        </head>
-                        <msContents>
-                            <textLang mainLang="lat" otherLangs=""/> <!--nach ISO-639-3 : lat, deu, gmh etc. : https://de.wikipedia.org/wiki/%C3%9Cberblicksliste_der_ISO-639-3-Codes-->
-                            <msItem>
-                                <locus from="x" to="x"/>
-                                <title/>
-                                <author/>
-                                <rubric/>
-                                <incipit/>
-                                <explicit/>
-                                <finalRubric/>
-                                <colophon></colophon>
-                                <decoNote></decoNote>
-                                <note/>
-                                <filiation></filiation>
-                                <listBibl>
-                                    <bibl/>
-                                </listBibl>
-                            </msItem>
-                        </msContents>
-                        <physDesc>
-                            <objectDesc form="fascicle">
-                                <supportDesc material="perg">
-                                    <extent>
-                                        <measure type="leaf" quantity="0" unit="folio"></measure>
-                                        <dimensions type="leaf" unit="mm">
-                                            <height></height>
-                                            <width></width>
-                                        </dimensions>
-                                    </extent>
-                                    <foliation/>
-                                    <collation>
-                                        <formula></formula>
-                                    </collation>
-                                    <condition/>
-                                </supportDesc>
-                                <layoutDesc>
-                                    <!--   mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
-                                    <layout ruledLines="0" writtenLines="0" columns="0">
-                                        <dimensions type="written" unit="mm">
-                                            <height max="0" min="0"></height>
-                                            <width max="0" min="0"></width>
-                                        </dimensions> 
-                                        <!--                                    optional Zeilenhöhe-->
-                                        <dimensions type="lineHeight">
-                                            <height min="0" max="0"></height>
-                                        </dimensions>
-                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
-                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
-                                    </layout>
-                                </layoutDesc>
-                            </objectDesc>
-                            <handDesc>
-                                <handNote scribe="x" script="x" medium="x"></handNote>
-                            </handDesc>
-                            <scriptDesc>
-                                <scriptNote script="x" medium="x"></scriptNote>
-                            </scriptDesc>
-                            <decoDesc>
-                                <decoNote type="x"/>
-                            </decoDesc>   
-                            <additions/> <!--Marginalia etc.-->
-                            <accMat/> <!--z.B. Fragmente oder beiliegende Notizen, die nicht Teil der HS sind-->
-                        </physDesc>
-                        <history>
-                            <origin>
-                                <origPlace/>
-                                <origDate notBefore="0001" notAfter="0001"/>
-                            </origin>
-                            <provenance/>
-                            <acquisition/>
-                        </history>
-                    </msPart>                    
+                    </additional>  
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -400,9 +317,9 @@
                 <p></p>
             </editorialDecl>
         </encodingDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
         <listChange>
-            <change></change>
+            <change when="2021-07-19">Added short summary note.</change>
         </listChange>
     </revisionDesc>
     </teiHeader>    

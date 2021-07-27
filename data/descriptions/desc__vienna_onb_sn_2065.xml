@@ -1,0 +1,205 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:base="F-mjod/tei-msDesc_dobcheva.xml" xml:id="F-mjod_tei-msDesc_dobcheva">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmented MS: Vienna, ÖNB, Ser. n. 2065 and binding waste in Codd. 1953, 2996, 3247, 3781, 3816, 3839, 5001 and 5426</title>
+                <respStmt>
+                    <resp>Description by</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                    </persName>
+                </respStmt>                
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 encoding </resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                    </persName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher></publisher>
+                <idno type="PID"></idno>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en" xml:id="f-mjod">
+                    <msIdentifier>
+                        <country>Austria</country>
+                        <settlement>Vienna</settlement>
+                        <repository>Österreichische Nationalbibliothek</repository> 
+                        <idno></idno>
+                        <altIdentifier type="collection"> 
+                            <idno>F-mjod</idno>
+                        </altIdentifier>                       
+                    </msIdentifier>
+                    <head>
+                        <title>Epistulae Pauli (Vetus Latina)</title>
+                        <origDate notBefore="0801" notAfter="0825">s. IX<hi rend="sup">1/4</hi></origDate>
+                        <origPlace>Mondsee</origPlace>
+                        <note type="facs"><ref target="https://fragmentarium.ms/overview/F-mjod"/></note>
+                        <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13944320"/></note>
+                        <note type="summary">From the original manuscript survived 211 items, which can be reconstructed to 92 former leaves.</note>
+                    </head> 
+                    <msContents>
+                        <textLang mainLang="lat" otherLangs=""/> 
+                        <msItem>
+                            <locus from="1r" to="1v">1r-1v</locus>
+                            <title/> 
+                            <author/>
+                            <rubric/>
+                            <incipit/> 
+                            <explicit/> 
+                            <finalRubric/>
+                            <colophon></colophon>
+                            <decoNote></decoNote>
+                            <note/>
+                            <filiation></filiation>
+                            <listBibl>
+                                <bibl/>
+                            </listBibl>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent>
+                                    <measure type="leavesCount" quantity="0" unit="folio"></measure>
+                                    <dimensions type="leaf" unit="mm">
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </extent>
+                                <foliation/>
+                                <collation>
+                                    <formula></formula>
+                                </collation>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ruledLines="0" writtenLines="0" columns="0">
+                                    <dimensions type="written" unit="mm">
+                                        <height max="0" min="0"></height>
+                                        <width max="0" min="0"></width>
+                                    </dimensions> 
+                                    <dimensions type="lineHeight" unit="mm">
+                                        <height min="0" max="0"></height>
+                                    </dimensions>
+                                   <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary>The preserved fragments were copied by two hands.</summary>
+                            <handNote scribe="A" script="carolmin" medium="x" scope="major">Hand A wrote a calligraphic <term type="script">Carolingian minuscule</term> from ff. <locus from="1r" to="5v">1r-5v</locus>.</handNote>
+                            <handNote scribe="B" script="carolmin" medium="x" scope="major">Hand B follows on ff. <locus from="6r" to="92v">6r-92v</locus> writin a similarly calligraphic <term type="script">Carolingian minuscule</term> with a smaller x-height.</handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <summary></summary>
+                            <scriptNote script="x" medium="x">Punctuation: perhaps added after the text on the page was copied (a practice suggested by Parkes who observed that often the punctuation was written with the same ink as the text and was perhaps introduced by the scribe into the spaces left for it immediately after copying the page) see for example f. <locus from="77r">77rb</locus>, line 15: suae se(cundum) written with nextus; punctus versus added later - check if with the same ink, the same dark brown colour.</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote type="initial"></decoNote>
+                        </decoDesc>  
+                        <bindingDesc>
+                            <binding notBefore="0001" notAfter="0001">
+                                <p/>
+                            </binding>
+                        </bindingDesc>
+                        <accMat/> 
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate notBefore="0001" notAfter="0001"/>
+                        </origin>
+                        <provenance/>
+                        <acquisition/>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <p>
+                                <bibl></bibl>
+                                </p>
+                            </recordHist>
+                        </adminInfo>
+                        <surrogates>
+                            <ref/>
+                        </surrogates> 
+                        <listBibl>
+                            <bibl><abbr>Rasinger 2019</abbr></bibl>
+                            <bibl>Description and digital facsimile in <ref target="https://fragmentarium.ms/overview/F-mjod">Fragmentarium</ref></bibl>
+                            <bibl><abbr>Bischoff 1980</abbr>, 16</bibl>
+                            <bibl><abbr>Mazal 1963</abbr>, <ref target="http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0752a_b0161_jpg.htm">161</ref>-<ref target="http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0752a_b0162_jpg.htm">162</ref>.</bibl>
+                        </listBibl>
+                    </additional>            
+                                        
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p></p>
+            </editorialDecl>
+            <projectDesc>
+                <p>Description originated within the project "The Carolingian Scriptorium of Mondsee".</p>
+            </projectDesc>
+        </encodingDesc>
+    <revisionDesc status="draft">
+        <listChange>
+            <change when="2021-07-23"></change>
+        </listChange>
+    </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://fragmentarium.ms/loris/F-rm22/CodSerNov2065_01r.jpg/full/full/0/default.jpg" n="1r"/>  
+        <graphic url="https://fragmentarium.ms/loris/F-rm22/CodSerNov2065_03r.jpg/full/full/0/default.jpg" n="3r"/>
+        <graphic url="https://fragmentarium.ms/loris/F-rm22/CodSerNov2065_07r.jpg/full/full/0/default.jpg" n="7r"/>
+        <graphic url="https://fragmentarium.ms/loris/F-rm22/CodSerNov2065_17v.jpg/full/full/0/default.jpg" n="17v"/>
+        <graphic url="https://fragmentarium.ms/loris/F-rm22/CodSerNov2065_31v.jpg/full/full/0/default.jpg" n="31v"/>
+        <graphic url="https://fragmentarium.ms/loris/F-rm22/CodSerNov2065_32r.jpg/full/full/0/default.jpg" n="32r"/>
+        <graphic url="https://fragmentarium.ms/loris/F-rm22/CodSerNov2065_56v.jpg/full/full/0/default.jpg" n="56v"/>
+        <graphic url="https://fragmentarium.ms/loris/F-rm22/CodSerNov2065_77r.jpg/full/full/0/default.jpg" n="77r"/>
+        <graphic url="https://fragmentarium.ms/loris/F-rm22/CodSerNov2065_77r.jpg/full/full/0/default.jpg" n="84v"/>        
+    </facsimile>
+    <text>
+        <body>
+            <head>
+                <title></title>
+            </head>
+            <div>
+                <head>
+                    <title>Material Analysis // XRF, Raman, Hyperspectral</title>
+                </head> 
+                <p>
+                <list>
+                    <head>Questions:</head>
+                    <item n="1">did the two scribes use the same / similar ink?</item>
+                    <item n="2">were the capitula, paragraph marks in the margin, quire marks written with the same ink as the main text - would suggest they were written simultaneous or right after the text on the leaf/quire;</item>
+                    <item n="3">are the pigments used in this MS the same / similar to the ones used in the other Mondsee MSS: Cod. 732 (copy of this MS), Cod. 1193, Cod. 1014.</item>
+                </list></p>
+                <p>
+                    <list>
+                        <head>Measure points:</head>
+                        <item><locus from="3r">3r</locus> - hair side: Initial (pigments: red, purple, brown-black); ink (on both columns; rubrication) - Should one check the ink on the flesh side 3v?</item>
+                        <item><locus from="7r">7r</locus> - interlinear corrections on line 5</item>
+                        <item><locus from="17v">17v</locus> bottom - quire mark</item>
+                        <item><locus from="31v">31v</locus> - red ink corrosion (?)</item>
+                        <item><locus from="32r">32r</locus> - two initials in red - but different red colour - different pigment?</item>
+                        <item><locus from="56v">56v</locus> - red smudge over one text line</item>
+                        <item><locus from="84v">84v</locus> - capitula and paragraph marks in the margin</item>
+                        <item><locus from="77r">77r</locus> - 77rb, line 15 punctuation, 77ra line 9 diacritical mark</item>   
+                    </list></p>
+            </div>
+           
+        </body>
+    </text>
+</TEI>

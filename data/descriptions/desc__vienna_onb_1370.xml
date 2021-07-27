@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:base="onb-cod-1370/tei-msDesc_dobcheva.xml" xml:id="onb-cod-1370_tei-msDesc_dobcheva">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,11 +29,10 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="en" xml:id="xxx-xxx">
+                <msDesc xml:lang="en" xml:id="onb-cod-1370">
                     <msIdentifier>
                         <country>Austria</country>
                         <settlement>Vienna</settlement>
-                        <institution></institution>
                         <repository>Österreichische Nationalbibliothek</repository> 
                         <idno>Cod. 1370</idno>
                         <altIdentifier type="former"> 
@@ -50,25 +48,10 @@
                         <origPlace>Mondsee (?)</origPlace>
                         <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13959082"></ref></note>
                         <note type="facs"><ref target="http://data.onb.ac.at/dtl/3869114"></ref></note>
+                        <note type="summary">Miscellany on pastoral care. The collection was intended for regular use (Gebrauchshandschrift) as suggested by the low quality parchment. </note>
                     </head> 
                     <msContents>
-                        <textLang mainLang="lat" otherLangs=""/> 
-                        <msItem>
-                            <locus from="x" to="x"/>
-                            <title/> 
-                            <author/>
-                            <rubric/>
-                            <incipit/> 
-                            <explicit/> 
-                            <finalRubric/>
-                            <colophon></colophon>
-                            <decoNote></decoNote>
-                            <note/>
-                            <filiation></filiation>
-                            <listBibl>
-                                <bibl/>
-                            </listBibl>
-                        </msItem>
+                        <textLang mainLang="lat"/>                         
                         <msItem>
                             <locus from="1v" to="18r">1v-18r</locus>
                             <author>Ps. Alcuinus / Ps. Arno Salisburgensis</author>
@@ -79,6 +62,9 @@
                             <filiation>According to <ref target="http://www.mirabileweb.it/title/ordo-de-catechizandis-rudibus-title/182372">Mirabile</ref> the same text is attested in <ref type="altMs" target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00047264-2">München, Bayerische Staatsbibliothek, Clm 6324</ref>, ff. 98v-107r; <ref type="altMs" target="https://mdz-nbn-resolving.de/details:bsb00047265">München, Bayerische Staatsbibliothek, Clm 6325</ref>, ff. 134v-142v, and in <ref type="altMs">Rouen, Bibliothèque Jacques Villon (olim Bibliothèque Municipale), A. 214 (469)</ref>, ff. 121v-135.</filiation>
                             <bibl>
                                 <abbr>Clavis</abbr> vol. II, pp. 481-82.
+                            </bibl>
+                            <bibl>
+                                <abbr>Stegmüller RB</abbr>, Nr. <ref target="http://www.repbib.uni-trier.de/cgi-bin/rebiIndex.tcl?ac=ma_7886">5659</ref>.
                             </bibl>
                             <!--                            Compare with Augustine's De de catechizandis rudibus (Lit.: https://www.brepolsonline.net/doi/pdf/10.1484/J.RA.5.102393; Edition in PL: https://www.documentacatholicaomnia.eu/02m/0354-0430,_Augustinus,_De_Catechizandis_Rudibus,_MLT.pdf; FR and DE translation in https://bkv.unifr.ch/works/130
                             Check if text on ff. 3r-22r identical with In libro ad conpetentes by Nicetas Remesianensis (Stegmüller Nr. 5659)
@@ -140,17 +126,40 @@
                             <locus from="83v" to="88r">83v-88r</locus>
                             <author>Boethius</author>
                             <title>Confessio fidei: Excerpta</title>
-                            <rubric>Sermo ab exordio mundi</rubric>
+                            <rubric>Incipit sermo ab exordio mundi usque ad apostolorum tempora et usque nunc boethii</rubric>
+                            <incipit>Dominus omnipotens qui semper in aeternum sine aliqua mutabilitate aeterni permanet</incipit>
+                            <explicit>laus perpetua saluatoris suius et omnis honor et gloria sine ulla commutatione et fine.</explicit>
+                            <note>Added below by another (slightly later hand) <quote>Ad adam usque diluuium V&#x305;CCLXII</quote>.</note>
                         </msItem>
                         <msItem>
                             <locus from="89r" to="90r">89r-90r</locus>
-                            <author></author>
-                            <title>De octo vitiis principalibus</title>
+                            <rubric>De octo uitiis principalibus quorum nomina haec sunt</rubric>
+                            <incipit>Superbia, Guila, Fornicatio</incipit>
+                            <explicit>Uana gloria per caritatem dei.</explicit>
                         </msItem>
                         <msItem>
                             <locus from="90r" to="98v">90r-98v</locus>
-                            <author></author>
-                            <title>De matrimonio. Excerpta ex operibus patrum</title>
+                            <note type="title">Collection of canon laws about marriage. Im folgenden wird der Inhalt des Buches gemäß den Angaben und nach den Siglen in der CD-ROM- bzw. Online-Datenbank bei
+                                <bibl>
+                                    <author>Fowler-Magerl</author>
+                                    Clavis canonum (s. unten)
+                                </bibl>
+                                , beschrieben, denen die Handschrift
+                                <ref type="altMs" target="http://manuscripta.at/?ID=11367">Wien, ÖNB, Cod. 2186</ref>
+                                (SV) zugrundeliegt;</note>
+                            <incipit>De ratione matrimonii hieronimus ait nisi matrimonium fuisset uirginitas non esset</incipit>
+                            <note>Search the Clavis Canonum in mgh. Further rubricated headings:
+                            <list>
+                                <item>De uxore quae habenda sit (Clavis Canonum SV06.037)</item>
+                                <item>De secundis nuptiis non prohibendis propter cautionem adulterii</item>
+                                <item>De legitimis coniugiis</item>
+                                <item>De quarto coniugio notho</item>
+                                <item>De quinto coniugio notho</item>
+                                <item>De eo quae cauendum est adulterium etiam in legitimis coniugiis</item>
+                                <item>De temporibus in quibus se continere debent a matrimonio</item>
+                                <item>De uiris et feminis in coniugium non recipiendum</item>
+                            </list>
+                            </note>
                         </msItem>
                         <msItem>
                             <locus from="99r" to="107v">99r-107v</locus>
@@ -170,6 +179,7 @@
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
+                                <support>Parchment (sheep or goat?). Low quality sheets with defective edges (ff. 10-12, 14-15, 18-19, 22-23, 28, 30, 34-35, 39, 42, 47, 50, 55, 59, 61, 65, 67-70, 74-78, 87, 90, 93, 95, 98-101, 103, 106-109, 111, 116-120) and holes: ff. 13 (multiple), 53, 79, 80). The parchment has become semi-transparent in places where the parchment maker scraped the upper layer of the skin on hair side (e.g. f. 30)</support>
                                 <extent>
                                     <measure type="leavesCount" quantity="0" unit="folio">120</measure>
                                     <dimensions type="leaf" unit="mm">
@@ -179,9 +189,9 @@
                                 </extent>
                                 <foliation/>
                                 <collation>
-                                    <formula></formula>
+                                    <formula>I<hi rend="sup">8</hi> (ff. 1-8) + II<hi rend="sup">8</hi> (ff. 9-16, 3 and 6 singletons) + III-VII<hi rend="sup">8</hi> (ff. 17-56) + VIII<hi rend="sup">8</hi> (ff. 57-64, 3 and 6 singletons) + IX<hi rend="sup">8</hi> (ff. 65-72, 2 and 7 singletons) + X</formula>
                                 </collation>
-                                <condition/>
+                                
                             </supportDesc>
                             <layoutDesc>
                                 <layout ruledLines="0" writtenLines="0" columns="0">
@@ -203,12 +213,14 @@
                         </handDesc>
                         <scriptDesc>
                             <summary>Written by several hands in a non-calligraphic Carolingian minuscule.</summary>
-                            <scriptNote script="x" medium="x">Bischoff (<bibl><abbr>Bischoff 1980</abbr></bibl>, p. 24) suggested similarity between the hand writing ff. 83v-120v and the so-called "Cassiodor-Schreiber" who came probably from Mondsee to Regensburg in the year 833.</scriptNote>
-                        </scriptDesc>
-                        <decoDesc>
-                            <decoNote type="x"/>
-                        </decoDesc>   
-                        <additions/>
+                            <scriptNote script="carolmin" medium="x">Bischoff (<bibl><abbr>Bischoff 1980</abbr></bibl>, p. 24) suggested similarity between the hand writing ff. 83v-120v and the so-called "Cassiodor-Schreiber" who came probably from Mondsee to Regensburg in the year 833.</scriptNote>
+                            <scriptNote script="capquad"><term>Litterae notabiliores</term> for section and heading titles in majuscule (rather clumsy <term type="script">Roman Capitals</term> with unequal x-height); written in the same ink as the main text but highlighted with touches of pigment (red and yellow).</scriptNote>
+                            <scriptNote>Rubrics in red.</scriptNote>
+                        </scriptDesc>   
+<decoDesc>
+    <decoNote>Highlighting ink initials with red and yellow pigment. Red pigment partly corroded and darkned (e.g. f. 9v, l. 12, 81v). </decoNote>
+</decoDesc>                        
+                        <additions>On f. <locus from="1r">1r</locus> probably a later (s. X?) addition on the initially blank opening page. Ink is partly scrubbed out. Text hardly legible - content: prayers (?)</additions>
                         <bindingDesc>
                             <binding notBefore="1401" notAfter="1500" contemporary="false">
                                 <p>A late medieval (15th-century) leather binding on wood boards with blind tooling (three parallel lines forming a rectangular with a Saint Andrew's cross inside - left and right board same decoration). Binding on three sewing stations with double supports (leather strips?). Clasp removed; preserved are the metal nails on both covers and partly the strip of leather attached to the middle of the right cover. Original pastedowns removed and replaced with modern paper. </p>
@@ -257,14 +269,19 @@
     </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="" n="1r"/>
+        <graphic url="" n=""/>
     </facsimile>
     <text>
         <body>
             <head>
                 <title></title>
             </head>
-            <p/>
+            <p>
+                <list>
+                    <head>Measure points:</head>
+                    <item>highlighting ink initials with red and yellow pigments</item>
+                </list>
+            </p>
         </body>
     </text>
 </TEI>

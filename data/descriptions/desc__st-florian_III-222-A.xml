@@ -1,0 +1,168 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:base="st-florian-III-222-A/tei-msDesc_dobcheva.xml" xml:id="st-florian-III-222-A_tei-msDesc_dobcheva">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>St. Florian, Augustiner-Chorherrenstift, Cod. III 222 A</title>
+                <respStmt>
+                    <resp>Description by</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                    </persName>
+                </respStmt>                
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 encoding </resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                    </persName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher></publisher>
+                <idno type="PID"></idno>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en" xml:id="st-florian-III-222-A">
+                    <msIdentifier>
+                        <country>Austria</country>
+                        <settlement>St. Florian</settlement>
+                        <institution>St. Florian, Augustiner-Chorherrenstift</institution>
+                        <repository></repository> 
+                        <idno>Cod. III 222 A</idno>        
+                    </msIdentifier>
+                    <head>
+                        <title>XII Prophetae, Isaias, Hieremias</title>
+                        <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi></origDate>
+                        <origPlace>Mondsee</origPlace>
+                        <note type="catalogue"><ref target="https://manuscripta.at/hs_detail.php?ID=28443"/></note>
+                    </head> 
+                    <msContents>
+                        <textLang mainLang="lat" otherLangs=""/> 
+                        <msItem>
+                            <locus from="1r" to="2v">1r-2v</locus>
+                            <note type="title">Prolog to the Prophetae</note> 
+                            <rubric>Duodecim <sic>prophetare</sic> me in unius uoluminis angestias <sic>coartatim</sic></rubric>
+                            <finalRubric>Explicit Prologus Hieronimi</finalRubric>
+                        </msItem>
+                        
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <support>Ff. A-38 are Calb parchment (Bischoff 1980, 23).</support>
+                                <extent>
+                                    <measure type="leavesCount" quantity="186" unit="folio">186</measure>
+                                    <dimensions type="leaf" unit="mm">
+                                        <height>260</height>
+                                        <width>180</width>
+                                    </dimensions>
+                                </extent>
+                                <foliation/>
+                                <collation>
+                                    <formula></formula>
+                                </collation>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ruledLines="0" writtenLines="0" columns="0">
+                                    <dimensions type="written" unit="mm">
+                                        <height max="0" min="0">210</height>
+                                        <width max="0" min="0">130</width>
+                                    </dimensions> 
+                                    <dimensions type="lineHeight" unit="mm">
+                                        <height min="0" max="0"></height>
+                                    </dimensions>
+                                   <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary></summary>
+                            <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <summary>According to Bischoff the manuscript was written by several hands which belong to the type of the Landperht-Homiliarium with the exception of the hand responsible for ff. <locus from="159v" to="160r">159v-160r</locus> - which is <quote>unpräzise gebildet</quote>. Bischoff recognised the same hand in <ref type="altMs" target="#desc__vienna_onb_sn_3754.xml">Vienna, ÖNB, Cod. Ser. n. 3754</ref>.</summary>
+                            <scriptNote script="x" medium="x">Uncial and Capitalis rustica in red or black ink.</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote type="initial">For the initials of the separate books were used red, yellow and green.</decoNote>
+                        </decoDesc>   
+                        <additions>Musical notations - neumes - added by a contemporary hand in the Lamentations - sign that the manuscript was used in the liturgy (as Lectionarium).</additions>
+                        <bindingDesc>
+                            <binding notBefore="0001" notAfter="0001">
+                                <p/>
+                            </binding>
+                        </bindingDesc>
+                        <accMat>Ff. 55, 59, 60, 171, 178 and 179 are 12<hi rend="sup">th</hi> c. additions.</accMat> 
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate notBefore="0001" notAfter="0001"/>
+                        </origin>
+                        <provenance/>
+                        <acquisition/>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <p>
+                                <bibl></bibl>
+                                </p>
+                            </recordHist>
+                        </adminInfo>
+                        <surrogates>
+                            <ref/>
+                        </surrogates> 
+                        <listBibl>
+                            <bibl><abbr>Bischoff 1980</abbr>, 23, 37</bibl>
+                            <bibl>A. Czerny. Die Handschriften der Stiftsbibliothek St. Florian. Linz, 1871, p. <ref target="https://manuscripta.at/_scripts/php/cat2pdf.php?cat=czerny&amp;ms_code=AT7500-III222A">248</ref>.</bibl>
+                            <bibl>Kassius Hallinger, Das Kommentarfragment zu Regula Benedicti IV aus der ersten Hälfte des 8. Jahrhunderts. Wiener Studien N. F. 3 = 82 (1969) 211-232, hier: 214.</bibl>
+                              
+                                <bibl>Das Mondseeland. Geschichte und Kultur. Ausstellung des Landes Oberösterreich, 8. Mai bis 26. Oktober 1981. Kirche und ehemaliges Stift Mondsee (Heimatmuseum Mondsee). Hrsg.: Land Oberösterreich. Schriftleitung: Dietmar Straub. Linz 1981, 452 f. Nr. 11.9 [Kurt Holter].</bibl>
+                                <bibl>Kurt Holter, Die Buchkunst im Kloster Mondsee, in: Das Mondseeland. Geschichte und Kultur. Ausstellung des Landes Oberösterreich, 8. Mai bis 26. Oktober 1981. Kirche und ehemaliges Stift Mondsee (Heimatmuseum Mondsee). Hrsg.: Land Oberösterreich. Schriftleitung: Dietmar Straub. Linz 1981, 185-221. -- Wiederabgedruckt in: Holter 1996, II 785-833, hier: 192 mit 219 Anm. 9.</bibl>
+                                <bibl>Kurt Holter, Bibliothek und Archiv: Handschriften und Inkunabeln, in: Die Kunstsammlungen des Augustiner-Chorherrenstiftes St. Florian (Österreichische Kunsttopographie 48). Wien 1988, 29-92 u. Abb, hier: 30, 44; Abb. 39.</bibl>
+                                <bibl>Die Botschaft der Musik. 1000 Jahre Musik in Österreich. Hrsg. v. Wilfried Seipel. Eine Ausstellung des Kunsthistorischen Museums Wien in Zusammenarbeit mit der Gesellschaft der Musikfreunde in Wien im Palais Harrach, 28. Oktober 1996 bis 1. April 1997. Wien 1996, Kat. Nr. 1.1; Farbabb. S.30.</bibl>                                
+                                <bibl>Rudolf Flotzinger, Geistliche Kultur im Mittelalter, in: Ders., Gernot Gruber (Edd.): Musikgeschichte Österreichs I: Von den Anfängen zum Barock. 2., überarb. u. stark erweiterte Aufl. Wien 1995, 52-99, hier: 58.</bibl>
+                            <bibl><abbr>Bischoff 2014</abbr>, 294 Nr. 5465.</bibl>
+                                <bibl>Robert Klugseder, Der Liber ordinarius Pataviensis. Eine kritische Edition des mittelalterlichen Regelbuchs der Diözese Passau. Unter Mitarbeit von Gionata Brusa (Codices Manuscripti &amp; Impressi. Supplementum 13). Purkersdorf 2019, XXIII.</bibl>
+                        </listBibl>
+                    </additional>            
+                                        
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p></p>
+            </editorialDecl>
+            <projectDesc>
+                <p>Description originated within the project "The Carolingian Scriptorium of Mondsee" based on secondary literature.</p>
+            </projectDesc>
+        </encodingDesc>
+    <revisionDesc status="draft">
+        <listChange>
+            <change when="2021-07-23">Initial entry.</change>
+        </listChange>
+    </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="" n=""/>
+    </facsimile>
+    <text>
+        <body>
+            <head>
+                <title></title>
+            </head>
+            <p/>
+        </body>
+    </text>
+</TEI>

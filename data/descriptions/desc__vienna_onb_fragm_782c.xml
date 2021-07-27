@@ -44,6 +44,12 @@
                         <origPlace>Mondsee (?)</origPlace>
                         <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC15482529"></ref></note>
                         <note type="facs"><ref target="https://fragmentarium.ms/overview/F-reow"></ref></note>
+                        <note type="summary">The fragment represents one reconstructed partial leaf from a commentary on the gospel(s). Its Mondsee origin is suggested by the palaeographical similarities with other Mondsee manuscripts (e.g. Cod. Ser. n. 3754). For the exact content, (false) attribution to Arnobius iunior, and historical context see Dorfbauer 2014.
+                            <list>
+                                <head>MATERIAL ANALYSIS:</head>
+                                <item>ink from text block and from the initials on both recto and verso.</item>
+                            </list>
+                        </note>
                     </head> 
                     <msContents>
                         <textLang mainLang="lat"/> 
@@ -62,6 +68,7 @@
                                 <incipit>EUANGELIUM SECUNDUM IOHANNEM. In principio erat uerbum <gap/> <locus from="1v">1v</locus> <supplied>Princi</supplied>pium deus est <sic>quę</sic> est <supplied>princi</supplied>pator omnium <gap/> quia nihil est idola</incipit>
                                 <explicit defective="true">in uino conuersa, passionem et cruorem demonstrat. DE HOMINE CECO</explicit>
                                 <bibl><abbr>PL</abbr> 53, 569C-570B.</bibl>
+                                <bibl>Sancti Hieronymi presbyteri Tractatus sive homiliae in psalmos. Appendix. Arnobii episcopi Expositiunculae in evangelium. 1903, pp. <ref target="https://archive.org/search.php?query=external-identifier%3A%22urn%3Aoclc%3Arecord%3A1050268618%22">132-33</ref>.</bibl>
                                 <bibl>Dorfbauer, Lukas. ‘Neues zu den “Expositiunculae in Evangelium Iohannis evangelistae Matthaei et Lucae” (CPL 240) und ihrem vermeintlichen Autor “Arnobius Iunior”’. <title>Revue bénédictine</title> 124 (2014): 65–102, 261–97.</bibl>
                             </msItem>
                         </msItem>
@@ -96,8 +103,9 @@
                         </handDesc>
                         <scriptDesc>
                             <summary>Early Carolingian minuscule with ligatures: ri (extended left below line), ti, ct, nt, st. Using e-caudata; two forms of a: open (cc-a) and Carolingian a.</summary>
-                            <scriptNote script="x" medium="x"></scriptNote>
-                        </scriptDesc>                          
+                            <scriptNote script="caprust" medium="x">Rubrications in the same black ink written in <term type="script">Capitalis rustica</term>.</scriptNote>
+                            <scriptNote>Simple three-line high initials (<term type="initial">built-up initials</term>, <term type="initial">litterae notabiliores</term>) in black ink.</scriptNote>
+                        </scriptDesc>
                     </physDesc>
                     <history>
                         <origin>

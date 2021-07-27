@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="de" xml:base="traditionsbuch/tei-msDesc_dobcheva.xml" xml:id="traditionsbuch_tei-msDesc_dobcheva">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -93,9 +92,11 @@
                         </listBibl>
                     </additional>                          
                     <msPart>
-                        <altIdentifier type="partial">
-                            <idno>Codicological unit A = ff. 1-52</idno>
-                        </altIdentifier>                        
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>Codicological unit A = ff. 1-52</idno>
+                            </altIdentifier>
+                        </msIdentifier>                        
                         <head>
                             <title>The oldest Tradiotionsbuch</title>
                             <origDate notBefore="0851" notAfter="0900">s. IX <hi rend="sup">2</hi></origDate>
@@ -124,10 +125,10 @@
                             <objectDesc form="fascicle">
                                 <supportDesc material="perg">
                                     <support>
-                                        <p>According to <bibl><abbr>Rath 1989</abbr></bibl> teilweise wenig sorgfältig vorbereitetes und beschnittenes Pergament ... vielvach von minderer Qualität und weist Löcher, fehlende Ecken sowie unsauber neschnittene Ränder auf.</p>
+                                        <p>According to <bibl><abbr>Rath 1989</abbr></bibl> teilweise wenig sorgfältig vorbereitetes und beschnittenes <material>Pergament</material> ... vielvach von minderer Qualität und weist Löcher, fehlende Ecken sowie unsauber neschnittene Ränder auf.</p>
                                     </support>
                                     <extent>
-                                        <measure type="leavesCount" quantity="0" unit="folio">52</measure>
+                                        <measure type="leavesCount" quantity="52" unit="folio">52</measure>
                                         <dimensions type="leaf" unit="mm">
                                             <height>235-250</height>
                                             <width>175-180</width>
@@ -177,16 +178,15 @@
                                 </layoutDesc>
                             </objectDesc>
                             <handDesc>
-                                <summary>This part was written by three main hands (labelled A-C by Rath); a fourth hand (D) wrote only several lines on two occasions.</summary>
-                                <handNote scribe="A" script="carolmin" medium="x">Hand A on 
+                                <summary>Codicological unit A was written by three main hands (labelled A-C by Rath); a fourth hand (D) wrote only several lines on two occasions.</summary>
+                                <handNote scribe="A" script="carolmin" medium="x">Hand A wrote a relaltive tiny script with right inclination:
                                     <list>
                                         <item>ff. 1r-3r, l. 20</item>
                                         <item>f. 3v, l. 16-20</item>
-                                        <item>f. 17r, l. 1-3</item>
-                                    </list>. Relaltive tiny script with right inclination.
+                                        <item>f. 17r, l. 1-3.</item>
+                                    </list>
                                 </handNote>
-                                <handNote scribe="B" script="carolmin" medium="x">
-                                    Scribe B wrote a round minuscule with light inclination to the right:
+                                <handNote scribe="B" script="carolmin" medium="x">Scribe B wrote a round minuscule with light inclination to the right:
                                     <list>
                                         <item><locus>3r, l. 21-16v</locus>, with intervention by Hand A on <locus>f. 3v (l. 16-20)</locus>, and by Hand C on f. <locus>12r (l. 20-22)</locus>;</item>
                                         <item><locus>26r, l. 16 - 51</locus>, with intervention by Hand C (see below) and by Hand D on ff. <locus>46r, l. 1-7</locus>, <locus>49v, l. 21-50r, l. 8</locus>.</item>
@@ -215,11 +215,13 @@
                     </msPart>
                     
                     <msPart>
-                            <altIdentifier type="partial">
-                                <idno>Codicological unit D = f. 67</idno>
-                            </altIdentifier>                        
+                            <msIdentifier>
+                                <altIdentifier type="partial">
+                                    <idno>Codicological unit D = f. 67</idno>
+                                </altIdentifier>
+                            </msIdentifier>                        
                         <head>
-                            <title>Traditionen 149-155</title>
+                            <title>Traditionen Nr. 149-155</title>
                             <origDate notBefore="0901" notAfter="1000">s. X</origDate>
                             <origPlace>Mondsee</origPlace>
                         </head>
@@ -274,17 +276,19 @@
                         </history>
                     </msPart>
                     <msPart>
-                            <altIdentifier type="partial">
-                                <idno>Codicological unit D = f. 68</idno>
-                            </altIdentifier>
+                            <msIdentifier>
+                                <altIdentifier type="partial">
+                                    <idno>Codicological unit D = f. 68</idno>
+                                </altIdentifier>
+                            </msIdentifier>
                         
                         <head>
-                            <title>Traditione Nr. 156-160</title>
+                            <title>Traditionen Nr. 156-160</title>
                             <origDate notBefore="0901" notAfter="1000">s. X</origDate>
                             <origPlace>Mondsee</origPlace>
                         </head>
                         <msContents>
-                            <p>Traditione Nr. 156-160.</p>
+                            <p>Traditionen Nr. 156-160.</p>
                         </msContents>
                         <physDesc>
                             <objectDesc form="fascicle">
@@ -337,16 +341,18 @@
                     </msPart>
                     
                     <msPart>
-                            <altIdentifier type="partial">
-                                <idno>Codicological unit D = f. 69</idno>
-                            </altIdentifier>                        
+                            <msIdentifier>
+                                <altIdentifier type="partial">
+                                    <idno>Codicological unit D = f. 69</idno>
+                                </altIdentifier>
+                            </msIdentifier>                        
                         <head>
-                            <title>Tradiotionen Nr. 188, 187, 189</title>
+                            <title>Traditionen Nr. 188, 187, 189</title>
                             <origDate notBefore="1101" notAfter="1200">s. XII</origDate>
                             <origPlace>Mondsee</origPlace>
                         </head>
                         <msContents>                             
-                            <p>Tradiotionen Nr. 188, 187, 189.</p>
+                            <p>Traditionen Nr. 188, 187, 189.</p>
                         </msContents>
                         <physDesc>
                             <objectDesc form="fascicle">
@@ -400,12 +406,14 @@
                         </history>
                     </msPart>                    
                     <msPart>
-                            <altIdentifier type="partial">
-                                <idno>Codicological unit D = f. 70</idno>
-                            </altIdentifier>
+                            <msIdentifier>
+                                <altIdentifier type="partial">
+                                    <idno>Codicological unit D = f. 70</idno>
+                                </altIdentifier>
+                            </msIdentifier>
                         
                         <head>
-                            <title>Tradiotionen Nr. 144-148</title>
+                            <title>Traditionen Nr. 144-148</title>
                             <origDate notBefore="1101" notAfter="1200">s. XII</origDate>
                             <origPlace>Mondsee</origPlace>
                         </head>
@@ -501,9 +509,18 @@
     <text>
         <body>
             <head>
-                <title>Transkription des Textes ... </title>
+                <title>Material analysis of the ink used by the four scribes responsible for Codicological unit A.</title>
             </head>
-            <p><pb n="1r"/> ... </p>
+            <p>
+                <list>
+                    <head>Measure points:</head>
+                    <item>17r - hand A and B</item>
+                    <item>26r - hand C and B</item>
+                    <item>46r - hand B and D</item>
+                    <item>24r - red for rubric</item>
+                    <item>1r, 28v, 39 - stains</item>
+                </list>
+            </p>
         </body>
     </text>
 </TEI>
