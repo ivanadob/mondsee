@@ -1,0 +1,285 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="en" xml:base="f-xxx/tei-msDesc_dobcheva.xml" xml:id="f-xxx_tei-msDesc_dobcheva">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmented MS: Vienna, Cod. Ser. n. 2066 (f. 2); Admont, Stiftsbibl. Fragm. 38; Budapest, UB, U.Fr.l.m.3; Linz, OÖLB, Hs. 595 and Hs. 596; Linz, OÖLA, Buchdeckelfunde 7, III.8.e</title>
+                <respStmt>
+                    <resp>Description by</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                    </persName>
+                </respStmt>                
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 encoding </resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                    </persName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher></publisher>
+                <idno type="PID"></idno>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en" xml:id="f-xxx">
+                    <msIdentifier>                        
+                        <altIdentifier type="collection"> 
+                            <idno>F-xxx</idno>
+                        </altIdentifier>                       
+                    </msIdentifier>
+                    <head>
+                        <title>Homiliarium Alani</title>
+                        <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi></origDate>
+                        <origPlace>Mondsee</origPlace>
+                    </head> 
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent>
+                                    <measure type="leavesCount" quantity="0" unit="folio"></measure>
+                                    <dimensions type="leaf_current" unit="mm">
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </extent>
+                                <foliation/>
+                                <collation>
+                                    <formula></formula>
+                                </collation>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ruledLines="0" writtenLines="0" columns="0">
+                                    <dimensions type="written" unit="mm">
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions> 
+                                    <dimensions type="column" unit="mm">
+                                        <width></width>
+                                    </dimensions>
+                                    <dimensions type="lineHeight" unit="mm">
+                                        <height></height>
+                                    </dimensions>
+                                   <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary></summary>
+                            <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <summary></summary>
+                            <scriptNote script="x" medium="x"></scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote type="x"/>
+                        </decoDesc>   
+                        <additions/>
+                        <bindingDesc>
+                            <binding notBefore="0001" notAfter="0001">
+                                <p/>
+                            </binding>
+                        </bindingDesc>
+                        <accMat/> 
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate notBefore="0001" notAfter="0001"/>
+                        </origin>
+                        <provenance/>
+                        <acquisition/>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <p>
+                                <bibl></bibl>
+                                </p>
+                            </recordHist>
+                        </adminInfo>
+                        <surrogates>
+                            <ref/>
+                        </surrogates> 
+                        <listBibl>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Hungary</country>
+                            <settlement>Budapest</settlement>
+                            <repository>Universitätsbibliothek</repository> 
+                            <idno>U.Fr.l.m.3</idno>                                                   
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <note>Leo Magnus, Sermo VI (91) De ieiunio mensis septimi: [auge]ret qui enim factus est forma serui forma dei esse non destitit ... in gloria est dei patris uiuens et regnans; Sermo VII (92): Item de ieiunio mensis septimi. Apostolica institutio dilectissimi quae dominum ihesum christum ad hoc euenisse in hunc mundum ... et diligis proximum tuum sicut teipsum (PL 54, 452A-453C).</note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="1" unit="folio">1</measure>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Linz</settlement>
+                            <repository>OÖLB</repository> 
+                            <idno>Hs. 595</idno>                                                   
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <note>Augustinus, Sermones de tempore, Sermo CCLI.</note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="1" unit="folio">1</measure>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Linz</settlement>
+                            <repository>OÖLB</repository> 
+                            <idno>Hs. 596</idno>                                                   
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <note>Augustinus, Sermones suppositii de Sanctis, Sermo CC</note>
+                            </msItem>
+                            <msItem>
+                                <note>Leo M., Sermo 82</note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="1" unit="folio">1</measure>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Linz</settlement>
+                            <repository>OÖLA</repository> 
+                            <idno>Buchdeckelfunde 7, III.8.e</idno>                                                   
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <note>Blatt A: (1ra) Leo I, Sermo LXXIV: ipse excedit gaudet abducere? ... et gloria in secula saeculorum amen (PL 54, 400A-B, Homiliarium Alani 2,20); (1ra-1vb) Augustinus, Sermo CCLXIII: CXXVII De supra. Glorificatio domini nostri ihesu christi resurgendo (1va) et ascendendo completa est ... Seducendo primum hominem, bricht ab (PL 38, 1209-1210, Homiliarium Alani 2,21).
+                                    </note>
+                            </msItem>
+                            <msItem>
+                                <note>Blatt B: (1ra) Ps.-Augustinus, Sermo CLXXVI: viscera materna perfeceret ... In illo itaque nostri generis corpore nos [...] (1va-b) [coe]lestibus regnis ... pars devolvat inferior, bricht ab (PL 39, 2082; Homiliarium Alani 2,23).</note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="1" unit="folio">1</measure>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Admont</settlement>
+                            <repository>Stiftsbibliothek</repository> 
+                            <idno>Fragm. 38</idno>                                                   
+                        </msIdentifier>
+                        <head>
+                            <title>Leo Magnus, Sermo XXVII</title>
+                        </head>
+                        <msContents>
+                            <msItem>
+                                <note>Leo Magnus, Sermo XXVII [Al. XXVI]. In Nativitate Domini VII (Homiliarium Alani 1,12): (1ra) Nascens itaque dominus ihesus christus ... [d]e quibus dicitur Qui non [...] (1rb) [coeles]tes. Quae autem est [ista muta]tio nisi dextere ... sollicitudine [praecavendum est ...] (1va) Novit quem me[rore con]turbet ... quos tenacius obli[gavit ...] (1vb) si illis quae adversantur sideribus ... insipientioribus de locis (PL 54, 217C-218C).</note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount">1 (partial)</measure>
+                                        <dimensions type="leaf_current" unit="mm">
+                                            <height>160</height>
+                                            <width>235</width>
+                                        </dimensions>
+                                    </extent>
+                                    <condition>Ein ca. 90 mm langer Riss; Textverlust beim Buchrücken des Trägerbandes.</condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="2">
+                                        <dimensions type="written" unit="mm">
+                                            <height min="135">min 135</height>
+                                            <width>170-180</width>
+                                        </dimensions>
+                                        <dimensions type="column" unit="mm">
+                                            <width>75-80</width>
+                                        </dimensions>
+                                        <dimensions type="lineHeight" unit="mm">
+                                            <height>10-11</height>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msFrag>                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p></p>
+            </editorialDecl>
+            <projectDesc>
+                <p>Description originated within the project "The Carolingian Scriptorium of Mondsee".</p>
+            </projectDesc>
+        </encodingDesc>
+    <revisionDesc>
+        <listChange>
+            <change></change>
+        </listChange>
+    </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="" n="1r"/>
+    </facsimile>
+    <text>
+        <body>
+            <head>
+                <title></title>
+            </head>
+            <p/>
+        </body>
+    </text>
+</TEI>

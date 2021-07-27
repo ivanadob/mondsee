@@ -1,0 +1,251 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="en" xml:base="sn_2066/tei-msDesc_dobcheva.xml" xml:id="sn_2066_tei-msDesc_dobcheva">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmented MS: Vienna, ÖNB, Cod. Ser. n. 2066, Fragm. 15, Fragm. 210, Fragm. 1584; Linz, OÖLB, Hs. 834; Munich, BSB, Clm 18704, Salzburg, Archiv der Erzdiözese, Fragm. 103, and offsets from lost pastedowns in Vienna, ÖNB, Codd. 3651 and 3895</title>
+                <respStmt>
+                    <resp>Description by</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                    </persName>
+                </respStmt>                
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 encoding </resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                    </persName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher></publisher>
+                <idno type="PID"></idno>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en" xml:id="f-xxx">
+                    <msIdentifier>
+                        <country></country>
+                        <settlement></settlement>
+                        <institution></institution>
+                        <repository></repository> 
+                        <idno></idno>
+                        <altIdentifier type="collection"> 
+                            <idno></idno>
+                        </altIdentifier>                       
+                    </msIdentifier>
+                    <head>
+                        <title>Gregorius Magnus, Homiliae in evangelia</title>
+                        <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi></origDate>
+                        <origPlace>Mondsee</origPlace>
+                        <note type="summary"></note>
+                    </head>                   
+                    
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate notBefore="0001" notAfter="0001"/>
+                        </origin>
+                        <provenance/>
+                        <acquisition/>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <p>
+                                <bibl></bibl>
+                                </p>
+                            </recordHist>
+                        </adminInfo>
+                        <surrogates>
+                            <ref/>
+                        </surrogates> 
+                        <listBibl>
+                            <bibl/>
+                        </listBibl>
+                    </additional>             
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository> 
+                            <idno>Cod. Ser. n. 2066</idno>                                                   
+                        </msIdentifier>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository> 
+                            <idno>Fragm. 15</idno>                                                   
+                        </msIdentifier>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository> 
+                            <idno>Fragm. 210</idno>                                                   
+                        </msIdentifier>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository> 
+                            <idno>Fragm. 1584</idno>                                                   
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title>Lib 2, Hom. 39<note> §3-4</note></title>
+                                <incipit defective="true">in amaritudinem rixae uertentur <gap reason="omitted"/>  inimici tui <supplied>vallo</supplied> Qui unquam sunt <gap reason="damage"/> <note>verso</note> <supplied>ma</supplied>ligni <supplied>spiritus, qui h</supplied>anc a cor<supplied>pore</supplied></incipit>
+                                <explicit defective="true">Sicut scriptum est In illa die peribunt</explicit>                                
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="1" unit="folio">1</measure>
+                                        <dimensions type="leaf_current" unit="mm">
+                                            <height>280</height>
+                                            <width>140</width>
+                                        </dimensions>
+                                    </extent>
+                                    <condition>Das Fragment ist aus acht Längsstreifen zusammengesetzt. Textverlust an der aüßeren Spalte, sowie mindestens eine Zeile unten oder oben.</condition>
+                                </supportDesc>
+                                
+                            </objectDesc>
+                        </physDesc>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository> 
+                            <idno>Cod. 3651 (offset)</idno>                                                   
+                        </msIdentifier>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository> 
+                            <idno>Cod. 3895 (offset)</idno>                                                   
+                        </msIdentifier>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Germany</country>
+                            <settlement>Munich</settlement>
+                            <repository>BSB</repository> 
+                            <idno>Clm 18704</idno>                                                   
+                        </msIdentifier>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Salzburg</settlement>
+                            <repository>Archiv der Erzdiözese</repository> 
+                            <idno>Fragm. 103</idno>                                                   
+                        </msIdentifier>
+                        <head>
+                            <title></title>
+                            <note type="facs"><ref target="https://manuscripta.at/hs_detail.php?ID=39826"></ref></note>
+                        </head>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Linz</settlement>
+                            <repository>OÖLB</repository> 
+                            <idno>Hs 834</idno>                                                   
+                        </msIdentifier>
+                        <head>
+                            <note type="catalogue"><ref target="http://digi.landesbibliothek.at/viewer/resolver?urn=urn:nbn:at:AT-OOeLB-3658707"></ref></note>
+                            <note type="facs"><ref target="https://digi.landesbibliothek.at/viewer/resolver?urn=urn:nbn:at:AT-OOeLB-3658707"></ref></note>
+                        </head>
+                        <msContents>
+                            <msItem>
+                                <locus>1ra-1vb</locus>
+                                <author>Gregorius Magnus</author>
+                                <title>Homiliae in Evangelia, lib. 2, Homilia XXVI <note> fragment§7-9</note></title>
+                                <incipit defective="true">datur. Sic <supplied>quip</supplied>pe discipulum post resurrectionem</incipit>
+                                <explicit defective="true">electis euadentibus in uentrem</explicit>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount">1</measure>
+                                        <dimensions type="leaf_current" unit="mm">
+                                            <height>387</height>
+                                            <width>236</width>
+                                        </dimensions>
+                                    </extent>
+                                    <condition>Wurmfraß, abgeschnittene Ecke und Falten von der Makulierung. Pergament besonders stark beschädigt beim ehemaligen Buchrücken.</condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="2" ruledLines="30" writtenLines="30">
+                                        <dimensions type="written" unit="mm">
+                                            <height>310</height>
+                                            <width>160</width>
+                                        </dimensions>
+                                        <dimensions type="column" unit="mm">
+                                            <width>70</width>
+                                        </dimensions>
+                                        <dimensions type="lineHeight" unit="mm">
+                                            <height>11</height>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <scriptDesc>
+                                <summary>Round early Carolingian minuscule from the first half of the 9<hi rend="sup">th</hi> c.</summary>
+                                <scriptNote>Besondere Buchstaben: cc-a kommt öfters als karolingische a; e in Ligaturen (em, en, es) kommt über den Mittelfeld; nt Ligatur; suprascript us am Ende der Zeile. Laut Lowe die Schrift erinnert an die zweite Hand in Montpellier 409 und an die zweite Hand in Ser. n. 2065. Die Kolophone sind in Unzial geschrieben (ähnlich wie in den Fragm. in Nürmberg-New York). Nach Bischoff haben an den Fragmenten, die er zusammengruppiert) zwei Hände gearbeitet: eine feste aufgerichtete runde Schrift (enger als die Schrift von Wien, Cod. 732 und Ser. n. 2065); eine ist ebenfalls altertümlich, mit sehr ähnlichen Elemente, doch spannugslos.</scriptNote>
+                            </scriptDesc>
+                        </physDesc>
+                        <history>
+                            <provenance>The fragment was detached in January 1922 from an early print. Cf. a note by the librarian Schiffmann: <quote>Blatt aus einem Homiliarium, geschrieben um 800, abgelöst am 16. Jan. 1922 aus B. Arias Montanus, David, s.l. 1597 [I-60415]. Da im gleichen Deckel auch eine Urkunde des Abtes Benedikt II. Eck von Mondsee und 4 Blätter aus einem alten Salzb. Missale steckten, so ist unser Blatt sicher aus Mondsee und wohl das älteste Schriftdenkmal im Lande. Es war eine Salzb. akad. Schrift von 1621 beigebunden, sodaß also anzunehmen ist, daß entweder unter Abt Mauritius Schmidl (1616-33) oder unter Abt Maurus I. Schaller (1633-52) das Zerstörungswerk an der Handschrift verübt wurde</quote>.</provenance>
+                        </history>
+                    </msFrag>                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p></p>
+            </editorialDecl>
+            <projectDesc>
+                <p>Description originated within the project "The Carolingian Scriptorium of Mondsee".</p>
+            </projectDesc>
+        </encodingDesc>
+    <revisionDesc>
+        <listChange>
+            <change></change>
+        </listChange>
+    </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://manuscripta.at/images/AT/7000/AT7000-Fragm103/AT7000-Fragm103_2v-1r.jpg" n="salzburg_1r"/>
+        <graphic url="https://manuscripta.at/images/AT/7000/AT7000-Fragm103/AT7000-Fragm103_1v-2r.jpg" n="salzburg_1v"/>
+        <graphic url="https://manuscripta.at/images/AT/7000/AT7000-Fragm103/AT7000-Fragm103_1v-2r.jpg" n="salzburg_2r"/>
+        <graphic url="https://manuscripta.at/images/AT/7000/AT7000-Fragm103/AT7000-Fragm103_2v-1r.jpg" n="salzburg_2v"/>
+        
+    </facsimile>
+    <text>
+        <body>
+            <head>
+                <title></title>
+            </head>
+            <p/>
+        </body>
+    </text>
+</TEI>
