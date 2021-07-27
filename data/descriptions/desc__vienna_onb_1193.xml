@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="en" xml:base="cod-1193/tei-msDesc_dobcheva.xml" xml:id="cod-1193_tei-msDesc_dobcheva">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Vienna, Österreichische Nationalbibliothek, Cod. 1193</title>
+                <title>Vienna, ÖNB, Cod. 1193</title>
                 <respStmt>
                     <resp>Handschriftenbeschreibung nach TEI-XML</resp>
                     <persName>
@@ -20,7 +19,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="deu" xml:id="wien_cod_1193">
+                <msDesc xml:lang="eng" xml:id="onb_cod_1193">
                     <msIdentifier>
                         <country>Österreich</country>
                         <settlement>Wien</settlement>

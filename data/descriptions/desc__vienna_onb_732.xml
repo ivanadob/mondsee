@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Vienna, Österreichische Nationalbibliothek, Cod. 732</title>
+                <title>Vienna, ÖNB, Cod. 732</title>
                 <respStmt>
                     <resp>Manuscript description and TEI-encoding</resp>
                     <persName>
@@ -20,7 +20,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="en" xml:id="onb-732">
+                <msDesc xml:lang="en" xml:id="onb-cod-732">
                     <msIdentifier>
                         <country>Austria</country>
                         <settlement>Vienna</settlement>
