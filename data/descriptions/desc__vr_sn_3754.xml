@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="en" xml:base="f-xxx/tei-msDesc_dobcheva.xml" xml:id="f-xxx_tei-msDesc_dobcheva">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="en" xml:base="f-b3km/tei-msDesc_dobcheva.xml" xml:id="f-b3km_tei-msDesc_dobcheva">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,25 +29,19 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="en" xml:id="f-xxx">
-                    <msIdentifier>
-                        <country>Austria</country>
-                        <settlement>Vienna</settlement>
-                        <repository>Österreichische Nationalbibliothek</repository> 
+                <msDesc xml:lang="en" xml:id="f-b3km">
+                    <msIdentifier>                        
                         <altIdentifier type="collection">
-                            <idno>F-</idno>
+                            <idno>F-b3km</idno>
                         </altIdentifier>          
                     </msIdentifier>
                     <head>
                         <title>Pseudo-Hieronymus: Expositio quatuor evangeliorum</title>
                         <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi></origDate>
                         <origPlace>Mondsee (?)</origPlace>
-                        
-                        <note type="summary">To the original manuscript belong also: <ref>Berlin, Staatsbibl., Fragm. 47</ref> now lost.</note>
-                        <note type="facs"><ref target="https://fragmentarium.ms/overview/F-s8pg"></ref></note>
+                        <note type="summary">From the original manuscript survive several fragments, which were used as binding waste in Mondsee manuscripts.</note>
+                        <note type="facs"><ref target="https://fragmentarium.ms/overview/F-b3km"></ref></note>
                     </head> 
-                    
-                    
                     <history>
                         <origin>
                             <origPlace/>
@@ -129,6 +123,61 @@
                             </bindingDesc>
                             <accMat/> <!--z.B. Fragmente oder beiliegende Notizen, die nicht Teil der HS sind-->
                         </physDesc>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository> 
+                            <idno>Fragm. 782b</idno>          
+                        </msIdentifier>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository> 
+                            <idno>Cod. 1361 (pastedown reinforcement)</idno>          
+                        </msIdentifier>
+                        <head>
+                            <title></title>
+                            <note type="facs"><ref target="https://fragmentarium.ms/overview/F-gsof"/></note>
+                            <note type="summary">Two fragments used to reinforce the pastedown of a Mondsee binding. The fragment on the left is the upper half of a single folio, the lower half thereof is now as in-situ fragment in Vienna, ÖNB, Cod. 1696. On the same board is pasted also a 12<hi rend="sup">th</hi>-century fragment of the Prologue to the <title>Expositio</title>, which was probably added to the original manuscript.</note>
+                        </head>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository> 
+                            <idno>Cod. 1696 (pastedown)</idno>          
+                        </msIdentifier>
+                        <head>
+                            <note type="facs"><ref target="https://fragmentarium.ms/overview/F-vgbq"/></note>
+                            <note type="summary">The fragment serves as a pastedown on the front board of Cod. 1696. It is the lower half of a single folio, the upper half thereof is now as in-situ fragment in Vienna, ÖNB, Cod. 1361.</note>
+                        </head>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Germany</country>
+                            <settlement>Berlin</settlement>
+                            <repository>Staatsbibliothek</repository> 
+                            <idno>Fragm. 47</idno>          
+                        </msIdentifier>
+                        <head>                            
+                            <note type="summary">The fragment serves as a pastedown on the front board of Cod. 1696. It is the lower half of a single folio, the upper half thereof is now as in-situ fragment in Vienna, ÖNB, Cod. 1361.</note>
+                            <note type="catalogue"><ref target="https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/handschriften/abendlaendische-handschriften/signaturenuebersicht?action=permalink&amp;request=90469345%2CT"></ref></note>
+                        </head>
+                        <history>
+                            <provenance>The fragment was detached 1937 from <ref type="altMs" target="https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/handschriften/abendlaendische-handschriften/signaturenuebersicht?action=permalink&amp;request=31019756">Berlin, Staatsbibl, Ms. Lat. qu. 931</ref> - a 10<hi rend="sup">th</hi>-century copy of Ansegisus' Collectio capitularium. This manuscript is held today at the Jagiellonian Library (Biblioteka Jagiellońska) in Kraków.</provenance>
+                        </history>
+                        <additional>
+                            <listBibl>
+                                <bibl>Winter, Ursula. <title>Die Fragmentensammlung der Deutschen Staatsbibliothek (Berlin). Katalog der Fragmente des 4. bis 10. Jahrhunderts</title>. Wiesbaden: Harrassowitz, 1986, pp. 14-15.</bibl>
+                                <bibl><ref target="http://www.manuscripta-mediaevalia.de/dokumente/html/obj90469345,T">ManuMed</ref></bibl>
+                                <bibl>Christ, K. "Die Schloßbibliothek von Nikolsburg und die Überlieferung der Kapitularien-Sammlung des Ansegis." In <title>Deutsches Archiv für Erforschung des Mittelalters </title>1 (1937): <ref target="http://www.digizeitschriften.de/dms/resolveppn/?PID=PPN345858700_0001|log30">281-322</ref>.</bibl>
+                            </listBibl>
+                        </additional>
                     </msFrag>
                 </msDesc>
             </sourceDesc>
