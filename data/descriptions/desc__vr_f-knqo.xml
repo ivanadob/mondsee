@@ -40,7 +40,7 @@
                         </altIdentifier>                       
                     </msIdentifier>
                     <head>
-                        <title>Old Testament: Tb, Est, Job, Ez, Iud (reconstruction)</title>
+                        <title>Old Testament: Tb, Est, Ez, Iud (reconstruction)</title>
                         <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi></origDate>
                         <origPlace>Mondsee</origPlace>
                         <note type="summary"><p>Virtual reconstruction of a manuscript, which once probably contained the Book of Tobias (Tobit), the Book of Judith, the Book of Esther and the Book of Ezra. The palaeographical analysis suggests that the text was written in the Mondsee Abbey in the early 9th century. In the 15th century, several leaves from the original book were used as binding waste for Mondsee manuscripts.</p>
@@ -79,6 +79,14 @@
                                 </extent>
                                 <foliation/>
                                 <collation>
+                                    <p>Flesh site detected on Cod. 15346, f. 1v, 2r, 3v, 4r, 5r, 6r, 7v, 7av, 7br, 8r, 9v, 10r, 11r and 12v, Fragm. 1763-3 recto and 1763-4 recto, Fragm. 1572 recto, Fragm. 1589v, which would suggest the quires were arranged FHHF. It is possible to reconstruct four quires based on the text; quires A to C were three consequent quires; the position of quire D is not certain (depending on whether the Book of Ezra followed the Book of Esther or preceded the Book of Judith). 
+                                        <list>
+                                            <item>Quire A (Cod. 15346, ff. 6-9) wants 3 and 6;</item>
+                                            <item>Quire B (Cod. 15346, ff. 10-12 and  Fragm. 1572, Fragm. 1582, Fragm. 1583, Fragm. 1589, Fragm. 1590, Fragm. 1763) wants 4.</item>
+                                            <item>Quire C (Fragm. 1572 and Fragm. 1589) wants 3-8;</item>
+                                        <item>Quire D (Cod. 15346, ff. 1-4 and Fragm. 1763-3 + Fragm. 1763-4) wants 4, 5 and 8.</item>
+                                        </list>
+                                    </p>
                                     <formula></formula>
                                 </collation>
                                 <condition/>
@@ -92,6 +100,9 @@
                                     <dimensions type="lineHeight" unit="mm">
                                         <height min="9" max="10">10</height>
                                     </dimensions>
+                                    <p>Ruling: very noticeable furrows on f. 11r (ridges on the verso) which was the middle of the qurie - suggesting the ruling was carried out on superimposed bifolia (?), direct ruling on the flesh side only (?) on the innermost bifolium of the quire or on bifolium every two (?).
+                                        -- on f. 2v hair side also furrows - it was the second bifolium from the middle, the innermost lost - 
+                                    </p>
                                     <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
                                        laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
                                 </layout>
@@ -102,7 +113,7 @@
                             <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
                         </handDesc>
                         <scriptDesc>
-                            <summary></summary>
+                            <summary>Bischoff: <quote>ganz von einer Hand</quote> - he knew Cod. 15346 and <quote>eine große Anzahl Streifen</quote> - but not the fragment in Cod. 1754 (the only fragment from the Book of Tobias (Tobit)). The strips he mentioned are (some of) the fragments now preserved under shelfmarks Fragm. 1572, 1582, 1583, 1589, 1590, 1763.</summary>
                             <scriptNote script="x" medium="x"></scriptNote>
                         </scriptDesc>
                         <decoDesc>
