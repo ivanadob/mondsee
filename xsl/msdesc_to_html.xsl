@@ -1326,6 +1326,7 @@
 	<xsl:apply-templates select="tei:additional"/>
 	<xsl:apply-templates select="tei:msContents"/>
 	<xsl:apply-templates select="tei:msPart"/>
+	<xsl:apply-templates select="tei:msFrag"/>
 </xsl:template>
 
 <xsl:template match="tei:msItem">
@@ -1386,6 +1387,15 @@
 	<xsl:apply-templates select="tei:msContents"/>
 	<xsl:apply-templates select="tei:msPart"/>
 </xsl:template>
+	<xsl:template match="tei:msFrag">
+		<xsl:apply-templates select="tei:msIdentifier | tei:altIdentifier" mode="msPart"/>	
+		<xsl:apply-templates select="tei:head" mode="Schlagzeile"/>
+		<xsl:apply-templates select="tei:physDesc"/>
+		<xsl:apply-templates select="tei:history"/>
+		<xsl:apply-templates select="tei:additional"/>
+		<xsl:apply-templates select="tei:msContents"/>
+		<xsl:apply-templates select="tei:msPart"/>
+	</xsl:template>
 
 <xsl:template match="tei:note[not(normalize-space(.)='')]">
 	<xsl:if test="@rend='supplied'"><xsl:text>[</xsl:text></xsl:if>
