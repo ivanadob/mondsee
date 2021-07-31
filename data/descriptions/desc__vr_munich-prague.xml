@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Fragmented MS: Munich, BSB, Clm 27270; Prague, Národní knihovna České republiky, VI.D.24.</title>
+                <title>F-xxx: Quattuor Evangelia (Ingolstadt Gospel Book)</title>
                 <respStmt>
                     <resp>Description by</resp>
                     <persName>
@@ -29,18 +29,47 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="en" xml:id="xxx-xxx">
+                <msDesc xml:lang="en" xml:id="f-xxx">
                     <msIdentifier>                        
                         <altIdentifier type="collection"> 
-                            <idno></idno>
+                            <idno>F-</idno>
                         </altIdentifier>                       
                     </msIdentifier>
                     <head>
-                        <title>Quattuor Evangelia (Ingolstadt Gospel Book)</title>
+                        <title>Fragmented MS: Munich, BSB, Clm 27270; Prague, Národní knihovna České republiky, VI.D.24</title>
                         <origDate notBefore="0751" notAfter="0800">s. VIII<hi rend="sup">2</hi></origDate>
                         <origPlace>Mondsee</origPlace>
                         <note type="summary">The original manuscript contained the four gospels preceded by Eusebian canon tables with sumptuous decoration. The now surviving leaves were used as binding waste for account books in the 17<hi rend="sup">th</hi> and 19<hi rend="sup">th</hi> centuries. A rough estimation of the layout and the amount of text fitting one page suggests the original manuscript had about 260-280 fols.</note>
+                        <note type="fragmentarium"><ref target="fragmentarium.ms"/></note>
                     </head>
+                    <msContents>
+                        <msItem>
+                            <locus from="m_1ar" to="m_1bv">1ar-1bv</locus>
+                            <title>Canon tables</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent>
+                                    <measure type="leavesCount" quantity="0" unit="folio">64 fols. (surviving)</measure>
+                                    <dimensions type="leaf_current" unit="mm">
+                                        <height>350</height>
+                                        <width>260</width>
+                                    </dimensions>
+                                </extent>
+                                <foliation/>
+                                <collation>
+                                    <formula></formula>
+                                </collation>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>                           
+                        <additions/>
+                    </physDesc>
                     <history>
                         <origin>
                             <origPlace/>
@@ -73,7 +102,7 @@
                             <idno>Clm 27270</idno>             
                         </msIdentifier>
                         <head>
-                            <title>München, BSB, Clm 27270</title>
+                            <title>Canon tables and gospels</title>
                             <note type="facs"><ref target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00061453-2"></ref></note>
                             <note type="catalogue"><ref target="https://opacplus.bsb-muenchen.de/title/BV037459866"></ref></note>
                         </head>
@@ -92,35 +121,8 @@
                                         <formula></formula>
                                     </collation>
                                     <condition/>
-                                </supportDesc>
-                                <layoutDesc>
-                                    <layout ruledLines="0" writtenLines="0" columns="0">
-                                        <dimensions type="written" unit="mm">
-                                            <height></height>
-                                            <width></width>
-                                        </dimensions> 
-                                        <dimensions type="column" unit="mm">
-                                            <width></width>
-                                        </dimensions>
-                                        <dimensions type="lineHeight" unit="mm">
-                                            <height></height>
-                                        </dimensions>
-                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
-                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
-                                    </layout>
-                                </layoutDesc>
-                            </objectDesc>
-                            <handDesc>
-                                <summary></summary>
-                                <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
-                            </handDesc>
-                            <scriptDesc>
-                                <summary></summary>
-                                <scriptNote script="x" medium="x"></scriptNote>
-                            </scriptDesc>
-                            <decoDesc>
-                                <decoNote type="x"/>
-                            </decoDesc>   
+                                </supportDesc>                                
+                            </objectDesc>                           
                             <additions/>
                             <bindingDesc>
                                 <binding notBefore="0001" notAfter="0001">
@@ -233,6 +235,8 @@
     </revisionDesc>
     </teiHeader>
     <facsimile>
+        <graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00061453_00013/full/full/0/default.jpg" n="m_1ar"></graphic>
+        <graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00061453_0001/full/full/0/default.jpg" n="m_1bv"></graphic>
         <graphic url="https://imagines.manuscriptorium.com/loris/AIPDIG-NKCR__VI_D_24_____369UNM1-cs/ID0001r/full/full/0/default.jpg" n="prague_1r"/>
         <graphic url="https://imagines.manuscriptorium.com/loris/AIPDIG-NKCR__VI_D_24_____369UNM1-cs/ID0001v/full/full/0/default.jpg" n="prague_1v"/>
         <graphic url="https://imagines.manuscriptorium.com/loris/AIPDIG-NKCR__VI_D_24_____369UNM1-cs/ID0002r/full/full/0/default.jpg" n="prague_2r"/>

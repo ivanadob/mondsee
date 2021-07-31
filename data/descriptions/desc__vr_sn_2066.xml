@@ -147,6 +147,34 @@
                             <repository>BSB</repository> 
                             <idno>Clm 18704</idno>                                                   
                         </msIdentifier>
+                        <head>                           
+                            <note type="catalogue"><ref target="https://opacplus.bsb-muenchen.de/search?oclcno=935404461&amp;db=100&amp;View=default"></ref></note>
+                        </head>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="62" unit="folio">62</measure>
+                                        <dimensions type="leaf_current" unit="mm">
+                                            <height>350</height>
+                                            <width>260</width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation/>
+                                    <collation>
+                                        <formula></formula>
+                                    </collation>
+                                    <condition/>
+                                </supportDesc>                                
+                            </objectDesc>                           
+                            <additions/>
+                            <bindingDesc>
+                                <binding notBefore="0001" notAfter="0001">
+                                    <p/>
+                                </binding>
+                            </bindingDesc>
+                            <accMat/> 
+                        </physDesc>
                     </msFrag>
                     <msFrag>
                         <msIdentifier>
@@ -157,8 +185,33 @@
                         </msIdentifier>
                         <head>
                             <title></title>
-                            <note type="facs"><ref target="https://manuscripta.at/hs_detail.php?ID=39826"></ref></note>
+                            <note type="facs"><ref></ref></note>
                         </head>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="0" unit="folio"></measure>
+                                        <dimensions type="leaf_current" unit="mm">
+                                            <height></height>
+                                            <width></width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation/>
+                                    <collation>
+                                        <formula></formula>
+                                    </collation>
+                                    <condition/>
+                                </supportDesc>                                
+                            </objectDesc>                           
+                            <additions/>
+                            <bindingDesc>
+                                <binding notBefore="0001" notAfter="0001">
+                                    <p/>
+                                </binding>
+                            </bindingDesc>
+                            <accMat/> 
+                        </physDesc>
                     </msFrag>
                     <msFrag>
                         <msIdentifier>

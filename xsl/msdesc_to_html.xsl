@@ -59,6 +59,7 @@
                         </span>			
                     </div>	
                     <hr/>	
+<!--                	Creates button group for link to facsimile, catalogue, and fragmentarium entries -->
                     <div class="btn-group">	
                         <xsl:choose>
                             <xsl:when test="descendant-or-self::tei:msDesc/tei:head/tei:note[@type='facs']">
@@ -75,6 +76,14 @@
                                 </a>
                             </xsl:when>
                         </xsl:choose>                        
+                        
+                    	<xsl:choose>
+                    		<xsl:when test="descendant-or-self::tei:msDesc/tei:head/tei:note[@type='fragmentarium']">
+                    			<a class="btn btn-outline-dark" href="{descendant-or-self::tei:msDesc/tei:head/tei:note[@type='fragmentarium']/tei:ref/@target}">
+                    				<img src="https://fragmentarium.ms/img/svg/logo-bw.svg" alt="Fragmentarium" width="40" height="40"></img>
+                    			</a>
+                    		</xsl:when>
+                    	</xsl:choose>
                         
                         <a class="btn btn-outline-dark">
                             <xsl:attribute name="href">		
@@ -101,8 +110,8 @@
                     </div>	
                    
                     <xsl:apply-templates select="descendant-or-self::tei:msDesc"/>
-                	<hr/>
-                	<xsl:apply-templates select="descendant-or-self::tei:text"/>
+                	<!--<hr/>
+                	<xsl:apply-templates select="descendant-or-self::tei:text"/>-->
                 		
                 	
                     
@@ -263,7 +272,6 @@
 
 <xsl:template match="tei:msIdentifier | tei:altIdentifier" mode="msPart">
 	<div class="part">
-		<!--<xsl:attribute name="class">part</xsl:attribute>-->
 		<xsl:if test="tei:settlement != ancestor::tei:msDesc/tei:msIdentifier/tei:settlement">
 			<xsl:value-of select="tei:settlement"/>
 			<xsl:text>, </xsl:text>
@@ -291,6 +299,34 @@
 		
 	</div>
 </xsl:template>
+	<xsl:template match="tei:msIdentifier | tei:altIdentifier" mode="msFrag">
+		<div class="part">
+			
+				<xsl:value-of select="tei:settlement"/>
+				<xsl:text>, </xsl:text>
+			<xsl:if test="tei:institution">
+				<xsl:value-of select="tei:institution"/>
+				<xsl:text>, </xsl:text>
+			</xsl:if>
+			<xsl:if test="tei:repository">
+				<xsl:value-of select="tei:repository"/>
+				<xsl:text>, </xsl:text>
+			</xsl:if>
+			<xsl:if test="tei:collection">
+				<xsl:value-of select="tei:collection"/>
+				<xsl:text>, </xsl:text>
+			</xsl:if>
+			<xsl:value-of select="tei:idno"/>
+			<xsl:choose>
+				<xsl:when test="following-sibling::tei:head/tei:title">
+					<p style="font-weight:normal">
+						<xsl:apply-templates select="following-sibling::tei:head/tei:title"/>	
+					</p>
+				</xsl:when>		
+			</xsl:choose>
+			
+		</div>
+	</xsl:template>
 
 <xsl:template match="tei:altIdentifier">
 	<xsl:choose>
@@ -609,6 +645,35 @@
 		</xsl:otherwise>
 	</xsl:choose>
 	<!--xsl:call-template name="Leerzeichen"/-->
+</xsl:template>
+
+<xsl:template match="tei:head" mode="msFrag">
+	<div class="btn-group">	
+		<xsl:choose>
+			<xsl:when test="descendant-or-self::tei:msDesc/tei:msFrag/tei:head/tei:note[@type='facs']">
+				<a class="btn btn-outline-dark" href="{tei:note[@type='facs']/tei:ref/@target}">
+					<xsl:text>Facsimile</xsl:text>
+				</a>
+			</xsl:when>
+		</xsl:choose>                       
+		
+		<xsl:choose>
+			<xsl:when test="descendant-or-self::tei:msFrag/tei:head/tei:note[@type='catalogue']">
+				<a class="btn btn-outline-dark" href="{descendant-or-self::tei:msFrag/tei:head/tei:note[@type='catalogue']/tei:ref/@target}">
+					<xsl:text>Library catalogue</xsl:text>
+				</a>
+			</xsl:when>
+		</xsl:choose>                        
+		
+		<xsl:choose>
+			<xsl:when test="descendant-or-self::tei:msFrag/tei:head/tei:note[@type='fragmentarium']">
+				<a class="btn btn-outline-dark" href="{descendant-or-self::tei:msFrag/tei:head/tei:note[@type='fragmentarium']/tei:ref/@target}">
+					<img src="https://fragmentarium.ms/img/svg/logo-bw.svg" alt="Fragmentarium" width="40" height="40"></img>
+				</a>
+			</xsl:when>
+		</xsl:choose>		
+		
+	</div>
 </xsl:template>
 
 <xsl:template match="tei:head[not(normalize-space(.)='')]" mode="Schlagzeile">
@@ -1388,7 +1453,9 @@
 	<xsl:apply-templates select="tei:msPart"/>
 </xsl:template>
 	<xsl:template match="tei:msFrag">
-		<xsl:apply-templates select="tei:msIdentifier | tei:altIdentifier" mode="msPart"/>	
+		<hr/>
+		<xsl:apply-templates select="tei:msIdentifier | tei:altIdentifier" mode="msFrag"/>	
+		<xsl:apply-templates select="tei:head" mode="msFrag"/>
 		<xsl:apply-templates select="tei:head" mode="Schlagzeile"/>
 		<xsl:apply-templates select="tei:physDesc"/>
 		<xsl:apply-templates select="tei:history"/>
