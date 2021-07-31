@@ -1,8 +1,8 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="en" xml:base="+++/tei-msDesc_dobcheva.xml" xml:id="_tei-msDesc_dobcheva">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="en" xml:base="f-1ktr/tei-msDesc_dobcheva.xml" xml:id="f-1ktr_tei-msDesc_dobcheva">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>F-xxx: Quattuor Evangelia (Ingolstadt Gospel Book)</title>
+                <title>F-1ktr: Quattuor Evangelia (Ingolstadt Gospel Book)</title>
                 <respStmt>
                     <resp>Description by</resp>
                     <persName>
@@ -29,10 +29,10 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="en" xml:id="f-xxx">
+                <msDesc xml:lang="en" xml:id="f-1ktr">
                     <msIdentifier>                        
                         <altIdentifier type="collection"> 
-                            <idno>F-</idno>
+                            <idno>F-1ktr</idno>
                         </altIdentifier>                       
                     </msIdentifier>
                     <head>
@@ -40,7 +40,7 @@
                         <origDate notBefore="0751" notAfter="0800">s. VIII<hi rend="sup">2</hi></origDate>
                         <origPlace>Mondsee</origPlace>
                         <note type="summary">The original manuscript contained the four gospels preceded by Eusebian canon tables with sumptuous decoration. The now surviving leaves were used as binding waste for account books in the 17<hi rend="sup">th</hi> and 19<hi rend="sup">th</hi> centuries. A rough estimation of the layout and the amount of text fitting one page suggests the original manuscript had about 260-280 fols.</note>
-                        <note type="fragmentarium"><ref target="fragmentarium.ms"/></note>
+                        <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-1ktr"/></note>
                     </head>
                     <msContents>
                         <msItem>
@@ -228,9 +228,9 @@
                 <p>Description originated within the project "The Carolingian Scriptorium of Mondsee".</p>
             </projectDesc>
         </encodingDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
         <listChange>
-            <change></change>
+            <change when="2021-07-31"></change>
         </listChange>
     </revisionDesc>
     </teiHeader>

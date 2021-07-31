@@ -62,28 +62,28 @@
 <!--                	Creates button group for link to facsimile, catalogue, and fragmentarium entries -->
                     <div class="btn-group">	
                         <xsl:choose>
+                    		<xsl:when test="descendant-or-self::tei:msDesc/tei:head/tei:note[@type='fragmentarium']">
+                    			<a class="btn btn-outline-dark" href="{descendant-or-self::tei:msDesc/tei:head/tei:note[@type='fragmentarium']/tei:ref/@target}"  target="_blank" title="Fragmentarium entry in a new tab">
+                    				<img src="https://fragmentarium.ms/img/svg/logo-bw.svg" alt="Fragmentarium" width="20" height="20"></img>
+                    			</a>
+                    		</xsl:when>
+                    	</xsl:choose>
+                    	<xsl:choose>
                             <xsl:when test="descendant-or-self::tei:msDesc/tei:head/tei:note[@type='facs']">
-                                <a class="btn btn-outline-dark" href="{descendant-or-self::tei:msDesc/tei:head/tei:note[@type='facs']/tei:ref/@target}">
-                                    <xsl:text>Facsimile</xsl:text>
+                            	<a class="btn btn-outline-dark" href="{descendant-or-self::tei:msDesc/tei:head/tei:note[@type='facs']/tei:ref/@target}"  target="_blank" title="opens in a new tab">
+                            		<xsl:value-of select="descendant-or-self::tei:msDesc/tei:head/tei:note[@type='facs']/tei:ref"/>
                                 </a>
                             </xsl:when>
-                        </xsl:choose>                       
-                        
-                        <xsl:choose>
+                        </xsl:choose>
+                    	<xsl:choose>
                             <xsl:when test="descendant-or-self::tei:msDesc/tei:head/tei:note[@type='catalogue']">
-                                <a class="btn btn-outline-dark" href="{descendant-or-self::tei:msDesc/tei:head/tei:note[@type='catalogue']/tei:ref/@target}">
+                            	<a class="btn btn-outline-dark" href="{descendant-or-self::tei:msDesc/tei:head/tei:note[@type='catalogue']/tei:ref/@target}"  target="_blank" title="opens in a new tab">
                                     <xsl:text>Library catalogue</xsl:text>
                                 </a>
                             </xsl:when>
                         </xsl:choose>                        
                         
-                    	<xsl:choose>
-                    		<xsl:when test="descendant-or-self::tei:msDesc/tei:head/tei:note[@type='fragmentarium']">
-                    			<a class="btn btn-outline-dark" href="{descendant-or-self::tei:msDesc/tei:head/tei:note[@type='fragmentarium']/tei:ref/@target}">
-                    				<img src="https://fragmentarium.ms/img/svg/logo-bw.svg" alt="Fragmentarium" width="40" height="40"></img>
-                    			</a>
-                    		</xsl:when>
-                    	</xsl:choose>
+                    	
                         
                         <a class="btn btn-outline-dark">
                             <xsl:attribute name="href">		
@@ -650,29 +650,27 @@
 <xsl:template match="tei:head" mode="msFrag">
 	<div class="btn-group">	
 		<xsl:choose>
-			<xsl:when test="descendant-or-self::tei:msDesc/tei:msFrag/tei:head/tei:note[@type='facs']">
-				<a class="btn btn-outline-dark" href="{tei:note[@type='facs']/tei:ref/@target}">
+			<xsl:when test="tei:note[@type='fragmentarium']">
+				<a class="btn btn-outline-dark" href="{tei:note[@type='fragmentarium']/tei:ref/@target}" target="_blank" title="opens in a new tab">
+					<img src="https://fragmentarium.ms/img/svg/logo-bw.svg" alt="Fragmentarium" width="20" height="20"></img>
+				</a>
+			</xsl:when>
+		</xsl:choose>
+		<xsl:choose>
+			<xsl:when test="tei:note[@type='facs']">
+				<a class="btn btn-outline-dark" href="{tei:note[@type='facs']/tei:ref/@target}"  target="_blank" title="opens in a new tab">
 					<xsl:text>Facsimile</xsl:text>
 				</a>
 			</xsl:when>
 		</xsl:choose>                       
 		
 		<xsl:choose>
-			<xsl:when test="descendant-or-self::tei:msFrag/tei:head/tei:note[@type='catalogue']">
-				<a class="btn btn-outline-dark" href="{descendant-or-self::tei:msFrag/tei:head/tei:note[@type='catalogue']/tei:ref/@target}">
+			<xsl:when test="tei:note[@type='catalogue']">
+				<a class="btn btn-outline-dark" href="{tei:note[@type='catalogue']/tei:ref/@target}" target="_blank" title="opens in a new tab">
 					<xsl:text>Library catalogue</xsl:text>
 				</a>
 			</xsl:when>
-		</xsl:choose>                        
-		
-		<xsl:choose>
-			<xsl:when test="descendant-or-self::tei:msFrag/tei:head/tei:note[@type='fragmentarium']">
-				<a class="btn btn-outline-dark" href="{descendant-or-self::tei:msFrag/tei:head/tei:note[@type='fragmentarium']/tei:ref/@target}">
-					<img src="https://fragmentarium.ms/img/svg/logo-bw.svg" alt="Fragmentarium" width="40" height="40"></img>
-				</a>
-			</xsl:when>
-		</xsl:choose>		
-		
+		</xsl:choose> 
 	</div>
 </xsl:template>
 

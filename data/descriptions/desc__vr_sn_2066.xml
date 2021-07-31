@@ -30,12 +30,7 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc xml:lang="en" xml:id="f-xxx">
-                    <msIdentifier>
-                        <country></country>
-                        <settlement></settlement>
-                        <institution></institution>
-                        <repository></repository> 
-                        <idno></idno>
+                    <msIdentifier>                       
                         <altIdentifier type="collection"> 
                             <idno></idno>
                         </altIdentifier>                       
@@ -75,32 +70,153 @@
                             <country>Austria</country>
                             <settlement>Vienna</settlement>
                             <repository>Österreichische Nationalbibliothek</repository> 
-                            <idno>Cod. Ser. n. 2066</idno>                                                   
-                        </msIdentifier>
+                            <idno>Cod. Ser. n. 2066</idno> 
+                            <altIdentifier type="collection">
+                                <idno>F-jyai</idno>
+                            </altIdentifier>
+                        </msIdentifier>                        
+                        <head>
+                            <title></title>
+                            <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-jyai"></ref></note>
+                            <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13944334"></ref></note>
+                        </head>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="0" unit="folio"></measure>
+                                        <dimensions type="leaf_current" unit="mm">
+                                            <height></height>
+                                            <width></width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation/>
+                                    <collation>
+                                        <formula></formula>
+                                    </collation>
+                                    <condition/>
+                                </supportDesc>                                
+                            </objectDesc>                           
+                            <additions/>
+                            <bindingDesc>
+                                <binding notBefore="0001" notAfter="0001">
+                                    <p/>
+                                </binding>
+                            </bindingDesc>
+                            <accMat/> 
+                        </physDesc>
+                        <additional>
+                            <listBibl>
+                                <bibl><abbr>Mazal 1963</abbr>, p. <ref target="http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0752a_b0162_jpg.htm">162</ref></bibl>
+                            </listBibl>
+                        </additional>
                     </msFrag>
                     <msFrag>
                         <msIdentifier>
                             <country>Austria</country>
                             <settlement>Vienna</settlement>
                             <repository>Österreichische Nationalbibliothek</repository> 
-                            <idno>Fragm. 15</idno>                                                   
+                            <idno>Fragm. 15</idno> 
+                            <altIdentifier type="former">
+                                <idno>Fragm. 84</idno>
+                            </altIdentifier>
+                            <altIdentifier type="former">
+                                <idno>Nr. 100</idno>
+                            </altIdentifier>
+                            <altIdentifier type="collection">
+                                <idno>F-8a0c</idno>
+                            </altIdentifier>
                         </msIdentifier>
+                        <head>
+                            <title></title>
+                            <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-8a0c"/></note>
+                            <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC14425005"></ref></note>
+                            <note type="facs"><ref target="http://data.onb.ac.at/dtl/7040019"></ref></note>
+                        </head>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="0" unit="folio"></measure>
+                                        <dimensions type="leaf_current" unit="mm">
+                                            <height></height>
+                                            <width></width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation/>
+                                    <collation>
+                                        <formula></formula>
+                                    </collation>
+                                    <condition/>
+                                </supportDesc>                                
+                            </objectDesc>                           
+                            <additions/>
+                            <bindingDesc>
+                                <binding notBefore="0001" notAfter="0001">
+                                    <p/>
+                                </binding>
+                            </bindingDesc>
+                            <accMat/> 
+                        </physDesc>
                     </msFrag>
                     <msFrag>
                         <msIdentifier>
                             <country>Austria</country>
                             <settlement>Vienna</settlement>
                             <repository>Österreichische Nationalbibliothek</repository> 
-                            <idno>Fragm. 210</idno>                                                   
+                            <idno>Fragm. 210a</idno>  
+                            <altIdentifier type="collection">
+                                <idno>F-nxmr</idno>
+                            </altIdentifier>
                         </msIdentifier>
+                        <head>
+                            <title></title>
+                            <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-nxmr"></ref></note>
+                            <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC16132991"></ref></note>
+                            <note type="facs"><ref target="http://data.onb.ac.at/dtl/6986822"></ref></note>
+                        </head>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="0" unit="folio"></measure>
+                                        <dimensions type="leaf_current" unit="mm">
+                                            <height></height>
+                                            <width></width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation/>
+                                    <collation>
+                                        <formula></formula>
+                                    </collation>
+                                    <condition/>
+                                </supportDesc>                                
+                            </objectDesc>                           
+                            <additions/>
+                            <bindingDesc>
+                                <binding notBefore="0001" notAfter="0001">
+                                    <p/>
+                                </binding>
+                            </bindingDesc>
+                            <accMat/> 
+                        </physDesc>
                     </msFrag>
                     <msFrag>
                         <msIdentifier>
                             <country>Austria</country>
                             <settlement>Vienna</settlement>
                             <repository>Österreichische Nationalbibliothek</repository> 
-                            <idno>Fragm. 1584</idno>                                                   
-                        </msIdentifier>
+                            <idno>Fragm. 1584</idno>  
+                            <altIdentifier type="collection">
+                                <idno>F-a3sg</idno>
+                            </altIdentifier>
+                        </msIdentifier> 
+                        <head>
+                            <title></title>
+                            <note type="fragmentarium"><ref target="http://fragmentarium.ms/overview/F-a3sg"></ref></note>
+                            <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC15482241"></ref></note>
+                        </head>
+                        
                         <msContents>
                             <msItem>
                                 <title>Lib 2, Hom. 39<note> §3-4</note></title>
@@ -131,6 +247,32 @@
                             <repository>Österreichische Nationalbibliothek</repository> 
                             <idno>Cod. 3651 (offset)</idno>                                                   
                         </msIdentifier>
+                        <head>
+                            <title></title>
+                            <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-8asi"></ref></note>
+                        </head>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="0" unit="folio">1 fol. (offset)</measure>
+                                        <dimensions type="leaf_current" unit="mm">
+                                            <height></height>
+                                            <width></width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation/>
+                                    <collation>
+                                        <formula></formula>
+                                    </collation>
+                                    <condition/>
+                                </supportDesc>                                
+                            </objectDesc>                           
+                            <additions/>
+                        </physDesc>
+                        <history>
+                            <provenance>Used as binding waste in <ref target="http://data.onb.ac.at/rec/AC13956690">Cod. 3651</ref> - a Sammelhandschrift written in the 15th c. in Mondsee.</provenance>
+                        </history>
                     </msFrag>
                     <msFrag>
                         <msIdentifier>
@@ -139,6 +281,27 @@
                             <repository>Österreichische Nationalbibliothek</repository> 
                             <idno>Cod. 3895 (offset)</idno>                                                   
                         </msIdentifier>
+                        <head>
+                            <title></title>
+                            <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-jo4h"></ref></note>
+                        </head>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="0" unit="folio">1 fol. (offset)</measure>
+                                        <dimensions type="leaf_current" unit="mm">
+                                            <height>280</height>
+                                            <width>190</width>
+                                        </dimensions>
+                                    </extent>
+                                    <condition/>
+                                </supportDesc>                                
+                            </objectDesc>  
+                        </physDesc>
+                        <history>
+                            <provenance>Used as binding waste in Cod. 3895 - a theological Sammelhandschrift written in the 15th c. in Mondsee.</provenance>
+                        </history>
                     </msFrag>
                     <msFrag>
                         <msIdentifier>
@@ -154,44 +317,7 @@
                             <objectDesc form="fragment">
                                 <supportDesc material="perg">
                                     <extent>
-                                        <measure type="leavesCount" quantity="62" unit="folio">62</measure>
-                                        <dimensions type="leaf_current" unit="mm">
-                                            <height>350</height>
-                                            <width>260</width>
-                                        </dimensions>
-                                    </extent>
-                                    <foliation/>
-                                    <collation>
-                                        <formula></formula>
-                                    </collation>
-                                    <condition/>
-                                </supportDesc>                                
-                            </objectDesc>                           
-                            <additions/>
-                            <bindingDesc>
-                                <binding notBefore="0001" notAfter="0001">
-                                    <p/>
-                                </binding>
-                            </bindingDesc>
-                            <accMat/> 
-                        </physDesc>
-                    </msFrag>
-                    <msFrag>
-                        <msIdentifier>
-                            <country>Austria</country>
-                            <settlement>Salzburg</settlement>
-                            <repository>Archiv der Erzdiözese</repository> 
-                            <idno>Fragm. 103</idno>                                                   
-                        </msIdentifier>
-                        <head>
-                            <title></title>
-                            <note type="facs"><ref></ref></note>
-                        </head>
-                        <physDesc>
-                            <objectDesc form="fragment">
-                                <supportDesc material="perg">
-                                    <extent>
-                                        <measure type="leavesCount" quantity="0" unit="folio"></measure>
+                                        <measure type="leavesCount" quantity="1" unit="folio"></measure>
                                         <dimensions type="leaf_current" unit="mm">
                                             <height></height>
                                             <width></width>
@@ -203,6 +329,36 @@
                                     </collation>
                                     <condition/>
                                 </supportDesc>                                
+                            </objectDesc>  
+                        </physDesc>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Salzburg</settlement>
+                            <repository>Archiv der Erzdiözese</repository> 
+                            <idno>Fragm. 103</idno>                                                   
+                        </msIdentifier>
+                        <head>
+                            <title></title>
+                            <note type="facs"><ref target="https://manuscripta.at/hs_detail.php?ID=39826">Facsimile at manuscripta.at</ref></note>
+                        </head>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="2" unit="folio">2</measure>
+                                        <dimensions type="leaf_current" unit="mm">
+                                            <height>310</height>
+                                            <width>230</width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation/>
+                                    <collation>
+                                        <formula></formula>
+                                    </collation>
+                                    <condition/>
+                                </supportDesc>                                
                             </objectDesc>                           
                             <additions/>
                             <bindingDesc>
@@ -212,6 +368,14 @@
                             </bindingDesc>
                             <accMat/> 
                         </physDesc>
+                        <history>
+                            <provenance>Abgelöst vom Koperteinband des Giltenbuchs Straßwalchen (Land Salzburg) der Jahre 1625-1657. Ebenfalls aus diesem Einband stammt ein weiteres dazugehöriges Fragment -  Fragm. 55 (AT-AES 7.1.H1.55), als auch zwei Fragmente aus einem Missale (s. XV): Fragm. 29 (AT-AES 7.1.H1.29) und Fragm. 34 (AT-AES 7.1.H1.34). Vgl. Kat. Nrr. 117, 122 und 142 im Nikolaus Czifra–Rüdiger Lorenz, Katalog der mittelalterlichen Handschriften in Salzburg.</provenance>
+                        </history>
+                        <additional>
+                            <listBibl>
+                                <bibl>Nikolaus Czifra–Rüdiger Lorenz, Katalog der mittelalterlichen Handschriften in Salzburg: Stiftsbibliothek Mattsee, Archiv der Erzdiözese Salzburg, Salzburger Landesarchiv, Archiv der Stadt Salzburg, Salzburg Museum. Unter Mitarbeit von Beatrix Koll und Susanne Lang. Katalog- und Registerband (Österreichische Akademie der Wissenschaften, phil.-hist. Klasse, Denkschriften 475 = Veröffentlichungen zum Schrift- und Buchwesen des Mittelalters II,11). Vienna, 2015, p. 327 (Nr. 147).</bibl>
+                            </listBibl>
+                        </additional>
                     </msFrag>
                     <msFrag>
                         <msIdentifier>
@@ -280,9 +444,9 @@
                 <p>Description originated within the project "The Carolingian Scriptorium of Mondsee".</p>
             </projectDesc>
         </encodingDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
         <listChange>
-            <change></change>
+            <change when="2021-07-31"></change>
         </listChange>
     </revisionDesc>
     </teiHeader>

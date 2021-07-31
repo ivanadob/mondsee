@@ -34,13 +34,17 @@
                         <country>Austria</country>
                         <settlement>Vienna</settlement>
                         <repository>Österreichische Nationalbibliothek</repository> 
-                        <idno>Cod. Ser. n. 2762</idno>                                               
+                        <idno>Cod. Ser. n. 2762</idno>    
+                        <altIdentifier type="collection">
+                            <idno>F-zmlo</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <head>
                         <title>Pontificale</title>
                         <origDate notBefore="0851" notAfter="0900">s. IX</origDate>
                         <origPlace>Regensburg (?)</origPlace>
-                        <note type="facs"><ref target="https://fragmentarium.ms/overview/F-zmlo"/></note>
+                        <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-zmlo"/></note>
+                        <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC14012337">ÖNB</ref></note>
                         <note type="summary">The fragments from a Pontifical (liturgical book containing the rites performed by Bishops) together with some Collecta prayers, were found in bookbindings from the Mondsee Abbey (Upper Austria). The manuscript was written in carolingian minuscule from the first half of the ninth century by the order of Baturich, the Bishop of Regensburg, as attested by the script and the mentioning of St. Emmeram, the patron Saint of the Benedictine Abbey in Regensburg. It was written (mainly?) by one scribe. According to B. Bischoff this hand exhibits features, which are foreign to Regensburg and suggested that the scribe was a Mondsee monk working in Regensburg. When and why the manuscript was brought to Mondsee, where it was used as bookbinding waste in the fifteenth century, is unclear.</note>
                     </head> 
                     <msContents>
@@ -127,6 +131,7 @@
                         </surrogates> 
                         <listBibl>
                             <bibl>Unterkircher, Franz. Das Kollektar-Pontifikale des Bischofs Baturich von Regensburg (817–848): (Cod. Vindob. ser. n. 2762). Spicilegium Friburgense 8. Freiburg: Universitätsverl., 1962.</bibl>
+                            <bibl><abbr>Mazal 1963</abbr>, p. <ref target="http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0752a_b0386_jpg.htm">386</ref>.</bibl>
                         </listBibl>
                     </additional>            
                                         
