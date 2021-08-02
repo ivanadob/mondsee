@@ -23,7 +23,14 @@
   <text>
       <body>
          <list type="bibliography">
-            
+            <item>
+               <label>BHL</label>
+               <bibl>Bibliotheca hagiographica Latina antiquae et mediae aetatis, Bruxelles 1898-1901 (Subsidia Hagiografica, 6).</bibl>
+            </item>
+            <item>
+               <label>BHM</label>
+               <bibl>Lambert B., <title>Bibliotheca hieronymiana manuscripta</title>, Steenbrugis 1969-1972, 4 vols. (Instrumenta patristica, 4).</bibl>
+            </item>
             <item xml:id="gbv_219783551">
                <label>Bischoff 1980</label>
                <bibl>Bischoff, Bernhard. <title>Die südostdeutschen Schreibschulen und Bibliotheken in der Karolingerzeit</title>. Vol. 2. Die vorwiegend österreichischen Diözesen. Wiesbaden: Harrassowitz, 1980.</bibl>
@@ -33,8 +40,28 @@
                <bibl>Bischoff, Bernhard. <title>Katalog der festländischen Handschriften des neunten Jahrhunderts : (mit Ausnahme der wisigotischen)</title>. Vol. 3. Padua-Zwickau. 3 vols. Wiesbaden: Harrassowitz, 2014.</bibl>
             </item>
             <item>
+               <label>CCSL</label>
+               <bibl>Corpus christianorum. Series latina, Turnholti 1953-</bibl>
+            </item>
+            <item>
+               <label>CCCM</label>
+               <bibl>Corpus christianorum. Continuatio mediaevalis, Turnholti 1966-</bibl>
+            </item>
+            <item>
+               <label>CPL</label>
+               <bibl>Dekkers E. (ed.), Clavis Patrum Latinorum. 1995 (3rd edition).</bibl>
+            </item>
+            <item>
+               <label>CSEL</label>
+               <bibl>Corpus scriptorum ecclesiasticorum latinorum. Vienna, 1866-.</bibl>
+            </item>
+            <item>
                <label>Clavis</label>
                <bibl>Clavis des auteurs latins du Moyen Age. Territoire français 735-987 cur. Marie-Hélène Jullien - Françoise Perelman, Turnhout 1994- (Corpus Christianorum Continuatio Mediaevalis. Clavis Scriptorum Latinorum Medii Aevi. Auctores Galliae 735-987).</bibl>
+            </item>
+            <item>
+               <label>Gryson 2007</label>
+               <bibl>Répertoire général des auteurs ecclésiastiques latins de l'antiquité et du haut moyen âge. Freiburg: Herder, 2007.</bibl>
             </item>
             <item xml:id="gbv_136747531">
                <label>Hermann 1923</label>
@@ -43,6 +70,18 @@
             <item>
                <label>Mazal 1963</label>
                <bibl>Mazal, Otto, and Franz Unterkircher. <title>Katalog der abendländischen Handschriften der Österreichischen Nationalbibliothek : ‘Series nova’ (Neuerwerbungen)</title>. Vol. 2: Cod. Ser. n. 1601-3200. 5 vols. Vienna: Prachner, 1963.</bibl>
+            </item>
+            <item>
+               <label>MGH</label>
+               <bibl>Monumenta Germaniae Historica, Hannover, Leipzig, Berlin, München, 1826-.</bibl>
+            </item>
+            <item>
+               <label>PL</label>
+               <bibl>Migne J. P., Patrologiae cursus completus. Series latina, Paris, 1844-1864.</bibl>
+            </item>
+            <item>
+               <label>PLS</label>
+               <bibl>Hamman A. (ed.), Patrologiae cursus completus. Series latina. Supplementum, Paris 1957-1964.</bibl>
             </item>
             <item>
                <label>Rasinger 2019</label>

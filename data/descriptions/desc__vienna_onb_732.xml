@@ -165,7 +165,9 @@
                             <msItem>
                                 <locus from="117r" to="178v">117r-178v</locus>
                                 <title>Homiliarium</title>
-                                <!--                                ############ compare with https://www.ub.uni-heidelberg.de/digi-pdf-katalogisate/sammlung50/werk/pdf/onb_cod1556.pdf-->
+                                <!--                                ############ Check Gryson and Clavis Patrum Latinorum for REFERENCES; check if each sermon is present in the PD, Alani and the other major Carol. homiliaries
+                                    
+                                    compare with Vienna, ÖNB, Cod. 1556 https://www.ub.uni-heidelberg.de/digi-pdf-katalogisate/sammlung50/werk/pdf/onb_cod1556.pdf-->
                                 <msItem>
                                     <locus from="117r" to="124v">117ra-124va</locus>
                                     <author ref="#gregorius_magnus">Gregorius Magnus</author>
@@ -193,13 +195,17 @@
                                 </msItem>
                                 <msItem>
                                     <locus from="132r" to="136r">132ra-136ra</locus>
-                                    <author ref="#augustinus">(Ps.-) Augustinus</author>
+                                    <author ref="#augustinus">Ps.- Augustinus</author>
                                     <title ref="#augustinus_sermo_245">Sermo CCXLV. De mysterio trinitatis et incarnationis</title>
                                     <rubric>Incipit lectio de natiuitate domini in primis de incarnatione domini nostri ihesu christi</rubric>
                                     <incipit>Legimus sanctum moysen populo dei precepta dantem</incipit>
-                                    <explicit>pacificauit omnia quae in caelis sunt et quae in terris <gap reason="omitted"/> amen.</explicit>                                    
-                                    <bibl><abbr>PL</abbr> 39, 2196-98.</bibl>
+                                    <explicit>pacificauit omnia quae in caelis sunt et quae in terris <gap reason="omitted"/> amen.</explicit>
+                                    <listBibl>
+                                        <bibl><abbr>PL</abbr> 39, 2196-98.</bibl>
+                                        <bibl></bibl>
+                                        </listBibl>
                                     <note>PD 1, 9.</note>
+                                    <filiation><ref type="altMs">Vienna, ÖNB, Cod. 1556</ref>, fol. 2v-5v.</filiation>
                                 </msItem>
                                 <msItem>
                                     <locus from="136r" to="141v">136ra-141vb</locus>
@@ -211,7 +217,7 @@
                                     <finalRubric>Explicit amen.</finalRubric>
                                     
                                     <bibl><abbr>PL</abbr> 39, 2107-10.</bibl>
-                                    <note>A 1,5 ; F 1.</note>
+                                    <note>A 1,5 ; F 1. Text due to missing one leaf between ff. 139 and 140.</note>
                                 </msItem>                                
                                 <msItem>
                                     <locus from="141v" to="144r">141vb-144ra</locus>
@@ -256,83 +262,88 @@
                                         (PLD); CPL 368; GRYSON, Rép. 280]).</bibl>
                                 </msItem>
                                 <msItem>
-                                    <locus from="152v" to="x">152va-154va</locus>
-                                    <author/>
+                                    <locus from="152v" to="154v">152va-154va</locus>
+                                    <author ref="#augustinus">(Ps.-) Augustinus</author>
                                     <title></title>
                                     <rubric>Incipit sermo sancti <sic>agustini</sic> episcopi de <sic>quadragensime</sic></rubric>
-                                    <incipit>Moyses quadraginta diebus et quadraginta noctibus</incipit>
+                                    <incipit>Moyses quadraginta diebus et quadraginta noctibus in heremo ieiunauit</incipit>
                                     <explicit>paucis diebus domino uiuere debeamus qui uiuit <gap reason="omitted"/> amen.</explicit>
                                 </msItem>
                                 <msItem>
                                     <locus from="154v" to="157r">154va-157ra</locus>
-                                    <author/>
-                                    <title></title>
+                                    <author ref="#augustinus">Ps. Augustinus</author>
+                                    <title>Sermo</title>
                                     <rubric>Incipit omelia in vigilia paschae</rubric>
                                     <incipit>Domini nostri ihesu christi saluatoris et honorabilis</incipit>
                                     <explicit>Ipso donante qui cum patre <gap reason="omitted"/> amen.</explicit>
+                                    <filiation><ref type="altMs">Vienna, ÖNB, Cod. 1556</ref>, fol. 59r-60v.</filiation>
+                                    <bibl><abbr>Gryson</abbr></bibl>
                                 </msItem>
                                 <msItem>
-                                    <locus from="157r" to="x">157ra-</locus>
-                                    <author/>
-                                    <title></title>
+                                    <locus from="157r" to="159v">157ra-159vb</locus>
+                                    <author>Hieronymus</author>
+                                    <author ref="#augustinus">Ps. Augustinus</author>
+                                    <title>Sermo</title>
                                     <rubric>Incipit omelia sancti <sic>agustini</sic> episcopi de prima die paschae</rubric>
                                     <incipit>Non queo fratres karissimi quod mente concipio ore pro ferre</incipit>
-                                    <explicit/>
-                                    <finalRubric/>
+                                    <explicit>iusti intrabunt per eam quod ipse praestare dignetur qui uiuit et regnat in saecula saeculorum amen.</explicit>
+                                    <filiation><ref type="altMs">Vienna, ÖNB, Cod. 1556</ref>, fol. 60v-62r.</filiation>
                                 </msItem>
                                 <msItem>
-                                    <locus from="159v" to="x"/>
-                                    <author/>
-                                    <title></title>
+                                    <locus from="159v" to="162v">159vb-162vb</locus>
+                                    <author>Caes. Arel.</author>
+                                    <title>Sermo 204</title>
                                     <rubric>Item sermo sancti <sic>agustini</sic> de pascha domini</rubric>
-                                    <incipit/>
-                                    <explicit/>
-                                    <finalRubric/>
+                                    <incipit>Pascha christi dilectissimi regnum est caeli</incipit>
+                                    <explicit>peccatorum mereamur peruenire praestante domino nostro ihesu christo qui uiuit et regnat in saecula saeculorum.</explicit>
+                                    <filiation><ref type="altMs">Vienna, ÖNB, Cod. 1556</ref>, fol. 62r-64r.</filiation>
                                 </msItem>
                                 <msItem>
-                                    <locus from="162v" to="x"/>
+                                    <locus from="162v" to="166r">162vb-166rb</locus>
                                     <author/>
                                     <title></title>
                                     <rubric>Omelia sancti <sic>agustini</sic> episcopi in natale sancti iohannis baptistae</rubric>
-                                    <incipit/>
-                                    <explicit/>
-                                    <finalRubric/>
+                                    <incipit>Natalem sancti iohannis fratres karissimi hodie celebramus</incipit>
+                                    <explicit>concedat uobis felicem perseuerantiam custodire qui cum patre et spiritu sancto uiuit et regnat in saecula saeculorum.</explicit>
                                 </msItem>
                                 <msItem>
-                                    <locus from="166r" to="x"/>
-                                    <author/>
-                                    <title></title>
+                                    <locus from="166r" to="169r">166rb-169ra</locus>
+                                    <author ref="#augustinus">(Ps.) Augustinus</author>
+                                    <title>Sermones suppositii de Sanctis.
+                                        Sermo 202</title>
                                     <rubric>Incipit omelia in natale <sic>apostulorum</sic> petri et pauli</rubric>
-                                    <incipit/>
-                                    <explicit/>
-                                    <finalRubric/>
+                                    <incipit><note><locus from="166v">166va</locus></note> Cum omnes beati apostoli parem gratiam</incipit>
+                                    <explicit>sancta oratio omnem humiliat superbiam uniuersam deiecit uanitatem.</explicit>
                                 </msItem>
                                 <msItem>
-                                    <locus from="169r" to="x"/>
-                                    <author/>
+                                    <locus from="169r" to="171r">169ra-171rb</locus>
+                                    <author>Max. Taur.</author>
                                     <title></title>
                                     <rubric>Omelia in natale martyrum</rubric>
-                                    <incipit/>
-                                    <explicit/>
-                                    <finalRubric/>
+                                    <incipit>Cum omnium sanctorum martyrum fratres karissimi natalem deuotissime celebrare debemus</incipit>
+                                    <explicit>tam relegione quam corpore; quod ipse prestare dignetur qui uiuit et regnat in secula saeculorum amen.</explicit>
+                                    <filiation><ref type="altMs">Vienna, ÖNB, Cod. 1556</ref>, fol. 79v-81r.</filiation>
                                 </msItem>
                                 <msItem>
-                                    <locus from="171r" to="x"/>
-                                    <author/>
-                                    <title></title>
+                                    <locus from="171r" to="175v">171rb-175va</locus>
+                                    <author ref="#augustinus">Ps. Augustinus</author>
+                                    <title>Sermo dubius 382 de s. Stephano</title>
                                     <rubric>Incipit sermo sancti <sic>agustini</sic> de natale sancti stephani</rubric>
-                                    <incipit/>
-                                    <explicit/>
-                                    <finalRubric/>
+                                    <incipit>Ihesus filius naue in heremo pugnabat</incipit>
+                                    <explicit>nisi pro tuis inimicis oraueris conuersi ad dominum amen.</explicit>
+                                    <bibl>Ps. Augustinus, S. 382: PL 39, 1684-1686; PLS 2, 403; CPPM I, 748, CPL 285.</bibl>
                                 </msItem>
                                 <msItem>
-                                    <locus from="175v" to="x"/>
-                                    <author/>
-                                    <title></title>
+                                    <locus from="175v" to="178v">175vb-178vb</locus>
+                                    <author ref="#augustinus">Ps. Augustinus</author>
+                                    <title>Sermo dubius de sanctis 216</title>
                                     <rubric>Incipit alius eiusdem</rubric>
-                                    <incipit/>
-                                    <explicit/>
-                                    <finalRubric/>
+                                    <incipit>Quoniam uideo nostras disputationes grafio ceraque legari</incipit>
+                                    <explicit defective="true">permittentes testimonia dicentes</explicit>           
+                                    <note>Alanus Farf. Homiliarium I 21.</note>
+                                    <listBibl>
+                                        <bibl><ref target="http://www.mirabileweb.it/title/cento-in-natale-sancti-stephani-quoniam-video-nost-title/181287">Mirabile</ref></bibl>
+                                    </listBibl>
                                 </msItem>                                
                             </msItem>
                         </msContents>
@@ -356,8 +367,15 @@
                                         IV <hi rend="sup">8</hi> (ff. 87-94) + 
                                         V<hi rend="sup">8</hi> (ff. 95-102) + 
                                         VI<hi rend="sup">8</hi> (ff. 103-110, 2 and 7 singletons) +  
-                                        VII<hi rend="sup"></hi> (ff. )
-                                        Quiremarks in Roman numerals on the last page of the quire (ff. 70v, 78v, 86v, 94v, 102v, 110v).
+                                        VII<hi rend="sup">6</hi> (ff. 111-116) +
+                                        #####
+                                        VIII<hi rend="sup"></hi> (ff. -139, singletons ###) +
+                                        IX<hi rend="sup">8-1</hi> (ff. 140-146, missing 1) +
+                                        X<hi rend="sup">8</hi> (ff. 147-154) +
+                                        XI<hi rend="sup">6</hi> (ff. 155-160) +
+                                        XII<hi rend="sup">8</hi> (ff. 161-168, 2 and 7 singletons) +
+                                      XIII<hi rend="sup">8</hi> (ff. 169-176).
+                                        Quiremarks in Roman numerals on the last page of the quire (ff. 70v, 78v, 86v, 94v, 102v, 110v, 160v, 168v, 176v).
                                     </collation>
                                     <condition></condition>
                                 </supportDesc>
@@ -385,7 +403,8 @@
                                 <scriptNote script="carolmin">Bischoff, Schreibschule, p. 20: <quote>schwere runde, aufrechte und etwas niedrige Schrift von mehr als einer Hand.</quote></scriptNote>
                             </scriptDesc>
                             <decoDesc>
-                                <decoNote type="x"/>
+                                <decoNote type="initial">F. <locus from="64r">64r</locus> Large P-initial zoomorphic. Each letter and sermon opens with a rubric (in red and sometimes green) in Uncial and a 3 to 5-line high ornamental (Flechtornamentik) or zoomorphic (fish motiv) initial in green, yellow and red: <locus from="88v">88v</locus>, <locus from="112r">112r</locus>, <locus from="115r">115r</locus>, <locus from="117r">117r</locus>, <locus from="124v">124v</locus>, <locus from="130r">130r</locus>, <locus from="132r">132r</locus>, <locus from="136r">136r</locus>, <locus from="141v">141v</locus>, <locus from="144r">144r</locus>, <locus from="147r">147r</locus>, <locus from="150r">150r</locus>, <locus from="152v">152v</locus>, <locus from="154v">154v</locus>, <locus from="157r">157r</locus>, <locus from="159v">159v</locus>, <locus from="162v">162v</locus>, <locus from="166v">166v</locus>, <locus from="169r">169r</locus>, <locus from="171r">171r</locus>, <locus from="175v">175v</locus>. Chapters within the letters are highlighted as littera notabilior; on ff. <locus from="71r">71r</locus>-<locus from="78v">78v</locus> painted with red and green. Chapter numeration in the margin partly coorodated.
+                                </decoNote>
                             </decoDesc>   
                             <additions/> <!--Marginalia etc.-->
                             <accMat/> <!--z.B. Fragmente oder beiliegende Notizen, die nicht Teil der HS sind-->
