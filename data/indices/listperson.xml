@@ -28,8 +28,24 @@
                <persName xml:id="gnd_118505114" ref="http://d-nb.info/gnd/118505114">Augustinus</persName>
                <persName>Pseudo-Augustinus</persName>
             </person>
+            <person xml:id="caesarius_arelatensis">
+               <persName xml:id="gnd_118666509" ref="http://d-nb.info/gnd/118666509">Caesarius Arelatensis</persName>
+            </person>
+            <person xml:id="chromatius">
+               <persName xml:id="gnd_118888188" ref="http://d-nb.info/gnd/118888188">Chromatius Aquileiensis</persName>
+            </person>
             <person xml:id="gregorius_magnus">
                <persName xml:id="gnd_118541838" ref="http://d-nb.info/gnd/118541838">Gregorius Magnus</persName>
+            </person>
+            <person xml:id="leo_magnus">
+               <persName xml:id="gnd_118571710" ref="http://d-nb.info/gnd/118571710">Leo Magnus</persName>
+               <persName>Pope Leo I</persName>
+            </person>
+            <person xml:id="maximus_taurinensis">
+               <persName xml:id="gnd_118934996" ref="http://d-nb.info/gnd/118934996">Maximus Taurinensis</persName>
+            </person>
+            <person  xml:id="petronius_veronensis">
+               <persName xml:id="gnd_11930306X" ref="http://d-nb.info/gnd/11930306X">Petronius Veronensis</persName>
             </person>
             <person xml:id="smaragdus">
                <persName xml:id="gnd_118614983" ref="http://d-nb.info/gnd/118614983">Smaragdus S. Michaelis</persName>

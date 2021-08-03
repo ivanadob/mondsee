@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/ER/v0.4/europeana-regia.xsd" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="en" xml:base="cod-732/tei-msDesc_dobcheva.xml" xml:id="cod-732_tei-msDesc_dobcheva">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -67,9 +66,11 @@
                         </listBibl>
                     </additional>
                     <msPart>
-                        <altIdentifier type="partial">
-                            <idno>Codicological unit 1 = ff. 1r-63v</idno>
-                        </altIdentifier>
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>Codicological unit 1 = ff. 1r-63v</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <head>
                             <title>Libri Maccabaeorum</title>
                             <origDate notBefore="1201" notAfter="1250">s. XIII</origDate>
@@ -105,9 +106,11 @@
                         </physDesc>
                     </msPart>
                     <msPart>
-                        <altIdentifier type="partial">
-                            <idno>Codicological unit 2 = fols. 64-178</idno>
-                        </altIdentifier>
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>Codicological unit 2 = fols. 64-178</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <head>
                             <title>Epistulae Pauli; Homiliae et sermones</title>
                             <origDate notBefore="0801" notAfter="0900">s. IX</origDate>
@@ -350,7 +353,7 @@
                         <physDesc>
                             <objectDesc form="fascicle">
                                 <supportDesc material="perg">
-                                    <support>Calf parchment (Bischoff, Schreibschule, p. 20)</support>
+                                    <support>Calf parchment.</support>
                                     <extent>
                                         <measure type="leavesCount" quantity="114" unit="folio">114</measure>
                                         <dimensions type="leaf" unit="mm">
@@ -390,7 +393,20 @@
                                         <!--                                    optional Zeilenhöhe-->
                                         <dimensions type="lineHeight">
                                             <height min="0" max="0"></height>
-                                        </dimensions></p>
+                                        </dimensions>
+                                            <dimensions type="marginAbove" unit="mm">
+                                                <dim></dim>
+                                            </dimensions>
+                                            <dimensions type="marginBelow" unit="mm">
+                                                <dim></dim>
+                                            </dimensions>
+                                            <dimensions type="marginOuter" unit="mm">
+                                                <dim></dim>
+                                            </dimensions>
+                                            <dimensions type="marginInner" unit="mm">
+                                                <dim></dim>
+                                            </dimensions>
+                                        </p>
                                         <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
                                        laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
                                     </layout>
@@ -432,7 +448,7 @@
         </encodingDesc>
     <revisionDesc status="draft">
         <listChange>
-            <change when="2021-07-10"></change>
+            <change when="2021-08-03"></change>
         </listChange>
     </revisionDesc>
     </teiHeader>

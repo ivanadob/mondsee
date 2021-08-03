@@ -22,10 +22,9 @@
             <sourceDesc>
                 <msDesc xml:lang="eng" xml:id="onb-cod-1557">
                     <msIdentifier>
-                        <country></country>
-                        <settlement>Wien</settlement>
+                        <country>Austria</country>
+                        <settlement>Vienna</settlement>
                         <repository>Österreichische Nationalbibliothek</repository>
-                        <collection>Codices</collection>
                         <idno>Cod. 1557</idno>
                         <altIdentifier type="former">
                             <idno>Rec. 3305</idno>
@@ -44,74 +43,134 @@
                             <title type="supplied">Homiliarium</title> 
                             <msItem>
                                 <locus>1r-6v</locus>
-                                <author>Gregorius Magnus</author>
-                                <title type="supplied">Homilia in evangelia. Homilia XIX</title>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
+                                <title type="supplied" ref="#gregorius_homiliae_19">Homiliae in evangelia. Homilia 19</title>
+                                <incipit><ref type="biblical" cRef="Mt_20,1">In illo tempore. Dixit dominus ihesus discipulis suis. Simile est regnum caelorum homini pater familias<gap reason="omitted"/></ref> In explanatione sua multa adloquendum</incipit>
+                                <explicit>dicamus omnes desu meus misericordia mea.</explicit>
                             </msItem>
                             <msItem>
-                                <locus>17r-19r</locus>
-                                <author>Chromatius</author>
-                                <title type="supplied"></title>
+                                <locus from="6v" to="10r">6v-10r</locus>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
+                                <title type="supplied" ref="#gregorius_homiliae_15">Homiliae in evangelia. Homilia 15</title>
+                                <rubric>Dominica in sexagesima sequentia sancti euangelii secundum lucam</rubric>
+                                <incipit>In illo tempore. <ref type="biblical" cRef="Lc_8,4">Cum turba plurima conueniret <gap reason="omitted"/></ref> <hi rend="rubric">Omelia lectionis eiusdem beati Gregorii.</hi> Lectio sancti euangelii quam modo fratres karissimi audistis</incipit>
+                                <explicit>eorum tunc consortes esse ualeatis.</explicit>
                             </msItem>
                             <msItem>
-                                <locus>19r-22v</locus>
-                                <author></author>
-                                <title type="supplied"></title>
-                                <rubric>Feria VI sequitur sancti euangelii secundum matheum</rubric>
-                                <incipit>Audistis quia dictum est diliges proximum <ref type="biblical" cRef="Mt_5,43">(Mt. 5,43)</ref></incipit>
+                                <locus from="10r" to="13v">10r-13v</locus>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
+                                <title type="supplied" ref="#gregorius_homiliae_2">Homiliae in evangelia. Homilia 2</title>
+                                <rubric>Dominica in quinquagesimae sequentia sancti euangelii secundum Lucam</rubric>
+                                <incipit>In illo tempore. Adsumpsit ihesus duodecim discipulos suos et ait illis. Ecce ascendimus hierosolimam et reliqua. <hi rend="rubric">Omelia leciotnis eiusdem beati Gregorii</hi>. Redemptor noster praeuidens ex passione sua</incipit>
+                                <explicit>et omnis plebs ut uidit dedit laudem deo.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="13v" to="17r">13v-17r</locus>
+                                <author ref="#chromatius">Chromatius Aquileiensis</author>
+                                <title>Tractatus 29-30</title>
+                                <rubric>Feria IIII ante caput quadragesimae sequentia sancti euangelii secundum Matheum</rubric>
+                                <incipit>In illo tempore. Dixit ihesus discipulis suis. <ref type="biblical" cRef="Mt_6,16">Cum ieiunatis nolite fieri <gap reason="omitted"/></ref> <hi rend="rubric">Omelia leciotnis eiusdem</hi>. Sicut in superioribus preceptis ita quoque</incipit>
+                                <explicit>immortalitatis aeternae cui est laus et honor in saecula saeculorum amen.</explicit>
+                                <bibl><abbr>CCSL</abbr>, 9A, pp. 337-343.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="17r" to="19r">17r-19r</locus>
+                                <author ref="#chromatius">Chromatius Aquileiensis</author>
+                                <title ref="#chromatius_tractatus_39">Tractatus 39</title>
+                                <rubric>Feria V. Sequentia sancti euangelii secundum Matheum</rubric>
+                                <incipit>In illo tempore. <ref type="biblical" cRef="Mt_8,5">Cum intrasse ihesus capharnaum <gap reason="omitted"/></ref> <hi rend="rubric">Omelia eiusdem</hi> Quam gloriosa fides in centurione</incipit>
+                                <explicit>Per aduentum domini et saluatoris nostri qui est benedictus ante omnia saecula et nunc et semper et in saecula saeculorum amen.</explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 23v-25v</ref>.</filiation> 
+                            </msItem>
+                            <msItem>
+                                <locus from="19r" to="22v">19r-22v</locus>
+                                <author ref="#chromatius">Chromatius Aquileiensis</author>
+                                <title ref="#chromatius_tractatus_12">Tractatus 12</title>
+                                <rubric>Feria VI sequentia sancti euangelii secundum Matheum</rubric>
+                                <incipit>In illo tempore. Dixit ihesus discipulis suis. <ref type="biblical" cRef="Mt_5,43">Audistis quia dictum est diliges proximum tuum <gap reason="omitted"/></ref> <hi rend="rubric">Omelia lectionis eiusdem</hi> Per omnia uult nos dominus in praeceptis suis</incipit>
+                                <explicit>precem audire consueuit qui est benedictus in saecula amen.</explicit>
                                 <filiation><ref type="altMs">Clm 14386, ff. 25v-29v</ref>.</filiation>
+                                <bibl><abbr>PL</abbr> 20, 355C-357D.</bibl>
                             </msItem>
                             <msItem>
-                                <locus>22v-24v</locus>
+                                <locus from="22v" to="24v">22v-24v</locus>
+                                <author ref="#augustinus">Ps. Augustinus</author>
+                                <note type="title">Based on Augustinus' Sermo 94</note>
                                 <rubric>In uigiliis mortuorum sermo sancti augustini</rubric>
-                                <incipit>Audistis fratres karissimi in lectione euuangelica dominum dicentem</incipit>
+                                <incipit>Audistis fratres karissimi in lectione euuangelica dominum dicentem. <ref type="biblical" cRef="Io_5,21">Sicut enim pater suscitat mortuos et uiuificat sic et filius quos uult uiuificat <gap reason="omitted"/></ref> id est non solum infirmos curare</incipit>
                                 <explicit>resuscitabo eum in nouissimo die per eum qui uiuit et regnat in saecula saeculorum amen.</explicit>
                                 <note>Divided in 9 lectiones with Roman numerlas written in the outer margin.</note>
+                                <bibl><abbr>PL</abbr> 39, 1925-1926.</bibl>
                             </msItem>
                             <msItem>
-                                <locus>24v-26v</locus>
+                                <locus from="24v" to="26v">24v-26v</locus>
+                                <author ref="#caesarius_arelatensis">Caesarius Arelatensis</author>
+                                <title ref="#caesarius_arelatensis_homilia_19">Homilia 19</title>
                                 <rubric>Sermo sancti ambrosii de paenitentia</rubric>
                                 <incipit>Admoneo fratres in conspectu dei</incipit>
-                                <explicit>sed ut ab eo in regno iudicaris.</explicit>
+                                <explicit>sed ut ab eo in regno iudicaris <note>corrected to <quote>inducaris</quote></note>.</explicit>
                                 <filiation><ref type="altMs">Clm 14386, ff. 29v-31r</ref>.</filiation>
+                                <bibl><abbr>PL</abbr> 67, 1082B-1083B.</bibl>
+                                <bibl><abbr>CCSL</abbr> 103, pp. 272-274.</bibl>
                             </msItem>
                             <msItem>
-                                <locus>26v-27r</locus>
-                                <rubric>Sermo petronii episcopi ueronensis in natale sancti zenonis.</rubric>
+                                <locus from="26v" to="27r">26v-27r</locus>
+                                <author ref="#petronius_veronensis">Petronius Veronensis</author>
+                                <title ref="#petronius_sermo_1">Sermo 1</title>
+                                <rubric>Sermo petronii episcopi ueronensis in natale sancti zenonis</rubric>
                                 <incipit>Admiror sacratissimi atque karissimi fratres et uos beata plebs</incipit>
-                                <explicit>aperiamus aduentum qui uiuit et regnat apur aeternum patrem una cum spiritu sancto in saecula saeculorum.</explicit>
+                                <explicit>aperiamus aduentum qui uiuit et regnat apud aeternum patrem una cum spiritu sancto in saecula saeculorum.</explicit>
+                                <bibl><abbr>PLS</abbr> 3, 141-142.</bibl>
                                 <filiation><ref type="altMs">Clm 14386, ff. 31r-32r</ref>.</filiation>
                             </msItem>
                             <msItem>
-                                <locus>27r-28r</locus>
+                                <locus from="27r" to="28r">27r-28r</locus>
+                                <author ref="#petronius_veronensis">Petronius Veronensis</author>
+                                <title ref="#petronius_sermo_2">Sermo 2</title>
                                 <rubric>Item sermo cuius supra in die ordinationis uel natale episcopi</rubric>
-                                <incipit>Moyses magister ouium cum ad eum</incipit>
+                                <incipit><locus>(27v)</locus> Moyses magister ouium cum ad eum</incipit>
                                 <explicit>fuise felicem qui uiuit <gap reason="omitted"/> saeculorum amen.</explicit>
                                 <filiation><ref type="altMs">Clm 14386, ff. 32v-33v</ref>.</filiation>
+                                <bibl><abbr>PLS</abbr> 3, 142-143.</bibl>
                             </msItem>
                             <msItem>
-                                <locus>28r-29v</locus>
-                                <rubric>Incipit homiliarum pars II dominica initium quadragesimae. sermo beati papae leonis.</rubric>
+                                <locus from="28r" to="29v">28r-29v</locus>
+                                <author ref="#leo_magnus">Ps. Leo Magnus</author>
+                                <title ref="#leo_sermo_3">Sermo 3. De quadragesimae</title>
+                                <rubric>Incipit homiliarum pars II dominica initium quadragesimae. sermo beati papae leonis</rubric>
                                 <incipit>Cur a superiore dominica quadragesimam</incipit>
+                                <explicit>Simili non creditis operibus credite</explicit>
+                                <bibl><abbr>PL</abbr> 54, 488C-490A.</bibl>
                                 <filiation><ref type="altMs">Clm 14386, ff. 33v-35r</ref> - missing first part of rubrication present here <quote>Incipit <gap reason="omitted"/> quadragesimae</quote>. Both Munich and our MS skip the first words of the sermon: <quote>Permotos esse uos credo, fratres dilectissimi</quote>.</filiation>
+                                <filiation>Alanus de Farfa I, 53.</filiation>
                             </msItem>
                             <msItem>
-                                <locus>29v-31v</locus>
-                                <rubric>Sermo beati maximi episcopi.</rubric>
+                                <locus from="29v" to="31v">29v-31v</locus>
+                                <author ref="#maximus_taurinensis">Maximus Taurinensis</author>
+                                <title ref="#maximus_homilia_38">Homilia 38. De Quadragesima II.</title>
+                                <rubric>Sermo beati maximi episcopi</rubric>
                                 <incipit>Ante dies deuotionem sanctae quadragesime</incipit>
-                                <explicit>hic autem animam reficit ineternum.</explicit>
+                                <explicit>hic autem animam reficit in eternum.</explicit>
                                 <filiation><ref type="altMs">Clm 14386, ff. 35r-37r</ref>.</filiation>
+                                <filiation>Paulus Diaconus I, 75.</filiation>
+                                <bibl><abbr>PL</abbr> 57, 307C-310C.</bibl>
+                                <bibl><abbr>CCSL</abbr> 23, pp. 276-278.</bibl>
                             </msItem>
                             <msItem>
-                                <locus>31v-35r</locus>
-                                <rubric>Sequitur sancti euangelii secundum matheum.</rubric>
-                                <incipit>In illo tempore ductus est ihesus <gap reason="omitted"/> <ref type="biblical" cRef="Mt_4,1">(Mt. 4,1)</ref> Omelia lectionis eiusdem beati gregorii. Dubitari a quibusdam solet</incipit>
+                                <locus from="31v" to="35r">31v-35r</locus>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
+                                <title ref="#gregorius_homiliae_16">Homiliae in evangelia. Homilia 16</title>
+                                <rubric>Sequentia sancti euangelii secundum matheum.</rubric>
+                                <incipit>In illo tempore. <ref type="biblical" cRef="Mt_4,1">Ductus est ihesus in desertum <gap reason="omitted"/></ref> <hi rend="rubric">Omelia lectionis eiusdem beati gregorii</hi>. Dubitari a quibusdam solet</incipit>
+                                <explicit>quod nobis iuste competit relaxamus.</explicit>
                                 <filiation><ref type="altMs">Clm 14386, ff. 37r-41r</ref>.</filiation>
-                                <bibl>Gregorius Magnus. Homiliae in euangelia. Homilia 16. PL 76, 1135-38. (= Paulus Diaconus I,76).</bibl>
+                                <filiation>Paulus Diaconus I, 76.</filiation>
+                                <bibl><abbr>PL</abbr> 76, 1135-38.</bibl>
                             </msItem>
                             <msItem>
-                                <locus>35r-37v</locus>
+                                <locus from="35r" to="37v">35r-37v</locus>
                                 <rubric>Sermo leonis papae</rubric>
-                                <incipit>Semper nos quidem dilectissimi</incipit>
+                                <incipit>Semper nos quidem dilectissimi sapienter</incipit>
                                 <filiation><ref type="altMs">Clm 14386, ff. 41r-43r</ref>.</filiation>
                                 <bibl>=PD I,77.</bibl>
                             </msItem>
@@ -226,7 +285,7 @@
                         </handDesc>
                         <scriptDesc>
                             <scriptNote script="x" medium="x">
-                                original 10. Jh. (bzw. mit wenigen nachgezogenen Wörter oder Buchstaben): 6rv, 11v-15r, 18rv, 29v, 33v-40r, 41v-42r, 43r-44r, 45v-48r, 51r, 53r-73r, 74v-104r, 106r-111v, 113v-123r, 124r-125v, 126v-128r, 129v-135r, 137v-139r, 141r-142r, 144r, 145r-222v, 227v
+                                original 10. Jh. (bzw. mit wenigen nachgezogenen Wörter oder Buchstaben): 6rv, 11v-15r, 18rv, 29v, 33v-40r, 41v-42r, 43r-44r, 45v-48r, 51r, 53r-73r, 74v-104r, 106r-111v, 113v-123r, 124r-125v, 126v-128r, 129v-135r, 137v-139r, 141r-142r, 144r, 145r-222v, 227v.
                                 z. T. nachgezogen: 5v, 10v, 15v, 17v, 19r, 20r-24v, 25v 26r, 27r, 29v, 30v-31v, 44v, 49r-50v, 51v-52v, 73v, 74r, 104v-105v, 112r-113r, 123v, 128v, 135v-136r, 139v-140v, 142v-143v, 
                                 komplett nachgezogen im 12. Jh.: 3r-5r, 11r, 17r, 25r, 26v, 27v-29r, 30r, 32r-33r, 40v-41r, 45r, 48v, 126r, 129r, 136v-137r, 144v, 227r
                                 Neu im 12. Jh. geschrieben: ff. 1, 2, 7, 8, 9, 10r, 16, 223-226, 228-238.
@@ -254,7 +313,7 @@
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <p>Beschreibung adaptiert (<date when="2020">2020</date>) nach:
+                                <p>
                                 <bibl></bibl>
                                 </p>
                             </recordHist>
@@ -263,7 +322,7 @@
                             <ref/>
                         </surrogates> 
                         <listBibl>
-                            <bibl/>
+                            <bibl>Étaix, Raymond. ‘Un homéliaire quadragésimal du IXe siècle : le ms. CLM 14386’. <title>Scriptorium</title> 40, no. 1 (1986): 3–15. DOI: <ref target="https://doi.org/10.3406/scrip.1986.1423.">10.3406/scrip.1986.1423</ref>.</bibl>
                         </listBibl>
                     </additional>                    
                 </msDesc>
@@ -283,9 +342,9 @@
                 
             </editorialDecl>
         </encodingDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
         <listChange>
-            <change></change>
+            <change when="2021-08-03"></change>
         </listChange>
     </revisionDesc>
     </teiHeader>

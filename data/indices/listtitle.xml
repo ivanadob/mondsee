@@ -12,6 +12,28 @@
         <author ref="#augustinus">(Ps.-) Augustinus</author>
         <title>Sermo CXCV. De Annuntiatione Dominica, III</title>
     </work>
+    <work xml:id="caesarius_arelatensis_homilia_19">
+        <author ref="#caesarius_arelatensis">Caesarius Arelatensis</author>
+        <title>Homilia 19</title>
+    </work>
+    <work xml:id="chromatius_sermones" ref="http://d-nb.info/gnd/1087995078">
+        <author ref="#chromatius">Chromatius</author>
+        <title>Sermones</title>
+        <bibl>R. Etaix, J. Lemarie (Eds.): Chromatius Aquileiensis Opera. 2 Bde., Brepols, Turnhout 1974–1977 (Corpus Christianorum. Series Latina; IX A).</bibl>
+        <bibl>Henri Lemarié. Chromace d'Aquilée, Sermons I-II, Paris 1969, 1971 (Sources Chrétiennes 154, 164).</bibl>
+    </work>
+    <work xml:id="chromatius_tractatus" ref="http://d-nb.info/gnd/1229747885">
+        <author ref="#chromatius">Chromatius</author>
+        <title>Tractatus</title>
+    </work>
+    <work xml:id="chromatius_tractatus_12" ref="http://d-nb.info/gnd/1229747885">
+        <author ref="#chromatius">Chromatius</author>
+        <title>Tractatus 12</title>
+    </work>
+    <work xml:id="chromatius_tractatus_39" ref="http://d-nb.info/gnd/1229747885">
+        <author ref="#chromatius">Chromatius</author>
+        <title>Tractatus 39</title>
+    </work>
     <work xml:id="corintheos" ref="http://d-nb.info/gnd/4006818-3">
         <title>Epistola ad Corintheos</title>
     </work>
@@ -26,23 +48,65 @@
         <author ref="#smaragdus">Smaragdus S. Michaelis</author>
         <title>Expositio in regulam Sancti Benedicti</title>
     </work>
+    <work xml:id="gregorius_homiliae_2" ref="http://d-nb.info/gnd/4439551-6">
+        <author ref="#gregorius_magnus">Gregorius Magnus</author>
+        <title>Homiliae in evangelia. Homilia 2</title>
+        <bibl><abbr>CCSL</abbr> 141, ##.</bibl>
+        <bibl><abbr>PL</abbr> 76, 1081-1086.</bibl>
+        <note>=Paulus Diaconus I, 73</note>
+    </work>
     <work xml:id="gregorius_homiliae_8" ref="http://d-nb.info/gnd/4439551-6">
         <author ref="#gregorius_magnus">Gregorius Magnus</author>
-        <title>In evangelia homiliae. Homilia 8</title>
+        <title>Homiliae in evangelia. Homilia 8</title>
         <note></note>
         <bibl></bibl>
     </work>
     <work xml:id="gregorius_homiliae_12" ref="http://d-nb.info/gnd/4439551-6">
         <author ref="#gregorius_magnus">Gregorius Magnus</author>
-        <title>In evangelia homiliae. Homilia 12</title>
+        <title>Homiliae in evangelia. Homilia 12</title>
         <note></note>
         <bibl></bibl>
     </work>
     <work xml:id="gregorius_homiliae_15" ref="http://d-nb.info/gnd/4439551-6">
         <author ref="#gregorius_magnus">Gregorius Magnus</author>
-        <title>In evangelia homiliae. Homilia 15</title>
-        <note></note>
-        <bibl></bibl>
+        <title>Homiliae in evangelia. Homilia 15</title>
+        <bibl><abbr>CCSL</abbr> 141, ##.</bibl>
+        <bibl><abbr>PL</abbr> 76, 1131-1134.</bibl>
+        <note>=Paulus Diaconus I, 71.</note>
+    </work>
+    <work xml:id="gregorius_homiliae_16" ref="http://d-nb.info/gnd/4439551-6">
+        <author ref="#gregorius_magnus">Gregorius Magnus</author>
+        <title>Homiliae in evangelia. Homilia 16</title>
+        <bibl><abbr>CCSL</abbr> 141, ##.</bibl>
+        <bibl><abbr>PL</abbr> 76, 1135-1138.</bibl>
+        <note>=Paulus Diaconus I, 76.</note>
+    </work>
+    <work xml:id="gregorius_homiliae_19" ref="http://d-nb.info/gnd/4439551-6">
+        <author ref="#gregorius_magnus">Gregorius Magnus</author>
+        <title>Homiliae in evangelia. Homilia 19</title>
+        <bibl><abbr>CCSL</abbr> 141, ##.</bibl>
+        <bibl><abbr>PL</abbr> 76, 1153-1159.</bibl>
+        <note>=Paulus Diaconus I, 69.</note>
+    </work>
+    <work xml:id="leo_sermo_3">
+        <author ref="#leo_magnus">Ps. Leo Magnus</author>
+        <title>Sermo 3. De quadragesimae</title>
+        <bibl><abbr>PL</abbr> 54, 488C-490A.</bibl>
+    </work>
+    <work xml:id="maximus_homilia_38">
+        <author ref="#maximus_taurinensis">Maximus Taurinensis</author>
+        <title>Homilia 38. De Quadragesima II.</title>
+        <bibl><abbr>PL</abbr> 57, 307C-310C.</bibl>
+    </work>
+    <work xml:id="petronius_sermo_1">
+        <author ref="#petronius_veronensis">Petronius Veronensis</author>
+        <title>Sermo 1</title>
+        <bibl><abbr>PLS</abbr> 3, 141-142.</bibl>
+    </work>
+    <work xml:id="petronius_sermo_2">
+        <author ref="#petronius_veronensis">Petronius Veronensis</author>
+        <title>Sermo 2</title>
+        <bibl><abbr>PLS</abbr> 3, 142-143.</bibl>
     </work>
     <work xml:id="philomenem" ref="http://d-nb.info/gnd/4075950-7">
         <title>Epistola ad Philomenem</title>
@@ -52,17 +116,6 @@
     </work>
     <work xml:id="thessalonicenses" ref="http://d-nb.info/gnd/4075941-6">
         <title>Epistola ad Thessalonicenses</title>
-        <note></note>
-        <bibl></bibl>
-    </work>"http://d-nb.info/gnd/">
-        <author ref="#"></author>
-        <title></title>
-        <note></note>
-        <bibl></bibl>
-    </work>
-    <work xml:id="" ref="http://d-nb.info/gnd/">
-        <author ref="#"></author>
-        <title></title>
         <note></note>
         <bibl></bibl>
     </work>

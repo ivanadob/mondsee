@@ -12,7 +12,8 @@
     <xsl:variable name="Trennzeichen"> &#x2014; </xsl:variable>	    
     <xsl:output encoding="UTF-8" indent="no"/>
     <xsl:strip-space elements="*"/>
-    
+	<xsl:param name="cRef-biblical-start">http://www.biblija.net/biblija.cgi?m=</xsl:param>
+	<xsl:param name="cRef-biblical-end">&amp;id8=1&amp;id32=1&amp;set=1&amp;l=en</xsl:param>
     
 <!--    this checks if there is an internal or exeternal list with bibliography to be linked with the bibl/abbr elements withini the description-->
     <xsl:variable name="bibliography">
@@ -744,7 +745,7 @@
 				<xsl:apply-templates/>
 			</span>
 		</xsl:when>
-		<xsl:when test="( @rend = 'rubricated' )">
+		<xsl:when test="( @rend = 'rubric' )">
 			<span>
 				<xsl:attribute name="class">smaller</xsl:attribute>
 				<xsl:text>&#x203A;</xsl:text>
@@ -1694,6 +1695,47 @@
 			</a>
 		</xsl:when>		
 		
+		<xsl:when test="@type='biblical' and @cRef">
+			<xsl:if test="not(normalize-space(.) = translate(@cRef, '_.', '  '))"><xsl:apply-templates/></xsl:if>
+			<xsl:if test="not(self::tei:ptr) and normalize-space(.) = normalize-space(parent::node())">
+				<xsl:call-template name="Satzzeichen"/>
+			</xsl:if>
+			<a>
+				<xsl:attribute name="href">
+					<xsl:value-of select="$cRef-biblical-start"/>
+					<xsl:choose>
+						<xsl:when test="starts-with(@cRef, 'IV_')">
+							<xsl:value-of select="replace(translate(translate(translate(@cRef,' ','+'),',',':'),'_',' '), 'IV', '4')"/>
+						</xsl:when>
+						<xsl:when test="starts-with(@cRef, 'III_')">
+							<xsl:value-of select="replace(translate(translate(translate(@cRef,' ','+'),',',':'),'_',' '), 'III', '3')"/>
+						</xsl:when>
+						<xsl:when test="starts-with(@cRef, 'II_')">
+							<xsl:value-of select="replace(translate(translate(translate(@cRef,' ','+'),',',':'),'_',' '), 'II', '2')"/>
+						</xsl:when>
+						<xsl:when test="starts-with(@cRef, 'I_')">
+							<xsl:value-of select="replace(translate(translate(translate(@cRef,' ','+'),',',':'),'_',' '), 'I', '1')"/>
+						</xsl:when>
+						<xsl:otherwise>
+							<xsl:value-of select="translate(translate(translate(@cRef,' ','+'),',',':'),'_',' ')"/>
+						</xsl:otherwise>
+					</xsl:choose>
+					<xsl:value-of select="$cRef-biblical-end"/>
+				</xsl:attribute>
+				<xsl:choose>
+					<xsl:when test="(ancestor::tei:rubric or ancestor::tei:incipit or ancestor::tei:quote or ancestor::tei:explicit or ancestor::tei:colophon or ancestor::tei:finalRubric or ancestor::tei:index or ancestor::tei:title) and not(parent::note)">
+						<span>
+							<xsl:attribute name="class">normal</xsl:attribute>
+							<xsl:call-template name="constructCRef"/>
+						</span>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:call-template name="constructCRef"/>
+					</xsl:otherwise>
+				</xsl:choose>
+			</a>
+		</xsl:when>
+		
 		<xsl:otherwise>
 			<xsl:apply-templates/>
 		</xsl:otherwise>
@@ -1924,7 +1966,33 @@
 
 <!-- benannte Templates -->
 
-
+	<xsl:template name="constructCRef">
+		<xsl:if test="ancestor::tei:rubric or ancestor::tei:incipit or ancestor::tei:quote or ancestor::tei:explicit or ancestor::tei:colophon or ancestor::tei:finalRubric or ancestor::tei:index or ancestor::tei:title">
+			<xsl:text> [</xsl:text>
+		</xsl:if>
+		<xsl:choose>
+			<xsl:when test="not(normalize-space(.) = translate(@cRef, '_', ' '))">
+				<xsl:choose>
+					<xsl:when test="starts-with(@cRef, 'Lao')">
+						<xsl:value-of select="translate(translate(translate(translate(@cRef,'+',' '),':',','),'_',' '), 'Lao', 'Laod')"/>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:value-of select="translate(translate(translate(@cRef,'+',' '),':',','),'_',' ')"/>
+					</xsl:otherwise>
+				</xsl:choose>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:apply-templates/>
+			</xsl:otherwise>
+		</xsl:choose>
+		<xsl:if test="ancestor::tei:rubric or ancestor::tei:incipit or ancestor::tei:quote or ancestor::tei:explicit or ancestor::tei:colophon or ancestor::tei:finalRubric or ancestor::tei:index or ancestor::tei:title">
+			<xsl:text>]</xsl:text>
+		</xsl:if>
+	</xsl:template>
+	<xsl:template match="tei:resp" mode="meta">
+		<xsl:apply-templates/>
+		<xsl:call-template name="Leerzeichen"/>
+	</xsl:template>
 <xsl:template name="Datum-ausgeben">
 	<xsl:param name="date"/>
 	<xsl:analyze-string select="$date" regex="(\d+)-(\d+)-(\d+)">
