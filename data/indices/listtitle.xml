@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <register>
+    <work xml:id="augustinus_tract_in_ioh">
+        <author ref="#augustinus">Augustinus</author>
+        <title>Tractatus in Iohannis evangelium</title>
+    </work>
     <work xml:id="augustinus_sermo_202">
         <author ref="#augustinus">(Ps.-) Augustinus</author>
         <title>Sermo CCII. In Epiphania Domini, IV</title>
@@ -12,9 +16,41 @@
         <author ref="#augustinus">(Ps.-) Augustinus</author>
         <title>Sermo CXCV. De Annuntiatione Dominica, III</title>
     </work>
+    <work xml:id="beda_in_marci">
+        <author ref="#beda">Beda Venerabilis</author>
+        <title>In Marci euangelium expositio</title>
+        <bibl><abbr>CCSL</abbr> 120, pp. 431-648.</bibl>
+    </work>
+    <work xml:id="beda_homiliae_evangelii">
+        <author ref="#beda">Beda Venerabilis</author>
+        <title>Homiliae evangelii</title>
+        <bibl><abbr>CCSL</abbr> 122.</bibl>
+        <bibl><abbr>PL</abbr> 94.</bibl>
+        <note><ref target="https://www-app.uni-regensburg.de/Fakultaeten/PKGG/Philosophie/Gesch_Phil/alcuin/work.php?id=4533"></ref></note>
+    </work>
+    <work xml:id="beda_homilia_i-22">
+        <author ref="#beda">Beda Venerabilis</author>
+        <title>Homiliarum evangelii libri II. Homilia I, 22</title>
+        <bibl><abbr>CCSL</abbr> 122, pp. ##.</bibl>
+    </work>
+    <work xml:id="beda_homilia_i-23">
+        <author ref="#beda">Beda Venerabilis</author>
+        <title>Homiliarum evangelii libri II. Homilia I, 23</title>
+        <bibl><abbr>CCSL</abbr> 122, pp. ##.</bibl>
+    </work>
+    <work xml:id="beda_homilia_i-24">
+        <author ref="#beda">Beda Venerabilis</author>
+        <title>Homiliarum evangelii libri II. Homilia I, 24</title>
+        <bibl><abbr>CCSL</abbr> 122, pp. ##.</bibl>
+    </work>
     <work xml:id="caesarius_arelatensis_homilia_19">
         <author ref="#caesarius_arelatensis">Caesarius Arelatensis</author>
         <title>Homilia 19</title>
+    </work>
+    <work xml:id="caesarius_arelatensis_homilia_199">
+        <author ref="#caesarius_arelatensis">Caesarius Arelatensis</author>
+        <title>Sermo 199</title>
+        <bibl><abbr>CCSL</abbr> 104,  pp. 803-807.</bibl>
     </work>
     <work xml:id="chromatius_sermones" ref="http://d-nb.info/gnd/1087995078">
         <author ref="#chromatius">Chromatius</author>
@@ -24,15 +60,20 @@
     </work>
     <work xml:id="chromatius_tractatus" ref="http://d-nb.info/gnd/1229747885">
         <author ref="#chromatius">Chromatius</author>
-        <title>Tractatus</title>
+        <title>Tractatus XVII in evangelium Matthaei</title>
     </work>
     <work xml:id="chromatius_tractatus_12" ref="http://d-nb.info/gnd/1229747885">
         <author ref="#chromatius">Chromatius</author>
-        <title>Tractatus 12</title>
+        <title>Tractatus XVII in evangelium Matthaei. Tractatus 12</title>
     </work>
     <work xml:id="chromatius_tractatus_39" ref="http://d-nb.info/gnd/1229747885">
         <author ref="#chromatius">Chromatius</author>
-        <title>Tractatus 39</title>
+        <title>Tractatus XVII in evangelium Matthaei. Tractatus 39</title>
+    </work>
+    <work xml:id="chromatius_tractatus_54" ref="http://d-nb.info/gnd/1229747885">
+        <author ref="#chromatius">Chromatius</author>
+        <title>Tractatus XVII in evangelium Matthaei. Tractatus 54</title>
+        <bibl><abbr>CCSL</abbr> 9A, pp. 469-470.</bibl>
     </work>
     <work xml:id="corintheos" ref="http://d-nb.info/gnd/4006818-3">
         <title>Epistola ad Corintheos</title>
@@ -88,10 +129,29 @@
         <bibl><abbr>PL</abbr> 76, 1153-1159.</bibl>
         <note>=Paulus Diaconus I, 69.</note>
     </work>
+    <work xml:id="hieronymus_in_math">
+        <author ref="#hieronymus">Hieronymus</author>
+        <title>Commentarii in euangelium Matthaei</title>
+        <bibl><abbr>CCSL</abbr> 77, pp. 243-244.</bibl>
+    </work>
+    <work xml:id="chrysostomus_sermo_confessione">
+        <author ref="#johannes_chrysostomus">Johannes Chrysostomus</author>
+        <title>Sermo de confessione</title>
+    </work>
     <work xml:id="leo_sermo_3">
         <author ref="#leo_magnus">Ps. Leo Magnus</author>
         <title>Sermo 3. De quadragesimae</title>
         <bibl><abbr>PL</abbr> 54, 488C-490A.</bibl>
+    </work>
+    <work xml:id="leo_tractatus_41">
+        <author ref="#leo_magnus">Leo Magnus</author>
+        <title>Tractatus 41</title>
+        <bibl><abbr>CCSL</abbr> 138A, pp. 232-237.</bibl>
+    </work>
+    <work xml:id="maximus_homilia_36">
+        <author ref="#maximus_taurinensis">Maximus Taurinensis</author>
+        <title>Homilia 36. In die Cinerum.</title>
+        <bibl><abbr>PL</abbr> 57, 301C-304C.</bibl>
     </work>
     <work xml:id="maximus_homilia_38">
         <author ref="#maximus_taurinensis">Maximus Taurinensis</author>

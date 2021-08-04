@@ -34,6 +34,7 @@
                         <title>Homiliarium</title>
                         <origDate notBefore="0901" notAfter="1000">s. X</origDate>
                         <origPlace>Mondsee (?)</origPlace>
+                        <note type="summary">The manuscript is a copy of a Carolingian collection of homilies and sermons for Lent, attested in several other MSS. The oldest, according to Etaix is Munich, BSB, Clm 14386 (St. Emmeran). A textual comparison betwenn the witnesses is needed to establish the relations between them.</note>
                         <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13961652"></ref></note>
                     </head>
                     <msContents>
@@ -47,6 +48,8 @@
                                 <title type="supplied" ref="#gregorius_homiliae_19">Homiliae in evangelia. Homilia 19</title>
                                 <incipit><ref type="biblical" cRef="Mt_20,1">In illo tempore. Dixit dominus ihesus discipulis suis. Simile est regnum caelorum homini pater familias<gap reason="omitted"/></ref> In explanatione sua multa adloquendum</incipit>
                                 <explicit>dicamus omnes desu meus misericordia mea.</explicit>
+                                <filiation>Paulus Diaconus I, 69.</filiation>
+                                <filiation><ref type="altMs">Clm 14386, ff. 5v-12r</ref>.</filiation>
                             </msItem>
                             <msItem>
                                 <locus from="6v" to="10r">6v-10r</locus>
@@ -55,14 +58,18 @@
                                 <rubric>Dominica in sexagesima sequentia sancti euangelii secundum lucam</rubric>
                                 <incipit>In illo tempore. <ref type="biblical" cRef="Lc_8,4">Cum turba plurima conueniret <gap reason="omitted"/></ref> <hi rend="rubric">Omelia lectionis eiusdem beati Gregorii.</hi> Lectio sancti euangelii quam modo fratres karissimi audistis</incipit>
                                 <explicit>eorum tunc consortes esse ualeatis.</explicit>
+                                <filiation>Paulus Diaconus I, 71.</filiation>
+                                <filiation><ref type="altMs">Clm 14386, ff. 12r-16r</ref>.</filiation>
                             </msItem>
                             <msItem>
                                 <locus from="10r" to="13v">10r-13v</locus>
                                 <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                 <title type="supplied" ref="#gregorius_homiliae_2">Homiliae in evangelia. Homilia 2</title>
                                 <rubric>Dominica in quinquagesimae sequentia sancti euangelii secundum Lucam</rubric>
-                                <incipit>In illo tempore. Adsumpsit ihesus duodecim discipulos suos et ait illis. Ecce ascendimus hierosolimam et reliqua. <hi rend="rubric">Omelia leciotnis eiusdem beati Gregorii</hi>. Redemptor noster praeuidens ex passione sua</incipit>
+                                <incipit>In illo tempore. <ref type="biblical" cRef="Lc_18,31">Adsumpsit ihesus duodecim discipulos suos et ait illis. Ecce ascendimus hierosolimam et reliqua</ref>. <hi rend="rubric">Omelia leciotnis eiusdem beati Gregorii</hi>. Redemptor noster praeuidens ex passione sua</incipit>
                                 <explicit>et omnis plebs ut uidit dedit laudem deo.</explicit>
+                                <filiation>Paulus Diaconus I, 73.</filiation>
+                                <filiation><ref type="altMs">Clm 14386, ff. 16r-20r</ref>.</filiation>
                             </msItem>
                             <msItem>
                                 <locus from="13v" to="17r">13v-17r</locus>
@@ -72,6 +79,7 @@
                                 <incipit>In illo tempore. Dixit ihesus discipulis suis. <ref type="biblical" cRef="Mt_6,16">Cum ieiunatis nolite fieri <gap reason="omitted"/></ref> <hi rend="rubric">Omelia leciotnis eiusdem</hi>. Sicut in superioribus preceptis ita quoque</incipit>
                                 <explicit>immortalitatis aeternae cui est laus et honor in saecula saeculorum amen.</explicit>
                                 <bibl><abbr>CCSL</abbr>, 9A, pp. 337-343.</bibl>
+                                <filiation><ref type="altMs">Clm 14386, ff. 20r-23v</ref>.</filiation>
                             </msItem>
                             <msItem>
                                 <locus from="17r" to="19r">17r-19r</locus>
@@ -95,7 +103,7 @@
                             <msItem>
                                 <locus from="22v" to="24v">22v-24v</locus>
                                 <author ref="#augustinus">Ps. Augustinus</author>
-                                <note type="title">Based on Augustinus' Sermo 94</note>
+                                <title>Sermo 94 (excerpts)</title>
                                 <rubric>In uigiliis mortuorum sermo sancti augustini</rubric>
                                 <incipit>Audistis fratres karissimi in lectione euuangelica dominum dicentem. <ref type="biblical" cRef="Io_5,21">Sicut enim pater suscitat mortuos et uiuificat sic et filius quos uult uiuificat <gap reason="omitted"/></ref> id est non solum infirmos curare</incipit>
                                 <explicit>resuscitabo eum in nouissimo die per eum qui uiuit et regnat in saecula saeculorum amen.</explicit>
@@ -169,17 +177,171 @@
                             </msItem>
                             <msItem>
                                 <locus from="35r" to="37v">35r-37v</locus>
+                                <author ref="#leo_magnus">Leo Magnus</author>
+                                <title ref="#leo_tractatus_41">Tractatus septem et nonaginta, Tract. 41</title>
                                 <rubric>Sermo leonis papae</rubric>
                                 <incipit>Semper nos quidem dilectissimi sapienter</incipit>
+                                <explicit>coheredes autem christi domini nostri qui uiuit et regnat in saecula saeculorum amen.</explicit>
                                 <filiation><ref type="altMs">Clm 14386, ff. 41r-43r</ref>.</filiation>
-                                <bibl>=PD I,77.</bibl>
+                                <bibl><abbr>CCSL</abbr> 138A, pp. 232-237.</bibl>
+                                <filiation>Paulus Diaconus I, 77.</filiation>
                             </msItem>
                             <msItem>
-                                <locus>37v-</locus>
+                                <locus from="37v" to="39r">37v-39r</locus>
+                                <author ref="#maximus_taurinensis">Ps. Maximus Taurinensis</author>
+                                <title ref="#maximus_homilia_36">Homilia 36. In die Cinerum</title>
                                 <rubric>Sermo maximi de quo supra</rubric>
+                                <incipit>Quia non nullorum est consuetudo</incipit>
+                                <explicit>dei nostri retributio prosequatur.</explicit>   
                                 <filiation><ref type="altMs">Clm 14386, ff. 43r-</ref>.</filiation>
-                                <bibl>=PD I,84.</bibl>
+                                <filiation>Paulus Diaconus I, 84.</filiation>
+                                <bibl><abbr>PL</abbr> 57, 301C-304C.</bibl>
                             </msItem>
+                            <msItem>
+                                <locus from="39v" to="41r">39v-41r</locus>
+                                <author ref="#johannes_chrysostomus">Johannes Chrysostomus</author>
+                                <title ref="#chrysostomus_sermo_confessione">Sermo de confessione</title>
+                                <rubric>Sermo iohannis episcopi de confessione peccati</rubric>
+                                <incipit>Confitemini domino quoniam bonus est. Spiritus sanctus medelam</incipit>
+                                <explicit>nobis misericors reddatur et pius.</explicit>
+                                <note>In Collectio Escurialensis Nr. 15 [27].</note>
+                                <filiation><ref type="altMs">Clm 14386, ff. 44v-46v</ref>.</filiation>
+                                <filiation>Paulus Diaconus, I, 89.</filiation>
+                                <bibl><abbr>PLS</abbr> 4, 736-737.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="41r" to="44v">41r-44v</locus>
+                                <author ref="#caesarius_arelatensis">Caesarius Arelatensis</author>
+                                <title ref="#caesarius_arelatensis_homilia_199">Sermo 199</title>
+                                <rubric>Feria II Ebdomada I in Quadragesima. Omelia leionis papae</rubric>
+                                <incipit>Rogo uos et admoneo fratres karissimi ut in isto legitimo</incipit>
+                                <explicit>sub suo protectione perducat qui cum patre et spiritu sancto uiuit et regnat in saecula saeculorum.</explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 46v-49v</ref>.</filiation>
+                                <filiation>Alanus de Farfa I, 52.</filiation>
+                                <bibl><abbr>CCSL</abbr> 104, pp. 803-807.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="44v" to="45v">44v-45v</locus>
+                                <author ref="#hieronymus">Hieronymus</author>
+                                <title ref="#hieronymus_in_math">Commentarii in euangelium Matthaei (Lib. 4)</title>
+                                <rubric>Sermo ex commentario beati <sic>seronimi</sic></rubric>
+                                <incipit><ref type="biblical" cRef="Mt_25,31">Cum autem uenerit filius hominis in maiestate sua <gap reason="omitted"/></ref> Post biduum pascha facturus</incipit>
+                                <explicit>Metum deinceps non habeat ruinarum.</explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 49v-51r</ref>.</filiation>
+                                <bibl><abbr>CCSL</abbr> 77, pp. 243-244.</bibl>
+                                <note>The pericope from Mt at the beginning with interlinear neums.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="45v" to="48r">45v-48r</locus>
+                                <author ref="#hieronymus">Hieronymus</author>
+                                <title ref="#hieronymus_in_math">Commentarii in euangelium Matthaei (Lib. 3)</title>
+                                <rubric><gap reason="illegible"/></rubric>
+                                <incipit><ref type="biblical" cRef="Mt_21,10">Cum intrasser iherusolimam commota est uniuersa ciuitas dicens et reliqua</ref>. Et cum intrasset hierosolimam <gap reason="omitted"/> Quod quidem et in alio loco dicentibus angelis legimus</incipit>
+                                <explicit>eorum quippe uicus bethania est.</explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 51r-54r</ref>.</filiation>
+                                <bibl><abbr>CCSL</abbr> 77, pp. 185-190.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="48r" to="50v">48r-50v</locus>
+                                <author ref="#hieronymus">Hieronymus</author>
+                                <title ref="#hieronymus_in_math">Commentarii in euangelium Matthaei (Lib. 2)</title>
+                                <rubric>Feria III <gap reason="illegible"/> secundum matheum <gap reason="illegible"/></rubric>
+                                <incipit><ref type="biblical" cRef="Mt_12,38">Accesserunt ad ihesum scribae <gap reason="omitted"/></ref> <hi rend="rubric">?<gap reason="illegible"/></hi> Tunc responderunt ei quidam <gap reason="omitted"/> Sic signum postulant</incipit>
+                                <explicit>numerus in diabulo consecratus sit.</explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 54r-56r</ref>.</filiation>
+                                <bibl><abbr>CCSL</abbr> 77, pp. 96-100.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="50v" to="51v">50v-51v</locus>
+                                <author ref="#chromatius">Chromatius Aquileiensis</author>
+                                <title ref="#chromatius_tractatus_54">Tractatus 54</title>
+                                <rubric>?</rubric>
+                                <incipit>Generatio mala signum querit</incipit>
+                                <explicit>ubi est mors uictoria tua.</explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 56r-57v</ref>.</filiation>
+                                <bibl><abbr>CCSL</abbr> 9A, pp. 469-470.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="51v" to="56r">51v-56r</locus>
+                                <author ref="#beda">Beda Venerabilis</author>
+                                <title ref="#beda_homilia_i-22">Homiliarum evangelii libri II. Homilia I, 22</title>
+                                <rubric>Feria V Ebdomada I. Sequentia sancti euangelii secundum mattheum</rubric>
+                                <incipit>In illo tempore <ref type="biblical" cRef="Mt_15,21">Egressus <del>inde</del> ihesus secessit in partes tyri et sidonis et reliqua</ref>. <hi rend="rubric">Omelia lectionis eiusdem uenerabilis bede</hi>. <locus from="52r">52r</locus> In lectione sancti <sic>euuangelii</sic> quae nobis modo lecta est</incipit>
+                                <explicit>sedula mentis uoce clamamus qui uiuit et regnat cum patre in uitate spiritus sancti deus per omnia saecula saeculorum amen.</explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 57v-62v</ref>.</filiation>
+                                <bibl><abbr>CCSL</abbr> 122, pp. 156-160.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="56r" to="62r">56r-62r</locus>
+                                <author ref="#beda">Beda Venerabilis</author>
+                                <title ref="#beda_homilia_i-23">Homiliarum evangelii libri II. Homilia I, 23</title>
+                                <rubric>Feria VI Ebdomada I sequentia iohanni</rubric>
+                                <incipit>In illo tempore. <ref type="biblical" cRef="Io_5,1">Erat dies festus iudeorum et ascendit ihesus hierosolimam</ref>. <hi rend="rubric">Omelia lectionis eiusdem uenerabilis bede</hi>. Duo pariter miracula</incipit>
+                                <explicit>maiestatis introducere dignetur. In qua uiuit et regnat una cum patre in uitate spiritus sancti deus per omnia saecula saeculorum amen.</explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 62v-70v</ref>.</filiation>
+                                <bibl><abbr>CCSL</abbr> 122, pp. 161-169.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="62r" to="65v">62r-65v</locus>
+                                <author ref="#hieronymus">Hieronymus</author>
+                                <title ref="#hieronymus_in_math">Commentarii in euangelium Matthaei (Lib. 3)</title>
+                                <rubric>Sabbato in XII lectionis secundum matheum</rubric>
+                                <incipit>In illo tempore <ref type="biblical" cRef="Mt_17,1">Adsumpsit ihesus petrum <gap reason="omitted"/></ref>. <hi rend="rubric">Sermo neati hieronimi de eadem lectione <supplied>ex commentario</supplied></hi>. Et post dies sex adsumens ihesus petrum</incipit>
+                                <explicit>secundum scripturas saluatoris aduentus.</explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 70v-73r</ref>.</filiation>
+                                <bibl><abbr>CCSL</abbr> 77, pp. 243-244.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="65v" to="72r">65v-72r</locus>
+                                <author ref="#beda">Beda Venerabilis</author>
+                                <title ref="#beda_homilia_i-24">Homiliarum evangelii libri II. Homilia I, 24</title>
+                                <rubric>Dominica II in quadragesima sequentia sancti euangelii secundum matheum</rubric>
+                                <incipit>In illo tempore <ref type="biblical" cRef="Mt_17,1">Adsumpsit ihesus petrum <gap reason="omitted"/></ref> <hi rend="rubric">Omelia lectionis eiusdem uenerabilis bede</hi>. Quia dominus ac redemptor noster electos suos</incipit>
+                                <explicit>et dicere mereamur praestante ipso qui uiuit et regnat cum patre in unitate spiritus sancti per omnia saecula saeculorum amen.</explicit>
+                                <note>Not in <ref type="altMs">Clm 14386</ref> - there Bede, In Mc III - with novel introduction and conclusion. Should this mean the Mondsee scribe/monk did not like it and decided to change it for standard Bede?</note>
+                                <bibl><abbr>CCSL</abbr> 122, pp. 161-169.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="72v" to="74r">72v-74r</locus>
+                                <author ref="#beda">Beda Venerabilis</author>
+                                <title ref="#beda_in_marci">In Marci euangelium expositio (Lib. I, cap. 1 excerpt)</title>
+                                <rubric>Item in eadem dominica secundum marcum</rubric>
+                                <incipit>In illo tempore <ref type="biblical" cRef="Mc_1,40">Uenit ad ihesum leprosus <gap reason="omitted"/></ref><hi rend="rubric">???</hi> De hoc leproso mundato talia</incipit>
+                                <explicit>hostiam uiuentem sanctam deo placentem.</explicit>
+                                <note>Not in <ref type="altMs">Clm 14386</ref> there only one sermon for this Sunday.</note>
+                                <bibl><abbr>CCSL</abbr> 120, pp. 431-648.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="74r" to="79v">74r-79v</locus>
+                                <author ref="#augustinus">Augustinus</author>
+                                <title ref="#augustinus_tract_in_ioh">Tractatus in Iohannis evangelium. Tract. 38, (§§ 2-40)</title>
+                                <rubric>Feria II ebdomada II sequentia sancti euangelii secundum iohannem</rubric>
+                                <incipit>In illo tempore. Dixit ihesus turbis iudeorum. <ref type="biblical" cRef="Io_8,21">Ego uado et queritis me et in peccato uestro moriemini</ref>. <hi rend="rubric">Omelia lectionies eiusdem beati augustini</hi>. De passione sua dominus ihesus quae posita</incipit>
+                                <explicit>quia per genitum facta sunt tempora.</explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 76r-81v</ref>.</filiation>
+                                <bibl><abbr>CCSL</abbr> 36, pp. 338-354.</bibl>
+                                <note>Marginal note of f. 74r <quote>locutus est  ihesus <unclear>R<supplied>equire</supplied></unclear> post VI folia</quote>.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="79v" to="84v">79v-84v</locus>
+                                <author ref="#hieronymus">Hieronymus</author>
+                                <title ref="#hieronymus_in_math">Commentarii in euangelium Matthaei (exceprt from Lib. IV, 43-266)</title>
+                                <rubric>Feria III ebdomada II secundum matheum</rubric>
+                                <incipit>In illo tempore <ref type="biblical" cRef="Mt_23,1">Locutus est ihesus ad turbas et ad discipulos suos dicens super cathedram moysi sederunt scribae et pharisaei et caetera</ref><hi rend="rubric">Sermo beati hieronimi de eadem lectionem ex commento in matheo</hi>. Tunc ihesus locutus est <gap reason="omitted"/> Quid mansuetius quid benignius</incipit>
+                                <explicit>nati estis homicide.</explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 82r-87r</ref>.</filiation>
+                                <bibl></bibl>
+                            </msItem>
+                            <!--<msItem>
+                                <locus from="" to=""></locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. </ref>.</filiation>
+                                <bibl></bibl>
+                            </msItem>-->
                             <msItem>
                                 <locus>85r-v</locus>
                                 <note>Randnotiz für Lectiones I-IIII</note>

@@ -28,6 +28,9 @@
                <persName xml:id="gnd_118505114" ref="http://d-nb.info/gnd/118505114">Augustinus</persName>
                <persName>Pseudo-Augustinus</persName>
             </person>
+            <person xml:id="beda">
+               <persName xml:id="gnd_118508237" ref="http://d-nb.info/gnd/118508237">Beda Venerabilis</persName>
+            </person>
             <person xml:id="caesarius_arelatensis">
                <persName xml:id="gnd_118666509" ref="http://d-nb.info/gnd/118666509">Caesarius Arelatensis</persName>
             </person>
@@ -36,6 +39,12 @@
             </person>
             <person xml:id="gregorius_magnus">
                <persName xml:id="gnd_118541838" ref="http://d-nb.info/gnd/118541838">Gregorius Magnus</persName>
+            </person>
+            <person xml:id="hieronymus">
+               <persName xml:id="gnd_118550853" ref="http://d-nb.info/gnd/118550853">Sophronius Eusebius Hieronymus</persName>
+            </person>
+            <person xml:id="johannes_chrysostomus">
+               <persName xml:id="gnd_118557831" ref="http://d-nb.info/gnd/118557831">Johannes Chrysostomus</persName>
             </person>
             <person xml:id="leo_magnus">
                <persName xml:id="gnd_118571710" ref="http://d-nb.info/gnd/118571710">Leo Magnus</persName>
