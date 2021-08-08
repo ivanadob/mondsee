@@ -21,6 +21,11 @@
         <title>In Marci euangelium expositio</title>
         <bibl><abbr>CCSL</abbr> 120, pp. 431-648.</bibl>
     </work>
+    <work xml:id="beda_in_lucae">
+        <author ref="#beda">Beda Venerabilis</author>
+        <title>In Lucae euangelium expositio</title>
+        <bibl><abbr>CCSL</abbr> 120, ###.</bibl>
+    </work>
     <work xml:id="beda_homiliae_evangelii">
         <author ref="#beda">Beda Venerabilis</author>
         <title>Homiliae evangelii</title>
@@ -132,7 +137,7 @@
     <work xml:id="hieronymus_in_math">
         <author ref="#hieronymus">Hieronymus</author>
         <title>Commentarii in euangelium Matthaei</title>
-        <bibl><abbr>CCSL</abbr> 77, pp. 243-244.</bibl>
+        <bibl><abbr>CCSL</abbr> 77, pp. ###.</bibl>
     </work>
     <work xml:id="chrysostomus_sermo_confessione">
         <author ref="#johannes_chrysostomus">Johannes Chrysostomus</author>

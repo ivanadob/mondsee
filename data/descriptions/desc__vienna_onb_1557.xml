@@ -330,24 +330,69 @@
                                 <incipit>In illo tempore <ref type="biblical" cRef="Mt_23,1">Locutus est ihesus ad turbas et ad discipulos suos dicens super cathedram moysi sederunt scribae et pharisaei et caetera</ref><hi rend="rubric">Sermo beati hieronimi de eadem lectionem ex commento in matheo</hi>. Tunc ihesus locutus est <gap reason="omitted"/> Quid mansuetius quid benignius</incipit>
                                 <explicit>nati estis homicide.</explicit>
                                 <filiation><ref type="altMs">Clm 14386, ff. 82r-87r</ref>.</filiation>
-                                <bibl></bibl>
+                                <bibl><abbr>CCSL</abbr> 77, pp. 210-218.</bibl>
                             </msItem>
-                            <!--<msItem>
-                                <locus from="" to=""></locus>
+                            <msItem>
+                                <locus from="84v" to="86v">84v-86v</locus>
+                                <author ref="#hieronymus">Hieronymus</author>
+                                <title ref="#hieronymus_in_math">Commentarii in euangelium Matthaei (exceprt from Lib. III, 1022-1119)</title>
+                                <rubric>Feria IIII ebdomada II sequentia sancti euangelii secundum matheum</rubric>
+                                <incipit>In illo tempore. <ref type="biblical" cRef="Mt_20,17">Ascendens ihesus hierosolimam adsumpsit duodecim discipulos suos <gap reason="omitted"/></ref>. <hi rend="rubric">Sermo beati hieronimi de eadem lectione ex commentario in matheum</hi>. Et ascendens ihesus <gap reason="omitted"/>Crebro hoc ipsum discipulis dixerat</incipit>
+                                <explicit>id est pro his qui credere uoluerint.</explicit>
+                                <note>Roman numerals I-IIII in the outer margin of ff. <locus>85r-v</locus> for the readings during office.</note>
+                                <filiation><ref type="altMs">Clm 14386, ff. 87r-89v</ref>.</filiation>
+                                <bibl><abbr>CCSL</abbr> 77, pp. 176-180.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="86v" to="90v">86v-90v</locus>
+                                <author ref="#beda">Beda Venerabilis</author>
+                                <title ref="#beda_in_lucae">In Lucae euangelium expositio (Lib. V, 241-392 excerpt)</title>
+                                <rubric>Feria V ebdomada II secundum lucam</rubric>
+                                <incipit>In illo tempore. <ref type="biblical" cRef="Lc_16,19">Dixit ihesus discipulis suis parabolam hans. homo quidam erat diues et induebatur purpura et bysso et caetera</ref><hi rend="rubric">Sermo uenerabilis bedae eiusdem lectionis ex commentario</hi>. Homo quidam <gap reason="omitted"/> Purpuram regii habitus esse</incipit>
+                                <explicit>procul dubio credere recusant.</explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 89v-93v</ref>.</filiation>
+                                <bibl><abbr>CCSL</abbr> 120, 302-305.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="90v" to="93r">90v-93r</locus>
+                                <author ref="#hieronymus">Hieronymus</author>
+                                <title ref="#hieronymus_in_math">Commentarii in euangelium Matthaei (exceprt from Lib. III, 1538-1648)</title>
+                                <rubric>Feria VI ebdomada II sequentia sancti euangelii secundum matheum</rubric>
+                                <incipit>In illo tempore. <ref type="biblical" cRef="">Dixit ihesus discipulis suis et turnis iudeorum. Homo erat pater familias qui plantauit uinea et caetera</ref>. <hi rend="rubric">Sermo beati hieronimi de eadem lectione ex commentario in matheum</hi>. Homo erat <gap reason="omitted"/> Hoc est quod dominus ihesus sumptum prouerbium significauit</incipit>
+                                <explicit>contra eum clamarent crucifige crucifige talem.</explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 94r-96v</ref>.</filiation>
+                                <bibl><abbr>CCSL</abbr> 77, pp. 195-199.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="93r" to="100r">93r-100r</locus>
+                                <author ref="#beda">Beda Venerabilis</author>
+                                <title ref="#beda_in_lucae">In Lucae euangelium expositio (Lib. IV, 2277-2583 excerpt)</title>
+                                <rubric>Sabbato ebdomada II sequentia sancti euangelii secundum lucam</rubric>
+                                <incipit>In illo tempore. <ref type="biblical" cRef="Lc_15,11">Dixit ihesus discipulis suis parabolam hanc. Homo quidam habuit duos filios et caetera</ref>. <hi rend="rubric">Sermo uenerabilis bedae de eadem lectione ex commentario</hi>. Ait autem homo quidam <gap reason="omitted"/> Murmurantibus de peccatorum susceptione</incipit>
+                                <explicit>perierat et inuentus est.</explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 96v-105r</ref>.</filiation>
+                                <bibl><abbr>CCSL</abbr> 120, 287-295.</bibl>
+                                <note>ff. 93v und 94r - marks 'X' marginal marking passages </note>
+                            </msItem>
+                            <msItem>
+                                <locus from="100r" to="">100r-</locus>
                                 <author ref="#"></author>
                                 <title ref="#"></title>
                                 <rubric></rubric>
                                 <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
                                 <explicit></explicit>
                                 <filiation><ref type="altMs">Clm 14386, ff. </ref>.</filiation>
-                                <bibl></bibl>
-                            </msItem>-->
-                            <msItem>
-                                <locus>85r-v</locus>
-                                <note>Randnotiz für Lectiones I-IIII</note>
+                                <bibl><abbr></abbr> </bibl>
                             </msItem>
                             <msItem>
-                                <note>ff. 93v und 94r - marks 'X' marginal marking passages </note>
+                                <locus from="" to="">-</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. </ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
                             </msItem>
                             <msItem>
                                 <locus>228r-230v</locus>
