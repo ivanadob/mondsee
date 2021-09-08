@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>F-1ktr: Quattuor Evangelia (Ingolstadt Gospel Book)</title>
+                <title>F-1ktr: Munich, BSB, Clm 27270; Prague, Národní knihovna České republiky, VI.D.24</title>
                 <respStmt>
                     <resp>Description by</resp>
                     <persName>
@@ -36,7 +36,7 @@
                         </altIdentifier>                       
                     </msIdentifier>
                     <head>
-                        <title>Fragmented MS: Munich, BSB, Clm 27270; Prague, Národní knihovna České republiky, VI.D.24</title>
+                        <title>Quattuor Evangelia (Ingolstadt Gospel Book)</title>
                         <origDate notBefore="0751" notAfter="0800">s. VIII<hi rend="sup">2</hi></origDate>
                         <origPlace>Mondsee</origPlace>
                         <note type="summary">The original manuscript contained the four gospels preceded by Eusebian canon tables with sumptuous decoration. The now surviving leaves were used as binding waste for account books in the 17<hi rend="sup">th</hi> and 19<hi rend="sup">th</hi> centuries. A rough estimation of the layout and the amount of text fitting one page suggests the original manuscript had about 260-280 fols.</note>
