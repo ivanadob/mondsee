@@ -174,3 +174,40 @@ font-weight:bold;
     height:auto;
     display:inline-block;
 }
+
+.controlwrapper {
+  align-items:baseline
+}
+
+/* Datatables, provided by https://github.com/babslgam*/
+
+div.dataTables_filter {
+  text-align:left !important;
+}
+
+.btn-link {
+  font-size:20px;
+}
+
+.exportbuttons {
+  text-align: right;
+}
+
+.dataTables_info {
+  text-align: center;
+}
+
+.filters input {
+  width:100%;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.dataTables_wrapper table {
+  width:100%;
+}
+
+/**** Font Aweseome ***/
+.far {
+font-family: "Font Awesome 5 Free" !important;
+}
