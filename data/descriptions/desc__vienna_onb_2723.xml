@@ -1,0 +1,192 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="en" xml:base="onb-cod-2723/tei-msDesc_dobcheva.xml" xml:id="onb-cod-2723_tei-msDesc_dobcheva">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vienna, ÖNB, Cod. 2723</title>
+                <respStmt>
+                    <resp>Description by</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                    </persName>
+                </respStmt>                
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 encoding </resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                    </persName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher></publisher>
+                <idno type="PID"></idno>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en" xml:id="onb-2723">
+                    <msIdentifier>
+                        <country>Austria</country>
+                        <settlement>Vienna</settlement>
+                        <institution></institution>
+                        <repository>Österreichische Nationalbibliothek</repository> 
+                        <idno>Cod. 2723</idno>
+                        <altIdentifier type="former"> 
+                            <idno>Rec. 3325</idno>
+                        </altIdentifier>                       
+                    </msIdentifier>
+                    <head>
+                        <title>Lectionarium</title>
+                        <origDate notBefore="0951" notAfter="1000">s. X<hi rend="sup">2</hi></origDate>
+                        <origPlace>Mondsee (?)</origPlace>
+                        <note type="facs"><ref target="http://data.onb.ac.at/dtl/3142328"/></note>
+                        <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13951073"/></note>
+                        <note type="summary"></note>
+                    </head> 
+                    <msContents>
+                        <!--<textLang mainLang="lat" otherLangs=""/>--> 
+                        <p>Content from BStK Online: https://glossen.germ-ling.uni-bamberg.de/bstk/949 [Stand 08.09.2021].
+                            f. 1r: Notizen
+                            f. 1v-7r: Eucherius von Lyon, Instructionum libri II
+                            f. 7r: hebräisch-lateinisches Glossar
+                            f. 7v: griechische Buchstaben und Zahlzeichen
+                            f. 7v: Formata eporum
+                            f. 8r-v: theologische Schrift; Federprobe
+                            f. 9r-80r: Bibelglossar der Handschriftenfamilie M
+                            f. 80r-89r: Bibelglossar
+                            f. 89v-105r: Canones
+                            f. 105v-106v: Glossensammlungen zu Gregor der Große, Dialoge
+                            f. 106v-112v: Glossensammlungen zu Gregor der Große, Regula pastoralis
+                            f. 113r-118v: Glossensammlungen zu Gregor der Große, Homiliae in Evangelia
+                            f. 119r: Glossen zu Smaragdus von St. Mihiel, Liber comitis
+                            f. 123r-v: Glossen zu Vitae patrum
+                            f. 123v-124r: Glossen zu Phocas, Ars grammatica
+                            f. 124r: Glossen zu Daniel, Traumbuch
+                            zusätzliches Blatt hinten: Kalendarisches, auf Beda Venerabilis fußend</p>
+                        <!--<msItem>
+                            <locus from="x" to="x"/>
+                            <title/> 
+                            <author/>
+                            <rubric/>
+                            <incipit/> 
+                            <explicit/> 
+                            <finalRubric/>
+                            <colophon></colophon>
+                            <decoNote></decoNote>
+                            <note/>
+                            <filiation></filiation>
+                            <listBibl>
+                                <bibl/>
+                            </listBibl>
+                        </msItem>-->
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent>
+                                    <measure type="leavesCount" quantity="135" unit="folio">135</measure>
+                                    <dimensions type="leaf_current" unit="mm">
+                                        <height>205</height>
+                                        <width>160</width>
+                                    </dimensions>
+                                </extent>
+                                <foliation/>
+                                <collation>
+                                    <formula></formula>
+                                </collation>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ruledLines="0" writtenLines="0" columns="0">
+                                    <dimensions type="written" unit="mm">
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions> 
+                                    <dimensions type="column" unit="mm">
+                                        <width></width>
+                                    </dimensions>
+                                    <dimensions type="lineHeight" unit="mm">
+                                        <height></height>
+                                    </dimensions>
+                                    <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary></summary>
+                            <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <summary></summary>
+                            <scriptNote script="x" medium="x"></scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote type="x"/>
+                        </decoDesc>   
+                        <additions/>
+                        <bindingDesc>
+                            <binding notBefore="0001" notAfter="0001">
+                                <p/>
+                            </binding>
+                        </bindingDesc>
+                        <accMat/> 
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate notBefore="0001" notAfter="0001"/>
+                        </origin>
+                        <provenance/>
+                        <acquisition/>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <p>
+                                    <bibl></bibl>
+                                </p>
+                            </recordHist>
+                        </adminInfo>
+                        <surrogates>
+                            <ref/>
+                        </surrogates> 
+                        <listBibl>
+                            <bibl/>
+                        </listBibl>
+                    </additional>             
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p></p>
+            </editorialDecl>
+            <projectDesc>
+                <p>Description originated within the project "The Carolingian Scriptorium of Mondsee".</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2021-09-08">First entry.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="" n="1r"/>
+    </facsimile>
+    <text>
+        <body>
+            <head>
+                <title></title>
+            </head>
+            <p/>
+        </body>
+    </text>
+</TEI>
