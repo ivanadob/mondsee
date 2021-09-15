@@ -201,7 +201,7 @@
                         </xsl:attribute>
                         <xsl:value-of select="concat($gitData,replace(tokenize($full_path, '/')[last()], '.html', '.xml'))"/>
                     </a>
-                    <xsl:text> last update: </xsl:text><xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:revisionDesc/tei:change[1]/@when"/><xsl:text>).</xsl:text>
+                    <xsl:text> last change: </xsl:text><xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:revisionDesc/tei:listChange/tei:change[1]/@when"/><xsl:text>).</xsl:text>
                 </div>
                 <hr/>
                 </div>
@@ -301,8 +301,7 @@
 	</div>
 </xsl:template>
 	<xsl:template match="tei:msIdentifier | tei:altIdentifier" mode="msFrag">
-		<div class="part">
-			
+		<div class="part">			
 				<xsl:value-of select="tei:settlement"/>
 				<xsl:text>, </xsl:text>
 			<xsl:if test="tei:institution">
@@ -319,13 +318,19 @@
 			</xsl:if>
 			<xsl:value-of select="tei:idno"/>
 			<xsl:choose>
+				<xsl:when test="tei:altIdentifier[@type='former']">
+					<xsl:text> (olim: </xsl:text>
+					<xsl:value-of select="tei:altIdentifier[@type='former']"/>
+					<xsl:text>)</xsl:text>
+				</xsl:when>
+			</xsl:choose>
+			<xsl:choose>
 				<xsl:when test="following-sibling::tei:head/tei:title">
 					<p style="font-weight:normal">
 						<xsl:apply-templates select="following-sibling::tei:head/tei:title"/>	
 					</p>
 				</xsl:when>		
 			</xsl:choose>
-			
 		</div>
 	</xsl:template>
 
@@ -339,9 +344,7 @@
 		</xsl:when>
 	</xsl:choose>
 </xsl:template>
-<xsl:template match="tei:altIdentifier[@type='former']
-	[not(@rend='doNotShow')]
-	[not(contains(preceding-sibling::tei:idno, 'olim')) and not(contains(preceding-sibling::tei:idno, tei:idno))]" mode="Schlagzeile">
+<xsl:template match="tei:altIdentifier[@type='former']" mode="Schlagzeile">
 	<xsl:if test="not(preceding-sibling::tei:altIdentifier[@type='former'][not(@rend='doNotShow')])">
 		<xsl:text> (olim: </xsl:text>
 	</xsl:if>
@@ -490,7 +493,7 @@
 	<xsl:call-template name="Leerzeichen"/>
 </xsl:template>
 
-<xsl:template match="tei:dimensions[not(normalize-space(.)='')][(@type = 'leaf')]" mode="Schlagzeile">
+<xsl:template match="tei:dimensions[not(normalize-space(.)='')][(@type = 'leaf_current')]" mode="Schlagzeile">
 	<xsl:apply-templates/>
 	<xsl:choose>
 		<xsl:when test="@unit and not(tei:height/@unit) and not(tei:width/@unit) and not(tei:depth/@unit)">
@@ -618,9 +621,9 @@
 			<xsl:value-of select="descendant::tei:measure[(@type = 'pageDimensions') or (@type = 'leavesSize')]"/>
 		</xsl:when>
 		<xsl:when test="descendant::tei:measure[@type = 'leavesCount'] 
-			and descendant::tei:dimensions[(@type = 'leaf')]">
+			and descendant::tei:dimensions[(@type = 'leaf_current')]">
 			<xsl:value-of select="$Trennzeichen"/>
-			<xsl:apply-templates select="descendant::tei:dimensions[(@type = 'leaf')]" mode="Schlagzeile"/>
+			<xsl:apply-templates select="descendant::tei:dimensions[(@type = 'leaf_current')]" mode="Schlagzeile"/>
 		</xsl:when>
 		<xsl:when test="descendant::tei:measure[@type = 'pageDimensions']">
 			<xsl:apply-templates select="descendant::tei:measure[@type = 'pageDimensions']" mode="Schlagzeile"/>
@@ -673,6 +676,55 @@
 			</xsl:when>
 		</xsl:choose> 
 	</div>
+	<p>
+		<xsl:attribute name="class">schlagzeile</xsl:attribute>
+		<xsl:choose>
+			<xsl:when test="(tei:note[@type = 'caption'] != '')">
+				<xsl:value-of select="tei:note[@type = 'caption']"/>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:apply-templates select="following-sibling::tei:physDesc/descendant::tei:supportDesc" mode="Schlagzeile"/>
+				<xsl:choose>
+					<xsl:when test="(tei:origPlace != '')">
+						<xsl:if test="preceding-sibling::tei:msIdentifier/tei:altIdentifier[@type='former'][not(@rend='doNotShow')] 
+							and not(contains(preceding-sibling::tei:msIdentifier/tei:idno,concat('olim ',preceding-sibling::tei:msIdentifier/tei:altIdentifier[@type='former'][not(@rend='doNotShow')][1]/tei:idno)))
+							or following-sibling::tei:physDesc/descendant::tei:supportDesc">
+							<xsl:value-of select="$Trennzeichen"/>
+						</xsl:if>
+						<xsl:apply-templates select="tei:origPlace" mode="Schlagzeile"/>
+					</xsl:when>
+					<xsl:when test="(following-sibling::tei:history/tei:origin//tei:origPlace != '')">
+						<xsl:if test="preceding-sibling::tei:msIdentifier/tei:altIdentifier[@type='former'][not(@rend='doNotShow')] 
+							and not(contains(preceding-sibling::tei:msIdentifier/tei:idno,concat('olim ',preceding-sibling::tei:msIdentifier/tei:altIdentifier[@type='former'][not(@rend='doNotShow')][1]/tei:idno)))
+							or following-sibling::tei:physDesc/descendant::tei:supportDesc">
+							<xsl:value-of select="$Trennzeichen"/>
+						</xsl:if>
+						<xsl:apply-templates select="following-sibling::tei:history/tei:origin//tei:origPlace" mode="Schlagzeile"/>
+					</xsl:when>
+				</xsl:choose>
+				<xsl:choose>
+					<xsl:when test="(tei:origDate != '')">
+						<xsl:if test="preceding-sibling::tei:msIdentifier/tei:altIdentifier[@type='former'][not(@rend='doNotShow')] 
+							and not(contains(preceding-sibling::tei:msIdentifier/tei:idno,concat('olim ',preceding-sibling::tei:msIdentifier/tei:altIdentifier[@type='former'][not(@rend='doNotShow')][1]/tei:idno)))
+							or following-sibling::tei:physDesc/descendant::tei:supportDesc
+							or tei:origPlace or following-sibling::tei:history/tei:origin//tei:origPlace">
+							<xsl:value-of select="$Trennzeichen"/>
+						</xsl:if>
+						<xsl:apply-templates select="tei:origDate" mode="Schlagzeile"/>
+					</xsl:when>
+					<xsl:when test="(following-sibling::tei:history/tei:origin//tei:origDate != '')">
+						<xsl:if test="preceding-sibling::tei:msIdentifier/tei:altIdentifier[@type='former'][not(@rend='doNotShow')] 
+							and not(contains(preceding-sibling::tei:msIdentifier/tei:idno,concat('olim ',preceding-sibling::tei:msIdentifier/tei:altIdentifier[@type='former'][not(@rend='doNotShow')][1]/tei:idno)))
+							or following-sibling::tei:physDesc/descendant::tei:supportDesc
+							or tei:origPlace or following-sibling::tei:history/tei:origin//tei:origPlace">
+							<xsl:value-of select="$Trennzeichen"/>
+						</xsl:if>
+						<xsl:apply-templates select="following-sibling::tei:history/tei:origin//tei:origDate" mode="Schlagzeile"/>
+					</xsl:when>
+				</xsl:choose>
+			</xsl:otherwise>
+		</xsl:choose>
+	</p>
 </xsl:template>
 
 <xsl:template match="tei:head[not(normalize-space(.)='')]" mode="Schlagzeile">
@@ -1453,9 +1505,9 @@
 </xsl:template>
 	<xsl:template match="tei:msFrag">
 		<hr/>
-		<xsl:apply-templates select="tei:msIdentifier | tei:altIdentifier" mode="msFrag"/>	
+		<xsl:apply-templates select="tei:msIdentifier" mode="msFrag"/>	
+		<xsl:apply-templates select="tei:altIdentifier[@type='former']" mode="Schlagzeile"/>
 		<xsl:apply-templates select="tei:head" mode="msFrag"/>
-		<xsl:apply-templates select="tei:head" mode="Schlagzeile"/>
 		<xsl:apply-templates select="tei:physDesc"/>
 		<xsl:apply-templates select="tei:history"/>
 		<xsl:apply-templates select="tei:additional"/>

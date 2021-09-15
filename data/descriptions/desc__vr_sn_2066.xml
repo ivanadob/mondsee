@@ -29,27 +29,20 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="en" xml:id="f-xxx">
+                <msDesc xml:lang="en" xml:id="f-jyai">
                     <msIdentifier>                       
                         <altIdentifier type="collection"> 
-                            <idno></idno>
+                            <idno>F-jyai</idno>
                         </altIdentifier>                       
                     </msIdentifier>
                     <head>
                         <title>Gregorius Magnus, Homiliae in evangelia</title>
                         <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi></origDate>
                         <origPlace>Mondsee</origPlace>
-                        <note type="summary"></note>
-                    </head>                   
-                    
-                    <history>
-                        <origin>
-                            <origPlace/>
-                            <origDate notBefore="0001" notAfter="0001"/>
-                        </origin>
-                        <provenance/>
-                        <acquisition/>
-                    </history>
+                        <note type="summary">For history overview of the reconstruction see reconstruction <ref type="altMs" target="#desc__vr_sn_alani.xml">F-ld8w</ref>. Current hypothesis:
+                            The fragments listed below belong to a copy of Gregorius Magnus, Homiliae in evangelia and not a Homiliarium Pauli Diaconi as suggested in the previous literature. Evidence comes from the order of the homilies, which does not follow that of the Homiliarium Pauli Diaconi but that of the Homiliae in evangelia. Example: Fragm. 15 includes the end of Hom. 12 and the beginning of Hom. 13 - in PD these homilies does not follow one another but have Nr. 2,122 and 2,109 (this fragment was not mentioned by previous authors hence perhaps unknown). Another evidence in the numbering of homilies in the margin, which follows that of Gregorius Magnus, Homiliae in evangelia and not the Homiliarium Pauli Diaconi. Example: Cod. Ser. n. 2066, f. 1rb with Gregorius Magnus, Homilia VI is marked with <quote>VI</quote>; the same homily is Nr. 24 in the Homiliarium Pauli Diaconi (not included in Alani). Finally Gregorius Magnus, Hom. 39 found in two new fragments (Vienna, ÖNB, Cod. 3651, off-set; Vienna, ÖNB, Fragm. 1584) is not part of either Homiliarium Alani or Homiliarium Pauli Diaconi (the last evidence <foreign>per se</foreign> is not strong enough, since the compiler could add this homily to one of the collections).
+                        </note>
+                    </head>
                     <additional>
                         <adminInfo>
                             <recordHist>
@@ -79,28 +72,133 @@
                             <title></title>
                             <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-jyai"></ref></note>
                             <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13944334"></ref></note>
+                            <note type="summary">Physical reconstruction of 11 partial leaves. Four single leaves are bound in a modern carton booklet (ff. 1-4; Fol. 2, however, is not part of the original manuscript, but belong to another homiletic collection (cf. <ref type="altMs" target="#desc__vr_sn_alani.xml">reconstruction F-ld8w</ref>).</note>
                         </head>
+                        <msContents>
+                            <msItem>
+                                <locus>1ra</locus> 
+                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <title>Homiliae in evangelia, lib. 1, Hom. 5</title>
+                                <incipit defective="true">contemnenda perducatur</incipit>
+                                <finalRubric>EXPLICIT OMELIA V</finalRubric>
+                                </msItem>
+                            <msItem>
+                                <locus>1ra-1vb</locus>
+                                <rubric>LECTIO EUANGELII SECUNDUM MATH</rubric>
+                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <title>Homiliae in evangelia, lib. 1, Hom. 6</title>
+                                <incipit><ref type="biblical" cRef="Mt_11,2">In illo tempore Cum audisset iohanis ... preparauit uiam tuam ante te</ref> INCIPIT OMELIA LECTIO SECUNDUM EIUSDEM. QUERENDUM NOBIS EST fratres karissimi</incipit> 
+                                <explicit>ut pro hominibus auctor uite moriretur</explicit>
+                                <bibl><abbr>PL</abbr> 76, 1095B-1096B</bibl>
+                            </msItem>
+                           <msItem> 
+                               <locus>3ra-4ra</locus>
+                               <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                               <title>Homiliae in evangelia, lib. 1, Hom. 7</title>
+                               <incipit defective="true">studio non mutatur <gap reason="omitted"/> nullatenus potest. Quomodo corpor<supplied>atur</supplied> <gap reason="lacuna"/> <note>lacuna 1 leaf</note> <note>4ra</note> <gap reason="illegible"/> Qui enim sine humilitate virtutes congregat</incipit> 
+                               <explicit defective="true">ex humilitate ualeatis</explicit>
+                               <bibl><abbr>PL</abbr> 76, 1100D-1101D, 1103a-1103B.</bibl>
+                           </msItem>
+                                
+                                <msItem>
+                                    <locus>4ra-4vb</locus>
+                                    <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                    <title>Homiliae in evangelia, lib. 1, Hom. 8</title>
+                                    <rubric><gap reason="illegible"/></rubric>
+                                    <incipit><ref type="biblical" cRef="Lc_2,1">In illo tempore Exiit edictum</ref> <gap reason="omitted"/> <note>4va</note> <gap reason="illegible"/> Sed nos aliquid uel breviter dicere</incipit>
+                                    <explicit defective="true">Qui non in parentum do<supplied>mo sed</supplied> in uia nascitur</explicit>
+                                    <bibl><abbr>PL</abbr> 76, 1103B-1104A.</bibl>
+                                </msItem>
+                                <msItem>
+                                    <note>Lacuna of 2 double leaves between ff. 4 and 5</note>
+                                </msItem>
+                            <msItem>
+                                    <locus>5ra-5vb</locus>
+                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <title>Homiliae in evangelia, lib. 1, Hom. 9<note>, § 5-7</note></title>
+                                    <incipit defective="true">designatur. Per duo autem intellectus</incipit>
+                                    <explicit defective="true">pro retento talento timeant. Si non cotidiae</explicit>
+                                    <bibl><abbr>PL</abbr> 76, 1108C-1109B.</bibl>
+                                </msItem>
+                            <msItem>
+                                <locus>6r-v</locus> 
+                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <title>Homiliae in evangelia, lib. 1, Hom. 10<note>, § 6-7</note></title>
+                                <incipit defective="true">credunt. hi profecto ei</incipit>
+                                <explicit defective="true">ante oculos cordis hinc</explicit>
+                                <bibl><abbr>PL</abbr> 76, 1113A-1114A.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus>7r-v</locus> 
+                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <title>Homiliae in evangelia, lib. 1, Hom. 11<note>, § 4</note></title>
+                                <incipit defective="true">Quae ex omni genere piscium congregat <gap reason="omitted"/> significat littus maris <gap reason="lacuna"/> <note>7rb</note> traebat et quidem pisces <gap reason="omitted"/> sotietate separa<supplied>tur</supplied> <note>7va</note> quam exponendum. Aperta <gap reason="omitted"/> proferenti de thesauro suo <gap reason="lacuna"/> <note>7vb</note> <supplied><unclear></unclear></supplied>ciuit. Dum ergo ab hoc intellectu</incipit> 
+                                <explicit defective="true">Quod tamen in<supplied>telligi</supplied></explicit>
+                                <bibl><abbr>PL</abbr> 76, 1116B-1117B.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus>8ra-vb</locus>
+                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <title>Homiliae in evangelia, lib. 1, Hom. 12</title>
+                                <incipit defective="true">ianua. O si sapere in cordis palatu <gap reason="omitted"/> mouebo non solum terram <gap reason="lacuna"/> <note>8rb</note> erit. Quae illa co<supplied>nfusio</supplied>] cui <gap reason="omitted"/> dies tube et <gap reason="lacuna"/> <note>8va</note> <supplied>si</supplied>mul ad nuptias <gap reason="omitted"/> non erit, quia <gap reason="lacuna"/> <note>8vb</note> <supplied>inter</supplied>clusa regni ianua</incipit>
+                                <explicit defective="true">Hinc est enim </explicit>
+                                <bibl><abbr>PL</abbr> 76, 1120C-1121C</bibl>
+                            </msItem>
+                                
+                                <msItem>
+                                    <locus>9r-v</locus>
+                                    <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                    <title>Homiliae in evangelia, lib. 1, Hom. 12</title>                                    
+                                    <incipit defective="true"><gap reason="illegible"/> Quando <supplied>v</supplied>enerit super uos <gap reason="omitted"/> Ecce ap<supplied>eriri clamant</supplied> et repu<supplied>lsionis</supplied> <gap reason="lacuna"/> <note>9v</note> <supplied>Coe</supplied>pit tremere</incipit> 
+                                    <explicit defective="true">tibi aliquid mal<supplied>i feci</supplied> </explicit>
+                                    <bibl>PL 76, 1121C, 1122C.</bibl>
+                                </msItem>
+                            <msItem>
+                                <locus>10r-v</locus>
+                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <title>Homiliae in evangelia, lib. 1, Hom. 13</title>
+                                <note>erhalten nur je vier Zeile von der inneren Spalte eines Einzelblattes.</note>
+                                <incipit>inlus<supplied>trati</supplied>one nos satiat <gap reason="lacuna"/> sit vero dictum est <supplied>cum de ju</supplied>dicio ad regnum <gap reason="lacuna"/> <note>10v</note> inpoenitens the<supplied>sauriz</supplied>as tibi iram in die <supplied>irae</supplied> et revelationis</incipit> 
+                                <bibl><abbr>PL</abbr> 76, 1125A-1125D.</bibl>
+                            </msItem>
+                            <msItem>
+                                <locus>11ra-vb</locus>
+                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <title>Homiliae in evangelia, lib. 1, Hom. 13</title>
+                                <incipit defective="true">deducuntur. ut per haec animus ad sui custodiam</incipit>
+                                <explicit>cum uenerit uincitur si prius<supplied>quam</supplied></explicit> 
+                                <bibl><abbr>PL</abbr> 76, 1126A-1127A.</bibl>
+                            </msItem>                                
+                        </msContents>
                         <physDesc>
                             <objectDesc form="fragment">
                                 <supportDesc material="perg">
                                     <extent>
-                                        <measure type="leavesCount" quantity="0" unit="folio"></measure>
+                                        <measure type="leavesCount" quantity="11" unit="folio">11 fragmented fols.</measure>
                                         <dimensions type="leaf_current" unit="mm">
-                                            <height></height>
-                                            <width></width>
+                                            <height>285</height>
+                                            <width>220</width>
                                         </dimensions>
                                     </extent>
                                     <foliation/>
                                     <collation>
                                         <formula></formula>
                                     </collation>
-                                    <condition/>
+                                    <condition>The leaves were used as binding waste in several manuscripts:  <list>
+                                        <item>Fol. 1 (285 x 235 mm) und fol. 3 (282 x 215 mm) sind beschnittene Einzelblätter mit Textverlust oben.</item> 
+                                        <item>Fol. 4 und 5 bilden ein Doppelblatt (285 x 435 mm), das als Vorsatz in Cod. 5131 gedient hat.Fol. 5 war kopfüber auf den vorderen Innendeckel geklebt, fol. 4 diente vorne als fliegendes Blatt. Von fol. 4 wurde die Tinte von einer Blatthälfte, von fol. 5 zur Gänze abgewaschen, der Text blieb jedoch größtenteils lesbar.</item>  
+                                        <item>Fol. 6 lässt sich aus vier Querstreifen und acht Längsstreifen</item>
+                                        <item>fol. 7 aus 10 Querstreifen rekonstruiren.</item>  
+                                        <item>Fol. 8 (220 x 165 mm) und fol. 11 (220 x 172 mm) sind Teile von Einzelblättern, die wahrscheinlich in ein und demselben Einband als Vorder- und Hinterspiegel gedient haben.</item> 
+                                        <item>Fol. 9 (115 x 60 mm) und fol. 10 (40 x 60 mm) sind zwei Stücke von zwei Einzelblättern.</item>
+                                    </list>
+                                         </condition>
                                 </supportDesc>                                
                             </objectDesc>                           
                             <additions/>
                             <bindingDesc>
-                                <binding notBefore="0001" notAfter="0001">
-                                    <p/>
+                                <binding contemporary="false" notBefore="0001" notAfter="0001">
+                                    <p>fol. 1 und 2 wurden zu einem frühen Zeitpunkt in einem modernen Pappband gebunden. Die restlichen Blätter bleiben ungebunden in beiligenden Umschlägen.</p>
                                 </binding>
                             </bindingDesc>
                             <accMat/> 
@@ -116,7 +214,7 @@
                             <country>Austria</country>
                             <settlement>Vienna</settlement>
                             <repository>Österreichische Nationalbibliothek</repository> 
-                            <idno>Fragm. 15</idno> 
+                            <idno>Fragm. 15</idno>
                             <altIdentifier type="former">
                                 <idno>Fragm. 84</idno>
                             </altIdentifier>
@@ -125,39 +223,56 @@
                             </altIdentifier>
                             <altIdentifier type="collection">
                                 <idno>F-8a0c</idno>
-                            </altIdentifier>
-                        </msIdentifier>
+                            </altIdentifier>                                                  
+                        </msIdentifier>    
                         <head>
                             <title></title>
                             <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-8a0c"/></note>
-                            <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC14425005"></ref></note>
-                            <note type="facs"><ref target="http://data.onb.ac.at/dtl/7040019"></ref></note>
+                            <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC14425005">ÖNB</ref></note>
+                            <note type="facs"><ref target="http://data.onb.ac.at/dtl/7040019">Facsimile</ref></note>
                         </head>
+                        <msContents>
+                            <msItem>
+                                <locus>1ra-rb (Fragm. 15-1 and Fragm. 15-2)</locus>
+                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <title>Homiliae in evangelia, lib. 1, Hom. 12<note>, § 7</note></title>
+                                <incipit defective="true"><supplied>ni</supplied>mirum constat quia pro nobis <gap reason="omitted"/> nam illi tetros spiritus <gap reason="lacuna"/> <note>1rb</note> orate nefiat fuga uestra</incipit>
+                                <explicit defective="true">fugire quando iam per peniten<supplied>tiam</supplied> <gap reason="lacuna"/> fugare non licet modo</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus>1va-vb</locus>
+                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <title>Homiliae in evangelia, lib. 1, Hom. 13</title>
+                                <incipit defective="true"><supplied>pulsa</supplied>uerit confestim aperie ei <gap reason="omitted"/> et facit illos <gap reason="lacuna"/> <note>1vb</note> transcurrimus quatenus eius expositio</incipit> 
+                                <explicit><supplied>dia</supplied>bolo ad beatum Iob.</explicit>
+                            </msItem>
+                            <msItem>
+                                <locus>2ra-vb (Fragm. 15-3, 15-4, 15-5)</locus>
+                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <title>Homiliae in evangelia, lib. 1, Hom. 13<note>, § 1-4</note></title>
+                                <incipit defective="true">et fortitudo illius in umbilico uentris eius</incipit> 
+                                <explicit defective="true">quid uigilantibus seruis exhi<supplied>beat</supplied></explicit>
+                            </msItem>
+                        </msContents>
                         <physDesc>
                             <objectDesc form="fragment">
                                 <supportDesc material="perg">
                                     <extent>
-                                        <measure type="leavesCount" quantity="0" unit="folio"></measure>
+                                        <measure type="leavesCount" quantity="2" unit="folio">2 (partial)</measure>
                                         <dimensions type="leaf_current" unit="mm">
-                                            <height></height>
-                                            <width></width>
+                                            <height>2</height>
+                                            <width>3</width>
                                         </dimensions>
                                     </extent>
-                                    <foliation/>
-                                    <collation>
-                                        <formula></formula>
-                                    </collation>
-                                    <condition/>
+                                    <foliation></foliation>
+                                    <condition>The fragments are reconstructed from 9 horizontal and 12 vertical strips (each measuring ca. 15 x 220 mm)</condition>
                                 </supportDesc>                                
-                            </objectDesc>                           
-                            <additions/>
-                            <bindingDesc>
-                                <binding notBefore="0001" notAfter="0001">
-                                    <p/>
-                                </binding>
-                            </bindingDesc>
-                            <accMat/> 
+                            </objectDesc>                          
+                            
                         </physDesc>
+                        <history>
+                            <provenance>The fragments were used as binding waste in <ref target="http://data.onb.ac.at/rec/AC13961413">Vienna, ÖNB, Cod. 3792</ref>.</provenance>
+                        </history>
                     </msFrag>
                     <msFrag>
                         <msIdentifier>
@@ -173,33 +288,44 @@
                             <title></title>
                             <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-nxmr"></ref></note>
                             <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC16132991"></ref></note>
-                            <note type="facs"><ref target="http://data.onb.ac.at/dtl/6986822"></ref></note>
+                            <note type="facs"><ref target="http://data.onb.ac.at/dtl/6986822">Facsimile</ref></note>
                         </head>
+                        <msContents>
+                            <msItem>
+                                <locus>Fragm. 210a-1</locus>
+                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <title>Homiliae in evangelia, lib. 1, Hom. 10<note>, § 2</note></title>
+                                <incipit defective="true"><supplied>i</supplied>udaeorum corde du<supplied>ritia</supplied> Quae hunc neque <supplied>per prop</supplied>hetiae donum nec per <gap reason="lacuna"/> <note>1v</note> <supplied>poe</supplied>nitendum nolunt e<supplied>umque</supplied> confiteri abnega<supplied>nt quem</supplied> elementa ut dixi<supplied>mus</supplied></incipit>
+                            </msItem>
+                            <msItem>
+                                <note>Fragm. 210a-2: unidentified.</note>
+                            </msItem>
+                        </msContents>
                         <physDesc>
                             <objectDesc form="fragment">
                                 <supportDesc material="perg">
                                     <extent>
-                                        <measure type="leavesCount" quantity="0" unit="folio"></measure>
+                                        <measure type="leavesCount" quantity="1" unit="folio">1</measure>
                                         <dimensions type="leaf_current" unit="mm">
-                                            <height></height>
-                                            <width></width>
+                                            <height>330</height>
+                                            <width>650</width>
+                                        </dimensions>
+                                        <dimensions type="leaf_current" unit="mm">
+                                            <height>148</height>
+                                            <width>230</width>
                                         </dimensions>
                                     </extent>
                                     <foliation/>
                                     <collation>
                                         <formula></formula>
                                     </collation>
-                                    <condition/>
+                                    <condition>Anhand des fehlenden Textes und Vergleich mit den zusammengehörigen Fragmenten ist zu vermuten, dass das Fragment die äußere Textspalte zeigt.</condition>
                                 </supportDesc>                                
-                            </objectDesc>                           
-                            <additions/>
-                            <bindingDesc>
-                                <binding notBefore="0001" notAfter="0001">
-                                    <p/>
-                                </binding>
-                            </bindingDesc>
-                            <accMat/> 
+                            </objectDesc>   
                         </physDesc>
+                        <history>
+                            <provenance>Host volume: <ref target="http://data.onb.ac.at/rec/AC13960076">Vienna, ÖNB,Cod. 1013</ref> (Homiletic collection, Mondsee s. XIII, binding s. XV).</provenance>
+                        </history>
                     </msFrag>
                     <msFrag>
                         <msIdentifier>
@@ -215,11 +341,13 @@
                             <title></title>
                             <note type="fragmentarium"><ref target="http://fragmentarium.ms/overview/F-a3sg"></ref></note>
                             <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC15482241"></ref></note>
+                            <note type="facs"><ref target="http://fragmentarium.ms/overview/F-a3sg">Facs</ref></note>
                         </head>
                         
                         <msContents>
                             <msItem>
-                                <title>Lib 2, Hom. 39<note> §3-4</note></title>
+                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <title>Homiliae in evangelia, lib. 2, Hom. 39<note> §3-4</note></title>
                                 <incipit defective="true">in amaritudinem rixae uertentur <gap reason="omitted"/>  inimici tui <supplied>vallo</supplied> Qui unquam sunt <gap reason="damage"/> <note>verso</note> <supplied>ma</supplied>ligni <supplied>spiritus, qui h</supplied>anc a cor<supplied>pore</supplied></incipit>
                                 <explicit defective="true">Sicut scriptum est In illa die peribunt</explicit>                                
                             </msItem>
@@ -251,21 +379,26 @@
                             <title></title>
                             <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-8asi"></ref></note>
                         </head>
+                        <msContents>
+                            <msItem>
+                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <title>Homiliae in evangelia, lib. 2, Hom. 39<note>, § 10</note></title>
+                                <incipit defective="true"><supplied>proti</supplied>nus p<supplied>roiecit</supplied> et ex<supplied>pandit ac d</supplied>esuper <gap reason="illegible"/> sup<supplied>p</supplied>osuit eumque s<supplied>uo</supplied> pal<supplied>lio</supplied> undique constructum super humerum leuauit</incipit> 
+                                <explicit defective="true">Qui sanctus uir m<supplied>ox ut est</supplied> monasterium <supplied>ingressus</supplied> ei pater mo<supplied>nasterii</supplied></explicit>
+                                <bibl><abbr>PL</abbr> 76, 1300C–D.</bibl>
+                            </msItem>
+                        </msContents>
                         <physDesc>
                             <objectDesc form="fragment">
-                                <supportDesc material="perg">
+                                <supportDesc material="unknown">
                                     <extent>
-                                        <measure type="leavesCount" quantity="0" unit="folio">1 fol. (offset)</measure>
+                                        <measure type="leavesCount" quantity="1" unit="folio">1 fol. (offset)</measure>
                                         <dimensions type="leaf_current" unit="mm">
-                                            <height></height>
-                                            <width></width>
+                                            <height>100</height>
+                                            <width>145</width>
                                         </dimensions>
                                     </extent>
-                                    <foliation/>
-                                    <collation>
-                                        <formula></formula>
-                                    </collation>
-                                    <condition/>
+                                    <condition>Der Text des Abklatsches ist auf dem Holz des Hinterdeckels und den Enden der Rückenhinterklebungen gut lesbar. </condition>
                                 </supportDesc>                                
                             </objectDesc>                           
                             <additions/>
@@ -285,17 +418,26 @@
                             <title></title>
                             <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-jo4h"></ref></note>
                         </head>
+                        <msContents>
+                            <msItem>
+                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <title>Homiliae in evangelia, lib. 1, Hom. 12</title>
+                                <incipit defective="true">quisque uoc<supplied>e praedicat</supplied> quod uiu<supplied>endo</supplied></incipit>
+                                <explicit defective="true">humanos <supplied>favores ex</supplied>petunt doc<supplied>trinae</supplied></explicit> 
+                                <bibl><abbr>PL</abbr> 76, 1119 A–B.</bibl>
+                            </msItem>
+                        </msContents>
                         <physDesc>
                             <objectDesc form="fragment">
-                                <supportDesc material="perg">
+                                <supportDesc material="unknown">
                                     <extent>
-                                        <measure type="leavesCount" quantity="0" unit="folio">1 fol. (offset)</measure>
+                                        <measure type="leavesCount" quantity="1" unit="folio">1 fol. (offset)</measure>
                                         <dimensions type="leaf_current" unit="mm">
                                             <height>280</height>
                                             <width>190</width>
                                         </dimensions>
                                     </extent>
-                                    <condition/>
+                                    <condition>Das Fragment wurde als Spiegel auf den vorderen Innendeckel geklebt. Der Abklatsch befindet sich nur auf den Holzdeckeln und nicht auf den Rückenverstärkungen; ein weiterer Abklatsch eines liturgischen Fragments ist auf dem Einschlag zu sehen. Es ist deshalb zu behaupten, dass das Fragment schon früher abgelöst worden ist.</condition>
                                 </supportDesc>                                
                             </objectDesc>  
                         </physDesc>
@@ -313,21 +455,26 @@
                         <head>                           
                             <note type="catalogue"><ref target="https://opacplus.bsb-muenchen.de/search?oclcno=935404461&amp;db=100&amp;View=default"></ref></note>
                         </head>
+                        <msContents>
+                            <msItem>
+                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <title>Homiliae in evangelia, lib. 1, Hom. 12</title>
+                                <incipit defective="true">proximorum quaerunt. Notandum vero quod omnes lampades habent <gap reason="omitted"/> qui de his quae foris egerint <gap reason="lacuna"/> <note>col. 2</note> Ecce sponsus venit, exite obviam ei. De adventu sponsi</incipit> 
+                                <explicit defective="true">omnes uirgines surgunt</explicit>
+                                <bibl><abbr>PL</abbr> 76 1119C-1120A.</bibl>
+                            </msItem>
+                        </msContents>
                         <physDesc>
                             <objectDesc form="fragment">
                                 <supportDesc material="perg">
                                     <extent>
-                                        <measure type="leavesCount" quantity="1" unit="folio"></measure>
+                                        <measure type="leavesCount" quantity="1" unit="folio">1</measure>
                                         <dimensions type="leaf_current" unit="mm">
                                             <height></height>
                                             <width></width>
                                         </dimensions>
                                     </extent>
-                                    <foliation/>
-                                    <collation>
-                                        <formula></formula>
-                                    </collation>
-                                    <condition/>
+                                    <condition>Das Fragment dient als Vorderspiegel. Erhalten ist das untere Teil eines Einzelblattes; Textvelust oben.</condition>
                                 </supportDesc>                                
                             </objectDesc>  
                         </physDesc>
@@ -343,6 +490,15 @@
                             <title></title>
                             <note type="facs"><ref target="https://manuscripta.at/hs_detail.php?ID=39826">Facsimile at manuscripta.at</ref></note>
                         </head>
+                        <msContents>
+                            <msItem>
+                                <locus from="salzburg_1r" to="salzburg_2v">1ra-2vb</locus>
+                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <title>Homiliae in evangelia, lib. 2, Hom. 34<note>, § 4-6 and 11</note></title>
+                                <incipit defective="true">celo gaudium esse fateatur, nisi hoc quod ipsi per cotidianum visionis experimentum <gap reason="omitted"></gap> <locus from="salzburg_1v">1vb</locus> penitentiam damnat iniustus. Sequitur <gap reason="omitted"></gap> <locus from="salzburg_2r">2ra</locus> Sed quid prodest nos de angelis spiritibus ista perstringere, si non studeamus</incipit> 
+                                <explicit><supplied>sem</supplied>per inherentes, hoc in munere virtutis accipiunt, ut indicare</explicit>
+                            </msItem>
+                        </msContents>
                         <physDesc>
                             <objectDesc form="fragment">
                                 <supportDesc material="perg">
@@ -359,14 +515,7 @@
                                     </collation>
                                     <condition/>
                                 </supportDesc>                                
-                            </objectDesc>                           
-                            <additions/>
-                            <bindingDesc>
-                                <binding notBefore="0001" notAfter="0001">
-                                    <p/>
-                                </binding>
-                            </bindingDesc>
-                            <accMat/> 
+                            </objectDesc>
                         </physDesc>
                         <history>
                             <provenance>Abgelöst vom Koperteinband des Giltenbuchs Straßwalchen (Land Salzburg) der Jahre 1625-1657. Ebenfalls aus diesem Einband stammt ein weiteres dazugehöriges Fragment -  Fragm. 55 (AT-AES 7.1.H1.55), als auch zwei Fragmente aus einem Missale (s. XV): Fragm. 29 (AT-AES 7.1.H1.29) und Fragm. 34 (AT-AES 7.1.H1.34). Vgl. Kat. Nrr. 117, 122 und 142 im Nikolaus Czifra–Rüdiger Lorenz, Katalog der mittelalterlichen Handschriften in Salzburg.</provenance>
@@ -374,6 +523,7 @@
                         <additional>
                             <listBibl>
                                 <bibl>Nikolaus Czifra–Rüdiger Lorenz, Katalog der mittelalterlichen Handschriften in Salzburg: Stiftsbibliothek Mattsee, Archiv der Erzdiözese Salzburg, Salzburger Landesarchiv, Archiv der Stadt Salzburg, Salzburg Museum. Unter Mitarbeit von Beatrix Koll und Susanne Lang. Katalog- und Registerband (Österreichische Akademie der Wissenschaften, phil.-hist. Klasse, Denkschriften 475 = Veröffentlichungen zum Schrift- und Buchwesen des Mittelalters II,11). Vienna, 2015, p. 327 (Nr. 147).</bibl>
+                                <bibl>Karl Forstner, Neue Funde und Erkenntnisse zum karolingischen Schriftwesen von Salzburg und Mattsee. Scriptorium 52 (1998) 255–277, here: 271 (<ref target="http://www.persee.fr/doc/scrip_0036-9772_1998_num_52_2_1843">http://www.persee.fr/doc/scrip_0036-9772_1998_num_52_2_1843</ref>).</bibl>
                             </listBibl>
                         </additional>
                     </msFrag>
@@ -390,18 +540,19 @@
                         </head>
                         <msContents>
                             <msItem>
-                                <locus>1ra-1vb</locus>
-                                <author>Gregorius Magnus</author>
-                                <title>Homiliae in Evangelia, lib. 2, Homilia XXVI <note> fragment§7-9</note></title>
+                                <locus from="linz_834_1r" to="linz_834_1v">1ra-1vb</locus>
+                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <title>Homiliae in evangelia, lib. 2, Hom. 26<note>, § 7-9</note></title>
                                 <incipit defective="true">datur. Sic <supplied>quip</supplied>pe discipulum post resurrectionem</incipit>
                                 <explicit defective="true">electis euadentibus in uentrem</explicit>
+                                <note>Roman numerals <quote>III</quote> and <quote>IIII</quote> in the margin marking probably section readings for the Divine Office.</note>
                             </msItem>
                         </msContents>
                         <physDesc>
                             <objectDesc form="fragment">
                                 <supportDesc material="perg">
                                     <extent>
-                                        <measure type="leavesCount">1</measure>
+                                        <measure type="leavesCount">1 (partial)</measure>
                                         <dimensions type="leaf_current" unit="mm">
                                             <height>387</height>
                                             <width>236</width>
@@ -446,7 +597,7 @@
         </encodingDesc>
     <revisionDesc status="draft">
         <listChange>
-            <change when="2021-07-31"></change>
+            <change when="2021-09-15"></change>
         </listChange>
     </revisionDesc>
     </teiHeader>
@@ -455,7 +606,8 @@
         <graphic url="https://manuscripta.at/images/AT/7000/AT7000-Fragm103/AT7000-Fragm103_1v-2r.jpg" n="salzburg_1v"/>
         <graphic url="https://manuscripta.at/images/AT/7000/AT7000-Fragm103/AT7000-Fragm103_1v-2r.jpg" n="salzburg_2r"/>
         <graphic url="https://manuscripta.at/images/AT/7000/AT7000-Fragm103/AT7000-Fragm103_2v-1r.jpg" n="salzburg_2v"/>
-        
+        <graphic url="https://nbn-resolving.org/urn:nbn:at:AT-OOeLB-3658671/fragment/page=3" n="linz_834_1r"/>
+        <graphic url="https://nbn-resolving.org/urn:nbn:at:AT-OOeLB-3658671/fragment/page=3" n="linz_834_1v"/>
     </facsimile>
     <text>
         <body>
