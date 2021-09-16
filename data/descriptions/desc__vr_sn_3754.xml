@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Fragmente MS: Vienna, ÖNB, Cod. Ser. n. 3754, Fragm. 782b and binding waste in Codd. 1361, 1696</title>
+                <title>Fragmente MS: Vienna, ÖNB, Cod. Ser. n. 3754, Fragm. 782b, Fragm. 782c and binding waste in Codd. 1361, 1696; Berlin, Staatsbibliothek, Fragm. 47</title>
                 <respStmt>
                     <resp>Description by </resp>
                     <persName>
@@ -36,11 +36,11 @@
                         </altIdentifier>          
                     </msIdentifier>
                     <head>
-                        <title>Pseudo-Hieronymus: Expositio quatuor evangeliorum</title>
+                        <title>Pseudo-Hieronymus: Expositio quatuor evangeliorum + Sermo de decem denariis + Ps. Arnobius iunior, Expositiunculae(Fragm. 782c)</title>
                         <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi></origDate>
                         <origPlace>Mondsee (?)</origPlace>
                         <note type="summary">From the original manuscript survive several fragments, which were used as binding waste in Mondsee manuscripts.</note>
-                        <note type="facs"><ref target="https://fragmentarium.ms/overview/F-b3km"></ref></note>
+                        <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-b3km"></ref></note>
                     </head> 
                     <history>
                         <origin>
@@ -72,8 +72,71 @@
                             <repository>Österreichische Nationalbibliothek</repository> 
                             <idno>Ser. n. 3754</idno>          
                         </msIdentifier>
+                        <head>
+                            <title></title>
+                            <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-s8pg"></ref></note>
+                            <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC14397883"></ref></note>
+                            <note type="facs"><ref target="http://data.onb.ac.at/dtl/6273849"></ref></note>
+                        </head>
+                        <msContents>
+                            <msItem>
+                                <locus>1r-2v</locus>
+                                <author>Ps-Hieronymus</author>
+                                <title>Expositio quatuor evangeliorum</title>
+                                <msItem>
+                                    <locus>1r-v</locus>
+                                    <incipit defective="true">amatores scientiae. De fermento accepto id est <sic>id est</sic> doctrina euangelii <gap reason="omitted"></gap> alligauit iohanem et <ref type="biblical" cRef="Mt_14,3">misit in carcerem</ref></incipit> 
+                                    <explicit defective="true"><ref type="biblical" cRef="Mt_14,22">iussit ascendere in navicula</ref> id est in ecclesia <gap reason="omitted"></gap> prima natura secunda cignatione tertia gente</explicit> 
+                                    <bibl><abbr>PL</abbr> 30, 552C-553B.</bibl>
+                                </msItem>
+                                <msItem>
+                                    <locus>2r-v</locus>
+                                    <incipit defective="true"><ref type="biblical" cRef="Lc_13,35">super scapulas suas. ecce relinquitur vobis domus vestra</ref> <gap reason="omitted"/> <locus>2v</locus> <gap reason="omitted"/> <ref type="biblical" cRef="Mt_25,1">Simile est regnum caelorum decem uirginibus</ref></incipit>
+                                        <explicit defective="true">in errore siue in securita<supplied>te</supplied></explicit>
+                                    <bibl><abbr>PL</abbr> 30, 558A-D.</bibl>
+                                </msItem>
+                            </msItem>
+                            <msItem>
+                                <locus>3r-4v</locus>
+                                <title>Sermons (?)</title>
+                                <msItem>
+                                    <locus>3r</locus>
+                                    <incipit defective="true">in qua doctrina commoras uel doces ait illis ihesus</incipit>
+                                    <explicit>ab initio cognouite quod confideris me.</explicit>
+                                    <bibl><note>Cf. </note><abbr>PL</abbr> 30, 578C.</bibl>
+                                </msItem>
+                                <msItem>
+                                    <locus>3r-v</locus>
+                                    <incipit><ref type="biblical" cRef="Mt_13,33">Simile est regnum coelorum fermento quod accepto mulier abscondit in farinam</ref>. mulier propter filiorum creatione</incipit>
+                                    <explicit>ad terram ut <gap reason="illegible"/> ab errore.</explicit>
+                                </msItem>
+                                <msItem>
+                                    <locus>3v</locus>
+                                    <incipit><ref type="biblical" cRef="Lc_15,11">Homo quidam h<supplied>abuit duos</supplied> filios et dixit illi iunior <gap reason="omitted"/> me contigit</ref>. hic pater deus est</incipit>
+                                    <explicit>tu mecum semper fuisti et es et omnia mea tua sunt.</explicit>
+                                </msItem>
+                                <msItem>
+                                    <locus>4r</locus>
+                                    <incipit><ref type="biblical" cRef="Lc_15,11">Homo quidam habuit <supplied>duos filios</supplied></ref>. homo deus pater intellegitur habens quos filios hoc est duo populi iudeorum et gentium</incipit>
+                                    <explicit defective="true">Rogabat introire hoc</explicit>
+                                    <bibl><note>Cf. </note><abbr>PL</abbr> 30, 574C.</bibl>
+                                </msItem>
+                                <msItem>
+                                    <locus>4v</locus>
+                                    <rubric>De operarios conuctos in uineam</rubric>
+                                    <incipit>Modo pater familias deus pater primo mane de principio mundi usque ad noe. Uinea mundus intellegitur</incipit>
+                                    <explicit>Otiosi hoc est in uoluntatibus saeculi.</explicit>
+                                </msItem>
+                                <msItem>
+                                    <locus>4v</locus>
+                                    <rubric>De quinque talentis</rubric>
+                                    <incipit>Hic homo christus intellegitur. Uocauit seruos apostolus ut praedicarent</incipit>
+                                    <explicit defective="true">sensus corporis uisu auditu gustu</explicit>
+                                </msItem>
+                            </msItem>
+                        </msContents>
                         <physDesc>
-                            <objectDesc form="codex">
+                            <objectDesc form="fragment">
                                 <supportDesc material="perg">
                                     <extent>
                                         <measure type="leavesCount" quantity="0" unit="folio">4</measure>
@@ -82,25 +145,19 @@
                                             <width>150-160</width>
                                         </dimensions>
                                     </extent>
-                                    <foliation/>
-                                    <collation>
-                                        <formula></formula>
-                                    </collation>
-                                    <condition/>
+                                    <foliation>Modern foliation in pencil.</foliation>
+                                    <condition>The four single leaves are bound together in a fascicle.</condition>
                                 </supportDesc>
                                 <layoutDesc>
-                                    <!--                                mehrere layout möglich für verschiedene Textteile oder für Haupttext und Glossen -->
-                                    <layout ruledLines="0" writtenLines="0" columns="0">
+                                    <layout writtenLines="25" columns="1">
                                         <dimensions type="written" unit="mm">
-                                            <height max="0" min="0"></height>
-                                            <width max="0" min="0"></width>
+                                            <height min="201">min 201</height>
+                                            <width min="110">min 110</width>
                                         </dimensions> 
-                                        <!--                                    optional Zeilenhöhe-->
                                         <dimensions type="lineHeight">
-                                            <height min="0" max="0"></height>
+                                            <height min="7" max="8">7-8</height>
                                         </dimensions>
-                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
-                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                        Blind ruling hardly visible due to fragmentation.
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -109,20 +166,18 @@
                                 <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
                             </handDesc>
                             <scriptDesc>
-                                <summary></summary>
+                                <summary>One hand wrote fols. 1-2 and another fols. 3-4. The script on fols. 3-4 is according to Bischoff the <quote>jüngerer Mondseer Typ</quote>.</summary>
                                 <scriptNote script="x" medium="x"></scriptNote>
                             </scriptDesc>
-                            <decoDesc>
-                                <decoNote type="x"/>
-                            </decoDesc>   
-                            <additions/> <!--Marginalia etc.-->
-                            <bindingDesc>
-                                <binding notBefore="0001" notAfter="0001">
-                                    <p/>
-                                </binding>
-                            </bindingDesc>
-                            <accMat/> <!--z.B. Fragmente oder beiliegende Notizen, die nicht Teil der HS sind-->
+                                <bindingDesc>
+                                    <binding contemporary="false">
+                                        <p>Modern carton binding.</p>
+                                    </binding>
+                                </bindingDesc>
                         </physDesc>
+                        <history>
+                            <provenance>The leaves served as binding waste, pastedowns in Vienna, ÖNB, Cod. 1477 (?). Unknown when the fragments were detached. 1955 the leaves were placed in the Series Nova collection.</provenance>
+                        </history>
                     </msFrag>
                     <msFrag>
                         <msIdentifier>
@@ -131,6 +186,136 @@
                             <repository>Österreichische Nationalbibliothek</repository> 
                             <idno>Fragm. 782b</idno>          
                         </msIdentifier>
+                        <head>
+                            <title></title>
+                            <note type="fragmentarium"><ref target="http://fragmentarium.ms/overview/F-jugm"></ref></note>
+                            <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC15482516"></ref></note>
+                            <note type="summary">Two fragmentary leaves: Fragm. 782b-1 made up of 12 strips and Fragm. 782b-2 made up of 7 strips.</note>
+                        </head>
+                        <msContents>
+                            <msItem>
+                                <title>In evangelium secundum Lucam</title>
+                                <msItem>
+                                    <locus>Fragm. 782b-1</locus>
+                                    <incipit defective="true"><supplied>Lucas ipse co</supplied>nsu<supplied>rgens syrus natio</supplied>ne</incipit>
+                                    <explicit defective="true">ab eis uol<supplied>untas</supplied> desiderii </explicit>
+                                    <bibl><abbr>PL</abbr> 30, 567B-568A.</bibl>
+                                </msItem>
+                                <msItem>
+                                    <locus>Fragm. 782b-2</locus>
+                                    <incipit>Uae <supplied>vobis</supplied></incipit>
+                                    <explicit><supplied>vestimen</supplied>to non in<supplied>due</supplied>bat<supplied>ur</supplied></explicit>
+                                    <bibl><abbr>PL</abbr> 30, 571B-572A.</bibl>
+                                </msItem>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="2" unit="folio">19 strips put together in 2 (partial) fols.</measure>
+                                        <dimensions type="leaf" unit="mm">
+                                            <height>265</height>
+                                            <width>130</width>
+                                        </dimensions>
+                                    </extent>
+                                    <condition>Fragm. 782b-1 made up of 12 strips and Fragm. 782b-2 made up of 7 strips. The strips in Fragm. 782b-2 were put together incorrectly so that the text jumps from one written line to the other. Two additinal strips are also attached to Fragm. 782b-2 which do not belong to the original manuscript.</condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout ruledLines="24" writtenLines="24" columns="1">
+                                        <dimensions type="written" unit="mm">
+                                            <height min="200">200-205</height>
+                                            <width min="120">120-125</width>
+                                        </dimensions> 
+                                        <dimensions type="lineHeight" unit="mm">
+                                            <height min="8" max="8">8</height>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>                           
+                        </physDesc>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Wien</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository>
+                            <idno>Fragm. 782c</idno>             
+                        </msIdentifier>
+                        <head>
+                            <title>Annotationes ad quaedam evangeliorum loca</title>
+                            <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC15482529"></ref></note>
+                            <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-reow"></ref></note>
+                            <note type="summary">The fragment represents one reconstructed partial leaf from a commentary on the gospel(s). </note>
+                        </head>
+                        <msContents>
+                            <textLang mainLang="lat"/> 
+                           
+                                <msItem>
+                                    <locus from="1r">1r</locus>
+                                    <title>Sermo de decem denariis</title>
+                                    <incipit defective="true">isaac confes<gap/> iacob benedictionem <gap/><supplied>h</supplied>ospitalitatem <gap/> sanctum docatum ioseph cas<gap/> iesunaue</incipit>
+                                    <explicit>Id est spes fides caritas quia spes fecit ut inueniretur adam fides uero fecit ut hoc est cum christo et omnes sanctis.</explicit>
+                                    <listBibl>
+                                        <bibl><abbr>CPPM</abbr> 1, 1721/3310.</bibl>
+                                        <bibl>Soage, Javier. ‘A Review of the Contents of Albi, Bibliothèque Municipale, Ms 40’. <title>Revue Bénédictine</title> 130 (2020): 260–90.</bibl>
+                                    </listBibl>
+                                </msItem>
+                                <msItem>
+                                    <locus from="1r" to="1v">1r-v</locus>
+                                    <author ref="#arnobius">Ps. Arnobius iunior</author>
+                                    <title>Expositiunculae Arnobii episcopi in evangelio Iohannis evangelistae <note>Cap. I-III</note></title>
+                                    <incipit>EUANGELIUM SECUNDUM IOHANNEM. In principio erat uerbum <gap/> <locus from="1v">1v</locus> <supplied>Princi</supplied>pium deus est <sic>quę</sic> est <supplied>princi</supplied>pator omnium <gap/> quia nihil est idola</incipit>
+                                    <explicit defective="true">in uino conuersa, passionem et cruorem demonstrat. DE HOMINE CECO</explicit>
+                                    <listBibl>
+                                        <bibl><abbr>PL</abbr> 53, 569C-570B.</bibl>
+                                        <bibl>Sancti Hieronymi presbyteri Tractatus sive homiliae in psalmos. Appendix. Arnobii episcopi Expositiunculae in evangelium. 1903, pp. <ref target="https://archive.org/search.php?query=external-identifier%3A%22urn%3Aoclc%3Arecord%3A1050268618%22">132-33</ref>.</bibl>
+                                        <bibl><note>For the (false) attribution of this text to Arnobius iunior, and its historical context see </note><abbr>Dorfbauer 2014</abbr>.</bibl>
+                                    </listBibl>
+                                </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="1" unit="folio">1 fol.</measure>
+                                        <dimensions type="leaf" unit="mm">
+                                            <height min="265">min 265</height>
+                                            <width min="140">min 140</width>
+                                        </dimensions>
+                                    </extent>
+                                    <condition>The original leaf was cut in vertical strips used as sewing guards. These were recollected by librarians in the 19<hi rend="sup">th</hi> and reconstructed to one partial leaf with gold beater’s skin. The strips are, however, incorrectly joint: first four (looking at the recto) are running one line under the last four.</condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout ruledLines="25" writtenLines="25" columns="1">
+                                        <dimensions type="written" unit="mm">
+                                            <height max="205" min="210">205-210</height>
+                                            <width max="120" min="125">120-125</width>
+                                        </dimensions>; one column, 25 lines per page. Line height:
+                                        <dimensions type="lineHeight" unit="mm">
+                                            <height min="8" max="8">8</height>
+                                        </dimensions>. Blind ruling (barely visible due to fragmentation). 
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <summary/>
+                                <handNote/>
+                            </handDesc>
+                            <scriptDesc>
+                                <summary>Early Carolingian minuscule with ligatures: ri (extended left below line), ti, ct, nt, st. Using e-caudata; two forms of a: open (cc-a) and Carolingian a.</summary>
+                                <scriptNote script="caprust" medium="x">Rubrications in the same black ink written in <term type="script">Capitalis rustica</term>.</scriptNote>
+                                <scriptNote>Simple three-line high initials (<term type="initial">built-up initials</term>, <term type="initial">litterae notabiliores</term>) in black ink.</scriptNote>
+                            </scriptDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace/>
+                                <origDate notBefore="0001" notAfter="0001"/>
+                            </origin>
+                            <provenance>The fragments were detached from the binding probably by librarians at the Court library in the 19<hi rend="sup">th</hi> c. <rs type="person">Stephan Ladislaus Endlicher</rs> (librarian from 1828) took specific interest in the fragments and transcribed them in what is now <ref type="altMs" target="http://data.onb.ac.at/rec/AC14251890">Vienna, ÖNB, Cod. Ser. n. 3960</ref>. Since Endlicher reordered parts of the manuscript collection, it is possible that the current shelfmark Frag. 782 (which is a conglomerate of fragments from several originally distinct manuscripts) reflects his interest and not the fact that the fragments served as binding waste in one and the same host volume. Hence it is not possible to establish a Mondsee provenance for Fragm. 782c based on the secured Mondsee origin and provenance of Vienna, ÖNB, Cod. Ser. n. 2065, <ref target="https://fragmentarium.ms/view/page/F-rm22/2003/23573">f. 4</ref> which was till recently preserved under the shelfmark Fragm. 782-1 / 782a.</provenance>
+                            <acquisition/>
+                        </history>
                     </msFrag>
                     <msFrag>
                         <msIdentifier>
@@ -141,9 +326,54 @@
                         </msIdentifier>
                         <head>
                             <title></title>
-                            <note type="facs"><ref target="https://fragmentarium.ms/overview/F-gsof"/></note>
+                            <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-gsof"/></note>
                             <note type="summary">Two fragments used to reinforce the pastedown of a Mondsee binding. The fragment on the left is the upper half of a single folio, the lower half thereof is now as in-situ fragment in Vienna, ÖNB, Cod. 1696. On the same board is pasted also a 12<hi rend="sup">th</hi>-century fragment of the Prologue to the <title>Expositio</title>, which was probably added to the original manuscript.</note>
                         </head>
+                        <msContents>
+                            <msItem>
+                                <locus>Left fragment</locus>
+                                <title>In evangelium secundum Matthaeum</title>
+                                <incipit defective="true"><supplied>praece</supplied>pit et non agnoscebat</incipit>
+                                <explicit defective="true">Locum tempus personam</explicit>
+                               <note>The fragment on the right preservs only a few letters. </note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="0" unit="folio">2 partial</measure>
+                                        <dimensions type="leaf" unit="mm">
+                                            <height>75</height>
+                                            <width>150</width>
+                                        </dimensions>
+                                    </extent>
+                                    <condition>The larger (identified) fragment is the upper half of a leaf, the lower part thereof is used as a pastedown in Cod. 1696 (see fragment below).</condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout ruledLines="23" writtenLines="23" columns="1">
+                                        <dimensions type="written" unit="mm">
+                                            <height max="153" min="155">153-155</height>
+                                            <width max="115" min="120">115-120</width>
+                                        </dimensions> 
+                                        <dimensions type="lineHeight" unit="mm">
+                                            <height min="8" max="9"></height>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote scribe="x" script="x" medium="x"></handNote>
+                            </handDesc>
+                            <scriptDesc>
+                                <scriptNote script="x" medium="x"></scriptNote>
+                            </scriptDesc>
+                            <decoDesc>
+                                <decoNote type="x"/>
+                            </decoDesc>   
+                            <additions/>
+                            <accMat>Anoter 12-th-century fragment preservs part of the prologue: <quote>iustitiam. Et sicut parad<supplied>isum</supplied> ... <supplied>elemen</supplied>tis consistit</quote>. Das Fragment gehört inhaltlich zu den anderen zwei Fragmenten, die als VS in den Cod. 1361 geklebt wurden. Es ist zu vermuten, dass der Prolog zu Expositio in quatuor evangeliorum als eine spätere (12. Jh.) Ergänzung der ursprünglichen Handschrift entstanden ist.</accMat> 
+                        </physDesc>
                     </msFrag>
                     <msFrag>
                         <msIdentifier>
@@ -153,9 +383,42 @@
                             <idno>Cod. 1696 (pastedown)</idno>          
                         </msIdentifier>
                         <head>
-                            <note type="facs"><ref target="https://fragmentarium.ms/overview/F-vgbq"/></note>
+                            <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-vgbq"/></note>
                             <note type="summary">The fragment serves as a pastedown on the front board of Cod. 1696. It is the lower half of a single folio, the upper half thereof is now as in-situ fragment in Vienna, ÖNB, Cod. 1361.</note>
                         </head>
+                        <msContents>
+                            <msItem>
+                                <locus>(pastedown left and right)</locus> 
+                                <title>In evangelium secundum Matthaeum</title>
+                                <incipit defective="true"><locus>left pastedown</locus> <supplied>im</supplied>pleta in ioseph per dauid <gap reason="omitted"/> Ostenditur quod ipse uisionem domini meruit uidere <supplied>qui fecit</supplied> <gap reason="lacuna"/> <locus>right pastedown</locus> aptum fuit quia domus panis interpretatur</incipit>
+                                <explicit defective="true">non alia creatura sed muta <note>verso almost completely illegible:</note> <supplied>ma</supplied>lis ostensio b<supplied>ona</supplied> qua<supplied>ndo magi</supplied></explicit>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="2" unit="folio">2 partial</measure>
+                                        <dimensions type="leaf" unit="mm">
+                                            <height>192</height>
+                                            <width>150</width>
+                                        </dimensions>
+                                    </extent>
+                                    <condition/>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout ruledLines="23" writtenLines="23" columns="1">
+                                        <dimensions type="written" unit="mm">
+                                            <height max="153" min="155">153-155</height>
+                                            <width max="115" min="120">115-120</width>
+                                        </dimensions> 
+                                        <dimensions type="lineHeight" unit="mm">
+                                            <height min="9" max="9"></height>
+                                        </dimensions>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                        </physDesc>
                     </msFrag>
                     <msFrag>
                         <msIdentifier>
@@ -165,7 +428,7 @@
                             <idno>Fragm. 47</idno>          
                         </msIdentifier>
                         <head>                            
-                            <note type="summary">The fragment serves as a pastedown on the front board of Cod. 1696. It is the lower half of a single folio, the upper half thereof is now as in-situ fragment in Vienna, ÖNB, Cod. 1361.</note>
+                            <note type="summary"></note>
                             <note type="catalogue"><ref target="https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/handschriften/abendlaendische-handschriften/signaturenuebersicht?action=permalink&amp;request=90469345%2CT"></ref></note>
                         </head>
                         <history>
@@ -194,14 +457,18 @@
     </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="" n="1r"/>
+        <graphic url="https://fragmentarium.ms/view/page/F-reow/2709/30902" n="1r"/>
+        <graphic url="https://fragmentarium.ms/view/page/F-reow/2709/30903" n="1v"/>
     </facsimile>
     <text>
         <body>
             <head>
-                <title>Transkription des Textes ... </title>
+                <title>Transcription of Fragm. 782c</title>
             </head>
-            <p><pb n="1r"/> ... </p>
+            <p><pb n="1r"/><gap reason="damage"/> isaac confes<gap reason="damage"/> iacon benedictionem <gap reason="damage"/> ospitalitatem. <gap reason="damage"/> sanctam docatum, ioseph cas <gap reason="damage"/> iesu naue sine <gap reason="damage"/> est. Dauid reguliosti unum ex his hominibus unus denarius. enarrauit idem adam qui praeceptum quam a domino acceperat non custodiuit ieiunium. Pro quod mulieri id est lex sancta lucerna accendit et scopauit domum suam scopa enim omnes inmunditia trahit de domo. id est poenitentia qui animam et corpus de omnis inmunditiis <gap/>trahit. Quia cum multis annis adam egisset poenitentiam, sic legitimam eroget (?) habere indulgentiam id est lex sancta. Uicinas <unclear>immitat</unclear> ad gaudium dicens uenite et gaudete mecum qui inueni dinarium illum quem dideram id est VII ecclesias quorum nomina haec sunt. prima ephyso geniana, pergamum tyachyra filadelfia sardis et laoditia. Dicens uenite et gaudete mecum quia inueni dinarium illum quam perdideram uicinis inuitat ad iustitiam uel laetitiam. Id est spes fides caritas qua spes fecit ut inueniretur adam fides uero fecit ut hoc est cum christo et omnes sanctis in paradyso letetur.</p>
+            <p>EUANGELIUM SECUNDUM IOHANNEM In principio erat uerbum et uerbum erat apud deum et deus erat uerbum. Hoc erat in principio <gap reason="damage"/> <pb n="1v"/>ipso factum est nihil <gap reason="damage"/> <supplied>princi</supplied>pium deus est quae e<gap reason="damage"/> <supplied>princi</supplied>pator omnium quae esse <gap reason="damage"/> erat uerbum <gap reason="damage"/> christus. De quo dicit u<gap/> erat apud d<gap/> erat uerbum, ostendit christum et deum deprocessit de quo in spalmo uox paterna dicit. Eructauit cor meum uerbum bonum. Hoc est christus per quem omnia facta sunt et sine ipsum facta est nihil. hoc est idola quae sine arbitrium christi facti sunt de quo apostolus dicit scimus quia nihil est idola.</p> 
+            <p>IN CHANAAN GALILEAE. Die tertio nuptie facte sunt et erat ibi mater ihesu et discipuli eius. Facta sunt ista omnia sed habent in se spiritale intellectum. Nuptie  quidem conuentio christi est et ecclesiae hoc est legis traditiones. Idriae autem VI lapidis et ecclesias VI demonstrat supra petra fundatas. Aqua inquit impletas hoc est baptismi gratiae. Quod autem dicit sapientes metretas binas hi sunt qui matrimonium iunguntur. ternas autem capientes hic sunt quam perfecti spiritali trinitate et uirtute impletur. Architriclinus hoc est moyses sponsus autem christus. aqua <unclear>uero</unclear> in uino conuersa, passionem et cruorem demonstrat.</p>
+            <p>DE HOMINE CECO <gap reason="lacuna"/></p>
         </body>
     </text>
 </TEI>

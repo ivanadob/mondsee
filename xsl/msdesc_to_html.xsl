@@ -725,6 +725,14 @@
 			</xsl:otherwise>
 		</xsl:choose>
 	</p>
+	<xsl:choose>
+		<xsl:when test="(tei:note[@type = 'summary'] != '')">
+			<p> 
+				<xsl:attribute name="class">schlagzeile</xsl:attribute>
+				<xsl:apply-templates select="tei:note[@type = 'summary']"/>
+			</p>
+		</xsl:when>
+	</xsl:choose>
 </xsl:template>
 
 <xsl:template match="tei:head[not(normalize-space(.)='')]" mode="Schlagzeile">

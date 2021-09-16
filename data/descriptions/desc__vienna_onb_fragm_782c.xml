@@ -30,20 +30,20 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="de" xml:id="onb-fragm-782c">
+                <msDesc xml:lang="en" xml:id="onb-fragm-782c">
                     <msIdentifier>
                         <country>Austria</country>
                         <settlement>Wien</settlement>
                         <repository>Österreichische Nationalbibliothek</repository>
-                        <idno>Fragm 782c</idno>             
+                        <idno>Fragm. 782c</idno>             
                     </msIdentifier>
                     <head>
                         <title>Annotationes ad quaedam evangeliorum loca</title>
                         <origDate notBefore="0801" notAfter="0900">s. IX</origDate>
                         <origPlace>Mondsee (?)</origPlace>
                         <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC15482529"></ref></note>
-                        <note type="facs"><ref target="https://fragmentarium.ms/overview/F-reow"></ref></note>
-                        <note type="summary">The fragment represents one reconstructed partial leaf from a commentary on the gospel(s). Its Mondsee origin is suggested by the palaeographical similarities with other Mondsee manuscripts (e.g. Cod. Ser. n. 3754). For the exact content, (false) attribution to Arnobius iunior, and historical context see Dorfbauer 2014.
+                        <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-reow"></ref></note>
+                        <note type="summary">The fragment represents one reconstructed partial leaf from a commentary on the gospel(s). Its Mondsee origin is suggested by the palaeographical similarities with other Mondsee manuscripts (e.g. Cod. Ser. n. 3754).
                             <list>
                                 <head>MATERIAL ANALYSIS:</head>
                                 <item>ink from text block and from the initials on both recto and verso.</item>
@@ -66,30 +66,32 @@
                                 <title>Expositiunculae Arnobii episcopi in evangelio Iohannis evangelistae <note>Cap. I-III</note></title>
                                 <incipit>EUANGELIUM SECUNDUM IOHANNEM. In principio erat uerbum <gap/> <locus from="1v">1v</locus> <supplied>Princi</supplied>pium deus est <sic>quę</sic> est <supplied>princi</supplied>pator omnium <gap/> quia nihil est idola</incipit>
                                 <explicit defective="true">in uino conuersa, passionem et cruorem demonstrat. DE HOMINE CECO</explicit>
-                                <bibl><abbr>PL</abbr> 53, 569C-570B.</bibl>
-                                <bibl>Sancti Hieronymi presbyteri Tractatus sive homiliae in psalmos. Appendix. Arnobii episcopi Expositiunculae in evangelium. 1903, pp. <ref target="https://archive.org/search.php?query=external-identifier%3A%22urn%3Aoclc%3Arecord%3A1050268618%22">132-33</ref>.</bibl>
-                                <bibl>Dorfbauer, Lukas. ‘Neues zu den “Expositiunculae in Evangelium Iohannis evangelistae Matthaei et Lucae” (CPL 240) und ihrem vermeintlichen Autor “Arnobius Iunior”’. <title>Revue bénédictine</title> 124 (2014): 65–102, 261–97.</bibl>
+                                <listBibl>
+                                    <bibl><abbr>PL</abbr> 53, 569C-570B.</bibl>
+                                    <bibl>Sancti Hieronymi presbyteri Tractatus sive homiliae in psalmos. Appendix. Arnobii episcopi Expositiunculae in evangelium. 1903, pp. <ref target="https://archive.org/search.php?query=external-identifier%3A%22urn%3Aoclc%3Arecord%3A1050268618%22">132-33</ref>.</bibl>
+                                    <bibl><note>For the (false) attribution of this text to Arnobius iunior, and its historical context see </note><abbr>Dorfbauer 2014</abbr>.</bibl>
+                                </listBibl>
                             </msItem>
                         </msItem>
                     </msContents>
                     <physDesc>
-                        <objectDesc form="codex">
+                        <objectDesc form="fragment">
                             <supportDesc material="perg">
                                 <extent>
-                                    <measure type="leavesCount" quantity="1" unit="folio">1</measure>
+                                    <measure type="leavesCount" quantity="1" unit="folio">1 fol.</measure>
                                     <dimensions type="leaf" unit="mm">
                                         <height min="265">min 265</height>
                                         <width min="140">min 140</width>
                                     </dimensions>
                                 </extent>
-                                <condition>The original leaf was cut in vertical strips used as sewing guards. These were recollected by librarians in the 19<hi rend="sup">th</hi> and reconstructed to one partial leaf with goldbeater's skin. The strips are, however, incorrectly joint: first four (looking at the recto) are running one line under the last four.</condition>
+                                <condition>The original leaf was cut in vertical strips used as sewing guards. These were recollected by librarians in the 19<hi rend="sup">th</hi> and reconstructed to one partial leaf with gold beater’s skin. The strips are, however, incorrectly joint: first four (looking at the recto) are running one line under the last four.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout ruledLines="25" writtenLines="25" columns="1">
                                     <dimensions type="written" unit="mm">
                                         <height max="205" min="210">205-210</height>
                                         <width max="120" min="125">120-125</width>
-                                    </dimensions>; one column, 25 lines per page. Line hieght:
+                                    </dimensions>; one column, 25 lines per page. Line height:
                                     <dimensions type="lineHeight" unit="mm">
                                         <height min="8" max="8">8</height>
                                     </dimensions>. Blind ruling (barely visible due to fragmentation). 
@@ -135,9 +137,9 @@
                 <p></p>
             </editorialDecl>
         </encodingDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
         <listChange>
-            <change></change>
+            <change when="2021-09-15">Typos corrections in text.</change>
         </listChange>
     </revisionDesc>
     </teiHeader>
