@@ -77,7 +77,7 @@
                         <msContents>
                             <msItem>
                                 <locus>1ra</locus> 
-                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                 <title>Homiliae in evangelia, lib. 1, Hom. 5</title>
                                 <incipit defective="true">contemnenda perducatur</incipit>
                                 <finalRubric>EXPLICIT OMELIA V</finalRubric>
@@ -85,7 +85,7 @@
                             <msItem>
                                 <locus>1ra-1vb</locus>
                                 <rubric>LECTIO EUANGELII SECUNDUM MATH</rubric>
-                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                 <title>Homiliae in evangelia, lib. 1, Hom. 6</title>
                                 <incipit><ref type="biblical" cRef="Mt_11,2">In illo tempore Cum audisset iohanis ... preparauit uiam tuam ante te</ref> INCIPIT OMELIA LECTIO SECUNDUM EIUSDEM. QUERENDUM NOBIS EST fratres karissimi</incipit> 
                                 <explicit>ut pro hominibus auctor uite moriretur</explicit>
@@ -93,7 +93,7 @@
                             </msItem>
                            <msItem> 
                                <locus>3ra-4ra</locus>
-                               <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                               <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                <title>Homiliae in evangelia, lib. 1, Hom. 7</title>
                                <incipit defective="true">studio non mutatur <gap reason="omitted"/> nullatenus potest. Quomodo corpor<supplied>atur</supplied> <gap reason="lacuna"/> <note>lacuna 1 leaf</note> <note>4ra</note> <gap reason="illegible"/> Qui enim sine humilitate virtutes congregat</incipit> 
                                <explicit defective="true">ex humilitate ualeatis</explicit>
@@ -102,7 +102,7 @@
                                 
                                 <msItem>
                                     <locus>4ra-4vb</locus>
-                                    <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                    <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                     <title>Homiliae in evangelia, lib. 1, Hom. 8</title>
                                     <rubric><gap reason="illegible"/></rubric>
                                     <incipit><ref type="biblical" cRef="Lc_2,1">In illo tempore Exiit edictum</ref> <gap reason="omitted"/> <note>4va</note> <gap reason="illegible"/> Sed nos aliquid uel breviter dicere</incipit>
@@ -114,7 +114,7 @@
                                 </msItem>
                             <msItem>
                                     <locus>5ra-5vb</locus>
-                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                 <title>Homiliae in evangelia, lib. 1, Hom. 9<note>, § 5-7</note></title>
                                     <incipit defective="true">designatur. Per duo autem intellectus</incipit>
                                     <explicit defective="true">pro retento talento timeant. Si non cotidiae</explicit>
@@ -122,7 +122,7 @@
                                 </msItem>
                             <msItem>
                                 <locus>6r-v</locus> 
-                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                 <title>Homiliae in evangelia, lib. 1, Hom. 10<note>, § 6-7</note></title>
                                 <incipit defective="true">credunt. hi profecto ei</incipit>
                                 <explicit defective="true">ante oculos cordis hinc</explicit>
@@ -130,7 +130,7 @@
                             </msItem>
                             <msItem>
                                 <locus>7r-v</locus> 
-                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                 <title>Homiliae in evangelia, lib. 1, Hom. 11<note>, § 4</note></title>
                                 <incipit defective="true">Quae ex omni genere piscium congregat <gap reason="omitted"/> significat littus maris <gap reason="lacuna"/> <note>7rb</note> traebat et quidem pisces <gap reason="omitted"/> sotietate separa<supplied>tur</supplied> <note>7va</note> quam exponendum. Aperta <gap reason="omitted"/> proferenti de thesauro suo <gap reason="lacuna"/> <note>7vb</note> <supplied><unclear></unclear></supplied>ciuit. Dum ergo ab hoc intellectu</incipit> 
                                 <explicit defective="true">Quod tamen in<supplied>telligi</supplied></explicit>
@@ -138,7 +138,7 @@
                             </msItem>
                             <msItem>
                                 <locus>8ra-vb</locus>
-                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                 <title>Homiliae in evangelia, lib. 1, Hom. 12</title>
                                 <incipit defective="true">ianua. O si sapere in cordis palatu <gap reason="omitted"/> mouebo non solum terram <gap reason="lacuna"/> <note>8rb</note> erit. Quae illa co<supplied>nfusio</supplied>] cui <gap reason="omitted"/> dies tube et <gap reason="lacuna"/> <note>8va</note> <supplied>si</supplied>mul ad nuptias <gap reason="omitted"/> non erit, quia <gap reason="lacuna"/> <note>8vb</note> <supplied>inter</supplied>clusa regni ianua</incipit>
                                 <explicit defective="true">Hinc est enim </explicit>
@@ -147,7 +147,7 @@
                                 
                                 <msItem>
                                     <locus>9r-v</locus>
-                                    <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                    <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                     <title>Homiliae in evangelia, lib. 1, Hom. 12</title>                                    
                                     <incipit defective="true"><gap reason="illegible"/> Quando <supplied>v</supplied>enerit super uos <gap reason="omitted"/> Ecce ap<supplied>eriri clamant</supplied> et repu<supplied>lsionis</supplied> <gap reason="lacuna"/> <note>9v</note> <supplied>Coe</supplied>pit tremere</incipit> 
                                     <explicit defective="true">tibi aliquid mal<supplied>i feci</supplied> </explicit>
@@ -155,7 +155,7 @@
                                 </msItem>
                             <msItem>
                                 <locus>10r-v</locus>
-                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                 <title>Homiliae in evangelia, lib. 1, Hom. 13</title>
                                 <note>erhalten nur je vier Zeile von der inneren Spalte eines Einzelblattes.</note>
                                 <incipit>inlus<supplied>trati</supplied>one nos satiat <gap reason="lacuna"/> sit vero dictum est <supplied>cum de ju</supplied>dicio ad regnum <gap reason="lacuna"/> <note>10v</note> inpoenitens the<supplied>sauriz</supplied>as tibi iram in die <supplied>irae</supplied> et revelationis</incipit> 
@@ -163,7 +163,7 @@
                             </msItem>
                             <msItem>
                                 <locus>11ra-vb</locus>
-                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                 <title>Homiliae in evangelia, lib. 1, Hom. 13</title>
                                 <incipit defective="true">deducuntur. ut per haec animus ad sui custodiam</incipit>
                                 <explicit>cum uenerit uincitur si prius<supplied>quam</supplied></explicit> 
@@ -234,21 +234,21 @@
                         <msContents>
                             <msItem>
                                 <locus>1ra-rb (Fragm. 15-1 and Fragm. 15-2)</locus>
-                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                 <title>Homiliae in evangelia, lib. 1, Hom. 12<note>, § 7</note></title>
                                 <incipit defective="true"><supplied>ni</supplied>mirum constat quia pro nobis <gap reason="omitted"/> nam illi tetros spiritus <gap reason="lacuna"/> <note>1rb</note> orate nefiat fuga uestra</incipit>
                                 <explicit defective="true">fugire quando iam per peniten<supplied>tiam</supplied> <gap reason="lacuna"/> fugare non licet modo</explicit>
                             </msItem>
                             <msItem>
                                 <locus>1va-vb</locus>
-                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                 <title>Homiliae in evangelia, lib. 1, Hom. 13</title>
                                 <incipit defective="true"><supplied>pulsa</supplied>uerit confestim aperie ei <gap reason="omitted"/> et facit illos <gap reason="lacuna"/> <note>1vb</note> transcurrimus quatenus eius expositio</incipit> 
                                 <explicit><supplied>dia</supplied>bolo ad beatum Iob.</explicit>
                             </msItem>
                             <msItem>
                                 <locus>2ra-vb (Fragm. 15-3, 15-4, 15-5)</locus>
-                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                 <title>Homiliae in evangelia, lib. 1, Hom. 13<note>, § 1-4</note></title>
                                 <incipit defective="true">et fortitudo illius in umbilico uentris eius</incipit> 
                                 <explicit defective="true">quid uigilantibus seruis exhi<supplied>beat</supplied></explicit>
@@ -293,7 +293,7 @@
                         <msContents>
                             <msItem>
                                 <locus>Fragm. 210a-1</locus>
-                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                 <title>Homiliae in evangelia, lib. 1, Hom. 10<note>, § 2</note></title>
                                 <incipit defective="true"><supplied>i</supplied>udaeorum corde du<supplied>ritia</supplied> Quae hunc neque <supplied>per prop</supplied>hetiae donum nec per <gap reason="lacuna"/> <note>1v</note> <supplied>poe</supplied>nitendum nolunt e<supplied>umque</supplied> confiteri abnega<supplied>nt quem</supplied> elementa ut dixi<supplied>mus</supplied></incipit>
                             </msItem>
@@ -346,7 +346,7 @@
                         
                         <msContents>
                             <msItem>
-                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                 <title>Homiliae in evangelia, lib. 2, Hom. 39<note> §3-4</note></title>
                                 <incipit defective="true">in amaritudinem rixae uertentur <gap reason="omitted"/>  inimici tui <supplied>vallo</supplied> Qui unquam sunt <gap reason="damage"/> <note>verso</note> <supplied>ma</supplied>ligni <supplied>spiritus, qui h</supplied>anc a cor<supplied>pore</supplied></incipit>
                                 <explicit defective="true">Sicut scriptum est In illa die peribunt</explicit>                                
@@ -381,7 +381,7 @@
                         </head>
                         <msContents>
                             <msItem>
-                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                 <title>Homiliae in evangelia, lib. 2, Hom. 39<note>, § 10</note></title>
                                 <incipit defective="true"><supplied>proti</supplied>nus p<supplied>roiecit</supplied> et ex<supplied>pandit ac d</supplied>esuper <gap reason="illegible"/> sup<supplied>p</supplied>osuit eumque s<supplied>uo</supplied> pal<supplied>lio</supplied> undique constructum super humerum leuauit</incipit> 
                                 <explicit defective="true">Qui sanctus uir m<supplied>ox ut est</supplied> monasterium <supplied>ingressus</supplied> ei pater mo<supplied>nasterii</supplied></explicit>
@@ -420,7 +420,7 @@
                         </head>
                         <msContents>
                             <msItem>
-                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                 <title>Homiliae in evangelia, lib. 1, Hom. 12</title>
                                 <incipit defective="true">quisque uoc<supplied>e praedicat</supplied> quod uiu<supplied>endo</supplied></incipit>
                                 <explicit defective="true">humanos <supplied>favores ex</supplied>petunt doc<supplied>trinae</supplied></explicit> 
@@ -457,7 +457,7 @@
                         </head>
                         <msContents>
                             <msItem>
-                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                 <title>Homiliae in evangelia, lib. 1, Hom. 12</title>
                                 <incipit defective="true">proximorum quaerunt. Notandum vero quod omnes lampades habent <gap reason="omitted"/> qui de his quae foris egerint <gap reason="lacuna"/> <note>col. 2</note> Ecce sponsus venit, exite obviam ei. De adventu sponsi</incipit> 
                                 <explicit defective="true">omnes uirgines surgunt</explicit>
@@ -493,7 +493,7 @@
                         <msContents>
                             <msItem>
                                 <locus from="salzburg_1r" to="salzburg_2v">1ra-2vb</locus>
-                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                 <title>Homiliae in evangelia, lib. 2, Hom. 34<note>, § 4-6 and 11</note></title>
                                 <incipit defective="true">celo gaudium esse fateatur, nisi hoc quod ipsi per cotidianum visionis experimentum <gap reason="omitted"></gap> <locus from="salzburg_1v">1vb</locus> penitentiam damnat iniustus. Sequitur <gap reason="omitted"></gap> <locus from="salzburg_2r">2ra</locus> Sed quid prodest nos de angelis spiritibus ista perstringere, si non studeamus</incipit> 
                                 <explicit><supplied>sem</supplied>per inherentes, hoc in munere virtutis accipiunt, ut indicare</explicit>
@@ -541,7 +541,7 @@
                         <msContents>
                             <msItem>
                                 <locus from="linz_834_1r" to="linz_834_1v">1ra-1vb</locus>
-                                <author ref="#gregorius_magnus">Gregoroius Magnus</author>
+                                <author ref="#gregorius_magnus">Gregorius Magnus</author>
                                 <title>Homiliae in evangelia, lib. 2, Hom. 26<note>, § 7-9</note></title>
                                 <incipit defective="true">datur. Sic <supplied>quip</supplied>pe discipulum post resurrectionem</incipit>
                                 <explicit defective="true">electis euadentibus in uentrem</explicit>
