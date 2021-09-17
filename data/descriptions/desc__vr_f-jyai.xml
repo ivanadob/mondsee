@@ -1,8 +1,8 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="en" xml:base="sn_2066/tei-msDesc_dobcheva.xml" xml:id="sn_2066_tei-msDesc_dobcheva">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="en" xml:base="f-jyai/tei-msDesc_dobcheva.xml" xml:id="f-jyai_tei-msDesc_dobcheva">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Fragmented MS: Vienna, ÖNB, Cod. Ser. n. 2066, Fragm. 15, Fragm. 210, Fragm. 1584; Linz, OÖLB, Hs. 834; Munich, BSB, Clm 18704, Salzburg, Archiv der Erzdiözese, Fragm. 103, and offsets from lost pastedowns in Vienna, ÖNB, Codd. 3651 and 3895</title>
+                <title>F-jyai: Vienna, ÖNB, Cod. Ser. n. 2066, Fragm. 15, Fragm. 210, Fragm. 1584; Linz, OÖLB, Hs. 834; Munich, BSB, Clm 18704, Salzburg, Archiv der Erzdiözese, Fragm. 103, and offsets from lost pastedowns in Vienna, ÖNB, Codd. 3651 and 3895</title>
                 <respStmt>
                     <resp>Description by</resp>
                     <persName>

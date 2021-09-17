@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="en" xml:base="+++/tei-msDesc_dobcheva.xml" xml:id="_tei-msDesc_dobcheva">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="en" xml:base="f-1ie7/tei-msDesc_dobcheva.xml" xml:id="f-1ie7_tei-msDesc_dobcheva">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,15 +29,10 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="en" xml:id="xxx-xxx">
+                <msDesc xml:lang="en" xml:id="F-1ie7">
                     <msIdentifier>
-                        <country></country>
-                        <settlement></settlement>
-                        <institution></institution>
-                        <repository></repository> 
-                        <idno></idno>
-                        <altIdentifier type="former"> 
-                            <idno></idno>
+                        <altIdentifier type="collection"> 
+                            <idno>F-1ie7</idno>
                         </altIdentifier>                       
                     </msIdentifier>
                     <head>
