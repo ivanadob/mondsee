@@ -1,0 +1,357 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="en" xml:base="f-cy7v/tei-msDesc_dobcheva.xml" xml:id="f-cy7v_tei-msDesc_dobcheva">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>F-cy7v: Vienna, ÖNB, Cod. 15480, Fragm. 782e, and binding waste in ÖNB, Cod. 3628, and Cod. 3781</title>
+                <respStmt>
+                    <resp>Description by</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                    </persName>
+                </respStmt>                
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 encoding </resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                    </persName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher></publisher>
+                <idno type="PID"></idno>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en" xml:id="f-cy7v">
+                    <msIdentifier>
+                        <country></country>
+                        <settlement></settlement>
+                        <institution></institution>
+                        <repository></repository> 
+                        <idno></idno>
+                        <altIdentifier type="collection"> 
+                            <idno>F-cy7v</idno>
+                        </altIdentifier>                       
+                    </msIdentifier>
+                    <head>
+                        <title>Publius Papinius Statius: Thebais</title>
+                        <origDate notBefore="0001" notAfter="0010"></origDate>
+                        <origPlace></origPlace>
+                    </head> 
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent>
+                                    <measure type="leavesCount" quantity="0" unit="folio"></measure>
+                                    <dimensions type="leaf_current" unit="mm">
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </extent>
+                                <foliation/>
+                                <collation>
+                                    <formula></formula>
+                                </collation>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ruledLines="0" writtenLines="0" columns="0">
+                                    <dimensions type="written" unit="mm">
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions> 
+                                    <dimensions type="column" unit="mm">
+                                        <width></width>
+                                    </dimensions>
+                                    <dimensions type="lineHeight" unit="mm">
+                                        <height></height>
+                                    </dimensions>
+                                   <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary></summary>
+                            <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <summary></summary>
+                            <scriptNote script="x" medium="x"></scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote type="x"/>
+                        </decoDesc>   
+                        <additions/>
+                        <bindingDesc>
+                            <binding notBefore="0001" notAfter="0001">
+                                <p/>
+                            </binding>
+                        </bindingDesc>
+                        <accMat/> 
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate notBefore="0001" notAfter="0001"/>
+                        </origin>
+                        <provenance/>
+                        <acquisition/>
+                    </history>
+                    <additional>
+                        
+                        <adminInfo>
+                            <recordHist>
+                                <p>
+                                <bibl></bibl>
+                                </p>
+                            </recordHist>
+                        </adminInfo>
+                        <surrogates>
+                            <ref/>
+                        </surrogates> 
+                        <listBibl>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <institution>Österreichische Nationalbibliothek</institution>
+                            <idno>Cod. 15480</idno>
+                            <altIdentifier type="former">
+                                <idno>Suppl. 2743</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <head>
+                            <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-kxac"></ref></note>
+                            <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13950162"></ref></note>
+                        </head>
+                        <msContents>
+                            <msItem>
+                                <note>(1r) Lib. II, vv. 414-446: squamea colla uenenu[m] ... parere tirann[o. Non parci]t populis regnum b[reue] (1v) die erste Zeile weggeschnitten: vv. 448-480: hos ego quis certa ... Prospectant matres seuoque infand[a precantur];
+                                    (2r-v) Lib. III, vv. 1-61: At non Aonie moderator perfidus aulę ... seu fortuna [fuit, seu] quod pudet ira fateri (vv. 28-29 von unterem Rand 2r weggeschnitten);
+                                    (3r-v) Lib. III, vv. 268-335: spumantem proni mandunt adamanta iugales ... turpe gemens crudosque uetat sentire dolores;
+                                    (4r-v) Lib. III, vv. 472-539: addere [consilium] uolucresque [implere futuri] ... [hic excelsa pet]ens subita face solus inarsit;
+                                    (5r-6v) Lib. IV, vv. 144-280: stagna subit magnumque obie[ctus detinet amnem] ... cruda puerperia ac [populos umbros]a creauit;
+                                    (7r-v) Lib. VII, vv. 21-86: discus [et Oebalii coeunt in proelia caestus] / at si ipsi rabies ferrique insana uoluptas ... ut si quando ruit debellatasque relinquit (vv. 53-55 von unterem Rand weggeschnitten);
+                                    (8r-v) Lib. XI, vv. 640-707: I[ntrauit] tandem et uenas per[rumpi]t aniles ... [d]a, rex magne ducem. timuit miseran[da re]linqui;
+                                    (8av) Lib. X, vv. 221-246: corde deus flagrant comitari [et iungere casus] ... non aliter moto quam si pater [Aeolus antro];
+                                    (8ar) Lib. X, vv. 255-281: longaeuique ducis gremio commendat honorem ... [infelix te]llure sopor supremaque nubes;
+                                    (9v-r) Lib. XI, vv. 708-761: [A]ntigone mutatque preces felic[ia per t]e ... [nox fa]uet et grata profugos amplectitur umbra. Nach eine Zeile Abstand: Argumentum zum Lib. XII: [...] alterno occiderunt uulnere fratres ... [Quem ste]rnit telo graiorumque immolat umbris;
+                                    (10r-v) Lib. XI, vv. 573-639: Concidit et totis fratrem grauis obruit armis ... Luctata est dextrę et prono uix pectore ferrum;
+                                    (11r-v) Lib. XII, vv. 2-98: ortus et instantem cornu tenuiore uidebat ... Spirantes super inferias [c]aptiua pelasgum (v. 35 am unteren Rand weggeschnitten).</note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount">12 fol.</measure>
+                                        <dimensions type="leaf" unit="mm">
+                                            <height>215</height>
+                                            <width>185</width>
+                                        </dimensions>
+                                    </extent>
+                                    <condition></condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                        <additional>
+                            <listBibl>
+                                <bibl>Munk Olsen, Birger. L’ étude des auteurs classiques latins aux XIe et XIIe siècles. Bd. II. Paris: CNRS, 1985, Stat. C. 124.</bibl>
+                                <bibl>Williams, R. D., 'The Vienna fragment of Statius' "Thebaid",' Revue de Philologie Ser. 3, 23 (1949): 151–153.</bibl>
+                                <bibl>Tabulae codicum, Bd. 8, S. 165 (http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0751h_b0165_jpg.htm).</bibl>
+                            </listBibl>
+                        </additional>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <institution>Österreichische Nationalbibliothek</institution>
+                            <idno>Cod. 3628 (binding waste)</idno>
+                        </msIdentifier>
+                        <head>
+                            <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-14t7"></ref></note>
+                        </head>
+                        <msContents>
+                            <msItem>
+                                <note>Reihenfolge der Längsstreifen für die Rectoseite: Falz zw. ff. 54/55, lacuna, 102/103, lacuna, 30/31, 18/19; bzw. Versoseite: Falz zw. ff. 18/19, 30/31, lacuna, 102/103, lacuna 55/56.
+                                    Erhalten sind Teile von Lib. VI, vv. 779-809 auf der Rectoseite und vv. 814-844 auf der Versoseite: (Recto) [circumit ex]pug[nans] leua[t ecce diu]que minatur ... ['ite, oro] soci[i, furi]t ite [opponite] dextras [...] (Verso) Hippom[edon; tunc] uix am[bo c]onat[ibus ambas] ... Exiguu[s, grauia] ossa ta[men no]disque [lacerti].</note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount">1 fol. (4 strips)</measure>
+                                        <dimensions type="leaf" unit="mm">
+                                            <height>218</height>
+                                            <width>12</width>
+                                        </dimensions>
+                                    </extent>
+                                    <condition>The fragments are used as sewing guards in the middle of the quires between ff- 18-19, 30-31, 54-55 and 102-103.</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <institution>Österreichische Nationalbibliothek</institution>
+                            <idno>Cod. 3781 (binding waste)</idno>
+                        </msIdentifier>
+                        <head>
+                            <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-hxdw"></ref></note>
+                        </head>
+                        <msContents>
+                            <msItem>
+                                <note>Die zwei Streifen bilden ein Einzelblatt (VS) Lib. X, vv. 324-337:  Fors illi praesaga quies [nigrasque gravatus] / per somnum Thebas et Thiodomanta uidebat ... praemia noctis [Lacuna vv. 338-352 im Buchrücken] (HS) vv. 353-357: [Thebanique canes? patriae] quid deinde feretis ... [ille nec] abruptis adeo lacrimabilis annis. </note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount">1 fol. (2 strips)</measure>
+                                        <dimensions type="leaf" unit="mm">
+                                            <height>170</height>
+                                            <width>60</width>
+                                        </dimensions>
+                                    </extent>
+                                    <condition>Die zwei Fragmente sind als Rückenverstärkung um den Rücken und zusätzlich auf beide Deckelinnenseiten geklebt, sodass ein Teil des Textes in der Mitte vom Buchrücken verdeckt bleibt.</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msFrag>
+                    <msFrag>
+                       <msIdentifier>
+                           <country>Austria</country>
+                           <settlement>Vienna</settlement>
+                           <institution></institution>
+                           <repository>Österreichische Nationalbibliothek</repository> 
+                           <idno>Fragm. 782e</idno>
+                        <altIdentifier type="collection">
+                            <idno>F-3u65</idno>
+                        </altIdentifier>
+                        </msIdentifier>
+                        <head>
+                            <title></title>
+                            <origDate notBefore="1001" notAfter="1150">s. XI-XII<hi rend="sup">1</hi></origDate>
+                            <origPlace>South Germany, Austria, Mondsee (?)</origPlace>
+                            <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-3u65"></ref></note>
+                            <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC15483630"></ref></note>                            
+                        </head>
+                        <msContents>
+                            <textLang mainLang="lat" otherLangs=""/>
+                            <msItem>
+                                <locus from="x" to="x"/>
+                                <title/>
+                                <author/>
+                                <rubric/>
+                                <incipit/>
+                                <explicit/>
+                                <finalRubric/>
+                                <colophon></colophon>
+                                <decoNote></decoNote>
+                                <note>Der Streifen gehört zu den Langstreifen in situ in Cod. 3628, wo sie ein Einzelnblatt bilden. Lib. VI, (recto) vv. 782-809. Erhalten sind nur einzelne Buchstaben pro Zeile: [callidus et mediam designat] uul[nere frontem] ... ['ite, oro, socii, furit, ite] oppon[ite dextras]; (verso) vv. 817-844: [noster et hic] belliq[ue comes.' nil frangitur heros] ... [exiguus, gr]auia [ossa tamen nodisque lacerti].</note>
+                                <filiation></filiation>
+                                <listBibl>
+                                    <bibl/>
+                                </listBibl>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="1" unit="folio">1 fol. (partial)</measure>
+                                        <dimensions type="leaf" unit="mm">
+                                            <height>215</height>
+                                            <width>8</width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation/>
+                                    <collation>
+                                        <formula></formula>
+                                    </collation>
+                                    <condition/>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout ruledLines="0" writtenLines="0" columns="0">
+                                        <dimensions type="written" unit="mm">
+                                            <height max="0" min="0"></height>
+                                            <width max="0" min="0"></width>
+                                        </dimensions> 
+                                        <dimensions type="column" unit="mm">
+                                            <width></width>
+                                        </dimensions>
+                                        <dimensions type="lineHeight">
+                                            <height min="0" max="0"></height>
+                                        </dimensions>
+                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote scribe="x" script="x" medium="x"></handNote>
+                            </handDesc>
+                            <scriptDesc>
+                                <scriptNote script="x" medium="x"></scriptNote>
+                            </scriptDesc>
+                            <decoDesc>
+                                <decoNote type="x"/>
+                            </decoDesc>   
+                            <additions/>
+                            <accMat/> 
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origPlace/>
+                                <origDate notBefore="0001" notAfter="0001"/>
+                            </origin>
+                            <provenance/>
+                            <acquisition/>
+                        </history>
+                    </msFrag>                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p></p>
+            </editorialDecl>
+            <projectDesc>
+                <p>Description originated within the project "The Carolingian Scriptorium of Mondsee".</p>
+            </projectDesc>
+        </encodingDesc>
+    <revisionDesc status="draft">
+        <listChange>
+            <change when="2021-09-17"></change>
+        </listChange>
+    </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+    </facsimile>
+    <text>
+        <body>
+            <head>
+                <title></title>
+            </head>
+            <p/>
+        </body>
+    </text>
+</TEI>

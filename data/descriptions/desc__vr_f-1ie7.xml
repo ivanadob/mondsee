@@ -60,10 +60,10 @@
                         </msItem>
                     </msContents>
                     <physDesc>
-                        <objectDesc form="codex">
+                        <objectDesc form="fragment">
                             <supportDesc material="perg">
                                 <extent>
-                                    <measure type="leavesCount" quantity="0" unit="folio"></measure>
+                                    <measure type="leavesCount" quantity="58" unit="folio">58 partial</measure>
                                     <dimensions type="leaf_current" unit="mm">
                                         <height></height>
                                         <width></width>
@@ -102,14 +102,7 @@
                         </scriptDesc>
                         <decoDesc>
                             <decoNote type="x"/>
-                        </decoDesc>   
-                        <additions/>
-                        <bindingDesc>
-                            <binding notBefore="0001" notAfter="0001">
-                                <p/>
-                            </binding>
-                        </bindingDesc>
-                        <accMat/> 
+                        </decoDesc> 
                     </physDesc>
                     <history>
                         <origin>
@@ -335,7 +328,7 @@
                             <objectDesc form="fragment">
                                 <supportDesc material="perg">
                                     <extent>
-                                        <measure type="leavesCount" quantity="0" unit="folio"></measure>
+                                        <measure type="leavesCount" quantity="0" unit="folio">8</measure>
                                         <dimensions type="leaf" unit="mm">
                                             <height></height>
                                             <width></width>

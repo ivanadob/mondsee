@@ -1,0 +1,192 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="en" xml:base="onb-sn-107/tei-msDesc_dobcheva.xml" xml:id="onb-sn-107_tei-msDesc_dobcheva">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vienna, ÖNB, Cod. Ser. n. 107</title>
+                <respStmt>
+                    <resp>Description by</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                    </persName>
+                </respStmt>                
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital edition according to TEI P5</edition>
+                <respStmt>
+                    <resp>TEI-P5 encoding </resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                    </persName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher></publisher>
+                <idno type="PID"></idno>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en" xml:id="onb-sn-107">
+                    <msIdentifier>
+                        <country>Austria</country>
+                        <settlement>Vienna</settlement>
+                        <institution></institution>
+                        <repository>Österreichische Nationalbibliothek</repository> 
+                        <idno>Cod. Ser. n. 107</idno>
+                        <altIdentifier type="former"> 
+                            <idno>Suppl. 2761; Cod. 19578</idno>
+                        </altIdentifier>                       
+                    </msIdentifier>
+                    <head>
+                        <title></title>
+                        <origDate notBefore="1001" notAfter="1150">s. XI-XII<hi rend="sup">1</hi></origDate>
+                        <origPlace>Bavaria, Austria, Mondsee (?)</origPlace>
+                        <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-5uqo"></ref></note>
+                        <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC14246078"></ref></note>
+                        <note type="facs"><ref target="http://data.onb.ac.at/dtl/4836065">Facsimile</ref></note>
+                    </head> 
+                    <msContents>
+                        <textLang mainLang="lat" otherLangs=""/> 
+                        <msItem>
+                            <locus from="x" to="x"/>
+                            <title>Heroides</title> 
+                            <author>Publius Ovidius Naso</author>
+                            <rubric/>
+                            <incipit/> 
+                            <explicit/> 
+                            <finalRubric/>
+                            <colophon></colophon>
+                            <decoNote></decoNote>
+                            <note>Erhalten sind Fragmente der folgenden Briefe: 
+                                X (Ariadne): (1ra) 14-52; (1rb) 55-93, (1va) 97-134, (1vb) 137-152; 
+                                XI (Canace): (1vb) 1-25, (2ra) 26-66, (2rb) 67-106 verstümmelt, (2va) 107-128 verstümmelt;
+                                XII (Medea): (2va) 1-18 verstümmelt, (2vb) 19-59, (3ra) 60-100, (3rb) 101-141 verstümmelt, (3va) nur einzelne Buchstaben erhalten von vv. 142-181, (3vb) 182-212;
+                                XIII (Laodamia): (3vb) 1-10, (4ra-4vb) 11-166;
+                                XIV (Hypermestra): (4vb) 1-13; (5ra-5va) 14-132;
+                                XVI (Paris): (5va-5vb) 1-38, 145-154; (6ra) 156-195 verstümmelt, (6ra) 199-236, (6va) 240-277 stark abgerieben, (6vb) 281-319 verstümmelt, (7v) 368-376;
+                                XVII (Helena): (7v) 1-25, (7r) 31-66 verstümmelt, (8ra) 111-148 verstümmelt, (8rb) 153-189, (8va) 194-230, (8vb) 234-268 verstümmelt;
+                                XVIII (Leander): (8vb) 5-6, (9ra) 169-208, (9rb) 209-218 verstümmelt;
+                                XIX (Hero): (9rb) 1-30 verstümmelt, (9va) 32-72 verstümmelt, (9vb) 73-112, (10ra-b) 114-193, (10va) 194-210 (abgerieben);
+                                XX (Acontius): (10va) 3-23 abgerieben, (10vb) 25-64, (11ra-b) 66-144, (11rb) 146-184 abgerieben und verstümmelt, (11vb) 186-244 abgerieben.</note>
+                            <filiation></filiation>
+                            <listBibl>
+                                <bibl/>
+                            </listBibl>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="fragment">
+                            <supportDesc material="perg">
+                                <extent>
+                                    <measure type="leavesCount" quantity="11" unit="folio">11</measure>
+                                    <dimensions type="leaf_current" unit="mm">
+                                        <height>225</height>
+                                        <width>188</width>
+                                    </dimensions>
+                                </extent>
+                                <foliation/>
+                                <collation>
+                                    <formula></formula>
+                                </collation>
+                                <condition>Die Leimschäden, rostigen Löcher von Buckeln und Einstichlöcher der Bindefäden an den Rändern deuten auf eine Verwendung als Spiegel mit Ansetzfalz hin. Fol. 1 wurde von einer Handschrift mit einer Deckelgröße von ca. 220 x 145 mm, ausgelöst, die zudem auf fünf Bünde geheftet und mit fünf Buckeln und einer Schließe am Vorderschnitt ausgestattet gewesen sein dürfte. 
+                                    Die heutigen fol. 2 und fol. 5, bzw. fol. 3 und fol. 4 sind zwei  Doppelblätter, die an einer Seite beschnitten wurden (von der äußeren Spalte der fol. 2 und fol. 3 sind nur 20 mm erhalten); der Trägerband, in dem die Doppelblätter als Spiegel gedient haben, war wohl in etwa 290 x 220 mm groß, mit vier Buckeln auf dem Vorderdeckel und fünf auf dem Hinterdeckel, sowie einer Schließe mit Dornlager auf der Fläche der Vorderdeckels ausgestattet.
+                                    Die Rostspuren und Einstichlöcher auf fol. 6 deuten darauf hin, dass das Einzelblatt beschnitten und als Spiegel auf dem Innendeckel einer Handschrift im Ausmaß von etwa 215 x 145 mm geklebt war, welche auf fünf Bünde geheftet und mit vier Buckeln und einer Langschließe ausgestattet ist.
+                                    Fol. 7 ist aus vier Längsstreifen zusammengesetzt, die als Falzverstärkungen in einer Handschrift mit einer Mindesthöhe von 210 mm und fünf Bünde gedient haben dürfte. Insgesamt ist hier knapp eine Spalte des usprünglichen Textes erhalten.
+                                    Die Zusammengehörigkeit von ff. 8-11 lässt sich schwer feststellen, da alle Blätter ähnliche Maße aufweisen und als Spiegel mit Ansetzfalz in einer Handschrift mit einer Größe von etwa 210 x 145 mm, verwendet wurde. Zudem zeigen die Stücke fünf Einstichlöcher der Bindefäden. Da bei fol. 8 nur ein rostiges Loch von einem Buckel oder Dornlager einer Schließe zu sehen ist, und auf fol. 11 eine Spur vom Gegenblech einer Schließe vorhanden ist, ist zu vermuten, dass sie wohl aus dem selben Trägerband ausgelöst wurden. 
+                                    Bei fol. 9 und fol. 10 dagegen sind  rostige Spuren von fünf Buckeln zu sehen; auf fol. 10 z. T. erhaltene Pergamentverstärkungen für fünf Buckel und (einem Gegenblech) einer Schließe.
+                                    Wegen eines Leimschadens ist der Text auf den Klebeseiten (1r, 2r, 3v, 4v, 5v, 6v, 8r, 9r, 10v und 11v) z. T. stark abgerieben. Textverlust durch Beschneidungen (fol. 1 oben und außen, ff. 2-3 außen, fol. 6 und fol. 8 oben und innen, fol. 9 unten und außen, fol. 10 außen, fol. 11 außen).
+                                    Fol. 7 ist verkehrt eingebunden.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ruledLines="41" writtenLines="41" columns="2">
+                                    <dimensions type="written" unit="mm">
+                                        <height max="210" min="207">207-210</height>
+                                        <width min="155" max="165">155-165</width>
+                                    </dimensions> 
+                                    <dimensions type="column" unit="mm">
+                                        <width>80</width>
+                                    </dimensions>
+                                    <dimensions type="lineHeight" unit="mm">
+                                        <height>5</height>
+                                    </dimensions>
+                                    Blindlinierung mit Versalienspalte; Einstichlöcher für die Linierung auf fol. 4 und fol. 5 noch erhalten.
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary></summary>
+                            <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <summary></summary>
+                            <scriptNote>Anwendung des „bajuwarischen“ oder „h“-z (5ra).</scriptNote>
+                            <scriptNote>Versalien in Capitalis Rustica; 2-zelige rote Initialmajuskel in Rot.</scriptNote>
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote type="x"/>
+                        </decoDesc>   
+                        <additions/>
+                        <bindingDesc>
+                            <binding notBefore="0001" notAfter="0001">
+                                <p/>
+                            </binding>
+                        </bindingDesc>
+                        <accMat/> 
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate notBefore="0001" notAfter="0001"/>
+                        </origin>
+                        <provenance>Nach dem Supplementum Katalog (Cod. Ser. n. 18110) wurden die Fragmente aus Mondseer Handschriften ausgelöst. Da keine Notizen angefertigt wurden, lassen sich die Trägerbände nicht mehr feststellen. Die Fragmente wurden 1870 aus der Fragmentensammlung aufgestellt und in einem Pappband gebunden (siehe Acq. B. I fol. 79r).</provenance>
+                        <acquisition/>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <p>
+                                <bibl></bibl>
+                                </p>
+                            </recordHist>
+                        </adminInfo>
+                        <surrogates>
+                            <ref/>
+                        </surrogates> 
+                        <listBibl>
+                            <bibl>Mazal, Katalog Ser. Nov. Bd. 1, S. 43–44 (http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0749_b0043_jpg.htm)</bibl>
+                            <bibl>Munk Olsen, Birger. L’ étude des auteurs classiques latins aux XIe et XIIe siècles. Bd.III/1, 172, C.183 (s. XI, Allemagne ou Autriche).</bibl>
+                        </listBibl>
+                    </additional>             
+                                        
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p></p>
+            </editorialDecl>
+            <projectDesc>
+                <p>Description originated within the project "The Carolingian Scriptorium of Mondsee".</p>
+            </projectDesc>
+        </encodingDesc>
+    <revisionDesc status="draft">
+        <listChange>
+            <change when="2021-09-17"></change>
+        </listChange>
+    </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="" />
+    </facsimile>
+    <text>
+        <body>
+            <head>
+                <title></title>
+            </head>
+            <p/>
+        </body>
+    </text>
+</TEI>
