@@ -45,7 +45,7 @@
                         <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi></origDate>
                         <origPlace>Mondsee</origPlace>
                         <note type="summary">A group of hagiographical fragments of the Vitas Patrum written in the early ninth century. The original manuscript included five works: Historia monachorum, Vita Pauli, Vita Antonii, Vita Malchi and Vita Hilarionis. From the last two survived only four fragments representing two partial leaves.</note>
-                        <note type="facs"><ref target="https://fragmentarium.ms/overview/F-02pm"></ref></note>
+                        <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-02pm"></ref></note>
                     </head> 
                     <msContents>
                         <textLang mainLang="lat" otherLangs=""/> 
@@ -102,7 +102,7 @@
                         </handDesc>
                         <scriptDesc>
                             <summary></summary>
-                            <scriptNote script="x" medium="x"></scriptNote>
+                            <scriptNote>Using <term>ri-ligature</term> (e.g. <ref facs="#cod1754_ri">Cod. 1754, l. 2</ref>)</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote type="x"/>
@@ -138,87 +138,21 @@
                             <bibl/>
                         </listBibl>
                     </additional>             
-                    <msPart>
-                       <msIdentifier>
-                        <altIdentifier type="partial">
-                            <idno>Codicological unit 1 = ff. </idno>
-                        </altIdentifier>
-                        </msIdentifier>
-                        <head>
-                            <title></title>
-                            <origDate notBefore="0001" notAfter="0001"></origDate>
-                            <origPlace></origPlace>
-                        </head>
-                        <msContents>
-                            <textLang mainLang="lat" otherLangs=""/>
-                            <msItem>
-                                <locus from="x" to="x"/>
-                                <title/>
-                                <author/>
-                                <rubric/>
-                                <incipit/>
-                                <explicit/>
-                                <finalRubric/>
-                                <colophon></colophon>
-                                <decoNote></decoNote>
-                                <note/>
-                                <filiation></filiation>
-                                <listBibl>
-                                    <bibl/>
-                                </listBibl>
-                            </msItem>
-                        </msContents>
-                        <physDesc>
-                            <objectDesc form="fascicle">
-                                <supportDesc material="perg">
-                                    <extent>
-                                        <measure type="leavesCount" quantity="0" unit="folio"></measure>
-                                        <dimensions type="leaf" unit="mm">
-                                            <height></height>
-                                            <width></width>
-                                        </dimensions>
-                                    </extent>
-                                    <foliation/>
-                                    <collation>
-                                        <formula></formula>
-                                    </collation>
-                                    <condition/>
-                                </supportDesc>
-                                <layoutDesc>
-                                    <layout ruledLines="0" writtenLines="0" columns="0">
-                                        <dimensions type="written" unit="mm">
-                                            <height max="0" min="0"></height>
-                                            <width max="0" min="0"></width>
-                                        </dimensions> 
-                                        <dimensions type="lineHeight">
-                                            <height min="0" max="0"></height>
-                                        </dimensions>
-                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
-                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
-                                    </layout>
-                                </layoutDesc>
-                            </objectDesc>
-                            <handDesc>
-                                <handNote scribe="x" script="x" medium="x"></handNote>
-                            </handDesc>
-                            <scriptDesc>
-                                <scriptNote script="x" medium="x"></scriptNote>
-                            </scriptDesc>
-                            <decoDesc>
-                                <decoNote type="x"/>
-                            </decoDesc>   
-                            <additions/>
-                            <accMat/> 
-                        </physDesc>
-                        <history>
-                            <origin>
-                                <origPlace/>
-                                <origDate notBefore="0001" notAfter="0001"/>
-                            </origin>
-                            <provenance/>
-                            <acquisition/>
-                        </history>
-                    </msPart>                    
+                            <msFrag>
+                                <msIdentifier>
+                                    <idno>Cod. 1754 (pastedown)</idno>
+                                </msIdentifier>
+                                <msContents>
+                                    <msItem>
+                                        <locus from="Cod1754_HDS">right pastedown</locus>
+                                        <author>Rufinus</author>
+                                        <title>Historia Monachorum<note>, IX. De coprete</note></title>
+                                        <incipit defective="true">ad ignem. Non inquit</incipit>
+                                        <explicit defective="true">flamma uero</explicit>
+                                        <bibl><abbr>PL</abbr> 21, 427A.</bibl>
+                                    </msItem>
+                                </msContents>
+                            </msFrag>            
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -237,7 +171,17 @@
     </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="" n="1r"/>
+        <surface ulx="129" uly="229" lrx="3068" lry="2168">            
+            <graphic url="https://fragmentarium.ms:443/loris/F-mnu8/Cod1754_HDS.JPG/full/full/0/default.jpg" n="Cod1754_HDS"/>
+           
+<!--            ri-ligature-->
+            <zone xml:id="cod1754_ri" ulx="751" uly="503" lrx="862" lry="710"/>           
+            
+            <!--            minuscule 'o'-->
+            <zone ulx="1225" uly="999" lrx="1314" lry="1088"/>
+           
+        </surface>
+        
     </facsimile>
     <text>
         <body>

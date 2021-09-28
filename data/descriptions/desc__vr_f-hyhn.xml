@@ -44,7 +44,7 @@
                         <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi></origDate>
                         <origPlace>Mondsee</origPlace>
                         <note type="summary">Several parchment fragments from an early Carolingian Bible, written in Mondsee. Reconstruction using fragments: Vienna, ÖNB, Cod. Ser. n. 3753 (2 fols.), Cod. 15347 (4 fols.), Fragm. 6 (3 fols.), Fragm. 10 (2 fols.), Fragm. 852 (9 strips, 8 pieces) and binding waste in Cod. 3712.</note>
-                        <note type="facs"><ref target="https://fragmentarium.ms/overview/F-hyhn"></ref></note>
+                        <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-hyhn"></ref></note>
                     </head> 
                     <msContents>
                         <textLang mainLang="lat" otherLangs=""/> 
@@ -178,7 +178,7 @@
     </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="" n="1r"/>
+        <graphic url=""></graphic>
     </facsimile>
     <text>
         <body>
