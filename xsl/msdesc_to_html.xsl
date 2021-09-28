@@ -1755,6 +1755,25 @@
 			</a>
 		</xsl:when>		
 		
+		<xsl:when test="@facs">
+			<xsl:variable name="facs" select="(substring-after(data(@facs),'#'))"/>
+			<xsl:variable name="ulx" select="data(@ulx)"/>
+			<xsl:variable name="uly" select="data(@uly)"/>
+			<xsl:variable name="lrx" select="data(@lrx)"/>
+			<xsl:variable name="lry" select="data(@lry)"/>
+			<xsl:variable name="facs_url" select="data(.//id($facs)//preceding-sibling::tei:graphic/@url)"/>
+			<a href="{$facs_url}">
+				<xsl:apply-templates/>
+			</a>
+			
+			<!--<a>
+				<xsl:attribute name="href">
+					<xsl:value-of select="@facs"/>
+				</xsl:attribute>
+				<xsl:apply-templates/>
+			</a>-->
+		</xsl:when>
+		
 		<xsl:when test="@type='biblical' and @cRef">
 			<xsl:if test="not(normalize-space(.) = translate(@cRef, '_.', '  '))"><xsl:apply-templates/></xsl:if>
 			<xsl:if test="not(self::tei:ptr) and normalize-space(.) = normalize-space(parent::node())">
@@ -2101,12 +2120,19 @@
 			<a href="{$facsimile/*:facsimile/*:graphic[@n=$attribute]/@url}">
 				<xsl:value-of select="$content"/>
 			</a>
-		</xsl:when>		
+		</xsl:when>	
+		<xsl:when test="$facsimile/*:facsimile/*:surface/*:graphic/@n[.=$attribute]">
+			<a href="{$facsimile/*:facsimile/*:surface/*:graphic[@n=$attribute]/@url}">
+				<xsl:value-of select="$content"/>
+			</a>
+		</xsl:when>
+		
 		<xsl:otherwise>
 			<xsl:value-of select="$content"/>
 		</xsl:otherwise>
 	</xsl:choose>
 </xsl:template>
+	
 
 <xsl:template name="Satzzeichen">
 
