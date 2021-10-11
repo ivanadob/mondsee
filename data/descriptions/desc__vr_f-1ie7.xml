@@ -224,15 +224,21 @@
                                 <decoNote type="x"/>
                             </decoDesc>   
                             <additions/>
-                            <accMat/> 
+                            <bindingDesc>
+                                <binding>
+                                    <p>According go the Morgan cards catalogue: wooden box covered with cut red velvet. On the upper cover in the middle of a gilt-metal sheet is an enamel plaque of Christ in majesty in center and symbols of the Evangelists at the corners, surrounded by metal bands studded with crystals. If genuine the enamel is 12th-century, the metal background 13th-century, the symbols of the Evangelists are copies of 13th- or 14th-century pieces. The whole was probably assembled in Germany in the 19th-century.</p>
+                                </binding>
+                            </bindingDesc>
+                            <accMat>The leaves were wrapped in a fragment (two leaves - probably bifolium) from a 11th-century Lectionary, according to the catalogue of the Morgan library - written in a Bavarian or Austrian hand.</accMat>
                         </physDesc>
                         <history>
                             <origin>
                                 <origPlace/>
                                 <origDate notBefore="0001" notAfter="0001"/>
                             </origin>
-                            <provenance/>
-                            <acquisition/>
+                            <provenance>The leaves served as binding waste (mostly covers) for family records of the Nuremberg family of Von Kress. </provenance>
+                            <provenance>The fragments were later (ca. 1680) owned by Baron J. W. Imhoff, later by his heir Baron Haller von Hallerstein.</provenance>
+                            <provenance>The fragments were sold several times: 1861 acquired by Tross, then by Guillaume Libri, Sir Thomas Phillips, Richard Bennett and lastly by Pierpont Morgan.</provenance>
                         </history>
                     </msFrag> 
                     <msFrag>
