@@ -35,19 +35,19 @@
                         <origDate notBefore="0811" notAfter="0819">811-819</origDate>
                         <origPlace>Mondsee</origPlace>
                         <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13953169"></ref></note>
-                        <note type="facs"><ref target="http://data.onb.ac.at/dtl/8518292"></ref></note>
+                        <note type="facs"><ref target="http://data.onb.ac.at/dtl/8518292">Digital facsimile</ref></note>
                     </head> 
                     <msContents>
                         <textLang mainLang="lat"/> 
                         <msItem n="70">
-                            <locus>16-19</locus>
+                            <locus from="16r" to="19r">16r-19r</locus>
                             <note>DOM. POST ASCENSA DOMINI. LECTIO SANCTI EUANGELII SECUNDUM IOHANNEM [IOH. XV, 26- XVI, 4], cap. (?). In illo tempore dixit Ihesus discipulis suis: Cum uenerit Paracletus quem ego mittam uobis a Patre, Spiritum ueritatis qui a Patre procedit, ille testimonium perhibebit de me, et reliqua usque ad quia ego dixi uobis.
                             OMELIA LECTIONIS EIUSDEM.
                             Dominus noster Ihesus Christus, in sermone quem modo audistis, ait discipulis suis: Cum uenerit Paracletus..., tamquam diceret : Iudaei me odio habuerunt et occiderunt...//...per paschalia sacramenta prerogauit Ihesus Christus Dominus noster, qui uiuit et regnat cum Patre in unitate Spiritus Sancti per omnia saecula saecolurum. Amen.</note>
                             <note>Extraits entremêlés (avec quelques gloses) d'AUGUSTIN, Tract. in Ioann., 92, 1 (fin) et 2 (début), P.L. 35, 1863, et de BEDE, Hom., II, 10 (11, 16), P.L. 94, 182C10-D7, 183B5-13 et D5-10, 184A10-B6, 184C1-185A4, 186A5-B10 et 189B5-D5.</note>
                         </msItem>
                         <msItem n="71">
-                            <locus>19r-21v</locus>
+                            <locus from="19r" to="21v">19r-21v</locus>
                             <rubric>IN VIGILIA PENTECOSTEN. Lectio sancti euangelii secundum iohannem</rubric>
                             <note type="marginal">cap. cxxvii.</note> 
                             <incipit><ref type="biblical" cRef="Io_14,15-14,21">Si diligitis me, mandata mea seruate <gap reason="omitted"/> manifestabo ei me ipsum</ref>. Quia uigilias uenturae sollemnitatis de aduentu spiritus sancti caelebramus, fratres karissimi, debemus ipsi congruere sollemnitati quam colimus</incipit>
@@ -58,20 +58,20 @@
                                 <bibl>BEDE, I. c., 190D9-191C4, 192D10-193A15, 193B5-C6 et 197A13</bibl>.</note>
                         </msItem>
                         <msItem n="72">
-                            <locus>21v</locus>
+                            <locus from="21v">21v</locus>
                             <rubric>DIE SANCTO PENTECOSTES</rubric>
                             <note type="marginal">cap. cxxx.</note>
                             <incipit><ref type="biblical" cRef="Io_14,23-14,31">Si quis diligit me, sermonem meum seruabit <gap reason="omitted"/> dedit mihi sic facio</ref>. Hodiernam sollemnitatem, dilectissimi cum precipuis festis esse uenerandam, omnia catholicorum corda cognoscant. Nec dubium est quantae huic diei <gap reason="lacuna"/></incipit>
                             <note>Lacuna: one quire with homilies Nr. 73-76.</note>
                         </msItem>
                         <msItem n="77">
-                            <locus>22r-24v</locus>
+                            <locus from="22r" to="24v">22r-24v</locus>
                             <incipit defective="true">cum psalmista die noctuque meditanda. In quo enim corrigit iuuenior uiam suam, nisi in custodiendo sermones Domini</incipit>
                             <explicit>Immo etiam ipsi templum dei sanctum in quo uenire et mansionem facere dignetur existere curemus. Per ihesum christum dominum nostrum qui uiuit et regnat in saecula saeculorum amen.</explicit>
                             <note>Drawing on: BEDE, In Luc., v, P.L. 92, 387C2-388A2 (abrégé); AMBROISE, In Luc., v, 11-13, P.L. 15, 1638C3-1639B7; JÉRÔME, In Matth., 1x, 3-6, P.L. 26, 55B1-C8 (suivi d'une glose); BÈDE, I. c., 388C15 389A1, et Hom., 1, 16 (= I, 23), P.L. 94, 86B14-D3, 87A13-B14 et 86A12-B2.</note>
                         </msItem>
                         <msItem n="78">
-                            <locus>24v-27v</locus>
+                            <locus from="24v" to="27v">24v-27v</locus>
                             <rubric>SABBATO POST PENTECOSTEN</rubric>
                             <note type="marginal">cap. <gap reason="illegible"/>.</note>
                             <incipit><ref type="biblical" cRef="Lc_4,38-4,43">Surgens ihesus de synagoga intrauit in domum Symonis<gap reason="omitted"/> surgens ministrabat illis et reliqua</ref>. Qua ergo dominus et saluator noster ad liberandum a potestate diaboli humanum genus uenerat, bene etiam primo secundum ordinem Lucae euangelistae</incipit>
@@ -79,7 +79,7 @@
                             <note>Sources: Court prologue (5 lignes); BEDE, In Luc., Iv, P.L. 92, 379C15 D5; AMBROISE, In Luc., IV, 57 (en entier), P.L. 15, 1629CD; BEDE, I. c., 380B4-14; exhortation imitée de Césaire (20 lignes); BEDE, 1. c., 380B15-D11; ISIDORE, Synonyma, 11, 91 et 95-99, P.L. 83, 865C6-21 (add: Considera, et semper Deum time), 860B11-13 et C7-D1, 861A1-2 et A7-B10 (quelques variantes).</note>
                         </msItem>
                         <msItem n="79">
-                            <locus>27v-30r</locus>
+                            <locus from="27r" to="30r">27v-30r</locus>
                             <rubric>Dominica octaua pentecosten. Lectio sancti euangelii saecundum iohannem</rubric>
                             <note type="marginal">cap. xxiiii.</note>
                             <incipit>In illo tempore <ref type="biblical" cRef="Io_3,1-3,16">erat homo ex pharisaeis Nicodemus nomine <gap reason="omitted"/> uitam aeternam</ref>. Cum diuersis signis ac uirtutibus dominus et saluator noster diuinitatis suae potentiam</incipit>
@@ -261,7 +261,7 @@
                             <ref/>
                         </surrogates> 
                         <listBibl>
-                            <bibl/>
+                            <bibl><abbr>Barré 1961</abbr>.</bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -272,9 +272,9 @@
                 <p></p>
             </editorialDecl>
         </encodingDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
         <listChange>
-            <change></change>
+            <change when="2021-10-01"></change>
         </listChange>
     </revisionDesc>
     </teiHeader>

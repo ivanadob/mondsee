@@ -24,6 +24,14 @@
       <body>
          <list type="bibliography">
             <item>
+               <label>Barré 1962</label>
+               <bibl>Barré, Henri. Les homéliaires Carolingiens de l’école d’Auxerre. Studi e testi 225. Rome, 1962.</bibl>
+            </item>
+            <item>
+               <label>Barré 1961</label>
+               <bibl>Barré, Henri. ‘L’homiliaire carolingien de Mondsee’. <title>Revue Bénédictine</title> 71, no. 1–2 (1961): 71–107.</bibl>
+            </item>
+            <item>
                <label>BHL</label>
                <bibl>Bibliotheca hagiographica Latina antiquae et mediae aetatis, Bruxelles 1898-1901 (Subsidia Hagiografica, 6).</bibl>
             </item>
@@ -50,6 +58,10 @@
             <item>
                <label>CCCM</label>
                <bibl>Corpus christianorum. Continuatio mediaevalis, Turnholti 1966-</bibl>
+            </item>
+            <item>
+               <label>Chromatius 1974</label>
+               <bibl>Chromatius Aquileiensis. Chromatii Aquileiensis Opera. Edited by Raymond Étaix and Joseph Lemarié. Vol. 9 A. Corpus Christianorum. Series Latina. Turnhout, 1974.</bibl>
             </item>
             <item>
                <label>CLA</label>
@@ -85,11 +97,11 @@
             </item>
             <item>
                <label>Forstner 2008</label>
-               <bibl>Forstner, Karl. ‘Ergänzungen zu B. Bischoffs Hss Katalog (Salzburger Fragmente)’. Scriptorium 62,1 (2008): 122–38.</bibl>
+               <bibl>Forstner, Karl. ‘Ergänzungen zu B. Bischoffs Hss Katalog (Salzburger Fragmente)’. <title>Scriptorium</title> 62,1 (2008): 122–38.</bibl>
             </item>
             <item>
                <label>Gryson 2007</label>
-               <bibl>Répertoire général des auteurs ecclésiastiques latins de l'antiquité et du haut moyen âge. Freiburg: Herder, 2007.</bibl>
+               <bibl><title>Répertoire général des auteurs ecclésiastiques latins de l'antiquité et du haut moyen âge</title>. Freiburg: Herder, 2007.</bibl>
             </item>
             <item xml:id="gbv_136747531">
                <label>Hermann 1923</label>
@@ -102,7 +114,32 @@
             <item>
                <label>MGH</label>
                <bibl>Monumenta Germaniae Historica, Hannover, Leipzig, Berlin, München, 1826-.</bibl>
-            </item>
+            </item>            
+               <item>
+                  <label>Lemarié 1962</label>
+                  <bibl>Lemarié, Joseph. ‘Une des Sources de l’homiliaire de Mondsee: Un Corpus d’homélies Attribuables à Saint Chromace d’Aquilée’. <title>Revue Bénédictine</title> 72 (1962): 132–35.</bibl>
+               </item>
+               <item>
+                  <label>Lemarié 1963</label>
+                  <bibl>Lemarié, Joseph. ‘Homélies inédites de Saint Chromace d’Aquilée’. <title>Revue Bénédictine</title> 73 (1963): 181–243.</bibl>
+               </item>
+            <item>
+               <label>Lemarié 1972a</label>
+               <bibl>Lemarié, Joseph. ‘Un Fragment de Sermon sur la passion de Saint Pierre peut-être attribuable à Chromace d’Aquilée’. <title>Revue Bénédictine</title> 82 (1972): 105–9.</bibl></item>
+            <item>
+               <label>Lemarié 1972b</label>
+               <bibl>Lemarié, Joseph. ‘Un sermon inédit sur “Matthieu” 16, 13-19 de l’école de Fulgence de Ruspe’. <title>Revue des Études Augustiniennes</title> 18 (1972): 116–23.</bibl></item>
+               <item>
+                  <label>Lemarié 1992</label>
+                  <bibl>Lemarié, Joseph. ‘Le Sermon 34 de Chromace d’Aquilée Pour l’Épiphanie. Nouvelle Attestation Dans l’homéliaire Carolingien Du Pseudo-Bède’. <title>Sacris Erudiri </title>33 (1993 1992): 121–24.</bibl>
+               </item>
+               <item>
+                  <label>Lemarié 1993</label>
+                  <bibl>Lemarié, Joseph. ‘L’homéliaire carolingien de Mondsee, témoin des sermons d’un Pseudo-Fulgence’. In <title>Philologia Sacra</title>, 568–82. Freiburg: Herder, 1993.</bibl></item>
+               <item>
+                  <label>Lemarié 1994</label>
+                  <bibl>Lemarié, Joseph. ‘Nouveaux Fragments de Sermons Attribuables à Un Pseudo-Fulgence’. <title>Revue Bénédictine</title> 104 (1994): 191–200.</bibl></item>
+               
             <item>
                <label>Paulhart 1966</label>
                <bibl>Paulhart, Herbert. ‘Das Fragment eines Mondseer Homiliars in der Linzer Kapuzinerbibliothek’. <title>Historisches Jahrbuch der Stadt Linz</title>, 1966, 349–56.

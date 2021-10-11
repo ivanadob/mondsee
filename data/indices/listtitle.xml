@@ -94,6 +94,26 @@
         <author ref="#smaragdus">Smaragdus S. Michaelis</author>
         <title>Expositio in regulam Sancti Benedicti</title>
     </work>
+    <work xml:id="evangelium_johannem" ref="http://d-nb.info/gnd/4028700-2">
+        <title>Evangelium secundum Johannem</title>
+    </work>
+    <work xml:id="evangelium_johannem_prologue">
+        <title>Monarchian prologue to John</title>
+        <bibl><abbr>Stegmüller RB</abbr>, Nr. 624.</bibl>
+    </work>
+    <work xml:id="evangelium_johannem_sommarium">
+        <title>Sommarium in evangelium secundum Johannem</title>
+        <bibl><abbr>Stegmüller RB</abbr>, Nr. 11016.</bibl>
+    </work>
+    <work xml:id="evangelium_lucam" ref="http://d-nb.info/gnd/4036616-9">
+        <title>Evangelium secundum Lucam</title>
+    </work>
+    <work xml:id="evangelium_marcum" ref="http://d-nb.info/gnd/4037658-8">
+        <title>Evangelium secundum Marcum</title>
+    </work>
+    <work xml:id="evangelium_matthaeum" ref="http://d-nb.info/gnd/4038001-4">
+        <title>Evangelium secundum Matthaeum</title>
+    </work>
     <work xml:id="gregorius_homiliae_2" ref="http://d-nb.info/gnd/4439551-6">
         <author ref="#gregorius_magnus">Gregorius Magnus</author>
         <title>Homiliae in evangelia. Homilia 2</title>
