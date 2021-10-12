@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>F-1ie7: New York, The Morgan Library, M. 564; Nürnberg, Germanisches Museum, Ms. 27932; Nürnberg, Stadtbibliothek, Fragm. Lat. 1</title>
+                <title>F-1ie7: New York, The Morgan Library, M. 564; Nuremberg, Germanisches Museum, Ms. 27932; Nuremberg, Stadtbibliothek, Fragm. Lat. 1</title>
                 <respStmt>
                     <resp>Description by</resp>
                     <persName>
@@ -79,10 +79,12 @@
                         </handDesc>
                         <scriptDesc>
                             <summary></summary>
-                            <scriptNote script="x" medium="x"></scriptNote>
+                            <scriptNote>Carolingian minuscule for the Canon references in the margin.</scriptNote>
+                            <scriptNote script="x" medium="x">Capitalis rustica used for the prologue and Summarium (f. 23r-v).</scriptNote>
+                            <scriptNote script="x" medium="x">Uncial.</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote type="x"/>
+                            <decoNote type="x">Initials 4-line high, in blue, green, red/orange figural (Nuremberg, Hs 27932, 20cvb) or ornamental (Nuremberg, Hs 27932, 17ra, 21rb)</decoNote>
                         </decoDesc> 
                     </physDesc>
                     <history>
@@ -127,35 +129,35 @@
                                 <locus from="564_1r" to="564_8v">1r-8v</locus>
                                 <title ref="#evangelium_lucam">Evangelium secundum Lucam</title>
                                <msItem>
-                                   <locus from="564_1r" to="564_1v"/>
+                                   <locus from="564_1r" to="564_1v">1r-v</locus>
                                    <note type="title">Lc 5,33-6,7</note>
                                </msItem>
                                 <msItem>
-                                    <locus from="564_2r" to="564_2v"/>
+                                    <locus from="564_2r" to="564_2v">2r-v</locus>
                                     <note type="title">Lc 6,35-6,45</note>
                                 </msItem>
                                 <msItem>
-                                    <locus from="564_3r" to="564_3v"/>
+                                    <locus from="564_3r" to="564_3v">3r-v</locus>
                                     <note type="title">Lc 7,22-7,33</note>
                                 </msItem>
                                 <msItem>
-                                    <locus from="564_4r" to="564_4v"/>
+                                    <locus from="564_4r" to="564_4v">4r-v</locus>
                                     <note type="title">Lc 8,10-8,21</note>
                                 </msItem>
                                 <msItem>
-                                    <locus from="564_5r" to="564_5v"/>
+                                    <locus from="564_5r" to="564_5v">5r-v</locus>
                                     <note type="title">Lc 8,41-8,52</note>
                                 </msItem>
                                 <msItem>
-                                    <locus from="564_6r" to="564_6v"/>
+                                    <locus from="564_6r" to="564_6v">6r-v</locus>
                                     <note type="title">Lc 9,22-9,33</note>
                                 </msItem>
                                 <msItem>
-                                    <locus from="564_7r" to="564_7v"/>
+                                    <locus from="564_7r" to="564_7v">7r-v</locus>
                                     <note type="title">Lc 9,60-10,11</note>
                                 </msItem>
                                 <msItem>
-                                    <locus from="564_8r" to="564_8v"/>
+                                    <locus from="564_8r" to="564_8v">8r-v</locus>
                                     <note type="title">Lc 10,35-11,5</note>
                                 </msItem>
                             </msItem>
@@ -163,23 +165,23 @@
                                 <locus from="564_9r" to="564_18v">9r-18v</locus>
                                 <title ref="#evangelium_johannem">Evangelium secundum Johannem</title>
                                 <msItem>
-                                    <locus from="564_9r" to="564_9v"/>
+                                    <locus from="564_9r" to="564_9v">9r-v</locus>
                                     <note type="title">Io 2,14-3,3</note>
                                 </msItem>
                                 <msItem>
-                                    <locus from="564_10r" to="564_10v"/>
+                                    <locus from="564_10r" to="564_10v">10r-v</locus>
                                     <note type="title">Io 6,16-6,30</note>
                                 </msItem>
                                 <msItem>
-                                    <locus from="564_11r" to="564_16v"/>
+                                    <locus from="564_11r" to="564_16v">11r-16v</locus>
                                     <note type="title">Io 7,6-8,42</note>
                                 </msItem>
                                 <msItem>
-                                    <locus from="564_17r" to="564_17v"/>
+                                    <locus from="564_17r" to="564_17v">17r-v</locus>
                                     <note type="title">Io 10,17-10,33</note>
                                 </msItem>
                                 <msItem>
-                                    <locus from="564_18r" to="564_18v"/>
+                                    <locus from="564_18r" to="564_18v">18r-v</locus>
                                     <note type="title">Io 12,26-12,39</note>
                                 </msItem>
                             </msItem>
@@ -226,25 +228,25 @@
                             <additions/>
                             <bindingDesc>
                                 <binding>
-                                    <p>According go the Morgan cards catalogue: wooden box covered with cut red velvet. On the upper cover in the middle of a gilt-metal sheet is an enamel plaque of Christ in majesty in center and symbols of the Evangelists at the corners, surrounded by metal bands studded with crystals. If genuine the enamel is 12th-century, the metal background 13th-century, the symbols of the Evangelists are copies of 13th- or 14th-century pieces. The whole was probably assembled in Germany in the 19th-century.</p>
+                                    <p>Information from the Morgan cards catalogue: the fragments are kept in a wooden box assembled in Germany in the 19th-century. On the upper cover in the middle of a gilt-metal sheet (probably 13th-century) is an enamel plaque of Christ in majesty (probably 12th-century) in center and symbols of the Evangelists at the corners, surrounded by metal bands studded with crystals. The symbols of the Evangelists are copies of 13th- or 14th-century pieces.</p>
                                 </binding>
                             </bindingDesc>
-                            <accMat>The leaves were wrapped in a fragment (two leaves - probably bifolium) from a 11th-century Lectionary, according to the catalogue of the Morgan library - written in a Bavarian or Austrian hand.</accMat>
+                            <accMat>By the acquisition the leaves were wrapped in a fragment (two leaves - probably bifolium) from a 11th-century Lectionary, according to the catalogue of the Morgan library - written in a Bavarian or Austrian hand.</accMat>
                         </physDesc>
                         <history>
                             <origin>
                                 <origPlace/>
                                 <origDate notBefore="0001" notAfter="0001"/>
                             </origin>
-                            <provenance>The leaves served as binding waste (mostly covers) for family records of the Nuremberg family of Von Kress. </provenance>
+                            <provenance>The leaves served as binding waste (covers ?) for family records of the Nuremberg family of Von Kress. </provenance>
                             <provenance>The fragments were later (ca. 1680) owned by Baron J. W. Imhoff, later by his heir Baron Haller von Hallerstein.</provenance>
-                            <provenance>The fragments were sold several times: 1861 acquired by Tross, then by Guillaume Libri, Sir Thomas Phillips, Richard Bennett and lastly by Pierpont Morgan.</provenance>
+                            <provenance>The fragments were sold several times: 1861 acquired by Tross, then by Guillaume Libri, by Sir Thomas Phillips, by Richard Bennett and lastly by Pierpont Morgan.</provenance>
                         </history>
                     </msFrag> 
                     <msFrag>
                         <msIdentifier>
                             <country>Germany</country>
-                            <settlement>Nürnberg</settlement>
+                            <settlement>Nuremberg</settlement>
                             <repository>Germanisches Museum</repository> 
                             <idno>Ms. 27932</idno>                                                   
                         </msIdentifier>
@@ -266,7 +268,7 @@
                                     <explicit/>                                  
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (1 fol.)</note>
+                                    <note>Lacuna (1 fol.) = Morgan library, M 564 f. 1</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_2r" to="27932_3v">2ra-3vb</locus>
@@ -275,7 +277,7 @@
                                     <explicit defective="true"><ref type="biblical" cRef="Lc_6,34"></ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (1 fol.)</note>
+                                    <note>Lacuna (1 fol.) = Morgan library, M 564 f. 2.</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_4r" to="27932_5v">4ra-5vb</locus>
@@ -284,7 +286,7 @@
                                     <explicit defective="true"><ref type="biblical" cRef="Lc_7,21"></ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (1 fol.)</note>
+                                    <note>Lacuna (1 fol.) = Morgan library, M 564 f. 3.</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_6r" to="27932_7v">6ra-7vb</locus>
@@ -293,7 +295,7 @@
                                     <explicit defective="true"><ref type="biblical" cRef="Lc_8,9"></ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (1 fol.)</note>
+                                    <note>Lacuna (1 fol.)  = Morgan library, M 564 f. 4.</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_8r" to="27932_9v">8ra-9vb</locus>
@@ -302,7 +304,7 @@
                                     <explicit defective="true"><ref type="biblical" cRef="Lc_8,41"></ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (1 fol.)</note>
+                                    <note>Lacuna (1 fol.)  = Morgan library, M 564 f. 5.</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_10r" to="27932_11v">10ra-11vb</locus>
@@ -311,7 +313,7 @@
                                     <explicit defective="true"><ref type="biblical" cRef="Lc_9,22"></ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (1 fol.)</note>
+                                    <note>Lacuna (1 fol.)  = Morgan library, M 564 f. 6.</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_12r" to="27932_13v">12ra-13vb</locus>
@@ -320,7 +322,7 @@
                                     <explicit defective="true"><ref type="biblical" cRef="Lc_9,59"></ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (? fol.)</note>
+                                    <note>Lacuna (1 fol.) = Morgan library, M 564 f. 7.</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_14r" to="27932_v">14ra-15vb</locus>
@@ -329,7 +331,7 @@
                                     <explicit defective="true"><ref type="biblical" cRef="Lc_10,35"></ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (1 fol.)</note>
+                                    <note>Lacuna (1 fol.)  = Morgan library, M 564 f. 8.</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_16r" to="27932_v">16ra-vb</locus>
@@ -428,13 +430,16 @@
                                 <locus from="27932_24r" to="27932_28v">24r-28v</locus>
                                 <title ref="#evangelium_johannem">Evangelium secundum Johannem</title>
                                 <msItem>
+                                    <note type="title">Lacuna (? fols.).</note>
+                                </msItem>
+                                <msItem>
                                     <locus from="27932_24r">24ra-vb</locus>
-                                    <note type="title">Io 1,19-1,33</note>
+                                    <!--<note type="title">Io 1,19-1,33</note>-->
                                     <incipit defective="true"><ref type="biblical" cRef="Io_1,19">quando miserunt iudaei</ref></incipit>
                                     <explicit defective="true"><ref type="biblical" cRef="Io_1,33"></ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (? fols.)</note>
+                                    <note>Lacuna (? fols.), incl. Morgan library, M 564 ff. 9-10.</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_25r" to="26v">25ra-26vb</locus>
@@ -443,13 +448,16 @@
                                     <explicit defective="true"><ref type="biblical" cRef="Io_6,59">qui manducat hunc panem</ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (? fols.)</note>
+                                    <note>Lacuna (? fols.) incl. Morgan library, M 564 ff. 11-16.</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_27r" to="28v">27ra-28vb</locus>
                                     <!--<note type="title">Io 8,55-9,24</note>-->
                                     <incipit defective="true"><ref type="biblical" cRef="Io_8,55">non scio eum</ref></incipit>
                                     <explicit defective="true"><ref type="biblical" cRef="Io_9,24">qui fuerat caecus</ref></explicit>
+                                </msItem>
+                                <msItem>
+                                    <note type="title">Lacuna incl. Morgan library, M 564 ff. 17-18.</note>
                                 </msItem>
                             </msItem>
                         </msContents>
@@ -507,7 +515,7 @@
                     <msFrag>
                         <msIdentifier>
                             <country>Germany</country>
-                            <settlement>Nürnberg</settlement>
+                            <settlement>Nuremberg</settlement>
                             <repository>Stadtbibliothek</repository> 
                             <idno>Fragm. Lat. 1</idno>       
                         </msIdentifier>
