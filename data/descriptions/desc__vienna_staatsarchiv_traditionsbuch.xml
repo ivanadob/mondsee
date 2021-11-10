@@ -125,7 +125,7 @@
                             <objectDesc form="fascicle">
                                 <supportDesc material="perg">
                                     <support>
-                                        <p>According to <bibl><abbr>Rath 1989</abbr></bibl> teilweise wenig sorgfältig vorbereitetes und beschnittenes <material>Pergament</material> ... vielvach von minderer Qualität und weist Löcher, fehlende Ecken sowie unsauber neschnittene Ränder auf.</p>
+                                        <p>According to <bibl><abbr>Rath 1989</abbr></bibl> teilweise wenig sorgfältig vorbereitetes und beschnittenes <material>Pergament</material> ... vielvach von minderer Qualität und weist Löcher, fehlende Ecken sowie unsauber neschnittene Ränder auf. // the first three quires (fols. 1-23) are from a relatively good prepared parchment: hair and flesh side treatment. For the latter four quires (fols. 24-52) lesser parchment quality and preparation: hair side with visible hair follicules.</p>
                                     </support>
                                     <extent>
                                         <measure type="leavesCount" quantity="52" unit="folio">52</measure>
@@ -158,7 +158,7 @@
                                         <dimensions type="lineHeight">
                                             <height min="0" max="0"></height>
                                         </dimensions>
-                                        Blind ruling based on pricking on every leaf in the quires on the outher margin, as well as double vertical lines. Double (correctied?) pricking on fols. 33, 34, 37, 38.
+                                        Blind ruling based on pricking on every leaf in the quires on the outher margin, as well as double vertical lines. Double (correctied?) pricking on fols. 33, 34, 37, 38. // pricking on each leaf, but ruling probably on an open quire only at the outer most bifolium - evidence: ther uling is strong on the outermost leaf and very shallow on the inner ones; the ruling on several leaves do not match the prickings - example: f. 10r, 13, 14, 49, 50 the double bounding lines; f. 11 the ruled lines do not match the prickings on the side.
                                         <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
                                        laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
                                     </layout>

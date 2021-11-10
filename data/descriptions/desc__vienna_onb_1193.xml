@@ -21,8 +21,8 @@
             <sourceDesc>
                 <msDesc xml:lang="eng" xml:id="onb_cod_1193">
                     <msIdentifier>
-                        <country>Österreich</country>
-                        <settlement>Wien</settlement>
+                        <country>Austria</country>
+                        <settlement>Vienna</settlement>
                         <repository>Österreichische Nationalbibliothek</repository>
                         <idno>Cod. 1193</idno>
                         <altIdentifier type="former">
@@ -235,6 +235,8 @@
                                     <dimensions type="lineHeight">
                                         <height>7,5</height>
                                     </dimensions>
+                                    Direct ruling on superimposed leaves, on every two leaves from mid quire on flesh side // on one bifolium every two. Pricking for the intercolumn lines often visible in the lower edge (e.g. f. 22) - also only on every second leaf. One bifolium was pricked, then superimposed over another and the two ruled simultaneously.
+                                    Pricking for lines ff. 72, 73 - on the vertical line - not visible elsewhere.
                                     Blindlinierung links und rechts des Schriftspiegel je doppelte Vertikalien bis zum Blattrand gezogen (Abstand 7-8 mm); zwischen den Kolumnen drei Vertikalien (in Abstand 8-9 mm); unten und oben vor einfachem Horizontalien bis zum Blattranf laufend: D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2-111/0/1-1/JJ</formula>. 
                                 </layout>
                                 <layout writtenLines="35" ruledLines="35" columns="1">
@@ -280,7 +282,7 @@
                             </list></additions>
                         <bindingDesc>
                             <binding notBefore="0801" notAfter="0900" contemporary="true">
-                                <p>Carolingian binding with thick wooden covers. </p>
+                                <p>Carolingian binding with thick wooden covers. 16,5 mm thick </p>
                             </binding>
                         </bindingDesc>
                         <accMat/>

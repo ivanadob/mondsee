@@ -43,6 +43,13 @@
                             The fragments listed below belong to a copy of Gregorius Magnus, Homiliae in evangelia and not a Homiliarium Pauli Diaconi as suggested in the previous literature. Evidence comes from the order of the homilies, which does not follow that of the Homiliarium Pauli Diaconi but that of the Homiliae in evangelia. Example: Fragm. 15 includes the end of Hom. 12 and the beginning of Hom. 13 - in PD these homilies does not follow one another but have Nr. 2,122 and 2,109 (this fragment was not mentioned by previous authors hence perhaps unknown). Another evidence in the numbering of homilies in the margin, which follows that of Gregorius Magnus, Homiliae in evangelia and not the Homiliarium Pauli Diaconi. Example: Cod. Ser. n. 2066, f. 1rb with Gregorius Magnus, Homilia VI is marked with <quote>VI</quote>; the same homily is Nr. 5 in the Homiliarium Pauli Diaconi (not included in Alani). Finally Gregorius Magnus, Hom. 39 found in two new fragments (Vienna, ÖNB, Cod. 3651, off-set; Vienna, ÖNB, Fragm. 1584) is not part of either Homiliarium Alani or Homiliarium Pauli Diaconi (the last evidence <foreign>per se</foreign> is not strong enough, since the compiler could add this homily to one of the collections).
                         </note>
                     </head>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc material="perg">
+                                <collation>See the collation visualisation using the <ref target="https://vceditor.library.upenn.edu/project/617aa5d6b8d9ad0001ccb464/viewOnly">VCEditor</ref>.</collation>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
                     <additional>
                         <adminInfo>
                             <recordHist>

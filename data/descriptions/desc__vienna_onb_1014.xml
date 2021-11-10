@@ -138,18 +138,13 @@
                                     <dimensions type="lineHeight" unit="mm">
                                         <height>8,5</height>
                                     </dimensions>
-                                    <dimensions type="marginAbove" unit="mm">
-                                        <dim>15</dim>
+                                    <dimensions type="margins" unit="mm">
+                                        <dim type="marginAbove">15</dim>
+                                        <dim type="marginBelow">30</dim>
+                                        <dim type="marginOuter">25</dim>
+                                        <dim type="marginInner">5</dim>
                                     </dimensions>
-                                    <dimensions type="marginBelow" unit="mm">
-                                        <dim>30</dim>
-                                    </dimensions>
-                                    <dimensions type="marginOuter" unit="mm">
-                                        <dim>25</dim>
-                                    </dimensions>
-                                    <dimensions type="marginInner" unit="mm">
-                                        <dim>5</dim>
-                                    </dimensions>
+                                   
                                     Ruling: double lines (ca. 10 mm distance) for justification on both sides of the text block (due to blind ruling) the one to the right of the page ignored, text overflow. (cf. D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/1B-1B/JD</formula>)
                                 </layout>
                                 <layout ruledLines="20 21" writtenLines="19 21" columns="1">

@@ -48,7 +48,7 @@
                         <origPlace>Mondsee (?)</origPlace>
                         <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13959082"></ref></note>
                         <note type="facs"><ref target="http://data.onb.ac.at/dtl/3869114"></ref></note>
-                        <note type="summary">Miscellany on pastoral care. The collection was intended for regular use (Gebrauchshandschrift) as suggested by the low quality parchment. </note>
+                        <note type="summary">Miscellany on pastoral care. The collection was intended for regular use (Gebrauchshandschrift) as suggested by the relative small format, rather low execution of the script and medium quality parchment.</note>
                     </head> 
                     <msContents>
                         <textLang mainLang="lat"/>                         
@@ -59,7 +59,7 @@
                             <incipit>Primo ergo in catecizandis rudibus apostolicum oportet intueri sermonem</incipit>
                             <explicit>sicut pater noster caelestis perfectus est.</explicit>
                             <note>Title and first three lines written in black ink by one hand; rest in brown ink in a second hand.</note>
-                            <filiation>According to <ref target="http://www.mirabileweb.it/title/ordo-de-catechizandis-rudibus-title/182372">Mirabile</ref> the same text is attested in <ref type="altMs" target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00047264-2">München, Bayerische Staatsbibliothek, Clm 6324</ref>, ff. 98v-107r; <ref type="altMs" target="https://mdz-nbn-resolving.de/details:bsb00047265">München, Bayerische Staatsbibliothek, Clm 6325</ref>, ff. 134v-142v, and in <ref type="altMs">Rouen, Bibliothèque Jacques Villon (olim Bibliothèque Municipale), A. 214 (469)</ref>, ff. 121v-135.</filiation>
+                            <filiation>According to <ref target="http://www.mirabileweb.it/title/ordo-de-catechizandis-rudibus-title/182372">Mirabile</ref> the same text is attested in <ref type="altMs" target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00047264-2">München, Bayerische Staatsbibliothek, Clm 6324</ref>, ff. 98v-107r; <ref type="altMs" target="https://mdz-nbn-resolving.de/details:bsb00047265">Munich, Bayerische Staatsbibliothek, Clm 6325</ref>, ff. 134v-142v, and in <ref type="altMs">Rouen, Bibliothèque Jacques Villon (olim Bibliothèque Municipale), A. 214 (469)</ref>, ff. 121v-135.</filiation>
                             <bibl>
                                 <abbr>Clavis</abbr> vol. II, pp. 481-82.
                             </bibl>
@@ -82,7 +82,7 @@
                         </msItem>
                         <msItem>
                             <locus></locus>
-                            <note type="title">Compilation of excerpts from Isidore's Sententiarum libri and Iulianus Pomerius' De vita contemplativa</note>
+                            <note type="title">Compilation of excerpts from <rs type="person" role="author">Isidore</rs>'s <title>Sententiarum libri</title> and <rs type="person" role="author">Iulianus Pomerius</rs>' <title>De vita contemplativa</title></note>
                         </msItem>
                         
                         <msItem>
@@ -181,27 +181,32 @@
                             <supportDesc material="perg">
                                 <support>Parchment (sheep or goat?). Low quality sheets with defective edges (ff. 10-12, 14-15, 18-19, 22-23, 28, 30, 34-35, 39, 42, 47, 50, 55, 59, 61, 65, 67-70, 74-78, 87, 90, 93, 95, 98-101, 103, 106-109, 111, 116-120) and holes: ff. 13 (multiple), 53, 79, 80). The parchment has become semi-transparent in places where the parchment maker scraped the upper layer of the skin on hair side (e.g. f. 30)</support>
                                 <extent>
-                                    <measure type="leavesCount" quantity="0" unit="folio">120</measure>
+                                    <measure type="leavesCount" quantity="120" unit="folio">120</measure>
                                     <dimensions type="leaf" unit="mm">
                                         <height>180</height>
                                         <width>130</width>
                                     </dimensions>
                                 </extent>
-                                <foliation/>
+                                <foliation>Modern foliation in pencil in the upper right corner of every recto and the lower left corner of every verso.</foliation>
                                 <collation>
-                                    <formula>I<hi rend="sup">8</hi> (ff. 1-8) + II<hi rend="sup">8</hi> (ff. 9-16, 3 and 6 singletons) + III-VII<hi rend="sup">8</hi> (ff. 17-56) + VIII<hi rend="sup">8</hi> (ff. 57-64, 3 and 6 singletons) + IX<hi rend="sup">8</hi> (ff. 65-72, 2 and 7 singletons) + X</formula>
-                                </collation>
-                                
+                                    <formula>I<hi rend="sup">8</hi> (ff. 1-8) + II<hi rend="sup">8</hi> (ff. 9-16, 3 and 6 singletons) + III-VII<hi rend="sup">8</hi> (ff. 17-56) + VIII<hi rend="sup">8</hi> (ff. 57-64, 3 and 6 singletons) + IX<hi rend="sup">8</hi> (ff. 65-72, 2 and 7 singletons) + X</formula>. The first nine quires have quire marks (roman numerals with strokes above and on the left side), written in black ink in the middle of the lower margin on the last quire page (ff. 8, 16, ...).
+                                </collation>                                
                             </supportDesc>
                             <layoutDesc>
                                 <layout ruledLines="0" writtenLines="0" columns="0">
                                     <dimensions type="written" unit="mm">
-                                        <height max="0" min="0"></height>
-                                        <width max="0" min="0"></width>
+                                        <height max="0" min="0">140-150</height>
+                                        <width max="0" min="0">95-110</width>
                                     </dimensions> 
-                                    <dimensions type="lineHeight">
-                                        <height min="0" max="0"></height>
+                                    <dimensions type="lineHeight" unit="mm">
+                                        <height min="0" max="0">8-9</height>
                                     </dimensions>
+                                    <dimensions type="margins" unit="mm">
+                                        <dim type="marginAbove">5-12</dim>
+                                        <dim type="marginBelow">20-28</dim>
+                                        <dim type="marginOuter">10-20</dim>
+                                        <dim type="marginInner">10-15</dim>
+                                    </dimensions>                                   
                                    <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
                                        laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
                                 </layout>
@@ -216,10 +221,10 @@
                             <scriptNote script="carolmin" medium="x">Bischoff (<bibl><abbr>Bischoff 1980</abbr></bibl>, p. 24) suggested similarity between the hand writing ff. 83v-120v and the so-called "Cassiodor-Schreiber" who came probably from Mondsee to Regensburg in the year 833.</scriptNote>
                             <scriptNote script="capquad"><term>Litterae notabiliores</term> for section and heading titles in majuscule (rather clumsy <term type="script">Roman Capitals</term> with unequal x-height); written in the same ink as the main text but highlighted with touches of pigment (red and yellow).</scriptNote>
                             <scriptNote>Rubrics in red.</scriptNote>
-                        </scriptDesc>   
-<decoDesc>
-    <decoNote>Highlighting ink initials with red and yellow pigment. Red pigment partly corroded and darkned (e.g. f. 9v, l. 12, 81v). </decoNote>
-</decoDesc>                        
+                        </scriptDesc>
+                        <decoDesc>
+                            <decoNote>Highlighting ink initials with red and yellow pigment. Red pigment partly corroded and darkened (e.g. f. <locus from="9v">9v</locus>, l. 12, <locus from="81v">81v</locus>). </decoNote>
+                        </decoDesc>                        
                         <additions>On f. <locus from="1r">1r</locus> probably a later (s. X?) addition on the initially blank opening page. Ink is partly scrubbed out. Text hardly legible - content: prayers (?)</additions>
                         <bindingDesc>
                             <binding notBefore="1401" notAfter="1500" contemporary="false">
@@ -231,7 +236,7 @@
                     <history>
                         <origin>
                             <p>The manuscript was probably copied in <origPlace>Mondsee</origPlace> 
-                                <origDate notBefore="0801" notAfter="0850">in the first half of the 9<hi rend="sup">th</hi> c.</origDate>. Bischoff (<bibl><abbr>Bischoff 1980</abbr></bibl>, p. 24) suggested the first or second quarter of the 9<hi rend="sup">th</hi> c.</p>
+                                <origDate notBefore="0801" notAfter="0850">in the first half of the 9<hi rend="sup">th</hi> c.</origDate> (<bibl><abbr>Bischoff 1980</abbr></bibl>, p. 24).</p>
                         </origin>
                         <provenance/>
                         <acquisition/>
@@ -264,6 +269,7 @@
         </encodingDesc>
     <revisionDesc status="draft">
         <listChange>
+            <change when="2021-11-10">Additions by in situ observation.</change>
             <change when="2021-07-12">First draft with min info</change>
         </listChange>
     </revisionDesc>
@@ -277,10 +283,6 @@
                 <title></title>
             </head>
             <p>
-                <list>
-                    <head>Measure points:</head>
-                    <item>highlighting ink initials with red and yellow pigments</item>
-                </list>
             </p>
         </body>
     </text>
