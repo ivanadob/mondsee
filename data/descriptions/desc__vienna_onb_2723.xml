@@ -44,50 +44,38 @@
                         <title>Glossae Lunaelacenses theodiscae et latinae</title>
                         <origDate notBefore="0951" notAfter="1000">s. X<hi rend="sup">2</hi></origDate>
                         <origPlace>Mondsee (?)</origPlace>
-                        <note type="facs"><ref target="http://data.onb.ac.at/dtl/3142328"/></note>
+                        <note type="facs"><ref target="http://data.onb.ac.at/dtl/3142328"/>Facsimile</note>
                         <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13951073"/></note>
                         <note type="summary"></note>
                     </head> 
                     <msContents>
                         <!--<textLang mainLang="lat" otherLangs=""/>--> 
                         <p>Content from BStK Online: https://glossen.germ-ling.uni-bamberg.de/bstk/949 [Stand 08.09.2021].
-                            f. 1r: Notizen
-                            f. 1v-7r: Eucherius von Lyon, Instructionum libri II
-                            f. 7r: hebräisch-lateinisches Glossar
-                            f. 7v: griechische Buchstaben und Zahlzeichen
-                            f. 7v: Formata eporum
-                            f. 8r-v: theologische Schrift; Federprobe
-                            f. 9r-80r: Bibelglossar der Handschriftenfamilie M
-                            f. 80r-89r: Bibelglossar
-                            f. 89v-105r: Canones
-                            f. 105v-106v: Glossensammlungen zu Gregor der Große, Dialoge
-                            f. 106v-112v: Glossensammlungen zu Gregor der Große, Regula pastoralis
-                            f. 113r-118v: Glossensammlungen zu Gregor der Große, Homiliae in Evangelia
-                            f. 119r: Glossen zu Smaragdus von St. Mihiel, Liber comitis
-                            f. 123r-v: Glossen zu Vitae patrum
-                            f. 123v-124r: Glossen zu Phocas, Ars grammatica
-                            f. 124r: Glossen zu Daniel, Traumbuch
-                            zusätzliches Blatt hinten: Kalendarisches, auf Beda Venerabilis fußend</p>
-                        <!--<msItem>
-                            <locus from="x" to="x"/>
-                            <title/> 
-                            <author/>
-                            <rubric/>
-                            <incipit/> 
-                            <explicit/> 
-                            <finalRubric/>
-                            <colophon></colophon>
-                            <decoNote></decoNote>
-                            <note/>
-                            <filiation></filiation>
-                            <listBibl>
-                                <bibl/>
-                            </listBibl>
-                        </msItem>-->
+                            <list>
+                                <item>f. 1r: Notizen</item>
+                            <item>f. 1v-7r: Eucherius von Lyon, Instructionum libri II</item>
+                            <item>f. 7r: hebräisch-lateinisches Glossar</item>
+                            <item>f. 7v: griechische Buchstaben und Zahlzeichen</item>
+                            <item>f. 7v: Formata eporum</item>
+                            <item>f. 8r-v: theologische Schrift; Federprobe</item>
+                            <item>f. 9r-80r: Bibelglossar der Handschriftenfamilie M</item>
+                            <item>f. 80r-89r: Bibelglossar</item>
+                            <item>f. 89v-105r: Canones</item>
+                            <item>f. 105v-106v: Glossensammlungen zu Gregor der Große, Dialoge</item>
+                            <item>f. 106v-112v: Glossensammlungen zu Gregor der Große, Regula pastoralis</item>
+                            <item>f. 113r-118v: Glossensammlungen zu Gregor der Große, Homiliae in Evangelia</item>
+                            <item>f. 119r: Glossen zu Smaragdus von St. Mihiel, Liber comitis</item>
+                            <item>f. 123r-v: Glossen zu Vitae patrum</item>
+                            <item>f. 123v-124r: Glossen zu Phocas, Ars grammatica</item>
+                            <item>f. 124r: Glossen zu Daniel, Traumbuch</item>
+                            </list>
+                        </p>
+                       
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
+                                <support>Parchment of lower quality.</support>
                                 <extent>
                                     <measure type="leavesCount" quantity="135" unit="folio">135</measure>
                                     <dimensions type="leaf_current" unit="mm">
@@ -96,13 +84,12 @@
                                     </dimensions>
                                 </extent>
                                 <foliation/>
-                                <collation>
-                                    <formula></formula>
+                                <collation>Almost exclusively made up of quaternions:
+                                    <formula>1<hi rend="sup">8</hi> (ff. 1-8), 2<hi rend="sup">8</hi> (ff. 9-16; 2 and 7 singletons), 3<hi rend="sup">8</hi> (ff. 17-24; 3 and 6 singletons), 4-12<hi rend="sup">8</hi> (ff. 25-96), 13<hi rend="sup">8</hi> (ff. 97-104; 4 and 5 singletons), 14<hi rend="sup">8</hi> (ff. 105-112; 3, 4, 5 and 6 singletons), 15<hi rend="sup">8</hi> (ff. 113-120; 4 and 5 singletons), 16<hi rend="sup">8</hi> (ff. 121-128; 4 and 5 singletons), 17<hi rend="sup">7</hi> (ff. 129-135; 3, 4 and 5 singletons).</formula> Leaves are ordered HFFH, with the exception of the last three quires, where the order is HFHF. 
                                 </collation>
-                                <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout ruledLines="0" writtenLines="0" columns="0">
+                                <layout ruledLines="19" writtenLines="19" columns="1">
                                     <dimensions type="written" unit="mm">
                                         <height></height>
                                         <width></width>
@@ -113,8 +100,7 @@
                                     <dimensions type="lineHeight" unit="mm">
                                         <height></height>
                                     </dimensions>
-                                    <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
-                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                    Ruled on superimposed leaves from the outermost bifolium in the quire on hair side.                           
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -139,10 +125,9 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace/>
-                            <origDate notBefore="0001" notAfter="0001"/>
+                            <p>According to the palaeographical analysis, the manuscript was written in the <origDate notBefore="0951" notAfter="1000">second half of the tenth century</origDate> in <origPlace>Mondsee</origPlace>.</p>
                         </origin>
-                        <provenance/>
+                        <provenance>After the dissolution of the monastery almost all Mondsee manuscripts, including this one, were transferred to the Court library in Vienna (today the Austrian National Library).</provenance>
                         <acquisition/>
                     </history>
                     <additional>
@@ -157,7 +142,9 @@
                             <ref/>
                         </surrogates> 
                         <listBibl>
-                            <bibl/>
+                            <bibl>Entry in <ref target="https://glossen.germ-ling.uni-bamberg.de/manuscripts/13213.html">BstK Online (Nr. 949)</ref>.</bibl>
+                            <bibl><ref target="https://www.mirabileweb.it/manuscript/wien-%C3%B6sterreichische-nationalbibliothek-2723-manoscript/2156">Mirabile. Digital Archives for Medieval Culture.</ref></bibl>
+                            <bibl><ref target="https://manuscripta.at/hs_detail.php?ID=11829">manuscripta.at</ref></bibl>
                         </listBibl>
                     </additional>             
                     

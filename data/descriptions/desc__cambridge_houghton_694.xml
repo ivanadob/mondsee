@@ -35,16 +35,14 @@
                         <settlement>Cambridge MA</settlement>
                         <institution>Harvard University</institution>
                         <repository>Houghton Library</repository> 
-                        <idno>MS Typ 694</idno>
-                        <altIdentifier type="former"> 
-                            <idno></idno>
-                        </altIdentifier>                       
+                        <idno>MS Typ 694</idno>             
                     </msIdentifier>
                     <head>
                         <title>Epistolary</title>
-                        <origDate notBefore="0751" notAfter="0850"></origDate>
-                        <origPlace></origPlace>
+                        <origDate notBefore="0751" notAfter="0850">s. VIII<hi rend="sup">2</hi>- s. IX<hi rend="sup">1</hi></origDate>
+                        <origPlace>Mondsee (?)</origPlace>
                         <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-r0d4"></ref></note>
+                        <note type="catalog"><ref target="http://id.lib.harvard.edu/alma/990099854510203941/catalog"></ref></note>
                     </head> 
                     <msContents>
                         <textLang mainLang="lat" otherLangs=""/> 
@@ -70,81 +68,42 @@
                         </msItem>
                     </msContents>
                     <physDesc>
-                        <objectDesc form="codex">
+                        <objectDesc form="fragment">
                             <supportDesc material="perg">
                                 <extent>
                                     <measure type="leavesCount" quantity="1" unit="folio">1</measure>
                                     <dimensions type="leaf_current" unit="mm">
-                                        <height></height>
-                                        <width></width>
+                                        <height>290</height>
+                                        <width>210</width>
                                     </dimensions>
                                 </extent>
-                                <foliation/>
-                                <collation>
-                                    <formula></formula>
-                                </collation>
-                                <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout ruledLines="0" writtenLines="0" columns="2">
-                                    <dimensions type="written" unit="mm">
-                                        <height></height>
-                                        <width></width>
-                                    </dimensions> 
-                                    <dimensions type="column" unit="mm">
-                                        <width></width>
-                                    </dimensions>
-                                    <dimensions type="lineHeight" unit="mm">
-                                        <height></height>
-                                    </dimensions>
-                                   <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
-                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
-                                </layout>
+                                <layout ruledLines="25" writtenLines="25" columns="2"/>
                             </layoutDesc>
                         </objectDesc>
-                        <handDesc>
-                            <summary></summary>
-                            <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
-                        </handDesc>
                         <scriptDesc>
-                            <summary></summary>
-                            <scriptNote script="x" medium="x"></scriptNote>
+                            <scriptNote script="uncialis" medium="black_ink">Written in uncial letters in black ink, with red rubrics.</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote type="x"/>
-                        </decoDesc>   
-                        <additions/>
-                        <bindingDesc>
-                            <binding notBefore="0001" notAfter="0001">
-                                <p/>
-                            </binding>
-                        </bindingDesc>
-                        <accMat/> 
+                            <decoNote type="initial">Two large decorated initials in black, red, green and yellow including traces of gold.</decoNote>
+                        </decoDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace/>
                             <origDate notBefore="0001" notAfter="0001"/>
                         </origin>
-                        <provenance/>
+                        <provenance>Acquisition note on the lower margin in pencil (1954, <quote>von <unclear>Scheiling</unclear>. Leaf from italian Lectionarium Uncialis ca. 750 AD</quote>.</provenance>
                         <acquisition/>
                     </history>
-                    <additional>
-                        <adminInfo>
-                            <recordHist>
-                                <p>
-                                <bibl></bibl>
-                                </p>
-                            </recordHist>
-                        </adminInfo>
-                        <surrogates>
-                            <ref/>
-                        </surrogates> 
+                    <additional>                       
                         <listBibl>
-                            <bibl/>
+                            <bibl>R. Reynolds. "An Eighth-Century Uncial Leaf from a Mondsee Liber Comitis (Harvard, Houghton Library MS Typ 694)." In <title>Scire litteras: Forschungen zum mittelalterlichen Geistesleben</title>, pp. 327-332. Munich, 1988.</bibl>
+                            <bibl><abbr>CLA</abbr> no. 1868.</bibl>
+                            <bibl>B. Bischoff, V. Brown and J.J. John. "Addenda to Codices latini antiquiores (II)." In <title>Mediaeval Studies</title> 54 (1992): 286-307, no. 1868 and plate Ic (recto).</bibl>
                         </listBibl>
-                    </additional>             
-                                        
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -158,19 +117,32 @@
         </encodingDesc>
     <revisionDesc status="draft">
         <listChange>
-            <change when="2021-10-11">initial entry</change>
+            <change when="2021-12-07">bibl, layout basic.</change>
         </listChange>
     </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="" n="1r"/>
+        <graphic url="https://iiif.lib.harvard.edu/manifests/view/drs:53891232$1i" n="1r"/>
+        <graphic url="https://iiif.lib.harvard.edu/manifests/view/drs:53891232$2i" n="1v"></graphic>
     </facsimile>
     <text>
         <body>
             <head>
                 <title></title>
             </head>
-            <p/>
+            <div>
+                <pb n="1va"/>
+                <p>reddentes: prouidentes bona non tantum coram deo sed etiam coram omnibus hominibus.
+                Si fieri potest quod ex uobis est cum omnibus hominibus pacem habentes.                
+                Non uosmetipsos defendentes karissimi sed date locum ire.
+                Scriptum est enim mihi uindictam et ego retribuam dicit dominus.
+                Sed si esurierit inimicus tuus ciba illum
+                Si sitit potum da illi.
+                    <pb n="1vb"/>
+                hoc enim faciens carbones ignis congeres super caput eius.
+                Noli uinci a malo sed uince in bonum malum.
+                </p>
+            </div>
         </body>
     </text>
 </TEI>

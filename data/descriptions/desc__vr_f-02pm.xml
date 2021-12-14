@@ -104,15 +104,6 @@
                             <summary></summary>
                             <scriptNote>Using <term>ri-ligature</term> (e.g. <ref facs="#cod1754_ri">Cod. 1754, l. 2</ref>)</scriptNote>
                         </scriptDesc>
-                        <decoDesc>
-                            <decoNote type="x"/>
-                        </decoDesc>   
-                        <additions/>
-                        <bindingDesc>
-                            <binding notBefore="0001" notAfter="0001">
-                                <p/>
-                            </binding>
-                        </bindingDesc>
                         <accMat/> 
                     </physDesc>
                     <history>
@@ -140,8 +131,14 @@
                     </additional>             
                             <msFrag>
                                 <msIdentifier>
+                                    <country>Austria</country>
+                                    <settlement>Vienna</settlement>
+                                    <repository>Österreichische Nationalbibliothek</repository>
                                     <idno>Cod. 1754 (pastedown)</idno>
                                 </msIdentifier>
+                                <head>
+                                    <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-wd4j"></ref></note>
+                                </head>
                                 <msContents>
                                     <msItem>
                                         <locus from="Cod1754_HDS">right pastedown</locus>
