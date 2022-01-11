@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>F-1ie7: New York, The Morgan Library, M. 564; Nuremberg, Germanisches Museum, Ms. 27932; Nuremberg, Stadtbibliothek, Fragm. Lat. 1</title>
+                <title>F-1ie7: New York, The Morgan Library, M. 564; Nuremberg, Germanisches Nationalmuseum, Hs. 27932; Nuremberg, Stadtbibliothek, Fragm. Lat. 1</title>
                 <respStmt>
                     <resp>Description by</resp>
                     <persName>
@@ -78,10 +78,10 @@
                             <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
                         </handDesc>
                         <scriptDesc>
-                            <summary></summary>
+                            <summary></summary>                            
+                            <scriptNote script="x" medium="x">Uncial.</scriptNote>
                             <scriptNote>Carolingian minuscule for the Canon references in the margin.</scriptNote>
                             <scriptNote script="x" medium="x">Capitalis rustica used for the prologue and Summarium (f. 23r-v).</scriptNote>
-                            <scriptNote script="x" medium="x">Uncial.</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote type="x">Initials 4-line high, in blue, green, red/orange figural (Nuremberg, Hs 27932, 20cvb) or ornamental (Nuremberg, Hs 27932, 17ra, 21rb)</decoNote>
@@ -247,8 +247,8 @@
                         <msIdentifier>
                             <country>Germany</country>
                             <settlement>Nuremberg</settlement>
-                            <repository>Germanisches Museum</repository> 
-                            <idno>Ms. 27932</idno>                                                   
+                            <repository>Germanisches Nationalmuseum</repository> 
+                            <idno>Hs. 27932</idno>                                                   
                         </msIdentifier>
                         <head>
                             <title>Quattuor evangelia</title>

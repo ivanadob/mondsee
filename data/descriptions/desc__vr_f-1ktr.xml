@@ -41,35 +41,7 @@
                         <origPlace>Mondsee</origPlace>
                         <note type="summary">The original manuscript contained the four gospels preceded by Eusebian canon tables with sumptuous decoration. The now surviving leaves were used as binding waste for account books in the 17<hi rend="sup">th</hi> and 19<hi rend="sup">th</hi> centuries. A rough estimation of the layout and the amount of text fitting one page suggests the original manuscript had about 260-280 fols.</note>
                         <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-1ktr"/></note>
-                    </head>
-                    <msContents>
-                        <msItem>
-                            <locus from="m_1ar" to="m_1bv">1ar-1bv</locus>
-                            <title>Canon tables</title>
-                        </msItem>
-                    </msContents>
-                    <physDesc>
-                        <objectDesc form="codex">
-                            <supportDesc material="perg">
-                                <extent>
-                                    <measure type="leavesCount" quantity="0" unit="folio">64 fols. (surviving)</measure>
-                                    <dimensions type="leaf_current" unit="mm">
-                                        <height>350</height>
-                                        <width>260</width>
-                                    </dimensions>
-                                </extent>
-                                <foliation/>
-                                <collation>
-                                    <formula></formula>
-                                </collation>
-                                <condition/>
-                            </supportDesc>
-                            <layoutDesc>
-                                <layout></layout>
-                            </layoutDesc>
-                        </objectDesc>                           
-                        <additions/>
-                    </physDesc>
+                    </head>                                        
                     <history>
                         <origin>
                             <origPlace/>
@@ -106,30 +78,373 @@
                             <note type="facs"><ref target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00061453-2"></ref></note>
                             <note type="catalogue"><ref target="https://opacplus.bsb-muenchen.de/title/BV037459866"></ref></note>
                         </head>
+                        <msContents>
+                        <msItem>
+                            <locus from="m_1ar" to="m_1bv">1ar-1bv</locus>
+                            <title>Canon tables</title>
+                            <note>Including second to fifth canon.</note>
+                        </msItem>
+                            <msItem>
+                                <note>Lacuna ? fols. (including the rest of the Canon tables, the Prologue to Matthew and the Capitulatio, and Mt 1:1 to Mt 5:46).</note>
+                            </msItem>
+                        <msItem>
+                            <locus from="m_1cr">1cr</locus>
+                            <title ref="#evangelium_matthaeum">Evangelium secundum Mattheum</title>
+                            <msItem>
+                                <locus from="m_2r" to="m_5v">2ra-5vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Mt_5,47"><supplied>eth</supplied>nici hoc faciunt</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Mt_7,21">intrabit in regno caelo<supplied>rum</supplied></ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 1 fol.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_6r" to="m_6v">6ra-6vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Mt_8,5">ihesus capharnaum accessit</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Mt_8,19">sequar te quocumque</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna ca. 18 fols.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_7r" to="m_8v">7ra-8vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Mt_14,29">petrus de navicula ambulabat</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Mt_16,18">aedificabo eccle<supplied>siam</supplied></ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna ca. 10 fols.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_9r" to="m_10v">9ra-10vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Mt_21,2">alligatam et pullum</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Mt_21,28">Quid autem vobis videtur? Homo</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 4 fols.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_11r" to="m_13v">11ra-13vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Mt_22,46">die eum amplius interrogare</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Mt_24,4">et consummationes saeculi</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 2 fols.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_14r" to="m_15v">14ra-15vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Mt_24,37">in diebus noe</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Mt_25,19">rat<supplied>io</supplied>nem cum eis</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 2 fols.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_16r" to="m_16v">16ra-16vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Mt_26,1"><supplied>consum</supplied>masset ihesus sermones</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Mt_26,18">dicite ei</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 2 fols.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_17r" to="m_17v">17ra-17vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Mt_26,46"><supplied>appropin</supplied>quauit qui me tradet</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Mt_26,59">principes autem</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 2 fols.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_18r" to="m_18v">18ra-18vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Mt_27,12">nihil respondit</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Mt_27,27">in praetorio</ref></explicit>
+                            </msItem>                            
+                        </msItem>
+                        <msItem>
+                            <locus from="m_18ar" to="m_18av">18ara-18avb</locus>
+                            <rubric>Incipit praefatio marco</rubric>
+                            <incipit>Marcus euangelista et petri in baptismate filius</incipit>
+                            <explicit defective="true">perderet quod pri</explicit>
+                            <bibl><abbr>Stegmüller RB</abbr>, Nr. 670.</bibl>
+                        </msItem>
+                        <msItem>
+                            <note>Lacuna 1 fol.</note>
+                        </msItem>
+                        <msItem>
+                            <locus>19ra-20rb</locus>
+                            <title>Capitulatio parabolarum (VL Siglum KA Mc I)</title>
+                            <incipit defective="true"><supplied>XV</supplied> sanauit ihesus</incipit>
+                            <explicit>et receptus est in celis dominus</explicit>
+                            <finalRubric>Explicit capitulatio parabolarum</finalRubric>
+                        </msItem>
+                        <msItem>
+                            <locus>20va-28vb</locus>
+                            <title ref="#evangelium_marcum">Evangelium secundum Marcum</title>
+                            <rubric><locus>20rb</locus> Incipit euangelioum secundum marcum</rubric>
+                            <msItem>
+                                <locus from="m_20v" to="m_22v">20va-22vb</locus>
+                                <rubric>Initium euangelii ihesu christi filii dei</rubric>
+                                <incipit><ref type="biblical" cRef="Mc_1,1">Sicut scriptum est</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Mc_1,41">at illi uolo mundare</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 1 fol.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_22ar" to="m_22av">22ar-22av</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Mc_2,12">omnes et honorificarent</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Mc_2,23">coeperunt praegredi</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 2 fols.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_22br" to="m_">22br-22bv</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Mc_3,29">qui autem blasphemauerit</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Mc_4,11">parabola<choice><orig>s</orig><corr>m</corr></choice>, et dicebat</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 2 fols.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_22cr" to="m_22cv">22cr-22cv</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Mc_5,1"><supplied>regio</supplied>nem Gerasenorum</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Mc_5,18"> Cumque ascenderet navem</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna ca. 26 fols.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_23r" to="m_23v">23r-v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Mc_14,5">plus quam trecentis</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Mc_14,20">unus ex duodecim</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 1 fol.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_24r" to="m_27v">24r-27v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Mc_14,36">hunc a me</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Mc_15,29">praetereuntes blasphemabant</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 1 fol.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_28r" to="m_28v">28r-v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Mc_15,43">qui et ipse erat</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Mc_16,9">septem daemonia</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 1 fol.</note>
+                            </msItem>
+                        </msItem>
+                        <msItem>
+                            <locus from="m_29r" to="m_29ar">29ra-29arb</locus>
+                            <title>Argumentum in Lucam</title>
+                            <rubric>Incipit prae<supplied>f</supplied>atio lucae</rubric>
+                            <incipit>Lucas syrus natione anthiocensis arte medicus</incipit>
+                            <explicit>fast<supplied>i</supplied>dientibus prod<supplied>i</supplied>disse.</explicit>
+                            <finalRubric>Exp<supplied>licit</supplied> praefatio lucae.</finalRubric>
+                            <bibl><abbr>Stegmüller RB</abbr>, Nr. 620.</bibl>
+                            <note>The fol. 29 was originally part of a bifolium together with fol. 31. The bifolium was cut in two and a narrow strip from the inner side of fol. 29 is now part of fol. 31.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="m_29ar" to="m_29av">29arb-29avb</locus>
+                            <title>Capitulatio parabolarum (VL Siglum KA Lc B)</title>
+                            <rubric>Incipit breu<gap reason="damage"/></rubric>
+                            <incipit>Zacharias angelo non credens</incipit>
+                            <explicit defective="true">non esse opus sanis medicum.</explicit>
+                        </msItem>
+                        <msItem>
+                            <note>Lacuna 2 fols. (?)</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="m_30r" to="m_43v">30ra-43vb</locus>
+                            <title ref="#evangelium_lucam">Evangelium secundum Lucam</title>
+                            <msItem>
+                                <locus from="m_30r" to="m_31v">30ra-31vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_1,26">in mense autem sexto</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_1,63">est nomen eius</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 1 fol.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_32r" to="m_33v">32ra-33v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_2,2">a praeside syriae</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_2,34">multorum in israel</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 2 fols.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_34r" to="m_35v">34r-35v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_3,11">qui habet duas tunicas</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_4,5">diabolus et osten<supplied>dit</supplied></ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 2 fols.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_36r" to="m_36v">36r-v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_4,36"><supplied>po</supplied>testate et uirtute</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_5,5">laxabo rete</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 1 fol.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_37r" to="m_38v">37r-38v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_5,18">erat paraliticus</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_6,7">autem scribae et</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 1 fol.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_39r" to="m_39v">39r-v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_6,21"><supplied>fle</supplied>tis quia ridebitis</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_6,35">ingratos et males</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 4 fols.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_40r" to="m_41v">40r-41v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_7,41"><supplied>foe</supplied>neratori unus</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_8,19">ad illum mater</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna ca. 30 fols.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_42r" to="m_42v">42r-v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_17,4">et si septies in die</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_17,20">cum observatio<supplied>ne</supplied></ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 6 fols.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_43r" to="m_43v">43r-v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_19,43">quia uenient dies</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_20,10">uineae darent illi</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna ca. 10 fols., including one fol. in Prague, Národní knihovna České republiky, VI.D.24, 1r-v (see below)</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_43ar" to="m_43av">43ar-43av</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_23,3">tu dicis</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_23,19">in ciuitate et homici<supplied>dium</supplied></ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 4 fols.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_43br" to="m_43bv">43br-43bv</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_24,28">se finxit longius</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_24,45">aperuit illis sensum</ref></explicit>
+                            </msItem> 
+                            <msItem>
+                                <note>The last 1 fol. of Luke is now in Prague, Národní knihovna České republiky, VI.D.24, 2r-v (see below).</note>
+                            </msItem>
+                        </msItem>
+                        <msItem>
+                            <locus>44ra-51vb</locus>
+                            <title ref="#evangelium_johannem">Evangelium secundum Johannem</title>
+                            <msItem>
+                                <note>Lacuna ca. 10 fols. probably including a Prologue, Capitulatio and the biginning of John.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_44r" to="m_47v">44r-47v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Io_3,19">hoc est autem iudicium</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Io_4,43">abiit in galilaeam</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 4 fols.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_48r" to="m_48v">48r-v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Io_5,40">et non ultis uenire</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Io_6,10">dixit ergo ihesus facite</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 2 fols.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_49r" to="m_49v">49r-v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Io_6,38">uoluntatem meam</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Io_6,53">dare ad mandu<supplied>candum</supplied></ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 4 fols.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_50r" to="m_50v">50r-v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Io_7,41">numquid a galilaea</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Io_8,6">deorsum digito scri<supplied>bebat</supplied></ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 2 fols.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="m_51r" to="m_51v">51r-v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Io_8,36">uere liberi eritis</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Io_8,51">si quis ser<supplied>monem</supplied></ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna till the end of John, which would fit ca. 34 fols.</note>
+                            </msItem>
+                        </msItem>
+                    </msContents>
                         <physDesc>
                             <objectDesc form="fragment">
                                 <supportDesc material="perg">
                                     <extent>
-                                        <measure type="leavesCount" quantity="0" unit="folio">62</measure>
+                                        <measure type="leavesCount" quantity="0" unit="folio">64 fols. (surviving)</measure>
                                         <dimensions type="leaf_current" unit="mm">
                                             <height>350</height>
                                             <width>260</width>
                                         </dimensions>
                                     </extent>
-                                    <foliation/>
-                                    <collation>
+                                    <foliation>Modern foliation in pencil at the middle of the upper margin on each recto: 1a, 1b, 1c, 1d, 2-7, 7a, 7b, 8-18, 18a, 19-22, 22a, 22b, 22c, 23-29, 29a, 30-43, 43a, 43b, 44-51.</foliation>
+                                    <collation>See the collation at <ref target="https://vceditor.library.upenn.edu/project/61dd48a797701e00018cadfe/viewOnly">VCEditor</ref>.
                                         <formula></formula>
                                     </collation>
                                     <condition/>
-                                </supportDesc>                                
-                            </objectDesc>                           
+                                </supportDesc>                                  
+                                <layoutDesc>
+                                    <layout ruledLines="23" writtenLines="23" columns="2">
+                                        <dimensions type="written" unit="mm">
+                                            <height></height>
+                                            <width></width>
+                                        </dimensions> 
+                                        <dimensions type="column" unit="mm">
+                                            <width></width>
+                                        </dimensions>
+                                        <dimensions type="lineHeight" unit="mm">
+                                            <height></height>
+                                        </dimensions>
+                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>  
+                            <scriptDesc>
+                                <scriptNote>Later correction of the punctuation on <locus from="m_38v">38va</locus></scriptNote>
+                            </scriptDesc>
+                            <decoDesc>
+                                <decoNote>Illuminated initials for the opening of the gospels and the books.
+                                    <list>                                
+                                        <item>decorated fols. 11r, 13r, 18v, 22r, 22av, 37v, 38v, 40v, 42r, 42v, 44r, 45r;</item>
+                                        <item>interlace fols. 3v, 4v, 6v, 7r, 7br, 8v, 10r, 14v, 16v, 21r, 22ar, 22br, 23v, 35r, 36v, 43v, 45v, 50v;</item>
+                                        <item>zoomorphic: 3r, 5v, 18ar, 20v, 22v, 48r.</item>
+                                    </list>
+                                </decoNote>
+                            </decoDesc>                        
                             <additions/>
-                            <bindingDesc>
-                                <binding notBefore="0001" notAfter="0001">
-                                    <p/>
-                                </binding>
-                            </bindingDesc>
-                            <accMat/> 
                         </physDesc>
                         <additional>
                             <listBibl>
@@ -152,7 +467,21 @@
                         </head>
                         <msContents>
                             <msItem>
-                                <note>Evangelii s. Lucae cap. 22 vv. 58-71, cap. 23 vv. 1-3, cap. 24 vv. 45-53. See transcription in A. Spirk.</note>
+                                <locus from="prague_1r" to="prague_1v">1r-1v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_22,58">et post pusillum</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_23,3">at ille respondens ait</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 6 fols. (two of them preserved today in Munich, BSB. Clm 27270, fols. 43a and 43b).</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="prague_2r">2r</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_24,45">ut intelligerent scripturas</ref></incipit>
+                                <explicit><ref type="biblical" cRef="Lc_24,53">et benedicentes deum.</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <locus from="prague_2v">2v</locus>
+                                <note>Blank.</note>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -167,7 +496,7 @@
                                     </extent>
                                     <foliation/>
                                     <collation>
-                                        <formula></formula>
+                                        The two leaves were the outermost bifolium in one quire. 
                                     </collation>
                                     <condition/>
                                 </supportDesc>
@@ -240,7 +569,7 @@
         <graphic url="https://imagines.manuscriptorium.com/loris/AIPDIG-NKCR__VI_D_24_____369UNM1-cs/ID0001r/full/full/0/default.jpg" n="prague_1r"/>
         <graphic url="https://imagines.manuscriptorium.com/loris/AIPDIG-NKCR__VI_D_24_____369UNM1-cs/ID0001v/full/full/0/default.jpg" n="prague_1v"/>
         <graphic url="https://imagines.manuscriptorium.com/loris/AIPDIG-NKCR__VI_D_24_____369UNM1-cs/ID0002r/full/full/0/default.jpg" n="prague_2r"/>
-        <graphic url="https://imagines.manuscriptorium.com/loris/AIPDIG-NKCR__VI_D_24_____369UNM1-cs/ID0002v/full/full/0/default.jpg" n="prague_2v"/>
+        <graphic url="https://imagines.manuscriptorium.com/loris/AIPDIG-NKCR__VI_D_24_____369UNM1-cs/ID0002v/full/full/0/default.jpg" n="prague_2v"/>        
     </facsimile>
     <text>
         <body>
