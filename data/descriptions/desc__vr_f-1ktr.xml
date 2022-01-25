@@ -39,25 +39,10 @@
                         <title>Quattuor Evangelia (Ingolstadt Gospel Book)</title>
                         <origDate notBefore="0751" notAfter="0800">s. VIII<hi rend="sup">2</hi></origDate>
                         <origPlace>Mondsee</origPlace>
-                        <note type="summary">The original manuscript contained the four gospels preceded by Eusebian canon tables with sumptuous decoration. The now surviving leaves were used as binding waste for account books in the 17<hi rend="sup">th</hi> and 19<hi rend="sup">th</hi> centuries. A rough estimation of the layout and the amount of text fitting one page suggests the original manuscript had about 260-280 fols.</note>
+                        <note type="summary">The original manuscript contained the four gospels preceded by Eusebian canon tables with sumptuous decoration. The now surviving leaves were used as binding waste for account books in the 17<hi rend="sup">th</hi> and 19<hi rend="sup">th</hi> centuries. A rough estimation of the layout and the amount of text fitting one page suggests the original manuscript had about 280 fols.</note>
                         <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-1ktr"/></note>
-                    </head>                                        
-                    <history>
-                        <origin>
-                            <origPlace/>
-                            <origDate notBefore="0001" notAfter="0001"/>
-                        </origin>
-                        <provenance/>
-                        <acquisition/>
-                    </history>
-                    <additional>
-                        <adminInfo>
-                            <recordHist>
-                                <p>
-                                <bibl></bibl>
-                                </p>
-                            </recordHist>
-                        </adminInfo>
+                    </head> 
+                    <additional>                        
                         <surrogates>
                             <ref/>
                         </surrogates> 
@@ -75,8 +60,8 @@
                         </msIdentifier>
                         <head>
                             <title>Canon tables and gospels</title>
-                            <note type="facs"><ref target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00061453-2"></ref></note>
-                            <note type="catalogue"><ref target="https://opacplus.bsb-muenchen.de/title/BV037459866"></ref></note>
+                            <note type="facs"><ref target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00061453-2"/></note>
+                            <note type="catalogue"><ref target="https://opacplus.bsb-muenchen.de/title/BV037459866"/></note>
                         </head>
                         <msContents>
                         <msItem>
@@ -158,6 +143,9 @@
                                 <locus from="m_18r" to="m_18v">18ra-18vb</locus>
                                 <incipit defective="true"><ref type="biblical" cRef="Mt_27,12">nihil respondit</ref></incipit>
                                 <explicit defective="true"><ref type="biblical" cRef="Mt_27,27">in praetorio</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna 4 fols.</note>
                             </msItem>                            
                         </msItem>
                         <msItem>
@@ -417,23 +405,25 @@
                                 </supportDesc>                                  
                                 <layoutDesc>
                                     <layout ruledLines="23" writtenLines="23" columns="2">
+                                        Written space:
                                         <dimensions type="written" unit="mm">
-                                            <height></height>
-                                            <width></width>
-                                        </dimensions> 
+                                            <height>235</height>
+                                            <width>195</width>
+                                        </dimensions>
+                                        in 23 lines, 2 columns wide
                                         <dimensions type="column" unit="mm">
-                                            <width></width>
-                                        </dimensions>
+                                            <width>80-85</width>
+                                        </dimensions> mm. Line height:
                                         <dimensions type="lineHeight" unit="mm">
-                                            <height></height>
-                                        </dimensions>
-                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
-                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                            <height>10</height>
+                                        </dimensions> mm. 
+                                        <seg type="ruling">Ruling on the flesh side, each column has two vertical bounding lines not extending above the written space; written lines are confined within two horizontal ruled lines with a distance ca. 4 mm extending the width of the folios on the inner margin (<ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref> formula <formula notation="Muzerelle">1-1-11/0/0/C<hi rend="sup">2</hi></formula>).</seg> 
+                                        <seg type="pricking">Pricking visible on the outer margin at the end of the text column.</seg>                                      
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>  
                             <scriptDesc>
-                                <scriptNote>Later correction of the punctuation on <locus from="m_38v">38va</locus></scriptNote>
+                                <scriptNote>Later correction of the punctuation on <locus from="m_38v">38va</locus>.</scriptNote>
                             </scriptDesc>
                             <decoDesc>
                                 <decoNote>Illuminated initials for the opening of the gospels and the books.

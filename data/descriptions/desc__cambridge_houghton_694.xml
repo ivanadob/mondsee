@@ -4,7 +4,7 @@
             <titleStmt>
                 <title>Cambridge MA, Houghton Library MS Typ 694</title>
                 <respStmt>
-                    <resp>Description by</resp>
+                    <resp>Manuscript description by</resp>
                     <persName>
                         <forename>Ivana</forename>
                         <surname>Dobcheva</surname>
@@ -14,7 +14,7 @@
             <editionStmt>
                 <edition>Digital edition according to TEI P5</edition>
                 <respStmt>
-                    <resp>TEI-P5 encoding </resp>
+                    <resp>TEI-P5 encoding by</resp>
                     <persName>
                         <forename>Ivana</forename>
                         <surname>Dobcheva</surname>
@@ -41,11 +41,11 @@
                         <title>Epistolary</title>
                         <origDate notBefore="0751" notAfter="0850">s. VIII<hi rend="sup">2</hi>- s. IX<hi rend="sup">1</hi></origDate>
                         <origPlace>Mondsee (?)</origPlace>
-                        <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-r0d4"></ref></note>
-                        <note type="catalog"><ref target="http://id.lib.harvard.edu/alma/990099854510203941/catalog"></ref></note>
+                        <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-r0d4"/></note>
+                        <note type="catalogue"><ref target="http://id.lib.harvard.edu/alma/990099854510203941/catalog"/></note>
                     </head> 
                     <msContents>
-                        <textLang mainLang="lat" otherLangs=""/> 
+                        <textLang mainLang="lat"/> 
                         <msItem>
                             <locus from="1r">1ra-rb</locus>
                             <note type="title">Reading for the 3rd Sunday after Epiphany</note>                            
@@ -70,20 +70,34 @@
                     <physDesc>
                         <objectDesc form="fragment">
                             <supportDesc material="perg">
+                                <support>Yellow parchment.</support>
                                 <extent>
-                                    <measure type="leavesCount" quantity="1" unit="folio">1</measure>
+                                    <measure type="leavesCount" quantity="1" unit="folio">1 fol.</measure>
                                     <dimensions type="leaf_current" unit="mm">
-                                        <height>290</height>
-                                        <width>210</width>
+                                        <height>286</height>
+                                        <width>209</width>
                                     </dimensions>
                                 </extent>
+                                <condition>Stain on the inner column on the recto, causing damage tot he script. The leaf was heavily trimmed so that the whole upper margin and the top of the first line of text were cut out.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout ruledLines="25" writtenLines="25" columns="2"/>
+                                <layout ruledLines="25" writtenLines="25" columns="2">Written space:
+                                    <dimensions type="written" unit="mm">
+                                        <height>254</height>
+                                        <width>172</width>
+                                    </dimensions>; 25 lines in two columns with a width of
+                                    <dimensions type="column" unit="mm">
+                                        <width>67</width>
+                                    </dimensions> mm. Line height: 
+                                    <dimensions type="lineHeight" unit="mm">
+                                        <height>11</height>
+                                    </dimensions>.
+                                    <seg type="ruling">The ruling is not visible on the digital facsimile. Reynolds stated that there are four vertical double lines scored on the flesh side (1r) for margins (7 mm wide), and single horizontal lines for the text (<ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref> formula <formula notation="Muzerelle">2-2-22/0/0/JJ</formula>).</seg>
+                                </layout>
                             </layoutDesc>
                         </objectDesc>
                         <scriptDesc>
-                            <scriptNote script="uncialis" medium="black_ink">Written in uncial letters in black ink, with red rubrics.</scriptNote>
+                            <scriptNote script="uncialis" medium="black_ink">Written in uncial letters in brownish-black ink, with red rubrics. Text written <foreign>per cola et commata</foreign>. Punctuation marks include: triangular-pointed colons for major pauses; medial distinction (partly corrected later to punctus elevatus or semicolon) for medial pauses. </scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote type="initial">Two large decorated initials in black, red, green and yellow including traces of gold.</decoNote>
@@ -91,18 +105,22 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace/>
-                            <origDate notBefore="0001" notAfter="0001"/>
+                            According to Reynolds, the comparison of the script and illumination with that of the <ref type="altMs" target="#desc__vr_f-1ktr.xml">Ingolstadt</ref> and <ref type="altMs" target="#desc__vr_f-1ie7.xml">Nuremberg-New York Gospels</ref> suggested that the original manuscript was written in <origPlace>Mondsee</origPlace> at the <origDate notBefore="0786" notAfter="0820">late eight or early ninth century</origDate>.
                         </origin>
-                        <provenance>Acquisition note on the lower margin in pencil (1954, <quote>von <unclear>Scheiling</unclear>. Leaf from italian Lectionarium Uncialis ca. 750 AD</quote>.</provenance>
-                        <acquisition/>
+                        <provenance>Purchased by <rs type="person" role="owner_previous">Philip Hofer</rs> in May 1957 from the London firm of <rs type="corporate" role="owner_previous">Maggs Brothers Ltd</rs>. Maggs bought the fragment from the Leiden dealer <rs type="person" role="owner_previous">Erik von Scherling</rs> (see  note on the lower margin in pencil: <quote>von <unclear>Scherling</unclear>. Leaf from italian Lectionarium Uncialis ca. 750 AD</quote>.</provenance>
+                        <acquisition>Acquisition from the collection of Philip Hofer.</acquisition>
                     </history>
-                    <additional>                       
+                    <additional>                 
                         <listBibl>
                             <bibl>R. Reynolds. "An Eighth-Century Uncial Leaf from a Mondsee Liber Comitis (Harvard, Houghton Library MS Typ 694)." In <title>Scire litteras: Forschungen zum mittelalterlichen Geistesleben</title>, pp. 327-332. Munich, 1988.</bibl>
                             <bibl><abbr>CLA</abbr> no. 1868.</bibl>
                             <bibl>B. Bischoff, V. Brown and J.J. John. "Addenda to Codices latini antiquiores (II)." In <title>Mediaeval Studies</title> 54 (1992): 286-307, no. 1868 and plate Ic (recto).</bibl>
-                        </listBibl>
+                            <listBibl>
+                                <head>External sources</head>
+                                <bibl><ref target="http://id.lib.harvard.edu/alma/990099854510203941/catalog">Harvard library catalogue</ref>.</bibl>
+                                <bibl><ref target="https://fragmentarium.ms/overview/F-r0d4">Fragmentarium entry</ref>.</bibl>
+                            </listBibl>
+                        </listBibl>                      
                     </additional>
                 </msDesc>
             </sourceDesc>
@@ -123,26 +141,11 @@
     </teiHeader>
     <facsimile>
         <graphic url="https://iiif.lib.harvard.edu/manifests/view/drs:53891232$1i" n="1r"/>
-        <graphic url="https://iiif.lib.harvard.edu/manifests/view/drs:53891232$2i" n="1v"></graphic>
+        <graphic url="https://iiif.lib.harvard.edu/manifests/view/drs:53891232$2i" n="1v"/>
     </facsimile>
     <text>
         <body>
-            <head>
-                <title></title>
-            </head>
-            <div>
-                <pb n="1va"/>
-                <p>reddentes: prouidentes bona non tantum coram deo sed etiam coram omnibus hominibus.
-                Si fieri potest quod ex uobis est cum omnibus hominibus pacem habentes.                
-                Non uosmetipsos defendentes karissimi sed date locum ire.
-                Scriptum est enim mihi uindictam et ego retribuam dicit dominus.
-                Sed si esurierit inimicus tuus ciba illum
-                Si sitit potum da illi.
-                    <pb n="1vb"/>
-                hoc enim faciens carbones ignis congeres super caput eius.
-                Noli uinci a malo sed uince in bonum malum.
-                </p>
-            </div>
+           <p></p>
         </body>
     </text>
 </TEI>

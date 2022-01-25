@@ -4,7 +4,7 @@
             <titleStmt>
                 <title>Vienna, ÖNB, Cod. 732</title>
                 <respStmt>
-                    <resp>Manuscript description and TEI-encoding</resp>
+                    <resp>Manuscript description and TEI-encoding by</resp>
                     <persName>
                         <forename>Ivana</forename>
                         <surname>Dobcheva</surname>
@@ -40,29 +40,32 @@
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
+                                <support>Calf parchment.</support>
                                 <extent>
-                                    <measure type="leavesCount">178</measure>
+                                    <measure type="leavesCount" quantity="178">178 fols.</measure>
                                    <dimensions type="leaf" unit="mm">
                                         <height>300</height>
                                         <width>210</width>
                                     </dimensions>
                                 </extent>
+                                <foliation>Modern foliation in pencil on the upper right corner of every recto.</foliation>
+                                                                
                             </supportDesc>                            
-                        </objectDesc>
+                        </objectDesc>                      
                     </physDesc>
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <p>Description based on:
-                                    <bibl>Hermann, Julius H. Die frühmittelalterlichen Handschriften des Abendlandes (Beschreibendes Verzeichnis der illuminierten Handschriften in Österreich VIII/1). Leipzig 1923, pp. 174-176.</bibl>
-                                </p>
+                                <p/>                                
                             </recordHist>
                         </adminInfo>
                         <surrogates>
                             <ref/>
                         </surrogates> 
                         <listBibl>
-                            <bibl/>
+                            <head>External resources</head>
+                            <bibl><ref target="http://data.onb.ac.at/rec/AC13956701">ÖNB Catalogue</ref></bibl>
+                            <bibl><ref target="https://manuscripta.at/?ID=10068">Manuscripta.at</ref></bibl>
                         </listBibl>
                     </additional>
                     <msPart>
@@ -357,59 +360,60 @@
                                     <extent>
                                         <measure type="leavesCount" quantity="114" unit="folio">114</measure>
                                         <dimensions type="leaf" unit="mm">
-                                            <height>H</height>
-                                            <width>W</width>
+                                            <height>300</height>
+                                            <width>210</width>
                                         </dimensions>
                                     </extent>
                                     <foliation/>
                                     <collation>
                                         <formula>
                                             I<hi rend="sup">8(-1)</hi> (ff. 64-70) + 
-                                            II<hi rend="sup">8</hi> ( ff. 71-78)</formula> + 
+                                            II<hi rend="sup">8</hi> ( ff. 71-78) + 
                                         III<hi rend="sup">8</hi> (ff. 79-86) + 
                                         IV <hi rend="sup">8</hi> (ff. 87-94) + 
                                         V<hi rend="sup">8</hi> (ff. 95-102) + 
                                         VI<hi rend="sup">8</hi> (ff. 103-110, 2 and 7 singletons) +  
                                         VII<hi rend="sup">6</hi> (ff. 111-116) +
-                                        #####
-                                        VIII<hi rend="sup"></hi> (ff. -139, singletons ###) +
-                                        IX<hi rend="sup">8-1</hi> (ff. 140-146, missing 1) +
-                                        X<hi rend="sup">8</hi> (ff. 147-154) +
-                                        XI<hi rend="sup">6</hi> (ff. 155-160) +
-                                        XII<hi rend="sup">8</hi> (ff. 161-168, 2 and 7 singletons) +
-                                      XIII<hi rend="sup">8</hi> (ff. 169-176).
-                                        Quiremarks in Roman numerals on the last page of the quire (ff. 70v, 78v, 86v, 94v, 102v, 110v, 160v, 168v, 176v).
+                                            VIII<hi rend="sup">8</hi>(ff. 117-124) +
+                                           IX<hi rend="sup">8-1</hi>(ff. 125-131, missing 8) +
+                                        X<hi rend="sup"></hi> (ff. 132-139, 2 and 7 singletons) +
+                                        XI<hi rend="sup">8-1</hi> (ff. 140-146, missing 1) +
+                                        XII<hi rend="sup">8</hi> (ff. 147-154) +
+                                        XIII<hi rend="sup">6</hi> (ff. 155-160) +
+                                        XIV<hi rend="sup">8</hi> (ff. 161-168, 2 and 7 singletons) +
+                                      XV<hi rend="sup">8</hi> (ff. 169-176) +
+                                        2 single leaves (fols. 177 and 178)</formula>.
+                                        <signatures>Quiremarks in Roman numerals on the last page of the quire (ff. 70v, 78v: II, 86v: III, 94v: IIII, 102v: V, 110v: VI, 139v: VIII, 146v: X, 154v (cut out), 160v: XI, 168v: XII, 176v: XIII).</signatures>
                                     </collation>
-                                    <condition></condition>
                                 </supportDesc>
                                 <layoutDesc>
                                     
                                     <layout ruledLines="0" writtenLines="21 22" columns="2">
-                                        <dimensions type="written" unit="mm">
+                                        Written space: <dimensions type="written" unit="mm">
                                             <height>230</height>
                                             <width>148-152</width>
                                         </dimensions> 
-                                        <p>written in 2 columns; 21 or 22 lines per page.
-                                        <!--                                    optional Zeilenhöhe-->
-                                        <dimensions type="lineHeight">
-                                            <height min="0" max="0"></height>
-                                        </dimensions>
-                                            <dimensions type="marginAbove" unit="mm">
-                                                <dim></dim>
-                                            </dimensions>
-                                            <dimensions type="marginBelow" unit="mm">
-                                                <dim></dim>
-                                            </dimensions>
-                                            <dimensions type="marginOuter" unit="mm">
-                                                <dim></dim>
-                                            </dimensions>
-                                            <dimensions type="marginInner" unit="mm">
-                                                <dim></dim>
-                                            </dimensions>
-                                        </p>
-                                        Blind ruling on superimposed bifolia, on the innermost bifolium of the quire.
-                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
-                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                        ; 21 or 22 lines in two columns with a width of
+                                            <dimensions type="column" unit="mm">
+                                                <width>70</width>
+                                            </dimensions> mm. Line height: 
+                                            <dimensions type="lineHeight" unit="mm">
+                                                <height>10-11</height>
+                                            </dimensions>. 
+                                        <seg type="margins">Margins:                                     
+                                            upper <dimensions type="marginAbove" unit="mm">
+                                                <dim>20</dim>
+                                            </dimensions>,
+                                            lower <dimensions type="marginBelow" unit="mm">
+                                                <dim>45</dim>
+                                            </dimensions>,
+                                            outer <dimensions type="marginOuter" unit="mm">
+                                                <dim>40</dim>
+                                            </dimensions>,
+                                            inner <dimensions type="marginInner" unit="mm">
+                                                <dim>10</dim>
+                                            </dimensions>.</seg>
+                                        <seg type="ruling">Blind ruling on superimposed bifolia, on the innermost bifolium of the quire. Each column with double vertical bounding lines on the outer side; three vertical lines between the columns. Written lines contained within the vertical ones with the exception of the top and bottom lines, which extend between the columns (<ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref> formula <formula notation="Muzerelle">2-2-111/0/1-1:J/JJ</formula>).</seg>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -422,20 +426,21 @@
                             <decoDesc>
                                 <decoNote type="initial">F. <locus from="64r">64r</locus> Large P-initial zoomorphic. Each letter and sermon opens with a rubric (in red and sometimes green) in Uncial and a 3 to 5-line high ornamental (Flechtornamentik) or zoomorphic (fish motiv) initial in green, yellow and red: <locus from="88v">88v</locus>, <locus from="112r">112r</locus>, <locus from="115r">115r</locus>, <locus from="117r">117r</locus>, <locus from="124v">124v</locus>, <locus from="130r">130r</locus>, <locus from="132r">132r</locus>, <locus from="136r">136r</locus>, <locus from="141v">141v</locus>, <locus from="144r">144r</locus>, <locus from="147r">147r</locus>, <locus from="150r">150r</locus>, <locus from="152v">152v</locus>, <locus from="154v">154v</locus>, <locus from="157r">157r</locus>, <locus from="159v">159v</locus>, <locus from="162v">162v</locus>, <locus from="166v">166v</locus>, <locus from="169r">169r</locus>, <locus from="171r">171r</locus>, <locus from="175v">175v</locus>. Chapters within the letters are highlighted as littera notabilior; on ff. <locus from="71r">71r</locus>-<locus from="78v">78v</locus> painted with red and green. Chapter numeration in the margin partly coorodated.
                                 </decoNote>
-                            </decoDesc>   
-                            <additions/> <!--Marginalia etc.-->
-                            <accMat/> <!--z.B. Fragmente oder beiliegende Notizen, die nicht Teil der HS sind-->
+                            </decoDesc> 
+                            <accMat>As front pastedown serve fragments from a twelfth-century antiphonal (<ref target="https://fragmentarium.ms/overview/F-qs3x">F-qs3x</ref>). Two fragments from a twelfth-century missal served as a back pastedown. The two partial leaves were detached and are kept today under shelfmark Fragm. 813 (<ref target="https://fragmentarium.ms/overview/F-ts3a">F-ts3a</ref>). As spine linings serve four strips from a thirteenth-century breviary (<ref target="https://fragmentarium.ms/overview/F-px5m">F-px5m</ref>).</accMat> 
                         </physDesc>
                         <history>
-                            <origin>
-                                <origPlace/>
-                                <origDate notBefore="0001" notAfter="0001"/>
-                            </origin>
-                            <provenance></provenance>
-                            <acquisition/>
+                            <origin>The manuscript was written in <origPlace>Mondsee</origPlace> in the <origDate notBefore="0801" notAfter="0850">first half of the ninth century</origDate>. As exemplar for the Epistulae Pauli served another Mondsee manuscript (<ref type="altMs" target="#desc__vr_f-mjod.xml">Cod. Ser. n. 2065</ref>), which is only fragmentary preserved.</origin>
+                            <provenance>The manuscript probably remained in the monastery till the dissolution in 1791, when the whole manuscript collection including was transferred to the Court Library (today the Austrian National Library).</provenance>
                         </history>
-                    </msPart>
-                    
+                        <additional>
+                            <listBibl>
+                                <bibl>Hermann, Julius H. Die frühmittelalterlichen Handschriften des Abendlandes (Beschreibendes Verzeichnis der illuminierten Handschriften in Österreich VIII/1). Leipzig 1923, pp. 174-176.</bibl>
+                                <bibl><abbr>Bischoff 1980</abbr>, 20.</bibl>
+                                <bibl><abbr>Pfaff 1967</abbr>, 23, 65, 90, 112.</bibl>
+                            </listBibl>
+                        </additional>
+                    </msPart>                    
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -449,7 +454,7 @@
         </encodingDesc>
     <revisionDesc status="draft">
         <listChange>
-            <change when="2021-08-03"></change>
+            <change when="2022-01-25"></change>
         </listChange>
     </revisionDesc>
     </teiHeader>

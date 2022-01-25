@@ -4,7 +4,7 @@
             <titleStmt>
                 <title>Vienna, Haus-, Hof-, und Staatsarchiv, Hs. B 70</title>
                 <respStmt>  
-                    <resp>Described by </resp>
+                    <resp>Manuscript description by </resp>
                     <persName>
                         <forename>Ivana</forename>
                         <surname> Dobcheva</surname>
@@ -25,7 +25,7 @@
                 <publisher>Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities, Universität Graz</publisher>
                 <idno type="PID"><!-- hier wird beim Ingest der PID des GAMS-Objektes hineingeschrieben --></idno>
                 <availability status="restricted">
-                    <licence></licence>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -52,7 +52,7 @@
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <extent>
-                                    <measure type="leavesCount" quantity="70" unit="folio">I + 70 + I</measure>                                    
+                                    <measure type="leavesCount" quantity="70" unit="folio">I + 70 + I fols.</measure>                                    
                                 </extent>
                                 <foliation/>
                                 <collation>The mansucript is a Sammelhandschrift made up of four codicological units: 1) fols. 1-52; 2) fols. 53-58; 3) fols. 59-66; 4) fols. 67-70. The quire structure is recorded by <bibl><abbr>Rath 1989</abbr>, p. 11</bibl>:
@@ -66,12 +66,11 @@
                                 <p/>
                             </binding>
                         </bindingDesc>
-                        <accMat/> <!--z.B. Fragmente oder beiliegende Notizen, die nicht Teil der HS sind-->
+                        <accMat></accMat> <!--z.B. Fragmente oder beiliegende Notizen, die nicht Teil der HS sind-->
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace/>
-                            <origDate notBefore="0001" notAfter="0001"/>
+                            The manuscript was written in <origPlace>Mondsee</origPlace>. The oldest codicological unit (fols. 1-52) was written in the <origDate notBefore="0851" notAfter="0900">second half of the ninth century</origDate>. The next two codicological units (fols. 53-58 and fols. 59-66) aree datable to the <origDate notBefore="1186" notAfter="1200">end of the twelfth century</origDate>. The four leaves at the end (fols. 67-70) are single leaves, fols. 67 and 68 datable to the <origDate notBefore="0901" notAfter="1000">tenth century</origDate>; fols. 69 and 70 to the <origDate notBefore="1101" notAfter="1200">twelfth century</origDate>.                      
                         </origin>
                         <provenance/>
                         <acquisition/>
@@ -497,30 +496,18 @@
         </encodingDesc>
         <revisionDesc status="draft">
             <listChange>
-                <change when="2021-07-03"/>
+                <change when="2022-01-25"/>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="https://imagines.manuscriptorium.com/loris/DSPMNS-HHS___HHSTAHSB70__2VMMLF6-de/id_00001/full/full/0/default.jpg" n="1r"/>
-        <graphic url="https://imagines.manuscriptorium.com/loris/DSPMNS-HHS___HHSTAHSB70__2VMMLF6-de/id_00004/full/full/0/default.jpg" n="3v"></graphic>
-        <graphic url="https://imagines.manuscriptorium.com/loris/DSPMNS-HHS___HHSTAHSB70__2VMMLF6-de/id_00004/full/full/0/default.jpg" n="4r"></graphic>
+        <graphic url="https://imagines.manuscriptorium.com/loris/DSPMNS-HHS___HHSTAHSB70__2VMMLF6-de/id_00004/full/full/0/default.jpg" n="3v"/>
+        <graphic url="https://imagines.manuscriptorium.com/loris/DSPMNS-HHS___HHSTAHSB70__2VMMLF6-de/id_00004/full/full/0/default.jpg" n="4r"/>
     </facsimile>
     <text>
         <body>
-            <head>
-                <title>Material analysis of the ink used by the four scribes responsible for Codicological unit A.</title>
-            </head>
-            <p>
-                <list>
-                    <head>Measure points:</head>
-                    <item>17r - hand A and B</item>
-                    <item>26r - hand C and B</item>
-                    <item>46r - hand B and D</item>
-                    <item>24r - red for rubric</item>
-                    <item>1r, 28v, 39 - stains</item>
-                </list>
-            </p>
+            <p></p>
         </body>
     </text>
 </TEI>

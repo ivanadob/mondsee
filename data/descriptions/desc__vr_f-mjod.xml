@@ -43,7 +43,7 @@
                         <title>Epistulae Pauli (Vetus Latina)</title>
                         <origDate notBefore="0801" notAfter="0825">s. IX<hi rend="sup">1/4</hi></origDate>
                         <origPlace>Mondsee</origPlace>
-                        <note type="facs"><ref target="https://fragmentarium.ms/overview/F-mjod"/></note>
+                        <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-mjod"/></note>
                         <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13944320"/></note>
                         <note type="summary">From the original manuscript survived 211 items, which can be reconstructed to 92 former leaves.</note>
                     </head> 
@@ -99,11 +99,11 @@
                         <handDesc>
                             <summary>The preserved fragments were copied by two hands.</summary>
                             <handNote scribe="A" script="carolmin" medium="x" scope="major">Hand A wrote a calligraphic <term type="script">Carolingian minuscule</term> from ff. <locus from="1r" to="5v">1r-5v</locus>.</handNote>
-                            <handNote scribe="B" script="carolmin" medium="x" scope="major">Hand B follows on ff. <locus from="6r" to="92v">6r-92v</locus> writin a similarly calligraphic <term type="script">Carolingian minuscule</term> with a smaller x-height.</handNote>
+                            <handNote scribe="B" script="carolmin" medium="x" scope="major">Hand B follows on ff. <locus from="6r" to="92v">6r-92v</locus> writing a similarly calligraphic <term type="script">Carolingian minuscule</term> with a smaller x-height.</handNote>
                         </handDesc>
                         <scriptDesc>
                             <summary></summary>
-                            <scriptNote script="x" medium="x">Punctuation: perhaps added after the text on the page was copied (a practice suggested by Parkes who observed that often the punctuation was written with the same ink as the text and was perhaps introduced by the scribe into the spaces left for it immediately after copying the page) see for example f. <locus from="77r">77rb</locus>, line 15: suae se(cundum) written with nextus; punctus versus added later - check if with the same ink, the same dark brown colour.</scriptNote>
+                            <scriptNote script="x" medium="x">Punctuation: perhaps added after the text on the page was copied (a practice suggested by Parkes who observed that often the punctuation was written with the same ink as the text and was perhaps introduced by the scribe into the spaces left for it immediately after copying the page) see for example f. <locus from="77r">77rb</locus>, line 15: <quote>suae se(cundum)</quote> written with nextus; punctus versus added later - check if with the same ink, the same dark brown colour.</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote type="initial"></decoNote>
