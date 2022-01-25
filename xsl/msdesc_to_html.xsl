@@ -271,7 +271,7 @@
 	</p>
 </xsl:template>
 
-<xsl:template match="tei:msIdentifier | tei:altIdentifier" mode="msPart">
+<xsl:template match="tei:msIdentifier" mode="msPart">
 	<div class="part">
 		<xsl:if test="tei:settlement != ancestor::tei:msDesc/tei:msIdentifier/tei:settlement">
 			<xsl:value-of select="tei:settlement"/>
@@ -289,17 +289,17 @@
 			<xsl:value-of select="tei:collection"/>
 			<xsl:text>, </xsl:text>
 		</xsl:if>
-		<xsl:value-of select="tei:idno"/>
+		<xsl:value-of select="tei:altIdentifier/tei:idno"/>
 		<xsl:choose>
 			<xsl:when test="following-sibling::tei:head/tei:title">
 				<p style="font-weight:normal">
 				<xsl:apply-templates select="following-sibling::tei:head/tei:title"/>	
 				</p>
 			</xsl:when>		
-		</xsl:choose>
-		
+		</xsl:choose>		
 	</div>
 </xsl:template>
+	
 	<xsl:template match="tei:msIdentifier | tei:altIdentifier" mode="msFrag">
 		<div class="part">			
 				<xsl:value-of select="tei:settlement"/>
