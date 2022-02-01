@@ -308,11 +308,7 @@
                                 <scriptNote>Simple three-line high initials (<term type="initial">built-up initials</term>, <term type="initial">litterae notabiliores</term>) in black ink.</scriptNote>
                             </scriptDesc>
                         </physDesc>
-                        <history>
-                            <origin>
-                                <origPlace/>
-                                <origDate notBefore="0001" notAfter="0001"/>
-                            </origin>
+                        <history>                           
                             <provenance>The fragments were detached from the binding probably by librarians at the Court library in the 19<hi rend="sup">th</hi> c. <rs type="person">Stephan Ladislaus Endlicher</rs> (librarian from 1828) took specific interest in the fragments and transcribed them in what is now <ref type="altMs" target="http://data.onb.ac.at/rec/AC14251890">Vienna, ÖNB, Cod. Ser. n. 3960</ref>. Since Endlicher reordered parts of the manuscript collection, it is possible that the current shelfmark Frag. 782 (which is a conglomerate of fragments from several originally distinct manuscripts) reflects his interest and not the fact that the fragments served as binding waste in one and the same host volume. Hence it is not possible to establish a Mondsee provenance for Fragm. 782c based on the secured Mondsee origin and provenance of Vienna, ÖNB, Cod. Ser. n. 2065, <ref target="https://fragmentarium.ms/view/page/F-rm22/2003/23573">f. 4</ref> which was till recently preserved under the shelfmark Fragm. 782-1 / 782a.</provenance>
                             <acquisition/>
                         </history>
