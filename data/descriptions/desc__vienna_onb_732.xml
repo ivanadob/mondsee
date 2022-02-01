@@ -101,6 +101,7 @@
                         <physDesc>
                             <objectDesc form="fascicle">
                                 <supportDesc material="perg">
+                                    <support>Calf parchment.</support>
                                     <extent>
                                         <measure type="leavesCount" quantity="0" unit="folio">63</measure>
                                     </extent>                                  

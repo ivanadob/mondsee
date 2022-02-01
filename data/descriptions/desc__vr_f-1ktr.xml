@@ -390,6 +390,7 @@
                         <physDesc>
                             <objectDesc form="fragment">
                                 <supportDesc material="perg">
+                                    <support>Parchment.</support>
                                     <extent>
                                         <measure type="leavesCount" quantity="0" unit="folio">64 fols. (surviving)</measure>
                                         <dimensions type="leaf_current" unit="mm">

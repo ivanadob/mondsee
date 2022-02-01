@@ -4,7 +4,7 @@
             <titleStmt>
                 <title>Berlin, Staatsbibliothek, Lat. qu. 931 (currently in Krakow, Biblioteka Jagiellońska)</title>
                 <respStmt>
-                    <resp>Description by</resp>
+                    <resp>Description (according to secondary literature) by</resp>
                     <persName>
                         <forename>Ivana</forename>
                         <surname>Dobcheva</surname>
@@ -42,87 +42,54 @@
                     <head>
                         <title>Ansegisus: Collectio capitularium</title>
                         <origDate notBefore="0851" notAfter="0910">s. IX<hi rend="sup">2</hi> (around 900)</origDate>
-                        <origPlace>Alamannia (Mondsee?)</origPlace>
-                        <note type="summary">The manuscript was once held at the Staatsbibliothek in Berlin, from where it disappeared for years (probably after WWII). At the time Bischoff wrote the Schreibschule (1980) he had access only to photos of two leaves and the description made by Christ. The content of the MS is listed in Capitularia database</note>
+                        <origPlace>St. Gall (?)</origPlace>
+                        <note type="summary">The manuscript is a copy of capitularies of Charlemagne and Louis the Pious, collected by Ansegis, abbot of Luxeuil, around 826/827. There are more than 50 surviving copies of the work. Our manuscript </note>
                     </head> 
                     <msContents>
-                        <textLang mainLang="lat" otherLangs=""/> 
+                        <textLang mainLang="lat"/> 
                         <msItem>
-                            <locus from="x" to="x"/>
-                            <title/> 
-                            <author/>
-                            <rubric/>
-                            <incipit/> 
-                            <explicit/> 
-                            <finalRubric/>
-                            <colophon></colophon>
-                            <decoNote></decoNote>
-                            <note/>
-                            <filiation></filiation>
-                            <listBibl>
-                                <bibl/>
-                            </listBibl>
+                            <locus from="1r">1r</locus>
+                            <note>Two prayers with neumes: <quote>Iesu redemptor seculi uerbum patris <gap/></quote> and <quote>Crux iesu christe adaperuit nobis <gap/></quote>.</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="1v" to="84v">1v-84v</locus>
+                            <title>Collectio capitularium</title> 
+                            <author>Ansegisus abbas Luxoviensis</author>                            
+                        </msItem>
+                        <msItem>
+                            <locus from="84v" to="89r">84v-89r</locus>
+                            <rubric>Incipiunt capitula quae supra desunt.</rubric>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
+                                <support>Parchment.</support>
                                 <extent>
                                     <measure type="leavesCount" quantity="89" unit="folio">89</measure>
                                     <dimensions type="leaf_current" unit="mm">
                                         <height>275</height>
                                         <width>195</width>
                                     </dimensions>
-                                </extent>
-                                <foliation/>
-                                <collation>
-                                    <formula></formula>
-                                </collation>
-                                <condition/>
+                                </extent>                              
                             </supportDesc>
-                            <layoutDesc>
-                                <layout ruledLines="0" writtenLines="0" columns="0">
-                                    <dimensions type="written" unit="mm">
-                                        <height></height>
-                                        <width></width>
-                                    </dimensions> 
-                                    <dimensions type="column" unit="mm">
-                                        <width></width>
-                                    </dimensions>
-                                    <dimensions type="lineHeight" unit="mm">
-                                        <height></height>
-                                    </dimensions>
-                                   <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
-                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
-                                </layout>
-                            </layoutDesc>
-                        </objectDesc>
-                        <handDesc>
-                            <summary></summary>
-                            <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
-                        </handDesc>
-                        <scriptDesc>
-                            <summary></summary>
-                            <scriptNote script="x" medium="x"></scriptNote>
-                        </scriptDesc>
-                        <decoDesc>
-                            <decoNote type="x"/>
-                        </decoDesc>   
-                        <additions/>
-                        <bindingDesc>
-                            <binding notBefore="0001" notAfter="0001">
-                                <p/>
-                            </binding>
-                        </bindingDesc>
-                        <accMat/> 
+<layoutDesc>
+    <layout columns="1" writtenLines="24">
+        Written space: <dimensions type="written" unit="mm">
+            <height>190</height>
+            <width>120</width>
+        </dimensions>. 24 long lines. Blind ruling.
+    </layout>
+</layoutDesc>                            
+                        </objectDesc>                        
                     </physDesc>
                     <history>
-                        <origin>
-                            <origPlace/>
-                            <origDate notBefore="0001" notAfter="0001"/>
-                        </origin>
-                        <provenance/>
-                        <acquisition/>
+                        <origin>According to Bischoff the manuscript was written in Alamannien, <origPlace>Sankt Gall</origPlace> (vgl. Schmitz) <origDate notBefore="0886" notAfter="0950">in the end of the ninth or first half of the tenth century.</origDate></origin>
+                        <provenance>A tenth-century copy of this manuscript written in Freising is preserved today in <ref target="https://opacplus.bsb-muenchen.de/search?id=935308041&amp;db=100&amp;View=default">Munich, Bayerische Staatsbibliothek, Clm. 6360</ref>, which suggests our manuscript was at Freising at the time.</provenance>
+                        <provenance>The codex used to have binding waste from Mondsee, suggesting it belonged to the monastery sometime in the Late Middle Ages (probably prior to the binding initiative started in the fifteenth century). The fragment was detached and is now held in Berlin, Staatsbibliothek under shelfmark Fragm. 47 (see <ref type="altMs" target="#desc__vr_f-b3km.xml">F-b3km</ref>.</provenance>
+                        <provenance>In the sixteenth century the manuscript belonged to <rs type="person">Ferdinand Hoffman von Grünbühel und Strechau</rs> (exlibris).</provenance>
+                        <provenance>Later the manuscript was part of the library of the Fürst Dietrichstein-Nikolsburg in Moravia (Signatur: II 179), which was actioned in 1933.</provenance>
+                        <provenance>The manuscript was then held at the Staatsbibliothek in Berlin, from where it disappeared for years (probably after World War II). At the time Bischoff wrote the Schreibschule (1980) he had access only to photos of two leaves and the description made by Christ. 1981 the manuscript was rediscovered by Roman Zawadzki in the Biblioteka Jagiellońska.</provenance>
                     </history>
                     <additional>
                         <adminInfo>
@@ -135,7 +102,10 @@
                             <ref/>
                         </surrogates> 
                         <listBibl>
-                            <bibl>MS description in <ref target="https://capitularia.uni-koeln.de/mss/berlin-sb-lat-qu-931/">Capitularia</ref> - Edition der fränkischen Herrschererlasse</bibl>
+                            <bibl>Gilhofer, H. and H. Ranschburg, Auktion XI: Bibliothek Fürst Dietrichstein, Schloß Nikolsburg. Luzern, 1933, pp. <ref target="https://digi.ub.uni-heidelberg.de/diglit/gilhofer_ranschburg_luzern1933_11_21bd1/0096">69-70 (Nr. 364)</ref> and plate <ref target="https://digi.ub.uni-heidelberg.de/diglit/gilhofer_ranschburg_luzern1933_11_21bd1/0195">Nr. 20</ref> (f. 26v).</bibl>
+                            <bibl>Die Kapitulariensammlung des Ansegis. Ed. by G. Schmitz. MGH Capit. N.S., 1. Hannover: Hahnsche Buchhandlung, 1996, pp. 79-81 (Siglum B1).</bibl>
+                            <bibl>Mordek, H. Bibliotheca capitularium regum Francorum manuscripta. Überlieferung und Traditionszusammenhang der fränkischen Herrschererlasse München. Monumenta Germaniae Historica, 1995 (Monumenta Germaniae Historica. Hilfsmittel 15).</bibl>
+                            <bibl>MS description and transcription of the capitularies in <ref target="https://capitularia.uni-koeln.de/mss/berlin-sb-lat-qu-931/">Berlin, Staatsbibliothek - Preußischer Kulturbesitz, Lat. qu. 931 (zur Zeit Krakau, Biblioteka Jagiellońska), in: Capitularia. Edition der fränkischen Herrschererlasse, bearb. von Karl Ubl und Mitarb., Köln 2014 ff. URL: https://capitularia.uni-koeln.de/mss/berlin-sb-lat-qu-931/</ref> (accessed 01.02.2022).</bibl>
                         </listBibl>
                     </additional>            
                                         

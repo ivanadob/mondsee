@@ -106,15 +106,7 @@
             <item xml:id="gbv_136747531">
                <label>Hermann 1923</label>
                <bibl>Hermann, Hermann Julius. <title>Die frühmittelalterlichen Handschriften des Abendlandes</title>. Edited by Franz Wickhoff. Leipzig: Hiersemann, 1923.</bibl>
-            </item>
-            <item>
-               <label>Mazal 1963</label>
-               <bibl>Mazal, Otto, and Franz Unterkircher. <title>Katalog der abendländischen Handschriften der Österreichischen Nationalbibliothek : ‘Series nova’ (Neuerwerbungen)</title>. Vol. 2: Cod. Ser. n. 1601-3200. 5 vols. Vienna: Prachner, 1963.</bibl>
-            </item>
-            <item>
-               <label>MGH</label>
-               <bibl>Monumenta Germaniae Historica, Hannover, Leipzig, Berlin, München, 1826-.</bibl>
-            </item>            
+            </item>       
                <item>
                   <label>Lemarié 1962</label>
                   <bibl>Lemarié, Joseph. ‘Une des Sources de l’homiliaire de Mondsee: Un Corpus d’homélies Attribuables à Saint Chromace d’Aquilée’. <title>Revue Bénédictine</title> 72 (1962): 132–35.</bibl>
@@ -141,6 +133,14 @@
                   <bibl>Lemarié, Joseph. ‘Nouveaux Fragments de Sermons Attribuables à Un Pseudo-Fulgence’. <title>Revue Bénédictine</title> 104 (1994): 191–200.</bibl></item>
                
             <item>
+               <label>Mazal 1963</label>
+               <bibl>Mazal, Otto, and Franz Unterkircher. <title>Katalog der abendländischen Handschriften der Österreichischen Nationalbibliothek : ‘Series nova’ (Neuerwerbungen)</title>. Vol. 2: Cod. Ser. n. 1601-3200. 5 vols. Vienna: Prachner, 1963.</bibl>
+            </item>
+            <item>
+               <label>MGH</label>
+               <bibl>Monumenta Germaniae Historica, Hannover, Leipzig, Berlin, München, 1826-.</bibl>
+            </item>     
+            <item>
                <label>Paulhart 1966</label>
                <bibl>Paulhart, Herbert. ‘Das Fragment eines Mondseer Homiliars in der Linzer Kapuzinerbibliothek’. <title>Historisches Jahrbuch der Stadt Linz</title>, 1966, 349–56.
                </bibl>
@@ -165,7 +165,7 @@
             <item xml:id="gbv_275684482">
                <label>Rath 1989</label>
                <bibl>Rath, Gebhard, and Erich Reiter. <title>Das älteste Traditionsbuch des Klosters Mondsee</title>. Linz: Oberösterreichisches Landesarchiv, 1989.</bibl>
-            </item>
+            </item>            
             <item xml:id="gbv_179137379">
                <label>Stegmüller RB</label>
                <bibl>Stegmüller, Friedrich, and Nikolaus Reinhardt. <title>Repertorium biblicum medii aevi</title>. 11 vols, 1950.</bibl>

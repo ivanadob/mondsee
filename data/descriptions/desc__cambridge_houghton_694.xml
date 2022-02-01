@@ -43,6 +43,7 @@
                         <origPlace>Mondsee (?)</origPlace>
                         <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-r0d4"/></note>
                         <note type="catalogue"><ref target="http://id.lib.harvard.edu/alma/990099854510203941/catalog"/></note>
+                        <note type="summary">A leaf from a Uncial manuscript, which probably contained the readings for the Mass from the New Testament Epistles. The script and decoration suggest that the manuscript was a product of the Mondsee scriptorium.</note>
                     </head> 
                     <msContents>
                         <textLang mainLang="lat"/> 
@@ -72,7 +73,7 @@
                             <supportDesc material="perg">
                                 <support>Yellow parchment.</support>
                                 <extent>
-                                    <measure type="leavesCount" quantity="1" unit="folio">1 fol.</measure>
+                                    <measure type="leavesCount" quantity="1" unit="folio">1</measure>
                                     <dimensions type="leaf_current" unit="mm">
                                         <height>286</height>
                                         <width>209</width>
