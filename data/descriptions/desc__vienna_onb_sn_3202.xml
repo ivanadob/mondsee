@@ -35,22 +35,21 @@
                         <settlement>Vienna</settlement>
                         <institution></institution>
                         <repository>Österreichische Nationalbibliothek</repository> 
-                        <idno>Cod. Ser. n. 3202</idno>
-                        <altIdentifier type="former"> 
-                            <idno></idno>
-                        </altIdentifier>                       
+                        <idno>Cod. Ser. n. 3202</idno>     
                     </msIdentifier>
                     <head>
                         <title>Lectionarium</title>
                         <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi></origDate>
-                        <origPlace></origPlace>
-                        <note type="facs"><ref target="https://fragmentarium.ms/overview/F-k1ys"/></note>
+                        <origPlace>Southern Germany</origPlace>
+                        <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-k1ys"/></note>
                         <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC14413768"/></note>
                         <note type="summary">From the original manuscript survived 14 strips, which were used as binding waste in an early print belonging to the Mondsee library. The fragments were detached 1960 and mounted on goldbeater's skin to form 13 partial leaves.</note>
                     </head> 
                     <msContents>
-                        <textLang mainLang="lat" otherLangs=""/> 
-                        <msItem>
+                        <summary>Readings from the Gospels and the Epistles for the time of the Christmas vigil to the fourth week of Lent.</summary>
+                        <textLang mainLang="lat"/> 
+                        
+                        <!--<msItem>
                             <locus from="x" to="x"/>
                             <title/> 
                             <author/>
@@ -65,66 +64,55 @@
                             <listBibl>
                                 <bibl/>
                             </listBibl>
-                        </msItem>
+                        </msItem>-->
                     </msContents>
                     <physDesc>
                         <objectDesc form="fragment">
                             <supportDesc material="perg">
+                                <support>17 parchment strips.</support>
                                 <extent>
-                                    <measure type="leavesCount" quantity="0" unit="folio">13</measure>
+                                    <measure type="leavesCount" quantity="14" unit="folio">14</measure>
                                     <dimensions type="leaf_current" unit="mm">
-                                        <height></height>
-                                        <width></width>
+                                        <height min="152">152</height>
+                                        <width min="168">168</width>
                                     </dimensions>
                                 </extent>
                                 <foliation/>
-                                <collation>
-                                    <formula></formula>
+                                <collation>The 17 horizontal strips are reconstructed to 14 fragmentary leaves.
+                                    See collation formula in <ref target="https://vceditor.library.upenn.edu/project/61fa4e919d8f460001283bfa/viewOnly">VCEditor</ref>. <formula>I<hi rend="sup">8-6</hi> (missing 1, 2, 4, 5, 7, 8; fols. 1-2), II<hi rend="sup">8-6</hi> (missing 1-3 and 6-8; fols. 3-4), III<hi rend="sup">8-2</hi> (missing 1 and 8; fols. 5-10), IV<hi rend="sup">8-4</hi> (missing 1, 3, 6 and 8; fols. 11-14).</formula>
                                 </collation>
-                                <condition/>
+                                <condition>The fragments are horizontal strips cut from bifolia. The strips are mounted on goldbeater's skin and reconstructed to 14 fragmentary single leaves. The current fols. 3, 4, 7, 8, 12 and 13 are made up of one strips, fols. 1 and 2 - of two strips, fols. 5, 6, 9, and 10 - of three strips, fols. 11 and 14 - of five strips.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout ruledLines="0" writtenLines="0" columns="0">
-                                    <dimensions type="written" unit="mm">
-                                        <height></height>
-                                        <width></width>
-                                    </dimensions> 
-                                    <dimensions type="column" unit="mm">
-                                        <width></width>
-                                    </dimensions>
+                                <layout ruledLines="0" writtenLines="19" columns="1">
+                                    Written space: <dimensions type="written" unit="mm">
+                                        <height min="152">152</height>
+                                        <width>110-120</width>
+                                    </dimensions>. Around 19 long lines; line height:
                                     <dimensions type="lineHeight" unit="mm">
-                                        <height></height>
-                                    </dimensions>
-                                   <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
-                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                        <height>8</height>
+                                    </dimensions>. 
+                                    <seg type="ruling">Blind ruling visible on fol. 5v: double vertical bounding lines in the inner text margin.</seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
-                        <handDesc>
-                            <summary></summary>
-                            <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
-                        </handDesc>
                         <scriptDesc>
                             <summary></summary>
-                            <scriptNote script="x" medium="x"></scriptNote>
+                            <scriptNote script="carolmin" medium="x"></scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote type="x"/>
-                        </decoDesc>   
-                        <additions/>
+                            <decoNote type="initial">Fragmentary preserved initial "P" in green and red on fol. 1r. Smaller decorated initials in red (fols. 5v, 7v) yellow (fols. 6v) and a combinatio of the two (fols. 10r, 11v).</decoNote>
+                            <decoNote>Rubrics in red for the ferial days.</decoNote>
+                        </decoDesc> 
                         <bindingDesc>
-                            <binding notBefore="0001" notAfter="0001">
-                                <p/>
+                            <binding contemporary="false" notBefore="1960">
+                                <p>Modern cardboard binding.</p>
                             </binding>
                         </bindingDesc>
-                        <accMat/> 
                     </physDesc>
                     <history>
-                        <origin>
-                            <origPlace/>
-                            <origDate notBefore="0001" notAfter="0001"/>
-                        </origin>
-                        <provenance/>
+                        <origin>Based on the script Bischoff suggested the original manuscript was written in <origPlace>South-east Germany</origPlace> in the <origDate notBefore="0801" notAfter="0850">first half of the ninth century</origDate>.</origin>
+                        <provenance>The fragments were detached 1960 from a Mondsee incunable (<ref target="https://permalink.obvsg.at/lbo/XO00358000">Ink. 397</ref>) from the collection of the former Studienbibliothek in Linz (today the State Library of Upper Austria). The fragments served as sewing supports in the middle of the quires.</provenance>
                         <acquisition/>
                     </history>
                     <additional>
@@ -139,7 +127,11 @@
                             <ref/>
                         </surrogates> 
                         <listBibl>
-                            <bibl/>
+                            <bibl>Unterkircher, F. Ein Lektionar-Fragment aus Mondsee. In: Melanges Eugene Tisserant. Vol. V (Studi e Testi, 235), 1964, pp. 413-426.</bibl>
+                            <bibl><abbr>Bischoff 1980</abbr>, 25-26.</bibl>
+                            <bibl><abbr>Bischoff 2014</abbr>, p. 494, Nr. 7243.</bibl>
+                            <bibl><abbr>Mazal 1967</abbr>, pp. <ref target="http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0753_b0001_jpg.htm">1</ref>-<ref target="http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0753_b0002_jpg.htm">2</ref>.</bibl>
+                            <bibl>Rasinger, L. Lectionarium (Fragment), Wien, Österreichische Nationalbibliothek, Cod. ser. n. 3202 (<ref target="https://fragmentarium.ms/description/F-k1ys/1231">Born digital for Fragmentarium</ref>).</bibl>
                         </listBibl>
                     </additional>             
                                         
@@ -155,7 +147,8 @@
             </projectDesc>
         </encodingDesc>
     <revisionDesc status="draft">
-        <listChange>
+        <listChange>            
+            <change when="2022-02-02">Added codicological info.</change>
             <change when="2021-09-08">First entry.</change>
         </listChange>
     </revisionDesc>
