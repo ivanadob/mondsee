@@ -259,21 +259,24 @@
                             <msItem>
                                 <title ref="#evangelium_lucam">Evangelium secundum Lucam</title>
                                 <msItem>
+                                    <note>Lacuna (ca. 16 fols.)</note>
+                                </msItem>
+                                <msItem>
                                     <locus from="27932_1r" to="27932_1v">1ra-1vb</locus>
                                     <incipit defective="true"><ref type="biblical" cRef="Lc_5,19">cum lecto in medium ante ihesum</ref></incipit>
                                     <explicit defective="true"><ref type="biblical" cRef="Lc_5,33"></ref></explicit>
                                     <explicit/>                                  
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (1 fol.) = Morgan library, M 564 f. 1</note>
+                                    <note>Followed by Morgan library, M 564 f. 1</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_2r" to="27932_3v">2ra-3vb</locus>
                                     <incipit defective="true"><ref type="biblical" cRef="Lc_6,7">unde accusarent illum</ref></incipit>
-                                    <explicit defective="true"><ref type="biblical" cRef="Lc_6,34"></ref></explicit>
+                                    <explicit defective="true">quare discipuli iohannes<ref type="biblical" cRef="Lc_6,34"></ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (1 fol.) = Morgan library, M 564 f. 2.</note>
+                                    <note>Followed by  Morgan library, M 564 f. 2.</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_4r" to="27932_5v">4ra-5vb</locus>
@@ -281,7 +284,7 @@
                                     <explicit defective="true"><ref type="biblical" cRef="Lc_7,21"></ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (1 fol.) = Morgan library, M 564 f. 3.</note>
+                                    <note>Followed by  Morgan library, M 564 f. 3.</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_6r" to="27932_7v">6ra-7vb</locus>
@@ -289,7 +292,7 @@
                                     <explicit defective="true"><ref type="biblical" cRef="Lc_8,9"></ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (1 fol.)  = Morgan library, M 564 f. 4.</note>
+                                    <note>Followed by  Morgan library, M 564 f. 4.</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_8r" to="27932_9v">8ra-9vb</locus>
@@ -297,7 +300,7 @@
                                     <explicit defective="true"><ref type="biblical" cRef="Lc_8,41"></ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (1 fol.)  = Morgan library, M 564 f. 5.</note>
+                                    <note>Followed by  Morgan library, M 564 f. 5.</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_10r" to="27932_11v">10ra-11vb</locus>
@@ -305,7 +308,7 @@
                                     <explicit defective="true"><ref type="biblical" cRef="Lc_9,22"></ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (1 fol.)  = Morgan library, M 564 f. 6.</note>
+                                    <note>Followed by  Morgan library, M 564 f. 6.</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_12r" to="27932_13v">12ra-13vb</locus>
@@ -313,7 +316,7 @@
                                     <explicit defective="true"><ref type="biblical" cRef="Lc_9,59"></ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (1 fol.) = Morgan library, M 564 f. 7.</note>
+                                    <note>Followed by  Morgan library, M 564 f. 7.</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_14r" to="27932_v">14ra-15vb</locus>
@@ -321,20 +324,20 @@
                                     <explicit defective="true"><ref type="biblical" cRef="Lc_10,35"></ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (1 fol.)  = Morgan library, M 564 f. 8.</note>
+                                    <note>Followed by  Morgan library, M 564 f. 8.</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_16r" to="27932_v">16ra-vb</locus>
                                     <incipit defective="true"><ref type="biblical" cRef="Lc_11,5">quis uestrum habebit</ref></incipit>
-                                    <explicit defective="true"><ref type="biblical" cRef="Lc_11,17"></ref></explicit>
+                                    <explicit defective="true"><ref type="biblical" cRef="Lc_11,17">cogitationes eorum</ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (? fols.)</note>
+                                    <note>Lacuna (3 fols.)</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_17r" to="27932_17v">17ra-vb</locus>
                                     <incipit defective="true"><ref type="biblical" cRef="Lc_11,54">clauem scientiae</ref></incipit>
-                                    <explicit><ref type="biblical" cRef="Lc_12,10"></ref></explicit>
+                                    <explicit><ref type="biblical" cRef="Lc_12,10">hominis remitte<supplied>tur</supplied></ref></explicit>
                                 </msItem>
                                 <msItem>
                                     <note>Lacuna (1 fol.)</note>
@@ -342,7 +345,7 @@
                                 <msItem>
                                     <locus from="27932_18r" to="27932_19v">18ra-19vb</locus>
                                     <incipit defective="true"><ref type="biblical" cRef="Lc_12,24">coruos quia non seminant</ref></incipit>
-                                    <explicit><ref type="biblical" cRef="Lc_12,49"></ref></explicit>
+                                    <explicit><ref type="biblical" cRef="Lc_12,49">mittere in terram</ref></explicit>
                                 </msItem>
                                 <msItem>
                                     <note>Lacuna (1 fol.)</note>
@@ -353,7 +356,7 @@
                                     <explicit defective="true"><ref type="biblical" cRef="Lc_13,16">hanc autem</ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (? fols.)</note>
+                                    <note>Lacuna (3 fols.)</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_20bisr">20<hi rend="sup">bis</hi>r-v</locus>
@@ -361,7 +364,7 @@
                                     <explicit defective="true"><ref type="biblical" cRef="Lc_14,31">bellum aduersus alium</ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (? fols.)</note>
+                                    <note>Lacuna (10 fols.)</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_20terr">20<hi rend="sup">ter</hi>r-v</locus>
@@ -369,7 +372,7 @@
                                     <explicit defective="true"><ref type="biblical" cRef="Lc_18,41">interrogauit illum dicens</ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (? fols.)</note>
+                                    <note>Lacuna (3 fols.)</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_20ar" to="27932_20cv">20ara-20cvb</locus>
@@ -385,7 +388,7 @@
                                     <explicit defective="true"><ref type="biblical" cRef="Lc_21,16">afficient ex uobis</ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (2 fols.)</note>
+                                    <note>Lacuna (4 fols.)</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_21r" to="21vb">21ra-21vb</locus>
@@ -393,16 +396,16 @@
                                     <explicit defective="true"><ref type="biblical" cRef="Lc_22,53">cum fuerim in templo</ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (? fols.)</note>
+                                    <note>Lacuna (6 fols.)</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_22r" to="27932_22v">22ra-vb</locus>
                                     <incipit defective="true"><ref type="biblical" cRef="Lc_24,17">Et estis tristes</ref></incipit>
                                     <explicit defective="true"><ref type="biblical" cRef="Lc_24,31">et aperti sunt</ref></explicit>
                                 </msItem>
-                            </msItem>
-                            <msItem>
-                                <note>Lacuna (? fols.)</note>
+                                <msItem>
+                                    <note>Lacuna (2 fols.) untill the end of Luke.</note>
+                                </msItem>
                             </msItem>
                             <msItem>
                                 <locus from="27932_23r">23ra</locus>
@@ -422,21 +425,21 @@
                                 <bibl><abbr>Stegmüller RB</abbr>, Nr. 11016.</bibl>
                             </msItem>
                             <msItem>
-                                <note>Lacuna (? fols.)</note>
+                                <note>Lacuna (1 fol.): 1 column for the end of the Summarium.</note>
                             </msItem>
                             <msItem>
                                 <locus from="27932_24r" to="27932_28v">24r-28v</locus>
                                 <title ref="#evangelium_johannem">Evangelium secundum Johannem</title>
                                 <msItem>
-                                    <note type="title">Lacuna (? fols.).</note>
+                                    <note type="title">Lacuna (1 fol.).</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_24r">24ra-vb</locus>
                                     <incipit defective="true"><ref type="biblical" cRef="Io_1,19">quando miserunt iudaei</ref></incipit>
-                                    <explicit defective="true"><ref type="biblical" cRef="Io_1,33"></ref></explicit>
+                                    <explicit defective="true">hic est qui bapti<supplied>zat</supplied><ref type="biblical" cRef="Io_1,33"></ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (? fols.), incl. Morgan library, M 564 ff. 9-10.</note>
+                                    <note>Lacuna (2 fols.), followed by Morgan library, M 564, f. 9 (Io 2,14-3,3), Lacuna (10 fols.) and Morgan library, M 564, f. 10r-v (Io 6,16-6,30).</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_25r" to="26v">25ra-26vb</locus>
@@ -444,7 +447,7 @@
                                     <explicit defective="true"><ref type="biblical" cRef="Io_6,59">qui manducat hunc panem</ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note>Lacuna (? fols.) incl. Morgan library, M 564 ff. 11-16.</note>
+                                    <note>Lacuna (1 fol.) followed by Morgan library, M 564 ff. 11-16 (Io 7,6-8,42).</note>
                                 </msItem>
                                 <msItem>
                                     <locus from="27932_27r" to="28v">27ra-28vb</locus>
@@ -452,7 +455,7 @@
                                     <explicit defective="true"><ref type="biblical" cRef="Io_9,24">qui fuerat caecus</ref></explicit>
                                 </msItem>
                                 <msItem>
-                                    <note type="title">Lacuna incl. Morgan library, M 564 ff. 17-18.</note>
+                                    <note type="title">Lacuna (2 fols.) followed by Morgan library, M 564, f. 17 (Io 10,17-10,33) another lacuna (6 fols.) and Morgan library, M 564, f. 18 (Io 12,26-12,39).</note>
                                 </msItem>
                             </msItem>
                         </msContents>
