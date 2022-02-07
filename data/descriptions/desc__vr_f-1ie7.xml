@@ -40,7 +40,7 @@
                         <origDate notBefore="0751" notAfter="0800">s. VIII<hi rend="sup">2</hi></origDate>
                         <origPlace>Mondsee</origPlace>
                         <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-1ie7"/></note>
-                        <note type="summary">This manuscript of the four Gospels was probably written in Mondsee in the second half of the eight century. It was entirely written in Uncial script with illuminated initials. The manuscript was at some point discarded and used as binding waste. Preserved are 58 folios (18 in New York and 32 in Nuremberg GNM and 8 in Nuremberg Stadtbibliothek) </note>
+                        <note type="summary">This Uncial manuscript of the four Gospels was probably written in Mondsee in the second half of the eight century. The manuscript was at some point discarded and used as binding waste. Preserved are 58 folios (18 in New York and 32 in Nuremberg GNM and 8 in Nuremberg Stadtbibliothek) </note>
                     </head>                     
                     <physDesc>
                         <objectDesc form="fragment">
@@ -105,7 +105,9 @@
                             <ref/>
                         </surrogates> 
                         <listBibl>
-                            <bibl/>
+                            <bibl>Wright, David H. ‘The Codex Millenarius and Its Model’. <title>Münchner Jahrbuch der bildenden Kunst</title> 15 (1964): 37–54.</bibl>
+                            <bibl>Holter, Kurt. ‘Das Alte und Neue Testament in Buchmalerei nördlich der Alpen’. In <title>La bibblia nell’alto medioevo</title> (Settimane di studio del Centro italiano di studi sull’alto medioevo, 10), 413–72.</bibl>
+                            <bibl><abbr>Bischoff 1980</abbr>, pp. 19-20.</bibl>
                         </listBibl>
                     </additional>             
                     <msFrag>
@@ -190,9 +192,9 @@
                                     <extent>
                                         <measure type="leavesCount" quantity="18" unit="folio">18</measure>
                                         <dimensions type="leaf" unit="mm">
-                                            <height></height>
-                                            <width></width>
-                                        </dimensions>
+                                            <height>317.5</height>
+                                            <width>190.5</width>
+                                        </dimensions> (according to description of the Pierpont Morgan Library).
                                     </extent>
                                     <foliation/>
                                     <collation>
@@ -227,6 +229,7 @@
                             <bindingDesc>
                                 <binding>
                                     <p>Information from the Morgan cards catalogue: the fragments are kept in a wooden box assembled in Germany in the 19th-century. On the upper cover in the middle of a gilt-metal sheet (probably 13th-century) is an enamel plaque of Christ in majesty (probably 12th-century) in center and symbols of the Evangelists at the corners, surrounded by metal bands studded with crystals. The symbols of the Evangelists are copies of 13th- or 14th-century pieces.</p>
+                                    <p>The <title>Catalogus</title> of Sir Thomas Phillipps mentions that the fragments were already at the time (1837) bound in red velvet and one cover was decorated with rock crystals set in silver gilt.</p>
                                 </binding>
                             </bindingDesc>
                             <accMat>By the acquisition the leaves were wrapped in a fragment (two leaves - probably bifolium) from a 11th-century Lectionary, according to the catalogue of the Morgan library - written in a Bavarian or Austrian hand.</accMat>
@@ -237,9 +240,15 @@
                                 <origDate notBefore="0001" notAfter="0001"/>
                             </origin>
                             <provenance>The leaves served as binding waste (covers ?) for family records of the Nuremberg family of Von Kress. </provenance>
-                            <provenance>The fragments were later (ca. 1680) owned by Baron J. W. Imhoff, later by his heir Baron Haller von Hallerstein.</provenance>
-                            <provenance>The fragments were sold several times: 1861 acquired by Tross, then by Guillaume Libri, by Sir Thomas Phillips, by Richard Bennett and lastly by Pierpont Morgan.</provenance>
+                            <provenance>The fragments were later (ca. 1680) owned by <rs type="person" role="owner_previous">Baron J. W. Imhoff</rs>, later by his heir <rs type="person" role="owner_previous">Baron Haller von Hallerstein</rs>.</provenance>
+                            <provenance>The fragments were sold several times: 1861 in an auction in Nuremberg acquired by <rs type="corporate" role="owner_previous">Tross</rs>, then by <rs type="corporate" role="owner_previous">Guillaume Libri</rs>, who sold them to <rs type="person" role="owner_previous">Sir Thomas Phillipps </rs>(in his <title>Catalogus</title>, p. 317, No. 16387), by <rs type="person" role="owner_previous">Richard Bennett</rs> and lastly by Pierpont Morgan.</provenance>
                         </history>
+                        <additional>
+                            <listBibl>
+                                <bibl>Koehler, Wilhelm. ‘The Fragments of an Eighth-Century Gospel Book in the Morgan Library (M.564): A Contribution to the History of the Vulgate’. In Studies Belle Da Costa Greene, 238–65, 1954.</bibl>
+                                <bibl>Catalogus librorum manuscriptorum in bibliotheca D. Thomae Phillipps, Bart. Middle Hill, 1837, p. 317.</bibl>
+                            </listBibl>
+                        </additional>
                     </msFrag> 
                     <msFrag>
                         <msIdentifier>
