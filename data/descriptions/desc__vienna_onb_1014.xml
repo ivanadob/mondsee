@@ -100,7 +100,7 @@
                             <supportDesc material="perg">
                                 <extent>
                                     <measure type="leavesCount" quantity="202" unit="folio">202</measure>
-                                    <dimensions type="leaf" unit="mm">
+                                    <dimensions type="leaf_current" unit="mm">
                                         <height>250</height>
                                         <width>155</width>
                                     </dimensions>
@@ -239,8 +239,8 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace/>
-                            <origDate notBefore="0811" notAfter="0819">811-819</origDate>
+                            The manuscript was written in <origPlace>Mondsee</origPlace> probably in the period <origDate notBefore="0811" notAfter="0819">811-819</origDate> by the order of Abbot <rs type="person">Lantpert</rs>. The manuscript can be dated based on the opening inscription mentioning <rs type="person">Hildebald of Cologne</rs> as archbishop. Hildebald became <foreign>Abbas Commendatarius</foreign> in 803, which can be seen as the <foreign>terminus post quem</foreign>, while Hildebald death in 819 as the <foreign>terminus ante quem</foreign>. Lantpert named himself <quote>abbas</quote> in the inscription suggesting the book was written after 811; before that Lantpertus was still a deacon. 
+                            
                         </origin>
                         <provenance/>
                         <acquisition/>

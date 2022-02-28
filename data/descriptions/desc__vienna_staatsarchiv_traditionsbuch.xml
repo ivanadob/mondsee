@@ -128,7 +128,7 @@
                                     </support>
                                     <extent>
                                         <measure type="leavesCount" quantity="52" unit="folio">52</measure>
-                                        <dimensions type="leaf" unit="mm">
+                                        <dimensions type="leaf_current" unit="mm">
                                             <height>235-250</height>
                                             <width>175-180</width>
                                         </dimensions>

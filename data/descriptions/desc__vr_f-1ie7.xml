@@ -41,7 +41,213 @@
                         <origPlace>Mondsee</origPlace>
                         <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-1ie7"/></note>
                         <note type="summary">This Uncial manuscript of the four Gospels was probably written in Mondsee in the second half of the eight century. The manuscript was at some point discarded and used as binding waste. Preserved are 58 folios (18 in New York and 32 in Nuremberg GNM and 8 in Nuremberg Stadtbibliothek) </note>
-                    </head>                     
+                    </head> 
+                    <msContents>
+                        <textLang mainLang="lat"/>
+<!--                        move the content together here, giving Sigla for the MSS in the locus element-->
+                        <msItem>
+                            <title ref="#evangelium_lucam">Evangelium secundum Lucam</title>
+                            <msItem>
+                                <note>Lacuna (ca. 16 fols.)</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_1r" to="27932_1v">M_1ra-1vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_5,19">cum lecto in medium ante ihesum</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_5,33"></ref></explicit>
+                                <explicit/>                                  
+                            </msItem>
+                            <msItem>
+                                <note>Followed by Morgan library, M 564 f. 1</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_2r" to="27932_3v">2ra-3vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_6,7">unde accusarent illum</ref></incipit>
+                                <explicit defective="true">quare discipuli iohannes<ref type="biblical" cRef="Lc_6,34"></ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Followed by  Morgan library, M 564 f. 2.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_4r" to="27932_5v">4ra-5vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_6,45">auro properet malum</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_7,21"></ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Followed by  Morgan library, M 564 f. 3.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_6r" to="27932_7v">6ra-7vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_7,34">et dicitis ecce homo deuorator</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_8,9"></ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Followed by  Morgan library, M 564 f. 4.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_8r" to="27932_9v">8ra-9vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_8,21"><supplied>respon</supplied>dens dixit ad eos</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_8,41"></ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Followed by  Morgan library, M 564 f. 5.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_10r" to="27932_11v">10ra-11vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_8,53">esset. ipse autem tenens</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_9,22"></ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Followed by  Morgan library, M 564 f. 6.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_12r" to="27932_13v">12ra-13vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_9,33">et unum helie nesciens</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_9,59"></ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Followed by  Morgan library, M 564 f. 7.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_14r" to="27932_v">14ra-15vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_10,11"><supplied></supplied>dibus nostris extergimus in uos</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_10,35"></ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Followed by  Morgan library, M 564 f. 8.</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_16r" to="27932_v">16ra-vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_11,5">quis uestrum habebit</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_11,17">cogitationes eorum</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna (3 fols.)</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_17r" to="27932_17v">17ra-vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_11,54">clauem scientiae</ref></incipit>
+                                <explicit><ref type="biblical" cRef="Lc_12,10">hominis remitte<supplied>tur</supplied></ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna (1 fol.)</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_18r" to="27932_19v">18ra-19vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_12,24">coruos quia non seminant</ref></incipit>
+                                <explicit><ref type="biblical" cRef="Lc_12,49">mittere in terram</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna (1 fol.)</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_20r" to="27932_20v">20ra-vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_13,4">et ipsi debitores</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_13,16">hanc autem</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna (3 fols.)</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_20bisr">20<hi rend="sup">bis</hi>r-v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_14,18">habeo exire et uidere</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_14,31">bellum aduersus alium</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna (10 fols.)</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_20terr">20<hi rend="sup">ter</hi>r-v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_18,25">facilius est enim</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_18,41">interrogauit illum dicens</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna (3 fols.)</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_20ar" to="27932_20cv">20ara-20cvb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_19,28">hierosolyma</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_20,20">ut caperent eum</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna (2 fols.)</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_20dr">20dra-vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_21,4">sibi miserunt</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_21,16">afficient ex uobis</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna (4 fols.)</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_21r" to="21vb">21ra-21vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_22,40">Et cum peruenisset</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_22,53">cum fuerim in templo</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna (6 fols.)</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_22r" to="27932_22v">22ra-vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_24,17">Et estis tristes</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_24,31">et aperti sunt</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna (2 fols.) untill the end of Luke.</note>
+                            </msItem>
+                        </msItem>
+                        <msItem>
+                            <locus from="27932_23r">23ra</locus>
+                            <title ref="#evangelium_johannem_prologue">Prologus monarchianus in evangelium secundum Johannem</title>
+                            <incipit defective="true">conuocatis discipulis suis in epheso per multa signorum experimenta</incipit>
+                            <explicit>doctrina seruetur.</explicit>
+                            <finalRubric>Explicit prologus.</finalRubric>
+                            <bibl><abbr>Stegmüller RB</abbr>, Nr. 624.</bibl>
+                        </msItem>
+                        <msItem>
+                            <locus from="27932_23r" to="27932_23v">23ra-vb</locus>
+                            <title ref="#evangelium_johannem_sommarium">Summarium evangelium secundum Johannem</title>
+                            <rubric>Incipit elencus breuis euangelii secundum iohannem</rubric>
+                            <incipit>Pharisaeorum laevitae interrogant</incipit>
+                            
+                            <explicit defective="true">XI Pedes discipulorum</explicit>
+                            <bibl><abbr>Stegmüller RB</abbr>, Nr. 11016.</bibl>
+                        </msItem>
+                        <msItem>
+                            <note>Here follows Nürnberg, Stadtbibliothek, Fragm. Lat. 1, 3v (1 column for the end of the Summarium, rest left blank).</note>
+                        </msItem>
+                        <msItem>
+                            <locus from="27932_24r" to="27932_28v">24r-28v</locus>
+                            <title ref="#evangelium_johannem">Evangelium secundum Johannem</title>
+                            <msItem>
+                                <note type="title">Lacuna (1 fol.).</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_24r">24ra-vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Io_1,19">quando miserunt iudaei</ref></incipit>
+                                <explicit defective="true">hic est qui bapti<supplied>zat</supplied><ref type="biblical" cRef="Io_1,33"></ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna (2 fols.), followed by Morgan library, M 564, f. 9 (Io 2,14-3,3), Lacuna (10 fols.) and Morgan library, M 564, f. 10r-v (Io 6,16-6,30).</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_25r" to="26v">25ra-26vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Io_6,30">quod ergo tu</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Io_6,59">qui manducat hunc panem</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note>Lacuna (1 fol.) followed by Morgan library, M 564 ff. 11-16 (Io 7,6-8,42).</note>
+                            </msItem>
+                            <msItem>
+                                <locus from="27932_27r" to="28v">27ra-28vb</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Io_8,55">non scio eum</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Io_9,24">qui fuerat caecus</ref></explicit>
+                            </msItem>
+                            <msItem>
+                                <note type="title">Lacuna (2 fols.) followed by Morgan library, M 564, f. 17 (Io 10,17-10,33) another lacuna (6 fols.) and Morgan library, M 564, f. 18 (Io 12,26-12,39).</note>
+                            </msItem>
+                        </msItem>
+                    </msContents>                    
                     <physDesc>
                         <objectDesc form="fragment">
                             <supportDesc material="perg">
@@ -197,8 +403,7 @@
                                         </dimensions> (according to description of the Pierpont Morgan Library).
                                     </extent>
                                     <foliation/>
-                                    <collation>
-                                        <formula></formula>
+                                    <collation>See the collation formula in <ref target="https://vceditor.library.upenn.edu/project/615ead5642764a0001a39057/viewOnly">VCEditor</ref>.
                                     </collation>
                                     <condition/>
                                 </supportDesc>
@@ -227,25 +432,21 @@
                             </decoDesc>   
                             <additions/>
                             <bindingDesc>
-                                <binding>
+                                <binding contemporary="false">
                                     <p>Information from the Morgan cards catalogue: the fragments are kept in a wooden box assembled in Germany in the 19th-century. On the upper cover in the middle of a gilt-metal sheet (probably 13th-century) is an enamel plaque of Christ in majesty (probably 12th-century) in center and symbols of the Evangelists at the corners, surrounded by metal bands studded with crystals. The symbols of the Evangelists are copies of 13th- or 14th-century pieces.</p>
-                                    <p>The <title>Catalogus</title> of Sir Thomas Phillipps mentions that the fragments were already at the time (1837) bound in red velvet and one cover was decorated with rock crystals set in silver gilt.</p>
+                                    <p>The <title>Catalogus</title> of Sir Thomas Phillipps mentions that the fragments were already at the time (1837) bound in red velvet and that one cover was decorated with rock crystals set in silver gilt.</p>
                                 </binding>
                             </bindingDesc>
                             <accMat>By the acquisition the leaves were wrapped in a fragment (two leaves - probably bifolium) from a 11th-century Lectionary, according to the catalogue of the Morgan library - written in a Bavarian or Austrian hand.</accMat>
                         </physDesc>
-                        <history>
-                            <origin>
-                                <origPlace/>
-                                <origDate notBefore="0001" notAfter="0001"/>
-                            </origin>
+                        <history>                            
                             <provenance>The leaves served as binding waste (covers ?) for family records of the Nuremberg family of Von Kress. </provenance>
                             <provenance>The fragments were later (ca. 1680) owned by <rs type="person" role="owner_previous">Baron J. W. Imhoff</rs>, later by his heir <rs type="person" role="owner_previous">Baron Haller von Hallerstein</rs>.</provenance>
                             <provenance>The fragments were sold several times: 1861 in an auction in Nuremberg acquired by <rs type="corporate" role="owner_previous">Tross</rs>, then by <rs type="corporate" role="owner_previous">Guillaume Libri</rs>, who sold them to <rs type="person" role="owner_previous">Sir Thomas Phillipps </rs>(in his <title>Catalogus</title>, p. 317, No. 16387), by <rs type="person" role="owner_previous">Richard Bennett</rs> and lastly by Pierpont Morgan.</provenance>
                         </history>
                         <additional>
                             <listBibl>
-                                <bibl>Koehler, Wilhelm. ‘The Fragments of an Eighth-Century Gospel Book in the Morgan Library (M.564): A Contribution to the History of the Vulgate’. In Studies Belle Da Costa Greene, 238–65, 1954.</bibl>
+                                <bibl>Koehler, Wilhelm. ‘The Fragments of an Eighth-Century Gospel Book in the Morgan Library (M.564): A Contribution to the History of the Vulgate’. In <title>Studies in Art and Literature for Belle Da Costa Greene</title>. Ed. by Dorothy Miner. Princeton: Princeton Univ. Press, 1954, pp. 238–65.</bibl>
                                 <bibl>Catalogus librorum manuscriptorum in bibliotheca D. Thomae Phillipps, Bart. Middle Hill, 1837, p. 317.</bibl>
                             </listBibl>
                         </additional>
@@ -434,7 +635,7 @@
                                 <bibl><abbr>Stegmüller RB</abbr>, Nr. 11016.</bibl>
                             </msItem>
                             <msItem>
-                                <note>Lacuna (1 fol.): 1 column for the end of the Summarium.</note>
+                                <note>Here follows Nürnberg, Stadtbibliothek, Fragm. Lat. 1, 3v (1 column for the end of the Summarium, rest left blank).</note>
                             </msItem>
                             <msItem>
                                 <locus from="27932_24r" to="27932_28v">24r-28v</locus>
@@ -521,28 +722,47 @@
                             <idno>Fragm. Lat. 1</idno>       
                         </msIdentifier>
                         <head>
-                            <title></title>
+                            <title>Fragments from Luke and John</title>
                             <origDate notBefore="0751" notAfter="0800">s. VIII<hi rend="sup">2</hi></origDate>
                             <origPlace>Mondsee</origPlace>
                         </head>
                         <msContents>
                             <textLang mainLang="lat" otherLangs=""/>
                             <msItem>
-                                <locus from="x" to="x"/>
-                                <title/>
-                                <author/>
-                                <rubric/>
-                                <incipit/>
-                                <explicit/>
-                                <finalRubric/>
-                                <colophon></colophon>
-                                <decoNote></decoNote>
-                                <note/>
-                                <filiation></filiation>
-                                <listBibl>
-                                    <bibl/>
-                                </listBibl>
+                                <locus from="1r" to="1v">1r-v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_14,31">regem non sedens</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_15,8">et euertit domum</ref></explicit>                                
                             </msItem>
+                            <msItem>
+                                <locus from="2r" to="2v">2r-v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef="Lc_18,12">decimas do omnium</ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef="Lc_18,25">in regnum dei intrabunt</ref></explicit> 
+                            </msItem>
+                            <!--<msItem>
+                                <locus from="" to="">r-v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef=""></ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef=""></ref></explicit> 
+                            </msItem>
+                            <msItem>
+                                <locus from="" to="">r-v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef=""></ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef=""></ref></explicit> 
+                            </msItem>
+                            <msItem>
+                                <locus from="" to="">r-v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef=""></ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef=""></ref></explicit> 
+                            </msItem>
+                            <msItem>
+                                <locus from="" to="">r-v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef=""></ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef=""></ref></explicit> 
+                            </msItem>
+                            <msItem>
+                                <locus from="" to="">r-v</locus>
+                                <incipit defective="true"><ref type="biblical" cRef=""></ref></incipit>
+                                <explicit defective="true"><ref type="biblical" cRef=""></ref></explicit> 
+                            </msItem>-->
                         </msContents>
                         <physDesc>
                             <objectDesc form="fragment">

@@ -33,8 +33,8 @@
                     <msIdentifier>
                         <country>Austria</country>
                         <settlement>St. Florian</settlement>
-                        <institution>St. Florian, Augustiner-Chorherrenstift</institution>
-                        <repository></repository> 
+                        <institution>Augustiner-Chorherrenstift St. Florian</institution>
+                        <repository>Stiftsbibliothek</repository> 
                         <idno>Cod. III 222 A</idno>        
                     </msIdentifier>
                     <head>
@@ -64,21 +64,22 @@
                                         <width>180</width>
                                     </dimensions>
                                 </extent>
-                                <foliation/>
+                                <foliation>Modern foliation in ink in the upper right corner of every recto: 1-163, 163a.</foliation>
                                 <collation>
                                     <formula></formula>
                                 </collation>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout ruledLines="0" writtenLines="0" columns="0">
+                                <layout ruledLines="24" writtenLines="24" columns="1">
                                     <dimensions type="written" unit="mm">
-                                        <height max="0" min="0">210</height>
-                                        <width max="0" min="0">130</width>
+                                        <height>210</height>
+                                        <width>102-103</width>
                                     </dimensions> 
                                     <dimensions type="lineHeight" unit="mm">
-                                        <height min="0" max="0"></height>
+                                        <height>9</height>
                                     </dimensions>
+                                    Ruled in blind tool on the innermost bifolium of every quire on the flesh side; two double vertical lines (in 9 mm distance) going all the way to the leaf end. Text lines bound within the vertical ones with the exception of the first and last one which crosses them and seems to be drawn on the open bifolium (connected through the gutter). Pricking for the vertical lines on the lower margine mostly preserved. On the sheet/goat quires pricking for text lines preserved only occasionally (fols. 72-73, 112-113) though not really corresponding to the ruled lines (?).
                                    <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
                                        laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
                                 </layout>
@@ -95,21 +96,17 @@
                         <decoDesc>
                             <decoNote type="initial">For the initials of the separate books were used red, yellow and green.</decoNote>
                         </decoDesc>   
-                        <additions>Musical notations - neumes - added by a contemporary hand in the Lamentations - sign that the manuscript was used in the liturgy (as Lectionarium).</additions>
+                        <additions>Musical notations - adiastematic St. Gall neumes - added by a contemporary hand in the Lamentations - sign that the manuscript was used in the liturgy as Lectionarium (see <bibl>Die Botschaft der Musik</bibl>). Fols. 55, 59, 60, 171, 178 and 179 are twelfth-century additions.</additions>
                         <bindingDesc>
                             <binding notBefore="0001" notAfter="0001">
                                 <p/>
                             </binding>
                         </bindingDesc>
-                        <accMat>Ff. 55, 59, 60, 171, 178 and 179 are 12<hi rend="sup">th</hi> c. additions.</accMat> 
+                        <accMat>Fragment as front pastedown (?) - leaf from a thirteenth-century breviary (?).</accMat> 
                     </physDesc>
                     <history>
-                        <origin>
-                            <origPlace/>
-                            <origDate notBefore="0001" notAfter="0001"/>
-                        </origin>
-                        <provenance/>
-                        <acquisition/>
+                        <origin>According to the palaeographical analysis the manuscript was written in <origPlace>Mondsee</origPlace>, probably in the <origDate notBefore="0826" notAfter="0850">second quarter of the ninth century</origDate> (Bischoff).</origin>
+                        <provenance>The manuscript was at St. Florian at least from the fifteenth century.</provenance>
                     </history>
                     <additional>
                         <adminInfo>
@@ -124,19 +121,19 @@
                         </surrogates> 
                         <listBibl>
                             <bibl><abbr>Bischoff 1980</abbr>, 23, 37</bibl>
-                            <bibl>A. Czerny. Die Handschriften der Stiftsbibliothek St. Florian. Linz, 1871, p. <ref target="https://manuscripta.at/_scripts/php/cat2pdf.php?cat=czerny&amp;ms_code=AT7500-III222A">248</ref>.</bibl>
-                            <bibl>Kassius Hallinger, Das Kommentarfragment zu Regula Benedicti IV aus der ersten Hälfte des 8. Jahrhunderts. Wiener Studien N. F. 3 = 82 (1969) 211-232, hier: 214.</bibl>
-                              
-                                <bibl>Das Mondseeland. Geschichte und Kultur. Ausstellung des Landes Oberösterreich, 8. Mai bis 26. Oktober 1981. Kirche und ehemaliges Stift Mondsee (Heimatmuseum Mondsee). Hrsg.: Land Oberösterreich. Schriftleitung: Dietmar Straub. Linz 1981, 452 f. Nr. 11.9 [Kurt Holter].</bibl>
-                                <bibl>Kurt Holter, Die Buchkunst im Kloster Mondsee, in: Das Mondseeland. Geschichte und Kultur. Ausstellung des Landes Oberösterreich, 8. Mai bis 26. Oktober 1981. Kirche und ehemaliges Stift Mondsee (Heimatmuseum Mondsee). Hrsg.: Land Oberösterreich. Schriftleitung: Dietmar Straub. Linz 1981, 185-221. -- Wiederabgedruckt in: Holter 1996, II 785-833, hier: 192 mit 219 Anm. 9.</bibl>
-                                <bibl>Kurt Holter, Bibliothek und Archiv: Handschriften und Inkunabeln, in: Die Kunstsammlungen des Augustiner-Chorherrenstiftes St. Florian (Österreichische Kunsttopographie 48). Wien 1988, 29-92 u. Abb, hier: 30, 44; Abb. 39.</bibl>
-                                <bibl>Die Botschaft der Musik. 1000 Jahre Musik in Österreich. Hrsg. v. Wilfried Seipel. Eine Ausstellung des Kunsthistorischen Museums Wien in Zusammenarbeit mit der Gesellschaft der Musikfreunde in Wien im Palais Harrach, 28. Oktober 1996 bis 1. April 1997. Wien 1996, Kat. Nr. 1.1; Farbabb. S.30.</bibl>                                
-                                <bibl>Rudolf Flotzinger, Geistliche Kultur im Mittelalter, in: Ders., Gernot Gruber (Edd.): Musikgeschichte Österreichs I: Von den Anfängen zum Barock. 2., überarb. u. stark erweiterte Aufl. Wien 1995, 52-99, hier: 58.</bibl>
+                            <bibl>Czerny, A. Die Handschriften der Stiftsbibliothek St. Florian. Linz, 1871, p. <ref target="https://manuscripta.at/_scripts/php/cat2pdf.php?cat=czerny&amp;ms_code=AT7500-III222A">248</ref>.</bibl>
+                            <bibl>Hallinger, Kassius. "Das Kommentarfragment zu Regula Benedicti IV aus der ersten Hälfte des 8. Jahrhunderts." Wiener Studien N. F. 3 = 82 (1969): 211-232, here: 214.</bibl>
+                            <bibl>Das Mondseeland. Geschichte und Kultur. Ausstellung des Landes Oberösterreich, 8. Mai bis 26. Oktober 1981. Kirche und ehemaliges Stift Mondsee (Heimatmuseum Mondsee). Hrsg.: Land Oberösterreich. Schriftleitung: Dietmar Straub. Linz 1981, 452 f. Nr. 11.9 [Kurt Holter].</bibl>
+                            <bibl>Holter, Kurt. "Die Buchkunst im Kloster Mondsee." In Das Mondseeland. Geschichte und Kultur. Ausstellung des Landes Oberösterreich, 8. Mai bis 26. Oktober 1981. Kirche und ehemaliges Stift Mondsee (Heimatmuseum Mondsee). Hrsg.: Land Oberösterreich. Schriftleitung: Dietmar Straub. Linz 1981, 185-221. -- Wiederabgedruckt in: Holter 1996, II 785-833, hier: 192 mit 219 Anm. 9.</bibl>
+                            <bibl>Holter, Kurt. Bibliothek und Archiv: Handschriften und Inkunabeln, in: Die Kunstsammlungen des Augustiner-Chorherrenstiftes St. Florian (Österreichische Kunsttopographie 48). Wien 1988, 29-92 u. Abb, hier: 30, 44; Abb. 39.</bibl>
+                            <bibl>Die Botschaft der Musik. 1000 Jahre Musik in Österreich. Hrsg. v. Wilfried Seipel. Eine Ausstellung des Kunsthistorischen Museums Wien in Zusammenarbeit mit der Gesellschaft der Musikfreunde in Wien im Palais Harrach, 28. Oktober 1996 bis 1. April 1997. Wien 1996, Kat. Nr. 1.1; Farbabb. S.30. <note>Notice about the musical notations on the Lamentationes.</note></bibl>
+                            <bibl>Flotzinger, Rudolf. "Geistliche Kultur im Mittelalter." In Musikgeschichte Österreichs I: Von den Anfängen zum Barock. Ed. by R. Flotzinger and G. Gruber. Vienna, 1995: 52-99, here: 58.</bibl>
                             <bibl><abbr>Bischoff 2014</abbr>, 294 Nr. 5465.</bibl>
-                                <bibl>Robert Klugseder, Der Liber ordinarius Pataviensis. Eine kritische Edition des mittelalterlichen Regelbuchs der Diözese Passau. Unter Mitarbeit von Gionata Brusa (Codices Manuscripti &amp; Impressi. Supplementum 13). Purkersdorf 2019, XXIII.</bibl>
+                            <bibl>Klugseder, Robert. Der Liber ordinarius Pataviensis. Eine kritische Edition des mittelalterlichen Regelbuchs der Diözese Passau. Unter Mitarbeit von Gionata Brusa (Codices Manuscripti &amp; Impressi. Supplementum 13). Purkersdorf 2019, XXIII.<note>Nur kurze Notiz dass die Hs aus Mondsee ist, 9. und 11. Jh. mit linienlosen Neumennotation, teilweise.</note></bibl>
+                            
+                            <bibl>Klugseder, Robert. ‘Mittelalterliche musik-liturgische Quellen aus dem Augustinerchorherrenkloster St. Florian’. Musicologica Austriaca 31 (2012): 13–82.<note> (short note on the content and music notation: Venite exsultemus (Ir, NN, 13. Jh.), Lamentationes Jeremiae (9. Jh., NN im 1. Viertel des 11. Jhs. nachgetragen)).</note></bibl>
                         </listBibl>
-                    </additional>            
-                                        
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

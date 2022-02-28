@@ -30,12 +30,7 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc xml:lang="en" xml:id="f-cy7v">
-                    <msIdentifier>
-                        <country></country>
-                        <settlement></settlement>
-                        <institution></institution>
-                        <repository></repository> 
-                        <idno></idno>
+                    <msIdentifier>                       
                         <altIdentifier type="collection"> 
                             <idno>F-cy7v</idno>
                         </altIdentifier>                       
@@ -156,8 +151,8 @@
                             <objectDesc form="fragment">
                                 <supportDesc material="perg">
                                     <extent>
-                                        <measure type="leavesCount">12 fol.</measure>
-                                        <dimensions type="leaf" unit="mm">
+                                        <measure type="leavesCount" quantity="12">12 fols.</measure>
+                                        <dimensions type="leaf_current" unit="mm">
                                             <height>215</height>
                                             <width>185</width>
                                         </dimensions>

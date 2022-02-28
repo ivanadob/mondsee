@@ -124,7 +124,7 @@
                             <textLang mainLang="lat"/>
                             <msItem>
                                 <locus from="64r" to="116v">64r-116v</locus>
-                                <title ref="http://d-nb.info/gnd/4075949-0">Epistulae Pauli</title>    
+                                <title>Epistulae Pauli</title>    
                                 <msItem>
                                     <locus from="64r" to="88r">64ra-88rb</locus>
                                     <title ref="#romanos">Epistola ad Romanos</title>

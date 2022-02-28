@@ -414,7 +414,7 @@
                                 </support>
                                 <extent>
                                     <measure type="leavesCount" quantity="238" unit="folio">238 fols.</measure>
-                                    <dimensions type="leaf" unit="mm">
+                                    <dimensions type="leaf_current" unit="mm">
                                         <height>280</height>
                                         <width>180</width>
                                     </dimensions>

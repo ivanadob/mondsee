@@ -99,6 +99,7 @@
                         </objectDesc>
                         <scriptDesc>
                             <scriptNote script="uncialis" medium="black_ink">Written in uncial letters in brownish-black ink, with red rubrics. Text written <foreign>per cola et commata</foreign>. Punctuation marks include: triangular-pointed colons for major pauses; medial distinction (partly corrected later to punctus elevatus or semicolon) for medial pauses. </scriptNote>
+                            <scriptNote></scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote type="initial">Two large decorated initials in black, red, green and yellow including traces of gold.</decoNote>
@@ -141,8 +142,11 @@
     </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="https://iiif.lib.harvard.edu/manifests/view/drs:53891232$1i" n="1r"/>
-        <graphic url="https://iiif.lib.harvard.edu/manifests/view/drs:53891232$2i" n="1v"/>
+        <surface>
+            <graphic url="https://ids.lib.harvard.edu/ids/iiif/53891268/full/full/0/default.jpg" n="1r"/>
+            <zone ulx="204" uly="359" lrx="227" lry="393"/>
+        </surface>        
+        <graphic url="https://ids.lib.harvard.edu/ids/iiif/53891265/full/full/0/default.jpg" n="1v"/>
     </facsimile>
     <text>
         <body>
