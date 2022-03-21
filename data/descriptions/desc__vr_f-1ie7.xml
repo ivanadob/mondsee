@@ -208,8 +208,7 @@
                             <locus from="27932_23r" to="27932_23v">23ra-vb</locus>
                             <title ref="#evangelium_johannem_sommarium">Summarium evangelium secundum Johannem</title>
                             <rubric>Incipit elencus breuis euangelii secundum iohannem</rubric>
-                            <incipit>Pharisaeorum laevitae interrogant</incipit>
-                            
+                            <incipit>Pharisaeorum laevitae interrogant</incipit>                            
                             <explicit defective="true">XI Pedes discipulorum</explicit>
                             <bibl><abbr>Stegmüller RB</abbr>, Nr. 11016.</bibl>
                         </msItem>
@@ -231,7 +230,7 @@
                                 <note>Lacuna (2 fols.), followed by Morgan library, M 564, f. 9 (Io 2,14-3,3), Lacuna (10 fols.) and Morgan library, M 564, f. 10r-v (Io 6,16-6,30).</note>
                             </msItem>
                             <msItem>
-                                <locus from="27932_25r" to="26v">25ra-26vb</locus>
+                                <locus from="27932_25r" to="27932_26v">25ra-26vb</locus>
                                 <incipit defective="true"><ref type="biblical" cRef="Io_6,30">quod ergo tu</ref></incipit>
                                 <explicit defective="true"><ref type="biblical" cRef="Io_6,59">qui manducat hunc panem</ref></explicit>
                             </msItem>
@@ -239,7 +238,7 @@
                                 <note>Lacuna (1 fol.) followed by Morgan library, M 564 ff. 11-16 (Io 7,6-8,42).</note>
                             </msItem>
                             <msItem>
-                                <locus from="27932_27r" to="28v">27ra-28vb</locus>
+                                <locus from="27932_27r" to="27932_28v">27ra-28vb</locus>
                                 <incipit defective="true"><ref type="biblical" cRef="Io_8,55">non scio eum</ref></incipit>
                                 <explicit defective="true"><ref type="biblical" cRef="Io_9,24">qui fuerat caecus</ref></explicit>
                             </msItem>
@@ -251,7 +250,7 @@
                     <physDesc>
                         <objectDesc form="fragment">
                             <supportDesc material="perg">
-                                <support>Yellowish parchment.</support>
+                                <support></support>
                                 <extent>
                                     <measure type="leavesCount" quantity="58" unit="folio">58 partial</measure>
                                     <dimensions type="leaf_current" unit="mm">
@@ -291,9 +290,7 @@
                             <scriptNote>Carolingian minuscule for the Canon references in the margin.</scriptNote>
                             <scriptNote script="x" medium="x">Capitalis rustica used for the prologue and Summarium (f. 23r-v).</scriptNote>
                         </scriptDesc>
-                        <decoDesc>
-                            <decoNote type="x">Initials 4-line high, in blue, green, red/orange figural (Nuremberg, Hs 27932, 20cvb) or ornamental (Nuremberg, Hs 27932, 17ra, 21rb)</decoNote>
-                        </decoDesc> 
+                         
                     </physDesc>
                     <history>
                         <provenance/>
@@ -440,9 +437,9 @@
                             <accMat>By the acquisition the leaves were wrapped in a fragment (two leaves - probably bifolium) from a 11th-century Lectionary, according to the catalogue of the Morgan library - written in a Bavarian or Austrian hand.</accMat>
                         </physDesc>
                         <history>                            
-                            <provenance>The leaves served as binding waste (covers ?) for family records of the Nuremberg family of Von Kress. </provenance>
+                            <provenance>The leaves served as binding waste (wrappers, covers ?) for property registers of the Nuremberg family of Von Kress.</provenance>
                             <provenance>The fragments were later (ca. 1680) owned by <rs type="person" role="owner_previous">Baron J. W. Imhoff</rs>, later by his heir <rs type="person" role="owner_previous">Baron Haller von Hallerstein</rs>.</provenance>
-                            <provenance>The fragments were sold several times: 1861 in an auction in Nuremberg acquired by <rs type="corporate" role="owner_previous">Tross</rs>, then by <rs type="corporate" role="owner_previous">Guillaume Libri</rs>, who sold them to <rs type="person" role="owner_previous">Sir Thomas Phillipps </rs>(in his <title>Catalogus</title>, p. 317, No. 16387), by <rs type="person" role="owner_previous">Richard Bennett</rs> and lastly by Pierpont Morgan.</provenance>
+                            <provenance>The fragments were sold several times: 1861 in an auction in Nuremberg acquired by the dealer <rs type="person" role="owner_previous">Tross</rs>, then by <rs type="person" role="owner_previous">Guillaume Libri</rs>, who sold them to <rs type="person" role="owner_previous">Sir Thomas Phillipps </rs>(in his <title>Catalogus</title>, p. 317, No. 16387), by <rs type="person" role="owner_previous">Richard Bennett</rs> and lastly by Pierpont Morgan.</provenance>
                         </history>
                         <additional>
                             <listBibl>
@@ -672,19 +669,21 @@
                         <physDesc>
                             <objectDesc form="fragment">
                                 <supportDesc material="perg">
-                                    <support>Yellowish parchment.</support>
+                                    <support>Calf parchment relative thin, hair and flesh side are recognisable. Backbone on fol. 18-19 horizontal in the middle of the bifolium (as in Lindisfarne) - probably also on fols. 12-13 and 21-22, 20ter-20bis.</support>
                                     <extent>
-                                        <measure type="leavesCount" quantity="34" unit="folio">34</measure>
+                                        <measure type="leavesCount" quantity="36" unit="folio">36</measure>
                                         <dimensions type="leaf" unit="mm">
                                             <height></height>
                                             <width></width>
                                         </dimensions>
                                     </extent>
-                                    <foliation>Modern foliation in pencil: 1-20, 20bis-20ter, 20a-20d, 21-28.</foliation>
-                                    <condition>There are three groups of leaves bound in modern paper folders. Hs 27932 [1] contains fols. 1-20, 20a-20d, 21-24; Hs 27932 [1-1] - fols. 20bis-20ter; Hs 27932-2 - fols. 25-28.</condition>
+                                    <foliation>Modern foliation in pencil: 1-20, 20bis-20ter, 20a-20b, 20c-20d, 21, 21a-21b, 22-28.</foliation>
+                                    <condition>There are three groups of leaves bound in modern paper folders. Hs 27932 [1.0] contains fols. 1-20, 20a-20d, 21, 21a-21b, 22-24; Hs 27932 [1-1] - fols. 20bis-20ter; Hs 27932 [1.2] - fols. 21a-21b; Hs 27932 [2] - fols. 25-28.
+                                    Fols. 20a-20d are glued in pairs on a stub, whereby fols. 20a and 20d make today one bifolium, 20b and 20c another. Comparing the marks from binding waste (the leaves were used as covers) it becomes clear that fols. 20a and 20b formed originally once one bifolium, fols. 20c and 20d another.
+                                    </condition>
                                 </supportDesc>
                                 <layoutDesc>
-                                    <layout ruledLines="0" writtenLines="0" columns="0">
+                                    <layout ruledLines="27" writtenLines="27" columns="2">
                                         <dimensions type="written" unit="mm">
                                             <height max="0" min="0"></height>
                                             <width max="0" min="0"></width>
@@ -692,7 +691,14 @@
                                         <dimensions type="lineHeight">
                                             <height min="0" max="0"></height>
                                         </dimensions>
-                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                        Ruling probably direct on fol. 4v-5r, 12v-13r and 18v-19r (innermost leaves of quires) on flesh side; probably also direct ruling on 2v-7r on hair side -> it would mean the leaves were ruled in pairs of three. 
+                                        On fol. 10v-15r (third leaf) on hair side - probably indirect ruling. 
+                                        on fols. 17v-20r (fourth leaf) on flesh side - probably indirect ruling.
+                                        20ter r and 20 bis v - on hair side - probably indirect ruling. 
+                                        21v-22r - on hair side - probably indirect ruling.
+                                        23v-24r - on hair side - probably indirect ruling.
+                                        20ter-20bis - on hair side.
+                                        Double ruled lines for the text (upper line on the x-height); the first and last double text lines extending the lenght of the folio (probably ruled on two facing pages at once);  double columns with double vertical bounding lines extending to first and last double written lines; single vertical lines on both sides of the columns extending to the first and last double written lines<!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
                                        laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
                                     </layout>
                                 </layoutDesc>
@@ -704,13 +710,36 @@
                                 <scriptNote script="x" medium="x"></scriptNote>
                             </scriptDesc>
                             <decoDesc>
-                                <decoNote type="x"/>
+                                <decoNote type="initial">Six illuminated initials, contour in red (Mennige); Colours: green, orange-red, gold and silver-blue. First probably with blue, then covered with gold and silver.
+                                    <list>
+                                        <item><locus from="27932_4r">4r</locus>: 2-line high ornamental initial 'C'</item>
+                                        <item><locus from="27932_10r">10r</locus>: 2-line high ornamental initial 'C'</item>
+                                        <item><locus from="27932_17r">17r</locus>: 3-line high ornamental initial 'C'</item>
+                                        <item><locus from="27932_20cv">20cv</locus>: 3-line high figural initial 'E'</item>
+                                        <item><locus from="27932_21r">21r</locus>: 4-line high ornamental initial 'A'</item>
+                                        <item><locus from="27932_20ter">20ter</locus>: 4-line high ornamental initial 'A'</item>
+                                    </list>
+                                </decoNote>
                             </decoDesc>   
                             <additions/>
                             <accMat/> 
                         </physDesc>
-                        <history>                            
-                            <provenance/>
+                        <history> 
+                            <provenance>In the <date notBefore="1601" notAfter="1650">first half of the seventeenth century</date> the leaves 1-24 and 21a-21b served as binding waste (wrappers and covers) for property registers of the Nuremberg family Von Kress. For each register were used two bifolia:
+                            <list>
+                                <item>fols. 1+8 and 9+16</item>
+                                <item>fols. 2+7 and 10+15 - register 'Saalbuch A 1590';</item>
+                                <item>fols. 3+6 and 11+14 - register for years 1594-1627</item>
+                                <item>fols. 4+5 and 12+13</item>
+                                <item>fols. 17+20 and 18+19 were used for register in the year 'Anno 1627-1650'</item>
+                            <item>fols. 21a+21b and 20bis+20ter</item>
+                                <item>fols. 21+22 and 23+24 - register 1637;</item>
+                            </list>
+                            </provenance>
+                            <provenance>Fols. 1-24 were obtained 1872 by the Germanisches Museum in Nuremberg.</provenance>
+                            <provenance>Fols. 20a-20d were property of the Heerdegen family in Nuremberg, who gave or sold those 1874 to the Germanisches Museum.</provenance>
+                            <provenance>The two bifolia fols. 25-28 and 26-27 served as a pastedowns for 'Grundbuch für die Jahresbeiträge fer Pflegschaft'were belonged to the Nuremberg family Von Grundherr, and were again given or sold to the Germanisches Museum.</provenance>
+                            <provenance>The boflolium fols. 21a-21b was bought by the Germanisches Museum in 1923.</provenance>
                             <acquisition/>
                         </history>
                     </msFrag>
@@ -811,7 +840,7 @@
                                 <origPlace/>
                                 <origDate notBefore="0001" notAfter="0001"/>
                             </origin>
-                            <provenance/>
+                            <provenance>The leaves were used as binding waste (covers) for two register books from the 1615. For each cover were used two bifolia, glued at the spine of the book. Fols. 1+2 were glued on the front cover, fols. 8+9 on the back cover of one register; fols. 7+6 were glued on the front cover, fols. 3+4 on the back cover of the second part fo the register.</provenance>
                             <acquisition/>
                         </history>
                     </msFrag>

@@ -46,12 +46,152 @@
                     <msContents>
                         <textLang mainLang="lat" otherLangs=""/> 
                         <msItem>
+                            <locus></locus>
+                            <note type="title"></note>
+                        </msItem>
+                        <msItem>
                             <locus from="1r" to="2v">1r-2v</locus>
+                            <author>Hieronymus</author>
+                            <title>Epistulae, 3, 53, 8</title>
                             <note type="title">Prolog to the Prophetae</note> 
-                            <rubric>Duodecim <sic>prophetare</sic> me in unius uoluminis angestias <sic>coartatim</sic></rubric>
+                            <incipit>Duodecim <sic>prophetare</sic> me in unius uoluminis angustias <sic>coartatim</sic></incipit>
                             <finalRubric>Explicit Prologus Hieronimi</finalRubric>
                         </msItem>
-                        
+                        <msItem>
+                            <locus>2v-3r</locus>
+                            <author>Hieronymus</author>
+                            <title>Prol. XII Proph.</title>
+                            <rubric>Incipit prologus XII prophetarum</rubric>
+                            <incipit>Aput hebreos qui et aput nos unde secundum</incipit>
+                            <explicit>titulos prophetauerunt.</explicit>
+                            <finalRubric>Explicit prologus XII prophetae.</finalRubric>
+                            <bibl><abbr>Stegmüller</abbr> 500</bibl>
+                            <note>The commentary begins normally with "Ordo duodecim prophetarum apud hebreos ..."</note>
+                        </msItem>
+                        <msItem>
+                            <locus>3r-12r</locus>
+                            <title>Book of Osee</title>
+                            <incipit>Uerbum domini quod factum est ad osee filium</incipit>
+                            <explicit>corruent in eis.</explicit>
+                            <finalRubric>Finit. Explicit osae prophetae.</finalRubric>
+                        </msItem>
+                        <msItem>
+                            <locus>12r-15v</locus>
+                            <rubric>Incipit johel prophetae</rubric>
+                            <incipit>Uerbum domini quod factum est ad iohel filium</incipit>
+                            <explicit>commorabitur in sion.</explicit>
+                            <finalRubric>Explicit iohel propheta.</finalRubric>
+                        </msItem>
+                        <msItem>
+                            <locus>15v-22v</locus>
+                            <rubric>Incipit amos prophaeta</rubric>
+                            <incipit>Uerba amos qui fuit in pastoralibus</incipit>
+                            <explicit>dicit dominus deus tuus.</explicit>
+                            <finalRubric>Explicit amos propheta.</finalRubric>
+                        </msItem>
+                        <msItem>
+                            <locus>23r-24r</locus>
+                            <title>Book of Abdias</title>
+                            <rubric><locus>22v</locus>Incipit abdias propheta</rubric>
+                            <incipit>Haec dicit dominus deus ad aedom</incipit>
+                            <explicit>et erit domino regnum.</explicit>
+                            <finalRubric>Explicit abdias propheta.</finalRubric>
+                        </msItem>
+                        <msItem>
+                            <locus>24r-26r</locus>
+                            <rubric>Incipit ionas prophaeta.</rubric>
+                            <incipit>Et factum est uerbum domini ad ionam</incipit>
+                            <explicit>et iumenta multa</explicit>
+                            <finalRubric>Explicit ionas propheta.</finalRubric>
+                            <note>Annotation next to rubric: <quote>In caput quadragesimae</quote></note>
+                        </msItem>
+                        <msItem>
+                            <locus>26v-32r</locus>
+                            <title>Book of Michaeas</title>
+                            <rubric>Incipit micha propheta</rubric>
+                            <incipit>Uerbum domini quod factum est ad miham</incipit>
+                            <explicit>patribus nostris a diebus antiquis.</explicit>
+                            <finalRubric>Explicit micha propheta.</finalRubric>
+                            <note>Annotation in the initial: <quote>In aduento</quote></note>
+                        </msItem>
+                        <msItem>
+                            <locus>32r-34r</locus>
+                            <title>Book of Nahum</title>
+                            <rubric>Incipit naum prophaeta.</rubric>
+                            <incipit>Onus nineue liber uisionis naum helcesei</incipit>
+                            <explicit>non transiuit malitia tua semper.</explicit>
+                            <finalRubric>Explicit naum prophaetae.</finalRubric>
+                        </msItem>
+                        <msItem>
+                            <locus>34v-37r</locus>
+                            <title>Book of Habacuc</title>
+                            <rubric><locus>34r</locus>Incipit abbacuch prophaeta</rubric>
+                            <incipit>Onus quod uidit abbacuch propaeta usquequo domine</incipit>
+                            <explicit>uictor in psalmis canentem.</explicit>
+                            <finalRubric>Explicit abbacuc prophaeta.</finalRubric>
+                            <note>The third chapter with separate initial rubrics <quote>Oratio  abbacuc propheta pro ig<supplied>norantiis</supplied></quote>.</note>
+                        </msItem>
+                        <msItem>
+                            <locus>37r-40r</locus>
+                            <title>Book of Sophonias</title>
+                            <rubric>Incipit sofonias prophaeta.</rubric>
+                            <incipit>Uerbum domini quod factum est ad sofoniam</incipit>
+                            <explicit>coram oculis uestris dicit dominus. Amen.</explicit>
+                            <finalRubric>Explicit sofonias prophaeta.</finalRubric>
+                            <note>On f. <locus>38r</locus> the passage starting with <ref type="biblical" cRef="So_2,3">Haec dicit dominus quaerite dominim omnes mansueti terrae</ref> marked for reading during office <quote>in aduentu domini</quote>; <ref type="biblical" cRef="So_3,14">HLauda filia syon</ref> - <quote>In aduento</quote>.</note>
+                        </msItem>
+                        <msItem>
+                            <locus>40r-42r</locus>
+                            <title>Book of Aggaeus</title>
+                            <rubric>Incipit aggeus prophaeta</rubric>
+                            <incipit>In anno secundo dari regis</incipit>
+                            <explicit>dicit dominus exercituum.</explicit>
+                            <finalRubric>Explicit aggeus prophaetae.</finalRubric>
+                            <note><locus>40v</locus> <ref type="biblical" cRef="Agg_1,12">Et audiuit zorobabel</ref> marked for reading during service <quote>in dedicatione</quote>.</note>
+                        </msItem>
+                        <msItem>
+                            <locus>42r-53r</locus>
+                            <title>Book of Zacharias</title>
+                            <rubric>Incipit zacharias prophaeta</rubric>
+                            <incipit>In mense octauo in anno secundo</incipit>
+                            <explicit>in die illo. Amen.</explicit>
+                            <finalRubric>Explicit zacharias propheta.</finalRubric>
+                            <note>Passages marked as readings during office:
+                                <list>
+                                    <item><locus>42v</locus> the passage starting with <ref type="biblical" cRef="Za_1,7">Factum est uerbum domini ad zachariam</ref> - <quote>in aduentum</quote> </item>
+                                    <item><locus>43v</locus> <ref type="biblical" cRef="Za_">Lauda et laetare filia sion</ref> <quote>In aduento</quote></item>
+                                    <item><locus>46r</locus><ref type="biblical" cRef="Za_6,9">Et factum est uerbum domini ad me dicens sume a transmigratione</ref> - <quote>In aduento</quote>
+                                    </item>
+                                    <item><locus>47r</locus><ref type="biblical" cRef="Za_">Haec dicit dominus execituum ecce ego</ref> - <quote>In aduento</quote>
+                                    </item>
+                                    <item><locus>48r</locus><ref type="biblical" cRef="Za_6,9">Haec dicit dominus execituum ieiunium quarti</ref> - <quote>Et ieiunia sollemnia IIII et II</quote>
+                                    </item>
+                                    <item><locus>48v</locus> <quote>In aduento sollemem</quote></item>
+                                    <item><locus>49v</locus><quote>In cena domini</quote></item>
+                                    <item><locus>51v</locus><quote>In cena domini</quote></item>
+                                    <item><locus>52r</locus><quote>In aduento</quote></item>
+                                </list>.</note>
+                        </msItem>
+                        <msItem>
+                            <locus>53r-55v</locus>
+                            <title>Book of Malachias</title>
+                            <rubric>Incipit malachim prophaeta</rubric>
+                            <incipit>Onus uerbi domini in israhel in mani malachim</incipit>
+                            <explicit>et percutiam terram anathemate. Amen.</explicit>
+                            <note>The end preserved on a 12th-century replacement leaf.</note>
+                        </msItem>
+                        <msItem>
+                            <locus>55v-56r</locus>
+                            <title></title>
+                            <incipit><supplied>N</supplied>emo cum prophetas uersibus uiderit esse descriptos</incipit>
+                            <explicit>ecclesiis eius diutius insultarent.</explicit>
+                            <finalRubric>Explicit prologus sancti hieronimi presbuteri.</finalRubric>
+                        </msItem>
+                        <msItem>
+                            <locus>56r-</locus>
+                            <rubric>Incipit esaias propheta</rubric>
+                            <incipit><locus>56v</locus>Uisio esaia </incipit>
+                        </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
@@ -64,11 +204,11 @@
                                         <width>180</width>
                                     </dimensions>
                                 </extent>
-                                <foliation>Modern foliation in ink in the upper right corner of every recto: 1-163, 163a.</foliation>
+                                <foliation>Modern foliation in ink in the upper right corner of every recto: 1-163, 163a, 164-184.</foliation>
                                 <collation>
                                     <formula></formula>
                                 </collation>
-                                <condition/>
+                                <condition>Gold rests from (?) on fols. 152v, 159r.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout ruledLines="24" writtenLines="24" columns="1">
@@ -95,6 +235,7 @@
                         </scriptDesc>
                         <decoDesc>
                             <decoNote type="initial">For the initials of the separate books were used red, yellow and green.</decoNote>
+                            <decoNote>19v - initial letters with red</decoNote>
                         </decoDesc>   
                         <additions>Musical notations - adiastematic St. Gall neumes - added by a contemporary hand in the Lamentations - sign that the manuscript was used in the liturgy as Lectionarium (see <bibl>Die Botschaft der Musik</bibl>). Fols. 55, 59, 60, 171, 178 and 179 are twelfth-century additions.</additions>
                         <bindingDesc>
@@ -106,7 +247,7 @@
                     </physDesc>
                     <history>
                         <origin>According to the palaeographical analysis the manuscript was written in <origPlace>Mondsee</origPlace>, probably in the <origDate notBefore="0826" notAfter="0850">second quarter of the ninth century</origDate> (Bischoff).</origin>
-                        <provenance>The manuscript was at St. Florian at least from the fifteenth century.</provenance>
+                        <provenance>The manuscript was at St. Florian at least from the fifteenth century (see ownership notes datable to the fifteenth century on fols. 1r, 90v, 180v: <quote>Iste liber est monasterii sancti floriani pat<supplied>aviensis</supplied> dyoc<supplied>esis</supplied></quote>).</provenance>
                     </history>
                     <additional>
                         <adminInfo>
