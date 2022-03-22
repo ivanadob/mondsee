@@ -40,7 +40,7 @@
                         <origDate notBefore="0751" notAfter="0800">s. VIII<hi rend="sup">2</hi></origDate>
                         <origPlace>Mondsee</origPlace>
                         <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-1ie7"/></note>
-                        <note type="summary">This Uncial manuscript of the four Gospels was probably written in Mondsee in the second half of the eight century. The manuscript was at some point discarded and used as binding waste. Preserved are 58 folios (18 in New York and 32 in Nuremberg GNM and 8 in Nuremberg Stadtbibliothek) </note>
+                        <note type="summary">This Uncial manuscript of the four Gospels was probably written in Mondsee in the second half of the eight century. The manuscript was at some point discarded and used as binding waste. Preserved are 58 folios (18 in New York and 36 in Nuremberg GNM and 8 in Nuremberg Stadtbibliothek) </note>
                     </head> 
                     <msContents>
                         <textLang mainLang="lat"/>
@@ -252,7 +252,7 @@
                             <supportDesc material="perg">
                                 <support></support>
                                 <extent>
-                                    <measure type="leavesCount" quantity="58" unit="folio">58 partial</measure>
+                                    <measure type="leavesCount" quantity="62" unit="folio">62 partial</measure>
                                     <dimensions type="leaf_current" unit="mm">
                                         <height></height>
                                         <width></width>
@@ -857,6 +857,7 @@
         </encodingDesc>
     <revisionDesc status="draft">
         <listChange>
+            <change when="2022-03-21">Addition after Nürnberg trip.</change>
             <change when="2021-10-08"></change>
         </listChange>
     </revisionDesc>

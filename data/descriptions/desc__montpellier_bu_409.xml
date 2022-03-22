@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Montpellier, Bibliothèque interuniversitaire 409</title>
+                <title>Montpellier, Bibliothèque interuniversitaire Historique de Médecine, H 409</title>
                 <respStmt>
                     <resp>Manuscript description and TEI-encoding</resp>
                     <persName>
@@ -16,7 +16,7 @@
                 <publisher></publisher>
                 <idno type="PID"></idno>
                 <availability status="restricted">
-                    <licence></licence>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -26,13 +26,15 @@
                         <settlement>Montpellier</settlement>
                         <institution></institution>
                         <repository>Bibliothèque interuniversitaire</repository>
-                        <collection>Section Médecine</collection>
+                        <collection>Historique de Médecine</collection>
                         <idno>H 409</idno>                                               
                     </msIdentifier>
                     <head>
                         <title>Psalterium romanum cum interpretationibus</title>
                         <origDate notBefore="0751" notAfter="0788">s. VIII<hi rend="sup">2</hi> (before 788)</origDate>
                         <origPlace>Mondsee</origPlace>
+                        <note type="facs"><ref target="https://ged.biu-montpellier.fr/florabium/jsp/nodoc.jsp?NODOC=2015_DOC_MONT_MBUM_27">Facsimile</ref></note>
+                        <note type="catalogue"><ref target="http://www.calames.abes.fr/pub/#details?id=D01041867"></ref></note>
                     </head> 
                     <msContents>
                         <textLang mainLang="lat"/>
