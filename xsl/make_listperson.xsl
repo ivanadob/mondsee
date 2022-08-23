@@ -8,7 +8,7 @@
     <xsl:template match="/">
         <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
-                <title>Index of works — Mondsee Scriptorium</title>
+                <title>Index of Persons — Mondsee Scriptorium</title>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
                 <link rel="stylesheet" type="text/css" href="css/mondsee.css"/>
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
@@ -20,48 +20,32 @@
             <body>
                 <xsl:call-template name="nav_bar"/>
                 <div class="container">
-                    <h1 style="text-align:center">List of works in Mondsee MSS</h1>
+                    <h1 style="text-align:center">List of Persons in Mondsee MSS</h1>
                     <table class="table table-striped display" id="msdescTable" style="width:100%">
                         <thead>
                             <tr>
-                                <th scope="col">Title</th>
-                                <th scope="col">Author</th>
-                                <th scope="col">Summary</th>
-                                <th scope="col">Inc.</th>
-                                <th scope="col">Expl.</th>
-                                <th scope="col">MSS</th>
-                                <th scope="col">Bibliography</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Alternativ Names</th>
+                                <th scope="col">GND-ID</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <xsl:for-each select=".//tei:listBibl/tei:bibl">
+                            <xsl:for-each select=".//tei:listPerson/tei:person">
                                 <tr>
                                     <td>
                                         <xsl:attribute name="id">
                                             <xsl:value-of select="@xml:id"/>
                                         </xsl:attribute>
-                                        
-                                        <xsl:apply-templates select="tei:title"/>
+                                        <xsl:apply-templates select="./tei:persName[1]/text()"/>
                                     </td>
                                     <td>
-                                        <xsl:apply-templates select="tei:author"/>
+                                        <xsl:apply-templates select="./tei:persName[2]/text()"/>
                                     </td>
                                     <td>
-                                        <xsl:apply-templates select="tei:note"/>
-                                    </td>
-                                    <td>
-                                        <xsl:apply-templates select="tei:incipit"/>
-                                    </td>
-                                    <td>
-                                        <xsl:apply-templates select="tei:explicit"/>
-                                    </td>
-                                    <td>
-                                        
-                                    </td>
-                                    <td>
-                                        <xsl:for-each select=".//tei:desc">
-                                            <xsl:apply-templates/>
-                                        </xsl:for-each>                                    
+                                        <a>
+                                            <xsl:attribute name="href"><xsl:apply-templates select="./tei:persName[1]/@ref"/></xsl:attribute>
+                                            <xsl:apply-templates select="./tei:persName[1]/@ref"/>
+                                        </a>
                                     </td>
                                 </tr>
                             </xsl:for-each>

@@ -31,7 +31,7 @@
     <xsl:variable name="githubPages">https://ivanadob.github.io/mondsee/</xsl:variable>
     <xsl:variable name="gitData">https://github.com/ivanadob/mondsee/blob/master/data/descriptions/</xsl:variable>
     <xsl:variable name="listPerson">../data/indices/listperson.xml</xsl:variable>
-    <xsl:variable name="listBibl">../data/indices/listbibl.xml</xsl:variable>
+	<xsl:variable name="listBibl">../data/indices/listsources.xml</xsl:variable>
     <xsl:import href="nav_bar.xsl"/>
 <!--    ########## main template to generate html page (calling other templates listed below) #########-->
     <xsl:template match="/">        
@@ -130,16 +130,17 @@
                                     <td>
                                         <xsl:attribute name="style">vertical-align:top</xsl:attribute>
                                         <xsl:attribute name="nowrap">nowrap</xsl:attribute>
+                                    	<a>
+                                    		<xsl:attribute name="name"><xsl:value-of select="translate(.,' ()','_')"/></xsl:attribute>
+                                    	</a>
                                         <xsl:choose>						
-                                            <xsl:when test="contains(parent::tei:item/@xml:id, 'gbv_')">
+                                            <xsl:when test="parent::tei:item/tei:idno[@type='gbv']">
                                                 <a>
                                                     <xsl:attribute name="href">
                                                         <xsl:text>https://kxp.k10plus.de/DB=2.1/PPNSET?PPN=</xsl:text>
-                                                        <xsl:value-of select="substring-after(parent::tei:item/@xml:id, 'gbv_')"/>
+                                                    	<xsl:value-of select="parent::tei:item/tei:idno[@type='gbv']/text()"/>
                                                     </xsl:attribute>
-                                                    <xsl:attribute name="name">
-                                                        <xsl:value-of select="translate(.,' ()','_')"/>
-                                                    </xsl:attribute>
+                                                    
                                                     <span>
                                                         <xsl:attribute name="class">author</xsl:attribute>
                                                         <xsl:apply-templates/>
@@ -147,9 +148,7 @@
                                                 </a>
                                             </xsl:when>
                                             <xsl:otherwise>
-                                                <xsl:attribute name="name">
-                                                    <xsl:value-of select="translate(.,' ()','_')"/>
-                                                </xsl:attribute>
+                                                
                                                 <span>
                                                     <xsl:attribute name="class">author</xsl:attribute>
                                                     <xsl:apply-templates/>

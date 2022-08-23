@@ -42,7 +42,27 @@
             </teiHeader>
             <text>
                 <body>
-                    <listBibl xml:id="secondary-lit">
+                    <list type="bibliography">
+                        <xsl:for-each select=".//tei:item">
+                            <xsl:sort select="foo:makeId(./tei:label/text())"></xsl:sort>
+                            <item>
+                                <xsl:attribute name="xml:id">
+                                    <xsl:value-of select="foo:makeId(./tei:label/text())"/>
+                                </xsl:attribute>
+                                <label>
+                                    <xsl:value-of select="./tei:label/text()"/>
+                                </label>
+                                <bibl>
+                                    <xsl:value-of select="normalize-space(string-join(./tei:bibl//text()))"/>
+                                </bibl>
+                                
+                                <xsl:if test="@xml:id">
+                                    <idno type="gbv"><xsl:value-of select="substring-after(@xml:id, 'gbv_')"/></idno>
+                                </xsl:if>
+                            </item>
+                        </xsl:for-each>
+                    </list>
+                    <!--<listBibl xml:id="secondary-lit">
                         <xsl:for-each select=".//tei:item">
                             <xsl:sort select="foo:makeId(./tei:label/text())"></xsl:sort>
                             <bibl>
@@ -55,9 +75,12 @@
                                 <title type="short">
                                     <xsl:value-of select="./tei:label/text()"/>
                                 </title>
+                                <xsl:if test="@xml:id">
+                                    <note type="gbv"><xsl:value-of select="substring-after(@xml:id, 'gbv_')"/></note>
+                                </xsl:if>
                             </bibl>
                         </xsl:for-each>
-                    </listBibl>
+                    </listBibl>-->
                     <listBibl xml:id="primary-sources">
                     <xsl:for-each select="doc('../data/indices/listtitle.xml')//work">
                         <xsl:sort select="@xml:id"></xsl:sort>
