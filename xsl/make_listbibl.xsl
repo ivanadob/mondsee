@@ -26,6 +26,7 @@
                             <tr>
                                 <th scope="col">Short Title</th>
                                 <th scope="col">Full Quote</th>
+                                <th scope="col">referenced in</th>
                                 <th scope="col">GBV-ID</th>
                             </tr>
                         </thead>
@@ -41,6 +42,18 @@
                                     </td>
                                     <td>
                                         <xsl:apply-templates select="./tei:bibl"/>
+                                    </td>
+                                    <td>
+                                        <xsl:for-each select=".//tei:ptr">
+                                            <li>
+                                                <a>
+                                                    <xsl:attribute name="href">
+                                                        <xsl:value-of select="replace(@target, '.xml', '.html')"/>
+                                                    </xsl:attribute>
+                                                    <xsl:value-of select="data(@sameAs)"/>
+                                                </a>
+                                            </li>
+                                        </xsl:for-each>
                                     </td>
                                     <td>
                                         <a>

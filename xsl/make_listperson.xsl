@@ -27,6 +27,7 @@
                                 <th scope="col">Name</th>
                                 <th scope="col">Alternativ Names</th>
                                 <th scope="col">GND-ID</th>
+                                <th scope="col">mentioned in</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -46,6 +47,18 @@
                                             <xsl:attribute name="href"><xsl:apply-templates select="./tei:persName[1]/@ref"/></xsl:attribute>
                                             <xsl:apply-templates select="./tei:persName[1]/@ref"/>
                                         </a>
+                                    </td>
+                                    <td>
+                                        <xsl:for-each select=".//tei:ptr">
+                                            <li>
+                                                <a>
+                                                    <xsl:attribute name="href">
+                                                        <xsl:value-of select="replace(@target, '.xml', '.html')"/>
+                                                    </xsl:attribute>
+                                                    <xsl:value-of select="data(@sameAs)"/>
+                                                </a>
+                                            </li>
+                                        </xsl:for-each>
                                     </td>
                                 </tr>
                             </xsl:for-each>
