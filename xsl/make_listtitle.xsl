@@ -56,7 +56,16 @@
                                         <xsl:apply-templates select="tei:explicit"/>
                                     </td>
                                     <td>
-                                        
+                                        <xsl:for-each select=".//tei:ptr">
+                                            <li>
+                                                <a>
+                                                    <xsl:attribute name="href">
+                                                        <xsl:value-of select="replace(@target, '.xml', '.html')"/>
+                                                    </xsl:attribute>
+                                                    <xsl:value-of select="data(@sameAs)"/>
+                                                </a>
+                                            </li>
+                                        </xsl:for-each>
                                     </td>
                                     <td>
                                         <xsl:for-each select=".//tei:desc">
