@@ -28,9 +28,9 @@
                              <a class="dropdown-item" href="listperson.html">
                                 Persons
                             </a>
-                            <!--<a class="dropdown-item" href="https://ivanadob.github.io/mondsee/listplace.html">
-                                Places
-                            </a>-->
+                            <a class="dropdown-item" href="listbibl.html">
+                                Bibliography
+                            </a>
                         </div>
                     </li>
                     <!--<li class="nav-item dropdown">
