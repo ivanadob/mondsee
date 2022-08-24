@@ -46,11 +46,11 @@
                         <origPlace>Mondsee (?)</origPlace>
                         <note type="facs"><ref target="http://data.onb.ac.at/dtl/3142328"/>Facsimile</note>
                         <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13951073"/></note>
-                        <note type="summary"></note>
+                        <note type="summary">A collection of glosses to biblical and patristics texts. Each set of glosses is introduced by a rubric giving the title of the glossed text. The lemmata in Latin begin with capital letter followed by a short explanation in Latin or Old German.</note>
                     </head> 
                     <msContents>
-                        <!--<textLang mainLang="lat" otherLangs=""/>--> 
-                        <p>Content from BStK Online: https://glossen.germ-ling.uni-bamberg.de/bstk/949 [Stand 08.09.2021].
+                        <textLang mainLang="lat" otherLangs="mhd"/> 
+                        <msItem><p>Content from BStK Online: https://glossen.germ-ling.uni-bamberg.de/bstk/949 [Stand 08.09.2021].
                             <list>
                                 <item>f. 1r: Notizen</item>
                             <item>f. 1v-7r: Eucherius von Lyon, Instructionum libri II</item>
@@ -70,7 +70,7 @@
                             <item>f. 124r: Glossen zu Daniel, Traumbuch</item>
                             </list>
                         </p>
-                       
+                        </msItem>                       
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
@@ -161,6 +161,7 @@
         </encodingDesc>
         <revisionDesc status="draft">
             <listChange>
+                <change when="2022-03-23">Codicological additions.</change>
                 <change when="2021-09-08">First entry.</change>
             </listChange>
         </revisionDesc>

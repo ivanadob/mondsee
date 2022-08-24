@@ -47,7 +47,7 @@
                         <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi></origDate>
                         <origPlace>Mondsee (?)</origPlace>
                         <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13959082"></ref></note>
-                        <note type="facs"><ref target="http://data.onb.ac.at/dtl/3869114"></ref></note>
+                        <note type="facs"><ref target="http://data.onb.ac.at/dtl/3869114">Facsimile</ref></note>
                         <note type="summary">Miscellany on pastoral care. The collection was intended for regular use (Gebrauchshandschrift) as suggested by the relative small format, rather low execution of the script and medium quality parchment.</note>
                     </head> 
                     <msContents>
@@ -59,26 +59,36 @@
                             <incipit>Primo ergo in catecizandis rudibus apostolicum oportet intueri sermonem</incipit>
                             <explicit>sicut pater noster caelestis perfectus est.</explicit>
                             <note>Title and first three lines written in black ink by one hand; rest in brown ink in a second hand.</note>
-                            <filiation>According to <ref target="http://www.mirabileweb.it/title/ordo-de-catechizandis-rudibus-title/182372">Mirabile</ref> the same text is attested in <ref type="altMs" target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00047264-2">München, Bayerische Staatsbibliothek, Clm 6324</ref>, ff. 98v-107r; <ref type="altMs" target="https://mdz-nbn-resolving.de/details:bsb00047265">Munich, Bayerische Staatsbibliothek, Clm 6325</ref>, ff. 134v-142v, and in <ref type="altMs">Rouen, Bibliothèque Jacques Villon (olim Bibliothèque Municipale), A. 214 (469)</ref>, ff. 121v-135.</filiation>
-                            <bibl>
-                                <abbr>Clavis</abbr> vol. II, pp. 481-82.
-                            </bibl>
-                            <bibl>
-                                <abbr>Stegmüller RB</abbr>, Nr. <ref target="http://www.repbib.uni-trier.de/cgi-bin/rebiIndex.tcl?ac=ma_7886">5659</ref>.
-                            </bibl>
+                            <filiation>The work is known in three recensions: 1) in <ref type="altMs" target="https://mdz-nbn-resolving.de/details:bsb00047265">Munich, Bayerische Staatsbibliothek, Clm 6325</ref>, ff. 134v-142v (Freising, 820 - 830) and its copy <ref type="altMs" target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00047264-2">Munich, Bayerische Staatsbibliothek, Clm 6324</ref>, ff. 98v-107r (Freising, 850 - 860); 2) in our manuscript; and 3) in <ref type="altMs">Rouen, Bibliothèque Jacques Villon (olim Bibliothèque Municipale), 469 (A. 214)</ref>, ff. 121v-135r (Fecamp, end of 11<hi rend="sup">th</hi> c. or beginning of the 12<hi rend="sup">th</hi>). According to Bouhot, the recension preserved in the Munich MSS is an abridgment of the version preserved in the Vienna MS. The longer version preserved in the Rouen MS follows more rigorously the plan set in Alcuin's letter to Charlemagne from 798 (<title>Primo paganus</title>). This text serves also as terminus post quem for the original composition . The recension in the Vienna MS represents probably the answer of Arno of Salzburg on Charlemagne's enquiry from 812. So the <title>Ordo</title> was written in the beginning of the ninth century. The version of the Vienna MS and the abridgment found in the Munich MSS is probably from the end of the first third of the ninth century (terminus ante quem based on B. Bischoff's dating of Munich Clm 6325).</filiation>
+                            
                             <!--                            Compare with Augustine's De de catechizandis rudibus (Lit.: https://www.brepolsonline.net/doi/pdf/10.1484/J.RA.5.102393; Edition in PL: https://www.documentacatholicaomnia.eu/02m/0354-0430,_Augustinus,_De_Catechizandis_Rudibus,_MLT.pdf; FR and DE translation in https://bkv.unifr.ch/works/130
-                            Check if text on ff. 3r-22r identical with In libro ad conpetentes by Nicetas Remesianensis (Stegmüller Nr. 5659)
+                            Check if text on ff. 3r-22r identical with In libro ad conpetentes by Nicetas Remesianensis (In PL LII and LXVIII under the names of Nicetas of Aquileia and Nicetius of Treves); (Stegmüller Nr. 5659) For possible reconstruction of Niceta's work see Burn and Gamber. According to Burn 1905: The Libelli instructionis or Books of instruction for candidates for baptism - in six books; known only in part. Four fragments of Book I - How candidates who seek to obtain grace of baptism ought to act (PL 52) and one fragment of Book II on the errors of the gentiles. The content is reported by Gennadius De viris illustribus cap. 22
+                            The fragments make part of the Ordo de catechizandis rudibus (Order of Catechising) which is know to exist in three recensions
+                            1) The two Munich MSS from Freising datable to the 9th and 10th c. Text published in the Zeitschrift für Kirchengeschichte 25, p. 145; contain only Fragments 1, 3 and 4. Suggestion that this may be the reply of Arno of Salzburg to the enquiry which was made by Charles the Great in 812.
+                            2) Cod. 1370 - Fragments 1-6 published so by Mai. This recension of the Ordo contains additional quotations from Alcuin, Athanasius, Leo and Augustine, as well as a sermon on the Creed (in Rouen longer and so identified as fragment of the original Book 5)
+                            3) Rouen 469 from the 11th or 12th c. 
+                            The editor of each recension had Niceta's works in his hands, and added special quotations.
+                            On such text see <bibl>Bouhot, Jean-Paul. ‘Explications du rituel baptismal à l’époque carolingienne’. Revue d’Etudes Augustiniennes et Patristiques 24, no. 3–4 (January 1978): 278–301. https://doi.org/10.1484/J.REA.5.104365.</bibl> : many text showing the efforts for religious instruction - not cherished because of their lack of originality, form, and anonymity. Form of explanation of the rites, prayers, holy mass and baptism, the symbols of the apostles, symbol Quicumque. Often florilegia. Catechise - some edited. Buhot makes an inventary for the explanations on the baptism from the Carolingian period but based on already edited texts.
                             -->
                             <msItem>
                                 <locus from="18r">18r</locus>
                                 <rubric>Epylogus breuiter digestus</rubric>
                                 <note></note>
                             </msItem>
-                            <msItem>
-                                <locus>3r-22r</locus>
-                                <author>Nicetas Remesianensis</author>
-                                <title>In libro ad conpetentes // Competentibus ad baptismum instructionis libelli VI</title>
-                            </msItem>
+                            
+                            <listBibl>
+                                <bibl>
+                                    <abbr>Clavis</abbr> vol. II, pp. 481-82.
+                                </bibl>
+                                <bibl>
+                                    <abbr>Stegmüller RB</abbr>, Nr. <ref target="http://www.repbib.uni-trier.de/cgi-bin/rebiIndex.tcl?ac=ma_7886">5659</ref>.
+                                </bibl>
+                                <bibl>Denis, Michael, ed. in <title>Codices Manuscripti Theologici Bibliothecae Palatinae Vindobonensis Latini</title>. Vol. 2. Vienna, 1802, pp. <ref target="https://manuscripta.at/_scripts/php/cat_onb2pdf.php?cat=denis&amp;vol_page=2-3%202041-2053">2041-2046</ref>.</bibl>
+                                <bibl><abbr>PL</abbr> 52, 374-376 (based on the edition of Denis).</bibl>
+                                <bibl>Burn, A. E., ed. <title>Niceta of Remesiana. His Life and Works</title>. Cambridge: Cambridge University Press, 1905, pp. 6-8<note> (followed by <title>De ratione fidei</title> and <title>De spiritu sancto</title> as parts of Book 3)</note>.</bibl>
+                                <bibl>Nicetas, Remesianensis. <title>Niceta von Remesiana instructio ad competentes: frühchristliche Katechesen aus Dacien</title>. Edited by Klaus Gamber. 3 vols. Regensburg: Pustet, 1964-1966.</bibl>
+                                <bibl>Bouhot, Jean-Paul. ‘Explications du rituel baptismal à l’époque carolingienne’. <title>Revue d’Etudes Augustiniennes et Patristiques</title> 24, no. 3–4 (January 1978): 278–301, esp. 283-285. https://doi.org/10.1484/J.REA.5.104365.</bibl>
+                            </listBibl>
                         </msItem>
                         <msItem>
                             <locus></locus>
@@ -179,7 +189,7 @@
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
-                                <support>Parchment (sheep or goat?). Low quality sheets with defective edges (ff. 10-12, 14-15, 18-19, 22-23, 28, 30, 34-35, 39, 42, 47, 50, 55, 59, 61, 65, 67-70, 74-78, 87, 90, 93, 95, 98-101, 103, 106-109, 111, 116-120) and holes: ff. 13 (multiple), 53, 79, 80). The parchment has become semi-transparent in places where the parchment maker scraped the upper layer of the skin on hair side (e.g. f. 30)</support>
+                                <support>Goat parchment (recognisable by the wave like structure of the follicules). Low quality sheets with defective edges (ff. 10-12, 14-15, 18-19, 22-23, 28, 30, 34-35, 39, 42, 47, 50, 55, 59, 61, 65, 67-70, 74-78, 87, 90, 93, 95, 98-101, 103, 106-109, 111, 116-120) and holes: ff. 13 (multiple), 53, 79, 80). The parchment has become semi-transparent in places where the parchment maker scraped the upper layer of the skin on hair side (e.g. f. 30)</support>
                                 <extent>
                                     <measure type="leavesCount" quantity="120" unit="folio">120 fols.</measure>
                                     <dimensions type="leaf_current" unit="mm">
@@ -195,8 +205,8 @@
                             <layoutDesc>
                                 <layout ruledLines="18" writtenLines="18" columns="1">
                                     <dimensions type="written" unit="mm">
-                                        <height max="0" min="0">140-150</height>
-                                        <width max="0" min="0">95-110</width>
+                                        <height max="140" min="150">140-150</height>
+                                        <width max="95" min="110">95-110</width>
                                     </dimensions>. Line height
                                     <dimensions type="lineHeight" unit="mm">
                                         <height min="8" max="9">8-9</height>
@@ -206,9 +216,7 @@
                                         <dim type="marginBelow">20-28</dim>
                                         <dim type="marginOuter">10-20</dim>
                                         <dim type="marginInner">10-15</dim>
-                                    </dimensions>                                   
-                                   <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
-                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                    </dimensions>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -235,8 +243,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p>The manuscript was probably copied in <origPlace>Mondsee</origPlace> 
-                                <origDate notBefore="0801" notAfter="0850">in the first half of the 9<hi rend="sup">th</hi> c.</origDate> (<bibl><abbr>Bischoff 1980</abbr></bibl>, p. 24).</p>
+                            <p>The manuscript was probably copied in <origPlace ref="#mondsee">Mondsee</origPlace> in the <origDate notBefore="0801" notAfter="0850">first half of the 9<hi rend="sup">th</hi> c.</origDate> (<bibl><abbr>Bischoff 1980</abbr></bibl>, p. 24).</p>
                         </origin>
                         <provenance/>
                         <acquisition/>
