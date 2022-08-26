@@ -318,7 +318,7 @@
             <bibl xml:id="corintheos_marcion">
                <title>The Marcionite prologue to the first epistle to the Corinthians</title>
                <author ref="#"/>
-               <incipit>Corinthii sunt achaei et similiter</incipit>
+               <!--<incipit>Corinthii sunt achaei et similiter</incipit>-->
                <idno type="gnd">http://d-nb.info/gnd/</idno>
                <note/>
                <listRelation>
@@ -514,12 +514,175 @@
             </bibl>
             <bibl xml:id="thessalonicenses">
                <title>Epistola ad Thessalonicenses</title>
-               <idno type="gnd">http://d-nb.info/gnd/4075941-6</idno>
-               <note/>
+               <idno type="gnd">http://d-nb.info/gnd/4075941-6</idno> 
                <listRelation>
                   <relation>
-                     <desc/>
+                     <desc><ref target="http://vulsearch.sourceforge.net/html/1Thes.html">Clementine Vulgate project</ref></desc>
                   </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="osee">
+               <title>Book of Osee</title>
+               <idno type="gnd">https://d-nb.info/gnd/4025910-9</idno>
+               <listRelation>
+                  <relation>
+                     <desc><ref target="http://vulsearch.sourceforge.net/html/Os.html">Clementine Vulgate project</ref></desc>
+                  </relation>
+               </listRelation>               
+            </bibl>
+            <bibl xml:id="joel">
+               <title>Book of Joel</title>
+               <idno type="gnd">https://d-nb.info/gnd/4028647-2</idno>
+               <listRelation>
+                  <relation>
+                     <desc><ref target="http://vulsearch.sourceforge.net/html/Joel.html">Clementine Vulgate project</ref></desc>
+                  </relation>
+               </listRelation>               
+            </bibl>
+            <bibl xml:id="amos">
+               <title>Book of Amos</title>
+               <idno type="gnd">https://d-nb.info/gnd/4001761-8</idno>
+               <listRelation>
+                  <relation>
+                     <desc><ref target="http://vulsearch.sourceforge.net/html/Am.html">Clementine Vulgate project</ref></desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="abdias">
+               <title>Book of Abdias</title>
+               <idno type="gnd">https://d-nb.info/gnd/4042864-3</idno>
+               <listRelation>
+                  <relation>
+                     <desc><ref target="http://vulsearch.sourceforge.net/html/Abd.html">Clementine Vulgate project</ref></desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="jonas">
+               <title>Book of Jonas</title>
+               <idno type="gnd">https://d-nb.info/gnd/4073064-5</idno>
+               <listRelation>
+                  <relation>
+                     <desc><ref target="http://vulsearch.sourceforge.net/html/Jon.html">Clementine Vulgate project</ref></desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="michaeas">
+               <title>Book of Michaeas</title>
+               <idno type="gnd">https://d-nb.info/gnd/4039110-3</idno>
+               <listRelation>
+                  <relation>
+                     <desc><ref target="http://vulsearch.sourceforge.net/html/Mch.html">Clementine Vulgate project</ref></desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="nahum">
+               <title>Book of Nahum</title>
+               <idno type="gnd">https://d-nb.info/gnd/4041168-0</idno>
+               <listRelation>
+                  <relation>
+                     <desc><ref target="http://vulsearch.sourceforge.net/html/Nah.html">Clementine Vulgate project</ref></desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="habacuc">
+               <title>Book of </title>
+               <idno type="gnd">https://d-nb.info/gnd/4022705-4</idno>
+               <listRelation>
+                  <relation>
+                     <desc><ref target="http://vulsearch.sourceforge.net/html/Hab.html">Clementine Vulgate project</ref></desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="sophonias">
+               <title>Book of Sophonias</title>
+               <idno type="gnd">https://d-nb.info/gnd/4079470-2</idno>
+               <listRelation>
+                  <relation>
+                     <desc><ref target="http://vulsearch.sourceforge.net/html/Soph.html">Clementine Vulgate project</ref></desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="malachias">
+               <title>Book of Malachias</title>
+               <idno type="gnd">https://d-nb.info/gnd/4037207-8</idno>
+               <listRelation>
+                  <relation>
+                     <desc><ref target="http://vulsearch.sourceforge.net/html/Mal.html">Clementine Vulgate project</ref></desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="aggaeus">
+               <title>Book of Aggaeus</title>
+               <idno type="gnd">https://d-nb.info/gnd/4022927-0</idno>
+               <listRelation>
+                  <relation>
+                     <desc><ref target="http://vulsearch.sourceforge.net/html/Agg.html">Clementine Vulgate project</ref></desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="zacharias">
+               <title>Book of Zacharias</title>
+               <idno type="gnd">https://d-nb.info/gnd/4076927-6</idno>
+               <listRelation>
+                  <relation>
+                     <desc><ref target="http://vulsearch.sourceforge.net/html/Zach.html">Clementine Vulgate project</ref></desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="">
+               <title>Book of </title>
+               <idno type="gnd"> </idno>
+               <listRelation>
+                  <relation>
+                     <desc><ref target="http://vulsearch.sourceforge.net/html/Am.html">Clementine Vulgate project</ref></desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="isaiah">
+               <title>Book of Isaiah</title>
+               <idno type="gnd">https://d-nb.info/gnd/4028593-5</idno>
+               <listRelation>
+                  <relation>
+                     <desc><ref target="http://vulsearch.sourceforge.net/html/Is.html">Clementine Vulgate project</ref></desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="hieronymus_prol_xii_proph">
+               <author ref="#hieronymus">Hieronymus</author>
+               <title>Hieronymi in XII prophetas praefatio</title>
+               <idno type="gnd">https://la.wikisource.org/wiki/Vulgata_Clementina/In_XII_prophetas_praefatio</idno>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc>Stegmüller RB, Nr. <ref target="https://www.repbib.uni-trier.de/cgi-bin/rebiIndex.tcl?ac=ma_2024">500</ref>.</desc>
+                  </relation>
+               </listRelation>
+            </bibl> 
+            <bibl xml:id="hieronymus_prol_isaias">
+               <author ref="#hieronymus">Hieronymus</author>
+               <title>Prologus in Isaias propheta</title>
+               <idno type="gnd">https://la.wikisource.org/wiki/Vulgata_Clementina/In_XII_prophetas_praefatio</idno>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc>Stegmüller RB, Nr. <ref target="https://www.repbib.uni-trier.de/cgi-bin/rebiIndex.tcl?ac=ma_2006">482</ref>.</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="hieronymus_prol_hieremia">
+               <author ref="#hieronymus">Hieronymus</author>
+               <title>Prologus in libro Hieremiae prophetae / In Jeremiam praefatio</title>
+               <idno type="gnd">https://la.wikisource.org/wiki/Vulgata_Clementina/In_Jeremiam_praefatio</idno>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc>Stegmüller RB, Nr. <ref target="https://www.repbib.uni-trier.de/cgi-bin/rebiIndex.tcl?ac=ma_2006">487</ref>.</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="hieronymus_epistulae_3">
+               <author ref="#hieronymus">Hieronymus</author>
+               <title>Epistulae, 3, 53, 8</title>
+               <idno type="gnd">https://d-nb.info/gnd/4329905-2</idno>
+               <listRelation>
+                  <relation ref="#"></relation>
                </listRelation>
             </bibl>
          </listBibl>
