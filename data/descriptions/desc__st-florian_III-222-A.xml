@@ -46,13 +46,20 @@
                     <msContents>
                         <textLang mainLang="lat" otherLangs=""/> 
                         <msItem>
-                            <locus></locus>
-                            <note type="title"></note>
+                            <locus>Ir</locus>
+                            <note>Chants with neums. 11th-century addition.</note>
+                            <incipit>Rege regis dominum</incipit>
+                        </msItem>
+                        <msItem>
+                            <locus>Iv</locus>
+                            <note type="title">Table of content to the XII prophets</note>
+                            <quote>I. Isaias, II. Hieremias <gap reason="omitted"/> XV. Malachias, XVI <gap reason="lacuna"/></quote>
                         </msItem>
                         <msItem>
                             <locus from="1r" to="2v">1r-2v</locus>
                             <author ref="#hieronymus">Hieronymus</author>
                             <title ref="#hieronymus_epistulae_3">Epistulae, 3, 53, 8</title>
+                            <rubric><locus>Iv </locus>In dei nomine incipit prologus XII prophetarum</rubric>
                             <note type="title">Prolog to the Prophetae</note> 
                             <incipit>Duodecim <sic>prophetare</sic> me in unius uoluminis angustias <sic>coartatim</sic></incipit>
                             <finalRubric>Explicit Prologus Hieronimi.</finalRubric>
@@ -213,17 +220,55 @@
                             </list></note>
                         </msItem>
                         <msItem>
-                            <locus>116v-</locus>
+                            <locus>116v-117r</locus>
                             <author ref="#hieronymus">Hieronymus</author>
                             <title ref="#hieronymus_prol_hieremia">Prologus in libro Hieremiae prophetae</title>
                             <rubric>Incipit prologus hieremias prophetae</rubric>
                             <incipit>Hieremias prophaeta cui prologus hic scribitur</incipit>
+                            <explicit>insaniam prouocare.</explicit>
+                            <finalRubric>Explicit prologus.</finalRubric>
+                        </msItem>
+                        <msItem>
+                            <locusGrp>
+                                <locus>117r-177v</locus>
+                                <locus>180r-181r</locus>
+                            </locusGrp>
+                            <title ref="#jeremiah">Book of Jeremiah</title>
+                            <rubric>Incipit corpus libri hieremiae prophetae</rubric>
+                            <incipit><locus>117v</locus>Uerba hieremiae filii helchie</incipit>
+                            <explicit>cunctis diebus uitae eius</explicit>
+                            <msItem>
+                                <locus>177v-</locus>
+                                <rubric>Hucusque uerba Hieremiae. Incipit epistula Hieremiae prophetae</rubric>
+                            </msItem>
+                            <note>
+                                <list>
+                                    <item><locus>136r</locus> <ref type="biblical" cRef="Ier_15,15">Tu scis domine</ref><quote>In passione</quote></item>
+                                    <item><locus>139v</locus> <ref type="biblical" cRef="Ier_18,18">Et dixerunt uenite</ref><quote>In passione</quote></item>
+                                </list>
+                            </note>
+                            <note>Fol. 171 12th-century replacement, follows the end of fol. 170v but text ends on fol. 171v leaving 3/4 of the page blank and missing text between <ref type="biblical" cRef="Ier_43,11">Jer 43,11</ref> and <ref type="biblical" cRef="Ier_49,36">Jer 49,36</ref>.</note>
+                        </msItem>
+                        <msItem>
+                            <locus>178r-179v</locus>
+                            <title ref="baruch4">Paralipomena of Jeremiah</title>
+                            <incipit>Exemplum epistulae quam misit hieremias ad adductos</incipit>
+                            <explicit>erit longe ab obprobriis</explicit>
+                            <note>Fol. 178 later 12th-century addition</note>
+                        </msItem>
+                        <msItem>
+                            <locus>181r-184v</locus>
+                            <title ref="#lamentationes">Lamentationes Jeremiae Prophetae</title>
+                            <rubric>Lamentatio hieremiae prophetae quod in titulo chinoht cum absolutione litterarum hebraicarum.</rubric>
+                            <incipit>Et factum est postquam</incipit>
+                            <explicit defective="true">Gaude et laetare filia edom quae</explicit>
+                            <note>With neumes.</note>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
-                                <support>Ff. A-38 are Calb parchment (Bischoff 1980, 23).</support>
+                                <support>Ff. A-38 are Calb parchment (Bischoff 1980, 23). Fols. 59-60, 171, 178-179 12th-century additions probably used to replace the original damaged leaves.</support>
                                 <extent>
                                     <measure type="leavesCount" quantity="186" unit="folio">186</measure>
                                     <dimensions type="leaf" unit="mm">

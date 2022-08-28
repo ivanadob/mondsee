@@ -585,7 +585,7 @@
                </listRelation>
             </bibl>
             <bibl xml:id="habacuc">
-               <title>Book of </title>
+               <title>Book of Habacuc</title>
                <idno type="gnd">https://d-nb.info/gnd/4022705-4</idno>
                <listRelation>
                   <relation>
@@ -629,12 +629,12 @@
                   </relation>
                </listRelation>
             </bibl>
-            <bibl xml:id="">
-               <title>Book of </title>
-               <idno type="gnd"> </idno>
+            <bibl xml:id="jeremiah">
+               <title>Book of Jeremiah</title>
+               <idno type="gnd">https://d-nb.info/gnd/4073016-5</idno>
                <listRelation>
                   <relation>
-                     <desc><ref target="http://vulsearch.sourceforge.net/html/Am.html">Clementine Vulgate project</ref></desc>
+                     <desc><ref target="http://vulsearch.sourceforge.net/html/Jr.html">Clementine Vulgate project</ref></desc>
                   </relation>
                </listRelation>
             </bibl>
@@ -644,6 +644,24 @@
                <listRelation>
                   <relation>
                      <desc><ref target="http://vulsearch.sourceforge.net/html/Is.html">Clementine Vulgate project</ref></desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="baruch4">
+               <title>Fourth Baruch / Paralipomena of Jeremiah</title>
+               <idno type="gnd">https://d-nb.info/gnd/4173275-3</idno>
+               <listRelation>
+                  <relation>
+                     <desc><ref target="http://vulsearch.sourceforge.net/html/Bar.html">Clementine Vulgate project</ref></desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="lamentationes">
+               <title>Lamentationes Jeremiae Prophetae</title>
+               <idno type="gnd">https://d-nb.info/gnd/4073466-3</idno>
+               <listRelation>
+                  <relation>
+                     <desc><ref target="http://vulsearch.sourceforge.net/html/Lam.html">Clementine Vulgate project</ref></desc>
                   </relation>
                </listRelation>
             </bibl>
@@ -674,6 +692,9 @@
                <listRelation>
                   <relation ref="#stegmueller-rb">
                      <desc>Stegmüller RB, Nr. <ref target="https://www.repbib.uni-trier.de/cgi-bin/rebiIndex.tcl?ac=ma_2006">487</ref>.</desc>
+                  </relation>
+                  <relation>
+                     <desc>Prologus Hieronymi in libro Hieremiae prophetae, ed. R. Gryson et R. Weber, in Biblia sacra: iuxta Vulgatam versionem. Stuttgart: Deutsche Bibelgesellschaft, 2007</desc>
                   </relation>
                </listRelation>
             </bibl>
