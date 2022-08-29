@@ -450,6 +450,11 @@
                   </relation>
                </listRelation>
             </bibl>
+            <bibl xml:id="instructiones">
+               <title>Instructiones ad Salonium</title>
+               <author ref="#eucherius">Eucherius of Lyon</author>
+               <idno type="gnd">https://d-nb.info/gnd/1253971056</idno>
+            </bibl>
             <bibl xml:id="leo_sermo_3">
                <title>Sermo 3. De quadragesimae</title>
                <author ref="#leo_magnus">Ps. Leo Magnus</author>

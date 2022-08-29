@@ -34,6 +34,9 @@
             <person xml:id="chromatius">
                <persName xml:id="gnd_118888188" ref="http://d-nb.info/gnd/118888188">Chromatius Aquileiensis</persName>
             </person>
+            <person xml:id="eucherius">
+               <persName xml:id="gnd_118682547" ref="https://d-nb.info/gnd/118682547">Eucherius of Lyon</persName>
+            </person>
             <person xml:id="gregorius_magnus">
                <persName xml:id="gnd_118541838" ref="http://d-nb.info/gnd/118541838">Gregorius Magnus</persName>
             </person>

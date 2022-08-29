@@ -170,16 +170,16 @@
                                 <list>
                                     <item><locus>42v</locus> the passage starting with <ref type="biblical" cRef="Za_1,7">Factum est uerbum domini ad zachariam</ref> - <quote>in aduentum</quote> </item>
                                     <item><locus>43v</locus> <ref type="biblical" cRef="Za_">Lauda et laetare filia sion</ref> <quote>In aduento</quote></item>
-                                    <item><locus>46r</locus><ref type="biblical" cRef="Za_6,9">Et factum est uerbum domini ad me dicens sume a transmigratione</ref> - <quote>In aduento</quote>
+                                    <item><locus>46r</locus> <ref type="biblical" cRef="Za_6,9">Et factum est uerbum domini ad me dicens sume a transmigratione</ref> - <quote>In aduento</quote>
                                     </item>
-                                    <item><locus>47r</locus><ref type="biblical" cRef="Za_">Haec dicit dominus execituum ecce ego</ref> - <quote>In aduento</quote>
+                                    <item><locus>47r</locus> <ref type="biblical" cRef="Za_">Haec dicit dominus execituum ecce ego</ref> - <quote>In aduento</quote>
                                     </item>
-                                    <item><locus>48r</locus><ref type="biblical" cRef="Za_6,9">Haec dicit dominus execituum ieiunium quarti</ref> - <quote>Et ieiunia sollemnia IIII et II</quote>
+                                    <item><locus>48r</locus> <ref type="biblical" cRef="Za_6,9">Haec dicit dominus execituum ieiunium quarti</ref> - <quote>Et ieiunia sollemnia IIII et II</quote>
                                     </item>
                                     <item><locus>48v</locus> <quote>In aduento sollemem</quote></item>
-                                    <item><locus>49v</locus><quote>In cena domini</quote></item>
-                                    <item><locus>51v</locus><quote>In cena domini</quote></item>
-                                    <item><locus>52r</locus><quote>In aduento</quote></item>
+                                    <item><locus>49v</locus> <quote>In cena domini</quote></item>
+                                    <item><locus>51v</locus> <quote>In cena domini</quote></item>
+                                    <item><locus>52r</locus> <quote>In aduento</quote></item>
                                 </list>.</note>
                         </msItem>
                         <msItem>
@@ -302,7 +302,7 @@
                             <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
                         </handDesc>
                         <scriptDesc>
-                            <summary>According to Bischoff the manuscript was written by several hands which belong to the type of the Landperht-Homiliarium with the exception of the hand responsible for ff. <locus from="159v" to="160r">159v-160r</locus> - which is <quote>unpräzise gebildet</quote>. Bischoff recognised the same hand in <ref type="altMs" target="#desc__vienna_onb_sn_3754.xml">Vienna, ÖNB, Cod. Ser. n. 3754</ref>.</summary>
+                            <summary>According to Bischoff the manuscript was written by several hands which belong to the type of the Landperht-Homiliarium with the exception of the hand responsible for ff. <locus from="159v" to="160r">159v-160r</locus> - which is <quote>unpräzise gebildet</quote>. Bischoff recognised the same hand in <ref type="altMs" target="#desc__vr_f-b3km.xml">Vienna, ÖNB, Cod. Ser. n. 3754</ref>.</summary>
                             <scriptNote script="x" medium="x">Uncial and Capitalis rustica in red or black ink.</scriptNote>
                         </scriptDesc>
                         <decoDesc>
@@ -360,6 +360,7 @@
         </encodingDesc>
     <revisionDesc status="draft">
         <listChange>
+            <change when="2022-08-29">Additions to msContent.</change>
             <change when="2021-07-23">Initial entry.</change>
         </listChange>
     </revisionDesc>

@@ -62,7 +62,7 @@
                             <ref/>
                         </surrogates> 
                         <listBibl>
-                            <bibl/>
+                            <bibl>Dorfbauer, Lukas. “Ein Fragment der Expositiunculae in evangelium  Iohannis evangelistae Matthaei et Lucae (CPL 240) und eine evangelienexegetische Sammlung aus Mondsee.” Wiener Studien 135 (2022): 173–90.</bibl>
                         </listBibl>
                     </additional>  
                     <msFrag>
@@ -238,7 +238,7 @@
                     <msFrag>
                         <msIdentifier>
                             <country>Austria</country>
-                            <settlement>Wien</settlement>
+                            <settlement>Vienna</settlement>
                             <repository>Österreichische Nationalbibliothek</repository>
                             <idno>Fragm. 782c</idno>             
                         </msIdentifier>
@@ -423,10 +423,19 @@
                             <repository>Staatsbibliothek</repository> 
                             <idno>Fragm. 47</idno>          
                         </msIdentifier>
-                        <head>                            
-                            <note type="summary"></note>
-                            <note type="catalogue"><ref target="https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/handschriften/abendlaendische-handschriften/signaturenuebersicht?action=permalink&amp;request=90469345%2CT"></ref></note>
+                        <head> 
+                            <title>Ps.-Hiernymus / Ps.-Gregorius: Expositio IV evangeliorum; De nominibus hebraicis grecis et latinis; De litteris; De ponderibus</title>
+                            <note type="summary">The fragment consists of four leaves detached from Ms. Lat. qu. 931 (probably former pastedowns and flyleaves ?). The first two leaves contain parts from the so-called Expositio quattuor evangeliorum (to Mt 1,1-3,4); the other two leaves preserve fragments from the short texts De litteris (Alphabet of words) and De ponderibus. The palaeograhical and codicological similarities between the four leaves and the remaining fragments, described here, suggest they were all part from one book.</note>
+                            <note type="facs"><ref target="https://stabikat.de/DB=1/SET=2/TTL=8/MAT=/NOMAT=T/CLK?IKT=8544&amp;TRM=Handschriften+digital"></ref></note>
+                            <note type="catalogue"><ref target="https://stabikat.de/DB=1/XMLPRS=N/PPN?PPN=1789247039"></ref></note>
                         </head>
+                        <msContents>
+                            <msItem>
+                                <rubric>De ponderibus secundum eucherium</rubric>
+                                <author ref="#eucherius">Eucherius of Lyon</author>
+                                <title ref="#instructiones">Instructiones <note>(excerpt from Book 2)</note></title>
+                            </msItem>
+                        </msContents>
                         <history>
                             <provenance>The fragment was detached 1937 from <ref type="altMs" target="https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/handschriften/abendlaendische-handschriften/signaturenuebersicht?action=permalink&amp;request=31019756">Berlin, Staatsbibl, Ms. Lat. qu. 931</ref> - a 10<hi rend="sup">th</hi>-century copy of Ansegisus' Collectio capitularium. This manuscript is held today at the Jagiellonian Library (Biblioteka Jagiellońska) in Kraków.</provenance>
                         </history>
