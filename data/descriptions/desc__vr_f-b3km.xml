@@ -36,12 +36,17 @@
                         </altIdentifier>          
                     </msIdentifier>
                     <head>
-                        <title>Pseudo-Hieronymus: Expositio quatuor evangeliorum + Sermo de decem denariis + Ps. Arnobius iunior, Expositiunculae(Fragm. 782c)</title>
+                        <title>Pseudo-Hieronymus: Expositio quatuor evangeliorum + Sermo de decem denariis + Ps. Arnobius iunior, Expositiunculae (Fragm. 782c)</title>
                         <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi></origDate>
                         <origPlace>Mondsee (?)</origPlace>
                         <note type="summary">From the original manuscript survive several fragments, which were used as binding waste in Mondsee manuscripts.</note>
                         <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-b3km"></ref></note>
                     </head> 
+                    <msContents>
+                        <msItem>
+                            <note>Vienna, ÖNB, Cod. 1696 (left pastedown); Codd. 1361 and 1696 (fol. 125); Cod. Ser. n. 3754 (foll. 1 and 2); Fragm. 782b (foll. 1 and 2).</note>
+                        </msItem>
+                    </msContents>
                     <history>
                         <origin>
                             <origPlace/>
@@ -243,28 +248,28 @@
                             <idno>Fragm. 782c</idno>             
                         </msIdentifier>
                         <head>
-                            <title>Annotationes ad quaedam evangeliorum loca</title>
+                            <title>Ps.-Augustinus, Sermo de decem talentis</title>
                             <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC15482529"></ref></note>
                             <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-reow"></ref></note>
-                            <note type="summary">The fragment represents one reconstructed partial leaf from a commentary on the gospel(s). </note>
+                            <note type="summary">The fragment represents one reconstructed partial leaf with two texts: a sermon and a commentary on the gospel of John. </note>
                         </head>
                         <msContents>
-                            <textLang mainLang="lat"/> 
-                           
+                            <textLang mainLang="lat"/>                           
                                 <msItem>
                                     <locus from="1r">1r</locus>
-                                    <title>Sermo de decem denariis</title>
-                                    <incipit defective="true">isaac confes<gap/> iacob benedictionem <gap/><supplied>h</supplied>ospitalitatem <gap/> sanctum docatum ioseph cas<gap/> iesunaue</incipit>
+                                    <author ref="#augustinus">Ps.-Augustinus</author>
+                                    <title ref="#ps_augustinus_de_decem_talentis">Sermo de decem denariis</title>
+                                    <incipit defective="true">isaac confes<gap/> iacob benedictionem <gap/> <supplied>h</supplied>ospitalitatem <gap/> sanctum docatum ioseph cas<gap/> iesunaue</incipit>
                                     <explicit>Id est spes fides caritas quia spes fecit ut inueniretur adam fides uero fecit ut hoc est cum christo et omnes sanctis.</explicit>
                                     <listBibl>
                                         <bibl><abbr>CPPM</abbr> 1, 1721/3310.</bibl>
-                                        <bibl>Soage, Javier. ‘A Review of the Contents of Albi, Bibliothèque Municipale, Ms 40’. <title>Revue Bénédictine</title> 130 (2020): 260–90.</bibl>
+                                        <bibl><abbr>Soage 2020</abbr></bibl>
                                     </listBibl>
                                 </msItem>
                                 <msItem>
                                     <locus from="1r" to="1v">1r-v</locus>
                                     <author ref="#arnobius">Ps. Arnobius iunior</author>
-                                    <title>Expositiunculae Arnobii episcopi in evangelio Iohannis evangelistae <note>Cap. I-III</note></title>
+                                    <title ref="#">Expositiunculae Arnobii episcopi in evangelio Iohannis evangelistae <note>Cap. I-III</note></title>
                                     <incipit>EUANGELIUM SECUNDUM IOHANNEM. In principio erat uerbum <gap/> <locus from="1v">1v</locus> <supplied>Princi</supplied>pium deus est <sic>quę</sic> est <supplied>princi</supplied>pator omnium <gap/> quia nihil est idola</incipit>
                                     <explicit defective="true">in uino conuersa, passionem et cruorem demonstrat. DE HOMINE CECO</explicit>
                                     <listBibl>
@@ -284,7 +289,7 @@
                                             <width min="140">min 140</width>
                                         </dimensions>
                                     </extent>
-                                    <condition>The original leaf was cut in vertical strips used as sewing guards. These were recollected by librarians in the 19<hi rend="sup">th</hi> and reconstructed to one partial leaf with gold beater’s skin. The strips are, however, incorrectly joint: first four (looking at the recto) are running one line under the last four.</condition>
+                                    <condition>The original leaf was cut in vertical strips used as sewing guards. These were recollected by librarians in the 19<hi rend="sup">th</hi> c. and reconstructed to one partial leaf with gold beater’s skin. The strips are, however, incorrectly joint: the first four (looking at the recto) are running one line under the last four.</condition>
                                 </supportDesc>
                                 <layoutDesc>
                                     <layout ruledLines="25" writtenLines="25" columns="1">
@@ -305,12 +310,11 @@
                             <scriptDesc>
                                 <summary>Early Carolingian minuscule with ligatures: ri (extended left below line), ti, ct, nt, st. Using e-caudata; two forms of a: open (cc-a) and Carolingian a.</summary>
                                 <scriptNote script="caprust" medium="x">Rubrications in the same black ink written in <term type="script">Capitalis rustica</term>.</scriptNote>
-                                <scriptNote>Simple three-line high initials (<term type="initial">built-up initials</term>, <term type="initial">litterae notabiliores</term>) in black ink.</scriptNote>
+                                <scriptNote>Simple three-line high initials (<term type="initial">built-up initials</term>), <term type="initial">litterae notabiliores</term>) in black ink.</scriptNote>
                             </scriptDesc>
                         </physDesc>
                         <history>                           
                             <provenance>The fragments were detached from the binding probably by librarians at the Court library in the 19<hi rend="sup">th</hi> c. <rs type="person">Stephan Ladislaus Endlicher</rs> (librarian from 1828) took specific interest in the fragments and transcribed them in what is now <ref type="altMs" target="http://data.onb.ac.at/rec/AC14251890">Vienna, ÖNB, Cod. Ser. n. 3960</ref>. Since Endlicher reordered parts of the manuscript collection, it is possible that the current shelfmark Frag. 782 (which is a conglomerate of fragments from several originally distinct manuscripts) reflects his interest and not the fact that the fragments served as binding waste in one and the same host volume. Hence it is not possible to establish a Mondsee provenance for Fragm. 782c based on the secured Mondsee origin and provenance of Vienna, ÖNB, Cod. Ser. n. 2065, <ref target="https://fragmentarium.ms/view/page/F-rm22/2003/23573">f. 4</ref> which was till recently preserved under the shelfmark Fragm. 782-1 / 782a.</provenance>
-                            <acquisition/>
                         </history>
                     </msFrag>
                     <msFrag>
@@ -425,23 +429,61 @@
                         </msIdentifier>
                         <head> 
                             <title>Ps.-Hiernymus / Ps.-Gregorius: Expositio IV evangeliorum; De nominibus hebraicis grecis et latinis; De litteris; De ponderibus</title>
-                            <note type="summary">The fragment consists of four leaves detached from Ms. Lat. qu. 931 (probably former pastedowns and flyleaves ?). The first two leaves contain parts from the so-called Expositio quattuor evangeliorum (to Mt 1,1-3,4); the other two leaves preserve fragments from the short texts De litteris (Alphabet of words) and De ponderibus. The palaeograhical and codicological similarities between the four leaves and the remaining fragments, described here, suggest they were all part from one book.</note>
+                            <note type="summary">The fragment consists of four leaves detached from Ms. Lat. qu. 931 (probably former pastedowns and flyleaves ?). The first two leaves contain parts from the so-called Expositio quattuor evangeliorum (to Mt 1,1-3,4); the third badly preserved leaf contains fragments from the short excerpts from Eucherius of Lyon <foreign>Instructiones</foreign> on explanation of biblical personal and place names (excerpt rubricated 'De litteris') and on weigh measurements (excerpt rubricated 'De ponderibus'). The palaeograhical and codicological similarities between the four leaves and the remaining fragments, described here, suggest they were all part from one book.</note>
                             <note type="facs"><ref target="https://stabikat.de/DB=1/SET=2/TTL=8/MAT=/NOMAT=T/CLK?IKT=8544&amp;TRM=Handschriften+digital"></ref></note>
                             <note type="catalogue"><ref target="https://stabikat.de/DB=1/XMLPRS=N/PPN?PPN=1789247039"></ref></note>
                         </head>
                         <msContents>
                             <msItem>
-                                <rubric>De ponderibus secundum eucherium</rubric>
+                                <locus>1r-2v</locus>
+                                <author ref="#hieronymus">Ps.-Hieronymus / Ps.-Gregorius</author>
+                                <title ref="#expositio_iv_evangeliorum">Expositio IV evangeliorum<note> (excerpt wto Mt. 1,1–3,4)</note></title>
+                            </msItem>
+                            <msItem>
+                                <locus>3r</locus>
+                                <rubric><supplied>De ponde</supplied>ribus secundum euch<supplied>erium</supplied></rubric>
                                 <author ref="#eucherius">Eucherius of Lyon</author>
-                                <title ref="#instructiones">Instructiones <note>(excerpt from Book 2)</note></title>
+                                <title ref="#instructiones">Instructiones <note>(excerpt from Book 2, ch. XIII)</note></title>
+                                <bibl><abbr>PL</abbr> 50,82.</bibl>
+                                <bibl>Eucherius Lugdunensis. Formulae Spiritalis Intellegentiae. Instructionum Libri Duo. Edited by C. Mandolfo. Vol. 66. CCSL. Turnhout: Brepols, 2005, 77–216.</bibl>
                             </msItem>
                         </msContents>
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="perg">
+                                    <support>Parchment. According to Winter's description thick yellowish parchment.</support>
+                                    <extent>
+                                        <measure type="leavesCount" quantity="3" unit="folio">3</measure>
+                                        <dimensions type="leaf_current" unit="mm">
+                                            <height>225</height>
+                                            <width>108</width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation></foliation>
+                                    <condition>The leaves served as binding waste, hence the glue residues and cuts. Fol. 1 was cut vertically - missing lower and inner parts - so that it is about 2/3 of its original size. Current size 225 x 100-108 mm (Winter). Fol. 2 measures 260 x 160 mm. Fol. 3 consists of three pieces which represent about a half of the original leaf</condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout ruledLines="25" writtenLines="25" columns="1">
+                                        <dimensions type="written" unit="mm">
+                                            <height>200</height>
+                                            <width>120</width>
+                                        </dimensions> 
+                                        <dimensions type="lineHeight" unit="mm">
+                                            <height></height>
+                                        </dimensions>
+                                        Written in 25 long lines.
+                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                        </physDesc>
                         <history>
                             <provenance>The fragment was detached 1937 from <ref type="altMs" target="https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/handschriften/abendlaendische-handschriften/signaturenuebersicht?action=permalink&amp;request=31019756">Berlin, Staatsbibl, Ms. Lat. qu. 931</ref> - a 10<hi rend="sup">th</hi>-century copy of Ansegisus' Collectio capitularium. This manuscript is held today at the Jagiellonian Library (Biblioteka Jagiellońska) in Kraków.</provenance>
                         </history>
                         <additional>
                             <listBibl>
-                                <bibl>Winter, Ursula. <title>Die Fragmentensammlung der Deutschen Staatsbibliothek (Berlin). Katalog der Fragmente des 4. bis 10. Jahrhunderts</title>. Wiesbaden: Harrassowitz, 1986, pp. 14-15.</bibl>
+                                <bibl>Winter, Ursula. <title><ref target="https://www.mgh-bibliothek.de/dokumente/a/a049739.pdf">Die Fragmentensammlung der Deutschen Staatsbibliothek (Berlin). Katalog der Fragmente des 4. bis 10. Jahrhunderts</ref></title>. Wiesbaden: Harrassowitz, 1986, pp. 14-15.</bibl>
                                 <bibl><ref target="http://www.manuscripta-mediaevalia.de/dokumente/html/obj90469345,T">ManuMed</ref></bibl>
                                 <bibl>Christ, K. "Die Schloßbibliothek von Nikolsburg und die Überlieferung der Kapitularien-Sammlung des Ansegis." In <title>Deutsches Archiv für Erforschung des Mittelalters </title>1 (1937): <ref target="http://www.digizeitschriften.de/dms/resolveppn/?PID=PPN345858700_0001|log30">281-322</ref>.</bibl>
                             </listBibl>

@@ -88,9 +88,21 @@
                <label>Dorfbauer 2016</label>
                <bibl>Dorfbauer, Lukas J. ‘Rezension: Bibliotheca Gregorii Magni Manuscripta, hg. von Fabiana Boccini, Bd. 1: Aachen - Chur, Firenze 2015’. Mittellateinisches Jahrbuch 51,2 (2016): 304–9.</bibl>
             </item>
+            <item xml:id="dorfbauer-2022">
+               <label>Dorfbauer 2022</label>
+               <bibl>Dorfbauer, Lukas. “Ein Fragment der Expositiunculae in evangelium  Iohannis evangelistae Matthaei et Lucae (CPL 240) und eine evangelienexegetische Sammlung aus Mondsee.” Wiener Studien 135 (2022): 173–90.</bibl>
+            </item>
+            <item xml:id="dorfbauer-2018">
+               <label>Dorfbauer and Contreni 2022</label>
+               <bibl>Dorfbauer, Lukas, and John J. Contreni. “An Unidentified Epitome of the Expositiunculae in Euangelium Iohannis Euangelistae Matthaei et Lucae (CPL 240) and Scholarship in the Margins at Laon in the Ninth Century: The Journal of Medieval Latin: Vol 28.” Journal of Medieval Latin, 2018, 49–93.</bibl>
+            </item>
             <item xml:id="etaix-1996">
                <label>Etaix 1996</label>
                <bibl>Etaix, Raymond. ‘Répertoire des manuscrits des homélies sur l’Evangile de saint Grégoire le Grand’. Sacris Erudiri 36 (1996): 107–45.</bibl>
+            </item>
+            <item xml:id="eucherius">
+               <abbr>Eucherius 2005</abbr>
+               <bibl>Eucherius Lugdunensis. Formulae Spiritalis Intellegentiae. Instructionum Libri Duo. Edited by C. Mandolfo. Vol. 66. CCSL. Turnhout: Brepols, 2005, 77–216.</bibl>
             </item>
             <item xml:id="forstner-2008">
                <label>Forstner 2008</label>
@@ -104,6 +116,10 @@
                <label>Hermann 1923</label>
                <bibl>Hermann, Hermann Julius. Die frühmittelalterlichen Handschriften des Abendlandes. Edited by Franz Wickhoff. Leipzig: Hiersemann, 1923.</bibl>
                <idno type="gbv">136747531</idno>
+            </item>
+            <item xml:id="kempf-2016">
+               <abbr>Kempf 2016</abbr>
+               <bibl>Kempf, Charlotte. “Eucherius von Lyon. Formulae spiritalis intellegentiae und Instructiones.” In Handbuch der Bibelhermeneutiken, 63–72. De Gruyter, 2016.</bibl>
             </item>
             <item xml:id="lemarie-1962">
                <label>Lemarié 1962</label>
@@ -169,6 +185,10 @@
                <label>Rath 1989</label>
                <bibl>Rath, Gebhard, and Erich Reiter. Das älteste Traditionsbuch des Klosters Mondsee. Linz: Oberösterreichisches Landesarchiv, 1989.</bibl>
                <idno type="gbv">275684482</idno>
+            </item>
+            <item xml:id="soage">
+               <label>Soage 2020</label>
+               <bibl>Soage, Javier. ‘A Review of the Contents of Albi, Bibliothèque Municipale, Ms 40’. <title>Revue Bénédictine</title> 130 (2020): 260–90.</bibl>
             </item>
             <item xml:id="stegmueller-rb">
                <label>Stegmüller RB</label>
@@ -363,6 +383,10 @@
                <title>Expositio in regulam Sancti Benedicti</title>
                <author ref="#smaragdus">Smaragdus S. Michaelis</author>
             </bibl>
+            <bibl xml:id="expositio_iv_evangeliorum">
+               <title>Expositio IV evangeliorum</title>
+               <author ref="#hieronymus">Ps.-Hieronymus</author>
+            </bibl>
             <bibl xml:id="gregorius_homiliae_12">
                <title>Homiliae in evangelia. Homilia 12</title>
                <author ref="#gregorius_magnus">Gregorius Magnus</author>
@@ -454,6 +478,13 @@
                <title>Instructiones ad Salonium</title>
                <author ref="#eucherius">Eucherius of Lyon</author>
                <idno type="gnd">https://d-nb.info/gnd/1253971056</idno>
+               <listRelation>
+                  <relation ref="#pl">
+                     <desc>PL 50,82.</desc>                     
+                  </relation>
+                  <relation ref="#eucherius"/>
+                  <relation ref="#kempf-2016"/>
+               </listRelation>
             </bibl>
             <bibl xml:id="leo_sermo_3">
                <title>Sermo 3. De quadragesimae</title>
@@ -509,6 +540,26 @@
                   </relation>
                </listRelation>
             </bibl>
+            <bibl xml:id="ps_arnobius_expositunculae">
+               <title>Expositiunculae Arnobii episcopi in evangelio Iohannis evangelistae</title>
+               <author ref="#arnobius">Ps. Arnobius iunior</author>
+               <listRelation>
+                  <relation ref="#pl">
+                     <desc>53, 569C-570B.</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="ps_augustinus_de_decem_talentis">
+               <title>Sermo de decem talentis</title>
+               <author ref="#augustinus">Ps.-Augustinus</author>
+               <listRelation>
+                  <relation ref="#cppm">
+                     <desc>1, 1721/3310.</desc>
+                  </relation>
+                  <relation ref="#soage"/>
+               </listRelation>
+            </bibl>
+<!--  ######################  BIBLE BOOKS: #############################-->
             <bibl xml:id="philomenem">
                <title>Epistola ad Philomenem</title>
                <idno type="gnd">http://d-nb.info/gnd/4075950-7</idno>

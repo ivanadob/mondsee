@@ -20,7 +20,10 @@
   <text>
       <body>
          <listPerson>
-            
+            <person xml:id="arnobius">
+               <persName xml:id="gnd_118650335" ref="http://d-nb.info/gnd/118650335">Arnobius</persName>
+               <persName>Ps. Arnobius</persName>
+            </person>
             <person xml:id="augustinus">
                <persName xml:id="gnd_118505114" ref="http://d-nb.info/gnd/118505114">Augustinus</persName>
                <persName>Pseudo-Augustinus</persName>
@@ -59,11 +62,6 @@
             <person xml:id="smaragdus">
                <persName xml:id="gnd_118614983" ref="http://d-nb.info/gnd/118614983">Smaragdus S. Michaelis</persName>
             </person>
-            <person xml:id="arnobius">
-               <persName xml:id="gnd_118650335" ref="http://d-nb.info/gnd/118650335">Arnobius</persName>
-               <persName>Ps. Arnobius</persName>
-            </person>
-            
             <!--<person xml:id="">
                <persName xml:id="" ref=""></persName>
             </person>
