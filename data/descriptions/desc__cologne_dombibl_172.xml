@@ -1,0 +1,130 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="en" xml:base="st-florian-III-222-A/tei-msDesc_dobcheva.xml" xml:id="st-florian-III-222-A_tei-msDesc_dobcheva">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cologne, Erzbischöfliche Diözesan- und Dombibliothek, Cod. 172</title>
+            <respStmt>
+               <resp>Description by</resp>
+               <persName>
+                  <forename>Ivana</forename>
+                  <surname>Dobcheva</surname>
+               </persName>
+            </respStmt>                
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital edition according to TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 encoding </resp>
+               <persName>
+                  <forename>Ivana</forename>
+                  <surname>Dobcheva</surname>
+               </persName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher></publisher>
+            <idno type="PID"></idno>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">This document is published under the Creative Commons licence Attribution 4.0 International (CC BY 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="cologne_dombibl_172" xml:lang="en">
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Cologne</settlement>
+                  <repository>Erzbischöfliche Diözesan- und Dombibliothek</repository>
+                  <collection>Dombibliothek</collection>
+                  <idno>Cod. 172</idno>
+               </msIdentifier>
+               <head>
+                  <title>Homiliarium</title>
+                  <origPlace ref="#mondsee">Mondsee (?)</origPlace>
+                  <origDate notBefore="0785" notAfter="0815">about 800</origDate>
+                  <note type="facs"><ref target="https://nbn-resolving.org/urn:nbn:de:hbz:kn28-3-762-p0001-7"></ref></note>
+                  <note type="catalogue"><ref target="https://digital.dombibliothek-koeln.de/hs/content/description/333494"></ref></note>
+                  <note type="summary">The manuscript is probably a product of the Mondsee scriptorium, brought to Cologne thanks to Hildebald who was Archbishop of Cologne and Abbot of Mondsee (<bibl><abbr>Bischoff 1980</abbr>, 34</bibl>: <quote xml:lang="de">Sehr wahrscheinlich ist durch diesen [Hildebald] ein zweites Mondseer Homiliar (Köln, Dombibl. 172) nach Köln gekommen</quote>, <quote xml:lang="de">Es ist einzunehmen, daß die Hs. in Mondsee hergestellt wurde und durch Erzbischof Hildebald in die Dombibliothek gelangte (vor 819)</quote>; <bibl><abbr>Arweiler 1998</abbr></bibl>). It contains a collection of homilies on the epistles for the Sundays and festivals of the Ecclesiastical Year from Christmas to Feast of the Ascension.</note>
+               </head>
+               <msContents></msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent>
+                           <measure type="leavesCount" quantity="0" unit="folio"></measure>
+                           <dimensions type="leaf_current" unit="mm">
+                              <height></height>
+                              <width></width>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <formula></formula>
+                        </collation>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ruledLines="0" writtenLines="0" columns="0">
+                           <dimensions type="written" unit="mm">
+                              <height></height>
+                              <width></width>
+                           </dimensions> 
+                           <dimensions type="column" unit="mm">
+                              <width></width>
+                           </dimensions>
+                           <dimensions type="lineHeight" unit="mm">
+                              <height></height>
+                           </dimensions>
+                           <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <summary></summary>
+                     <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <summary></summary>
+                     <scriptNote script="x" medium="x"></scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote type="x"/>
+                  </decoDesc>   
+                  <additions/>
+                  <bindingDesc>
+                     <binding notBefore="0001" notAfter="0001">
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+                  <accMat/> 
+               </physDesc>
+               <history></history>
+               <additional>                  
+                  <listBibl>
+                     <bibl><abbr>Bischoff 1980</abbr>, 11, 34, 94.</bibl>
+                     <bibl><abbr>Arweiler 1998</abbr>.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p></p>
+         </editorialDecl>
+         <projectDesc>
+            <p>Description originated within the project "The Carolingian Scriptorium of Mondsee".</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-08-31">Initial entry.</change>
+         </listChange>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+  </text>
+</TEI>

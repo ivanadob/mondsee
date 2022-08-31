@@ -269,7 +269,7 @@
                                 <msItem>
                                     <locus from="1r" to="1v">1r-v</locus>
                                     <author ref="#arnobius">Ps. Arnobius iunior</author>
-                                    <title ref="#">Expositiunculae Arnobii episcopi in evangelio Iohannis evangelistae <note>Cap. I-III</note></title>
+                                    <title ref="#ps_arnobius_expositunculae">Expositiunculae Arnobii episcopi in evangelio Iohannis evangelistae <note>Cap. I-III</note></title>
                                     <incipit>EUANGELIUM SECUNDUM IOHANNEM. In principio erat uerbum <gap/> <locus from="1v">1v</locus> <supplied>Princi</supplied>pium deus est <sic>quę</sic> est <supplied>princi</supplied>pator omnium <gap/> quia nihil est idola</incipit>
                                     <explicit defective="true">in uino conuersa, passionem et cruorem demonstrat. DE HOMINE CECO</explicit>
                                     <listBibl>

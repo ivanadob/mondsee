@@ -19,6 +19,10 @@
    <text>
       <body>
          <list type="bibliography">
+            <item xml:id="arweiler">
+               <label>Arweiler 1998</label>
+               <bibl>Glaube und Wissen im Mittelalter. Katalogbuch zur Ausstellung. München 1998. S. 100-100 (Alexander Arweiler).</bibl>
+            </item>
             <item xml:id="barre-1961">
                <label>Barré 1961</label>
                <bibl>Barré, Henri. ‘L’homiliaire carolingien de Mondsee’. Revue Bénédictine 71, no. 1–2 (1961): 71–107.</bibl>
@@ -68,6 +72,10 @@
                <label>Clavis</label>
                <bibl>Clavis des auteurs latins du Moyen Age. Territoire français 735-987 cur. Marie-Hélène Jullien - Françoise Perelman, Turnhout 1994- (Corpus Christianorum Continuatio Mediaevalis. Clavis Scriptorum Latinorum Medii Aevi. Auctores Galliae 735-987).</bibl>
             </item>
+            <item xml:id="clementine_vulgate">
+               <label>Clementine Vulgate Project</label>
+               <bibl>Clementine Vulgate project</bibl>
+            </item>
             <item xml:id="cpl">
                <label>CPL</label>
                <bibl>Dekkers E. (ed.), Clavis Patrum Latinorum. 1995 (3rd edition).</bibl>
@@ -111,6 +119,10 @@
             <item xml:id="gryson-2007">
                <label>Gryson 2007</label>
                <bibl>Répertoire général des auteurs ecclésiastiques latins de l'antiquité et du haut moyen âge. Freiburg: Herder, 2007.</bibl>
+            </item>
+            <item xml:id="hauke-2013">
+               <label>Hauke 2013</label>
+               <bibl>Hauke, Hermann, and Wolfgang-Valentin Ikas. Katalog der lateinischen Fragmente der Bayerischen Staatsbibliothek München. 3. Fragmenta Latina Clm 29550-29990 vols. Wiesbaden: Harrassowitz, 2013.</bibl>
             </item>
             <item xml:id="hermann-1923">
                <label>Hermann 1923</label>
@@ -547,6 +559,7 @@
                   <relation ref="#pl">
                      <desc>53, 569C-570B.</desc>
                   </relation>
+                  <relation ref="#dorfbauer-2014"/>
                </listRelation>
             </bibl>
             <bibl xml:id="ps_augustinus_de_decem_talentis">
@@ -581,8 +594,8 @@
                <title>Book of Osee</title>
                <idno type="gnd">https://d-nb.info/gnd/4025910-9</idno>
                <listRelation>
-                  <relation>
-                     <desc><ref target="http://vulsearch.sourceforge.net/html/Os.html">Clementine Vulgate project</ref></desc>
+                  <relation ref="#clementine_vulgate">
+                     <desc>http://vulsearch.sourceforge.net/html/Os.html</desc>
                   </relation>
                </listRelation>               
             </bibl>

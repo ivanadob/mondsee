@@ -44,6 +44,9 @@
                         <title></title>
                         <origDate notBefore="0001" notAfter="0010"></origDate>
                         <origPlace></origPlace>
+                        <note type="facs"></note>
+                        <note type="catalogue"></note>
+                        <note type="summary"></note>
                     </head> 
                     <msContents>
                         <textLang mainLang="lat" otherLangs=""/> 
