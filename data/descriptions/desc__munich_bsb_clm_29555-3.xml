@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="en" xml:base="st-florian-III-222-A/tei-msDesc_dobcheva.xml" xml:id="st-florian-III-222-A_tei-msDesc_dobcheva">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd" xml:lang="en" xml:base="munich_bsb_clm29555-2/tei-msDesc_dobcheva.xml" xml:id="munich_bsb_clm29555-2_tei-msDesc_dobcheva">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -43,21 +43,33 @@
                   <title>Ansegisus, Capitularium collectio</title>
                   <origPlace ref="#mondsee">Upper Austria or Mondsee (?)</origPlace>
                   <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi></origDate>                  
-                  <note type="catalogue"><ref target="http://daten.digitale-sammlungen.de/bsb00107490/image_42"></ref></note>
+                  <note type="catalogue"><ref target="https://opacplus.bsb-muenchen.de/search?id=935317322&amp;db=100&amp;View=default"></ref></note>
                   <note type="summary">Fragment - Bischoff supposed it is produced in Upper Austria and found similarities with the script of the Landperht-Homiliar <bibl><abbr>Bischoff 1980</abbr>, 36</bibl>: <quote xml:lang="de"></quote>.</note>
                </head>
-               <msContents></msContents>
+               <msContents>
+                  <msItem>
+                     <locus>1r</locus>
+                     <title ref="#capitularia_ansegisus">Capitularium collectio<note> (lib. II, cap. XXXI-XXXIX: Canones from the councils of Mainz in 813 and )</note></title>
+                     
+                     <author ref="#ansegisus">Ansegisus</author>
+                     <note>Hauke suggests that this was a draft version using two exemplars hence the different chapter numbers.</note>
+                  </msItem>
+                  <msItem>
+                     <locus>1v</locus>
+                     <note>Blank.</note>
+                  </msItem>
+               </msContents>
                <physDesc>
                   <objectDesc form="fragment">
                      <supportDesc material="perg">
                         <extent>
-                           <measure type="leavesCount" quantity="0" unit="folio">Fragment from a rotulus</measure>
+                           <measure type="leavesCount" quantity="0" unit="folio">Two fragments from a rotulus</measure>
                            <dimensions type="leaf_current" unit="mm">
                               <height>350</height>
                               <width>240</width>
                            </dimensions>
                         </extent>
-                        <condition/>
+                        <condition>From the rotulus are preserved two fragments. The length of the original leaf is unclear (current length: 36 lines, ca. 350 mm). The width of the written text is almost entirely preserved.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout ruledLines="27" writtenLines="27" columns="0">
@@ -66,10 +78,8 @@
                               <width>240</width>
                            </dimensions>                           
                            <dimensions type="lineHeight" unit="mm">
-                              <height></height>
+                              <height>10</height>
                            </dimensions>
-                           <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
-                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -79,7 +89,8 @@
                   </handDesc>
                   <scriptDesc>
                      <summary></summary>
-                     <scriptNote script="caprust">Capitalis rustica used for the initials.</scriptNote>
+                     <scriptNote script="carolmin">Carolingian minuscle.</scriptNote>
+                     <scriptNote script="caprust">Rubrics in Capitalis rustica. At the beginning of the chapter prolongued capital letters.</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="x"/>
@@ -93,13 +104,13 @@
                   <accMat/> 
                </physDesc>
                <history>
-                  <provenance>Served as binding waste in two manuscripts from the library of the cathedral chapter in Augsburg - Clm 3713 and Clm 3852.</provenance>
+                  <provenance>Served as binding waste (pastedowns) in Clm 6371 (Freising s. X), detached in 1876..</provenance>
                </history>
                <additional>                  
                   <listBibl>
-                     <bibl><abbr>Hauke 2013</abbr>, 18.</bibl>
-                     <bibl><abbr>Bischoff 1980</abbr>, 11, 34, 94.</bibl>
-                     <bibl><abbr>Arweiler 1998</abbr>.</bibl>
+                     <bibl><abbr>Hauke 2013</abbr>, <ref target="http://daten.digitale-sammlungen.de/bsb00107490/image_41">17</ref>.</bibl>
+                     <bibl><abbr>Bischoff 1980</abbr>, 11, 36.</bibl>
+                     <bibl><abbr>bischoff-2004</abbr>, 293, Nr. 3483.</bibl>
                   </listBibl>
                </additional>
             </msDesc>

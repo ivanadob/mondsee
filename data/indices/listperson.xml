@@ -20,6 +20,9 @@
   <text>
       <body>
          <listPerson>
+            <person xml:id="ansegisus">
+               <persName xml:id="gnd_119378639" ref="https://d-nb.info/gnd/119378639">Ansegisus</persName>
+            </person>
             <person xml:id="arnobius">
                <persName xml:id="gnd_118650335" ref="http://d-nb.info/gnd/118650335">Arnobius</persName>
                <persName>Ps. Arnobius</persName>

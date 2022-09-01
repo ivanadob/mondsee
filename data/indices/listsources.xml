@@ -48,6 +48,10 @@
                <label>Bischoff 1998</label>
                <bibl>Bischoff, Bernhard. Katalog der festländischen Handschriften des neunten Jahrhunderts : (mit Ausnahme der wisigotischen). Vol. 1. Aachen–Lambach. 3 vols. Wiesbaden: Harrassowitz, 1998.</bibl>
             </item>
+            <item xml:id="bischoff-2004">
+               <label>Bischoff 2004</label>
+               <bibl>Bischoff, Bernhard. Katalog der festländischen Handschriften des neunten Jahrhunderts : (mit Ausnahme der wisigotischen). Vol. 2. Laon-Paderborn. 3 vols. Wiesbaden: Harrassowitz, 2004.</bibl>
+            </item>
             <item xml:id="bischoff-2014">
                <label>Bischoff 2014</label>
                <bibl>Bischoff, Bernhard. Katalog der festländischen Handschriften des neunten Jahrhunderts : (mit Ausnahme der wisigotischen). Vol. 3. Padua-Zwickau. 3 vols. Wiesbaden: Harrassowitz, 2014.</bibl>
@@ -213,6 +217,9 @@
                <idno type="gbv">031908136</idno>
             </item>
          </list>
+<!--        ######################################################################## 
+            ######################### PRIMARY SOURCES ############################
+         ##########################################################################-->
          <listBibl xml:id="primary-sources">
             <bibl xml:id="augustinus_sermo_195">
                <title>Sermo CXCV. De Annuntiatione Dominica, III</title>
@@ -298,6 +305,15 @@
                <listRelation>
                   <relation ref="#ccsl">
                      <desc>CCSL 104,  pp. 803-807.</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="capitularia_ansegisus">
+               <title>Ansegisi capitularium libri IV</title>
+               <author ref="#ansegisus">Ansegisus</author>
+               <listRelation>
+                  <relation ref="#mgh">
+                     <desc>LL I, pp. 256-325.</desc>
                   </relation>
                </listRelation>
             </bibl>
