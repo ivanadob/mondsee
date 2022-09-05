@@ -113,7 +113,7 @@
                <bibl>Etaix, Raymond. ‘Répertoire des manuscrits des homélies sur l’Evangile de saint Grégoire le Grand’. Sacris Erudiri 36 (1996): 107–45.</bibl>
             </item>
             <item xml:id="eucherius">
-               <abbr>Eucherius 2005</abbr>
+               <label>Eucherius 2005</label>
                <bibl>Eucherius Lugdunensis. Formulae Spiritalis Intellegentiae. Instructionum Libri Duo. Edited by C. Mandolfo. Vol. 66. CCSL. Turnhout: Brepols, 2005, 77–216.</bibl>
             </item>
             <item xml:id="forstner-2008">
@@ -134,7 +134,7 @@
                <idno type="gbv">136747531</idno>
             </item>
             <item xml:id="kempf-2016">
-               <abbr>Kempf 2016</abbr>
+               <label>Kempf 2016</label>
                <bibl>Kempf, Charlotte. “Eucherius von Lyon. Formulae spiritalis intellegentiae und Instructiones.” In Handbuch der Bibelhermeneutiken, 63–72. De Gruyter, 2016.</bibl>
             </item>
             <item xml:id="lemarie-1962">
