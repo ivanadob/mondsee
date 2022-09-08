@@ -31,6 +31,10 @@
                <label>Barré 1962</label>
                <bibl>Barré, Henri. Les homéliaires Carolingiens de l’école d’Auxerre. Studi e testi 225. Rome, 1962.</bibl>
             </item>
+            <item xml:id="bergmann-2009">
+               <label>Bergmann 2009</label>
+               <bibl>Die althochdeutsche und altsächsische Glossographie: Ein Handbuch. Die althochdeutsche und altsächsische Glossographie. De Gruyter, 2009.</bibl>
+            </item>
             <item xml:id="bhl">
                <label>BHL</label>
                <bibl>Bibliotheca hagiographica Latina antiquae et mediae aetatis, Bruxelles 1898-1901 (Subsidia Hagiografica, 6).</bibl>
