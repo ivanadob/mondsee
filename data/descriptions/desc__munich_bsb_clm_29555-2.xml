@@ -44,7 +44,7 @@
                   <origPlace ref="#mondsee">Upper Austria or Mondsee (?)</origPlace>
                   <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi></origDate>                  
                   <note type="catalogue"><ref target="https://opacplus.bsb-muenchen.de/search?id=935317322&amp;db=100&amp;View=default"></ref></note>
-                  <note type="summary">Fragment - Bischoff supposed it is produced in Upper Austria and found similarities with the script of the Landperht-Homiliar <bibl><abbr>Bischoff 1980</abbr>, 36</bibl>: <quote xml:lang="de"></quote>.</note>
+                  <note type="summary">Fragment - Bischoff supposed it is produced in Upper Austria and found similarities with the script of the Landperht-Homiliar <bibl><abbr>Bischoff 1980</abbr>, 36</bibl>. The fragment is a contemporary excerpt from all canons of the five councils from the year 813 (<bibl><abbr>Mordek 1986</abbr></bibl>).</note>
                </head>
                <msContents>
                   <msItem>
@@ -52,7 +52,7 @@
                      <title ref="#capitularia_ansegisus">Capitularium collectio<note> (lib. II, cap. XXXI-XXXIX: Canones from the councils of Mainz in 813 and )</note></title>
                      
                      <author ref="#ansegisus">Ansegisus</author>
-                     <note>Hauke suggests that this was a draft version using two exemplars hence the different chapter numbers.</note>
+                     <note><bibl><abbr>Hauke 2013</abbr></bibl> suggests that this was a draft version using two exemplars hence the different chapter numbers.</note>
                   </msItem>
                   <msItem>
                      <locus>1v</locus>
@@ -90,7 +90,7 @@
                   <scriptDesc>
                      <summary></summary>
                      <scriptNote script="carolmin">Carolingian minuscle.</scriptNote>
-                     <scriptNote script="caprust">Rubrics in Capitalis rustica. At the beginning of the chapter prolongued capital letters.</scriptNote>
+                     <scriptNote script="caprust">Rubrics in Capitalis rustica. At the beginning of the chapter prolonged capital letters.</scriptNote>
                   </scriptDesc>
                   <decoDesc>
                      <decoNote type="x"/>
@@ -104,13 +104,15 @@
                   <accMat/> 
                </physDesc>
                <history>
-                  <provenance>Served as binding waste (pastedowns) in Clm 6371 (Freising s. X), detached in 1876..</provenance>
+                  <provenance>Served as binding waste (pastedowns) in Clm 6371 (Freising s. X), detached in 1876.</provenance>
                </history>
                <additional>                  
                   <listBibl>
                      <bibl><abbr>Hauke 2013</abbr>, <ref target="http://daten.digitale-sammlungen.de/bsb00107490/image_41">17</ref>.</bibl>
                      <bibl><abbr>Bischoff 1980</abbr>, 11, 36.</bibl>
-                     <bibl><abbr>Bischoff 2014</abbr>, 293, Nr. 3483.</bibl>
+                     <bibl><abbr>Bischoff 2014</abbr>, 293, Nr. 3484. <note></note></bibl>
+                     <bibl><abbr>Mordek 1986</abbr>, 33-36<note> (facsimile)</note>.</bibl>
+                     <bibl><abbr>Neumüller-Holter 1959</abbr>, 26.</bibl>
                   </listBibl>
                </additional>
             </msDesc>

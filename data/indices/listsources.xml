@@ -177,9 +177,21 @@
                <label>Mazal 1967</label>
                <bibl>Mazal, Otto, and Franz Unterkircher. Katalog der abendländischen Handschriften der Österreichischen Nationalbibliothek : ‘Series nova’ (Neuerwerbungen). Vol. 3: Cod. Ser. n. 3201-4000. 5 vols. Vienna: Prachner, 1967.</bibl>
             </item>
+            <item xml:id="meineke-2009">
+               <label>Meineke 2009</label>
+               <bibl>Meineke, Birgit. “Das Mondseer Bibelglossar.” In Die althochdeutsche und altsächsische Glossographie. Ein Handbuch, edited by Rolf Bergmann and Stefanie Stricker, 619–34. Berlin: De Gruyter, 2009.</bibl>
+            </item>
             <item xml:id="mgh">
                <label>MGH</label>
                <bibl>Monumenta Germaniae Historica, Hannover, Leipzig, Berlin, München, 1826-.</bibl>
+            </item>
+            <item xml:id="mordek_1986">
+               <label>Mordek 1986</label>
+               <bibl>Mordek, Hubert. “Karolingische Kapitularien.” In Überlieferung und Geltung normativer Texte des frühen und hohen Mittelalters. Vier Vorträge, gehalten auf dem 35. Deutschen Historikertag 1984 in Berlin, edited by Hubert Mordek, 25–50. Quellen und Forschungen zum Recht im Mittelalter 4. Sigmaringen: Thorbecke, 1986.</bibl>
+            </item>
+            <item xml:id="neumueller_1959">
+               <label>Neumüller-Holter 1959</label>
+               <bibl>Neumüller, Willibrord, and Kurt Holter. Der Codex Millenarius. Linz: Oberösterr. Landesarchiv, 1959.</bibl>
             </item>
             <item xml:id="paulhart-1966">
                <label>Paulhart 1966</label>
