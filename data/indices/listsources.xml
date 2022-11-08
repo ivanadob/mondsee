@@ -232,6 +232,10 @@
                <bibl>Unterkircher, Franz. Die datierten Handschriften der Österreichischen Nationalbibliothek. Wien, 1969.</bibl>
                <idno type="gbv">031908136</idno>
             </item>
+            <item xml:id="unterkircher-1962">
+               <label>Unterkircher 1962</label>
+               <bibl>Unterkircher, Franz. Das Kollektar-Pontifikale des Bischofs Baturich von Regensburg (817–848): (Cod. Vindob. ser. n. 2762). Spicilegium Friburgense 8. Freiburg: Universitätsverl., 1962.</bibl>
+            </item>
          </list>
 <!--        ######################################################################## 
             ######################### PRIMARY SOURCES ############################
