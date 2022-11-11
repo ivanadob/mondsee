@@ -476,7 +476,7 @@
                                         </dimensions> (according to description of the Pierpont Morgan Library).
                                     </extent>
                                     <foliation/>
-                                    <collation>See the collation formula in <ref target="https://vceditor.library.upenn.edu/project/615ead5642764a0001a39057/viewOnly">VCEditor</ref>.
+                                    <collation>
                                     </collation>
                                     <condition/>
                                 </supportDesc>
@@ -814,7 +814,7 @@
                             </provenance>
                             <provenance>Fols. 1-24 were obtained 1872 by the Germanisches Museum in Nuremberg.</provenance>
                             <provenance>Fols. 20a-20d were property of the Heerdegen family in Nuremberg, who gave or sold those 1874 to the Germanisches Museum.</provenance>
-                            <provenance>The two bifolia fols. 25-28 and 26-27 served as a pastedowns for 'Grundbuch für die Jahresbeiträge fer Pflegschaft'were belonged to the Nuremberg family Von Grundherr, and were again given or sold to the Germanisches Museum.</provenance>
+                            <provenance>The two bifolia fols. 25-28 and 26-27 served as a pastedowns for 'Grundbuch für die Jahresbeiträge der Pflegschaft' of the Nuremberg family Von Grundherr. They were again given or sold to the Germanisches Museum.</provenance>
                             <provenance>The boflolium fols. 21a-21b was bought by the Germanisches Museum in 1923.</provenance>
                             <acquisition/>
                         </history>
@@ -916,7 +916,7 @@
                                 <origPlace/>
                                 <origDate notBefore="0001" notAfter="0001"/>
                             </origin>
-                            <provenance>The leaves were used as binding waste (covers) for two register books from the 1615. For each cover were used two bifolia, glued at the spine of the book. Fols. 1+2 were glued on the front cover, fols. 8+9 on the back cover of one register; fols. 7+6 were glued on the front cover, fols. 3+4 on the back cover of the second part fo the register.</provenance>
+                            <provenance>The leaves were used as binding waste (covers) for two register books from the 1615. For each cover were used two bifolia, glued at the spine of the book. Fols. 1+2 were glued on the front cover, fols. 8+9 on the back cover of one register; fols. 7+6 were glued on the front cover, fols. 3+4 on the back cover of the second part of the register.</provenance>
                             <acquisition/>
                         </history>
                     </msFrag>
