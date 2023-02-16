@@ -268,7 +268,7 @@
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
-                                <support>Ff. A-38 are Calb parchment (Bischoff 1980, 23). Fols. 59-60, 171, 178-179 12th-century additions probably used to replace the original damaged leaves.</support>
+                                <support>Ff. A-38 are calb parchment (Bischoff 1980, 23). Fols. 59-60, 171, 178-179 12th-century additions probably used to replace the original damaged leaves.</support>
                                 <extent>
                                     <measure type="leavesCount" quantity="186" unit="folio">186</measure>
                                     <dimensions type="leaf" unit="mm">
@@ -334,17 +334,17 @@
                         </surrogates> 
                         <listBibl>
                             <bibl><abbr>Bischoff 1980</abbr>, 23, 37</bibl>
-                            <bibl>Czerny, A. Die Handschriften der Stiftsbibliothek St. Florian. Linz, 1871, p. <ref target="https://manuscripta.at/_scripts/php/cat2pdf.php?cat=czerny&amp;ms_code=AT7500-III222A">248</ref>.</bibl>
-                            <bibl>Hallinger, Kassius. "Das Kommentarfragment zu Regula Benedicti IV aus der ersten Hälfte des 8. Jahrhunderts." Wiener Studien N. F. 3 = 82 (1969): 211-232, here: 214.</bibl>
-                            <bibl>Das Mondseeland. Geschichte und Kultur. Ausstellung des Landes Oberösterreich, 8. Mai bis 26. Oktober 1981. Kirche und ehemaliges Stift Mondsee (Heimatmuseum Mondsee). Hrsg.: Land Oberösterreich. Schriftleitung: Dietmar Straub. Linz 1981, 452 f. Nr. 11.9 [Kurt Holter].</bibl>
-                            <bibl>Holter, Kurt. "Die Buchkunst im Kloster Mondsee." In Das Mondseeland. Geschichte und Kultur. Ausstellung des Landes Oberösterreich, 8. Mai bis 26. Oktober 1981. Kirche und ehemaliges Stift Mondsee (Heimatmuseum Mondsee). Hrsg.: Land Oberösterreich. Schriftleitung: Dietmar Straub. Linz 1981, 185-221. -- Wiederabgedruckt in: Holter 1996, II 785-833, hier: 192 mit 219 Anm. 9.</bibl>
-                            <bibl>Holter, Kurt. Bibliothek und Archiv: Handschriften und Inkunabeln, in: Die Kunstsammlungen des Augustiner-Chorherrenstiftes St. Florian (Österreichische Kunsttopographie 48). Wien 1988, 29-92 u. Abb, hier: 30, 44; Abb. 39.</bibl>
-                            <bibl>Die Botschaft der Musik. 1000 Jahre Musik in Österreich. Hrsg. v. Wilfried Seipel. Eine Ausstellung des Kunsthistorischen Museums Wien in Zusammenarbeit mit der Gesellschaft der Musikfreunde in Wien im Palais Harrach, 28. Oktober 1996 bis 1. April 1997. Wien 1996, Kat. Nr. 1.1; Farbabb. S.30. <note>Notice about the musical notations on the Lamentationes.</note></bibl>
-                            <bibl>Flotzinger, Rudolf. "Geistliche Kultur im Mittelalter." In Musikgeschichte Österreichs I: Von den Anfängen zum Barock. Ed. by R. Flotzinger and G. Gruber. Vienna, 1995: 52-99, here: 58.</bibl>
+                            <bibl><abbr>Czerny 1871</abbr>,  p. <ref target="https://manuscripta.at/_scripts/php/cat2pdf.php?cat=czerny&amp;ms_code=AT7500-III222A">248</ref>.</bibl>
+                            <bibl><abbr>Hallinger 1969</abbr>, here: 214.</bibl>
+                            <bibl><abbr>Das Monseeland 1981</abbr>, 452 f. Nr. 11.9 [Kurt Holter].</bibl>
+                            <bibl><abbr>Holter 1981</abbr>, here: 192 and 219 n. 9.</bibl>
+                            <bibl><abbr>Holter 1988</abbr>, here: 30, 44; Abb. 39.</bibl>
+                            <bibl><abbr>Seipel 1996</abbr>,  Kat. Nr. 1.1; Farbabb. S.30. <note>Notice about the musical notations on the Lamentationes.</note></bibl>
+                            <bibl><abbr>Flotzinger 1995</abbr>, here: 58.</bibl>
                             <bibl><abbr>Bischoff 2014</abbr>, 294 Nr. 5465.</bibl>
-                            <bibl>Klugseder, Robert. Der Liber ordinarius Pataviensis. Eine kritische Edition des mittelalterlichen Regelbuchs der Diözese Passau. Unter Mitarbeit von Gionata Brusa (Codices Manuscripti &amp; Impressi. Supplementum 13). Purkersdorf 2019, XXIII.<note>Nur kurze Notiz dass die Hs aus Mondsee ist, 9. und 11. Jh. mit linienlosen Neumennotation, teilweise.</note></bibl>
+                            <bibl><abbr>Klugseder 2019</abbr> XXIII.<note>Nur kurze Notiz dass die Hs aus Mondsee ist, 9. und 11. Jh. mit linienlosen Neumennotation, teilweise.</note></bibl>
+                            <bibl><abbr>Klugseder 2012</abbr><note> (short note on the content and music notation: Venite exsultemus (Ir, NN, 13. Jh.), Lamentationes Jeremiae (9. Jh., NN im 1. Viertel des 11. Jhs. nachgetragen)).</note></bibl>
                             
-                            <bibl>Klugseder, Robert. ‘Mittelalterliche musik-liturgische Quellen aus dem Augustinerchorherrenkloster St. Florian’. Musicologica Austriaca 31 (2012): 13–82.<note> (short note on the content and music notation: Venite exsultemus (Ir, NN, 13. Jh.), Lamentationes Jeremiae (9. Jh., NN im 1. Viertel des 11. Jhs. nachgetragen)).</note></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -360,6 +360,7 @@
         </encodingDesc>
     <revisionDesc status="draft">
         <listChange>
+            <change when="2023-02-15">listBibl.</change>
             <change when="2022-08-29">Additions to msContent.</change>
             <change when="2021-07-23">Initial entry.</change>
         </listChange>

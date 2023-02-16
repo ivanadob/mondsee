@@ -432,7 +432,7 @@
                         </physDesc>
                         <history>
                             <origin>The manuscript was written in <origPlace>Mondsee</origPlace> in the <origDate notBefore="0801" notAfter="0850">first half of the ninth century</origDate>. As exemplar for the Epistulae Pauli served another Mondsee manuscript (<ref type="altMs" target="#desc__vr_f-mjod.xml">Cod. Ser. n. 2065</ref>), which is only fragmentary preserved.</origin>
-                            <provenance>The manuscript probably remained in the monastery till the dissolution in 1791, when the whole manuscript collection including was transferred to the Court Library (today the Austrian National Library).</provenance>
+                            <provenance>The manuscript probably remained in the monastery till the dissolution in 1791, when the whole manuscript collection including this manuscript was transferred to the Court Library (today the Austrian National Library).</provenance>
                         </history>
                         <additional>
                             <listBibl>
@@ -446,7 +446,7 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <editorialDecl> <!--die Editionsprinzipien und Verfahren, die bei der Kodierung des Textes angewandt wurden-->
+            <editorialDecl>
                 <p></p>
             </editorialDecl>
             <projectDesc>
@@ -455,7 +455,7 @@
         </encodingDesc>
     <revisionDesc status="draft">
         <listChange>
-            <change when="2022-01-25"></change>
+            <change when="2023-02-15"></change>
         </listChange>
     </revisionDesc>
     </teiHeader>

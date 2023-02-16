@@ -68,6 +68,10 @@
                <label>CCSL</label>
                <bibl>Corpus christianorum. Series latina, Turnholti 1953-</bibl>
             </item>
+            <item xml:id="czerny-1871">
+               <label>Czerny 1871</label>
+               <bibl>Czerny, A. Die Handschriften der Stiftsbibliothek St. Florian. Linz, 1871.</bibl>
+            </item>
             <item xml:id="chromatius-1974">
                <label>Chromatius 1974</label>
                <bibl>Chromatius Aquileiensis. Chromatii Aquileiensis Opera. Edited by Raymond Étaix and Joseph Lemarié. Vol. 9 A. Corpus Christianorum. Series Latina. Turnhout, 1974.</bibl>
@@ -120,6 +124,10 @@
                <label>Eucherius 2005</label>
                <bibl>Eucherius Lugdunensis. Formulae Spiritalis Intellegentiae. Instructionum Libri Duo. Edited by C. Mandolfo. Vol. 66. CCSL. Turnhout: Brepols, 2005, 77–216.</bibl>
             </item>
+            <item xml:id="flotzinger-1995">
+               <label>Flotzinger 1995</label>
+               <bibl>Flotzinger, Rudolf. "Geistliche Kultur im Mittelalter." In Musikgeschichte Österreichs I: Von den Anfängen zum Barock. Ed. by R. Flotzinger and G. Gruber. Vienna, 1995.</bibl>
+            </item>
             <item xml:id="forstner-2008">
                <label>Forstner 2008</label>
                <bibl>Forstner, Karl. ‘Ergänzungen zu B. Bischoffs Hss Katalog (Salzburger Fragmente)’. Scriptorium 62,1 (2008): 122–38.</bibl>
@@ -127,6 +135,10 @@
             <item xml:id="gryson-2007">
                <label>Gryson 2007</label>
                <bibl>Répertoire général des auteurs ecclésiastiques latins de l'antiquité et du haut moyen âge. Freiburg: Herder, 2007.</bibl>
+            </item>
+            <item xml:id="hallinger-1969">
+               <label>Hallinger 1969</label>
+               <bibl>Hallinger, Kassius. "Das Kommentarfragment zu Regula Benedicti IV aus der ersten Hälfte des 8. Jahrhunderts." Wiener Studien N. F. 3 = 82 (1969): 211-232.</bibl>
             </item>
             <item xml:id="hauke-2013">
                <label>Hauke 2013</label>
@@ -137,9 +149,25 @@
                <bibl>Hermann, Hermann Julius. Die frühmittelalterlichen Handschriften des Abendlandes. Edited by Franz Wickhoff. Leipzig: Hiersemann, 1923.</bibl>
                <idno type="gbv">136747531</idno>
             </item>
+            <item xml:id="holter-1981">
+               <label>Holter 1981</label>
+               <bibl>Holter, Kurt. "Die Buchkunst im Kloster Mondsee." In Das Mondseeland. Geschichte und Kultur. Ausstellung des Landes Oberösterreich, 8. Mai bis 26. Oktober 1981. Kirche und ehemaliges Stift Mondsee (Heimatmuseum Mondsee). Hrsg.: Land Oberösterreich. Schriftleitung: Dietmar Straub. Linz 1981, 185-221. -- Wiederabgedruckt in: Holter 1996, II 785-833.</bibl>
+            </item>
+            <item xml:id="holter-1988">
+               <label>Holter 1988</label>
+               <bibl>Holter, Kurt. Bibliothek und Archiv: Handschriften und Inkunabeln, in: Die Kunstsammlungen des Augustiner-Chorherrenstiftes St. Florian (Österreichische Kunsttopographie 48). Wien 1988, 29-92 u. Abb.</bibl>
+            </item>
             <item xml:id="kempf-2016">
                <label>Kempf 2016</label>
                <bibl>Kempf, Charlotte. “Eucherius von Lyon. Formulae spiritalis intellegentiae und Instructiones.” In Handbuch der Bibelhermeneutiken, 63–72. De Gruyter, 2016.</bibl>
+            </item>
+            <item xml:id="klugseder-2019">
+               <label>Klugseder 2019</label>
+               <bibl>Klugseder, Robert. Der Liber ordinarius Pataviensis. Eine kritische Edition des mittelalterlichen Regelbuchs der Diözese Passau. Unter Mitarbeit von Gionata Brusa (Codices Manuscripti &amp; Impressi. Supplementum 13). Purkersdorf 2019.</bibl>
+            </item>
+            <item xml:id="klugseder-2012">
+               <label>Klugseder 2012</label>
+               <bibl>Klugseder, Robert. ‘Mittelalterliche musik-liturgische Quellen aus dem Augustinerchorherrenkloster St. Florian’. Musicologica Austriaca 31 (2012): 13–82.</bibl>
             </item>
             <item xml:id="lemarie-1962">
                <label>Lemarié 1962</label>
@@ -185,6 +213,10 @@
                <label>MGH</label>
                <bibl>Monumenta Germaniae Historica, Hannover, Leipzig, Berlin, München, 1826-.</bibl>
             </item>
+            <item xml:id="mondseeland-1981">
+               <label>Das Monseeland 1981</label>
+               <bibl>Das Mondseeland. Geschichte und Kultur. Ausstellung des Landes Oberösterreich, 8. Mai bis 26. Oktober 1981. Kirche und ehemaliges Stift Mondsee (Heimatmuseum Mondsee). Hrsg.: Land Oberösterreich. Schriftleitung: Dietmar Straub. Linz 1981.</bibl>
+            </item>
             <item xml:id="mordek_1986">
                <label>Mordek 1986</label>
                <bibl>Mordek, Hubert. “Karolingische Kapitularien.” In Überlieferung und Geltung normativer Texte des frühen und hohen Mittelalters. Vier Vorträge, gehalten auf dem 35. Deutschen Historikertag 1984 in Berlin, edited by Hubert Mordek, 25–50. Quellen und Forschungen zum Recht im Mittelalter 4. Sigmaringen: Thorbecke, 1986.</bibl>
@@ -217,6 +249,10 @@
                <label>Rath 1989</label>
                <bibl>Rath, Gebhard, and Erich Reiter. Das älteste Traditionsbuch des Klosters Mondsee. Linz: Oberösterreichisches Landesarchiv, 1989.</bibl>
                <idno type="gbv">275684482</idno>
+            </item>
+            <item xml:id="seipel-1996">
+               <label>Seipel 1996</label>
+               <bibl>Die Botschaft der Musik. 1000 Jahre Musik in Österreich. Hrsg. v. Wilfried Seipel. Eine Ausstellung des Kunsthistorischen Museums Wien in Zusammenarbeit mit der Gesellschaft der Musikfreunde in Wien im Palais Harrach, 28. Oktober 1996 bis 1. April 1997. Wien 1996.</bibl>
             </item>
             <item xml:id="soage">
                <label>Soage 2020</label>
