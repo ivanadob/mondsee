@@ -1525,7 +1525,7 @@
 <xsl:template match="tei:note[not(normalize-space(.)='')]">
 	<xsl:if test="@rend='supplied'"><xsl:text>[</xsl:text></xsl:if>
 	<xsl:choose>
-		<xsl:when test="parent::tei:rubric or parent::tei:incipit or parent::tei:quote or parent::tei:explicit or parent::tei:colophon or parent::tei:finalRubric">
+		<xsl:when test="parent::tei:rubric or parent::tei:incipit or parent::tei:quote or parent::tei:explicit or parent::tei:colophon or parent::tei:finalRubric or parent::tei:msItem">
 			<span>
 				<xsl:attribute name="class">normal</xsl:attribute>
 				<xsl:text> (</xsl:text>
@@ -1781,7 +1781,7 @@
 			<a>
 				<xsl:attribute name="href">
 					<xsl:value-of select="$cRef-biblical-start"/>
-					<xsl:choose>
+					<!--<xsl:choose>
 						<xsl:when test="starts-with(@cRef, 'IV_')">
 							<xsl:value-of select="replace(translate(translate(translate(@cRef,' ','+'),',',':'),'_',' '), 'IV', '4')"/>
 						</xsl:when>
@@ -1794,10 +1794,10 @@
 						<xsl:when test="starts-with(@cRef, 'I_')">
 							<xsl:value-of select="replace(translate(translate(translate(@cRef,' ','+'),',',':'),'_',' '), 'I', '1')"/>
 						</xsl:when>
-						<xsl:otherwise>
-							<xsl:value-of select="translate(translate(translate(@cRef,' ','+'),',',':'),'_',' ')"/>
+						<xsl:otherwise>-->
+							<xsl:value-of select="translate(translate(translate(@cRef,' ','+'),',',':'),'_',' ')"/><!--
 						</xsl:otherwise>
-					</xsl:choose>
+					</xsl:choose>-->
 					<xsl:value-of select="$cRef-biblical-end"/>
 				</xsl:attribute>
 				<xsl:choose>
@@ -2045,7 +2045,7 @@
 <!-- benannte Templates -->
 
 	<xsl:template name="constructCRef">
-		<xsl:if test="ancestor::tei:rubric or ancestor::tei:incipit or ancestor::tei:quote or ancestor::tei:explicit or ancestor::tei:colophon or ancestor::tei:finalRubric or ancestor::tei:index or ancestor::tei:title">
+		<xsl:if test="ancestor::tei:rubric or ancestor::tei:incipit or ancestor::tei:quote or ancestor::tei:explicit or ancestor::tei:colophon or ancestor::tei:finalRubric or ancestor::tei:index or ancestor::tei:title or ancestor::tei:note">
 			<xsl:text> [</xsl:text>
 		</xsl:if>
 		<xsl:choose>
@@ -2063,7 +2063,7 @@
 				<xsl:apply-templates/>
 			</xsl:otherwise>
 		</xsl:choose>
-		<xsl:if test="ancestor::tei:rubric or ancestor::tei:incipit or ancestor::tei:quote or ancestor::tei:explicit or ancestor::tei:colophon or ancestor::tei:finalRubric or ancestor::tei:index or ancestor::tei:title">
+		<xsl:if test="ancestor::tei:rubric or ancestor::tei:incipit or ancestor::tei:quote or ancestor::tei:explicit or ancestor::tei:colophon or ancestor::tei:finalRubric or ancestor::tei:index or ancestor::tei:title or ancestor::tei:note">
 			<xsl:text>]</xsl:text>
 		</xsl:if>
 	</xsl:template>
