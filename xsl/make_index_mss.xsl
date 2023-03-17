@@ -48,7 +48,7 @@
                                         <xsl:value-of select="..//tei:msDesc/tei:head/tei:title"/>
                                         <xsl:if test=".//tei:msDesc/tei:head/tei:note/@type = 'summary'">
                                             <p>
-                                                <xsl:apply-templates select="substring(.//tei:msDesc/tei:head/tei:note[@type = 'summary']/text(),1,50)"/><span id="dots">...</span><span id="more"><xsl:apply-templates select="substring(.//tei:msDesc/tei:head/tei:note[@type = 'summary']/text(),51)"/></span>
+                                                <xsl:apply-templates select="substring(..//tei:msDesc/tei:head/tei:note[@type = 'summary']/text(),1,50)"/><span id="dots">...</span><span id="more"><xsl:apply-templates select="substring(..//tei:msDesc/tei:head/tei:note[@type = 'summary']/text(),51)"/></span>
                                             </p>
                                             <button onclick="onClick()" id="myBtn" type="button" class="btn btn-outline-dark">Show more</button>  
                                         </xsl:if>                                           
