@@ -46,11 +46,9 @@
                                     </td>
                                     <td>
                                         <xsl:value-of select="..//tei:msDesc/tei:head/tei:title"/>
-                                        <xsl:choose>
-                                            <xsl:when test="..//tei:msDesc/tei:head/tei:note/@summary">
+                                        <xsl:if test="..//tei:msDesc/tei:head/tei:note/@type = 'summary'">
                                                 <xsl:text>hansi</xsl:text>
-                                            </xsl:when>
-                                        </xsl:choose>                                        
+                                        </xsl:if>                                        
                                     </td>
                                     <td>
                                         <xsl:apply-templates select="..//tei:msDesc/tei:head/tei:origDate/@notBefore"/><xsl:text>-</xsl:text>
