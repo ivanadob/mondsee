@@ -27,7 +27,6 @@
                                 <th scope="col">Shelfmark</th>
                                 <th scope="col">Title</th>
                                 <th scope="col">Date</th>
-                                <th scope="col">Date</th>
                                 <th scope="col">Place</th>
                             </tr>
                         </thead>
@@ -47,17 +46,16 @@
                                     </td>
                                     <td>
                                         <xsl:value-of select="..//tei:msDesc/tei:head/tei:title"/>
-                                        <xsl:if test="..//tei:msDesc/tei:head/tei:note/@summary">
-                                            <xsl:text>hansi</xsl:text>
-                                        </xsl:if>
+                                        <xsl:choose>
+                                            <xsl:when test="..//tei:msDesc/tei:head/tei:note/@summary">
+                                                <xsl:text>hansi</xsl:text>
+                                            </xsl:when>
+                                        </xsl:choose>                                        
                                     </td>
                                     <td>
                                         <xsl:apply-templates select="..//tei:msDesc/tei:head/tei:origDate/@notBefore"/><xsl:text>-</xsl:text>
                                         <xsl:apply-templates select="..//tei:msDesc/tei:head/tei:origDate/@notAfter"/><xsl:text> (</xsl:text>
                                         <xsl:apply-templates select="..//tei:msDesc/tei:head/tei:origDate"/><xsl:text>)</xsl:text>
-                                    </td>
-                                    <td>
-                                        <xsl:apply-templates select="..//tei:msDesc/tei:head/tei:origDate"/>
                                     </td>
                                     <td>
                                         <xsl:value-of select="..//tei:msDesc/tei:head/tei:origPlace"/>
