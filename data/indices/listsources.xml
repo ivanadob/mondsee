@@ -365,13 +365,15 @@
                </listRelation>
             </bibl>
             <bibl xml:id="capitularia_ansegisus">
-               <title>Ansegisi capitularium libri IV</title>
+               <title>Ansegisi capitularium libri IV / Collectio capitularium</title>
                <author ref="#ansegisus">Ansegisus</author>
                <listRelation>
                   <relation ref="#mgh">
                      <desc>LL I, pp. 256-325.</desc>
                   </relation>
-               </listRelation>
+                  <relation>
+                     <desc><ref target="https://www.geschichtsquellen.de/werk/480">Geschichtsquellen</ref></desc></relation>
+               </listRelation>               
             </bibl>
             <bibl xml:id="chromatius_sermones">
                <title>Sermones</title>
