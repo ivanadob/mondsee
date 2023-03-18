@@ -24,7 +24,7 @@
                     <table class="table table-striped display" id="msdescTable" style="width:100%">
                         <thead>
                             <tr>
-                                <th scope="col" style="width:40%">Shelfmark</th>
+                                <th scope="col">Shelfmark</th>
                                 <th scope="col">Title</th>
                                 <th scope="col">Date</th>
                                 <th scope="col">Place</th>
@@ -57,7 +57,7 @@
                                                     <xsl:apply-templates select="substring(string-join(..//tei:msDesc/tei:head/tei:note[@type = 'summary']/text()),51)"/>
                                                 </span>
                                             </p>
-                                            <button onclick="onClick('{$docId}')" id="{$docId||'MyBtn'}" type="button"  class="btn btn-outline-dark">Show more</button>  
+                                            <button onclick="onClick('{$docId}')" id="{$docId||'MyBtn'}" type="button"  class="btn btn-outline-dark">Read more</button>  
                                         </xsl:if>                                           
                                     </td>
                                     <td>
