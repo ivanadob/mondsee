@@ -24,7 +24,7 @@
                     <table class="table table-striped display" id="msdescTable" style="width:100%">
                         <thead>
                             <tr>
-                                <th scope="col">Shelfmark</th>
+                                <th scope="col" class="col-cm-7">Shelfmark</th>
                                 <th scope="col">Title</th>
                                 <th scope="col">Date</th>
                                 <th scope="col">Place</th>
