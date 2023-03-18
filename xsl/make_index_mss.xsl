@@ -35,11 +35,14 @@
                                 <xsl:variable name="full_path">
                                     <xsl:value-of select="document-uri(/)"/>
                                 </xsl:variable>
+                                <xsl:variable name="docId">
+                                    <xsl:value-of select="tokenize($full_path, '/')[last()]"/>
+                                </xsl:variable>
                                 <tr>
                                     <td>                                        
                                         <a>
                                             <xsl:attribute name="href">                                                
-                                                <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
+                                                <xsl:value-of select="replace($docId, '.xml', '.html')"/>
                                             </xsl:attribute>
                                             <xsl:value-of select="..//tei:fileDesc/tei:titleStmt/tei:title"/>
                                         </a>
@@ -48,9 +51,13 @@
                                         <xsl:value-of select="..//tei:msDesc/tei:head/tei:title"/>
                                         <xsl:if test="..//tei:msDesc/tei:head/tei:note/@type = 'summary'">
                                             <p>
-                                                <xsl:apply-templates select="substring(string-join(..//tei:msDesc/tei:head/tei:note[@type = 'summary']/text()),1,50)"/><span id="dots">...</span><span id="more"><xsl:apply-templates select="substring(string-join(..//tei:msDesc/tei:head/tei:note[@type = 'summary']/text()),51)"/></span>
+                                                <xsl:apply-templates select="substring(string-join(..//tei:msDesc/tei:head/tei:note[@type = 'summary']/text()),1,50)"/>
+                                                <span id="{$docId||'Dots'}">...</span>
+                                                <span id="{$docId||'More'}" style="display:none">
+                                                    <xsl:apply-templates select="substring(string-join(..//tei:msDesc/tei:head/tei:note[@type = 'summary']/text()),51)"/>
+                                                </span>
                                             </p>
-                                            <button onclick="onClick()" id="myBtn" type="button" class="btn btn-outline-dark">Show more</button>  
+                                            <button onclick="onClick('{$docId}')" id="{$docId||'MyBtn'}" type="button"  class="btn btn-outline-dark">Show more</button>  
                                         </xsl:if>                                           
                                     </td>
                                     <td>
@@ -67,23 +74,6 @@
                     </table>
                 </div>
 <!--                for button show more on mss summary-->
-                <script>
-                    function onClick() {
-                    var dots = document.getElementById("dots");
-                    var moreText = document.getElementById("more");
-                    var btnText = document.getElementById("myBtn");
-                    
-                    if (dots.style.display === "none") {
-                    dots.style.display = "inline";
-                    btnText.innerHTML = "Read more"; 
-                    moreText.style.display = "none";
-                    } else {
-                    dots.style.display = "none";
-                    btnText.innerHTML = "Read less"; 
-                    moreText.style.display = "inline";
-                    }
-                    }
-                </script>
                 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" />
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" />
@@ -93,6 +83,7 @@
                     createDataTable('msdescTable')
                     });
                 </script>
+                <script src="js/showMore.js"></script>
             </body>
         </html>
     </xsl:template>
