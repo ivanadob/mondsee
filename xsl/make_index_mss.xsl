@@ -25,7 +25,7 @@
                         <thead>
                             <tr>
                                 <th scope="col">Shelfmark</th>
-                                <th scope="col">Title</th>
+                                <th scope="col" style="width:500px">Title</th>
                                 <th scope="col">Date</th>
                                 <th scope="col">Place</th>
                             </tr>
