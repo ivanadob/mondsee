@@ -83,16 +83,16 @@
                                 <bibl>
                                     <abbr>Stegmüller RB</abbr>, Nr. <ref target="http://www.repbib.uni-trier.de/cgi-bin/rebiIndex.tcl?ac=ma_7886">5659</ref>.
                                 </bibl>
-                                <bibl>Denis, Michael, ed. in <title>Codices Manuscripti Theologici Bibliothecae Palatinae Vindobonensis Latini</title>. Vol. 2. Vienna, 1802, pp. <ref target="https://manuscripta.at/_scripts/php/cat_onb2pdf.php?cat=denis&amp;vol_page=2-3%202041-2053">2041-2046</ref>.</bibl>
+                                <bibl><abbr>Denis 1802</abbr>, pp. <ref target="https://manuscripta.at/_scripts/php/cat_onb2pdf.php?cat=denis&amp;vol_page=2-3%202041-2053">2041-2046</ref>.</bibl>
                                 <bibl><abbr>PL</abbr> 52, 374-376 (based on the edition of Denis).</bibl>
-                                <bibl>Burn, A. E., ed. <title>Niceta of Remesiana. His Life and Works</title>. Cambridge: Cambridge University Press, 1905, pp. 6-8<note> (followed by <title>De ratione fidei</title> and <title>De spiritu sancto</title> as parts of Book 3)</note>.</bibl>
-                                <bibl>Nicetas, Remesianensis. <title>Niceta von Remesiana instructio ad competentes: frühchristliche Katechesen aus Dacien</title>. Edited by Klaus Gamber. 3 vols. Regensburg: Pustet, 1964-1966.</bibl>
-                                <bibl>Bouhot, Jean-Paul. ‘Explications du rituel baptismal à l’époque carolingienne’. <title>Revue d’Etudes Augustiniennes et Patristiques</title> 24, no. 3–4 (January 1978): 278–301, esp. 283-285. https://doi.org/10.1484/J.REA.5.104365.</bibl>
+                                <bibl><abbr>Burn 1905</abbr>, pp. 6-8<note> (followed by <title>De ratione fidei</title> and <title>De spiritu sancto</title> as parts of Book 3)</note>.</bibl>
+                                <bibl><abbr>Nicetas 1964-66</abbr>.</bibl>
+                                <bibl><abbr>Bouhot 1979</abbr>.</bibl>
                             </listBibl>
                         </msItem>
                         <msItem>
                             <locus></locus>
-                            <note type="title">Compilation of excerpts from <rs type="person" role="author">Isidore</rs>'s <title>Sententiarum libri</title> and <rs type="person" role="author">Iulianus Pomerius</rs>' <title>De vita contemplativa</title></note>
+                            <note type="title">Compilation of excerpts from <rs type="person" role="author" ref="#isidorus">Isidore</rs>'s <title ref="#isidorus_sententiae">Sententiarum libri</title> and <rs type="person" role="author" ref="#iulianus_pomerius">Iulianus Pomerius</rs>' <title ref="#iulianus_pomerius_vita_contemplativa">De vita contemplativa</title></note>
                         </msItem>
                         
                         <msItem>

@@ -49,6 +49,12 @@
             <person xml:id="hieronymus">
                <persName xml:id="gnd_118550853" ref="http://d-nb.info/gnd/118550853">Sophronius Eusebius Hieronymus</persName>
             </person>
+            <person xml:id="isidorus">
+               <persName xml:id="gnd_118555995" ref="https://d-nb.info/gnd/118555995">Isidorus Hispalensis</persName>
+            </person>
+            <person xml:id="iulianus_pomerius">
+               <persName xml:id="gnd_100958648" ref="ttps://d-nb.info/gnd/100958648">Iulianus Pomerius</persName>
+            </person>
             <person xml:id="johannes_chrysostomus">
                <persName xml:id="gnd_118557831" ref="http://d-nb.info/gnd/118557831">Johannes Chrysostomus</persName>
             </person>

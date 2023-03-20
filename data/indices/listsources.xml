@@ -60,6 +60,14 @@
                <label>Bischoff 2014</label>
                <bibl>Bischoff, Bernhard. Katalog der festländischen Handschriften des neunten Jahrhunderts : (mit Ausnahme der wisigotischen). Vol. 3. Padua-Zwickau. 3 vols. Wiesbaden: Harrassowitz, 2014.</bibl>
             </item>
+            <item xml:id="bouhot-1978">
+               <label>Bouhot 1979</label>
+               <bibl>Bouhot, Jean-Paul. <ref target="https://doi.org/10.1484/J.REA.5.104365">‘Explications du rituel baptismal à l’époque carolingienne’</ref>. <title>Revue d’Etudes Augustiniennes et Patristiques</title> 24, no. 3–4 (January 1978): 278–301, esp. 283-285.</bibl>
+            </item>
+            <item xml:id="burn-1905">
+               <label>Burn 1905</label>
+               <bibl>Burn, A. E., ed. <title>Niceta of Remesiana. His Life and Works</title>. Cambridge: Cambridge University Press, 1905.</bibl>
+            </item>
             <item xml:id="cccm">
                <label>CCCM</label>
                <bibl>Corpus christianorum. Continuatio mediaevalis, Turnholti 1966-</bibl>
@@ -99,6 +107,10 @@
             <item xml:id="csel">
                <label>CSEL</label>
                <bibl>Corpus scriptorum ecclesiasticorum latinorum. Vienna, 1866-.</bibl>
+            </item>
+            <item xml:id="denis-1802">
+               <label>Denis 1802</label>
+               <bibl>Denis, Michael, ed. in <title>Codices Manuscripti Theologici Bibliothecae Palatinae Vindobonensis Latini</title>. Vol. 2. Vienna, 1802.</bibl>
             </item>
             <item xml:id="dorfbauer-2014">
                <label>Dorfbauer 2014</label>
@@ -224,6 +236,10 @@
             <item xml:id="neumueller_1959">
                <label>Neumüller-Holter 1959</label>
                <bibl>Neumüller, Willibrord, and Kurt Holter. Der Codex Millenarius. Linz: Oberösterr. Landesarchiv, 1959.</bibl>
+            </item>
+            <item xml:id="nicetas-1964">
+               <label>Nicetas 1964-66</label>
+               <bibl>Nicetas, Remesianensis. <title>Niceta von Remesiana instructio ad competentes: frühchristliche Katechesen aus Dacien</title>. Edited by Klaus Gamber. 3 vols. Regensburg: Pustet, 1964-1966.</bibl>
             </item>
             <item xml:id="paulhart-1966">
                <label>Paulhart 1966</label>
@@ -572,6 +588,16 @@
                   <relation ref="#kempf-2016"/>
                </listRelation>
             </bibl>
+            <bibl xml:id="iulianus_pomerius_vita_contemplativa">
+               <title>De vita contemplativa</title>
+               <author ref="#iulianus_pomerius">Iulianus Pomerius</author>
+               <listRelation>
+                  <relation ref="#pl">
+                     <desc>PL 59, 415-520.</desc>
+                  </relation>
+               </listRelation>
+               <idno type="gnd">https://d-nb.info/gnd/7545749-0</idno>
+            </bibl>
             <bibl xml:id="leo_sermo_3">
                <title>Sermo 3. De quadragesimae</title>
                <author ref="#leo_magnus">Ps. Leo Magnus</author>
@@ -607,7 +633,7 @@
                      <desc>PL 57, 307C-310C.</desc>
                   </relation>
                </listRelation>
-            </bibl>
+            </bibl>            
             <bibl xml:id="petronius_sermo_1">
                <title>Sermo 1</title>
                <author ref="#petronius_veronensis">Petronius Veronensis</author>
@@ -645,6 +671,11 @@
                   </relation>
                   <relation ref="#soage"/>
                </listRelation>
+            </bibl>
+            <bibl xml:id="isidorus_sententiae">
+               <title>Sententiae / Sententiarum libri</title>
+               <author ref="#isidorus">Isidorus Hispanesis</author>
+               <idno type="gnd">https://d-nb.info/gnd/4569091-1</idno>
             </bibl>
 <!--  ######################  BIBLE BOOKS: #############################-->
             <bibl xml:id="philomenem">

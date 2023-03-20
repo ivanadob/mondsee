@@ -121,7 +121,7 @@
                             <title>Quattuor Evangelia</title>
                             <msItem>
                                 <locus>21ra-51vb</locus>
-                                <title>Mt</title>
+                                <title ref="#evangelium_matthaeum">Evangelium secundum Matthaeum</title>
                                 <rubric>Incipit evangelium secundum mathaeum</rubric>
                                 <incipit>Liber generationis Iesu filii Dauid</incipit> 
                                 <explicit></explicit> 
@@ -146,7 +146,7 @@
                             </msItem>
                             <msItem>
                                 <locus>53ra-72ra</locus>
-                                <title>Mc</title>
+                                <title ref="#evangelium_marcum">Evangelium secundum Marcum</title>
                                 <rubric>Incipit euangelium secundum Marcum</rubric>
                                 <finalRubric>Explicit euangelium secundum Marcum</finalRubric>
                             </msItem>
@@ -170,7 +170,7 @@
                             </msItem>
                             <msItem>
                                 <locus>76ra-105r</locus>
-                                <title>Lc</title>
+                                <title ref="#evangelium_lucam">Evangelium secundum Lucam</title>
                                 <rubric>Incipit euangelium secundum Lucam</rubric>
                                 <finalRubric>Explicit euangelium secundum Lucam</finalRubric>
                             </msItem>
@@ -194,6 +194,7 @@
                             </msItem>                            
                             <msItem>
                                 <locus>107ra-128va</locus>
+                                <title ref="#evangelium_johannem">Evangelium secundum Johannem</title>
                                 <rubric>Incipit euangelium secundum Johannem</rubric>
                                 <incipit>In principio erat uerbum et uerbum erat apud deum</incipit>
                                 <finalRubric>Explicit euangelium secundum Johannem.</finalRubric>
