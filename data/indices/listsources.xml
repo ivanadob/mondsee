@@ -449,6 +449,90 @@
                   </relation>
                </listRelation>
             </bibl>
+            <bibl xml:id="hieronymus_nouum">
+               <title>Prol. Evv. [Ep. ad Damasum papam]</title>
+               <author ref="#hieronymus">Hieronymus</author>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc><ref target="http://www.repbib.uni-trier.de/cgi-bin/rebiIndex.tcl?ac=searchlist&amp;tlnr=595">Stegmüller RB, Nr. 595</ref>.</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="hieronymus_plures">
+               <title>Prol. Evv. [ex commentario in Matth.]</title>
+               <author ref="#hieronymus">Hieronymus</author>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc><ref target="http://www.repbib.uni-trier.de/cgi-bin/rebiIndex.tcl?ac=searchlist&amp;tlnr=596">Stegmüller RB, Nr. 596</ref>.</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="euseius_ammonius">
+               <title>Prol. Mt. [Ep. ad Carpianum]</title>
+               <author ref="">Eusebius Caesariensis</author>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc><ref target="http://www.repbib.uni-trier.de/cgi-bin/rebiIndex.tcl?ac=searchlist&amp;tlnr=581">Stegmüller RB, Nr. 581</ref>.</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="hieronymus_sciendum">
+               <title>Prol. Mt. [Ep. ad Damasum papam]</title>
+               <author ref="#hieronymus">Hieronymus</author>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc><ref target="http://www.repbib.uni-trier.de/cgi-bin/rebiIndex.tcl?ac=searchlist&amp;tlnr=601">Stegmüller RB, Nr. 601</ref>.</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="prologus_mt">
+               <title>Prol. Mt. [Prologus monarchianus]</title>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc><ref target="http://www.repbib.uni-trier.de/cgi-bin/rebiIndex.tcl?ac=searchlist&amp;tlnr=590">Stegmüller RB, Nr. 590</ref>.</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="capitulatio_mt">
+               <title>Summarium in evangelium secundum Mattheum</title>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc><ref target="http://www.repbib.uni-trier.de/cgi-bin/rebiIndex.tcl?ac=searchlist&amp;tlnr=11016">Stegmüller RB, Nr. 11016</ref>.</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="capitulatio_mc">
+               <title>Summarium in evangelium secundum Marcum</title>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc><ref target="http://www.repbib.uni-trier.de/cgi-bin/rebiIndex.tcl?ac=searchlist&amp;tlnr=11016">Stegmüller RB, Nr. 11016</ref>.</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="capitulatio_lc">
+               <title>Summarium in evangelium secundum Lucam</title>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc><ref target="http://www.repbib.uni-trier.de/cgi-bin/rebiIndex.tcl?ac=searchlist&amp;tlnr=11016">Stegmüller RB, Nr. 11016</ref>.</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="evangelium_johannem_sommarium">
+               <title>Summarium in evangelium secundum Johannem</title>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc><ref target="http://www.repbib.uni-trier.de/cgi-bin/rebiIndex.tcl?ac=searchlist&amp;tlnr=11016">Stegmüller RB, Nr. 11016</ref>.</desc>
+                  </relation>
+               </listRelation>
+            </bibl>            
+            <bibl xml:id="">
+               <title></title>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc><ref target="">Stegmüller RB, Nr. </ref>.</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
             <bibl xml:id="evangelium_johannem">
                <title>Evangelium secundum Johannem</title>
                <idno type="gnd">http://d-nb.info/gnd/4028700-2</idno>
@@ -457,18 +541,11 @@
                <title>Monarchian prologue to John</title>
                <listRelation>
                   <relation ref="#stegmueller-rb">
-                     <desc>Stegmüller RB, Nr. 624.</desc>
+                     <desc><ref target="http://www.repbib.uni-trier.de/cgi-bin/rebiIndex.tcl?ac=searchlist&amp;tlnr=624">Stegmüller RB, Nr. 624</ref>.</desc>
                   </relation>
                </listRelation>
             </bibl>
-            <bibl xml:id="evangelium_johannem_sommarium">
-               <title>Sommarium in evangelium secundum Johannem</title>
-               <listRelation>
-                  <relation ref="#stegmueller-rb">
-                     <desc>Stegmüller RB, Nr. 11016.</desc>
-                  </relation>
-               </listRelation>
-            </bibl>
+            
             <bibl xml:id="evangelium_lucam">
                <title>Evangelium secundum Lucam</title>
                <idno type="gnd">http://d-nb.info/gnd/4036616-9</idno>

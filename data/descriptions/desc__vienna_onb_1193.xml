@@ -57,7 +57,7 @@
                         </msItem>
                         <msItem>
                             <locus from="11r" to="11v">11r-11v</locus>
-                            <title>Hieronymus, Prol. Evv. [Ep. ad Damasum papam]</title>
+                            <title ref="#hieronymus_nouum">Hieronymus, Prol. Evv. [Ep. ad Damasum papam]</title>
                             <author>Hieronymus</author>
                             <rubric>Beato papae Damaso Hieronimus.</rubric>
                             <incipit>Nouum opus facere me cogis</incipit> 
@@ -68,7 +68,7 @@
                         </msItem>
                         <msItem>
                             <locus from="11v" to="12v">11v-12v</locus>
-                            <title>Hieronymus, Prol. Evv. [ex commentario in Matth.]</title>
+                            <title ref="#hieronymus_plures">Hieronymus, Prol. Evv. [ex commentario in Matth.]</title>
                             <rubric>Incipit prologus quattuor evangeliorum.</rubric>
                             <incipit>Plures fuisse qui Euangelia scripserunt</incipit> 
                             <explicit>et ecclesiasticis uiuis canendas.</explicit> 
@@ -77,7 +77,7 @@
                         </msItem>
                         <msItem>
                             <locus from="12v" to="13r">12v-13r</locus>
-                            <title>Prol. Mt. [Ep. ad Carpianum]</title>
+                            <title ref="#euseius_ammonius">Prol. Mt. [Ep. ad Carpianum]</title>
                             <author>Eusebius Caesariensis</author>
                             <rubric>Eusebius Capriano fratri in domino salutem</rubric>
                             <incipit>Ammonius quidem alexandrinus</incipit> 
@@ -86,7 +86,7 @@
                         </msItem>
                         <msItem>
                             <locus from="13r">13r</locus>
-                            <title>Prol. Mt. [Ep. ad Damasum papam]</title>
+                            <title ref="#hieronymus_sciendum">Prol. Mt. [Ep. ad Damasum papam]</title>
                             <author>Hieronymus</author>
                             <rubric>Hieronimus Damaso papae.</rubric>
                             <incipit>Sciendum etiam ne quis ignarum</incipit> 
@@ -96,7 +96,7 @@
                         </msItem>
                         <msItem>
                             <locus from="13r" to="13v">13r-13v</locus>
-                            <title>Prol. Mt. [Prologus monarchianus]</title>
+                            <title ref="#prologus_mt">Prol. Mt. [Prologus monarchianus]</title>
                             <rubric>Incipit argumentum secundum Mattheum</rubric>
                             <incipit>Matteus ex iudea sicut in ordine primus ponitur</incipit> 
                             <explicit>dispositionem quaerentibus nonn tacere.</explicit> 
@@ -105,7 +105,7 @@
                         </msItem>
                         <msItem>
                             <locus from="13v" to="14v">13v-14v</locus>
-                            <title>Capitulatio Matthaei</title>
+                            <title ref="#capitulatio_mt">Summarium in evangelium secundum Mattheum</title>
                             <rubric>Incipit breviarium eiusdem.</rubric>
                             <incipit>Natiuitas christi magi cum muneribus ueniunt.</incipit> 
                             <explicit>mandata et doctrina eius de baptismo.</explicit> 
@@ -137,7 +137,7 @@
                             </msItem>
                             <msItem>
                                 <locus>52rb-52vb </locus>
-                                <title>Capitula</title>
+                                <title ref="#capitulatio_mc">Summarium in evangelium secundum Marcum</title>
                                 <rubric>Incipit breviarium.</rubric>
                                 <incipit>De iohanne baptista et uictu</incipit>
                                 <explicit>et commotione saeculi et ad <gap reason="lacuna"/></explicit>
@@ -175,8 +175,8 @@
                                 <finalRubric>Explicit euangelium secundum Lucam</finalRubric>
                             </msItem>
                             <msItem>
-                                <locus>105r-va</locus>
-                                <title>Prol. Ioh. [Prologus monarchianus]</title>
+                                <locus>105rb-va</locus>
+                                <title ref="#evangelium_johannem_prologue">Prol. Ioh. [Prologus monarchianus]</title>
                                 <rubric>Incipit argumentum secundum Johannem</rubric>
                                 <incipit></incipit>
                                 <explicit>doctrina seruetur amen.</explicit>
@@ -185,7 +185,7 @@
                             </msItem>
                             <msItem>
                                 <locus>105vb-106rb</locus>
-                                <title>Capitula</title>
+                                <title ref="#evangelium_johannem_sommarium">Capitula</title>
                                 <rubric>Incipit breviarius euangelii secundum iohannem</rubric>
                                 <incipit>Pharisaeorum laeuitae interrogant</incipit>
                                 <finalRubric>Explicit breviarium euangelii secundum Johannem</finalRubric>
