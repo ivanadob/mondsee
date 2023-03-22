@@ -33,7 +33,7 @@
                         </altIdentifier>
                     </msIdentifier>
                     <head>
-                        <title>Evangeliarium cum Capitulare Evangeliorum</title>
+                        <title>Quattuor evangelia cum Capitulare Evangeliorum</title>
                         <origDate notBefore="0801" notAfter="1094">s. IX<hi rend="sup">1</hi> (add. s. XI)</origDate>
                         <origPlace>Mondsee</origPlace>
                         <note type="summary">The manuscript contains apart from the four gospels, the Eusebian canon tables - providing the concordance between the gospels; the capitulare at the beginning records the readings from the gospels during mass throughout the whole year --(NB! to compare with the Homiliarium in Cod. 1557, Cod. 1014 - if the readings match the homilies order there. Cod. 1557 was supposedly copied from Clm 14386 written in or around Regensburg - if the readings match, the collection might have originated in Mondsee - not very probable though).
@@ -44,7 +44,7 @@
                         <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13960080"></ref></note>
                     </head>                    
                     <msContents>
-                        <textLang mainLang="lat" otherLangs=""/>
+                        <textLang mainLang="lat"/>
                         <msItem>
                             <locus from="1r" to="10v">1ra-10va</locus>
                             <title>Capitulare evangeliorum</title>
@@ -58,7 +58,7 @@
                         <msItem>
                             <locus from="11r" to="11v">11r-11v</locus>
                             <title ref="#hieronymus_nouum">Hieronymus, Prol. Evv. [Ep. ad Damasum papam]</title>
-                            <author>Hieronymus</author>
+                            <author ref="#hieronymus">Hieronymus</author>
                             <rubric>Beato papae Damaso Hieronimus.</rubric>
                             <incipit>Nouum opus facere me cogis</incipit> 
                             <explicit>memineris mei papa beatissime.</explicit> 
@@ -68,7 +68,8 @@
                         </msItem>
                         <msItem>
                             <locus from="11v" to="12v">11v-12v</locus>
-                            <title ref="#hieronymus_plures">Hieronymus, Prol. Evv. [ex commentario in Matth.]</title>
+                            <title ref="#hieronymus_plures">Prol. Evv. [ex commentario in Matth.]</title>
+                            <author ref="#hieronymus">Hieronymus</author>
                             <rubric>Incipit prologus quattuor evangeliorum.</rubric>
                             <incipit>Plures fuisse qui Euangelia scripserunt</incipit> 
                             <explicit>et ecclesiasticis uiuis canendas.</explicit> 
@@ -78,7 +79,7 @@
                         <msItem>
                             <locus from="12v" to="13r">12v-13r</locus>
                             <title ref="#euseius_ammonius">Prol. Mt. [Ep. ad Carpianum]</title>
-                            <author>Eusebius Caesariensis</author>
+                            <author ref="#eusebius">Eusebius Caesariensis</author>
                             <rubric>Eusebius Capriano fratri in domino salutem</rubric>
                             <incipit>Ammonius quidem alexandrinus</incipit> 
                             <explicit>similia dixisse repperies.</explicit>
@@ -87,7 +88,7 @@
                         <msItem>
                             <locus from="13r">13r</locus>
                             <title ref="#hieronymus_sciendum">Prol. Mt. [Ep. ad Damasum papam]</title>
-                            <author>Hieronymus</author>
+                            <author ref="#hieronymus">Hieronymus</author>
                             <rubric>Hieronimus Damaso papae.</rubric>
                             <incipit>Sciendum etiam ne quis ignarum</incipit> 
                             <explicit>memineris mei beatissimae papa.</explicit> 
@@ -105,7 +106,7 @@
                         </msItem>
                         <msItem>
                             <locus from="13v" to="14v">13v-14v</locus>
-                            <title ref="#capitulatio_mt">Summarium in evangelium secundum Mattheum</title>
+                            <title ref="#capitulatio_mt">Capitula / Summarium in evangelium secundum Mattheum</title>
                             <rubric>Incipit breviarium eiusdem.</rubric>
                             <incipit>Natiuitas christi magi cum muneribus ueniunt.</incipit> 
                             <explicit>mandata et doctrina eius de baptismo.</explicit> 
@@ -124,12 +125,12 @@
                                 <title ref="#evangelium_matthaeum">Evangelium secundum Matthaeum</title>
                                 <rubric>Incipit evangelium secundum mathaeum</rubric>
                                 <incipit>Liber generationis Iesu filii Dauid</incipit> 
-                                <explicit></explicit> 
-                                <finalRubric>Explicit liber sancti euangelii secundum Matheum</finalRubric>
+                                <explicit>usque ad consummationem saeculi.</explicit> 
+                                <finalRubric>Explicit liber sancti euangelii secundum Matheum.</finalRubric>
                             </msItem>
                             <msItem>
                                 <locus>51vb-52rb</locus>
-                                <title>Prol. Mc. [Prologus monarchianus]</title>
+                                <title ref="#prologus_mc">Prol. Mc. [Prologus monarchianus]</title>
                                 <rubric>Incipit prologus</rubric>
                                 <incipit>Marcus euangelista dei et petri</incipit>
                                 <finalRubric>Explicit argumentum.</finalRubric>
@@ -137,7 +138,7 @@
                             </msItem>
                             <msItem>
                                 <locus>52rb-52vb </locus>
-                                <title ref="#capitulatio_mc">Summarium in evangelium secundum Marcum</title>
+                                <title ref="#capitulatio_mc">Capitula / Summarium in evangelium secundum Marcum</title>
                                 <rubric>Incipit breviarium.</rubric>
                                 <incipit>De iohanne baptista et uictu</incipit>
                                 <explicit>et commotione saeculi et ad <gap reason="lacuna"/></explicit>
@@ -152,7 +153,7 @@
                             </msItem>
                             <msItem>
                                 <locus>72rb-vb</locus>
-                                <title>Prol. Luc. [Prologus monarchianus]</title>
+                                <title ref="#prologus_lc">Prol. Luc. [Prologus monarchianus]</title>
                                 <rubric>Incipit argumentum secundum Lucam</rubric>
                                 <incipit>Lucas syrus antiocensis</incipit>
                                 <explicit>quam fastidientibus prodesse.</explicit>
@@ -161,7 +162,7 @@
                             </msItem>
                             <msItem>
                                 <locus>72vb-75rb</locus>
-                                <title>Capitula</title>
+                                <title ref="#capitulatio_lc">Capitula / Summarium in evangelium secundum Lucam</title>
                                 <rubric>Incipiunt capitula.</rubric>
                                 <incipit>Zacharias uiso angelo</incipit>
                                 <explicit>laudantes deum in templo.</explicit>
