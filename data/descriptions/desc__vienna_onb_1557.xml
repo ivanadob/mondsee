@@ -34,8 +34,8 @@
                         <title>Homiliarium</title>
                         <origDate notBefore="0901" notAfter="1000">s. X</origDate>
                         <origPlace>Mondsee (?)</origPlace>
-                        <note type="summary">The manuscript is a copy of a Carolingian collection of homilies and sermons for Lent, attested in several other MSS. The oldest, according to Etaix is Munich, BSB, Clm 14386 (St. Emmeran). A textual comparison betwenn the witnesses is needed to establish the relations between them.</note>
-                        <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13961652"></ref></note>
+                        <note type="summary">The manuscript is a copy of a Carolingian collection of homilies and sermons for Lent, attested in several other MSS. The oldest, according to <bibl><abbr>Etaix 1986</abbr></bibl> is <ref type="altMs" target="https://opacplus.bsb-muenchen.de/search?id=162205806&amp;db=100&amp;View=default">Munich, BSB, Clm 14386</ref> (Regensburg, s. IX). A textual comparison betwenn the witnesses is needed to establish the relations between them.</note>
+                        <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13961652"/></note>
                     </head>
                     <msContents>
                         <textLang mainLang="lat"/>
@@ -103,7 +103,7 @@
                             <msItem>
                                 <locus from="22v" to="24v">22v-24v</locus>
                                 <author ref="#augustinus">Ps. Augustinus</author>
-                                <title>Sermo 94 (excerpts)</title>
+                                <title ref="#augustinus_sermo_94">Sermo 94 (excerpts)</title>
                                 <rubric>In uigiliis mortuorum sermo sancti augustini</rubric>
                                 <incipit>Audistis fratres karissimi in lectione euuangelica dominum dicentem. <ref type="biblical" cRef="Io_5,21">Sicut enim pater suscitat mortuos et uiuificat sic et filius quos uult uiuificat <gap reason="omitted"/></ref> id est non solum infirmos curare</incipit>
                                 <explicit>resuscitabo eum in nouissimo die per eum qui uiuit et regnat in saecula saeculorum amen.</explicit>
@@ -375,25 +375,347 @@
                                 <note>ff. 93v und 94r - marks 'X' marginal marking passages </note>
                             </msItem>
                             <msItem>
-                                <locus from="100r" to="">100r-</locus>
-                                <author ref="#"></author>
-                                <title ref="#"></title>
-                                <rubric></rubric>
-                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <locus from="100r" to="105r">100r-105r</locus>
+                                <author ref="#beda">Beda Venerabilis</author>
+                                <title ref="#beda_in_lucae">In Lucae euangelium expositio (Lib. IV, 31-263 excerpt)</title>
+                                <rubric>Dominica II in quadragesima secundum lucam</rubric>
+                                <incipit>In illo tempore. <ref type="biblical" cRef="Lc_11,14">Erat ihesus eiciens <gap/></ref>. <hi rend="rubric">Sermo uenerabilis bedae de eadem lectione ex commentario in lucam</hi>. Et erat ihesus eiciens demonium <gap/> Deciacus iste apud matheum</incipit>
+                                <explicit>blasphemare quaerebant.</explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 105r-111r</ref>.</filiation>
+                                <bibl><abbr>CCSL</abbr> 120, 231-237.</bibl>
+                                <note>Sermon also in Homiliarium of Paul the Deacon (I, 90).</note>
+                            </msItem>
+<!--                            inc expl ############################-->
+                            <msItem>
+                                <locus from="105r" to="109r">105r-109r</locus>
+                                <author ref="#beda">Beda Venerabilis</author>
+                                <title ref="#beda_in_lucae">In Lucae euangelium expositio (Lib. II, 220-374 excerpt)</title>
+                                <rubric>Feria II ebdomadae III secundum lucam</rubric>
+                                <incipit>In illo tempore <ref type="biblical" cRef="Lc_4,23">Dixerunt pharisei <gap/></ref><hi rend="rubric"></hi></incipit>
                                 <explicit></explicit>
-                                <filiation><ref type="altMs">Clm 14386, ff. </ref>.</filiation>
+                                <filiation><ref type="altMs">Clm 14386, ff. 111r-115r</ref>.</filiation>
                                 <bibl><abbr></abbr> </bibl>
                             </msItem>
                             <msItem>
-                                <locus from="" to="">-</locus>
+                                <locus from="109r" to="110v">109r-110v</locus>
+                                <author ref="#hieronymus">Hieronymus</author>
+                                <title ref="#hieronymus_in_math">Commentarii in euangelium Matthaei (exceprt from Lib. III, 605-617)</title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 115r-117r</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="110v" to="113v">110v-113v</locus>
+                                <author ref="#hieronymus">Hieronymus</author>
+                                <title ref="#hieronymus_in_math">Commentarii in euangelium Matthaei (exceprt from Lib. II, 1398-1535)</title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 117r-120v</ref>.</filiation>                                
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="113v" to="115r">113v-115r</locus>
                                 <author ref="#"></author>
                                 <title ref="#"></title>
                                 <rubric></rubric>
                                 <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
                                 <explicit></explicit>
-                                <filiation><ref type="altMs">Clm 14386, ff. </ref>.</filiation>
+                                <filiation><ref type="altMs">Clm 14386, ff. 120v-122v</ref>.</filiation>
                                 <bibl><abbr></abbr> </bibl>
                             </msItem>
+                            <msItem>
+                                <locus from="115r" to="121r">115r-121r</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 122v-129v</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="121r" to="125v">121r-125v</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 129v-134v</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="125v" to="131r">125v-131r</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 134v-140r</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="131r" to="137v">-</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 140r-147v</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="137v" to="142v">-</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 147v-153r</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="142v" to="148r">-</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 153r-158v</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem><msItem>
+                                <locus from="148r" to="150r">-</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 158v-160v</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="150r" to="158r">-</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 160v-169v</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="158r" to="163v">-</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 169v-175r</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="163v" to="167r">-</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 175r-179r</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="167r" to="172r">-</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 179r-184r</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="172r" to="177r">-</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 184r-189v</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="177r" to="180v">-</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 189v-193v</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="180v" to="181v">-</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 193v-194v</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="181v" to="183r">-</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 194v-196r</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="183r" to="185v">-</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 196r-199v</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="185v" to="188r">-</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 199v-202v</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="188r" to="190r">-</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 202v-204v</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="190r" to="192v">-</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 204v-207v</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="192v" to="195r">192v-195r</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 207v-210v</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="195r" to="?">195r-</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 211r-216r</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="?" to="203r">-203r</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 216r-221r</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="203r" to="206v">203r-206v</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 221r-225v</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="207r" to="209r">207r-209r</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 225v-228r</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="209r" to="211r">-</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <note>Not in Clm 14386!</note>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="211r" to="217v">-</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 228r-236v</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="217v" to="219r">217v-219r</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <note>Not in Clm 14386!</note>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="219r" to="225r">219r-225r</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 236v-244v</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            <msItem>
+                                <locus from="225r" to="227v">225r-227v</locus>
+                                <author ref="#"></author>
+                                <title ref="#"></title>
+                                <rubric></rubric>
+                                <incipit><ref type="biblical" cRef=""></ref><hi rend="rubric"></hi></incipit>
+                                <explicit></explicit>
+                                <filiation><ref type="altMs">Clm 14386, ff. 244v-247r</ref>.</filiation>
+                                <bibl><abbr></abbr> </bibl>
+                            </msItem>
+                            
                             <msItem>
                                 <locus>228r-230v</locus>
                                 <rubric>Sabatto sancto</rubric>
@@ -529,7 +851,7 @@
                             <ref/>
                         </surrogates> 
                         <listBibl>
-                            <bibl>Étaix, Raymond. ‘Un homéliaire quadragésimal du IXe siècle : le ms. CLM 14386’. <title>Scriptorium</title> 40, no. 1 (1986): 3–15. DOI: <ref target="https://doi.org/10.3406/scrip.1986.1423.">10.3406/scrip.1986.1423</ref>.</bibl>
+                            <bibl><abbr>Etaix 1986</abbr>.</bibl>
                         </listBibl>
                     </additional>                    
                 </msDesc>

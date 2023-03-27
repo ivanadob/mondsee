@@ -57,7 +57,7 @@
                         </msItem>
                         <msItem>
                             <locus from="11r" to="11v">11r-11v</locus>
-                            <title ref="#hieronymus_nouum">Hieronymus, Prol. Evv. [Ep. ad Damasum papam]</title>
+                            <title ref="#hieronymus_nouum">Prol. Evv. [Ep. ad Damasum papam]</title>
                             <author ref="#hieronymus">Hieronymus</author>
                             <rubric>Beato papae Damaso Hieronimus.</rubric>
                             <incipit>Nouum opus facere me cogis</incipit> 
@@ -68,8 +68,8 @@
                         </msItem>
                         <msItem>
                             <locus from="11v" to="12v">11v-12v</locus>
-                            <title ref="#hieronymus_plures">Prol. Evv. [ex commentario in Matth.]</title>
                             <author ref="#hieronymus">Hieronymus</author>
+                            <title ref="#hieronymus_plures">Prol. Evv. [ex commentario in Matth.]</title>
                             <rubric>Incipit prologus quattuor evangeliorum.</rubric>
                             <incipit>Plures fuisse qui Euangelia scripserunt</incipit> 
                             <explicit>et ecclesiasticis uiuis canendas.</explicit> 
@@ -78,8 +78,8 @@
                         </msItem>
                         <msItem>
                             <locus from="12v" to="13r">12v-13r</locus>
-                            <title ref="#euseius_ammonius">Prol. Mt. [Ep. ad Carpianum]</title>
                             <author ref="#eusebius">Eusebius Caesariensis</author>
+                            <title ref="#euseius_ammonius">Prol. Mt. [Ep. ad Carpianum]</title>
                             <rubric>Eusebius Capriano fratri in domino salutem</rubric>
                             <incipit>Ammonius quidem alexandrinus</incipit> 
                             <explicit>similia dixisse repperies.</explicit>
@@ -87,8 +87,8 @@
                         </msItem>
                         <msItem>
                             <locus from="13r">13r</locus>
-                            <title ref="#hieronymus_sciendum">Prol. Mt. [Ep. ad Damasum papam]</title>
                             <author ref="#hieronymus">Hieronymus</author>
+                            <title ref="#hieronymus_sciendum">Prol. Mt. [Ep. ad Damasum papam]</title>
                             <rubric>Hieronimus Damaso papae.</rubric>
                             <incipit>Sciendum etiam ne quis ignarum</incipit> 
                             <explicit>memineris mei beatissimae papa.</explicit> 

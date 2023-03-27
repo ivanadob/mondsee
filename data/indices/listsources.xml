@@ -132,6 +132,10 @@
                <label>Etaix 1996</label>
                <bibl>Etaix, Raymond. ‘Répertoire des manuscrits des homélies sur l’Evangile de saint Grégoire le Grand’. Sacris Erudiri 36 (1996): 107–45.</bibl>
             </item>
+            <item xml:id="etaix-1986">
+               <label>Etaix 1986</label>
+               <bibl>Étaix, Raymond. ‘Un homéliaire quadragésimal du IXe siècle : le ms. CLM 14386’. <title>Scriptorium</title> 40, no. 1 (1986): 3–15. DOI: <ref target="https://doi.org/10.3406/scrip.1986.1423">10.3406/scrip.1986.1423</ref>.</bibl>
+            </item>
             <item xml:id="eucherius">
                <label>Eucherius 2005</label>
                <bibl>Eucherius Lugdunensis. Formulae Spiritalis Intellegentiae. Instructionum Libri Duo. Edited by C. Mandolfo. Vol. 66. CCSL. Turnhout: Brepols, 2005, 77–216.</bibl>
@@ -293,6 +297,10 @@
             ######################### PRIMARY SOURCES ############################
          ##########################################################################-->
          <listBibl xml:id="primary-sources">
+            <bibl xml:id="augustinus_sermo_94">
+               <title>Sermo XCIV</title>
+               <author ref="#augustinus">(Ps.-) Augustinus</author>
+            </bibl>
             <bibl xml:id="augustinus_sermo_195">
                <title>Sermo CXCV. De Annuntiatione Dominica, III</title>
                <author ref="#augustinus">(Ps.-) Augustinus</author>
