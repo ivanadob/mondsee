@@ -213,6 +213,10 @@
                <label>Lemarié 1994</label>
                <bibl>Lemarié, Joseph. ‘Nouveaux Fragments de Sermons Attribuables à Un Pseudo-Fulgence’. Revue Bénédictine 104 (1994): 191–200.</bibl>
             </item>
+            <item xml:id="lobrichon-1991">
+               <label>Lobrichon 1991</label>
+               <bibl>Lobrichon, Guy. ‘L'atelier auxerrois’. In L’école carolingienne d’Auxerre: de Murethach à Rémi, 830-908. Ed. Dominique Iogna-Prat, Colette Jeudy, and Guy Lobrichon. 59–69. Paris: Beauchesne, 1991.</bibl>
+            </item>
             <item xml:id="mazal-1963">
                <label>Mazal 1963</label>
                <bibl>Mazal, Otto, and Franz Unterkircher. Katalog der abendländischen Handschriften der Österreichischen Nationalbibliothek : ‘Series nova’ (Neuerwerbungen). Vol. 2: Cod. Ser. n. 1601-3200. 5 vols. Vienna: Prachner, 1963.</bibl>
@@ -291,6 +295,10 @@
             <item xml:id="unterkircher-1962">
                <label>Unterkircher 1962</label>
                <bibl>Unterkircher, Franz. Das Kollektar-Pontifikale des Bischofs Baturich von Regensburg (817–848): (Cod. Vindob. ser. n. 2762). Spicilegium Friburgense 8. Freiburg: Universitätsverl., 1962.</bibl>
+            </item>
+            <item xml:id="unterkircher-1974">
+               <label>Unterkircher 1974</label>
+               <bibl>Unterkircher, Franz. Die Glossen des Psalters von Mondsee. Spicilegium Friburgense. Texte zur Geschichte des kirchlichen Lebens 20. Freiburg: Universutätsverlag, 1974.</bibl>
             </item>
          </list>
 <!--        ######################################################################## 

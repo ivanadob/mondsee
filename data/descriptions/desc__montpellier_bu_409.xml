@@ -24,7 +24,6 @@
                     <msIdentifier>
                         <country>France</country>
                         <settlement>Montpellier</settlement>
-                        <institution></institution>
                         <repository>Bibliothèque interuniversitaire</repository>
                         <collection>Historique de Médecine</collection>
                         <idno>H 409</idno>                                               
@@ -118,7 +117,7 @@
                         </origin>
                         <provenance>The litanies added on ff. 331-346 suggests that the manuscript was at the <rs type="corporate">nunnery of Notre-Dame de Soissons</rs> before <date notAfter="0794">794</date> (mentioned are Pope Adrian (d. 795) and queen Fastrade (d. 794), spose of Charlemagne). A prayer at the end of the litany also mentined the name of Charlemagne's daughter, Rotrude (d. 810), who became a nun at Soissons.</provenance>
                         <provenance>Probably already in the first half of the 9th c. the manuscript was at the Abbey of Saint-Germain d'Auxerre, where the text on f. 1r was added. According to Guy Lobrichon the transfer was made by the intermediance of bishop Heribald or thanks to count Conrad (<bibl>Guy Lobrichon, ‘L'atelier auxerrois’, in L’école carolingienne d’Auxerre: de Murethach à Rémi, 830-908, ed. Dominique Iogna-Prat, Colette Jeudy, and Guy Lobrichon (Paris: Beauchesne, 1991), 59–69, 68, n. 10</bibl>).</provenance>
-                        <provenance>The manuscript was later belonged to the Bouhier family (see ex libris on the title page: <quote>CODEX MS Bibliothecae Buherianae E. 69 MDCCXXI</quote>).</provenance>
+                        <provenance>The manuscript later belonged to the Bouhier family (see ex libris on the title page: <quote>CODEX MS Bibliothecae Buherianae E. 69 MDCCXXI</quote>).</provenance>
                         <provenance>Later the manuscript passed to <rs type="place">Clairvaux</rs>, then to <rs type="place">Troyes</rs>, and finally to <rs type="place">Montpellier</rs> (<bibl><abbr>CLA</abbr> VI, 795</bibl>).</provenance>
                         <acquisition/>
                     </history>
@@ -136,8 +135,10 @@
                             <ref/>
                         </surrogates> 
                         <listBibl>
+                            <head>Selected literature:</head>
+                            <bibl><abbr>Unterkircher 1974</abbr></bibl>
                             <bibl><abbr>CLA</abbr> VI, 795.</bibl>
-                            <bibl>Lobrichon, Guy. ‘L'atelier auxerrois’. In L’école carolingienne d’Auxerre: de Murethach à Rémi, 830-908. Ed. Dominique Iogna-Prat, Colette Jeudy, and Guy Lobrichon. (Paris: Beauchesne, 1991), 59–69, 68, n. 10.</bibl>
+                            <bibl><abbr>Lobrichon 1991</abbr>, p. 68, n. 10.</bibl>                            
                         </listBibl>
                     </additional>                    
                 </msDesc>
