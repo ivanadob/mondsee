@@ -254,7 +254,7 @@
                             <title ref="baruch4">Paralipomena of Jeremiah</title>
                             <incipit>Exemplum epistulae quam misit hieremias ad adductos</incipit>
                             <explicit>erit longe ab obprobriis</explicit>
-                            <note>Fol. 178 later 12th-century addition</note>
+                            <note>Foll. 178-179 later 12th-century addition</note>
                         </msItem>
                         <msItem>
                             <locus>181r-184v</locus>
@@ -268,7 +268,7 @@
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
-                                <support>Ff. A-38 are calb parchment (Bischoff 1980, 23). Fols. 59-60, 171, 178-179 12th-century additions probably used to replace the original damaged leaves.</support>
+                                <support>Ff. A-38 are calb parchment (Bischoff 1980, 23). Flesh and hair side not recognisable. Fols. 55, 59-60, 171, 178-179 are 12th-century additions probably used to replace the original damaged leaves.</support>
                                 <extent>
                                     <measure type="leavesCount" quantity="186" unit="folio">186</measure>
                                     <dimensions type="leaf" unit="mm">
@@ -277,8 +277,7 @@
                                     </dimensions>
                                 </extent>
                                 <foliation>Modern foliation in ink in the upper right corner of every recto: 1-163, 163a, 164-184.</foliation>
-                                <collation>
-                                    <formula></formula>
+                                <collation>The manuscript consists mainly of regular quaterniones. Exceptions: the first quire is a ternio; the second has nine leaves (f. 6 is a singleton, possibly originally belonging to the first quire). The eight quire (ff. 55-60), originally a quaternio, lost its 1st, 2nd, 6th, 7th and 8th leaf, which were replaced in the 12th century; due to the denser script of the added leaves the quire is now a ternio (f. 56 a singleton placed erroneously after f. 57; f. 60 also a singleton). The last leaf of quire 22 (ff. 164-171) is also a 12th-century replacement for the original leaf; the first leaf of this quire is glued on the stub of f. 171. In quire 23 (ff. 172-181) ff. 178 and 179 make a bifolium (12th century addition) inserted between the 6th and 7th leaf of the quire. The last quire 24 (ff. 182-184) is a binio, f. 182 attached to the pastedown. Formula: <formula></formula>. Visualisation in VCEditor: https://vceditor.library.upenn.edu/project/6446702c1f64150001af10ec/viewOnly
                                 </collation>
                                 <condition>Gold rests from (?) on fols. 152v, 159r.</condition>
                             </supportDesc>
@@ -291,7 +290,7 @@
                                     <dimensions type="lineHeight" unit="mm">
                                         <height>9</height>
                                     </dimensions>
-                                    Ruled in blind tool on the innermost bifolium of every quire on the flesh side; two double vertical lines (in 9 mm distance) going all the way to the leaf end. Text lines bound within the vertical ones with the exception of the first and last one which crosses them and seems to be drawn on the open bifolium (connected through the gutter). Pricking for the vertical lines on the lower margine mostly preserved. On the sheet/goat quires pricking for text lines preserved only occasionally (fols. 72-73, 112-113) though not really corresponding to the ruled lines (?).
+                                    Ruled in blind tool on the innermost bifolium of every quire on the flesh side; two double vertical lines (in 9 mm distance) going all the way to the leaf end. Text lines bound within the vertical ones with the exception of the first and last one which crosses them and seems to be drawn on the open bifolium (connected through the gutter). Pricking for the vertical lines on the lower margin mostly preserved. On the sheet/goat quires pricking for text lines preserved only occasionally (fols. 72-73, 112-113) though not really corresponding to the ruled lines (?).
                                    <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
                                        laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
                                 </layout>
@@ -304,6 +303,10 @@
                         <scriptDesc>
                             <summary>According to Bischoff the manuscript was written by several hands which belong to the type of the Landperht-Homiliarium with the exception of the hand responsible for ff. <locus from="159v" to="160r">159v-160r</locus> - which is <quote>unpräzise gebildet</quote>. Bischoff recognised the same hand in <ref type="altMs" target="#desc__vr_f-b3km.xml">Vienna, ÖNB, Cod. Ser. n. 3754</ref>.</summary>
                             <scriptNote script="x" medium="x">Uncial and Capitalis rustica in red or black ink.</scriptNote>
+                            <scriptNote>Letter forms: open cc-a; caroline a; y with a point above.</scriptNote>
+                            <scriptNote>Ligatures: ri (sharp edge on the connection and i going low below the line), re, ra, ro, nt, et, ec, ex, est, eri, ct, te, </scriptNote>
+                            <scriptNote>Punctuation: </scriptNote>
+                            <scriptNote>Abbreviation marks: apart from the omnipresent Tironian abbreviation for et, there are few abbreviations mainly by suspension of -bus endings marked by a semicolon sign, and a macron (curled horizontal line) to marked the omission of a final m; more rare -us abbreviation through a semi-circle entered above the line at the end of words; -orum abbreviation.</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote type="initial">For the initials of the separate books were used red, yellow and green.</decoNote>
@@ -311,11 +314,10 @@
                         </decoDesc>   
                         <additions>Musical notations - adiastematic St. Gall neumes - added by a contemporary hand in the Lamentations - sign that the manuscript was used in the liturgy as Lectionarium (see <bibl>Die Botschaft der Musik</bibl>). Fols. 55, 59, 60, 171, 178 and 179 are twelfth-century additions.</additions>
                         <bindingDesc>
-                            <binding notBefore="0001" notAfter="0001">
-                                <p/>
+                            <binding contemporary="false">
+                                <p>Gothic binding. White leather over wooden boards. Spine restored.</p>
                             </binding>
-                        </bindingDesc>
-                        <accMat>Fragment as front pastedown (?) - leaf from a thirteenth-century breviary (?).</accMat> 
+                        </bindingDesc> 
                     </physDesc>
                     <history>
                         <origin>According to the palaeographical analysis the manuscript was written in <origPlace>Mondsee</origPlace>, probably in the <origDate notBefore="0826" notAfter="0850">second quarter of the ninth century</origDate> (Bischoff).</origin>
