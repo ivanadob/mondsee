@@ -79,7 +79,14 @@
                     	<xsl:choose>
                             <xsl:when test="descendant-or-self::tei:msDesc/tei:head/tei:note[@type='catalogue']">
                             	<a class="btn btn-outline-dark" href="{descendant-or-self::tei:msDesc/tei:head/tei:note[@type='catalogue']/tei:ref/@target}"  target="_blank" title="opens in a new tab">
-                                    <xsl:text>Library catalogue</xsl:text>
+                                    <xsl:choose>
+                                    	<xsl:when test="descendant-or-self::tei:msDesc/tei:head/tei:note[@type='catalogue']/tei:ref/text()">
+                                    		<xsl:value-of select="descendant-or-self::tei:msDesc/tei:head/tei:note[@type='catalogue']/tei:ref"/>
+                                    	</xsl:when>
+                                    	<xsl:otherwise>
+                                    		<xsl:text>Library catalogue</xsl:text>
+                                    	</xsl:otherwise>
+                                    </xsl:choose>
                                 </a>
                             </xsl:when>
                         </xsl:choose>                        
