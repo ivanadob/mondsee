@@ -31,7 +31,7 @@
                         </altIdentifier>                       
                     </msIdentifier>
                     <head>
-                        <title>The Mondsee Homiliary</title>
+                        <title>The Mondsee Homiliary / Landperht-Homiliarium</title>
                         <origDate notBefore="0811" notAfter="0819">811-819</origDate>
                         <origPlace>Mondsee</origPlace>
                         <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13953169"></ref></note>
@@ -171,12 +171,12 @@
                                     (cf. D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula>).
                                 </layout>
                                 <layout ruledLines="24" writtenLines="24" columns="1">
-                                    <locus>16-</locus>
+                                    <locus>16-198</locus>
                                     <dimensions type="written" unit="mm">
                                         <height>205</height>
                                         <width>115</width>
                                     </dimensions>
-                                    <dimensions type="lineHeight">
+                                    <dimensions type="lineHeight" unit="mm">
                                         <height>8,5</height>
                                     </dimensions>
                                     <dimensions type="marginAbove" unit="mm">

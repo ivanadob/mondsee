@@ -260,7 +260,10 @@
                                     </dimensions>, written in two columns (<dimensions type="columnWidth" unit="mm">
                                         <width>60-63</width>
                                     </dimensions>), 31 lines (<dimensions type="lineHeight" unit="mm">
-                                        <height>9</height>
+                                        <height unit="mm">9</height>
+                                    </dimensions>; x-height about
+                                    <dimensions type="xHeight" unit="mm">
+                                        <height min="1" max="2">1,8 mm</height>
                                     </dimensions>). 
                                     Ruling system: in blind tool, textblock framed left and right by double vertical lines (distance 7-8 mm) reaching the edges; the two columns are separated by three vertical lines (distance inbetween 8-9 mm) also reaching the leaf edges; above and below the text block are simple horizontal lines reaching the leaf edge. System according to D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>: <formula notation="Muzerelle">2-2-111/0/1-1/JJ</formula>. Prickings for the horizontal lines cut off, for the vertical lines visible on the lower edge on some leaves (f. 22, 30). Ruling method: on one bifolium every two. direct ruling on the flesh side on one biflolium every two (in a quire of four double leaves ruling on the innermost and the third bifolium counted from the middle).
                                     

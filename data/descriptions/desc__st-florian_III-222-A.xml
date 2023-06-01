@@ -41,17 +41,18 @@
                         <title>XII Prophetae, Isaias, Hieremias</title>
                         <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi></origDate>
                         <origPlace>Mondsee</origPlace>
-                        <note type="catalogue"><ref target="https://manuscripta.at/hs_detail.php?ID=28443"/></note>
+                        <note type="catalogue"><ref target="https://manuscripta.at/hs_detail.php?ID=28443">manuscripta.at</ref></note>
+                        <note type="summary">The manuscript contains the text of the twelve minor prophets followed by Isaiah and Jeremiah. The anthology is preceded by an excerpt from Jerome's letter to Pauline giving a short overview of the main topics of each book. Already in Jerome's time the twelve books of the prophets were written down 'compressed within the narrow limits of a single volume'. Passages from Jonas, Michaeas, Sophonias, Aggaeus, Zacharias, Isaiah and Jeremiah have contemporary annotations suggesting the texts were read in the liturgy.</note>
                     </head> 
                     <msContents>
                         <textLang mainLang="lat" otherLangs=""/> 
                         <msItem>
-                            <locus>Ir</locus>
+                            <locus>Ar</locus>
                             <note>Chants with neums. 11th-century addition.</note>
                             <incipit>Rege regis dominum</incipit>
                         </msItem>
                         <msItem>
-                            <locus>Iv</locus>
+                            <locus>Av</locus>
                             <note type="title">Table of content to the XII prophets</note>
                             <quote>I. Isaias, II. Hieremias <gap reason="omitted"/> XV. Malachias, XVI <gap reason="lacuna"/></quote>
                         </msItem>
@@ -59,10 +60,11 @@
                             <locus from="1r" to="2v">1r-2v</locus>
                             <author ref="#hieronymus">Hieronymus</author>
                             <title ref="#hieronymus_epistulae_3">Epistulae, 3, 53, 8</title>
-                            <rubric><locus>Iv </locus>In dei nomine incipit prologus XII prophetarum</rubric>
+                            <rubric><locus>Av </locus>In dei nomine incipit prologus XII prophetarum</rubric>
                             <note type="title">Prolog to the Prophetae</note> 
                             <incipit>Duodecim <sic>prophetare</sic> me in unius uoluminis angustias <sic>coartatim</sic></incipit>
                             <finalRubric>Explicit Prologus Hieronimi.</finalRubric>
+                            <note>An excerpt from Jeromes' letter to Paulinus, bishop of Nola, giving a succinct overview on the topics covered in the Twelve minor prophets, and the four prophets Isaiah, Jeremiah, Ezekiel and Daniel.</note>
                         </msItem>
                         <msItem>
                             <locus>2v-3r</locus>
@@ -97,6 +99,7 @@
                             <incipit>Uerba amos qui fuit in pastoralibus</incipit>
                             <explicit>dicit dominus deus tuus.</explicit>
                             <finalRubric>Explicit amos propheta.</finalRubric>
+                            <note>Annotation: <locus>22v</locus> <ref type="biblical" cRef="Am_9,11">In die illo suscitabo <gap/></ref> marked as reading <quote>In aduentu</quote></note>
                         </msItem>
                         <msItem>
                             <locus>23r-24r</locus>
@@ -113,7 +116,7 @@
                             <incipit>Et factum est uerbum domini ad ionam</incipit>
                             <explicit>et iumenta multa</explicit>
                             <finalRubric>Explicit ionas propheta.</finalRubric>
-                            <note>Annotation next to rubric: <quote>In caput quadragesimae</quote></note>
+                            <note>Annotation: <locus>25r</locus> <ref type="biblical" cRef="Ion_3,1">Et factum est uerbum domini <gap/></ref> marked as reading <quote>In caput quadragesimae</quote></note>
                         </msItem>
                         <msItem>
                             <locus>26v-32r</locus>
@@ -122,7 +125,13 @@
                             <incipit>Uerbum domini quod factum est ad miham</incipit>
                             <explicit>patribus nostris a diebus antiquis.</explicit>
                             <finalRubric>Explicit micha propheta.</finalRubric>
-                            <note>Annotation in the initial: <quote>In aduento</quote></note>
+                            <note>Annotations: <list>
+                                <item><locus>26v</locus>: <ref type="biblical" cRef="Mi_1,1">Uerbum domini <gap/></ref> marked as reading <quote>In aduento</quote></item>
+                                <item><locus>28v</locus>: <ref type="biblical" cRef="Mi_4,1">Et in nouissimo <gap/></ref> marked as reading <quote>In aduento</quote></item>
+                                <item><locus>31r</locus>: <ref type="biblical" cRef="Mi_7,5">nolite credere <gap/></ref> marked as reading <quote>In passione</quote></item>
+                                <item><locus>32v</locus>: <ref type="biblical" cRef="Mi_7,14">Pasce populum <gap/></ref> marked as reading <quote>In aduento</quote></item>
+                            </list>
+                            </note>
                         </msItem>
                         <msItem>
                             <locus>32r-34r</locus>
@@ -131,6 +140,11 @@
                             <incipit>Onus nineue liber uisionis naum helcesei</incipit>
                             <explicit>non transiuit malitia tua semper.</explicit>
                             <finalRubric>Explicit naum prophaetae.</finalRubric>
+                            <note>Annotations: <list>
+                                <item><locus>32v</locus>: <ref type="biblical" cRef="Na_1,12">Haec dicit dominus si perfecti <gap/></ref> marked as reading <quote>In fratrum aduento</quote></item>
+                                
+                            </list>
+                            </note>
                         </msItem>
                         <msItem>
                             <locus>34v-37r</locus>
@@ -139,7 +153,12 @@
                             <incipit>Onus quod uidit abbacuch propaeta usquequo domine</incipit>
                             <explicit>uictor in psalmis canentem.</explicit>
                             <finalRubric>Explicit abbacuc prophaeta.</finalRubric>
-                            <note>The third chapter with separate initial rubrics <quote>Oratio  abbacuc propheta pro ig<supplied>norantiis</supplied></quote>.</note>
+                            <note>Annotations: <list>
+                                <item><locus>35r</locus>: <ref type="biblical" cRef="Hab_2,1">Super custodiam <gap/></ref> marked as reading <quote>In aduento</quote></item>
+                                
+                            </list>
+                            </note>
+                            <note>The third chapter with separate initial rubrics <quote>Oratio abbacuc propheta pro ig<supplied>norantiis</supplied></quote>.</note>
                         </msItem>
                         <msItem>
                             <locus>37r-40r</locus>
@@ -148,7 +167,12 @@
                             <incipit>Uerbum domini quod factum est ad sofoniam</incipit>
                             <explicit>coram oculis uestris dicit dominus. Amen.</explicit>
                             <finalRubric>Explicit sofonias prophaeta.</finalRubric>
-                            <note>On f. <locus>38r</locus> the passage starting with <ref type="biblical" cRef="So_2,3">Haec dicit dominus quaerite dominim omnes mansueti terrae</ref> marked for reading during office <quote>in aduentu domini</quote>; <ref type="biblical" cRef="So_3,14">HLauda filia syon</ref> - <quote>In aduento</quote>.</note>
+                            <note>Annotations: <list>
+                                <item><locus>38r</locus>: <ref type="biblical" cRef="So_2,3">Haec dicit dominus quaerite dominim omnes mansueti terrae</ref> marked as reading <quote>In aduentu domini</quote></item>
+                                <item><locus>39v</locus>: <ref type="biblical" cRef="So_3,14">Lauda filia syon</ref> marked as reading <quote>In aduento</quote></item>
+                                
+                            </list>
+                            </note>                            
                         </msItem>
                         <msItem>
                             <locus>40r-42r</locus>
@@ -157,7 +181,9 @@
                             <incipit>In anno secundo dari regis</incipit>
                             <explicit>dicit dominus exercituum.</explicit>
                             <finalRubric>Explicit aggeus prophaetae.</finalRubric>
-                            <note><locus>40v</locus> <ref type="biblical" cRef="Agg_1,12">Et audiuit zorobabel</ref> marked for reading during service <quote>in dedicatione</quote>.</note>
+                            <note><list>
+                                <item>Annotation on f. <locus>40v</locus> <ref type="biblical" cRef="Agg_1,12">Et audiuit zorobabel</ref> marked for reading during service <quote>in dedicatione</quote>.</item>
+                            </list></note>
                         </msItem>
                         <msItem>
                             <locus>42r-53r</locus>
@@ -168,18 +194,19 @@
                             <finalRubric>Explicit zacharias propheta.</finalRubric>
                             <note>Passages marked as readings during office:
                                 <list>
-                                    <item><locus>42v</locus> the passage starting with <ref type="biblical" cRef="Za_1,7">Factum est uerbum domini ad zachariam</ref> - <quote>in aduentum</quote> </item>
-                                    <item><locus>43v</locus> <ref type="biblical" cRef="Za_">Lauda et laetare filia sion</ref> <quote>In aduento</quote></item>
-                                    <item><locus>46r</locus> <ref type="biblical" cRef="Za_6,9">Et factum est uerbum domini ad me dicens sume a transmigratione</ref> - <quote>In aduento</quote>
+                                    <item><locus>42v</locus> <ref type="biblical" cRef="Za_1,7">Factum est uerbum domini ad zachariam</ref> marked for reading <quote>in aduentum</quote> </item>
+                                    <item><locus>43v</locus> <ref type="biblical" cRef="Za_2,10">Lauda et laetare filia sion</ref> marked for reading <quote>In aduento</quote></item>
+                                    <item><locus>44r</locus> <ref type="biblical" cRef="Za_4,1">Et reuersus est</ref> marked for reading <quote>In apostolorum</quote></item>
+                                    <item><locus>46r</locus> <ref type="biblical" cRef="Za_6,9">Et factum est uerbum domini ad me dicens sume a transmigratione</ref> marked for reading <quote>In aduento</quote>
                                     </item>
-                                    <item><locus>47r</locus> <ref type="biblical" cRef="Za_">Haec dicit dominus execituum ecce ego</ref> - <quote>In aduento</quote>
+                                    <item><locus>47r</locus> <ref type="biblical" cRef="Za_8,7">Haec dicit dominus execituum ecce ego</ref> marked for reading <quote>In aduento</quote>
                                     </item>
-                                    <item><locus>48r</locus> <ref type="biblical" cRef="Za_6,9">Haec dicit dominus execituum ieiunium quarti</ref> - <quote>Et ieiunia sollemnia IIII et II</quote>
+                                    <item><locus>48r</locus> <ref type="biblical" cRef="Za_8,18">Haec dicit dominus execituum ieiunium quarti</ref> marked for reading <quote>Et ieiunia sollemnia IIII et II</quote>
                                     </item>
-                                    <item><locus>48v</locus> <quote>In aduento sollemem</quote></item>
-                                    <item><locus>49v</locus> <quote>In cena domini</quote></item>
-                                    <item><locus>51v</locus> <quote>In cena domini</quote></item>
-                                    <item><locus>52r</locus> <quote>In aduento</quote></item>
+                                    <item><locus>48v</locus> <ref type="biblical" cRef="Za_9,9">Exsulta satis <gap/></ref> marked for reading <quote>In aduento sollemem</quote></item>
+                                    <item><locus>49v</locus> <ref type="biblical" cRef="Za_11,4">Haec dicit <gap/></ref> marked for reading <quote>In cena domini</quote></item>
+                                    <item><locus>51v</locus> <ref type="biblical" cRef="Za_13,2">Et erit in die <gap/></ref> marked for reading <quote>In cena domini</quote></item>
+                                    <item><locus>52r</locus> <ref type="biblical" cRef="Za_14,3">Et gredietur</ref> marked for reading <quote>In aduento</quote></item>
                                 </list>.</note>
                         </msItem>
                         <msItem>
@@ -277,7 +304,7 @@
                                     </dimensions>
                                 </extent>
                                 <foliation>Modern foliation in ink in the upper right corner of every recto: 1-163, 163a, 164-184.</foliation>
-                                <collation>The manuscript consists mainly of regular quaterniones. Exceptions: the first quire is a ternio; the second has nine leaves (f. 6 is a singleton, possibly originally belonging to the first quire). The eight quire (ff. 55-60), originally a quaternio, lost its 1st, 2nd, 6th, 7th and 8th leaf, which were replaced in the 12th century; due to the denser script of the added leaves the quire is now a ternio (f. 56 a singleton placed erroneously after f. 57; f. 60 also a singleton). The last leaf of quire 22 (ff. 164-171) is also a 12th-century replacement for the original leaf; the first leaf of this quire is glued on the stub of f. 171. In quire 23 (ff. 172-181) ff. 178 and 179 make a bifolium (12th century addition) inserted between the 6th and 7th leaf of the quire. The last quire 24 (ff. 182-184) is a binio, f. 182 attached to the pastedown. Formula: <formula></formula>. Visualisation in VCEditor: https://vceditor.library.upenn.edu/project/6446702c1f64150001af10ec/viewOnly
+                                <collation>The manuscript consists mainly of regular quaterniones. Exceptions: the first quire is a ternio; the second has nine leaves (f. 6 is a singleton, possibly originally belonging to the first quire). The eight quire (ff. 55-60), originally a quaternio, lost its 1st, 2nd, 6th, 7th and 8th leaf, which were replaced in the 12th century; due to the denser script of the added leaves the quire is now a ternio (f. 56 a singleton placed erroneously after f. 57; f. 60 also a singleton). The last leaf of quire 22 (ff. 164-171) is also a 12th-century replacement for the original leaf; the first leaf of this quire is glued on the stub of f. 171. In quire 23 (ff. 172-181) ff. 178 and 179 make a bifolium (12th century addition) inserted between the 6th and 7th leaf of the quire. The last quire 24 (ff. 182-184) is a binio, f. 182 attached to the pastedown. Formula: <formula>1<hi rend="sup">6</hi> (ff. 1-5), 2<hi rend="sup">(8+1)</hi> (ff. 6-14), 3-7<hi rend="sup">8</hi> (ff. 15-54), 8<hi rend="sup">6</hi> (ff. 55-60), 9-22<hi rend="sup">8</hi> (ff. 61-171), 23<hi rend="sup">10</hi> (ff. 172-181), 24<hi rend="sup">3</hi> (ff. 182-184)</formula>. Visualisation in <ref target="https://vceditor.library.upenn.edu/project/6446702c1f64150001af10ec/viewOnly">VCEditor</ref>.
                                 </collation>
                                 <condition>Gold rests from (?) on fols. 152v, 159r.</condition>
                             </supportDesc>
@@ -290,7 +317,7 @@
                                     <dimensions type="lineHeight" unit="mm">
                                         <height>9</height>
                                     </dimensions>
-                                    Ruled in blind tool on the innermost bifolium of every quire on the flesh side; two double vertical lines (in 9 mm distance) going all the way to the leaf end. Text lines bound within the vertical ones with the exception of the first and last one which crosses them and seems to be drawn on the open bifolium (connected through the gutter). Pricking for the vertical lines on the lower margin mostly preserved. On the sheet/goat quires pricking for text lines preserved only occasionally (fols. 72-73, 112-113) though not really corresponding to the ruled lines (?).
+                                    Ruled in blind tool on the innermost bifolium of every quire on the flesh side; two double vertical lines (in 9 mm distance) going all the way to the leaf end. Text lines bound within the vertical ones with the exception of the first and last one which crosses them and seems to be drawn on the open bifolium (connected through the gutter). Pricking for the vertical lines on the lower margin mostly preserved. On the sheep/goat quires pricking for text lines preserved only occasionally (fols. 72-73, 112-113) though not really corresponding to the ruled lines (?).
                                    <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
                                        laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
                                 </layout>
@@ -301,18 +328,18 @@
                             <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
                         </handDesc>
                         <scriptDesc>
-                            <summary>According to Bischoff the manuscript was written by several hands which belong to the type of the Landperht-Homiliarium with the exception of the hand responsible for ff. <locus from="159v" to="160r">159v-160r</locus> - which is <quote>unpräzise gebildet</quote>. Bischoff recognised the same hand in <ref type="altMs" target="#desc__vr_f-b3km.xml">Vienna, ÖNB, Cod. Ser. n. 3754</ref>.</summary>
-                            <scriptNote script="x" medium="x">Uncial and Capitalis rustica in red or black ink.</scriptNote>
+                            <summary>According to Bischoff the manuscript was written by several hands which belong to the type of the <ref type="altMs" target="#desc__vienna_onb_1014.xml">Landperht-Homiliarium</ref> with the exception of the hand responsible for ff. <locus from="159v" to="160r">159v-160r</locus> - which is <quote>unpräzise gebildet</quote>. Bischoff recognised the same hand in <ref type="altMs" target="#desc__vr_f-b3km.xml">Vienna, ÖNB, Cod. Ser. n. 3754</ref>.</summary>
+                            <scriptNote script="x" medium="x">Square Capitals for the title on f. Av; Uncial for the title on f. 1r; Capitalis rustica for the rubrication; Uncial for the  first text line (as on f. 3r) and for litterae notabiliores, marking minor divisions / major pause / the begin of a sentence within the text; Caroline Minuscule for the main text. Uncial and Capitalis rustica in red used within the text to mark passages.</scriptNote>
                             <scriptNote>Letter forms: open cc-a; caroline a; y with a point above.</scriptNote>
                             <scriptNote>Ligatures: ri (sharp edge on the connection and i going low below the line), re, ra, ro, nt, et, ec, ex, est, eri, ct, te, </scriptNote>
                             <scriptNote>Punctuation: </scriptNote>
                             <scriptNote>Abbreviation marks: apart from the omnipresent Tironian abbreviation for et, there are few abbreviations mainly by suspension of -bus endings marked by a semicolon sign, and a macron (curled horizontal line) to marked the omission of a final m; more rare -us abbreviation through a semi-circle entered above the line at the end of words; -orum abbreviation.</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote type="initial">For the initials of the separate books were used red, yellow and green.</decoNote>
+                            <decoNote type="initial">3 to 5-line high initials for the opening of the separate books and prologue in red, yellow and green: 1r, 3r, 12r, 15v, 23r, 24r, 26v, 32r, 34v, 36r, 37r, 42r, 53r, 56v, 116v, 117v, 177v.</decoNote>
                             <decoNote>19v - initial letters with red</decoNote>
                         </decoDesc>   
-                        <additions>Musical notations - adiastematic St. Gall neumes - added by a contemporary hand in the Lamentations - sign that the manuscript was used in the liturgy as Lectionarium (see <bibl>Die Botschaft der Musik</bibl>). Fols. 55, 59, 60, 171, 178 and 179 are twelfth-century additions.</additions>
+                        <additions>Musical notations - adiastematic St. Gall neumes - added by a later hand in the Lamentations - sign that the manuscript was used in the liturgy as Lectionarium (see <bibl><abbr>Seipel 1996</abbr></bibl>). Fols. 55, 59, 60, 171, 178 and 179 are twelfth-century additions.</additions>
                         <bindingDesc>
                             <binding contemporary="false">
                                 <p>Gothic binding. White leather over wooden boards. Spine restored.</p>
@@ -357,7 +384,7 @@
                 <p></p>
             </editorialDecl>
             <projectDesc>
-                <p>Description originated within the project "The Carolingian Scriptorium of Mondsee" based on secondary literature.</p>
+                <p>Description originated within the project "The Carolingian Scriptorium of Mondsee".</p>
             </projectDesc>
         </encodingDesc>
     <revisionDesc status="draft">

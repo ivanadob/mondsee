@@ -727,12 +727,16 @@
                                 <incipit>Domini nostri Ihesu christi saluatoris honorabile sollemnitatem diuina fauente clementia</incipit>
                             </msItem>
                         </msItem>
+                        <msItem>
+                            <locus></locus>
+                            <title></title>
+                        </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <material>Pergament</material>, die äußerste Doppleblätter in der Lagen oft aus einem etwa steifen und stärkeren Pergament. Wenige Löcher, enstanden beim Pergamentherstellung (f. 63, 67, 76, 77, 159, 162, 176, 178, 184, 193, 196, 198, 218). Baltt 76 - mit den Löchern - schlecht vorbereitet - wohl aus Angst dass es weiter bricht nicht gut kalziniert; etwa glanzend. das Doppelblatt 164-165 vom Lederrand - wohl Tierschanz ausschnitt zu erkennen. 187 auch vom Rand. 190 - untere Hälfte zugenäht. Die Blätter sind HFHF geordnet. 
+                                    <material>Pergament</material>, die äußerste Doppleblätter in der Lagen oft aus einem etwa steifen und stärkeren Pergament. Wenige Löcher, enstanden beim Pergamentherstellung (f. 63, 67, 76, 77, 159, 162, 176, 178, 184, 193, 196, 198, 218). Blatt 76 - mit den Löchern - schlecht vorbereitet - wohl aus Angst dass es weiter bricht nicht gut kalziniert; etwa glanzend. das Doppelblatt 164-165 vom Lederrand - wohl Tierschwanz ausschnitt zu erkennen. 187 auch vom Rand. 190 - untere Hälfte zugenäht. Die Blätter sind HFHF geordnet. 
                                 </support>
                                 <extent>
                                     <measure type="leavesCount" quantity="238" unit="folio">238 fols.</measure>
