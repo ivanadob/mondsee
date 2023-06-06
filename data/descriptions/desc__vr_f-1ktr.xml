@@ -42,6 +42,48 @@
                         <note type="summary">The original manuscript contained the four gospels preceded by Eusebian canon tables with sumptuous decoration. The now surviving leaves were used as binding waste for account books in the 17<hi rend="sup">th</hi> and 19<hi rend="sup">th</hi> centuries. A rough estimation of the layout and the amount of text fitting one page suggests the original manuscript had about 280 fols.</note>
                         <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-1ktr"/></note>
                     </head> 
+                    <physDesc>
+                        <objectDesc form="fragment">
+                            <supportDesc material="perg">
+                                <support></support>
+                                <extent>
+                                    <measure type="leavesCount" quantity="66" unit="folio">66 partial</measure>
+                                    <dimensions type="leaf_current" unit="mm">
+                                        <height>350</height>
+                                        <width>260</width>
+                                    </dimensions>
+                                </extent>                                
+                                <collation>
+                                </collation>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout ruledLines="0" writtenLines="0" columns="0">
+                                    <dimensions type="written" unit="mm">
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions> 
+                                    <dimensions type="column" unit="mm">
+                                        <width></width>
+                                    </dimensions>
+                                    <dimensions type="lineHeight" unit="mm">
+                                        <height></height>
+                                    </dimensions>
+                                    <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
+                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary></summary>
+                            <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <summary></summary>                            
+                            <scriptNote script="x" medium="x">Uncial.</scriptNote>
+                        </scriptDesc>
+                        
+                    </physDesc>
                     <additional>                        
                         <surrogates>
                             <ref/>
