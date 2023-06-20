@@ -20,6 +20,9 @@
   <text>
       <body>
          <listPerson>
+            <person xml:id="id">
+               <persName>Ivana Dobcheva</persName>
+            </person>
             <person xml:id="ansegisus">
                <persName xml:id="gnd_119378639" ref="https://d-nb.info/gnd/119378639">Ansegisus</persName>
             </person>

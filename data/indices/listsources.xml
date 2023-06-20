@@ -42,6 +42,7 @@
             <item xml:id="bhm">
                <label>BHM</label>
                <bibl>Lambert B., Bibliotheca hieronymiana manuscripta, Steenbrugis 1969-1972, 4 vols. (Instrumenta patristica, 4).</bibl>
+               <ref target="https://archive.org/details/bibliothecahiero0003blamb"/>
             </item>
             <item xml:id="bischoff-1980">
                <label>Bischoff 1980</label>
@@ -70,11 +71,19 @@
             </item>
             <item xml:id="cccm">
                <label>CCCM</label>
-               <bibl>Corpus christianorum. Continuatio mediaevalis, Turnholti 1966-</bibl>
+               <bibl>Corpus christianorum. Continuatio mediaevalis, Turnholti 1966-.</bibl>
             </item>
             <item xml:id="ccsl">
                <label>CCSL</label>
-               <bibl>Corpus christianorum. Series latina, Turnholti 1953-</bibl>
+               <bibl>Corpus christianorum. Series latina, Turnhout 1953-.</bibl>
+            </item>
+            <item xml:id="cppm">
+               <label>CPPM</label>
+               <bibl>Clavis patristica pseudepigraphorum medii aevi, ed. by Johannes Machielsen (Corpus christianorum. Series Latina), Turnhout 1990-.</bibl>
+            </item>
+            <item xml:id="csel">
+               <label>CSEL</label>
+               <bibl>Corpus Scriptorum Ecclesiasticorum Latinorum, Vienna 1866-.</bibl>
             </item>
             <item xml:id="czerny-1871">
                <label>Czerny 1871</label>
@@ -99,15 +108,7 @@
             <item xml:id="cpl">
                <label>CPL</label>
                <bibl>Dekkers E. (ed.), Clavis Patrum Latinorum. 1995 (3rd edition).</bibl>
-            </item>
-            <item xml:id="cppm">
-               <label>CPPM</label>
-               <bibl>Clavis Patristica Pseudoepigraphorum Medii Aevi.</bibl>
-            </item>
-            <item xml:id="csel">
-               <label>CSEL</label>
-               <bibl>Corpus scriptorum ecclesiasticorum latinorum. Vienna, 1866-.</bibl>
-            </item>
+            </item>            
             <item xml:id="denis-1802">
                <label>Denis 1802</label>
                <bibl>Denis, Michael, ed. in <title>Codices Manuscripti Theologici Bibliothecae Palatinae Vindobonensis Latini</title>. Vol. 2. Vienna, 1802.</bibl>
@@ -150,7 +151,7 @@
             </item>
             <item xml:id="gryson-2007">
                <label>Gryson 2007</label>
-               <bibl>Répertoire général des auteurs ecclésiastiques latins de l'antiquité et du haut moyen âge. Freiburg: Herder, 2007.</bibl>
+               <bibl>Répertoire général des auteurs ecclésiastiques latins de l'antiquité et du haut moyen âge. 2 vols. Freiburg: Herder, 2007.</bibl>
             </item>
             <item xml:id="hallinger-1969">
                <label>Hallinger 1969</label>
@@ -309,17 +310,124 @@
                <title>Sermo XCIV</title>
                <author ref="#augustinus">(Ps.-) Augustinus</author>
             </bibl>
+            <bibl xml:id="augustinus_sermo_135">
+               <title>Sermo CXXXV. In epiphania domini V.</title>
+               <author ref="#augustinus">(Ps.-) Augustinus</author>
+               <listRelation>
+                  <relation ref="#pl">
+                     <desc>PL 39, 2011-2013</desc>
+                  </relation>
+                  <relation ref="#gryson-2007">
+                     <desc>Gryson-2007, p. 279.</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="augustinus_sermo_137">
+               <title>Sermo CXXXVII. In epiphania domini.</title>
+               <author ref="#augustinus">(Ps.-) Augustinus</author>
+               <note>= Hieronymus, Sermo de die epiphaniorum</note>
+               <listRelation>
+                  <relation ref="#pl">
+                     <desc>PL 39, 2015-2017.</desc>
+                  </relation>
+                  <relation ref="#gryson-2007">
+                     <desc>pp. 280, 546</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="augustinus_sermo_ii">
+               <title>Sermo Quantum valeat jejunium</title>
+               <author ref="#augustinus">(Ps.-) Augustinus</author>
+               <author ref="#hieronymus">Hieronymus</author>
+               <listRelation>
+                  <relation ref="#pl">
+                     <desc>PL 47, 1142C-1144A</desc>
+                  </relation>
+                  <relation ref="#bhm">
+                     <desc>BHM 704 (Vol. IIIB, 572)</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="augustinus_sermo_156">
+               <title>Sermo 156.</title>
+               <author ref="#augustinus">(Ps.-) Augustinus</author>
+               <listRelation>
+                  <relation ref="#pl">
+                     <desc>PL 39, 2053-2055</desc>
+                  </relation>
+                  <relation ref="#gryson-2007">
+                     <desc>Gryson-2007, p. 281.</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
             <bibl xml:id="augustinus_sermo_195">
-               <title>Sermo CXCV. De Annuntiatione Dominica, III</title>
+               <title>Sermo app. 195. De Annuntiatione Dominica, III</title>
                <author ref="#augustinus">(Ps.-) Augustinus</author>
             </bibl>
             <bibl xml:id="augustinus_sermo_202">
-               <title>Sermo CCII. In Epiphania Domini, IV</title>
+               <title>Sermo 202. In Epiphania Domini, IV</title>
                <author ref="#augustinus">(Ps.-) Augustinus</author>
             </bibl>
             <bibl xml:id="augustinus_sermo_245">
-               <title>Sermo CCXLV. De mysterio trinitatis et incarnationis</title>
+               <title>Sermo app. 245. De mysterio trinitatis et incarnationis</title>
                <author ref="#augustinus">(Ps.-) Augustinus</author>
+               <listRelation>
+                  <relation ref="#pl">
+                     <desc>PL 39, 2196-2198</desc>
+                  </relation>
+                  <relation ref="#cppm">
+                     <desc>CPPM I, 1030; 5563.</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="augustinus_sermo_mai_154">
+               <title>Sermo de vigilia paschae</title>
+               <author ref="#augustinus">(Ps.-) Augustinus</author>
+               <listRelation>
+                  <relation ref="#pls">
+                     <desc>PLS 2, 1251-1253;</desc>
+                  </relation>
+                  <relation ref="#cpl">
+                     <desc>CPL 372a.</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="augustinus_sermo_159">
+               <title>Sermo 159 de vigilia paschae</title>
+               <author ref="#augustinus">(Ps.-) Augustinus</author>
+               <author ref="#hieronymus">Hieronymus</author>
+               <listRelation>
+                  <relation ref="#ccsl">
+                     <desc>CCSL 78, pp. 545-547;</desc>
+                  </relation>
+                  <relation ref="#bhm">
+                     <desc>231;</desc>
+                  </relation>
+                  <relation ref="#cpl">
+                     <desc>CPL 603, 368;</desc>
+                  </relation>
+                  <relation ref="#pl">
+                     <desc>PL 39, 2058</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="augustinus_sermo_dubius">
+               <title>Sermo dubius 382 de s. Stephano</title>
+               <author ref="#augustinus">(Ps.-) Augustinus</author>
+               <listRelation>
+                  <relation ref="#pl">
+                     <desc>PL 39, 1684-1686;</desc>
+                  </relation>
+                  <relation ref="#pls">
+                     <desc>PLS 2, 403;</desc>
+                  </relation>
+                  <relation ref="#cppm">
+                     <desc>CPPM I, 748;</desc>
+                  </relation>
+                  <relation ref="#cpl">
+                     <desc>CPL 285.</desc>
+                  </relation>
+               </listRelation>               
             </bibl>
             <bibl xml:id="augustinus_tract_in_ioh">
                <title>Tractatus in Iohannis evangelium</title>
@@ -396,6 +504,35 @@
                   </relation>
                </listRelation>
             </bibl>
+            <bibl xml:id="caesarius_arelatensis_homilia_204">
+               <title>Sermo 204</title>
+               <author ref="#caesarius_arelatensis">Caesarius Arelatensis</author>
+               <author ref="#augustinus">(Ps.) Augustinus</author>
+               <listRelation>
+                  <relation ref="#ccsl">
+                     <desc>CCSL 104,  pp. 819-822;</desc>
+                  </relation>
+                  <relation ref="#cpl">
+                     <desc>1008;</desc>
+                  </relation>
+                  <relation ref="#pl">
+                     <desc>39, 2070-2072.</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="caesarius_arelatensis_homilia_216">
+               <title>Sermo 216</title>
+               <author ref="#caesarius_arelatensis">Caesarius Arelatensis</author>
+               <author ref="#augustinus">(Ps.) Augustinus</author>
+               <listRelation>
+                  <relation ref="#ccsl">
+                     <desc>CCSL 104, pp. 858-861;</desc>
+                  </relation>
+                  <relation ref="#cppm">
+                     <desc>I, 982, 4345;</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
             <bibl xml:id="capitularia_ansegisus">
                <title>Ansegisi capitularium libri IV / Collectio capitularium</title>
                <author ref="#ansegisus">Ansegisus</author>
@@ -457,6 +594,11 @@
             <bibl xml:id="expositio_regulam_sb">
                <title>Expositio in regulam Sancti Benedicti</title>
                <author ref="#smaragdus">Smaragdus S. Michaelis</author>
+               <listRelation>
+                  <relation ref="#pl">
+                     <desc>102, 689B-932C.</desc>
+                  </relation>
+               </listRelation>
             </bibl>
             <bibl xml:id="gregorius_homiliae_12">
                <title>Homiliae in evangelia. Homilia 12</title>
@@ -582,6 +724,30 @@
                <listRelation>
                   <relation ref="#ccsl">
                      <desc>CCSL 138A, pp. 232-237.</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="maximus_sermo">
+               <title>Sermo</title>
+               <author ref="#maximus_taurinensis">Maximus Taurinensis</author>
+               <listRelation>
+                  <relation ref="#ccsl">
+                     <desc>23, 2-4</desc>
+                  </relation>
+                  <relation ref="#cppm">
+                     <desc>I, 108; 987; 5522</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="maximus_sermo_12">
+               <title>Sermo 12</title>
+               <author ref="#maximus_taurinensis">Maximus Taurinensis</author>
+               <listRelation>
+                  <relation ref="#ccsl">
+                     <desc>23, 41</desc>
+                  </relation>
+                  <relation ref="#cpl">
+                     <desc>219a.</desc>
                   </relation>
                </listRelation>
             </bibl>
@@ -778,6 +944,10 @@
             <bibl xml:id="evangelium_matthaeum">
                <title>Evangelium secundum Matthaeum</title>
                <idno type="gnd">http://d-nb.info/gnd/4038001-4</idno>
+            </bibl>
+            <bibl xml:id="epistulae_pauli">
+               <title>Epistolae Pauli</title>
+               <idno type="gnd">https://d-nb.info/gnd/4075949-0</idno>
             </bibl>
             <bibl xml:id="philomenem">
                <title>Epistola ad Philomenem</title>

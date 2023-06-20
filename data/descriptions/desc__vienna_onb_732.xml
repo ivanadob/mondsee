@@ -35,6 +35,7 @@
                         (<date notBefore="1201" notAfter="1250">s. XIII</date>)
                         <origPlace>Mondsee</origPlace>
                         <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13956701"></ref></note>
+                        <note type="facsimile"><ref target="http://data.onb.ac.at/dtl/9670184"></ref></note>
                         <note type="summary">The composite volume contains two main codicological units. The first 63 folios with the biblical text of "Libri Maccabeorum" were written probably in Mondsee in the 13<hi rend="sup">th</hi> c. The second part starting on f. 64r and datable to the first half of the 9<hi rend="sup">th</hi> c. contains a partial copy of the Pauline letters (reconstructed manuscript <ref type="altMs" target="#desc__vienna_onb_sn_2065.xml">Vienna, ÖNB, Cod. Ser. n. 2065</ref>) and a collection of homilies.</note>
                     </head> 
                     <physDesc>
@@ -43,7 +44,7 @@
                                 <support>Calf parchment.</support>
                                 <extent>
                                     <measure type="leavesCount" quantity="178">178 fols.</measure>
-                                   <dimensions type="leaf" unit="mm">
+                                   <dimensions type="leaf_current" unit="mm">
                                         <height>300</height>
                                         <width>210</width>
                                     </dimensions>
@@ -80,22 +81,27 @@
                             <origPlace>Mondsee (?)</origPlace>
                         </head>
                         <msContents>
-                            <textLang mainLang="lat" otherLangs=""/> <!--nach ISO-639-3 : lat, deu, gmh etc. : https://de.wikipedia.org/wiki/%C3%9Cberblicksliste_der_ISO-639-3-Codes-->
+                            <textLang mainLang="lat"/>
                             <msItem>
-                                <locus from="x" to="x"/>
-                                <title/>
-                                <author/>
-                                <rubric/>
-                                <incipit/>
-                                <explicit/>
-                                <finalRubric/>
-                                <colophon></colophon>
-                                <decoNote></decoNote>
-                                <note/>
-                                <filiation></filiation>
-                                <listBibl>
-                                    <bibl/>
-                                </listBibl>
+                                <locus from="1r" to="63v">1r-63v</locus>
+                                <title>Libri Maccabaeorum</title>                               
+                                <decoNote>Decorated red initials for the beginning of the Capitula and the books.</decoNote>
+                                <msItem>
+                                    <locus>1r-2v</locus>
+                                    <note>Capitula</note>
+                                </msItem>
+                                <msItem>
+                                    <locus>2v-36v</locus>
+                                    <note>Liber primus</note>
+                                </msItem>
+                                <msItem>
+                                    <locus>36v-62v</locus>
+                                    <note>Liber secundus</note>
+                                </msItem>
+                                <msItem>
+                                    <locus>62v-63v</locus>
+                                    <note>Capitula secundi libri</note>
+                                </msItem>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -124,7 +130,7 @@
                             <textLang mainLang="lat"/>
                             <msItem>
                                 <locus from="64r" to="116v">64r-116v</locus>
-                                <title>Epistulae Pauli</title>    
+                                <title ref="#epistulae_pauli">Epistulae Pauli</title>    
                                 <msItem>
                                     <locus from="64r" to="88r">64ra-88rb</locus>
                                     <title ref="#romanos">Epistola ad Romanos</title>
@@ -182,6 +188,7 @@
                                     <rubric>Incipit omelia sancti Gregorii de decem virginibus</rubric>
                                     <incipit>Saepe uos ammoneo fratres karissimi praua opera</incipit>
                                     <explicit>quia nescitis diem neque horam.</explicit>
+                                    <bibl><abbr>CCSL</abbr> 141, 80-88.</bibl>
                                 </msItem>
                                 <msItem>
                                     <locus from="124v" to="130r">124va-130ra</locus>
@@ -191,6 +198,7 @@
                                     <incipit>I. i. t. dixit ihesus turbis similitudinem hanc: exiit qui seminat <gap reason="omitted"/> comedunt illud et reliqua. Incipit omelia lectionis eiusdem. Lectio sancti euangelii quam modo fratres karissimi audistis</incipit>
                                     <explicit>consortes esse ualeatis.</explicit>
                                     <finalRubric>Quae sunt instrumenta bonorum operum.</finalRubric>
+                                    <bibl><abbr>CCSL</abbr> 141, 239-243.</bibl>
                                 </msItem>
                                 <msItem>
                                     <locus from="130r" to="131v">130ra-131vb</locus>
@@ -203,26 +211,24 @@
                                 <msItem>
                                     <locus from="132r" to="136r">132ra-136ra</locus>
                                     <author ref="#augustinus">Ps.- Augustinus</author>
-                                    <title ref="#augustinus_sermo_245">Sermo CCXLV. De mysterio trinitatis et incarnationis</title>
+                                    <title ref="#augustinus_sermo_245">Sermo app. 245. De mysterio trinitatis et incarnationis</title>
                                     <rubric>Incipit lectio de natiuitate domini in primis de incarnatione domini nostri ihesu christi</rubric>
                                     <incipit>Legimus sanctum moysen populo dei precepta dantem</incipit>
                                     <explicit>pacificauit omnia quae in caelis sunt et quae in terris <gap reason="omitted"/> amen.</explicit>
                                     <listBibl>
-                                        <bibl><abbr>PL</abbr> 39, 2196-98.</bibl>
-                                        <bibl></bibl>
-                                        </listBibl>
-                                    <note>PD 1, 9.</note>
-                                    <filiation><ref type="altMs">Vienna, ÖNB, Cod. 1556</ref>, fol. 2v-5v.</filiation>
+                                        <bibl><abbr>PL</abbr> 39, 2196-98;</bibl>
+                                        <bibl><abbr>CPPM</abbr> I, 1030; 5563.</bibl>
+                                    </listBibl>
+                                    <filiation>PD 1, 9; <ref type="altMs">Vienna, ÖNB, Cod. 1556</ref>, fol. 2v-5v.</filiation>
                                 </msItem>
                                 <msItem>
                                     <locus from="136r" to="141v">136ra-141vb</locus>
-                                    <author ref="#augustinus">(Ps.-) Augustinus</author>
-                                    <title ref="#augustinus_sermo_195">Sermo CXCV. De Annuntiatione Dominica, III</title>
+                                    <author ref="#augustinus" rend="supplied">(Ps.-) Augustinus</author>
+                                    <title ref="#augustinus_sermo_195">Sermo app. 195. De Annuntiatione Dominica, III</title>
                                     <rubric>Incipit sermo sancti augustini episcopi de natiuitate domini nostri iesu christi de conceptione sanctae mariae</rubric>
                                     <incipit>Castissimum mariae uirginis uterum</incipit>
                                     <explicit>ut pater dicaris saluatoris.</explicit>
-                                    <finalRubric>Explicit amen.</finalRubric>
-                                    
+                                    <finalRubric>Explicit amen.</finalRubric>                                    
                                     <bibl><abbr>PL</abbr> 39, 2107-10.</bibl>
                                     <note>A 1,5 ; F 1. Text due to missing one leaf between ff. 139 and 140.</note>
                                 </msItem>                                
@@ -249,7 +255,7 @@
                                 <msItem>
                                     <locus from="147r" to="150r">147ra-150rb</locus>
                                     <author ref="#augustinus">Maximus / (Ps.-) Augustinus</author>
-                                    <title>Sermo CXXXV. In epiphania domini V.</title>
+                                    <title ref="#augustinus_sermo_135">Sermo CXXXV. In epiphania domini V.</title>
                                     <rubric>Incipiunt omeliae sancti <sic>agustini</sic> episcopi de epiphania</rubric>
                                     <incipit>Intellegere possumus fratres karissimi quantam</incipit>
                                     <explicit>quod ipse prestare dignetur qui uiuit <gap reason="omitted"/> amen.</explicit>                                   
@@ -259,27 +265,31 @@
                                 <msItem>
                                     <locus from="150r" to="152v">150rb-152va</locus>
                                     <author ref="#augustinus">(Ps.-) Augustinus</author>
-                                    <title>Sermo CXXXVII</title>
+                                    <author ref="#hieronymus">(Ps.-) Hieronymus</author>
+                                    <title ref="#augustinus_sermo_137">Sermo CXXXVII / Sermo de die epiphaniorum</title>
                                     <rubric>Euangelium ubi dominus noster iesus christus baptizatus est idemque ut legitur psalmus XXVIII</rubric>
-                                    <incipit>Dies ephiphaniorum grego nomine sic uocatur</incipit>
-                                    <explicit></explicit>
+                                    <incipit>Dies <sic>ephiphaniorum</sic> grego nomine sic uocatur</incipit>
+                                    <explicit>supera quam refectionis <sic>etocauit</sic> me. cui est <gap reason="omitted"/> </explicit>
                                     <bibl>PL 39, 2015-2017.</bibl>
-                                    <bibl>[CCL 78 (MORIN 1958 = CAPELLE 1924), S. 530-532 (LLT-A); BHM
+                                    <!--<bibl>[CCL 78 (MORIN 1958 = CAPELLE 1924), S. 530-532 (LLT-A); BHM
                                         227; CPL 599; GRYSON, Rép. 546] = Ps.-Aug. serm. 137 [PL 39, Sp. 2015-2017
-                                        (PLD); CPL 368; GRYSON, Rép. 280]).</bibl>
+                                        (PLD); CPL 368; GRYSON, Rép. 280]).
+                                        [M. XXX, 221; Aug. serm. 129, M. XXXIX, 2015; Max. Taurin. homilia, M. LVII, 551]</bibl>-->
                                 </msItem>
                                 <msItem>
                                     <locus from="152v" to="154v">152va-154va</locus>
                                     <author ref="#augustinus">(Ps.-) Augustinus</author>
-                                    <title></title>
+                                    <author ref="#hieronymus">Hieronymus</author>
+                                    <title ref="#augustinus_sermo_ii">Sermo Quantum valeat jejunium</title>
                                     <rubric>Incipit sermo sancti <sic>agustini</sic> episcopi de <sic>quadragensime</sic></rubric>
                                     <incipit>Moyses quadraginta diebus et quadraginta noctibus in heremo ieiunauit</incipit>
                                     <explicit>paucis diebus domino uiuere debeamus qui uiuit <gap reason="omitted"/> amen.</explicit>
+                                    <filiation><ref type="altMs">Vienna, ÖNB, Cod. 1556</ref>, fol. 52r-53v.</filiation>
                                 </msItem>
                                 <msItem>
                                     <locus from="154v" to="157r">154va-157ra</locus>
                                     <author ref="#augustinus">Ps. Augustinus</author>
-                                    <title>Sermo</title>
+                                    <title ref="#augustinus_sermo_mai_154">Sermo 154</title>
                                     <rubric>Incipit omelia in vigilia paschae</rubric>
                                     <incipit>Domini nostri ihesu christi saluatoris et honorabilis</incipit>
                                     <explicit>Ipso donante qui cum patre <gap reason="omitted"/> amen.</explicit>
@@ -288,9 +298,9 @@
                                 </msItem>
                                 <msItem>
                                     <locus from="157r" to="159v">157ra-159vb</locus>
-                                    <author>Hieronymus</author>
+                                    <author ref="#hieronymus">Hieronymus</author>
                                     <author ref="#augustinus">Ps. Augustinus</author>
-                                    <title>Sermo</title>
+                                    <title ref="#augustinus_sermo_159">Sermo in die dominica paschae</title>
                                     <rubric>Incipit omelia sancti <sic>agustini</sic> episcopi de prima die paschae</rubric>
                                     <incipit>Non queo fratres karissimi quod mente concipio ore pro ferre</incipit>
                                     <explicit>iusti intrabunt per eam quod ipse praestare dignetur qui uiuit et regnat in saecula saeculorum amen.</explicit>
@@ -298,8 +308,9 @@
                                 </msItem>
                                 <msItem>
                                     <locus from="159v" to="162v">159vb-162vb</locus>
-                                    <author>Caes. Arel.</author>
-                                    <title>Sermo 204</title>
+                                    <author ref="#caesarius_arelatensis">Caesarius Arelatensis</author>
+                                    <author ref="#augustinus">(Ps.) Augustinus</author>
+                                    <title ref="#">Sermo 204</title>
                                     <rubric>Item sermo sancti <sic>agustini</sic> de pascha domini</rubric>
                                     <incipit>Pascha christi dilectissimi regnum est caeli</incipit>
                                     <explicit>peccatorum mereamur peruenire praestante domino nostro ihesu christo qui uiuit et regnat in saecula saeculorum.</explicit>
@@ -307,25 +318,25 @@
                                 </msItem>
                                 <msItem>
                                     <locus from="162v" to="166r">162vb-166rb</locus>
-                                    <author/>
-                                    <title></title>
+                                    <author ref="#caesarius_arelatensis">Caesarius Arelatensis</author>
+                                    <author ref="#augustinus">(Ps.) Augustinus</author>
+                                    <title ref="#caesarius_arelatensis_homilia_216">Sermo 216</title>
                                     <rubric>Omelia sancti <sic>agustini</sic> episcopi in natale sancti iohannis baptistae</rubric>
                                     <incipit>Natalem sancti iohannis fratres karissimi hodie celebramus</incipit>
                                     <explicit>concedat uobis felicem perseuerantiam custodire qui cum patre et spiritu sancto uiuit et regnat in saecula saeculorum.</explicit>
                                 </msItem>
                                 <msItem>
                                     <locus from="166r" to="169r">166rb-169ra</locus>
-                                    <author ref="#augustinus">(Ps.) Augustinus</author>
-                                    <title>Sermones suppositii de Sanctis.
-                                        Sermo 202</title>
+                                    <author ref="#maximus_taurinensis">Maximus Taurinensis</author>
+                                    <title ref="#maximus_taurinensis_sermo">Sermo</title>
                                     <rubric>Incipit omelia in natale <sic>apostulorum</sic> petri et pauli</rubric>
                                     <incipit><note><locus from="166v">166va</locus></note> Cum omnes beati apostoli parem gratiam</incipit>
                                     <explicit>sancta oratio omnem humiliat superbiam uniuersam deiecit uanitatem.</explicit>
                                 </msItem>
                                 <msItem>
                                     <locus from="169r" to="171r">169ra-171rb</locus>
-                                    <author>Max. Taur.</author>
-                                    <title></title>
+                                    <author ref="#maximus_taurinensis">Maximus Taurinensis</author>
+                                    <title ref="#maximus_taurinensis_sermo_12">Sermo</title>
                                     <rubric>Omelia in natale martyrum</rubric>
                                     <incipit>Cum omnium sanctorum martyrum fratres karissimi natalem deuotissime celebrare debemus</incipit>
                                     <explicit>tam relegione quam corpore; quod ipse prestare dignetur qui uiuit et regnat in secula saeculorum amen.</explicit>
@@ -334,16 +345,16 @@
                                 <msItem>
                                     <locus from="171r" to="175v">171rb-175va</locus>
                                     <author ref="#augustinus">Ps. Augustinus</author>
-                                    <title>Sermo dubius 382 de s. Stephano</title>
+                                    <title ref="#augustinus_sermo_dubius">Sermo dubius 382 de s. Stephano</title>
                                     <rubric>Incipit sermo sancti <sic>agustini</sic> de natale sancti stephani</rubric>
                                     <incipit>Ihesus filius naue in heremo pugnabat</incipit>
                                     <explicit>nisi pro tuis inimicis oraueris conuersi ad dominum amen.</explicit>
-                                    <bibl>Ps. Augustinus, S. 382: PL 39, 1684-1686; PLS 2, 403; CPPM I, 748, CPL 285.</bibl>
+                                    <!--<bibl>Ps. Augustinus, S. 382: PL 39, 1684-1686; PLS 2, 403; CPPM I, 748, CPL 285.</bibl>-->
                                 </msItem>
-                                <msItem>
+                                <msItem> 
                                     <locus from="175v" to="178v">175vb-178vb</locus>
                                     <author ref="#augustinus">Ps. Augustinus</author>
-                                    <title>Sermo dubius de sanctis 216</title>
+                                    <title ref="#">Sermo dubius de sanctis 216</title>
                                     <rubric>Incipit alius eiusdem</rubric>
                                     <incipit>Quoniam uideo nostras disputationes grafio ceraque legari</incipit>
                                     <explicit defective="true">permittentes testimonia dicentes</explicit>           
@@ -387,8 +398,7 @@
                                         <signatures>Quiremarks in Roman numerals on the last page of the quire (ff. 70v, 78v: II, 86v: III, 94v: IIII, 102v: V, 110v: VI, 139v: VIII, 146v: X, 154v (cut out), 160v: XI, 168v: XII, 176v: XIII).</signatures>
                                     </collation>
                                 </supportDesc>
-                                <layoutDesc>
-                                    
+                                <layoutDesc>                                    
                                     <layout ruledLines="0" writtenLines="21 22" columns="2">
                                         Written space: <dimensions type="written" unit="mm">
                                             <height>230</height>

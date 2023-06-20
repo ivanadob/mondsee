@@ -42,7 +42,7 @@
                         <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi></origDate>
                         <origPlace>Mondsee</origPlace>
                         <note type="catalogue"><ref target="https://manuscripta.at/hs_detail.php?ID=28443">manuscripta.at</ref></note>
-                        <note type="summary">The manuscript contains the text of the twelve minor prophets followed by Isaiah and Jeremiah. The anthology is preceded by an excerpt from Jerome's letter to Pauline giving a short overview of the main topics of each book. Already in Jerome's time the twelve books of the prophets were written down 'compressed within the narrow limits of a single volume'. Passages from Jonas, Michaeas, Sophonias, Aggaeus, Zacharias, Isaiah and Jeremiah have contemporary annotations suggesting the texts were read in the liturgy.</note>
+                        <note type="summary">The manuscript contains the text of the twelve minor prophets followed by Isaiah and Jeremiah. The anthology is preceded by an excerpt from Jerome's letter to Pauline giving a short overview of the main topic of each book. Already in Jerome's time the twelve books of the prophets were written down 'compressed within the narrow limits of a single volume'. Passages from Jonas, Michaeas, Sophonias, Aggaeus, Zacharias, Isaiah and Jeremiah have contemporary annotations suggesting the texts were read in the liturgy.</note>
                     </head> 
                     <msContents>
                         <textLang mainLang="lat" otherLangs=""/> 
@@ -298,7 +298,7 @@
                                 <support>Ff. A-38 are calb parchment (Bischoff 1980, 23). Flesh and hair side not recognisable. Fols. 55, 59-60, 171, 178-179 are 12th-century additions probably used to replace the original damaged leaves.</support>
                                 <extent>
                                     <measure type="leavesCount" quantity="186" unit="folio">186</measure>
-                                    <dimensions type="leaf" unit="mm">
+                                    <dimensions type="leaf_current" unit="mm">
                                         <height>260</height>
                                         <width>180</width>
                                     </dimensions>
