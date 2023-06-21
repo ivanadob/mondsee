@@ -77,6 +77,13 @@
                             </xsl:when>
                         </xsl:choose>
                     	<xsl:choose>
+                    		<xsl:when test="descendant-or-self::tei:msDesc/tei:head/tei:note[@type='hsp']">
+                    			<a class="btn btn-outline-dark" href="{descendant-or-self::tei:msDesc/tei:head/tei:note[@type='hsp']/tei:ref/@target}"  target="_blank" title="Handschriftenportal entry in a new tab">
+                    				<img src="https://handschriftenportal.de/img/handschriftenportal_logo.svg" alt="HSP" width="80" height="20"></img>                    				
+                    			</a>
+                    		</xsl:when>
+                    	</xsl:choose>
+                    	<xsl:choose>
                             <xsl:when test="descendant-or-self::tei:msDesc/tei:head/tei:note[@type='catalogue']">
                             	<a class="btn btn-outline-dark" href="{descendant-or-self::tei:msDesc/tei:head/tei:note[@type='catalogue']/tei:ref/@target}"  target="_blank" title="opens in a new tab">
                                     <xsl:choose>
@@ -663,6 +670,13 @@
 			<xsl:when test="tei:note[@type='fragmentarium']">
 				<a class="btn btn-outline-dark" href="{tei:note[@type='fragmentarium']/tei:ref/@target}" target="_blank" title="opens in a new tab">
 					<img src="https://fragmentarium.ms/img/svg/logo-bw.svg" alt="Fragmentarium" width="20" height="20"></img>
+				</a>
+			</xsl:when>
+		</xsl:choose>
+		<xsl:choose>
+			<xsl:when test="tei:note[@type='hsp']">
+				<a class="btn btn-outline-dark" href="{tei:note[@type='hsp']/tei:ref/@target}"  target="_blank" title="Handschriftenportal entry in a new tab">
+					<img src="https://handschriftenportal.de/img/handschriftenportal_logo.svg" alt="HSP" width="80" height="20"></img>                    				
 				</a>
 			</xsl:when>
 		</xsl:choose>
