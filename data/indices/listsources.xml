@@ -478,7 +478,6 @@
             <bibl xml:id="caesarius_arelatensis_homilia_204">
                <title>Sermo 204</title>
                <author ref="#caesarius_arelatensis">Caesarius Arelatensis</author>
-               <author ref="#augustinus">(Ps.) Augustinus</author>
                <listRelation>
                   <relation ref="#ccsl">
                      <desc>CCSL 104, pp. 819-822;</desc>
@@ -493,17 +492,20 @@
                <note>= Augustinus, Sermo spurius 168. In Pascha. X.</note>
             </bibl>
             <bibl xml:id="caesarius_arelatensis_homilia_216">
-               <title>Sermo 216</title>
+               <title>Sermo 216. In natali Ioannis Baptistae</title>
                <author ref="#caesarius_arelatensis">Caesarius Arelatensis</author>
-               <author ref="#augustinus">(Ps.) Augustinus</author>
                <listRelation>
                   <relation ref="#ccsl">
                      <desc>CCSL 104, pp. 858-861;</desc>
+                  </relation>
+                  <relation ref="#cpl">
+                     <desc>CPL 1008.216</desc>
                   </relation>
                   <relation ref="#cppm">
                      <desc>I, 982, 4345;</desc>
                   </relation>
                </listRelation>
+               <note>= Augustinus, Sermo spurius 197.</note>
             </bibl>
             <bibl xml:id="capitularia_ansegisus">
                <title>Ansegisi capitularium libri IV / Collectio capitularium</title>
