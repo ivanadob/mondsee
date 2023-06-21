@@ -108,6 +108,7 @@
             <item xml:id="cpl">
                <label>CPL</label>
                <bibl>Dekkers E. (ed.), Clavis Patrum Latinorum. 1995 (3rd edition).</bibl>
+               <note>The Clauis Patrum Latinorum (CPL) provides a survey of all the Latin authors that will be published in the Series Latina of Corpus Christianorum. It contains a list of the works, authentic and apocryphal, and of the editions published or in preparation for each author.</note>
             </item>            
             <item xml:id="denis-1802">
                <label>Denis 1802</label>
@@ -322,32 +323,8 @@
                   </relation>
                </listRelation>
             </bibl>
-            <bibl xml:id="augustinus_sermo_137">
-               <title>Sermo CXXXVII. In epiphania domini.</title>
-               <author ref="#augustinus">(Ps.-) Augustinus</author>
-               <note>= Hieronymus, Sermo de die epiphaniorum</note>
-               <listRelation>
-                  <relation ref="#pl">
-                     <desc>PL 39, 2015-2017.</desc>
-                  </relation>
-                  <relation ref="#gryson-2007">
-                     <desc>pp. 280, 546</desc>
-                  </relation>
-               </listRelation>
-            </bibl>
-            <bibl xml:id="augustinus_sermo_ii">
-               <title>Sermo Quantum valeat jejunium</title>
-               <author ref="#augustinus">(Ps.-) Augustinus</author>
-               <author ref="#hieronymus">Hieronymus</author>
-               <listRelation>
-                  <relation ref="#pl">
-                     <desc>PL 47, 1142C-1144A</desc>
-                  </relation>
-                  <relation ref="#bhm">
-                     <desc>BHM 704 (Vol. IIIB, 572)</desc>
-                  </relation>
-               </listRelation>
-            </bibl>
+            
+            
             <bibl xml:id="augustinus_sermo_156">
                <title>Sermo 156.</title>
                <author ref="#augustinus">(Ps.-) Augustinus</author>
@@ -356,7 +333,7 @@
                      <desc>PL 39, 2053-2055</desc>
                   </relation>
                   <relation ref="#gryson-2007">
-                     <desc>Gryson-2007, p. 281.</desc>
+                     <desc>Gryson-2007, p. 281</desc>
                   </relation>
                </listRelation>
             </bibl>
@@ -381,7 +358,7 @@
                </listRelation>
             </bibl>
             <bibl xml:id="augustinus_sermo_mai_154">
-               <title>Sermo de vigilia paschae</title>
+               <title>Sermo Mai 154 /Cai II, 53. In vigiliis paschae I</title>
                <author ref="#augustinus">(Ps.-) Augustinus</author>
                <listRelation>
                   <relation ref="#pls">
@@ -392,27 +369,21 @@
                   </relation>
                </listRelation>
             </bibl>
-            <bibl xml:id="augustinus_sermo_159">
-               <title>Sermo 159 de vigilia paschae</title>
+            
+            <bibl xml:id="augustinus_sermo_dubius_217">
+               <title>Sermo dubius 217. In natali sancti Stephani</title>
                <author ref="#augustinus">(Ps.-) Augustinus</author>
-               <author ref="#hieronymus">Hieronymus</author>
                <listRelation>
-                  <relation ref="#ccsl">
-                     <desc>CCSL 78, pp. 545-547;</desc>
-                  </relation>
-                  <relation ref="#bhm">
-                     <desc>231;</desc>
-                  </relation>
-                  <relation ref="#cpl">
-                     <desc>CPL 603, 368;</desc>
-                  </relation>
                   <relation ref="#pl">
-                     <desc>PL 39, 2058</desc>
+                     <desc>PL 39, 2147-2149;</desc>
                   </relation>
-               </listRelation>
+                  <relation ref="#cppm">
+                     <desc>CPPM IA, 1002;</desc>
+                  </relation>
+               </listRelation>               
             </bibl>
-            <bibl xml:id="augustinus_sermo_dubius">
-               <title>Sermo dubius 382 de s. Stephano</title>
+            <bibl xml:id="augustinus_sermo_dubius_382">
+               <title>Sermo dubius 382. De sancto Stephano</title>
                <author ref="#augustinus">(Ps.-) Augustinus</author>
                <listRelation>
                   <relation ref="#pl">
@@ -510,15 +481,16 @@
                <author ref="#augustinus">(Ps.) Augustinus</author>
                <listRelation>
                   <relation ref="#ccsl">
-                     <desc>CCSL 104,  pp. 819-822;</desc>
+                     <desc>CCSL 104, pp. 819-822;</desc>
                   </relation>
                   <relation ref="#cpl">
-                     <desc>1008;</desc>
+                     <desc>CPL 1008.204</desc>
                   </relation>
                   <relation ref="#pl">
                      <desc>39, 2070-2072.</desc>
                   </relation>
                </listRelation>
+               <note>= Augustinus, Sermo spurius 168. In Pascha. X.</note>
             </bibl>
             <bibl xml:id="caesarius_arelatensis_homilia_216">
                <title>Sermo 216</title>
@@ -589,7 +561,7 @@
                         
             <bibl xml:id="expositio_iv_evangeliorum">
                <title>Expositio IV evangeliorum</title>
-               <author ref="#hieronymus">Ps.-Hieronymus</author>
+               <author ref="#hieronymus">Ps. Hieronymus</author>
             </bibl>
             <bibl xml:id="expositio_regulam_sb">
                <title>Expositio in regulam Sancti Benedicti</title>
@@ -687,6 +659,61 @@
                   </relation>
                </listRelation>
             </bibl>
+            <bibl xml:id="hieronymus_serm_epipha">
+               <title>Sermo de die epiphaniorum et de psalmo xxviii</title>
+               <author ref="#augustinus">Ps. Augustinus</author>
+               <note>= Hieronymus, Sermo de die epiphaniorum</note>
+               <listRelation>
+                  <relation ref="#ccsl">
+                     <desc>CCSL 78, pp. 530-532</desc>
+                  </relation>
+                  <relation ref="#bhm">
+                     <desc>BHM 227</desc>
+                  </relation>
+                  <relation ref="#cpl">
+                     <desc>CPL 599</desc>
+                  </relation>
+                  <relation ref="#pl">
+                     <desc>PL 39, 2015-2017</desc>
+                  </relation>
+                  <relation ref="#gryson-2007">
+                     <desc>pp. 280, 546</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="hieronymus_sermo_ii">
+               <title>Sermo II. Quantum valeat jejunium</title>
+               <author ref="#augustinus">(Ps.-) Augustinus</author>
+               <author ref="#hieronymus">Hieronymus</author>
+               <listRelation>
+                  <relation ref="#pl">
+                     <desc>PL 47, 1142C-1144A</desc>
+                  </relation>
+                  <relation ref="#bhm">
+                     <desc>BHM 704 (Vol. IIIB, 572)</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="hieronymus_sermo_pascha">
+               <title>In die dominica paschae, I</title>
+               <author ref="#hieronymus">Hieronymus</author>
+               <author ref="#augustinus">Ps.-Augustinus</author>
+               <listRelation>
+                  <relation ref="#ccsl">
+                     <desc>CCSL 78, pp. 545-547;</desc>
+                  </relation>
+                  <relation ref="#bhm">
+                     <desc>BHM 231;</desc>
+                  </relation>
+                  <relation ref="#cpl">
+                     <desc>CPL 603, 368;</desc>
+                  </relation>
+                  <relation ref="#pl">
+                     <desc>PL 39, 2058</desc>
+                  </relation>
+               </listRelation>
+               <note>= Ps. Augustinus, Sermo 159 (CPL-368)</note>
+            </bibl>
             <bibl xml:id="instructiones">
                <title>Instructiones ad Salonium</title>
                <author ref="#eucherius">Eucherius of Lyon</author>
@@ -727,29 +754,31 @@
                   </relation>
                </listRelation>
             </bibl>
-            <bibl xml:id="maximus_sermo">
-               <title>Sermo</title>
+            <bibl xml:id="maximus_sermo_1">
+               <title>Sermo 1. In natale apostolorum Petri et Pauli</title>
                <author ref="#maximus_taurinensis">Maximus Taurinensis</author>
                <listRelation>
                   <relation ref="#ccsl">
-                     <desc>23, 2-4</desc>
+                     <desc>CCSL 23, pp. 2-4</desc>
                   </relation>
                   <relation ref="#cppm">
                      <desc>I, 108; 987; 5522</desc>
                   </relation>
                </listRelation>
+               <note>= Ps.-Augustinus, Sermo spurius 202. In natali apostolorum Petri et Pauli. II.</note>
             </bibl>
             <bibl xml:id="maximus_sermo_12">
-               <title>Sermo 12</title>
+               <title>Sermo 12. In festo sanctorum martyrum Octavii, Adventitii e.a.</title>
                <author ref="#maximus_taurinensis">Maximus Taurinensis</author>
                <listRelation>
                   <relation ref="#ccsl">
-                     <desc>23, 41</desc>
+                     <desc>CCSL 23, pp. 41-42.</desc>
                   </relation>
                   <relation ref="#cpl">
-                     <desc>219a.</desc>
+                     <desc>CPL 219a.</desc>
                   </relation>
                </listRelation>
+               <note>=Ps.-Augustinus, De passione vel natale sanctorum. I</note>
             </bibl>
             <bibl xml:id="maximus_homilia_36">
                <title>Homilia 36. In die Cinerum.</title>
