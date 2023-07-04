@@ -43,9 +43,9 @@
                     <head>
                         <title>Das Mondseer Bibelglossar / Glossae Lunaelacenses theodiscae et latinae</title>
                         <origDate notBefore="0951" notAfter="1000">s. X<hi rend="sup">2</hi></origDate>
-                        <origPlace>Mondsee</origPlace>
-                        <note type="facs"><ref target="http://data.onb.ac.at/dtl/3142328"/>Facsimile</note>
+                        <origPlace>Mondsee</origPlace>                        
                         <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13951073"/></note>
+                        <note type="facs"><ref target="http://data.onb.ac.at/dtl/3142328">Facsimile</ref></note>
                         <note type="summary">A collection of glosses to biblical and patristics texts. Each set of glosses is introduced by a rubric giving the title of the glossed text. The lemmata in Latin begin with capital letter followed by a short explanation in Latin or Old German. This collection of glosses is known as the Mondsee Bibel glossary (in German Mondseer Bibelglossar) from the second half or end of the ninth century transmitted in several manuscripts. The glossary was originally written in Bavaria. The exact place of origin is uncertain; one possibility is the scriptorium of Reichenau (<bibl><abbr>Meineke 2009</abbr></bibl>). The Mondsee manuscript is one of the oldest surviving.</note>
                     </head> 
                     <msContents>
@@ -142,12 +142,12 @@
                             <ref/>
                         </surrogates> 
                         <listBibl>
-                            <bibl><abbr>Meineke 2009</abbr></bibl>
-                            <bibl><abbr>Bergmann 2009</abbr></bibl>
+                            <head>External resources</head>
                             <bibl>Entry in <ref target="https://glossen.germ-ling.uni-bamberg.de/manuscripts/13213.html">BstK Online (Nr. 949)</ref>.</bibl>
                             <bibl><ref target="https://www.mirabileweb.it/manuscript/wien-%C3%B6sterreichische-nationalbibliothek-2723-manoscript/2156">Mirabile. Digital Archives for Medieval Culture.</ref></bibl>
                             <bibl><ref target="https://manuscripta.at/hs_detail.php?ID=11829">manuscripta.at</ref></bibl>
                         </listBibl>
+                        
                     </additional>             
                     
                 </msDesc>
