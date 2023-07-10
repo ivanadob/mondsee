@@ -185,7 +185,7 @@
                 			<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" width="88" height="31" alt="Creative Commons License"></img></a>
                 		</xsl:when>
                 	</xsl:choose>                	
-                    <p>
+                    <!--<p>
                     	<xsl:apply-templates select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt"/>
                     	<xsl:choose>
                     <xsl:when test="descendant-or-self::tei:TEI/tei:teiHeader/tei:revisionDesc/@status = 'draft' ">
@@ -201,13 +201,13 @@
                     		<br/>
                     		<xsl:apply-templates select="descendant-or-self::tei:recordHist"/>
                     	</xsl:if>
-                    </p>
+                    </p>-->
                 </div>
                 
                 <div id="{generate-id()}">
                     <xsl:text>How to quote: </xsl:text>
-                    <xsl:apply-templates select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:name | descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:persName"/><xsl:text>, '</xsl:text>
-                    <xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/><xsl:text>' (</xsl:text>
+                	<xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt[1]/tei:persName"/><xsl:text>, '</xsl:text>
+                	<xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/><xsl:text>' (</xsl:text>
                     <a>
                         <xsl:attribute name="href">
                             <xsl:value-of select="concat($gitData,replace(tokenize($full_path, '/')[last()], '.html', '.xml'))"/>
@@ -215,6 +215,7 @@
                         <xsl:value-of select="concat($gitData,replace(tokenize($full_path, '/')[last()], '.html', '.xml'))"/>
                     </a>
                     <xsl:text> last change: </xsl:text><xsl:value-of select="descendant-or-self::tei:TEI/tei:teiHeader/tei:revisionDesc/tei:listChange/tei:change[1]/@when"/><xsl:text>).</xsl:text>
+                    
                 </div>
                 <hr/>
                 </div>

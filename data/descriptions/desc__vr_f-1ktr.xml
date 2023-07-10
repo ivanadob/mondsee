@@ -3,13 +3,61 @@
         <fileDesc>
             <titleStmt>
                 <title>F-1ktr: Munich, BSB, Clm 27270; Prague, Národní knihovna České republiky, VI.D.24</title>
-                <respStmt>
-                    <resp>Description by</resp>
+                <respStmt ana="marcrelator:mrk"> 
+                    <resp>Manuscript description and TEI-encoding by</resp>
                     <persName>
                         <forename>Ivana</forename>
                         <surname>Dobcheva</surname>
                     </persName>
-                </respStmt>                
+                </respStmt>   
+                <respStmt>
+                    <resp>image acquisition</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>                    
+                </respStmt>
+                <respStmt>
+                    <resp>material analysis</resp>
+                    <persName>
+                        <forename>Thorsten</forename>
+                        <surname>Allscher</surname>
+                        <affiliation>Institut für Bestandserhaltung und Restaurierung (IBR) der Bayerischen Staatsbibliothek</affiliation>
+                    </persName>                    
+                </respStmt>
+                <respStmt>
+                    <resp>data modelling</resp>
+                    <persName>
+                        <forename>Hans</forename>
+                        <surname>Clausen</surname>
+                        <affiliation>University of Graz</affiliation>
+                    </persName>
+                    <persName>
+                        <forename>Gerlinde</forename>
+                        <surname>Schneider</surname>
+                        <affiliation>University of Graz</affiliation>
+                    </persName>                    
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-encoding</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>data compilation</resp>
+                    <persName>
+                        <forename>Simon</forename>
+                        <surname>Brenner</surname>
+                        <affiliation>TU Wien</affiliation>
+                    </persName>
+                </respStmt>
+                <funder ana="marcrelator:fnd">
+                    <orgName>Project: Digital Transformation of the Austrian Humanities (DiTAH) - Bundesministerium für Bildung, Wissenschaft und Forschung (BMBWF)</orgName>
+                </funder>          
             </titleStmt>
             <editionStmt>
                 <edition>Digital edition according to TEI P5</edition>
@@ -43,9 +91,9 @@
                         <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-1ktr"/></note>
                     </head> 
                     <physDesc>
-                        <objectDesc form="fragment">
+                        <objectDesc form="codex">
                             <supportDesc material="perg">
-                                <support></support>
+                                <support>Parchment.</support>
                                 <extent>
                                     <measure type="leavesCount" quantity="66" unit="folio">66 partial</measure>
                                     <dimensions type="leaf_current" unit="mm">
@@ -53,11 +101,12 @@
                                         <width>260</width>
                                     </dimensions>
                                 </extent>                                
-                                <collation>
+                                <collation>See the collation at <ref target="https://vceditor.library.upenn.edu/project/61dd48a797701e00018cadfe/viewOnly">VCEditor</ref>.
+                                    
                                 </collation>
-                                <condition/>
+                                <condition>From the original manuscript survive two fragments (see below).</condition>
                             </supportDesc>
-                            <layoutDesc>
+                            <!--<layoutDesc>
                                 <layout ruledLines="0" writtenLines="0" columns="0">
                                     <dimensions type="written" unit="mm">
                                         <height></height>
@@ -69,15 +118,13 @@
                                     <dimensions type="lineHeight" unit="mm">
                                         <height></height>
                                     </dimensions>
-                                    <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
-                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
                                 </layout>
-                            </layoutDesc>
+                            </layoutDesc>-->
                         </objectDesc>
-                        <handDesc>
+                        <!--<handDesc>
                             <summary></summary>
                             <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
-                        </handDesc>
+                        </handDesc>-->
                         <scriptDesc>
                             <summary></summary>                            
                             <scriptNote script="x" medium="x">Uncial.</scriptNote>
@@ -89,6 +136,13 @@
                             <ref/>
                         </surrogates> 
                         <listBibl>
+                            <listBibl>
+                                <head>External resources</head>
+                                <bibl><ref target="https://fragmentarium.ms/overview/F-1ktr">Fragmentarium entry</ref></bibl>
+                                <bibl><ref target="https://opacplus.bsb-muenchen.de/title/BV037459866">BSB catalogue</ref></bibl>
+                                <bibl><ref target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00061453-2">BSB facsimile</ref></bibl>
+                                <bibl><ref target="http://www.manuscriptorium.com/apps/index.php?direct=record&amp;pid=AIPDIG-NKCR__VI_D_24_____369UNM1-cs">Národní knihovna České republiky facsimile</ref></bibl>
+                            </listBibl>
                             <bibl><abbr>Bischoff 1980</abbr>, pp. 18–19.</bibl>
                             <bibl><abbr>CLA</abbr> IX, <ref target="https://elmss.nuigalway.ie/catalogue/1826">1325</ref></bibl>
                         </listBibl>
@@ -442,9 +496,9 @@
                                     </extent>
                                     <foliation>Modern foliation in pencil at the middle of the upper margin on each recto: 1a, 1b, 1c, 1d, 2-7, 7a, 7b, 8-18, 18a, 19-22, 22a, 22b, 22c, 23-29, 29a, 30-43, 43a, 43b, 44-51.</foliation>
                                     <collation>See the collation at <ref target="https://vceditor.library.upenn.edu/project/61dd48a797701e00018cadfe/viewOnly">VCEditor</ref>.
-                                        <formula></formula>
+                                        
                                     </collation>
-                                    <condition/>
+                                    <!--<condition/>-->
                                 </supportDesc>                                  
                                 <layoutDesc>
                                     <layout ruledLines="23" writtenLines="23" columns="2">
@@ -531,9 +585,9 @@
                                     <collation>
                                         The two leaves were the outermost bifolium in one quire. 
                                     </collation>
-                                    <condition/>
+                                    <!--<condition/>-->
                                 </supportDesc>
-                                <layoutDesc>
+                                <!--<layoutDesc>
                                     <layout ruledLines="0" writtenLines="23" columns="2">
                                         <dimensions type="written" unit="mm">
                                             <height></height>
@@ -545,12 +599,11 @@
                                         <dimensions type="lineHeight" unit="mm">
                                             <height></height>
                                         </dimensions>
-                                        <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
-                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
+                                        
                                     </layout>
-                                </layoutDesc>
+                                </layoutDesc>-->
                             </objectDesc>
-                            <handDesc>
+                            <!--<handDesc>
                                 <summary></summary>
                                 <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
                             </handDesc>
@@ -566,7 +619,7 @@
                                 <binding notBefore="0001" notAfter="0001">
                                     <p/>
                                 </binding>
-                            </bindingDesc>
+                            </bindingDesc>-->
                             <accMat>Letter written by Rosa de Kolowrat from March 12, 1839 addressed to Anton Spirk, the head librarian of the university library. Transcription of the text by Dambeck comparing it with the Vulgate.</accMat> 
                         </physDesc>
                         <history>

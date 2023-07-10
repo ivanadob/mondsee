@@ -3,14 +3,66 @@
         <fileDesc>
             <titleStmt>
                 <title>Vienna, ÖNB, Cod. 732</title>
-                <respStmt>
+                <respStmt ana="marcrelator:mrk"> 
                     <resp>Manuscript description and TEI-encoding by</resp>
                     <persName>
                         <forename>Ivana</forename>
                         <surname>Dobcheva</surname>
-                        <affiliation></affiliation>
                     </persName>
-                </respStmt>                
+                </respStmt>   
+                <respStmt>
+                    <resp>image acquisition</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>                    
+                </respStmt>
+                <respStmt>
+                    <resp>material analysis</resp>
+                    <persName>
+                        <forename>Manfred</forename>
+                        <surname>Schreiner</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>
+                    <persName>
+                        <forename>Wilfried</forename>
+                        <surname>Vetter</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>data modelling</resp>
+                    <persName>
+                        <forename>Hans</forename>
+                        <surname>Clausen</surname>
+                        <affiliation>University of Graz</affiliation>
+                    </persName>
+                    <persName>
+                        <forename>Gerlinde</forename>
+                        <surname>Schneider</surname>
+                        <affiliation>University of Graz</affiliation>
+                    </persName>                    
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-encoding</resp>
+                    <persName>
+                        <forename>Ivana</forename>
+                        <surname>Dobcheva</surname>
+                        <affiliation>Academy of Fine Arts Vienna</affiliation>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>data compilation</resp>
+                    <persName>
+                        <forename>Simon</forename>
+                        <surname>Brenner</surname>
+                        <affiliation>TU Wien</affiliation>
+                    </persName>
+                </respStmt>
+                <funder ana="marcrelator:fnd">
+                    <orgName>Project: Digital Transformation of the Austrian Humanities (DiTAH) - Bundesministerium für Bildung, Wissenschaft und Forschung (BMBWF)</orgName>
+                </funder>
             </titleStmt>
             <publicationStmt>               
                 <publisher></publisher>
@@ -64,10 +116,12 @@
                             <ref/>
                         </surrogates> 
                         <listBibl>
-                            <head>External resources</head>
-                            <bibl><ref target="http://data.onb.ac.at/rec/AC13956701">ÖNB Catalogue</ref></bibl>
-                            <bibl><ref target="http://data.onb.ac.at/dtl/9670184">ÖNB Facsimile</ref></bibl>
-                            <bibl><ref target="https://manuscripta.at/?ID=10068">Manuscripta.at</ref></bibl>
+                            <listBibl>
+                                <head>External resources</head>                                
+                                <bibl><ref target="http://data.onb.ac.at/rec/AC13956701">ÖNB Catalogue</ref></bibl>
+                                <bibl><ref target="http://data.onb.ac.at/dtl/9670184">ÖNB Facsimile</ref></bibl>
+                                <bibl><ref target="https://manuscripta.at/?ID=10068">Manuscripta.at</ref></bibl>
+                            </listBibl>
                         </listBibl>
                     </additional>
                     <msPart>
@@ -384,7 +438,7 @@
                                             <width>210</width>
                                         </dimensions>
                                     </extent>
-                                    <foliation/>
+                                    <foliation>Modern foliation in pencil in the upper right corner of every recto as well as in the lower left corner of every verso.</foliation>
                                     <collation>
                                         <formula>
                                             I<hi rend="sup">8(-1)</hi> (ff. 64-70) + 
@@ -436,9 +490,9 @@
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
-                            <handDesc>
+                            <!--<handDesc>
                                 <handNote scribe="x" script="x" medium="x"></handNote>
-                            </handDesc>
+                            </handDesc>-->
                             <scriptDesc>
                                 <scriptNote script="carolmin">Bischoff, Schreibschule, p. 20: <quote>schwere runde, aufrechte und etwas niedrige Schrift von mehr als einer Hand.</quote></scriptNote>
                             </scriptDesc>
@@ -473,6 +527,7 @@
         </encodingDesc>
     <revisionDesc status="draft">
         <listChange>
+            <change when="2023-07-10"></change>
             <change when="2023-02-15"></change>
         </listChange>
     </revisionDesc>
