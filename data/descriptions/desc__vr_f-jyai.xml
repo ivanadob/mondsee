@@ -460,7 +460,8 @@
                             <idno>Clm 18704</idno>                                                   
                         </msIdentifier>
                         <head>                           
-                            <note type="catalogue"><ref target="https://opacplus.bsb-muenchen.de/search?oclcno=935404461&amp;db=100&amp;View=default"></ref></note>
+                            <note type="catalogue"><ref target="https://resolver.staatsbibliothek-berlin.de/HSP00066C0B00000000"></ref></note>
+                            <note type="hsp"><ref target="https://handschriftenportal.de/workspace?type=iiif%3Amanifest&amp;id=https%3A%2F%2Fapi.digitale-sammlungen.de%2Fiiif%2Fpresentation%2Fv2%2Fbsb00140590%2Fmanifest"></ref></note>
                         </head>
                         <msContents>
                             <msItem>
@@ -475,7 +476,7 @@
                             <objectDesc form="fragment">
                                 <supportDesc material="perg">
                                     <extent>
-                                        <measure type="leavesCount" quantity="1" unit="folio">1</measure>
+                                        <measure type="leavesCount" quantity="1" unit="folio">1 fol.</measure>
                                         <dimensions type="leaf_current" unit="mm">
                                             <height></height>
                                             <width></width>
