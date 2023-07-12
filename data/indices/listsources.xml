@@ -844,6 +844,14 @@
                <idno type="gnd">https://d-nb.info/gnd/4569091-1</idno>
             </bibl>
 <!--  ######################  BIBLE BOOKS: #############################-->
+            <bibl xml:id="sirach">
+               <title>Sirach</title>
+               <idno type="gnd">https://d-nb.info/gnd/4055145-3</idno>
+            </bibl>
+            <bibl xml:id="sapientia">
+               <title>Sapientia</title>
+               <idno type="gnd">https://d-nb.info/gnd/4079125-7</idno>
+            </bibl>
             <bibl xml:id="corintheos">
                <title>Epistola ad Corintheos</title>
                <idno type="gnd">http://d-nb.info/gnd/4006818-3</idno>

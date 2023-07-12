@@ -41,7 +41,7 @@
                     </msIdentifier>
                     <head>
                         <title>Old Testament: Sir and Sap (reconstruction)</title>
-                        <origDate notBefore="0801" notAfter="0850">s. IX<hi rend="sup">1</hi></origDate>
+                        <origDate notBefore="0801" notAfter="0825">s. IX<hi rend="sup">1/4</hi></origDate>
                         <origPlace>Mondsee</origPlace>
                         <note type="summary">Several parchment fragments from an early Carolingian Bible, written in Mondsee. Reconstruction using fragments: Vienna, ÖNB, Cod. Ser. n. 3753 (2 fols.), Cod. 15347 (4 fols.), Fragm. 6 (3 fols.), Fragm. 10 (2 fols.), Fragm. 852 (9 strips, 8 pieces) and binding waste in Cod. 3712.</note>
                         <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-hyhn"></ref></note>
@@ -49,46 +49,75 @@
                     <msContents>
                         <textLang mainLang="lat" otherLangs=""/> 
                         <msItem>
-                            <title>Sirach</title>
+                            <title ref="#sirach">Sirach</title> 
                             <msItem>
-                                <locus>Fragm. 854</locus>
-                                <note>Fragm. 854-1: Sir 42,21-43,24: [dec]ora[vit] ... [m]edic[ina];
-                                    
-                                    Fragm. 854-2: Sir 38,29-39,15: [o]pus ... illi;
-                                    
-                                    Fragm. 854-3 and 854-4: Sir 32,7-33,7: [aur]i sig[num] ... [supe]rat / [...] con[vivio] ... [die]s di[em] gehören zu einem Textblock zusammen mit Fragm. 10, wobei mindestens ein Falz dazwischen verloren ist. 
-                                    Fragm. 854-7 bis 854-9 gehören ebenfalls zusammen und waren ursprünglich der Rand einer Spalte. Der Text (uitae hominis substantia) ist ein Unterkapitel zu Sir 39,31.
-                                    
-                                    Fragm. 854-5 und 854-6 unidentifiziert, anhand der Schriftmerkmale zu derselben Handschrift gehörig.</note> 
-                                
-                            </msItem>
-                            <msItem>
-                                <locus>Cod. 3712</locus>
-                                <note>Offset (Sir 35,8-21; 36,24-37,5) and one sewing guard between ff. 217/218.</note>
-                            </msItem>
-                            <msItem>
-                                <locus>Fragm. 10</locus>
-                                <note>Fragm.10-1: Sir 32:6-33:7 von [in]portun[e noli extolli in sapientia tua gem]mula bis iterum lux lucem et a[nnus];
-                                    
-                                    Fragm. 10-2: Sir 38:29-39:17 von incudem et considerans o[pu]s ferri bis ut furo[re eni]m repletus sum [in] uoce dic[it].</note>
+                                <locus>Cod. 15347: 1r-v</locus>
+                                <note type="title">Sir 2,16-3,21</note> 
+                                <incipit defective="true">uias prauas. Et quid facietis <gap reason="omitted"/> et qui obaudit patrem refri<supplied>gerabit</supplied> <gap reason="lacuna"/><locus>1v</locus> <supplied>generav</supplied>erunt in opere <gap reason="omitted"/> </incipit>
+                                <explicit defective="true">Quoniam magna po<supplied>tentia</supplied></explicit>
                             </msItem>
                             <msItem>
                                 <locus>Cod. Ser. n. 3753</locus>
                                 <note>Sir 9:21-11:14 von [pru]dentibus tracta uiri iusti sint bis Bona et mala uita et mors et paupertas.</note>
                             </msItem>
+                            <msItem>
+                                <locus>Fragm. 10-1 + Fragm. 854-3 + 854-4</locus> 
+                                <note>Sir 32:6-33:7 von [in]portun[e noli extolli in sapientia tua gem]mula bis iterum lux lucem et a[nnus];</note>
+                            </msItem> 
+                            <msItem>
+                                <locus>Cod. 15347: 2r-v</locus>
+                                <note>Sir 33,7-34,2: annum a sole. In domini scientia ... super te in uita [...] (2v) et aspiras. non enim inmutabit ... sic et qui adtendit;</note>
+                            </msItem>
+                            <msItem>
+                                <locus>Cod. 15347: 3r-v</locus>
+                                <note>Sir 36,10-37,7: ut aenarrent mirabilia tua ... reststet illi. Omnem [masculum excipiet mulier et est filia] (3v) melior filiae ... a zelantibus te absconde;</note></msItem>
+                            <msItem>
+                                <locus>Cod. 3712: Offset left inner board</locus>
+                                <note>Sir 35,8-21: Obbla[tio ...] ... Bono [ani]mo gloriam ... [oblectati]one sus[cipietur ... ora]tio h[umiliantis];</note>                                
+                            </msItem>
+                            <msItem>
+                                <locus>Cod. 3712: Offset right inner board</locus>
+                                <note>36,24-37,5: [homi]nis superducit desid[erium] ... condo[let causa ventris et contr]a hostem accipiet, bricht ab.</note>
+                            </msItem>
+                            <msItem>
+                                <locus>Cod. 15347: 4r</locus> 
+                                <note>Sir 37,34-38,15: uitam. Honora medicum propter ... conuersationem eorum (korrigiert zu illorum) qui d[elinq]uid in conspectu e[ius ...]; (4v) Sir 38,17-28: contege corpus illius [...] et consolare propter tristitiam ... cor suum dabit in similitudinem.</note>
+                            </msItem>
+                            <msItem>
+                                <locus>Fragm. 10-2 + Fragm. 854-2</locus>
+                                <note>Sir 38:29-39:17 von incudem et considerans o[pu]s ferri bis ut furo[re eni]m repletus sum [in] uoce dic[it].</note>
+                            </msItem>
+                            <msItem>
+                                <locus>Fragm. 854-7 bis 854-9</locus> 
+                                <note>Sir 39,31 (Rand einer Spalte. Der Text (uitae hominis substantia) ist ein Unterkapitel).</note>
+                            </msItem>
+                            <msItem>
+                                <locus>Fragm. 854-1</locus>
+                                <note>Sir 42,21-43,24: [dec]ora[vit] ... [m]edic[ina];</note>
+                            </msItem>
+                            <msItem>
+                                <locus>Fragm. 854-5 + 854-6</locus> 
+                                <note>unidentifiziert, anhand der Schriftmerkmale zu derselben Handschrift gehörig.</note> 
+                            </msItem>
                         </msItem>
                         <msItem>
                             <locus>Fragm. 6</locus>
-                            <title>Sapientia</title>
-                            <note>Fragm. 6-1: Sap 15:8-16:6 von quem habebat bis in breui turba[ti] (mit Textverlust);
-                                
-                                Fragm. 6-2: Sap 12:8-27 von paulatim exterminarent bis indignabantur per haec;
-                                
-                                Fragm. 6-3: Sap 13:1-19 von Uani sunt a[utem] bis petit ab eo. </note>
+                            <title ref="#sapientia">Sapientia</title>
+                            <msItem><locus>Fragm. 6-1</locus> 
+                                <note>Sap 15:8-16:6 von quem habebat bis in breui turba[ti] (mit Textverlust);</note>
+                            </msItem>
+                            <msItem>
+                                <locus>Fragm. 6-2</locus>
+                                <note>Sap 12:8-27 von paulatim exterminarent bis indignabantur per haec;</note>
+                            </msItem>
+                            <msItem>
+                                <locus>Fragm. 6-3</locus>
+                                <note>Sap 13:1-19 von Uani sunt a[utem] bis petit ab eo.</note>
+                            </msItem> 
                         </msItem>
                     </msContents>
                     <physDesc>
-                        <objectDesc form="codex">
+                        <objectDesc form="fragment">
                             <supportDesc material="perg">
                                 <extent>
                                     <measure type="leavesCount" quantity="11" unit="folio">11 fols. partly fragmentary</measure>
@@ -97,7 +126,6 @@
                                         <width>225</width>
                                     </dimensions>
                                 </extent>
-                                <foliation/>
                                 <collation>
                                     <formula></formula>
                                 </collation>
@@ -117,12 +145,12 @@
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
-                        <handDesc>
+                        <!--<handDesc>
                             <summary></summary>
                             <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
-                        </handDesc>
+                        </handDesc>-->
                         <scriptDesc>
-                            <summary>Psalter-Stufe</summary>
+                            <summary>Early Carolingian minuscule. Two forms of a (Carolingian and open cc-a); many ligatures including: ri, re, or, er, en, ec, nt, and ex; oblique abbreviation strokes. This script, referred to as "Psalter-Stufe" by B. Bischoff, can also be seen in other manuscripts from Mondsee, such as Vienna, ÖNB, Cod. 732 and Cod. Ser. n. 2065.</summary>
                             <scriptNote script="x" medium="x"></scriptNote>
                         </scriptDesc>
                         <decoDesc>
@@ -159,7 +187,218 @@
                             <bibl/>
                         </listBibl>
                     </additional>             
-                                        
+                      <msFrag>
+                          <msIdentifier>
+                              <country>Austria</country>
+                              <settlement>Vienna</settlement>
+                              <repository>Österreichische Nationalbibliothek</repository>
+                              <idno>Cod. 15347</idno>                                                     
+                          </msIdentifier>
+                          <head>
+                              <title>Sirach (fragments)</title>
+                              <origDate notBefore="0801" notAfter="0825">s. IX<hi rend="sup">1/4</hi></origDate>
+                              <origPlace>Mondsee</origPlace>
+                              <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13950439"></ref></note>
+                              <note type="facs"><ref target="http://data.onb.ac.at/dtl/6891310">Facsimile</ref></note>
+                              <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-kbgz"></ref></note>
+                              <note type="summary">Four single leaves glued or sewn together in the new paperback to form double leaves.</note>
+                          </head>
+                          <msContents>
+                              <p>For the contents see above.</p>
+                          </msContents>
+                          <physDesc>
+                              <objectDesc>
+                                  <supportDesc material="perg">
+                                      <extent>
+                                          <measure type="leavesCount" quantity="4" unit="folio">4 fols.</measure>
+                                      </extent>
+                                      <collation>In the current binding fols. 2 and 4 are turn around with the original recto side as the verso and vice versa. </collation>
+                                      <condition>The text is relatively well-preserved. Text loss from the bottom of the pages (ca. 1-2 lines).</condition>
+                                  </supportDesc>                                  
+                              </objectDesc>
+                          </physDesc>
+                          <history>
+                              <provenance>The present leaves 2 and 4 are probably detached from Cod. 3716, as indicated by the signature on f. 2r and remnants of red leather. The other two leaves (1 and 3) were detached from Cod. 3666.</provenance>
+                          </history>
+                      </msFrag>  
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository>
+                            <idno>Cod. 3712</idno>                                                     
+                        </msIdentifier>
+                        <head>
+                            <title>Sirach (fragments)</title>
+                            <origDate notBefore="0801" notAfter="0825">s. IX<hi rend="sup">1/4</hi></origDate>
+                            <origPlace>Mondsee</origPlace>
+                            <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-3ymf"></ref></note>
+                            <note type="summary">Two offsets (front and back) and one sewing guard with text from Sirach.</note>
+                        </head>
+                        <msContents>
+                            <p>For the contents see above.</p>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="2" unit="folio">2 fols.</measure>                                        
+                                    </extent>
+                                    <condition>The two pastedowns were detached. The text is partly legible on the offsets. One strip serves as sewing guard between fols. 217 and 218.</condition>
+                                </supportDesc>                                  
+                            </objectDesc>
+                        </physDesc>
+                        <history>
+                            <provenance>The fragments serve(d) as binding waste in <ref target="http://data.onb.ac.at/rec/AL00170462">Cod. 3712</ref>.</provenance>
+                        </history>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository>
+                            <idno>Cod. Ser. n. 3753</idno>                                                     
+                        </msIdentifier>
+                        <head>
+                            <title>Sirach (fragments)</title>
+                            <origDate notBefore="0801" notAfter="0825">s. IX<hi rend="sup">1/4</hi></origDate>
+                            <origPlace>Mondsee</origPlace>
+                            <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC14397882"></ref></note>
+                            <note type="facs"><ref target="http://data.onb.ac.at/dtl/6893747">Facsimile</ref></note>
+                            <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-tlf5"></ref></note>
+                            <note type="summary">One bifolium with text from Sirach (9,21-11,14).</note>
+                        </head>
+                        <msContents>
+                            <p>For the contents see above.</p>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="2" unit="folio">2 fols.</measure>
+                                        <dimensions type="leaf_current" unit="mm">
+                                            <height>310</height>
+                                            <width>225</width>
+                                        </dimensions>
+                                    </extent>
+                                    <collation>One bifolium, which was the innermost leaf in a quire (no text loss between 1v and 2r).</collation>
+                                </supportDesc>                                  
+                            </objectDesc>
+                        </physDesc>
+                        <history>
+                            <provenance>Served as binding waste (pastedown and fly leaf) in <ref target="http://data.onb.ac.at/rec/AL00170462">Cod. 1477</ref>.</provenance>
+                        </history>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository>
+                            <idno>Fragm. 10</idno>     
+                            <altIdentifier type="former">
+                                <idno>Fragm. 70, Nr. 83</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <head>
+                            <title>Sirach (fragments)</title>
+                            <origDate notBefore="0801" notAfter="0825">s. IX<hi rend="sup">1/4</hi></origDate>
+                            <origPlace>Mondsee</origPlace>
+                            <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC14424742"></ref></note>
+                            <note type="facs"><ref target="http://data.onb.ac.at/dtl/6891376">Facsimile</ref></note>
+                            <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-6u7w"></ref></note>
+                            <note type="summary">Two reconstructed leaves with text from Sirach. Other strips from the same two original leaves are kept under Shelfmark Fragm. 854.</note>
+                        </head>
+                        <msContents>
+                            <p>For the contents see above.</p>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="2" unit="folio">2 fols. (partial)</measure>
+                                    </extent>
+                                    <collation></collation>
+                                    <condition>17 strips reconstructed to two partial leaves using goldbeater's skin.</condition>
+                                </supportDesc>                                  
+                            </objectDesc>
+                        </physDesc>
+                        <history>
+                            <provenance>Served as sewing guards in <ref target="http://data.onb.ac.at/rec/AL00177393">Cod. 3716</ref>.</provenance>
+                        </history>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository>
+                            <idno>Fragm. 854</idno>
+                            <altIdentifier type="former">
+                                <idno>Fragm. 69, Nr. 80</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <head>
+                            <title>Sirach (fragments)</title>
+                            <origDate notBefore="0801" notAfter="0825">s. IX<hi rend="sup">1/4</hi></origDate>
+                            <origPlace>Mondsee</origPlace>
+                            <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC15485312"></ref></note>                            
+                            <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-y0nb"></ref></note>
+                            <note type="summary">Fragments from Sirach used as sewing centres in Mondsee bindings. </note>
+                        </head>
+                        <msContents>
+                            <p>For the contents see above.</p>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="4" unit="folio">17 pieces from 4 leaves</measure>
+                                    </extent>
+                                    <collation>Fragm. 854-3 and 854-4 belong to one original leaf together with Fragm. 10 (with at least one strip lost between them). Fragm. 854-7 to 854-9 also belong together and were originally the margin of a column. The text (uitae hominis substantia) is a subchapter to Sir 39:31. Fragm. 854-5 and 854-6 unidentified, belonging to the same manuscript based on the writing characteristics.</collation>
+                                    <condition>The original leaves were cut to 9 horizontal stripes and 8 other fragments.</condition>
+                                </supportDesc>                                  
+                            </objectDesc>
+                        </physDesc>
+                        <history>
+                            <provenance>Served as sewing guards in <ref target="http://data.onb.ac.at/rec/AL00168351">Cod. 3712</ref>.</provenance>
+                        </history>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository>
+                            <idno>Fragm. 6</idno>  
+                            <altIdentifier type="former">
+                                <idno>Fragm. 57, Nr. 64</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <head>
+                            <title>Sapientia (fragments)</title>
+                            <origDate notBefore="0801" notAfter="0825">s. IX<hi rend="sup">1/4</hi></origDate>
+                            <origPlace>Mondsee</origPlace>
+                            <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC14424741"></ref></note>
+                            <note type="facs"><ref target="http://data.onb.ac.at/dtl/6893778">Facsimile</ref></note>
+                            <note type="fragmentarium"><ref target="http://fragmentarium.ms/overview/F-pg8q"></ref></note>
+                            <note type="summary">The fragments served as sewing guards in the same host volume (Cod. 3666) as the Sirach fragments now preserved in Cod. 15347. This together with the palaeographical similarities between the fragments suggest they were part of the same codex containing the Old Testament texts of Sirach and Sapientia.</note>
+                        </head>
+                        <msContents>
+                            <p>For the contents see above.</p>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc material="perg">
+                                    <extent>
+                                        <measure type="leavesCount" quantity="3" unit="folio">3 fols. (partial)</measure>
+                                    </extent>
+                                    <collation></collation>
+                                    <condition>29 strips, assembled into 3 single sheets.</condition>
+                                </supportDesc>                                  
+                            </objectDesc>
+                        </physDesc>
+                        <history>
+                            <provenance><ref target="http://data.onb.ac.at/rec/AL00168218">Cod. 3666</ref> was the host volume of Fragm. 6 (sewing guards).</provenance>
+                        </history>
+                    </msFrag>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
