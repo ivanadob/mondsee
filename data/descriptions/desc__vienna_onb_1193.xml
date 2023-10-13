@@ -213,6 +213,7 @@
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
+                                <support>Parchment sheep or goat. The Canon tables written on thicker leaves. The parchment used for the gospels was scraped on both skin and flesh side to achieve thinner and whiter surfice. Where the hair follicules remained there are darker sections</support>
                                 <extent>
                                     <measure type="leavesCount" quantity="128" unit="folio">128 fol.</measure>
                                     <dimensions type="leaf" unit="mm">
@@ -229,7 +230,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout writtenLines="34" ruledLines="34" columns="2">
-                                    <locus>fols 1-10</locus> zweispaltig zu 34 Zeilen; Schriftspiegel:
+                                    <locus>fols 1-10</locus> written in two columns, 34 lines. Written space: 
                                     <dimensions type="written" unit="mm">
                                         <height>260-265</height>
                                         <width>145</width>
@@ -239,10 +240,10 @@
                                     </dimensions>
                                     Direct ruling on superimposed leaves, on every two leaves from mid quire on flesh side // on one bifolium every two. Pricking for the intercolumn lines often visible in the lower edge (e.g. f. 22) - also only on every second leaf. One bifolium was pricked, then superimposed over another and the two ruled simultaneously.
                                     Pricking for lines ff. 72, 73 - on the vertical line - not visible elsewhere.
-                                    Blindlinierung links und rechts des Schriftspiegel je doppelte Vertikalien bis zum Blattrand gezogen (Abstand 7-8 mm); zwischen den Kolumnen drei Vertikalien (in Abstand 8-9 mm); unten und oben vor einfachem Horizontalien bis zum Blattranf laufend: D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2-111/0/1-1/JJ</formula>. 
+                                    Text block framed left and right by double vertical lines (distance 7-8 mm) reaching the edges; the two columns are separated by three vertical lines (distance in between 8-9 mm) also reaching the leaf edges; above and below the text block are simple horizontal lines reaching the leaf edge. System according to D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2-111/0/1-1/JJ</formula>. 
                                 </layout>
                                 <layout writtenLines="35" ruledLines="35" columns="1">
-                                    <locus>fols 11-14</locus> einspaltig zu 35 Zeilen;
+                                    <locus>fols 11-14</locus> written in 35 long lines. Written space:
                                     <dimensions type="written" unit="mm">
                                         <height>270</height>
                                         <width>143</width>
@@ -250,10 +251,10 @@
                                     <dimensions type="lineHeight" unit="mm">
                                         <height>7,5</height>
                                     </dimensions>
-                                    Blindlinierung links und rechts des Schriftspiegel je doppelte Vertikalien bis zum Blattrand gezogen (Abstand 7-8 mm); unten und oben vor einfachem Horizontalien bis zum Blattranf laufend: D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/1-1/J</formula>. 
+                                    The text block is framed on the sides by double vertical lines, above and below by single horizontal one: D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/1-1/J</formula>. 
                                 </layout>
                                 <layout writtenLines="31" ruledLines="31" columns="2">
-                                    <locus>fols 21-128</locus> 
+                                    <locus>fols 21-128</locus> Written space: 
                                     <dimensions type="written" unit="mm">
                                         <height>280</height>
                                         <width>145</width>
@@ -265,7 +266,7 @@
                                     <dimensions type="xHeight" unit="mm">
                                         <height min="1" max="2">1,8 mm</height>
                                     </dimensions>). 
-                                    Ruling system: in blind tool, textblock framed left and right by double vertical lines (distance 7-8 mm) reaching the edges; the two columns are separated by three vertical lines (distance inbetween 8-9 mm) also reaching the leaf edges; above and below the text block are simple horizontal lines reaching the leaf edge. System according to D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>: <formula notation="Muzerelle">2-2-111/0/1-1/JJ</formula>. Prickings for the horizontal lines cut off, for the vertical lines visible on the lower edge on some leaves (f. 22, 30). Ruling method: on one bifolium every two. direct ruling on the flesh side on one biflolium every two (in a quire of four double leaves ruling on the innermost and the third bifolium counted from the middle).
+                                    Ruling system as on fols. 1-10. Prickings for the horizontal lines cut off, for the vertical lines visible on the lower edge on some leaves (f. 22, 30). Ruling method: on one bifolium every two. direct ruling on the flesh side on one biflolium every two (in a quire of four double leaves ruling on the innermost and the third bifolium counted from the middle).
                                     
                                     
                                     
@@ -276,7 +277,7 @@
                             <handNote scribe="x" script="x" medium="x" scope="major"><term type="script"></term></handNote>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote script="uncialis caprust" medium="x">Überschriften in roten (Mennigrot?) und grünen <term type="script">Unzial</term> und <term type="script">Capitalis rustica</term>. <term type="script">Capitalis Quadrata</term> in Gold und Silber für den Begin der Evangelien.</scriptNote>
+                            <scriptNote script="uncialis caprust" medium="x">Carolingian minuscule written by several hands. Rubrics in red and green Uncial and Capitalis rustica. Capitalis Quadrata in Gold and Silver at the beginning of the Gospels.</scriptNote>
                         </scriptDesc>
                         <decoDesc>
                             <decoNote>12 Canon tables presented as an arcade framework: a series of four or three arches supported by columns with capitals column base.</decoNote>
