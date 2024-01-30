@@ -29,70 +29,149 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="en" xml:id="f-mjod">
+                <msDesc xml:lang="en" xml:id="onb-sn2065">
                     <msIdentifier>
                         <country>Austria</country>
                         <settlement>Vienna</settlement>
-                        <repository>Österreichische Nationalbibliothek</repository> 
-                        <idno></idno>
-                        <altIdentifier type="collection"> 
-                            <idno>F-mjod</idno>
-                        </altIdentifier>                       
+                        <repository>Österreichische Nationalbibliothek</repository>
+                        <idno>Cod. Ser. n. 2065</idno>
                     </msIdentifier>
                     <head>
                         <title>Epistulae Pauli (Vetus Latina)</title>
-                        <origDate notBefore="0801" notAfter="0825">s. IX<hi rend="sup">1/4</hi></origDate>
+                        <origDate notBefore="0801" notAfter="0825">s. IX, first quarter</origDate>
                         <origPlace>Mondsee</origPlace>
-                        <note type="fragmentarium"><ref target="https://fragmentarium.ms/overview/F-mjod"/></note>
-                        <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13944320"/></note>
-                        <note type="summary">From the original manuscript survived 211 items, which can be reconstructed to 92 former leaves.</note>
+                        <note type="summary">Cod. Ser. n. 2065 is a physical reconstruction of a dismembered manuscript. Like other Carolingian manuscripts, it was probably cut apart and used as binding waste in the 15th century to refurbish the bindings of other Mondsee books. In the course of the 19th and 20th centuries librarians from the former Court library (now the Austrian National Library) detached the fragments from bindings and recollected them under the shelfmark Cod. Ser. n. 2065. The all together 211 fragments can be reconstructed to 92 leaves. Recently found fragments have been left in-situ in the bindings of the following manuscripts: Vienna, ÖNB, Codd. 1953, 2996, 3247, 3781, 3816, 3839, 5001 and 5426. They present 3 further leaves of the original manuscript.</note>                      
                     </head> 
                     <msContents>
-                        <textLang mainLang="lat" otherLangs=""/> 
+                        <textLang mainLang="lat"/>
                         <msItem>
-                            <locus from="1r" to="1v">1r-1v</locus>
-                            <title/> 
-                            <author/>
-                            <rubric/>
-                            <incipit/> 
-                            <explicit/> 
-                            <finalRubric/>
-                            <colophon></colophon>
-                            <decoNote></decoNote>
-                            <note/>
-                            <filiation></filiation>
-                            <listBibl>
-                                <bibl/>
-                            </listBibl>
+                            <locus>1r-2v</locus>
+                            <author>Pelagius</author>
+                            <title ref="#epp_pauli_prol">Prologus Epistularum Pauli / PROL Paul 1 (Pel 1)</title>
+                        </msItem>
+                        <msItem>
+                            <locus>3r</locus>
+                            <title>Capitula ad Epistulam ad Romanos (VL siglum: KA Rm A (De Bruyne M)</title>
+                        </msItem>
+                        <msItem>
+                            <locus>3vb</locus>
+                            <title ref="#rm_prolog">Prologus ad Epistolam ad Romanos (PROL Rm Pel)</title>
+                        </msItem>
+                        <msItem>
+                            <locus>3va-14r</locus>
+                            <title ref="#romanos">Epistula ad Romanos</title>
+                        </msItem>
+                        <msItem>
+                            <locus>14r-15v</locus>
+                            <title ref="#capitula_cor1">Capitula ad Epistolam ad Corintheos 1 (VL siglum: KA 1Cor A)</title>
+                        </msItem>
+                        <msItem>
+                            <locus>16r-30r</locus>
+                            <title ref="#corintheos">Epistola ad Corintheos 1</title>
+                            <note>(fragments)</note>
+                        </msItem>
+                        <msItem>
+                            <locus>30r-31v</locus>
+                            <title ref="#capitula_cor2">Capitula ad Epistolam ad Corintheos 2 (VL siglum: KA 1Cor A)</title>
+                        </msItem>
+                        <msItem>
+                            <locus>32r-47v</locus>
+                            <title ref="#corintheos2">Epistola ad Corintheos 2</title>
+                        </msItem>
+                        <msItem>
+                            <locus>48r-49r</locus>
+                            <title ref="#capitula_gal">Capitula ad Epistolam ad galatas</title>
+                        </msItem>
+                        <msItem>
+                            <locus>49r-55r</locus>
+                            <title ref="#galatas">Epistula ad galatas</title>
+                        </msItem>
+                        <msItem>
+                            <locus>55r-56v</locus>
+                            <title ref="#capitula_col">Capitula ad Epistolam ad Colossenses (VL siglum: KA Col A)</title>
+                        </msItem>
+                        <msItem>
+                            <locus>56v-62v</locus>
+                            <title ref="#col">Epistula ad Colossenses</title>
+                        </msItem>
+                        <msItem>
+                            <locus>63r-64r</locus>
+                            <title ref="#laod">Epistula ad Laodicenses</title>
+                        </msItem>
+                        <msItem>
+                            <locus>64r-64v</locus>
+                            <title ref="#capitula_eph">Capitula ad Epistolam ad Ephesios (VL siglum: KA Eph A)</title>
+                        </msItem>
+                        <msItem>
+                            <locus>65r-72v</locus>
+                            <title ref="#eph">Epistula ad Ephesios</title>
+                        </msItem>
+                        <msItem>
+                            <locus>72v-73r</locus>
+                            <title ref="#capitula_phil">Capitula ad Epistolam ad Philippenses (VL siglum: KA Phil A)</title>
+                        </msItem>
+                        <msItem>
+                            <locus>73v-78v</locus>
+                            <title ref="#phil">Epistula ad Philippenses</title>
+                        </msItem>
+                        <msItem>
+                            <locus>78v-80r</locus>
+                            <title ref="#capitula_thes1">Capitula ad Epistolam ad Thessalonicenses, 1. (VL siglum: KA  1Th A)</title>
+                        </msItem>
+                        <msItem>
+                            <locus>80v-85v</locus>
+                            <title ref="#thes1">Epistula ad Thessalonicenses, 1.</title>
+                        </msItem>
+                        <msItem>
+                            <locus>86r-87r</locus>
+                            <title ref="#thes2">Epistola ad Thessalonicenses, 2.</title>
+                        </msItem>
+                        <msItem>
+                            <locus>87r-91v</locus>
+                            <title ref="#tim1">Epistola I ad Timotheum</title>
+                        </msItem>
+                        <msItem>
+                            <locus>92r</locus>
+                            <title ref="#capitula_tim2">Capitula ad Epistolam II ad Timotheum (VL siglum: KA 2Tm A)</title>
+                        </msItem>
+                        <msItem>
+                            <locus>92r-92v</locus>
+                            <title ref="#tim2">Epistula II ad Timotheum</title>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
+                                <support>
+                                    <material>Parchment</material>
+                                </support>
                                 <extent>
-                                    <measure type="leavesCount" quantity="0" unit="folio"></measure>
-                                    <dimensions type="leaf" unit="mm">
-                                        <height></height>
-                                        <width></width>
+                                    <measure type="leavesCount" quantity="92" unit="leaf">211 items / 92 recinstructed leaves</measure>
+                                    <dimensions type="leaf_current" unit="mm">
+                                        <width>188</width>
+                                        <height>290</height>
+                                    </dimensions>
                                     </dimensions>
                                 </extent>
-                                <foliation/>
+                                <foliation>The fragments were foliated several times in the course of the 20th century. The present foliation from 2018 accounts also fragments, which were previously part of the Collection of fragments and had their own shelfmarks. The foliation considers reconstructed leaves, which in some cases are made up of several fragments. So for instance the current fol. 51 consists of a fragmented leaf previously foliated '25c' and a fragment with former shelfmark 'Fragm. 828-1'. For the corresponding foliation and former shelfmark see Rasinger's description.</foliation>
                                 <collation>
                                     <formula></formula>
+                                    <catchwords></catchwords>
+                                    <signatures></signatures>
                                 </collation>
-                                <condition/>
+                                <condition>The physical reconstruction consists of fragments in diverse state and size, ranging from almost completely preserved double leaves to thin strips. Smaller fragments, particularly former sewing supports were mounted on goldbeater skin. Partly illegible due to glue residue or rubbed off ink, traces of rust from the host volumes.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout ruledLines="0" writtenLines="0" columns="0">
+                                <layout ruledLines="19" writtenLines="19" columns="2">
+                                    Written in two columns of 19 lines, each. Written space:
                                     <dimensions type="written" unit="mm">
-                                        <height max="0" min="0"></height>
-                                        <width max="0" min="0"></width>
+                                        <width min="120" max="145">120-145</width>
+                                        <height min="208" max="215">208-215</height>
                                     </dimensions> 
+                                    Line height:
                                     <dimensions type="lineHeight" unit="mm">
-                                        <height min="0" max="0"></height>
+                                        <height min="11" max="12">11-12</height>
                                     </dimensions>
-                                   <!-- Linierung freie Beschreibung; mit Referenz zu gedruckten Repertoria; 
-                                       laut D. Muzerelle, De re rigatoria: <ref target="http://www.palaeographia.org/muzerelle/mastara.htm">Mastara</ref>, formula <formula notation="Muzerelle">2-2/0/101-101/J</formula-->
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -102,46 +181,121 @@
                             <handNote scribe="B" script="carolmin" medium="x" scope="major">Hand B follows on ff. <locus from="6r" to="92v">6r-92v</locus> writing a similarly calligraphic <term type="script">Carolingian minuscule</term> with a smaller x-height.</handNote>
                         </handDesc>
                         <scriptDesc>
-                            <summary></summary>
-                            <scriptNote script="x" medium="x">Punctuation: perhaps added after the text on the page was copied (a practice suggested by Parkes who observed that often the punctuation was written with the same ink as the text and was perhaps introduced by the scribe into the spaces left for it immediately after copying the page) see for example f. <locus from="77r">77rb</locus>, line 15: <quote>suae se(cundum)</quote> written with nextus; punctus versus added later - check if with the same ink, the same dark brown colour.</scriptNote>
+                            <scriptNote script="carolmin">Carolingian minuscule. Uncial for the praefatio (fol. 3v). Punctuation: perhaps added after the text on the page was copied (a practice suggested by Parkes who observed that often the punctuation was written with the same ink as the text and was perhaps introduced by the scribe into the spaces left for it immediately after copying the page) see for example f. <locus from="77r">77rb</locus>, line 15: <quote>suae se(cundum)</quote> written with nextus; punctus versus added later - check if with the same ink, the same dark brown colour.</scriptNote>
                         </scriptDesc>
                         <decoDesc>
-                            <decoNote type="initial"></decoNote>
-                        </decoDesc>  
+                            <decoNote type="x"/>
+                        </decoDesc>   
+                        <additions>Contemporary correction in the interlinear space. Old-German gloss of fol. 25r (10th century).</additions> 
                         <bindingDesc>
-                            <binding notBefore="0001" notAfter="0001">
-                                <p/>
+                            <binding contemporary="false">
+                                <p>The fragments were mounted on goldbeater skin and previously stitched together to form a book. Since, however, further fragments were added to the reconstruction, the order became outdated. Since 2008 the fragments were cut loose from the modern binding and are stored (grouped according to the original sequence) in folders in a box.</p>
                             </binding>
                         </bindingDesc>
-                        <accMat/> 
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace/>
-                            <origDate notBefore="0001" notAfter="0001"/>
+                            <origPlace>Mondsee</origPlace>
+                            <origDate notBefore="0801" notAfter="08025">First quarter of the ninth century.</origDate>
                         </origin>
-                        <provenance/>
-                        <acquisition/>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <p>
-                                <bibl></bibl>
-                                </p>
+                                <source>Summary description by Ivana Dobcheva based on 
+                                    <bibl>Rasinger-2019</bibl> 
+                                    (<date when="2023">2023</date>).
+                                </source>                                
                             </recordHist>
                         </adminInfo>
-                        <surrogates>
-                            <ref/>
-                        </surrogates> 
+                        <surrogates/>
                         <listBibl>
-                            <bibl><abbr>Rasinger 2019</abbr></bibl>
+                            <bibl>Larissa Rasinger, “Eine Überlieferung der Paulusbriefe um das Jahr 800 aus dem Kloster Mondsee”, Fragmentology 2(2019), 115–140 (DOI:10.24446/6w4n).</bibl>
                             <bibl>Description and digital facsimile in <ref target="https://fragmentarium.ms/overview/F-mjod">Fragmentarium</ref></bibl>
                             <bibl><abbr>Bischoff 1980</abbr>, 16</bibl>
                             <bibl><abbr>Mazal 1963</abbr>, <ref target="http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0752a_b0161_jpg.htm">161</ref>-<ref target="http://bilder.manuscripta-mediaevalia.de/hs//katalogseiten/HSK0752a_b0162_jpg.htm">162</ref>.</bibl>
                         </listBibl>
-                    </additional>            
-                                        
+                    </additional>   
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository>
+                            <idno>Cod. </idno>
+                        </msIdentifier>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository>
+                            <idno>Cod. 1953</idno>
+                        </msIdentifier>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository>
+                            <idno>Cod. 1953</idno>
+                        </msIdentifier>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository>
+                            <idno>Cod. 2996</idno>
+                        </msIdentifier>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository>
+                            <idno>Cod. 3247</idno>
+                        </msIdentifier>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository>
+                            <idno>Cod. 3781</idno>
+                        </msIdentifier>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository>
+                            <idno>Cod. 3816</idno>
+                        </msIdentifier>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository>
+                            <idno>Cod. 3839</idno>
+                        </msIdentifier>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository>
+                            <idno>Cod. 5001</idno>
+                        </msIdentifier>
+                    </msFrag>
+                    <msFrag>
+                        <msIdentifier>
+                            <country>Austria</country>
+                            <settlement>Vienna</settlement>
+                            <repository>Österreichische Nationalbibliothek</repository>
+                            <idno>Cod. 5426</idno>
+                        </msIdentifier>
+                    </msFrag>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -172,33 +326,8 @@
     </facsimile>
     <text>
         <body>
-            <head>
-                <title></title>
-            </head>
-            <div>
-                <head>
-                    <title>Material Analysis // XRF, Raman, Hyperspectral</title>
-                </head> 
-                <p>
-                <list>
-                    <head>Questions:</head>
-                    <item n="1">did the two scribes use the same / similar ink?</item>
-                    <item n="2">were the capitula, paragraph marks in the margin, quire marks written with the same ink as the main text - would suggest they were written simultaneous or right after the text on the leaf/quire;</item>
-                    <item n="3">are the pigments used in this MS the same / similar to the ones used in the other Mondsee MSS: Cod. 732 (copy of this MS), Cod. 1193, Cod. 1014.</item>
-                </list></p>
-                <p>
-                    <list>
-                        <head>Measure points:</head>
-                        <item><locus from="3r">3r</locus> - hair side: Initial (pigments: red, purple, brown-black); ink (on both columns; rubrication) - Should one check the ink on the flesh side 3v?</item>
-                        <item><locus from="7r">7r</locus> - interlinear corrections on line 5</item>
-                        <item><locus from="17v">17v</locus> bottom - quire mark</item>
-                        <item><locus from="31v">31v</locus> - red ink corrosion (?)</item>
-                        <item><locus from="32r">32r</locus> - two initials in red - but different red colour - different pigment?</item>
-                        <item><locus from="56v">56v</locus> - red smudge over one text line</item>
-                        <item><locus from="84v">84v</locus> - capitula and paragraph marks in the margin</item>
-                        <item><locus from="77r">77r</locus> - 77rb, line 15 punctuation, 77ra line 9 diacritical mark</item>   
-                    </list></p>
-            </div>
+            
+            <p></p>
            
         </body>
     </text>

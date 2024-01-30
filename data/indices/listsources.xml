@@ -852,9 +852,117 @@
                <title>Sapientia</title>
                <idno type="gnd">https://d-nb.info/gnd/4079125-7</idno>
             </bibl>
+            <bibl xml:id="romanos">
+               <title>Epistola ad Romanos</title>
+               <idno type="gnd">https://d-nb.info/gnd/4075940-4</idno>
+            </bibl>
             <bibl xml:id="corintheos">
-               <title>Epistola ad Corintheos</title>
+               <title>Epistola ad Corintheos 1</title>
                <idno type="gnd">http://d-nb.info/gnd/4006818-3</idno>
+            </bibl>
+            <bibl xml:id="capitula_cor1">
+               <title>Capitula ad Epistolam I ad Corintheos (VL siglum: KA 1Cor A)</title>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc>Stegmüller RB, Nr. 8680</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="corintheos2">
+               <title>Epistola ad Corintheos 2</title>
+               <idno type="gnd">https://d-nb.info/gnd/4006819-5</idno>
+            </bibl>
+            <bibl xml:id="capitula_cor2">
+               <title>Capitula ad Epistolam II ad Corintheos (VL siglum: KA 2Cor A)</title>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc>Stegmüller RB, Nr. 8682</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="galatas">
+               <title>Epistula ad galatas</title>
+               <idno type="gnd">https://d-nb.info/gnd/4075945-3</idno>
+            </bibl>
+            <bibl xml:id="capitula_gal">
+               <title>Capitula ad Epistolam ad Galatas (VL siglum: KA Gal A)</title>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc>Stegmüller RB, Nr. 8684</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="col">
+               <title>Epistula ad Colossenses</title>
+               <idno type="gnd">https://d-nb.info/gnd/4075946-5</idno>
+            </bibl>
+            <bibl xml:id="capitula_col">
+               <title>Capitula ad Epistolam ad Colossenses (VL siglum: KA Col A)</title>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc>Stegmüller RB, Nr. 8694</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="laod">
+               <title>Epistula ad Laodicenses</title>
+               <idno type="gnd">https://d-nb.info/gnd/4560331-5</idno>
+            </bibl>
+            <bibl xml:id="eph">
+               <title>Epistula ad Ephesios</title>
+               <idno type="gnd">https://d-nb.info/gnd/4075938-6</idno>
+            </bibl>
+            <bibl xml:id="capitula_eph">
+               <title>Capitula ad Epistolam ad Ephesios (VL siglum: KA Eph A)</title>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc>Stegmüller RB, Nr. 8686</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="phil">
+               <title>Epistula ad Philippenses</title>
+               <idno type="gnd">https://d-nb.info/gnd/4075939-8</idno>
+            </bibl>
+            <bibl xml:id="capitula_phil">
+               <title>Capitula ad Epistolam ad Philippenses (VL siglum: KA Phil A)</title>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc>Stegmüller RB, Nr. 8688</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="thes1">
+               <title>Epistula ad Thessalonicenses, 1.</title>
+               <idno type="gnd">https://d-nb.info/gnd/4059851-2</idno>
+            </bibl>
+            <bibl xml:id="capitula_thes1">
+               <title>Capitula ad Epistolam I ad Thessalonicenses (VL siglum: KA  1Th A)</title>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc>Stegmüller RB, Nr. 8690</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="thes2">
+               <title>Epistula ad Thessalonicenses, 2.</title>
+               <idno type="gnd">https://d-nb.info/gnd/4115517-8</idno>
+            </bibl>
+            <bibl xml:id="tim1">
+               <title>Epistula I ad Timotheum</title>
+               <idno type="gnd">https://d-nb.info/gnd/4122518-1</idno>
+            </bibl>
+            <bibl xml:id="tim2">
+               <title>Epistula II ad Timotheum</title>
+               <idno type="gnd">https://d-nb.info/gnd/4122519-3</idno>
+            </bibl>
+            <bibl xml:id="capitula_tim2">
+               <title>Capitula ad Epistolam II ad Timotheum (VL siglum: KA 2Tm A)</title>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc>Stegmüller RB, Nr. 8698</desc>
+                  </relation>
+               </listRelation>
             </bibl>
             <bibl xml:id="corintheos_marcion">
                <title>The Marcionite prologue to the first epistle to the Corinthians</title>
@@ -865,6 +973,24 @@
                <listRelation>
                   <relation>
                      <desc/>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="epp_pauli_prol">
+               <author>Pelagius</author>
+               <title>Prol. epp. Pauli / PROL Paul 1 (Pel 1)</title>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc>Stegmüller RB, Nr. 670</desc>
+                  </relation>
+               </listRelation>
+            </bibl>
+            <bibl xml:id="rm_prolog">
+               <title>Prologue to Epistle to the Romans (PROL Rm Pel)</title>
+               <idno type="gnd">https://d-nb.info/gnd/4075940-4</idno>
+               <listRelation>
+                  <relation ref="#stegmueller-rb">
+                     <desc>Stegmüller RB, Nr. 676</desc>
                   </relation>
                </listRelation>
             </bibl>

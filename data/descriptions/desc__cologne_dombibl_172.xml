@@ -41,7 +41,7 @@
                   <title>Homiliarium</title>
                   <origPlace ref="#mondsee">Mondsee (?)</origPlace>
                   <origDate notBefore="0785" notAfter="0815">about 800</origDate>
-                  <note type="facs"><ref target="https://nbn-resolving.org/urn:nbn:de:hbz:kn28-3-762-p0001-7"></ref></note>
+                  <note type="facs"><ref target="https://nbn-resolving.org/urn:nbn:de:hbz:kn28-3-762-p0001-7">Facsimile</ref></note>
                   <note type="catalogue"><ref target="https://digital.dombibliothek-koeln.de/hs/content/description/333494"></ref></note>
                   <note type="summary">The manuscript is probably a product of the Mondsee scriptorium, brought to Cologne thanks to Hildebald who was Archbishop of Cologne and Abbot of Mondsee (<bibl><abbr>Bischoff 1980</abbr>, 34</bibl>: <quote xml:lang="de">Sehr wahrscheinlich ist durch diesen [Hildebald] ein zweites Mondseer Homiliar (Köln, Dombibl. 172) nach Köln gekommen</quote>, <quote xml:lang="de">Es ist einzunehmen, daß die Hs. in Mondsee hergestellt wurde und durch Erzbischof Hildebald in die Dombibliothek gelangte (vor 819)</quote>; <bibl><abbr>Arweiler 1998</abbr></bibl>). It contains a collection of homilies on the epistles for the Sundays and festivals of the Ecclesiastical Year from Christmas to Feast of the Ascension.</note>
                </head>
