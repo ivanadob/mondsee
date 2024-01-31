@@ -30,96 +30,6 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../../Desktop/ivana_tei/M3R_onb_cod_ser_n_2066.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>desc_tei_to_html</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>../../Desktop/ivana_tei/M3R_onb_cod_ser_n_2065.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>desc_tei_to_html</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>../../Desktop/ivana_tei/M3R_nurnberg_.gnm_27932.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>desc_tei_to_html</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>../../Desktop/ivana_tei/M3R_onb_cod_1193.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>desc_tei_to_html</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>data/descriptions/desc__cologne_dombibl_172.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>desc_tei_to_html</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>data/descriptions/desc__vr_f-1ktr.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>desc_tei_to_html</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>data/descriptions/desc__vr_f-1ie7.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -136,21 +46,6 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>data/descriptions/desc__vienna_onb_1557.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>desc_tei_to_html</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>data/descriptions/desc__vienna_onb_1014.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -245,6 +140,21 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>desc__test</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>data/descriptions/desc__vienna_onb_1014.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>desc_tei_to_html</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -361,6 +271,21 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>data/descriptions/desc__vr_f-mjod.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>desc_tei_to_html</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>data/descriptions/desc__vr_f-1ktr.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
