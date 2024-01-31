@@ -1118,10 +1118,7 @@
                <title>Epistola ad Philomenem</title>
                <idno type="gnd">http://d-nb.info/gnd/4075950-7</idno>
             </bibl>
-            <bibl xml:id="romanos">
-               <title>Epistola ad Romanos</title>
-               <idno type="gnd">http://d-nb.info/gnd/4075940-4</idno>
-            </bibl>
+            
             <bibl xml:id="thessalonicenses">
                <title>Epistola ad Thessalonicenses</title>
                <idno type="gnd">http://d-nb.info/gnd/4075941-6</idno> 
